@@ -1,0 +1,452 @@
+iso_idx,R,DR,Ref.,Remarks,Type,Term
+2,1.877,0.019,Re84b,"Contains  Co65, MC70, MC77, Sz77, Du83",el-scatt.,R2
+2,1.976,0.015,Ot85,,el-scatt.,R2
+2,1.959,0.03,Am94,,el-scatt.,R2
+3,1.676,0.008,Si82,"Re-anal. of Fr66a, Fr67, Er68, MC77, Ar78",el-scatt.,R3
+3,1.671,0.014,Ot85,,el-scatt.,R3
+3,1.687,0.006,He76,Re-analysis of exp. Be75,mu-Xray,R3
+3,1.673,0.003,Ca77,Re-analysed in Bo78 (theor),mu-Xray,R3
+6,2.54,0.05,Su67,,el-scatt.,R6
+6,2.56,0.05,Li71a,,el-scatt.,R6
+6,2.57,0.1,Bu72,See also Vr87,el-scatt.,R6
+7,2.39,0.06,Su67,,el-scatt.,R7
+7,2.41,0.1,Bu72,See also Vr87,el-scatt.,R7
+12,2.519,0.012,Ja72,,el-scatt.,R12
+12,2.5,0.09,Fe73a,Re-analysis of Be67a,el-scatt.,R12
+12,2.39,0.1637,Sc80a,From Fr95 Table III.A.      Error estimated,mu-Xray,R12
+15,2.4,0.09,Do86,Preliminary,el-scatt.,R15
+15,2.44,0.06,Ol81,,mu-Xray,R15
+16,2.37,0.1,Ri71,From  Vr87,el-scatt.,R16
+16,2.452,0.0482,Sc80a,From Fr95 Table III.A.      Error estimated,mu-Xray,R16
+16,2.38,0.04,Ol81,,mu-Xray,R16
+17,2.469,0.004,Si82,"Re-analysis of  Si70a, Ja72, Ca80a, Re82",el-scatt.,R17
+17,2.4757,0.009,Of88,Without disp. corr!    With DC.: 2.4832 fm,el-scatt.,R17
+17,2.4777,0.0055,Of91,Without disp. corr!    F-B anal. in Fr95 T. IX.,el-scatt.,R17
+17,2.468,0.0034,Fr95,"Table III.A.      Includes Sc82, Ru84",mu-Xray,R17
+18,2.44,0.025,He70a,,el-scatt.,R18
+18,2.4628,0.0039,Bo85,,mu-Xray,R18
+18,2.466,0.0144,Fr95,Table III.A.      Includes Sc82,mu-Xray,R18
+19,2.59,0.05,Kl73,,el-scatt.,R19
+19,2.492,0.0111,Sc82,,mu-Xray,R19
+20,2.54,0.02,Sc75,,el-scatt.,R20
+20,2.524,0.023,La82,From  Vr87,el-scatt.,R20
+20,2.56,0.0098,Sc80a,From Fr95 Table III.A.      Error estimated,mu-Xray,R20
+21,2.58,0.026,Sc75,,el-scatt.,R21
+21,2.613,0.009,Vr88,F-B anal. in Fr95 Table IX.,el-scatt.,R21
+22,2.712,0.012,Si80a,"From  Ba80(mu-Xray): ""Priv. comm. I.Sick""",el-scatt.,R22
+22,2.728,0.008,La82,Priv. comm. from  J.Friedrich,el-scatt.,R22
+22,2.693,0.0035,Fr92,Re-analysed in Fr95,mu-Xray,R22
+23,2.662,0.026,Si70a,,el-scatt.,R23
+23,2.71,0.015,Ki78,Measured: ratio  17O/16O = 1.0015(25),el-scatt.,R23
+24,2.727,0.02,Si70a,,el-scatt.,R24
+24,2.789,0.028,Sc75,,el-scatt.,R24
+24,2.778,0.02,Ba80,From Fr92.     Error: .014+model dep.,mu-Xray,R24
+25,2.885,0.015,Ha73b,,el-scatt.,R25
+25,2.898,0.011,Sc78,Model+Syst+Nuclpol = .001,mu-Xray,R25
+25,2.898,0.0029,Fr92,Re-analysed in Fr95,mu-Xray,R25
+29,3.004,0.025,Kn81,,el-scatt.,R29
+29,2.992,0.012,Be85,From Vr87.      Error: 1.5x0.008  for syst.,el-scatt.,R29
+29,3.006,0.0041,Fr92,Re-analysed in Fr95,mu-Xray,R29
+30,2.967,0.0036,Fr92,Re-analysed in Fr95,mu-Xray,R30
+31,2.969,0.021,Mo71,,el-scatt.,R31
+31,2.954,0.0036,Fr92,Re-analysed in Fr95,mu-Xray,R31
+40,2.986,0.01,Sc78,Contains  Du76.     Mod+Syst+Nuclp =.001,mu-Xray,R40
+40,2.994,0.0025,Fr92,Re-analysed in Fr95,mu-Xray,R40
+49,3.075,0.015,Av74,From Vr87.,el-scatt.,R49
+49,3.057,0.0024,Fr92,Re-analysed in Fr95,mu-Xray,R49
+50,3.003,0.011,Eu77a,,el-scatt.,R50
+50,3.029,0.0024,Fr92,Re-analysed in Fr95,mu-Xray,R50
+51,2.961,0.04,So88,F-B anal. in Fr95 Table IX.,el-scatt.,R51
+51,3.034,0.0025,Fr92,Re-analysed in Fr95,mu-Xray,R51
+52,3.035,0.004,Ro86,From Vr87.      Error: 2x0.002  for syst.,el-scatt.,R52
+52,3.058,0.006,Sc78,Model+Syst+Nuclpol = .001,mu-Xray,R52
+52,3.063,0.0022,Fr92,Re-analysed in Fr95,mu-Xray,R52
+55,3.085,0.017,Mi82,From Vr87 Table IV.,el-scatt.,R55
+55,3.127,0.004,Sc78,Model+Syst+Nuclpol = .001,mu-Xray,R55
+55,3.123,0.0026,Fr92,Re-analysed in Fr95,mu-Xray,R55
+56,3.125,0.051,Br77,Two independent experiments!,el-scatt.,R56
+56,3.08,0.017,Mi82,From Vr87 Table IV.,el-scatt.,R56
+56,3.12,0.0073,Fr92,Re-analysed in Fr95,mu-Xray,R56
+57,3.173,0.025,Mi82,From Vr87 Table IV.,el-scatt.,R57
+57,3.1932,0.013,We93,F-B anal. in Fr95 Table IX.,el-scatt.,R57
+57,3.134,0.0072,Fr92,Re-analysed in Fr95,mu-Xray,R57
+58,3.187,0.01,Mi82,"From Vr87.   Contains  Si72, Me73a, Me76",el-scatt.,R58
+58,3.1913,0.005,We93,F-B anal. in Fr95 Table IX.,el-scatt.,R58
+58,3.187,0.004,Sc78,See  Ka79.    Model+Syst+Nuclpol = .001,mu-Xray,R58
+58,3.19,0.0029,Sc85,From  Fr95,mu-Xray,R58
+59,3.24,0.011,Me76,From Vr87.    Contains  Li74,el-scatt.,R59
+59,3.248,0.011,Ry83a,Errors: .004 (stat.) + .007 (syst.),el-scatt.,R59
+59,3.2295,0.005,We93,F-B anal. in Fr95 Table IX.,el-scatt.,R59
+59,3.263,0.003,Sc78,Contains  Du74.    Mod+Syst+Nuclp=.001,mu-Xray,R59
+59,3.263,0.0029,Sc85,Re-analysed in Fr95,mu-Xray,R59
+60,3.281,0.013,Ry83a,Errors: .004 (stat.) + .009 (syst.),el-scatt.,R60
+60,3.285,0.0031,Sc85,Re-analysed in Fr95,mu-Xray,R60
+61,3.278,0.011,Ry83a,Errors: .006 (stat.) + .005 (syst.),el-scatt.,R61
+61,3.3,0.0027,Sc85,Re-analysed in Fr95,mu-Xray,R61
+62,3.388,0.017,Br80,,el-scatt.,R62
+62,3.34,0.018,Ba67,Model independent analysis in  En74 T. III.,mu-Xray,R62
+63,3.384,0.017,Br80,,el-scatt.,R63
+68,3.327,0.0225,Fi76,Error: 1.5x0.015  for syst/model.,el-scatt.,R68
+68,3.402,0.006,Pf76,Contains  Pf73.,mu-Xray,R68
+68,3.39,0.0033,Fr82,From Fr95 Table III.A.      Error estimated,mu-Xray,R68
+70,3.415,0.009,Pf76,Contains  Pf73.,mu-Xray,R70
+70,3.402,0.0032,Fr82,From Fr95 Table III.A.      Error estimated,mu-Xray,R70
+72,3.423,0.014,Ot82,"Contains  Gr71, Sc71, We74, Fi76",el-scatt.,R72
+72,3.429,0.006,Pf76,Contains  Pf73.,mu-Xray,R72
+72,3.427,0.0034,Fr82,From Fr95 Table III.A.      Error estimated,mu-Xray,R72
+79,3.408,0.027,Si73a,,el-scatt.,R79
+79,3.438,0.01,Eh68,Model independent analysis in  En74 Table III.,mu-Xray,R79
+79,3.435,0.003,Sc78,Model+Syst+Nuclpol = .001,mu-Xray,R79
+79,3.435,0.0033,Wo81,From Fr95 Table III.A.      Error estimated,mu-Xray,R79
+81,3.452,0.0033,Wo81,From Fr95 Table III.A.      Error estimated,mu-Xray,R81
+89,3.476,0.003,Si79,Data: Private communication,el-scatt.,R89
+89,3.478,0.003,Wo81,,,R89
+91,3.508,0.0032,Wo81,,,R91
+92,3.495,0.003,Wo81,,,R92
+93,3.518,0.0032,Wo81,,,R93
+95,3.498,0.0058,Wo81,,,R95
+97,3.481,0.009,Em83,Contains  Em83a.,el-scatt.,R97
+97,3.479,0.003,Wo81,,,R97
+102,3.546,0.0035,Fr82,From Fr95 Table III.A.      Error estimated,mu-Xray,R102
+106,3.606,0.0032,Wo81,From Fr95 Table III.A.      Error estimated,mu-Xray,R106
+107,3.596,0.0032,Wo81,From Fr95 Table III.A.      Error estimated,mu-Xray,R107
+108,3.5773,0.02,He71,From  Se88.                   Error estimated.,el-scatt.,R108
+108,3.592,0.0032,Wo81,From Fr95 Table III.A.      Error estimated,mu-Xray,R108
+109,3.574,0.003,Wo81,From Fr95 Table III.A.      Error estimated,mu-Xray,R109
+110,3.571,0.0031,Wo81,From Fr95 Table III.A.      Error estimated,mu-Xray,R110
+111,3.6,0.003,Wo81,From Fr95 Table III.A.      Error estimated,mu-Xray,R111
+112,3.638,0.013,La76,From Vr87 ,el-scatt.,R112
+112,3.661,0.0032,Wo81,From Fr95 Table III.A.      Error estimated,mu-Xray,R112
+113,3.674,0.015,Li76,,el-scatt.,R113
+113,3.613,0.017,La76,From Vr87 ,el-scatt.,R113
+113,3.645,0.003,Wo81,From Fr95 Table III.A.      Error estimated,mu-Xray,R113
+114,3.659,0.003,Wo81,From Fr95 Table III.A.      Error estimated,mu-Xray,R114
+115,3.673,0.014,La76,From Vr87 ,el-scatt.,R115
+115,3.686,0.0032,Wo81,From Fr95 Table III.A.      Error estimated,mu-Xray,R115
+121,3.706,0.0033,Wo81,From Fr95 Table III.A.      Error estimated,mu-Xray,R121
+123,3.675,0.02,La76,From Vr87 ,el-scatt.,R123
+123,3.694,0.005,Wo80,,,R123
+124,3.721,0.02,La76,From Vr87 ,el-scatt.,R124
+124,3.738,0.0036,Sh76,From Fr95 Table III.A.      Error estimated,mu-Xray,R124
+124,3.7412,0.0065,Wo81,Error estimated,mu-Xray,R124
+125,3.754,0.0037,Sh76,From Fr95 Table III.A.      Error estimated,mu-Xray,R125
+126,3.752,0.025,Wo76,,el-scatt.,R126
+126,3.774,0.0037,Sh76,From Fr95 Table III.A.      Error estimated,mu-Xray,R126
+127,3.789,0.005,Sc79,,el-scatt.,R127
+127,3.788,0.0035,Sh76,From Fr95 Table III.A.      Error estimated,mu-Xray,R127
+128,3.77,0.01,Sp79,Re-analysis of  Si75  ,el-scatt.,R128
+128,3.772,0.004,Ca80b,From Vr87.      Error: 2x0.002  for syst.,el-scatt.,R128
+128,3.777,0.005,Wo80,,,R128
+128,3.769,0.013,Be83,From Vr87 ,el-scatt.,R128
+128,3.776,0.0034,Sh76,From Fr95 Table III.A.      Error estimated,mu-Xray,R128
+129,3.796,0.01,Fi74a,From Ja74.     Contains  Fi70 ,el-scatt.,R129
+129,3.815,0.005,Wo80,,,R129
+129,3.797,0.013,Be83,From Vr87 ,el-scatt.,R129
+129,3.813,0.0034,Sh76,From Fr95 Table III.A.      Error estimated,mu-Xray,R129
+130,3.806,0.01,Fi74a,From Ja74.     Contains  Fi70 ,el-scatt.,R130
+130,3.823,0.0034,Sh76,From Fr95 Table III.A.      Error estimated,mu-Xray,R130
+131,3.822,0.01,Fi74a,From Ja74.     Contains  Fi70 ,el-scatt.,R131
+131,3.827,0.013,Ke77,From Ja79    (priv. comm.),el-scatt.,R131
+131,3.842,0.0035,Sh76,From Fr95 Table III.A.      Error estimated,mu-Xray,R131
+132,3.845,0.01,Fi74a,From Ja74.     Contains  Fi70 ,el-scatt.,R132
+132,3.86,0.0034,Sh76,From Fr95 Table III.A.      Error estimated,mu-Xray,R132
+133,3.933,0.015,Ke77,From Vr87,el-scatt.,R133
+133,3.885,0.005,Sc79,,el-scatt.,R133
+133,3.883,0.0034,Sh76,From Fr95 Table III.A.      Error estimated,mu-Xray,R133
+134,3.905,0.005,Sc79,,el-scatt.,R134
+134,3.902,0.0034,Sh76,From Fr95 Table III.A.      Error estimated,mu-Xray,R134
+135,3.923,0.013,Ke77,From Vr87,el-scatt.,R135
+135,3.928,0.0035,Sh76,From Fr95 Table III.A.      Error estimated,mu-Xray,R135
+136,3.952,0.015,Ke77,From Vr87,el-scatt.,R136
+136,3.951,0.006,Je70,MIA in  En74 Table III.    Syst+Nuclp=.001  ,mu-Xray,R136
+136,3.948,0.0035,Sh76,From Fr95 Table III.A.      Error estimated,mu-Xray,R136
+138,3.958,0.017,Ke77,From Vr87,el-scatt.,R138
+138,3.969,0.006,Je70,MIA in  En74 Table III.    Syst+Nuclp=.001  ,mu-Xray,R138
+138,3.965,0.0034,Sh76,From Fr95 Table III.A.      Error estimated,mu-Xray,R138
+139,3.993,0.02,Ke77,From Vr87,el-scatt.,R139
+139,3.983,0.0033,Sh76,From Fr95 Table III.A.      Error estimated,mu-Xray,R139
+140,3.996,0.0032,Ma83,From Fr95 Table III.A.      Error estimated,mu-Xray,R140
+141,4.011,0.0032,Ma83,From Fr95 Table III.A.      Error estimated,mu-Xray,R141
+142,4.043,0.002,Ma84,,,R142
+142,4.039,0.0033,Si82a,From Fr95 Table III.A.      Error estimated,mu-Xray,R142
+143,4.06,0.002,Ma84,,,R143
+143,4.055,0.0033,Si82a,From Fr95 Table III.A.      Error estimated,mu-Xray,R143
+144,4.061,0.0033,Si82a,From Fr95 Table III.A.      Error estimated,mu-Xray,R144
+145,4.075,0.002,Ma84,,,R145
+145,4.072,0.0035,Si82a,From Fr95 Table III.A.      Error estimated,mu-Xray,R145
+146,4.081,0.002,Ma84,,,R146
+146,4.08,0.0035,Si82a,From Fr95 Table III.A.      Error estimated,mu-Xray,R146
+147,4.096,0.0033,Ma83,From Fr95 Table III.A.      Error estimated,mu-Xray,R147
+148,4.07,0.02,Kh88,,el-scatt.,R148
+149,4.162,0.01,Kh88,,el-scatt.,R149
+149,4.139,0.0036,Si82b,From Fr95 Table III.A.      Error estimated,mu-Xray,R149
+150,4.139,0.0035,Si82b,From Fr95 Table III.A.      Error estimated,mu-Xray,R150
+151,4.138,0.014,Kh88,,el-scatt.,R151
+151,4.14,0.0036,Si82b,From Fr95 Table III.A.      Error estimated,mu-Xray,R151
+152,4.124,0.01,Kh88,,el-scatt.,R152
+152,4.143,0.0029,Ka79,Model+Syst+Nuclpol = .001  ,mu-Xray,R152
+152,4.14,0.0035,Si82b,From Fr95 Table III.A.      Error estimated,mu-Xray,R152
+153,4.118,0.011,Kh88,,el-scatt.,R153
+153,4.14,0.0035,Si82b,From Fr95 Table III.A.      Error estimated,mu-Xray,R153
+154,4.163,0.0035,Ma83,From Fr95 Table III.A.      Error estimated,mu-Xray,R154
+155,4.16,0.0034,Ma83,From Fr95 Table III.A.      Error estimated,mu-Xray,R155
+161,4.203,0.0039,Ma85,,,R161
+163,4.198,0.0039,Ma85,,,R163
+165,4.192,0.0037,Ma85,,,R165
+166,4.186,0.0037,Ma85,,,R166
+167,4.188,0.0036,Ma85,,,R167
+169,4.184,0.0036,Ma85,,,R169
+189,4.204,0.0036,He86,From Fr95 Table III.A.      Error estimated,mu-Xray,R189
+191,4.199,0.0036,He86,From Fr95 Table III.A.      Error estimated,mu-Xray,R191
+210,4.241,0.0037,He86,,,R210
+212,4.231,0.0036,He86,,,R212
+213,4.224,0.0036,He86,,,R213
+214,4.188,0.005,St76,From Vr87,el-scatt.,R214
+214,4.224,0.0036,He86,,,R214
+230,4.27,0.02,Fi74,From  Ja74,el-scatt.,R230
+230,4.244,0.008,Ke70,MIA in  En74 T.III.    Syst+Nuclpol = .001  ,mu-Xray,R230
+230,4.243,0.0036,He86,From Fr95 Table III.A.      Error estimated,mu-Xray,R230
+246,4.269,0.002,Ma89,,,R246
+247,4.285,0.0038,He86,From Fr95 Table III.A.      Error estimated,mu-Xray,R247
+247,4.285,0.002,Ma89,,,R247
+248,4.305,0.002,Ma89,,,R248
+249,4.331,0.002,Ma89,,,R249
+250,4.351,0.002,Ma89,,,R250
+260,4.331,0.01,Ja76,From  Ja74,el-scatt.,R260
+260,4.3247,0.004,Po72,MIA in  En74 T.III.    Syst+Nuclpol = .001  ,mu-Xray,R260
+260,4.324,0.0038,He86,From Fr95 Table III.A.      Error estimated,mu-Xray,R260
+266,4.315,0.002,Ma89,,,R266
+267,4.352,0.002,Ma89,,,R267
+268,4.3622,0.003,Ma89,,,R268
+269,4.384,0.002,Ma89,,,R269
+270,4.3866,0.003,Ma89,,,R270
+271,4.409,0.002,Ma89,,,R271
+272,4.447,0.002,Ma89,,,R272
+279,4.393,0.0047,Ha89,From Fr95 Table III.A.      Error estimated,mu-Xray,R279
+280,4.423,0.0055,Ha89,From Fr95 Table III.A.      Error estimated,mu-Xray,R280
+281,4.435,0.0042,Ha89,From Fr95 Table III.A.      Error estimated,mu-Xray,R281
+282,4.453,0.0043,Ha89,From Fr95 Table III.A.      Error estimated,mu-Xray,R282
+283,4.461,0.0042,Ha89,From Fr95 Table III.A.      Error estimated,mu-Xray,R283
+284,4.481,0.0042,Ha89,From Fr95 Table III.A.      Error estimated,mu-Xray,R284
+285,4.509,0.0043,Ha89,From Fr95 Table III.A.      Error estimated,mu-Xray,R285
+286,4.494,0.0041,Ha89,From Fr95 Table III.A.      Error estimated,mu-Xray,R286
+287,4.484,0.0044,Ha89,From Fr95 Table III.A.      Error estimated,mu-Xray,R287
+288,4.437,0.01,La86,From Vr87,el-scatt.,R288
+288,4.509,0.0046,Ha89,From Fr95 Table III.A.      Error estimated,mu-Xray,R288
+289,4.516,0.0046,Ha89,From Fr95 Table III.A.      Error estimated,mu-Xray,R289
+290,4.467,0.011,La86,From Vr87,el-scatt.,R290
+290,4.532,0.0045,Ha89,From Fr95 Table III.A.      Error estimated,mu-Xray,R290
+291,4.524,0.01,La86,From Vr87,el-scatt.,R291
+291,4.556,0.0045,Ha89,From Fr95 Table III.A.      Error estimated,mu-Xray,R291
+292,4.639,0.019,Li76,,el-scatt.,R292
+292,4.541,0.01,La86,From Vr87,el-scatt.,R292
+292,4.577,0.0046,Ha89,From Fr95 Table III.A.      Error estimated,mu-Xray,R292
+297,4.544,0.0042,Ha89,From Fr95 Table III.A.      Error estimated,mu-Xray,R297
+298,4.565,0.0042,Ha89,From Fr95 Table III.A.      Error estimated,mu-Xray,R298
+303,4.534,0.0045,Fr87,From Fr95 Table III.A.      Error estimated,mu-Xray,R303
+305,4.554,0.0045,Fr87,From Fr95 Table III.A.      Error estimated,mu-Xray,R305
+307,4.578,0.007,Gi75,,el-scatt.,R307
+307,4.574,0.0045,Fr87,From Fr95 Table III.A.      Error estimated,mu-Xray,R307
+308,4.579,0.0044,Fr87,From Fr95 Table III.A.      Error estimated,mu-Xray,R308
+309,4.608,0.007,Gi75,,el-scatt.,R309
+309,4.593,0.0043,Fr87,From Fr95 Table III.A.      Error estimated,mu-Xray,R309
+310,4.597,0.0043,Fr87,From Fr95 Table III.A.      Error estimated,mu-Xray,R310
+311,4.629,0.008,Gi75,,el-scatt.,R311
+311,4.632,0.017,Li76,,el-scatt.,R311
+311,4.591,0.015,Ja76,From  Ja79 (priv. comm.),el-scatt.,R311
+311,4.613,0.009,Ka71,MIA in  En74 T.III.    Syst+Nuclpol = .001  ,mu-Xray,R311
+311,4.61,0.0043,Fr86,From Fr95 Table III.A.      Error estimated,mu-Xray,R311
+313,4.639,0.008,Gi75,,el-scatt.,R313
+313,4.625,0.0043,Fr86,From Fr95 Table III.A.      Error estimated,mu-Xray,R313
+325,4.598,0.0053,Ja89,From Fr95 Table III.A.      Error estimated,mu-Xray,R325
+327,4.646,0.012,Ja76,From Vr87,el-scatt.,R327
+327,4.617,0.016,Ka71,MIA in  En74 T.III.    Syst+Nuclpol = .001  ,mu-Xray,R327
+327,4.614,0.0044,Ja89,From Fr95 Table III.A.      Error estimated,mu-Xray,R327
+342,4.5807,0.0064,Fr97,,,R342
+343,4.5859,0.0061,Fr97,,,R343
+344,4.586,0.005,Fi72,,el-scatt.,R344
+344,4.593,0.0045,Pi90,,,R344
+345,4.6038,0.0047,Fr97,,,R345
+346,4.602,0.005,Fi72,,el-scatt.,R346
+346,4.609,0.0046,Pi90,,,R346
+347,4.6167,0.0038,Fr97,,,R347
+348,4.625,0.0046,Pi90,,,R348
+349,4.625,0.005,Fi72,,el-scatt.,R349
+349,4.63,0.0045,Pi90,,,R349
+350,4.634,0.005,Fi72,,el-scatt.,R350
+350,4.641,0.0046,Pi90,,,R350
+351,4.639,0.005,Fi72,,el-scatt.,R351
+351,4.643,0.0045,Pi90,,,R351
+352,4.646,0.005,Fi72,,el-scatt.,R352
+352,4.655,0.0045,Pi90,,,R352
+353,4.6589,0.0013,Fr97,,,R353
+354,4.658,0.005,Fi72,,el-scatt.,R354
+354,4.667,0.0046,Pi90,,,R354
+355,4.6684,0.002,Fr97,,,R355
+356,4.676,0.001,Ma92,,,R356
+357,4.6779,0.0027,Fr97,,,R357
+365,4.681,0.0046,Kl88,From Fr95 Table III.A.      Error estimated,mu-Xray,R365
+366,4.689,0.0051,Kl88,From Fr95 Table III.A.      Error estimated,mu-Xray,R366
+370,4.71,0.0053,Sh89,From Fr95 Table III.A.      Error estimated,mu-Xray,R370
+371,4.712,0.0045,Sh89,From Fr95 Table III.A.      Error estimated,mu-Xray,R371
+372,4.719,0.0046,Sh89,From Fr95 Table III.A.      Error estimated,mu-Xray,R372
+373,4.721,0.0046,Sh89,From Fr95 Table III.A.      Error estimated,mu-Xray,R373
+374,4.731,0.007,Ka71,MIA in  En74 T.III.      Syst+Nuclpol = .001  ,mu-Xray,R374
+374,4.727,0.0046,Sh89,From Fr95 Table III.A.      Error estimated,mu-Xray,R374
+375,4.735,0.0046,Sh89,From Fr95 Table III.A.      Error estimated,mu-Xray,R375
+376,4.742,0.0046,Sh89,From Fr95 Table III.A.      Error estimated,mu-Xray,R376
+380,4.752,0.007,Ka71,MIA in  En74 T.III.    Syst+Nuclpol = .001  ,mu-Xray,R380
+380,4.749,0.0047,Kl88,From Fr95 Table III.A.      Error estimated,mu-Xray,R380
+385,4.762,0.0046,He84,From Fr95 Table III.A.      Error estimated,mu-Xray,R385
+386,4.77,0.0048,He84,From Fr95 Table III.A.      Error estimated,mu-Xray,R386
+387,4.776,0.0048,He84,From Fr95 Table III.A.      Error estimated,mu-Xray,R387
+388,4.776,0.0047,He84,From Fr95 Table III.A.      Error estimated,mu-Xray,R388
+389,4.783,0.0046,He84,From Fr95 Table III.A.      Error estimated,mu-Xray,R389
+390,4.781,0.0046,He84,From Fr95 Table III.A.      Error estimated,mu-Xray,R390
+391,4.787,0.0047,He84,From Fr95 Table III.A.      Error estimated,mu-Xray,R391
+393,4.792,0.0047,He84,From Fr95 Table III.A.      Error estimated,mu-Xray,R393
+394,4.799,0.0047,He84,From Fr95 Table III.A.      Error estimated,mu-Xray,R394
+419,4.804,0.0046,Kl88,From Fr95 Table III.A.      Error estimated,mu-Xray,R419
+447,4.829,0.0048,Fr95,"Includes  Sh82, Ku83",mu-Xray,R447
+448,4.827,0.0048,Sh82,From Fr95 Table III.A.      Error estimated,mu-Xray,R448
+449,4.833,0.0048,Fr95,"Includes  Sh82, Ku83",mu-Xray,R449
+450,4.832,0.0048,Sh82,From Fr95 Table III.A.      Error estimated,mu-Xray,R450
+451,4.84,0.016,Ma72,MIA in  En74 T.III.      Syst+Nuclpol = .001  ,mu-Xray,R451
+451,4.839,0.0048,Fr95,"Includes  Sh82, Ku83",mu-Xray,R451
+463,4.855,0.0049,Re87,From Fr95 Table III.A.      Error estimated,mu-Xray,R463
+466,4.879,0.012,Je70,,mu-Xray,R466
+466,4.877,0.003,Ma72,MIA in  En74 T.III.      Syst+Nuclpol = .001  ,mu-Xray,R466
+466,4.877,0.0049,Re87,From Fr95 Table III.A.      Error estimated,mu-Xray,R466
+467,4.906,0.003,Ma72,MIA in  En74 T.III.      Syst+Nuclpol = .001  ,mu-Xray,R467
+467,4.907,0.005,Re87,From Fr95 Table III.A.      Error estimated,mu-Xray,R467
+471,4.892,0.005,Re87,From Fr95 Table III.A.      Error estimated,mu-Xray,R471
+481,4.914,0.0051,Re87,From Fr95 Table III.A.      Error estimated,mu-Xray,R481
+482,4.924,0.0053,Re87,From Fr95 Table III.A.      Error estimated,mu-Xray,R482
+483,4.942,0.005,Ma70,MIA in  En74 T.III.      Syst+Nuclpol = .001  ,mu-Xray,R483
+483,4.941,0.005,Re87,From Fr95 Table III.A.      Error estimated,mu-Xray,R483
+484,4.953,0.0054,Re87,From Fr95 Table III.A.      Error estimated,mu-Xray,R484
+485,4.993,0.037,Ma74,,el-scatt.,R485
+485,4.969,0.005,Ma70,MIA in  En74 T.III.      Syst+Nuclpol = .001  ,mu-Xray,R485
+485,4.968,0.005,Re87,From Fr95 Table III.A.      Error estimated,mu-Xray,R485
+486,4.998,0.004,Ma70,MIA in  En74 T.III.      Syst+Nuclpol = .001  ,mu-Xray,R486
+486,4.998,0.0048,Re87,From Fr95 Table III.A.      Error estimated,mu-Xray,R486
+487,5.015,0.037,Ma74,,el-scatt.,R487
+487,5.048,0.027,Hi70,,mu-Xray,R487
+487,5.039,0.004,Ma70,MIA in  En74 T.III.      Syst+Nuclpol = .001  ,mu-Xray,R487
+487,5.047,0.0051,Be92,From Fr95 Table III.A.      Error estimated,mu-Xray,R487
+494,4.949,0.0053,Fr95,,,R494
+497,4.983,0.0053,Fr95,,,R497
+498,4.994,0.0053,Fr95,,,R498
+499,5.008,0.0053,Fr95,,,R499
+500,5.047,0.0068,Fr95,,,R500
+502,5.092,0.0056,Fr95,,,R502
+504,5.113,0.0063,Fr95,,,R504
+519,5.044,0.0053,Fr95,,,R519
+521,5.118,0.0055,Fr95,,,R521
+533,5.122,0.0062,Fr95,,,R533
+534,5.13,0.0058,Fr95,,,R534
+535,5.142,0.0058,Fr95,,,R535
+536,5.146,0.0058,Fr95,,,R536
+537,5.159,0.0058,Fr95,,,R537
+538,5.174,0.0058,Fr95,,,R538
+549,5.06,0.15,Wi67,,mu-Xray,R549
+564,5.196,0.0061,Be92,From Fr95 Table III.A.      Error estimated,mu-Xray,R564
+565,5.211,0.026,Hi70,,mu-Xray,R565
+565,5.209,0.006,Be92,From Fr95 Table III.A.      Error estimated,mu-Xray,R565
+566,5.211,0.0059,Be92,From Fr95 Table III.A.      Error estimated,mu-Xray,R566
+567,5.218,0.029,Hi70,,mu-Xray,R567
+567,5.224,0.0059,Be92,From Fr95 Table III.A.      Error estimated,mu-Xray,R567
+581,5.19,0.05,Uh71,,el-scatt.,R581
+581,5.21,0.04,Po76,,mu-Xray,R581
+590,5.239,0.006,Ma92,,,R590
+591,5.258,0.006,Ma92a,From Fr95 Table III.A.      Error estimated,mu-Xray,R591
+592,5.26,0.025,Hi70,,mu-Xray,R592
+592,5.272,0.0063,Ma92a,From Fr95 Table III.A.      Error estimated,mu-Xray,R592
+593,5.264,0.025,Hi70,,mu-Xray,R593
+593,5.286,0.0063,Ma92a,From Fr95 Table III.A.      Error estimated,mu-Xray,R593
+609,5.2256,0.0035,De73,Model+Syst+Nuclpol = .001  ,mu-Xray,R609
+630,5.286,0.0063,Ze73,From Fr95 Table III.A.      Error estimated,mu-Xray,R630
+631,5.14,0.03,Ad73,From  En74.      Error: 2x.015 for model,mu-Xray,R631
+631,5.293,0.0063,Ze73,From Fr95 Table III.A.      Error estimated,mu-Xray,R631
+632,5.155,0.044,Ad73,From  En74.      Error: 2x.022 for model,mu-Xray,R632
+632,5.301,0.0063,Ze73,From Fr95 Table III.A.      Error estimated,mu-Xray,R632
+633,5.306,0.0063,Ze73,From Fr95 Table III.A.      Error estimated,mu-Xray,R633
+634,5.41,0.03,Sa79,From Vr87      ,el-scatt.,R634
+634,5.157,0.03,Ad73,From  En74.      Error: 2x.015 for model,mu-Xray,R634
+634,5.317,0.0063,Be92,From Fr95 Table III.A.      Error estimated,mu-Xray,R634
+636,5.443,0.02,Cr77,From Vr87      Includes  Co76,el-scatt.,R636
+636,5.321,0.0063,Ze73,From Fr95 Table III.A.      Error estimated,mu-Xray,R636
+651,5.37,0.03,Sa79,From Vr87      ,el-scatt.,R651
+661,5.331,0.0065,Ta84c,From Fr95 Table III.C.      Error estimated,mu-Xray,R661
+662,5.334,0.0065,Ta84c,From Fr95 Table III.C.      Error estimated,mu-Xray,R662
+663,5.338,0.0065,Ta84c,From Fr95 Table III.C.      Error estimated,mu-Xray,R663
+664,5.339,0.0065,Ta84c,From Fr95 Table III.C.      Error estimated,mu-Xray,R664
+665,5.349,0.0063,Ta84c,From Fr95 Table III.C.      Error estimated,mu-Xray,R665
+667,5.328,0.034,ML76,,mu-Xray,R667
+667,5.354,0.0064,Be92,From Fr95 Table III.C.      Includes  Po77,mu-Xray,R667
+669,5.355,0.002,Ma92,,,R669
+670,5.33,0.15,Wi67,,mu-Xray,R670
+671,5.364,0.002,Ma92,,,R671
+672,5.4,0.04,Ka73,,el-scatt.,R672
+672,5.373,0.022,Hi70,,mu-Xray,R672
+672,5.381,0.0065,Ma92a,From Fr95 Table III.C.      Error estimated,mu-Xray,R672
+676,5.387,0.0072,Ho81,From Fr95 Table III.C.      Error estimated,mu-Xray,R676
+678,5.4001,0.0013,Bo88,,,R678
+679,5.36,0.15,Wi67,,mu-Xray,R679
+680,5.4062,0.0014,Bo88,,,R680
+681,5.41,0.002,Ma92,,,R681
+690,5.39,0.15,Wi67,,mu-Xray,R690
+691,5.41,0.15,Wi67,,mu-Xray,R691
+708,5.369,0.009,Bo88,,el-scatt.,R708
+708,5.425,0.0069,Be90,From Fr95 Table III.A.      Error estimated,mu-Xray,R708
+709,5.427,0.0069,Be90,From Fr95 Table III.A.      Error estimated,mu-Xray,R709
+710,5.38,0.02,Bo83,From Vr87      ,el-scatt.,R710
+710,5.37,0.003,Bo88,,el-scatt.,R710
+710,5.432,0.0068,Be90,From Fr95 Table III.A.      Error estimated,mu-Xray,R710
+711,5.441,0.0063,Be90,From Fr95 Table III.A.      Error estimated,mu-Xray,R711
+726,5.439,0.007,Po74,,mu-Xray,R726
+726,5.437,0.0063,Be90,From Fr95 Table III.A.      Error estimated,mu-Xray,R726
+746,5.448,0.0065,Bu89,,,R746
+747,5.449,0.0069,Gu83,From Fr95 Table III.A.      Error estimated,mu-Xray,R747
+748,5.457,0.0065,Bu89,From Fr95 Table III.A.      Error estimated,mu-Xray,R748
+750,5.467,0.0066,Bu89,From Fr95 Table III.A.      Error estimated,mu-Xray,R750
+752,5.472,0.002,Ma92,,,R752
+768,5.4634,0.0056,Eu78,,,R768
+768,5.472,0.006,Ke75,,mu-Xray,R768
+770,5.4699,0.0056,Eu78,,,R770
+770,5.479,0.01,Fr83,From Vr87      ,el-scatt.,R770
+770,5.48,0.006,Ke75,,mu-Xray,R770
+787,5.442,0.0105,Fr95,,,R787
+788,5.442,0.0105,Fr95,,,R788
+789,5.45,0.0085,Fr95,,,R789
+790,5.45,0.0085,Fr95,,,R790
+791,5.459,0.0075,Fr95,,,R791
+792,5.461,0.0075,Fr95,,,R792
+793,5.469,0.0055,Fr95,,,R793
+794,5.471,0.0055,Fr95,,,R794
+795,5.479,0.002,Ma92,,,R795
+796,5.482,0.0035,Fr95,,,R796
+797,5.49,0.002,Ma92,,,R797
+798,5.495,0.002,Ma92,,,R798
+799,5.4987,0.0034,Fr77b,,,R799
+799,5.502,0.002,Ma92,,,R799
+800,5.511,0.0025,Fr95,,,R800
+801,5.523,0.0035,Fr95,,,R801
+802,5.533,0.0055,Fr95,,,R802
+803,5.545,0.0075,Fr95,,,R803
+804,5.565,0.0105,Fr95,,,R804
+805,5.527,0.02,Si73b,,el-scatt.,R805
+805,5.5186,0.0047,Eu78,,,R805
+805,5.533,0.006,Ze70,MIA in  En74 T.III.      Syst+Nuclp=.001  ,mu-Xray,R805
+805,5.533,0.0095,Ru84b,From Fr95 Table III.A.      Error estimated,mu-Xray,R805
+869,5.7848,0.0124,Cl78,"Error est.: 2x,0062 (stat), rms from Ko07",mu-Xray,R869
+870,5.8158,0.0132,Zu84,"Error est.: 2x,0066 (stat)",mu-Xray,R870
+871,5.8289,0.0062,Zu84,"Error est.: 2x,0031 (stat)",mu-Xray,R871
+872,5.8186,0.0174,Cl78,"Error est.: 2x,0087 (stat), rms from Ko07",mu-Xray,R872
+872,5.8343,0.0056,Zu84,"Error est.: 2x,0028 (stat)",mu-Xray,R872
+874,5.854,0.02,Cr77,From Vr87      Error estimated.,el-scatt.,R874
+874,5.8446,0.0124,Cl78,"Error est.: 2x,0061 (stat), rms from Ko07",mu-Xray,R874
+874,5.8604,0.0046,Zu84,"Error est.: 2x,0023 (stat)",mu-Xray,R874
+876,5.8601,0.0378,Cl78,"Error est.: 2x,0189 (stat), rms from Ko07",mu-Xray,R876
+881,5.8929,0.0035,Jo85,Model+Syst+Nuclpol = .001  ,mu-Xray,R881
+882,5.9047,0.0035,Jo85,Model+Syst+Nuclpol = .001  ,mu-Xray,R882
