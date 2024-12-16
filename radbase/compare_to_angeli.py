@@ -125,7 +125,7 @@ abs_df = abs_df[~abs_df['Z'].isin([0, 1])]
 abs_df.rename(columns={'Rav': 'R', 'dRav': 'DR'}, inplace=True)
 abs_df.reset_index(drop=True, inplace=True)
 
-compare_abs_results('./comparisons/angeli_abs_abs.xlsx', abs_df, pd.read_csv(
+compare_abs_results('../comparisons/angeli_abs_abs.xlsx', abs_df, pd.read_csv(
     'outputs/absonly/absolute_radii_absonly.csv'),
                     iso_df,
                     lsuffix='ar', rsuffix='hr')
@@ -138,7 +138,7 @@ rel_noniso_df.ffill(inplace=True)
 rel_noniso_df.rename(columns={'d0': 'dR', 'Dd0': 'DdR'}, inplace=True)
 rel_noniso_df.reset_index(drop=True, inplace=True)
 
-compare_rel_results('./comparisons/angeli_dnoniso_noniso_relonly.xlsx', rel_noniso_df,
+compare_rel_results('../comparisons/angeli_dnoniso_noniso_relonly.xlsx', rel_noniso_df,
                     pd.read_csv('outputs/noniso_relonly/relative_radii_noniso_relonly.csv'), iso_df,
                     lsuffix='adremnoniso', rsuffix='hdremnoniso')
 
@@ -151,7 +151,7 @@ rel_noniso_df.ffill(inplace=True)
 rel_noniso_df.rename(columns={'dR+': 'dR', 'DdR+': 'DdR'}, inplace=True)
 rel_noniso_df.reset_index(drop=True, inplace=True)
 
-compare_rel_results('./comparisons/angeli_noniso_noniso.xlsx', rel_noniso_df,
+compare_rel_results('../comparisons/angeli_noniso_noniso.xlsx', rel_noniso_df,
                     pd.read_csv('outputs/noniso/relative_radii_noniso.csv'), iso_df,
                     lsuffix='aremnoniso', rsuffix='hremnoniso')
 
@@ -170,6 +170,6 @@ absl_noniso_df.reset_index(drop=True, inplace=True)
 # print(absl_noniso_df, pd.read_csv('noniso/absolute_radii_noniso.csv'))
 # print(pd.merge(absl_noniso_df, pd.read_csv('noniso/absolute_radii_noniso.csv'), on=['Z', 'A']).head(20))
 
-compare_abs_results('./comparisons/angeli_noniso_noniso.xlsx', absl_noniso_df,
+compare_abs_results('../comparisons/angeli_noniso_noniso.xlsx', absl_noniso_df,
                     pd.read_csv('outputs/noniso/absolute_radii_noniso.csv'), iso_df,
                     lsuffix='aremnoniso', rsuffix='hremnoniso')
