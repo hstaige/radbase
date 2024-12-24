@@ -1,4 +1,5 @@
 import pandas as pd
+import re
 
 """
 Converts Angeli's Excel file into the required input format described in docs/inputs.rst
@@ -17,7 +18,9 @@ cols = ['Z', 'A']
 abs_df.loc[:, cols] = abs_df.loc[:, cols].ffill()
 abs_df = abs_df[~abs_df['Z'].isin([0, 1])]
 abs_df = abs_df.astype({'Z': 'int32', 'A': 'int32', 'Ref.': 'string', 'Remarks': 'string'})
-abs_df['RefRemarks'] = abs_df['Ref.'] + abs_df['Remarks']
+abs_df['RefRemarks'] = abs_df['Ref.'] + ' ' + abs_df['Remarks']
+abs_df['Refs'] = abs_df['RefRemarks'].apply(lambda r: re.findall(r'\w\w\d\d[a-e]?', r))
+print(abs_df['Refs'][abs_df['Refs'].notna()])
 abs_df.drop(columns=['Ref.', 'Remarks'], inplace=True)
 abs_df.rename(columns={'Rexp': 'Value', 'dRexp': 'Unc'}, inplace=True)
 abs_df.reset_index(drop=True, inplace=True)
@@ -30,6 +33,9 @@ rel_noniso_df.dropna(how='any', subset=['DRexp'], inplace=True)
 cols = ['Z1', 'A1', 'Z2', 'A2']
 rel_noniso_df.loc[:, cols] = rel_noniso_df.loc[:, cols].ffill()
 rel_noniso_df.rename(columns={'DRexp': 'Value', 'd+D': 'Unc', 'Ref. + Remarks': 'RefRemarks'}, inplace=True)
+rel_noniso_df['Refs'] = rel_noniso_df['RefRemarks'].apply(lambda r: re.findall(r'(?<=\()[a-zA-Z]{2}\d\d[a-e]?', r) +
+                                                                    re.findall(r'(?<!\()[a-zA-Z]{2}\d\d[a-e]?', r))
+print(rel_noniso_df['Refs'])
 rel_noniso_df.reset_index(drop=True, inplace=True)
 print('RELATIVE NONISOTOPIC')
 rel_noniso_df.info(show_counts=True)
@@ -41,6 +47,8 @@ cols = ['Z', 'A1', 'A2']
 rel_isoe_df.loc[:, cols] = rel_isoe_df.loc[:, cols].ffill()
 rel_isoe_df.insert(3, 'Z2', rel_isoe_df['Z'])
 rel_isoe_df.rename(columns={'Z': 'Z1', 'DRexp': 'Value', 'd+D': 'Unc', 'Ref.': 'RefRemarks'}, inplace=True)
+rel_isoe_df['Refs'] = rel_isoe_df['RefRemarks'].apply(lambda r: re.findall(r'(?<=\()[a-zA-Z]{2}\d\d[a-e]?', r) +
+                                                                re.findall(r'(?<!\()[a-zA-Z]{2}\d\d[a-e]?', r))
 print('\nRELATIVE ISOTOPIC ELECTRONIC')
 rel_isoe_df.info(show_counts=True)
 rel_isoe_df.reset_index(drop=True, inplace=True)
@@ -52,6 +60,8 @@ cols = ['Z', 'A1', 'A2']
 rel_isom_df.loc[:, cols] = rel_isom_df.loc[:, cols].ffill()
 rel_isom_df.insert(3, 'Z2', rel_isom_df['Z'])
 rel_isom_df.rename(columns={'Z': 'Z1', 'DRx': 'Value', 'd+D': 'Unc', 'Ref. + Rem.': 'RefRemarks'}, inplace=True)
+rel_isom_df['Refs'] = rel_isom_df['RefRemarks'].apply(lambda r: re.findall(r'(?<=\()[a-zA-Z]{2}\d\d[a-e]?', r) +
+                                                                re.findall(r'(?<!\()[a-zA-Z]{2}\d\d[a-e]?', r))
 print('\nRELATIVE ISOTOPIC MUONIC')
 rel_isom_df.info(show_counts=True)
 rel_isom_df.reset_index(drop=True, inplace=True)
@@ -63,6 +73,8 @@ cols = ['Z', 'A1', 'A2']
 rel_k_df.loc[:, cols] = rel_k_df.loc[:, cols].ffill()
 rel_k_df.insert(3, 'Z2', rel_k_df['Z'])
 rel_k_df.rename(columns={'Z': 'Z1', 'DR2': 'Value', 'dDR2': 'Unc', 'Ref.': 'RefRemarks'}, inplace=True)
+rel_k_df['Refs'] = rel_k_df['RefRemarks'].apply(lambda r: re.findall(r'(?<=\()[a-zA-Z]{2}\d\d[a-e]?', r) +
+                                                                re.findall(r'(?<!\()[a-zA-Z]{2}\d\d[a-e]?', r))
 print('\nRELATIVE K-Alpha')
 rel_k_df.info(show_counts=True)
 rel_k_df.reset_index(drop=True, inplace=True)
@@ -75,6 +87,7 @@ rel_ois_df.loc[:, cols] = rel_ois_df.loc[:, cols].ffill()
 rel_ois_df.insert(3, 'Z2', rel_ois_df['Z'])
 rel_ois_df['RefRemarks'] = rel_ois_df['Ref.'].astype(str) + rel_ois_df['Remark'].astype(str)
 rel_ois_df.rename(columns={'Z': 'Z1', 'd<r2>': 'Value', 'Dtot': 'Unc'}, inplace=True)
+rel_ois_df['Refs'] = None
 print('\nRELATIVE OIS')
 rel_ois_df.info(show_counts=True)
 rel_ois_df.reset_index(drop=True, inplace=True)
@@ -126,6 +139,7 @@ abs_df['Table'] = 'absl'
 
 rel_df = pd.concat([rel_noniso_df, rel_isoe_df, rel_isom_df, rel_k_df, rel_ois_df], join='inner', ignore_index=True)
 rel_df['Iso_Idxs'] = rel_df['iso_idx1'] + ',' + rel_df['iso_idx2']
+print(rel_df)
 rel_df.drop(columns=['iso_idx1', 'iso_idx2'], inplace=True)
 
 measurement_df = pd.concat([abs_df, rel_df], ignore_index=True)

@@ -1,10 +1,11 @@
 import pandas as pd
-from collections import defaultdict
-from itertools import product, chain
-import matplotlib.pyplot as plt
+import numpy as np
 import lmfit
-import asteval
 from itertools import chain
+
+from uncertainties import wrap as uwrap
+from collections import defaultdict
+from itertools import product
 
 
 def compress_measurements(measurements):
@@ -78,7 +79,6 @@ def find_groups(measurements):
         """
         Explores graph that has an edge between idx1 and idx2 iff graph[idx1][idx2] exists
 
-
         :param graph:
             dict of dict of sets: graph[idx1][idx2] = set of all measurement indexes that include both isotopes
         :param present:
@@ -90,7 +90,6 @@ def find_groups(measurements):
 
         seen, groups = set(), []
         isotopes = set(present.keys())  # unique iso_idxs
-        print(isotopes)
         for i in isotopes:
             if i in seen:
                 continue
@@ -117,29 +116,70 @@ def find_groups(measurements):
         return groups
 
     graph, present = build_graph(measurements)
-    print(graph, present)
     return graph_bfs(graph, present)
 
 
 def solve_group(group, measurements):
-    print(group)
+
+    def target(pars, tars):
+        # note, the two zeros are to force scalar minimize to calc covariances ...
+        return [0] * 1 + [(pars.eval(term) - val) / unc for term, val, unc in tars]
+
+    def iter_cb(params, iter, resids, *args, **kwargs):
+        nfree = len([p for p in params if params[p].vary])
+        if nfree < 50 or (iter % 100) != 0:
+            return
+        print(f'On iter: {iter} with nfree = {nfree}')
+        print(f'Current redchi is {(np.array(resids) ** 2).sum() / (len(resids) - nfree)}')
+        print(sorted(list(zip(resids, targets[2:])), reverse=True)[:10])
+
+    def calc_measurement_uncs(minres, measure, grp):
+        # addresses the issue of calculating uncertainties being very expensive when there are a large number of parameters
+        # by fixing parameters that do not affect that quantity. E.G. if m1 = 'R001002-R001001' then we don't need to vary
+        # R060120 when calculating the uncertainty of m1.
+
+        # Essentially copies lmfit.parameters.create_uvars
+
+        wrap_ueval = uwrap(lmfit.parameter.asteval_with_uncertainties)
+        pars = minres.params
+        vnames = list(pars.keys())
+        for ridx, (term, iso_idx) in zip(grp['m_idxs'], measure.loc[grp['m_idxs'], ['Term', 'Iso_Idxs']].itertuples(index=False)):
+            mname = f'm{ridx}'
+            pars.add(mname, expr=term)
+
+            relevant = ['R' + idx for idx in iso_idx.split(',')]
+            corr_vars = [minres.uvars[p] if p in relevant else pars[p].value for p in vnames]
+            uval = wrap_ueval(*corr_vars, obj=pars[mname], pars=pars, names=vnames)
+            pars[mname].stderr = uval.std_dev
+            minres.uvars[mname] = uval
+
+        minres.residual = minres.residual[1:]  # drop extra 0 for scalar minimizers
+        minres._calculate_statistics()
+
+        return minres
+
     params = lmfit.Parameters()
 
     for iso in group['iso_idxs']:
-        a = int(iso[4:])
-        params.add(f'R{iso}', 0.9 * a ** (1 / 3))
-
-    for ridx, term in zip(group['m_idxs'], measurements.loc[group['m_idxs'], 'Term']):
-        params.add(f'm{ridx}', expr=term)
+        a = int(iso[3:])
+        params.add(f'R{iso}', (0.9071 + 1.1025 / (a ** (2 / 3)) + -0.548 / (a ** (4 / 3))) * a ** (1 / 3))
 
     targets = list(measurements.loc[group['m_idxs'], ['Term', 'Value', 'Unc']].itertuples(index=False))
-    targets += [
-        (f"R{list(group['iso_idxs'])[0]}", 0, 100000)]  # add one absolute measurement to tether relative only groups
 
-    def target(pars, tars):
-        return [(pars.eval(term) - val) / unc for term, val, unc in tars]
+    method = 'leastsq'
+    mini = lmfit.Minimizer(target, params, fcn_args=(targets,), scale_covar=False, calc_covar=True, iter_cb=iter_cb,
+                           max_nfev=100000)
 
-    mini_res = lmfit.minimize(target, params, args=(targets,), scale_covar=False)
+    mini_res = mini.minimize(method=method)
+
+    if not mini_res.errorbars and len(group['iso_idxs']) > 1:
+        params = mini_res.params
+        params[f'R{list(group['iso_idxs'])[0]}'].vary = False
+        mini_res = mini.minimize(params=params, method=method)
+        if not mini_res.errorbars:
+            raise AttributeError('No errorbars for group', group)
+
+    mini_res = calc_measurement_uncs(mini_res, measurements, group)
 
     return mini_res
 
@@ -164,7 +204,7 @@ def make_human_readable(measurements):
 
     absl = measurements.loc[num_isoidxs == 1, :]
     absl = absl.reindex(columns=['Z1', 'A1'] + [c for c in orig_columns if c != 'RefRemarks'])
-    absl = absl.rename(columns={'Z1': 'Z', 'A1':'A'})
+    absl = absl.rename(columns={'Z1': 'Z', 'A1': 'A'})
 
     rel = measurements.loc[num_isoidxs >= 2, :]
 
@@ -177,19 +217,21 @@ def save_human_readable(folder, measurements, group_info, suffix=''):
     rel_hr.to_csv(f'./{folder}/relative_radii_{suffix}.csv', index=False)
     group_info.to_csv(f'./{folder}/group_info_{suffix}.csv', index=False)
 
-# f, ax = plt.subplots()
-#
-# Z1, A1 = iso_df.loc[rel_df['iso_idx1']]['Z'].to_numpy(), iso_df.loc[rel_df['iso_idx1']]['A'].to_numpy()
-# Z2, A2 = iso_df.loc[rel_df['iso_idx2']]['Z'].to_numpy(), iso_df.loc[rel_df['iso_idx2']]['A'].to_numpy()
-#
-# for z1, a1, z2, a2 in zip(Z1, A1, Z2, A2):
-#     c = 'k' if z1 == z2 else 'b'
-#     zorder = 0 if z1 == z2 else 10
-#     plt.plot([z1, z2], [a1-z1, a2-z2], f'-{c}s', zorder=zorder, markersize=3)
-#
-# Z, A = iso_df.loc[abs_df['iso_idx']]['Z'].to_numpy(), iso_df.loc[abs_df['iso_idx']]['A'].to_numpy()
-# plt.plot(Z, A-Z, 'o', color='grey', zorder=-10, markersize=8)
-#
-# plt.xlabel('Z')
-# plt.ylabel('N')
-# plt.show()
+
+if __name__ == '__main__':
+    pd.set_option('display.width', None)
+    meas_df = pd.read_csv('../measurements.csv')
+
+    print('---- Abs only ----')
+    meas_absonly, group_info_absonly = compress_measurements(measurements=meas_df[meas_df['Table'].isin(['absl'])])
+    save_human_readable('../outputs/absonly', meas_absonly, group_info_absonly, 'absonly')
+
+    print('---- rel noniso only ----')
+    meas_relonly, group_info_relonly = compress_measurements(
+        measurements=meas_df[~meas_df['Table'].isin(['abs', 'noniso', 'ois', 'kalpha'])])
+    save_human_readable('../outputs/relonly', meas_relonly, group_info_relonly, 'relonly')
+
+    print('---- All ----')
+    meas_relonly, group_info_relonly = compress_measurements(
+        measurements=meas_df[~meas_df['Table'].isin(['kalpha'])])
+    save_human_readable('../outputs/all_nokalpha', meas_relonly, group_info_relonly, 'all_nokalpha')

@@ -5,3 +5,4 @@ radbase/NuclearRadius_all_sheets_renamed.xlsx
 /outputs/
 /radbase.egg-info
 build
+/notebooks/

@@ -1,0 +1,1717 @@
+Iso_Idxs,Value,Unc,RefRemarks,Refs,Term,Include,Table
+002003,1.877,0.019,"Re84b el-scatt.      Contains  Co65, MC70, MC77, Sz77, Du83","['Re84b', 'Co65', 'MC70', 'MC77', 'Sz77', 'Du83']",R002003,,absl
+002003,1.976,0.015,Ot85 el-scatt.,['Ot85'],R002003,,absl
+002003,1.959,0.03,Am94 el-scatt.,['Am94'],R002003,,absl
+002004,1.676,0.008,"Si82 el-scatt.       Re-anal. of Fr66a, Fr67, Er68, MC77, Ar78","['Si82', 'Fr66a', 'Fr67', 'Er68', 'MC77', 'Ar78']",R002004,,absl
+002004,1.671,0.014,Ot85 el-scatt.,['Ot85'],R002004,,absl
+002004,1.687,0.006,He76 mu-Xray      Re-analysis of exp. Be75,"['He76', 'Be75']",R002004,,absl
+002004,1.673,0.003,Ca77 mu-Xray      Re-analysed in Bo78 (theor),"['Ca77', 'Bo78']",R002004,,absl
+003006,2.54,0.05,Su67 el-scatt.,['Su67'],R003006,,absl
+003006,2.56,0.05,Li71a el-scatt.,['Li71a'],R003006,,absl
+003006,2.57,0.1,Bu72 el-scatt.      See also Vr87,"['Bu72', 'Vr87']",R003006,,absl
+003007,2.39,0.06,Su67 el-scatt.,['Su67'],R003007,,absl
+003007,2.41,0.1,Bu72 el-scatt.      See also Vr87,"['Bu72', 'Vr87']",R003007,,absl
+004009,2.519,0.012,Ja72 el-scatt.,['Ja72'],R004009,,absl
+004009,2.5,0.09,Fe73a el-scatt.      Re-analysis of Be67a,"['Fe73a', 'Be67a']",R004009,,absl
+004009,2.39,0.1637,Sc80a mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sc80a', 'Fr95']",R004009,,absl
+005010,2.4,0.09,Do86 el-scatt.      Preliminary,['Do86'],R005010,,absl
+005010,2.44,0.06,Ol81 mu-Xray,['Ol81'],R005010,,absl
+005011,2.37,0.1,Ri71 el-scatt.      From  Vr87,"['Ri71', 'Vr87']",R005011,,absl
+005011,2.452,0.0482,Sc80a mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sc80a', 'Fr95']",R005011,,absl
+005011,2.38,0.04,Ol81 mu-Xray,['Ol81'],R005011,,absl
+006012,2.469,0.004,"Si82 el-scatt.      Re-analysis of  Si70a, Ja72, Ca80a, Re82","['Si82', 'Si70a', 'Ja72', 'Ca80a', 'Re82']",R006012,,absl
+006012,2.4757,0.009,Of88 el-scatt.      Without disp. corr!    With DC.: 2.4832 fm,"['Of88', '4832']",R006012,,absl
+006012,2.4777,0.0055,Of91 el-scatt.      Without disp. corr!    F-B anal. in Fr95 T. IX.,"['Of91', 'Fr95']",R006012,,absl
+006012,2.468,0.0034,"Fr95 mu-Xray      Table III.A.      Includes Sc82, Ru84","['Fr95', 'Sc82', 'Ru84']",R006012,,absl
+006013,2.44,0.025,He70a el-scatt.,['He70a'],R006013,,absl
+006013,2.4628,0.0039,Bo85 mu-Xray,['Bo85'],R006013,,absl
+006013,2.466,0.0144,Fr95 mu-Xray      Table III.A.      Includes Sc82,"['Fr95', 'Sc82']",R006013,,absl
+006014,2.59,0.05,Kl73 el-scatt.,['Kl73'],R006014,,absl
+006014,2.492,0.0111,Sc82 mu-Xray,['Sc82'],R006014,,absl
+007014,2.54,0.02,Sc75 el-scatt.,['Sc75'],R007014,,absl
+007014,2.524,0.023,La82 el-scatt.      From  Vr87,"['La82', 'Vr87']",R007014,,absl
+007014,2.56,0.0098,Sc80a mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sc80a', 'Fr95']",R007014,,absl
+007015,2.58,0.026,Sc75 el-scatt.,['Sc75'],R007015,,absl
+007015,2.613,0.009,Vr88 el-scatt.     F-B anal. in Fr95 Table IX.,"['Vr88', 'Fr95']",R007015,,absl
+008016,2.712,0.012,"Si80a el-scatt.      From  Ba80(mu-Xray): ""Priv. comm. I.Sick""","['Si80a', 'Ba80']",R008016,,absl
+008016,2.728,0.008,La82 el-scatt.      Priv. comm. from  J.Friedrich,['La82'],R008016,,absl
+008016,2.693,0.0035,Fr92 mu-Xray      Re-analysed in Fr95,"['Fr92', 'Fr95']",R008016,,absl
+008017,2.662,0.026,Si70a el-scatt.,['Si70a'],R008017,,absl
+008017,2.71,0.015,Ki78 el-scatt.      Measured: ratio  17O/16O = 1.0015(25),"['Ki78', '0015']",R008017,,absl
+008018,2.727,0.02,Si70a el-scatt.,['Si70a'],R008018,,absl
+008018,2.789,0.028,Sc75 el-scatt.,['Sc75'],R008018,,absl
+008018,2.778,0.02,Ba80 mu-Xray      From Fr92.     Error: .014+model dep.,"['Ba80', 'Fr92']",R008018,,absl
+009019,2.885,0.015,Ha73b el-scatt.,['Ha73b'],R009019,,absl
+009019,2.898,0.011,Sc78 mu-Xray      Model+Syst+Nuclpol = .001,['Sc78'],R009019,,absl
+009019,2.898,0.0029,Fr92 mu-Xray      Re-analysed in Fr95,"['Fr92', 'Fr95']",R009019,,absl
+010020,3.004,0.025,Kn81 el-scatt.,['Kn81'],R010020,,absl
+010020,2.992,0.012,Be85 el-scatt.      From Vr87.      Error: 1.5x0.008  for syst.,"['Be85', 'Vr87']",R010020,,absl
+010020,3.006,0.0041,Fr92 mu-Xray      Re-analysed in Fr95,"['Fr92', 'Fr95']",R010020,,absl
+010021,2.967,0.0036,Fr92 mu-Xray      Re-analysed in Fr95,"['Fr92', 'Fr95']",R010021,,absl
+010022,2.969,0.021,Mo71 el-scatt.,['Mo71'],R010022,,absl
+010022,2.954,0.0036,Fr92 mu-Xray      Re-analysed in Fr95,"['Fr92', 'Fr95']",R010022,,absl
+011023,2.986,0.01,Sc78 mu-Xray      Contains  Du76.     Mod+Syst+Nuclp =.001,"['Sc78', 'Du76']",R011023,,absl
+011023,2.994,0.0025,Fr92 mu-Xray      Re-analysed in Fr95,"['Fr92', 'Fr95']",R011023,,absl
+012024,3.075,0.015,Av74 el-scatt.      From Vr87.,"['Av74', 'Vr87']",R012024,,absl
+012024,3.057,0.0024,Fr92 mu-Xray      Re-analysed in Fr95,"['Fr92', 'Fr95']",R012024,,absl
+012025,3.003,0.011,Eu77a el-scatt.,['Eu77a'],R012025,,absl
+012025,3.029,0.0024,Fr92 mu-Xray      Re-analysed in Fr95,"['Fr92', 'Fr95']",R012025,,absl
+012026,2.961,0.04,So88 el-scatt.      F-B anal. in Fr95 Table IX.,"['So88', 'Fr95']",R012026,,absl
+012026,3.034,0.0025,Fr92 mu-Xray      Re-analysed in Fr95,"['Fr92', 'Fr95']",R012026,,absl
+013027,3.035,0.004,Ro86 el-scatt.      From Vr87.      Error: 2x0.002  for syst.,"['Ro86', 'Vr87']",R013027,,absl
+013027,3.058,0.006,Sc78 mu-Xray      Model+Syst+Nuclpol = .001,['Sc78'],R013027,,absl
+013027,3.063,0.0022,Fr92 mu-Xray      Re-analysed in Fr95,"['Fr92', 'Fr95']",R013027,,absl
+014028,3.085,0.017,Mi82 el-scatt.      From Vr87 Table IV.,"['Mi82', 'Vr87']",R014028,,absl
+014028,3.127,0.004,Sc78 mu-Xray      Model+Syst+Nuclpol = .001,['Sc78'],R014028,,absl
+014028,3.123,0.0026,Fr92 mu-Xray      Re-analysed in Fr95,"['Fr92', 'Fr95']",R014028,,absl
+014029,3.125,0.051,Br77 el-scatt.      Two independent experiments!,['Br77'],R014029,,absl
+014029,3.08,0.017,Mi82 el-scatt.      From Vr87 Table IV.,"['Mi82', 'Vr87']",R014029,,absl
+014029,3.12,0.0073,Fr92 mu-Xray      Re-analysed in Fr95,"['Fr92', 'Fr95']",R014029,,absl
+014030,3.173,0.025,Mi82 el-scatt.      From Vr87 Table IV.,"['Mi82', 'Vr87']",R014030,,absl
+014030,3.1932,0.013,We93 el-scatt.      F-B anal. in Fr95 Table IX.,"['We93', 'Fr95']",R014030,,absl
+014030,3.134,0.0072,Fr92 mu-Xray      Re-analysed in Fr95,"['Fr92', 'Fr95']",R014030,,absl
+015031,3.187,0.01,"Mi82 el-scatt.      From Vr87.   Contains  Si72, Me73a, Me76","['Mi82', 'Vr87', 'Si72', 'Me73a', 'Me76']",R015031,,absl
+015031,3.1913,0.005,We93 el-scatt.      F-B anal. in Fr95 Table IX.,"['We93', 'Fr95']",R015031,,absl
+015031,3.187,0.004,Sc78 mu-Xray      See  Ka79.    Model+Syst+Nuclpol = .001,"['Sc78', 'Ka79']",R015031,,absl
+015031,3.19,0.0029,Sc85 mu-Xray      From  Fr95,"['Sc85', 'Fr95']",R015031,,absl
+016032,3.24,0.011,Me76 el-scatt.      From Vr87.    Contains  Li74,"['Me76', 'Vr87', 'Li74']",R016032,,absl
+016032,3.248,0.011,Ry83a el-scatt.      Errors: .004 (stat.) + .007 (syst.),['Ry83a'],R016032,,absl
+016032,3.2295,0.005,We93 el-scatt.      F-B anal. in Fr95 Table IX.,"['We93', 'Fr95']",R016032,,absl
+016032,3.263,0.003,Sc78 mu-Xray      Contains  Du74.    Mod+Syst+Nuclp=.001,"['Sc78', 'Du74']",R016032,,absl
+016032,3.263,0.0029,Sc85 mu-Xray      Re-analysed in Fr95,"['Sc85', 'Fr95']",R016032,,absl
+016034,3.281,0.013,Ry83a el-scatt.      Errors: .004 (stat.) + .009 (syst.),['Ry83a'],R016034,,absl
+016034,3.285,0.0031,Sc85 mu-Xray      Re-analysed in Fr95,"['Sc85', 'Fr95']",R016034,,absl
+016036,3.278,0.011,Ry83a el-scatt.      Errors: .006 (stat.) + .005 (syst.),['Ry83a'],R016036,,absl
+016036,3.3,0.0027,Sc85 mu-Xray      Re-analysed in Fr95,"['Sc85', 'Fr95']",R016036,,absl
+017035,3.388,0.017,Br80 el-scatt.,['Br80'],R017035,,absl
+017035,3.34,0.018,Ba67 mu-Xray      Model independent analysis in  En74 T. III.,"['Ba67', 'En74']",R017035,,absl
+017037,3.384,0.017,Br80 el-scatt.,['Br80'],R017037,,absl
+018036,3.327,0.0225,Fi76 el-scatt.      Error: 1.5x0.015  for syst/model.,['Fi76'],R018036,,absl
+018036,3.402,0.006,Pf76 mu-Xray      Contains  Pf73.,"['Pf76', 'Pf73']",R018036,,absl
+018036,3.39,0.0033,Fr82 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Fr82', 'Fr95']",R018036,,absl
+018038,3.415,0.009,Pf76 mu-Xray      Contains  Pf73.,"['Pf76', 'Pf73']",R018038,,absl
+018038,3.402,0.0032,Fr82 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Fr82', 'Fr95']",R018038,,absl
+018040,3.423,0.014,"Ot82 el-scatt.      Contains  Gr71, Sc71, We74, Fi76","['Ot82', 'Gr71', 'Sc71', 'We74', 'Fi76']",R018040,,absl
+018040,3.429,0.006,Pf76 mu-Xray      Contains  Pf73.,"['Pf76', 'Pf73']",R018040,,absl
+018040,3.427,0.0034,Fr82 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Fr82', 'Fr95']",R018040,,absl
+019039,3.408,0.027,Si73a el-scatt.,['Si73a'],R019039,,absl
+019039,3.438,0.01,Eh68 mu-Xray      Model independent analysis in  En74 Table III.,"['Eh68', 'En74']",R019039,,absl
+019039,3.435,0.003,Sc78 mu-Xray      Model+Syst+Nuclpol = .001,['Sc78'],R019039,,absl
+019039,3.435,0.0033,Wo81 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Wo81', 'Fr95']",R019039,,absl
+019041,3.452,0.0033,Wo81 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Wo81', 'Fr95']",R019041,,absl
+020040,3.476,0.003,Si79 el-scatt.      Data: Private communication,['Si79'],R020040,,absl
+020040,3.478,0.003,Wo81 From Fr95 T.III.A. Error estimated. ,"['Wo81', 'Fr95']",R020040,,absl
+020042,3.508,0.0032,Wo81 From Fr95 T.III.A. Error estimated. ,"['Wo81', 'Fr95']",R020042,,absl
+020043,3.495,0.003,Wo81 From Fr95 T.III.A. Error estimated. ,"['Wo81', 'Fr95']",R020043,,absl
+020044,3.518,0.0032,Wo81 From Fr95 T.III.A. Error estimated. ,"['Wo81', 'Fr95']",R020044,,absl
+020046,3.498,0.0058,Wo81 From Fr95 T.III.A. Error estimated. ,"['Wo81', 'Fr95']",R020046,,absl
+020048,3.481,0.009,Em83 el-scatt.      Contains  Em83a.,"['Em83', 'Em83a']",R020048,,absl
+020048,3.479,0.003,Wo81 From Fr95 T.III.A. Error estimated. ,"['Wo81', 'Fr95']",R020048,,absl
+021045,3.546,0.0035,Fr82 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Fr82', 'Fr95']",R021045,,absl
+022046,3.606,0.0032,Wo81 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Wo81', 'Fr95']",R022046,,absl
+022047,3.596,0.0032,Wo81 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Wo81', 'Fr95']",R022047,,absl
+022048,3.5773,0.02,He71 el-scatt.      From  Se88.                   Error estimated.,"['He71', 'Se88']",R022048,,absl
+022048,3.592,0.0032,Wo81 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Wo81', 'Fr95']",R022048,,absl
+022049,3.574,0.003,Wo81 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Wo81', 'Fr95']",R022049,,absl
+022050,3.571,0.0031,Wo81 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Wo81', 'Fr95']",R022050,,absl
+023051,3.6,0.003,Wo81 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Wo81', 'Fr95']",R023051,,absl
+024050,3.638,0.013,La76 el-scatt.      From Vr87 ,"['La76', 'Vr87']",R024050,,absl
+024050,3.661,0.0032,Wo81 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Wo81', 'Fr95']",R024050,,absl
+024052,3.674,0.015,Li76 el-scatt.  ,['Li76'],R024052,,absl
+024052,3.613,0.017,La76 el-scatt.      From Vr87 ,"['La76', 'Vr87']",R024052,,absl
+024052,3.645,0.003,Wo81 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Wo81', 'Fr95']",R024052,,absl
+024053,3.659,0.003,Wo81 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Wo81', 'Fr95']",R024053,,absl
+024054,3.673,0.014,La76 el-scatt.      From Vr87 ,"['La76', 'Vr87']",R024054,,absl
+024054,3.686,0.0032,Wo81 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Wo81', 'Fr95']",R024054,,absl
+025055,3.706,0.0033,Wo81 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Wo81', 'Fr95']",R025055,,absl
+026054,3.675,0.02,La76 el-scatt.      From Vr87 ,"['La76', 'Vr87']",R026054,,absl
+026054,3.694,0.005,"Wo80 El+mu analysis  with Wo76, Sh76(mu)","['Wo80', 'Wo76', 'Sh76']",R026054,,absl
+026056,3.721,0.02,La76 el-scatt.      From Vr87 ,"['La76', 'Vr87']",R026056,,absl
+026056,3.738,0.0036,Sh76 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh76', 'Fr95']",R026056,,absl
+026056,3.7412,0.0065,Wo81 mu-Xray      Error estimated,['Wo81'],R026056,,absl
+026057,3.754,0.0037,Sh76 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh76', 'Fr95']",R026057,,absl
+026058,3.752,0.025,Wo76 el-scatt.   ,['Wo76'],R026058,,absl
+026058,3.774,0.0037,Sh76 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh76', 'Fr95']",R026058,,absl
+027059,3.789,0.005,Sc79 el-scatt.   ,['Sc79'],R027059,,absl
+027059,3.788,0.0035,Sh76 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh76', 'Fr95']",R027059,,absl
+028058,3.77,0.01,Sp79 el-scatt.      Re-analysis of  Si75  ,"['Sp79', 'Si75']",R028058,,absl
+028058,3.772,0.004,Ca80b el-scatt.      From Vr87.      Error: 2x0.002  for syst.,"['Ca80b', 'Vr87']",R028058,,absl
+028058,3.777,0.005,Wo80 El+mu analysis  with  Sh76(mu),"['Wo80', 'Sh76']",R028058,,absl
+028058,3.769,0.013,Be83 el-scatt.      From Vr87 ,"['Be83', 'Vr87']",R028058,,absl
+028058,3.776,0.0034,Sh76 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh76', 'Fr95']",R028058,,absl
+028060,3.796,0.01,Fi74a el-scatt.      From Ja74.     Contains  Fi70 ,"['Fi74a', 'Ja74', 'Fi70']",R028060,,absl
+028060,3.815,0.005,Wo80 El+mu analysis  with  Sh76(mu),"['Wo80', 'Sh76']",R028060,,absl
+028060,3.797,0.013,Be83 el-scatt.      From Vr87 ,"['Be83', 'Vr87']",R028060,,absl
+028060,3.813,0.0034,Sh76 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh76', 'Fr95']",R028060,,absl
+028061,3.806,0.01,Fi74a el-scatt.      From Ja74.     Contains  Fi70 ,"['Fi74a', 'Ja74', 'Fi70']",R028061,,absl
+028061,3.823,0.0034,Sh76 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh76', 'Fr95']",R028061,,absl
+028062,3.822,0.01,Fi74a el-scatt.      From Ja74.     Contains  Fi70 ,"['Fi74a', 'Ja74', 'Fi70']",R028062,,absl
+028062,3.827,0.013,Ke77 el-scatt.      From Ja79    (priv. comm.),"['Ke77', 'Ja79']",R028062,,absl
+028062,3.842,0.0035,Sh76 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh76', 'Fr95']",R028062,,absl
+028064,3.845,0.01,Fi74a el-scatt.      From Ja74.     Contains  Fi70 ,"['Fi74a', 'Ja74', 'Fi70']",R028064,,absl
+028064,3.86,0.0034,Sh76 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh76', 'Fr95']",R028064,,absl
+029063,3.933,0.015,Ke77 el-scatt.      From Vr87,"['Ke77', 'Vr87']",R029063,,absl
+029063,3.885,0.005,Sc79 el-scatt.   ,['Sc79'],R029063,,absl
+029063,3.883,0.0034,Sh76 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh76', 'Fr95']",R029063,,absl
+029065,3.905,0.005,Sc79 el-scatt.   ,['Sc79'],R029065,,absl
+029065,3.902,0.0034,Sh76 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh76', 'Fr95']",R029065,,absl
+030064,3.923,0.013,Ke77 el-scatt.      From Vr87,"['Ke77', 'Vr87']",R030064,,absl
+030064,3.928,0.0035,Sh76 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh76', 'Fr95']",R030064,,absl
+030066,3.952,0.015,Ke77 el-scatt.      From Vr87,"['Ke77', 'Vr87']",R030066,,absl
+030066,3.951,0.006,Je70 mu-Xray      MIA in  En74 Table III.    Syst+Nuclp=.001  ,"['Je70', 'En74']",R030066,,absl
+030066,3.948,0.0035,Sh76 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh76', 'Fr95']",R030066,,absl
+030068,3.958,0.017,Ke77 el-scatt.      From Vr87,"['Ke77', 'Vr87']",R030068,,absl
+030068,3.969,0.006,Je70 mu-Xray      MIA in  En74 Table III.    Syst+Nuclp=.001  ,"['Je70', 'En74']",R030068,,absl
+030068,3.965,0.0034,Sh76 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh76', 'Fr95']",R030068,,absl
+030070,3.993,0.02,Ke77 el-scatt.      From Vr87,"['Ke77', 'Vr87']",R030070,,absl
+030070,3.983,0.0033,Sh76 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh76', 'Fr95']",R030070,,absl
+031069,3.996,0.0032,Ma83 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ma83', 'Fr95']",R031069,,absl
+031071,4.011,0.0032,Ma83 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ma83', 'Fr95']",R031071,,absl
+032070,4.043,0.002,Ma84 El+mu analysis.      From  Vr87,"['Ma84', 'Vr87']",R032070,,absl
+032070,4.039,0.0033,Si82a mu-Xray      From Fr95 Table III.A.      Error estimated,"['Si82a', 'Fr95']",R032070,,absl
+032072,4.06,0.002,Ma84 El+mu analysis.      From  Vr87,"['Ma84', 'Vr87']",R032072,,absl
+032072,4.055,0.0033,Si82a mu-Xray      From Fr95 Table III.A.      Error estimated,"['Si82a', 'Fr95']",R032072,,absl
+032073,4.061,0.0033,Si82a mu-Xray      From Fr95 Table III.A.      Error estimated,"['Si82a', 'Fr95']",R032073,,absl
+032074,4.075,0.002,Ma84 El+mu analysis.      From  Vr87,"['Ma84', 'Vr87']",R032074,,absl
+032074,4.072,0.0035,Si82a mu-Xray      From Fr95 Table III.A.      Error estimated,"['Si82a', 'Fr95']",R032074,,absl
+032076,4.081,0.002,Ma84 El+mu analysis.      From  Vr87,"['Ma84', 'Vr87']",R032076,,absl
+032076,4.08,0.0035,Si82a mu-Xray      From Fr95 Table III.A.      Error estimated,"['Si82a', 'Fr95']",R032076,,absl
+033075,4.096,0.0033,Ma83 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ma83', 'Fr95']",R033075,,absl
+034074,4.07,0.02,Kh88 el-scatt.  ,['Kh88'],R034074,,absl
+034076,4.162,0.01,Kh88 el-scatt.  ,['Kh88'],R034076,,absl
+034076,4.139,0.0036,Si82b mu-Xray      From Fr95 Table III.A.      Error estimated,"['Si82b', 'Fr95']",R034076,,absl
+034077,4.139,0.0035,Si82b mu-Xray      From Fr95 Table III.A.      Error estimated,"['Si82b', 'Fr95']",R034077,,absl
+034078,4.138,0.014,Kh88 el-scatt.  ,['Kh88'],R034078,,absl
+034078,4.14,0.0036,Si82b mu-Xray      From Fr95 Table III.A.      Error estimated,"['Si82b', 'Fr95']",R034078,,absl
+034080,4.124,0.01,Kh88 el-scatt.  ,['Kh88'],R034080,,absl
+034080,4.143,0.0029,Ka79 mu-Xray      Model+Syst+Nuclpol = .001  ,['Ka79'],R034080,,absl
+034080,4.14,0.0035,Si82b mu-Xray      From Fr95 Table III.A.      Error estimated,"['Si82b', 'Fr95']",R034080,,absl
+034082,4.118,0.011,Kh88 el-scatt.  ,['Kh88'],R034082,,absl
+034082,4.14,0.0035,Si82b mu-Xray      From Fr95 Table III.A.      Error estimated,"['Si82b', 'Fr95']",R034082,,absl
+035079,4.163,0.0035,Ma83 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ma83', 'Fr95']",R035079,,absl
+035081,4.16,0.0034,Ma83 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ma83', 'Fr95']",R035081,,absl
+036078,4.203,0.0039,Ma85 From Fr95 T.III.A. Error estimated. ,"['Ma85', 'Fr95']",R036078,,absl
+036080,4.198,0.0039,Ma85 From Fr95 T.III.A. Error estimated. ,"['Ma85', 'Fr95']",R036080,,absl
+036082,4.192,0.0037,Ma85 From Fr95 T.III.A. Error estimated. ,"['Ma85', 'Fr95']",R036082,,absl
+036083,4.186,0.0037,Ma85 From Fr95 T.III.A. Error estimated. ,"['Ma85', 'Fr95']",R036083,,absl
+036084,4.188,0.0036,Ma85 From Fr95 T.III.A. Error estimated. ,"['Ma85', 'Fr95']",R036084,,absl
+036086,4.184,0.0036,Ma85 From Fr95 T.III.A. Error estimated. ,"['Ma85', 'Fr95']",R036086,,absl
+037085,4.204,0.0036,He86 mu-Xray      From Fr95 Table III.A.      Error estimated,"['He86', 'Fr95']",R037085,,absl
+037087,4.199,0.0036,He86 mu-Xray      From Fr95 Table III.A.      Error estimated,"['He86', 'Fr95']",R037087,,absl
+038084,4.241,0.0037,He86 From Fr95 T.III.A. Error estimated. ,"['He86', 'Fr95']",R038084,,absl
+038086,4.231,0.0036,He86 From Fr95 T.III.A. Error estimated. ,"['He86', 'Fr95']",R038086,,absl
+038087,4.224,0.0036,He86 From Fr95 T.III.A. Error estimated. ,"['He86', 'Fr95']",R038087,,absl
+038088,4.188,0.005,St76 el-scatt.      From Vr87,"['St76', 'Vr87']",R038088,,absl
+038088,4.224,0.0036,He86 From Fr95 T.III.A. Error estimated. ,"['He86', 'Fr95']",R038088,,absl
+039089,4.27,0.02,Fi74 el-scatt.      From  Ja74,"['Fi74', 'Ja74']",R039089,,absl
+039089,4.244,0.008,Ke70 mu-Xray      MIA in  En74 T.III.    Syst+Nuclpol = .001  ,"['Ke70', 'En74']",R039089,,absl
+039089,4.243,0.0036,He86 mu-Xray      From Fr95 Table III.A.      Error estimated,"['He86', 'Fr95']",R039089,,absl
+040090,4.269,0.002,"Ma89 Includes Ro76, Ph85, Ma89(mu) ","['Ma89', 'Ro76', 'Ph85', 'Ma89']",R040090,,absl
+040091,4.285,0.0038,He86 mu-Xray      From Fr95 Table III.A.      Error estimated,"['He86', 'Fr95']",R040091,,absl
+040091,4.285,0.002,Ma89 El+mu analysis.     ,['Ma89'],R040091,,absl
+040092,4.305,0.002,"Ma89 Includes Ro76, Ma89(mu) ","['Ma89', 'Ro76', 'Ma89']",R040092,,absl
+040094,4.331,0.002,"Ma89 Includes Ro76, Ma89(mu) ","['Ma89', 'Ro76', 'Ma89']",R040094,,absl
+040096,4.351,0.002,"Ma89 Includes Ro76, Ma89(mu) ","['Ma89', 'Ro76', 'Ma89']",R040096,,absl
+041093,4.331,0.01,Ja76 el-scatt.      From  Ja74,"['Ja76', 'Ja74']",R041093,,absl
+041093,4.3247,0.004,Po72 mu-Xray      MIA in  En74 T.III.    Syst+Nuclpol = .001  ,"['Po72', 'En74']",R041093,,absl
+041093,4.324,0.0038,He86 mu-Xray      From Fr95 Table III.A.      Error estimated,"['He86', 'Fr95']",R041093,,absl
+042092,4.315,0.002,"Ma89 Includes Dr75, Sc80, Ma89(mu) ","['Ma89', 'Dr75', 'Sc80', 'Ma89']",R042092,,absl
+042094,4.352,0.002,"Ma89 Includes Dr75, Sc80, Ma89(mu) ","['Ma89', 'Dr75', 'Sc80', 'Ma89']",R042094,,absl
+042095,4.3622,0.003,"Ma89 Includes Dr75, Sc80, Ma89(mu) ","['Ma89', 'Dr75', 'Sc80', 'Ma89']",R042095,,absl
+042096,4.384,0.002,"Ma89 Includes Dr75, Sc80, Ma89(mu) ","['Ma89', 'Dr75', 'Sc80', 'Ma89']",R042096,,absl
+042097,4.3866,0.003,"Ma89 Includes Dr75, Sc80, Ma89(mu) ","['Ma89', 'Dr75', 'Sc80', 'Ma89']",R042097,,absl
+042098,4.409,0.002,"Ma89 Includes Dr75, Sc80, Ma89(mu) ","['Ma89', 'Dr75', 'Sc80', 'Ma89']",R042098,,absl
+042100,4.447,0.002,"Ma89 Includes Dr75, Sc80, Ma89(mu) ","['Ma89', 'Dr75', 'Sc80', 'Ma89']",R042100,,absl
+044096,4.393,0.0047,Ha89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ha89', 'Fr95']",R044096,,absl
+044098,4.423,0.0055,Ha89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ha89', 'Fr95']",R044098,,absl
+044099,4.435,0.0042,Ha89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ha89', 'Fr95']",R044099,,absl
+044100,4.453,0.0043,Ha89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ha89', 'Fr95']",R044100,,absl
+044101,4.461,0.0042,Ha89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ha89', 'Fr95']",R044101,,absl
+044102,4.481,0.0042,Ha89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ha89', 'Fr95']",R044102,,absl
+044104,4.509,0.0043,Ha89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ha89', 'Fr95']",R044104,,absl
+045103,4.494,0.0041,Ha89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ha89', 'Fr95']",R045103,,absl
+046102,4.484,0.0044,Ha89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ha89', 'Fr95']",R046102,,absl
+046104,4.437,0.01,La86 el-scatt.      From Vr87,"['La86', 'Vr87']",R046104,,absl
+046104,4.509,0.0046,Ha89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ha89', 'Fr95']",R046104,,absl
+046105,4.516,0.0046,Ha89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ha89', 'Fr95']",R046105,,absl
+046106,4.467,0.011,La86 el-scatt.      From Vr87,"['La86', 'Vr87']",R046106,,absl
+046106,4.532,0.0045,Ha89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ha89', 'Fr95']",R046106,,absl
+046108,4.524,0.01,La86 el-scatt.      From Vr87,"['La86', 'Vr87']",R046108,,absl
+046108,4.556,0.0045,Ha89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ha89', 'Fr95']",R046108,,absl
+046110,4.639,0.019,Li76 el-scatt.      ,['Li76'],R046110,,absl
+046110,4.541,0.01,La86 el-scatt.      From Vr87,"['La86', 'Vr87']",R046110,,absl
+046110,4.577,0.0046,Ha89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ha89', 'Fr95']",R046110,,absl
+047107,4.544,0.0042,Ha89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ha89', 'Fr95']",R047107,,absl
+047109,4.565,0.0042,Ha89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ha89', 'Fr95']",R047109,,absl
+048106,4.534,0.0045,Fr87 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Fr87', 'Fr95']",R048106,,absl
+048108,4.554,0.0045,Fr87 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Fr87', 'Fr95']",R048108,,absl
+048110,4.578,0.007,Gi75 el-scatt.      ,['Gi75'],R048110,,absl
+048110,4.574,0.0045,Fr87 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Fr87', 'Fr95']",R048110,,absl
+048111,4.579,0.0044,Fr87 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Fr87', 'Fr95']",R048111,,absl
+048112,4.608,0.007,Gi75 el-scatt.      ,['Gi75'],R048112,,absl
+048112,4.593,0.0043,Fr87 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Fr87', 'Fr95']",R048112,,absl
+048113,4.597,0.0043,Fr87 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Fr87', 'Fr95']",R048113,,absl
+048114,4.629,0.008,Gi75 el-scatt.      ,['Gi75'],R048114,,absl
+048114,4.632,0.017,Li76 el-scatt.      ,['Li76'],R048114,,absl
+048114,4.591,0.015,Ja76 el-scatt.      From  Ja79 (priv. comm.),"['Ja76', 'Ja79']",R048114,,absl
+048114,4.613,0.009,Ka71 mu-Xray      MIA in  En74 T.III.    Syst+Nuclpol = .001  ,"['Ka71', 'En74']",R048114,,absl
+048114,4.61,0.0043,Fr86 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Fr86', 'Fr95']",R048114,,absl
+048116,4.639,0.008,Gi75 el-scatt.      ,['Gi75'],R048116,,absl
+048116,4.625,0.0043,Fr86 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Fr86', 'Fr95']",R048116,,absl
+049113,4.598,0.0053,Ja89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ja89', 'Fr95']",R049113,,absl
+049115,4.646,0.012,Ja76 el-scatt.      From Vr87,"['Ja76', 'Vr87']",R049115,,absl
+049115,4.617,0.016,Ka71 mu-Xray      MIA in  En74 T.III.    Syst+Nuclpol = .001  ,"['Ka71', 'En74']",R049115,,absl
+049115,4.614,0.0044,Ja89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ja89', 'Fr95']",R049115,,absl
+050110,4.5807,0.0064,Fr97 OEM  combined analysis,['Fr97'],R050110,,absl
+050111,4.5859,0.0061,Fr97 OEM  combined analysis,['Fr97'],R050111,,absl
+050112,4.586,0.005,Fi72 el-scatt.      ,['Fi72'],R050112,,absl
+050112,4.593,0.0045,Pi90 From Fr95 T.III.A. Error estimated,"['Pi90', 'Fr95']",R050112,,absl
+050113,4.6038,0.0047,Fr97 OEM  combined analysis,['Fr97'],R050113,,absl
+050114,4.602,0.005,Fi72 el-scatt.      ,['Fi72'],R050114,,absl
+050114,4.609,0.0046,Pi90 From Fr95 T.III.A. Error estimated,"['Pi90', 'Fr95']",R050114,,absl
+050115,4.6167,0.0038,Fr97 OEM  combined analysis,['Fr97'],R050115,,absl
+050116,4.625,0.0046,Pi90 From Fr95 T.III.A. Error estimated,"['Pi90', 'Fr95']",R050116,,absl
+050117,4.625,0.005,Fi72 el-scatt.      ,['Fi72'],R050117,,absl
+050117,4.63,0.0045,Pi90 From Fr95 T.III.A. Error estimated,"['Pi90', 'Fr95']",R050117,,absl
+050118,4.634,0.005,Fi72 el-scatt.      ,['Fi72'],R050118,,absl
+050118,4.641,0.0046,Pi90 From Fr95 T.III.A. Error estimated,"['Pi90', 'Fr95']",R050118,,absl
+050119,4.639,0.005,Fi72 el-scatt.      ,['Fi72'],R050119,,absl
+050119,4.643,0.0045,Pi90 From Fr95 T.III.A. Error estimated,"['Pi90', 'Fr95']",R050119,,absl
+050120,4.646,0.005,Fi72 el-scatt.      ,['Fi72'],R050120,,absl
+050120,4.655,0.0045,Pi90 From Fr95 T.III.A. Error estimated,"['Pi90', 'Fr95']",R050120,,absl
+050121,4.6589,0.0013,Fr97 OEM  combined analysis,['Fr97'],R050121,,absl
+050122,4.658,0.005,Fi72 el-scatt.      ,['Fi72'],R050122,,absl
+050122,4.667,0.0046,Pi90 From Fr95 T.III.A. Error estimated,"['Pi90', 'Fr95']",R050122,,absl
+050123,4.6684,0.002,Fr97 OEM  combined analysis,['Fr97'],R050123,,absl
+050124,4.676,0.001,"Ma92 Includes Ca82a, Pi90","['Ma92', 'Ca82a', 'Pi90']",R050124,,absl
+050125,4.6779,0.0027,Fr97 OEM  combined analysis,['Fr97'],R050125,,absl
+051121,4.681,0.0046,Kl88 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Kl88', 'Fr95']",R051121,,absl
+051123,4.689,0.0051,Kl88 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Kl88', 'Fr95']",R051123,,absl
+052122,4.71,0.0053,Sh89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh89', 'Fr95']",R052122,,absl
+052123,4.712,0.0045,Sh89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh89', 'Fr95']",R052123,,absl
+052124,4.719,0.0046,Sh89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh89', 'Fr95']",R052124,,absl
+052125,4.721,0.0046,Sh89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh89', 'Fr95']",R052125,,absl
+052126,4.731,0.007,Ka71 mu-Xray      MIA in  En74 T.III.      Syst+Nuclpol = .001  ,"['Ka71', 'En74']",R052126,,absl
+052126,4.727,0.0046,Sh89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh89', 'Fr95']",R052126,,absl
+052128,4.735,0.0046,Sh89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh89', 'Fr95']",R052128,,absl
+052130,4.742,0.0046,Sh89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh89', 'Fr95']",R052130,,absl
+053127,4.752,0.007,Ka71 mu-Xray      MIA in  En74 T.III.    Syst+Nuclpol = .001  ,"['Ka71', 'En74']",R053127,,absl
+053127,4.749,0.0047,Kl88 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Kl88', 'Fr95']",R053127,,absl
+054124,4.762,0.0046,He84 mu-Xray      From Fr95 Table III.A.      Error estimated,"['He84', 'Fr95']",R054124,,absl
+054126,4.77,0.0048,He84 mu-Xray      From Fr95 Table III.A.      Error estimated,"['He84', 'Fr95']",R054126,,absl
+054128,4.776,0.0048,He84 mu-Xray      From Fr95 Table III.A.      Error estimated,"['He84', 'Fr95']",R054128,,absl
+054129,4.776,0.0047,He84 mu-Xray      From Fr95 Table III.A.      Error estimated,"['He84', 'Fr95']",R054129,,absl
+054130,4.783,0.0046,He84 mu-Xray      From Fr95 Table III.A.      Error estimated,"['He84', 'Fr95']",R054130,,absl
+054131,4.781,0.0046,He84 mu-Xray      From Fr95 Table III.A.      Error estimated,"['He84', 'Fr95']",R054131,,absl
+054132,4.787,0.0047,He84 mu-Xray      From Fr95 Table III.A.      Error estimated,"['He84', 'Fr95']",R054132,,absl
+054134,4.792,0.0047,He84 mu-Xray      From Fr95 Table III.A.      Error estimated,"['He84', 'Fr95']",R054134,,absl
+054136,4.799,0.0047,He84 mu-Xray      From Fr95 Table III.A.      Error estimated,"['He84', 'Fr95']",R054136,,absl
+055133,4.804,0.0046,Kl88 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Kl88', 'Fr95']",R055133,,absl
+056134,4.829,0.0048,"Fr95 mu-Xray      Includes  Sh82, Ku83","['Fr95', 'Sh82', 'Ku83']",R056134,,absl
+056135,4.827,0.0048,Sh82 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh82', 'Fr95']",R056135,,absl
+056136,4.833,0.0048,"Fr95 mu-Xray      Includes  Sh82, Ku83","['Fr95', 'Sh82', 'Ku83']",R056136,,absl
+056137,4.832,0.0048,Sh82 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Sh82', 'Fr95']",R056137,,absl
+056138,4.84,0.016,Ma72 mu-Xray      MIA in  En74 T.III.      Syst+Nuclpol = .001  ,"['Ma72', 'En74']",R056138,,absl
+056138,4.839,0.0048,"Fr95 mu-Xray      Includes  Sh82, Ku83","['Fr95', 'Sh82', 'Ku83']",R056138,,absl
+057139,4.855,0.0049,Re87 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Re87', 'Fr95']",R057139,,absl
+058140,4.879,0.012,Je70 mu-Xray     ,['Je70'],R058140,,absl
+058140,4.877,0.003,Ma72 mu-Xray      MIA in  En74 T.III.      Syst+Nuclpol = .001  ,"['Ma72', 'En74']",R058140,,absl
+058140,4.877,0.0049,Re87 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Re87', 'Fr95']",R058140,,absl
+058142,4.906,0.003,Ma72 mu-Xray      MIA in  En74 T.III.      Syst+Nuclpol = .001  ,"['Ma72', 'En74']",R058142,,absl
+058142,4.907,0.005,Re87 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Re87', 'Fr95']",R058142,,absl
+059141,4.892,0.005,Re87 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Re87', 'Fr95']",R059141,,absl
+060142,4.914,0.0051,Re87 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Re87', 'Fr95']",R060142,,absl
+060143,4.924,0.0053,Re87 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Re87', 'Fr95']",R060143,,absl
+060144,4.942,0.005,Ma70 mu-Xray      MIA in  En74 T.III.      Syst+Nuclpol = .001  ,"['Ma70', 'En74']",R060144,,absl
+060144,4.941,0.005,Re87 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Re87', 'Fr95']",R060144,,absl
+060145,4.953,0.0054,Re87 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Re87', 'Fr95']",R060145,,absl
+060146,4.993,0.037,Ma74 el-scatt.     ,['Ma74'],R060146,,absl
+060146,4.969,0.005,Ma70 mu-Xray      MIA in  En74 T.III.      Syst+Nuclpol = .001  ,"['Ma70', 'En74']",R060146,,absl
+060146,4.968,0.005,Re87 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Re87', 'Fr95']",R060146,,absl
+060148,4.998,0.004,Ma70 mu-Xray      MIA in  En74 T.III.      Syst+Nuclpol = .001  ,"['Ma70', 'En74']",R060148,,absl
+060148,4.998,0.0048,Re87 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Re87', 'Fr95']",R060148,,absl
+060150,5.015,0.037,Ma74 el-scatt.     ,['Ma74'],R060150,,absl
+060150,5.048,0.027,Hi70 mu-Xray      ,['Hi70'],R060150,,absl
+060150,5.039,0.004,Ma70 mu-Xray      MIA in  En74 T.III.      Syst+Nuclpol = .001  ,"['Ma70', 'En74']",R060150,,absl
+060150,5.047,0.0051,Be92 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Be92', 'Fr95']",R060150,,absl
+062144,4.949,0.0053,"Fr95 Includes Po79, Ja89, Ma92a ","['Fr95', 'Po79', 'Ja89', 'Ma92a']",R062144,,absl
+062147,4.983,0.0053,"Fr95 Includes Po79, Ja89, Ma92a ","['Fr95', 'Po79', 'Ja89', 'Ma92a']",R062147,,absl
+062148,4.994,0.0053,"Fr95 Includes Po79, Ja89, Ma92a ","['Fr95', 'Po79', 'Ja89', 'Ma92a']",R062148,,absl
+062149,5.008,0.0053,"Fr95 Includes Po79, Ja89, Ma92a ","['Fr95', 'Po79', 'Ja89', 'Ma92a']",R062149,,absl
+062150,5.047,0.0068,"Fr95 Includes Ya78, Ma92a ","['Fr95', 'Ya78', 'Ma92a']",R062150,,absl
+062152,5.092,0.0056,"Fr95 Includes Po79, Ja89, Ma92a ","['Fr95', 'Po79', 'Ja89', 'Ma92a']",R062152,,absl
+062154,5.113,0.0063,"Fr95 Includes Po79, Ja89 ","['Fr95', 'Po79', 'Ja89']",R062154,,absl
+063151,5.044,0.0053,"Fr95 Includes  Ta84b, Ja89","['Fr95', 'Ta84b', 'Ja89']",R063151,,absl
+063153,5.118,0.0055,"Fr95 Includes  Ta84b, Ja89","['Fr95', 'Ta84b', 'Ja89']",R063153,,absl
+064154,5.122,0.0062,"Fr95 Includes La83, Ja89, Ma92a ","['Fr95', 'La83', 'Ja89', 'Ma92a']",R064154,,absl
+064155,5.13,0.0058,"Fr95 Includes La83, Ja89, Be92, Ma92a ","['Fr95', 'La83', 'Ja89', 'Be92', 'Ma92a']",R064155,,absl
+064156,5.142,0.0058,"Fr95 Includes La83, Ja89, Ma92a ","['Fr95', 'La83', 'Ja89', 'Ma92a']",R064156,,absl
+064157,5.146,0.0058,"Fr95 Includes La83, Ja89, Ma92a ","['Fr95', 'La83', 'Ja89', 'Ma92a']",R064157,,absl
+064158,5.159,0.0058,"Fr95 Includes La83, Ja89, Ma92a ","['Fr95', 'La83', 'Ja89', 'Ma92a']",R064158,,absl
+064160,5.174,0.0058,"Fr95 Includes La83, Ja89, Ma92a ","['Fr95', 'La83', 'Ja89', 'Ma92a']",R064160,,absl
+065159,5.06,0.15,Wi67 mu-Xray      ,['Wi67'],R065159,,absl
+066161,5.196,0.0061,Be92 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Be92', 'Fr95']",R066161,,absl
+066162,5.211,0.026,Hi70 mu-Xray      ,['Hi70'],R066162,,absl
+066162,5.209,0.006,Be92 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Be92', 'Fr95']",R066162,,absl
+066163,5.211,0.0059,Be92 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Be92', 'Fr95']",R066163,,absl
+066164,5.218,0.029,Hi70 mu-Xray      ,['Hi70'],R066164,,absl
+066164,5.224,0.0059,Be92 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Be92', 'Fr95']",R066164,,absl
+067165,5.19,0.05,Uh71 el-scatt.     ,['Uh71'],R067165,,absl
+067165,5.21,0.04,Po76 mu-Xray      ,['Po76'],R067165,,absl
+068166,5.239,0.006,"Ma92 El+mu analysis.      Includes  Ca78, Ma92(mu)","['Ma92', 'Ca78', 'Ma92']",R068166,,absl
+068167,5.258,0.006,Ma92a mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ma92a', 'Fr95']",R068167,,absl
+068168,5.26,0.025,Hi70 mu-Xray      ,['Hi70'],R068168,,absl
+068168,5.272,0.0063,Ma92a mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ma92a', 'Fr95']",R068168,,absl
+068170,5.264,0.025,Hi70 mu-Xray      ,['Hi70'],R068170,,absl
+068170,5.286,0.0063,Ma92a mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ma92a', 'Fr95']",R068170,,absl
+069169,5.2256,0.0035,De73 mu-Xray      Model+Syst+Nuclpol = .001  ,['De73'],R069169,,absl
+070170,5.286,0.0063,Ze73 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ze73', 'Fr95']",R070170,,absl
+070171,5.14,0.03,Ad73 mu-Xray      From  En74.      Error: 2x.015 for model,"['Ad73', 'En74']",R070171,,absl
+070171,5.293,0.0063,Ze73 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ze73', 'Fr95']",R070171,,absl
+070172,5.155,0.044,Ad73 mu-Xray      From  En74.      Error: 2x.022 for model,"['Ad73', 'En74']",R070172,,absl
+070172,5.301,0.0063,Ze73 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ze73', 'Fr95']",R070172,,absl
+070173,5.306,0.0063,Ze73 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ze73', 'Fr95']",R070173,,absl
+070174,5.41,0.03,Sa79 el-scatt.      From Vr87      ,"['Sa79', 'Vr87']",R070174,,absl
+070174,5.157,0.03,Ad73 mu-Xray      From  En74.      Error: 2x.015 for model,"['Ad73', 'En74']",R070174,,absl
+070174,5.317,0.0063,Be92 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Be92', 'Fr95']",R070174,,absl
+070176,5.443,0.02,Cr77 el-scatt.      From Vr87      Includes  Co76,"['Cr77', 'Vr87', 'Co76']",R070176,,absl
+070176,5.321,0.0063,Ze73 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ze73', 'Fr95']",R070176,,absl
+071175,5.37,0.03,Sa79 el-scatt.      From Vr87      ,"['Sa79', 'Vr87']",R071175,,absl
+072176,5.331,0.0065,Ta84c mu-Xray      From Fr95 Table III.C.      Error estimated,"['Ta84c', 'Fr95']",R072176,,absl
+072177,5.334,0.0065,Ta84c mu-Xray      From Fr95 Table III.C.      Error estimated,"['Ta84c', 'Fr95']",R072177,,absl
+072178,5.338,0.0065,Ta84c mu-Xray      From Fr95 Table III.C.      Error estimated,"['Ta84c', 'Fr95']",R072178,,absl
+072179,5.339,0.0065,Ta84c mu-Xray      From Fr95 Table III.C.      Error estimated,"['Ta84c', 'Fr95']",R072179,,absl
+072180,5.349,0.0063,Ta84c mu-Xray      From Fr95 Table III.C.      Error estimated,"['Ta84c', 'Fr95']",R072180,,absl
+073181,5.328,0.034,ML76 mu-Xray      ,['ML76'],R073181,,absl
+073181,5.354,0.0064,Be92 mu-Xray      From Fr95 Table III.C.      Includes  Po77,"['Be92', 'Fr95', 'Po77']",R073181,,absl
+074182,5.355,0.002,"Ma92 El+mu analysis.      Includes  Pe86, Ma92(mu)","['Ma92', 'Pe86', 'Ma92']",R074182,,absl
+074183,5.33,0.15,Wi67 mu-Xray      ,['Wi67'],R074183,,absl
+074184,5.364,0.002,"Ma92 El+mu analysis.      Includes  Pe86, Ma92(mu)","['Ma92', 'Pe86', 'Ma92']",R074184,,absl
+074186,5.4,0.04,Ka73 el-scatt.      ,['Ka73'],R074186,,absl
+074186,5.373,0.022,Hi70 mu-Xray      ,['Hi70'],R074186,,absl
+074186,5.381,0.0065,Ma92a mu-Xray      From Fr95 Table III.C.      Error estimated,"['Ma92a', 'Fr95']",R074186,,absl
+076186,5.387,0.0072,Ho81 mu-Xray      From Fr95 Table III.C.      Error estimated,"['Ho81', 'Fr95']",R076186,,absl
+076188,5.4001,0.0013,Bo88 El+mu analysis with  Ho81(mu),"['Bo88', 'Ho81']",R076188,,absl
+076189,5.36,0.15,Wi67 mu-Xray   ,['Wi67'],R076189,,absl
+076190,5.4062,0.0014,Bo88 El+mu analysis with  Ho81(mu),"['Bo88', 'Ho81']",R076190,,absl
+076192,5.41,0.002,"Ma92 El+mu analysis.      Includes  Re84a, Ho81","['Ma92', 'Re84a', 'Ho81']",R076192,,absl
+077191,5.39,0.15,Wi67 mu-Xray   ,['Wi67'],R077191,,absl
+077193,5.41,0.15,Wi67 mu-Xray   ,['Wi67'],R077193,,absl
+078194,5.369,0.009,Bo88 el-scatt.      ,['Bo88'],R078194,,absl
+078194,5.425,0.0069,Be90 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Be90', 'Fr95']",R078194,,absl
+078195,5.427,0.0069,Be90 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Be90', 'Fr95']",R078195,,absl
+078196,5.38,0.02,Bo83 el-scatt.      From Vr87      ,"['Bo83', 'Vr87']",R078196,,absl
+078196,5.37,0.003,Bo88 el-scatt.      ,['Bo88'],R078196,,absl
+078196,5.432,0.0068,Be90 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Be90', 'Fr95']",R078196,,absl
+078198,5.441,0.0063,Be90 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Be90', 'Fr95']",R078198,,absl
+079197,5.439,0.007,Po74 mu-Xray    ,['Po74'],R079197,,absl
+079197,5.437,0.0063,Be90 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Be90', 'Fr95']",R079197,,absl
+080198,5.448,0.0065,Bu89 El+mu analysis.    From Fr95 T. III.A.    Error estimated,"['Bu89', 'Fr95']",R080198,,absl
+080199,5.449,0.0069,Gu83 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Gu83', 'Fr95']",R080199,,absl
+080200,5.457,0.0065,Bu89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Bu89', 'Fr95']",R080200,,absl
+080202,5.467,0.0066,Bu89 mu-Xray      From Fr95 Table III.A.      Error estimated,"['Bu89', 'Fr95']",R080202,,absl
+080204,5.472,0.002,"Ma92 El+mu analysis.      Includes  Bu89, Ha79?","['Ma92', 'Bu89', 'Ha79']",R080204,,absl
+081203,5.4634,0.0056,Eu78 El+mu anal. with Ba72(mu).    Error: .0074(st)+.0010(sys),"['Eu78', 'Ba72', '0074', '0010']",R081203,,absl
+081203,5.472,0.006,Ke75 mu-Xray      ,['Ke75'],R081203,,absl
+081205,5.4699,0.0056,Eu78 El+mu anal. with Ba72(mu).    Error: .0046(st)+.0010(sys),"['Eu78', 'Ba72', '0046', '0010']",R081205,,absl
+081205,5.479,0.01,Fr83 el-scatt.      From Vr87      ,"['Fr83', 'Vr87']",R081205,,absl
+081205,5.48,0.006,Ke75 mu-Xray      ,['Ke75'],R081205,,absl
+082196,5.442,0.0105,Fr95 OEM  combined analysis in Table  XII.    V2  error added,['Fr95'],R082196,,absl
+082197,5.442,0.0105,Fr95 OEM  combined analysis in Table  XII.    V2  error added,['Fr95'],R082197,,absl
+082198,5.45,0.0085,Fr95 OEM  combined analysis in Table  XII.    V2  error added,['Fr95'],R082198,,absl
+082199,5.45,0.0085,Fr95 OEM  combined analysis in Table  XII.    V2  error added,['Fr95'],R082199,,absl
+082200,5.459,0.0075,Fr95 OEM  combined analysis in Table  XII.    V2  error added,['Fr95'],R082200,,absl
+082201,5.461,0.0075,Fr95 OEM  combined analysis in Table  XII.    V2  error added,['Fr95'],R082201,,absl
+082202,5.469,0.0055,Fr95 OEM  combined analysis in Table  XII.    V2  error added,['Fr95'],R082202,,absl
+082203,5.471,0.0055,Fr95 OEM  combined analysis in Table  XII.    V2  error added,['Fr95'],R082203,,absl
+082204,5.479,0.002,"Ma92 Includes Eu78, Ke75 ","['Ma92', 'Eu78', 'Ke75']",R082204,,absl
+082205,5.482,0.0035,Fr95 OEM  combined analysis in Table  XII.    V2  error added,['Fr95'],R082205,,absl
+082206,5.49,0.002,"Ma92 Includes Eu78, Ke75 ","['Ma92', 'Eu78', 'Ke75']",R082206,,absl
+082207,5.495,0.002,"Ma92 Includes Eu78, Ke75 ","['Ma92', 'Eu78', 'Ke75']",R082207,,absl
+082208,5.4987,0.0034,"Fr77b Re-anal. of  He69, Ni69, Fr72b.   Mod+Sys+Nuclp=.002","['Fr77b', 'He69', 'Ni69', 'Fr72b']",R082208,,absl
+082208,5.502,0.002,"Ma92 Includes Eu78, Ke75, Be88 ","['Ma92', 'Eu78', 'Ke75', 'Be88']",R082208,,absl
+082209,5.511,0.0025,Fr95 OEM  combined analysis in Table  XII.    V2  error added,['Fr95'],R082209,,absl
+082210,5.523,0.0035,Fr95 OEM  combined analysis in Table  XII.    V2  error added,['Fr95'],R082210,,absl
+082211,5.533,0.0055,Fr95 OEM  combined analysis in Table  XII.    V2  error added,['Fr95'],R082211,,absl
+082212,5.545,0.0075,Fr95 OEM  combined analysis in Table  XII.    V2  error added,['Fr95'],R082212,,absl
+082214,5.565,0.0105,Fr95 OEM  combined analysis in Table  XII.    V2  error added,['Fr95'],R082214,,absl
+083209,5.527,0.02,Si73b el-scatt.    ,['Si73b'],R083209,,absl
+083209,5.5186,0.0047,Eu78 El+mu anal.      Error: .0037(stat)+.0010(syst),"['Eu78', '0037', '0010']",R083209,,absl
+083209,5.533,0.006,Ze70 mu-Xray      MIA in  En74 T.III.      Syst+Nuclp=.001  ,"['Ze70', 'En74']",R083209,,absl
+083209,5.533,0.0095,Ru84b mu-Xray      From Fr95 Table III.A.      Error estimated,"['Ru84b', 'Fr95']",R083209,,absl
+090232,5.7848,0.0124,"Cl78 mu-Xray.    Error est.: 2x,0062 (stat), rms from Ko07","['Cl78', '0062', 'Ko07']",R090232,,absl
+092233,5.8158,0.0132,"Zu84 mu-Xray.    Error est.: 2x,0066 (stat)","['Zu84', '0066']",R092233,,absl
+092234,5.8289,0.0062,"Zu84 mu-Xray.    Error est.: 2x,0031 (stat)","['Zu84', '0031']",R092234,,absl
+092235,5.8186,0.0174,"Cl78 mu-Xray.    Error est.: 2x,0087 (stat), rms from Ko07","['Cl78', '0087', 'Ko07']",R092235,,absl
+092235,5.8343,0.0056,"Zu84 mu-Xray.    Error est.: 2x,0028 (stat)","['Zu84', '0028']",R092235,,absl
+092238,5.854,0.02,Cr77 el-scatt.      From Vr87      Error estimated.,"['Cr77', 'Vr87']",R092238,,absl
+092238,5.8446,0.0124,"Cl78 mu-Xray.    Error est.: 2x,0061 (stat), rms from Ko07","['Cl78', '0061', 'Ko07']",R092238,,absl
+092238,5.8604,0.0046,"Zu84 mu-Xray.    Error est.: 2x,0023 (stat)","['Zu84', '0023']",R092238,,absl
+094239,5.8601,0.0378,"Cl78 mu-Xray.    Error est.: 2x,0189 (stat), rms from Ko07","['Cl78', '0189', 'Ko07']",R094239,,absl
+095241,5.8929,0.0035,Jo85 mu-Xray      Model+Syst+Nuclpol = .001  ,['Jo85'],R095241,,absl
+095243,5.9047,0.0035,Jo85 mu-Xray      Model+Syst+Nuclpol = .001  ,['Jo85'],R095243,,absl
+"006012,007014",0.098,0.02,"Vr87 (Be71b), el: FB","['Be71b', 'Vr87']",R007014-R006012,nan,noniso
+"006012,008016",0.271,0.024,"Vr87 (Be71b), el: FB","['Be71b', 'Vr87']",R008016-R006012,nan,noniso
+"006014,008016",0.1881416837012032,0.011648258969490607,"Fr95,   mu.  Nem differencia-mérés; 2022-ben nem került alkalmazásra",['Fr95'],R008016-R006014,No,noniso
+"007014,008016",0.166,0.02166,"Vr87 (Sc75),  el","['Sc75', 'Vr87']",R008016-R007014,nan,noniso
+"008016,010020",0.279,0.023790000000000002,"Vr87 (Fr72a),  el.   Nem került alkalmazásra; a 20Ne egy másik, nagyobb hálózatban szerepel.","['Fr72a', 'Vr87']",R010020-R008016,No,noniso
+"008018,009019",0.124,0.011800000000000001,"Fr92,   mu",['Fr92'],R009019-R008018,nan,noniso
+"008018,010020",0.2314009542042219,0.012665649818202274,"Fr95 (Fr92),  mu","['Fr92', 'Fr95']",R010020-R008018,nan,noniso
+"009019,010020",0.10614994036022095,0.004267876492363919,"Fr95 (Fr92),  mu","['Fr92', 'Fr95']",R010020-R009019,nan,noniso
+"010022,011023",0.03935879009712083,0.0031005413681787462,"Fr95 (Fr92),  mu","['Fr92', 'Fr95']",R011023-R010022,nan,noniso
+"010022,012024",0.10151990850932333,0.003025165023490951,"Fr95 (Fr92),  mu","['Fr92', 'Fr95']",R012024-R010022,nan,noniso
+"011023,012024",0.064,0.0049,"Fr92,   mu",['Fr92'],R012024-R011023,nan,noniso
+"012026,013027",0.028170118392482842,0.002401007356517295,"Fr95 (Fr92),  mu","['Fr92', 'Fr95']",R013027-R012026,nan,noniso
+"012026,014028",0.0871649460972635,0.003025348491683014,"Fr95 (Fr92),  mu","['Fr92', 'Fr95']",R014028-R012026,nan,noniso
+"013027,014028",0.06,0.0040999999999999995,"Fr92,   mu",['Fr92'],R014028-R013027,nan,noniso
+"014030,016032",0.12783809118246606,0.006840532509013322,"Fr95,   mu.   Nem differencia-mérés; 2022-ben nem került alkalmazásra.",['Fr95'],R016032-R014030,No,noniso
+"015031,016032",0.07186658765983307,0.0021701383832245904,"Fr95,   mu",['Fr95'],R016032-R015031,nan,noniso
+"016034,018036",0.10389395079893933,0.002638808516599138,"Fr95,   mu",['Fr95'],R018036-R016034,nan,noniso
+"019039,020040",0.04292911801672488,0.0031040426845081164,"Fr95 (Wo81),  mu","['Wo81', 'Fr95']",R020040-R019039,nan,noniso
+"018040,020042",0.08039856692487303,0.0032606921424632035,"Fr95,   mu.   Nem differencia-mérés; 2022-ben nem került alkalmazásra.",['Fr95'],R020042-R018040,No,noniso
+"019041,020042",0.0567,0.0066,"Wo81 + 1,   mu",['Wo81'],R020042-R019041,nan,noniso
+"020044,021045",0.02750658307939719,0.002714511960345308,"Fr95 (Wo81),  mu","['Wo81', 'Fr95']",R021045-R020044,nan,noniso
+"020044,022046",0.08704523049967099,0.00263879485800555,"Fr95 (Wo81),  mu","['Wo81', 'Fr95']",R022046-R020044,nan,noniso
+"021045,022046",0.0596,0.0058,"Wo81 + 1,   mu",['Wo81'],R022046-R021045,nan,noniso
+"020046,022048",0.0931,0.0086,"Wo81 + 1,   mu",['Wo81'],R022048-R020046,nan,noniso
+"022048,024050",0.0689,0.0059,"Wo81 + 1,   mu",['Wo81'],R024050-R022048,nan,noniso
+"020048,022050",0.0937,0.0034,"Wo81 + 1,   mu",['Wo81'],R022050-R020048,nan,noniso
+"022050,023051",0.028059537613919997,0.002325330788343092,"Fr95 (Wo81),  mu","['Wo81', 'Fr95']",R023051-R022050,nan,noniso
+"022050,024052",0.06945178059360044,0.00217128279709884,"Fr95 (Wo81),  mu","['Wo81', 'Fr95']",R024052-R022050,nan,noniso
+"023051,024052",0.0419,0.0055,"Wo81 + 1,   mu",['Wo81'],R024052-R023051,nan,noniso
+"024052,026054",0.0515,0.0057,"Wo81 + 1,   mu",['Wo81'],R026054-R024052,nan,noniso
+"024054,025055",0.019334700438827623,0.0020916462615441175,"Fr95 (Wo81),  mu","['Wo81', 'Fr95']",R025055-R024054,nan,noniso
+"024054,026056",0.0497430283212968,0.0022484654221990434,"Fr95 (Wo81),  mu","['Wo81', 'Fr95']",R026056-R024054,nan,noniso
+"025055,026056",0.0316,0.0055,"Wo81 + 1,   mu",['Wo81'],R026056-R025055,nan,noniso
+"026056,028058",0.0386,0.002,"Vr87 (Wo80),  el(FB)+mu","['Wo80', 'Vr87']",R028058-R026056,nan,noniso
+"026058,027059",0.012788811022720656,0.002247754421200493,"Fr95,   mu",['Fr95'],R027059-R026058,nan,noniso
+"026058,027059",0.012,0.0033,"Vr87 (Sc77),  el(FB)+mu","['Sc77', 'Vr87']",R027059-R026058,nan,noniso
+"026058,028060",0.036808866451504926,0.0021703522811278063,"Fr95,   mu",['Fr95'],R028060-R026058,nan,noniso
+"027059,028060",0.0252,0.0033,"Vr87 (Sc77),  el(FB)+mu","['Sc77', 'Vr87']",R028060-R027059,nan,noniso
+"028062,029063",0.04055869000547241,0.0019368481288262575,"Fr95,   mu",['Fr95'],R029063-R028062,nan,noniso
+"028062,029063",0.0419,0.0017000000000000001,"Vr87 (Sc77),  el(FB)+mu","['Sc77', 'Vr87']",R029063-R028062,nan,noniso
+"028062,030064",0.08517769490981066,0.0018622346187253053,"Fr95,   mu",['Fr95'],R030064-R028062,nan,noniso
+"029063,030064",0.0473,0.0017000000000000001,"Vr87 (Sc77),  el(FB)+mu","['Sc77', 'Vr87']",R030064-R029063,nan,noniso
+"028064,029065",0.044,0.003,"Vr87 (Sc77),  el(FB)+mu","['Sc77', 'Vr87']",R029065-R028064,nan,noniso
+"028064,030066",0.0938,0.006,"Vr87 (Wo80),  el(FB)+mu","['Wo80', 'Vr87']",R030066-R028064,nan,noniso
+"029065,030066",0.0497,0.003,"Vr87 (Sc77),  el(FB)+mu","['Sc77', 'Vr87']",R030066-R029065,nan,noniso
+"030068,031069",0.031205364659553873,0.0018587147109677547,"Fr95,   mu",['Fr95'],R031069-R030068,nan,noniso
+"030068,032070",0.07294613087817453,0.0018612844059825702,"Fr95,   mu",['Fr95'],R032070-R030068,nan,noniso
+"032074,033075",0.02278430977063382,0.0017806171612310836,"Fr95,   mu",['Fr95'],R033075-R032074,nan,noniso
+"032074,034076",0.06585908630855532,0.0019386983007501067,"Fr95,   mu",['Fr95'],R034076-R032074,nan,noniso
+"034078,035079",0.02239825869998633,0.0017807484812567115,"Fr95,   mu",['Fr95'],R035079-R034078,nan,noniso
+"034080,035081",0.019744806449813735,0.0017026618885816673,"Fr95,   mu",['Fr95'],R035081-R034080,nan,noniso
+"034080,036082",0.05127632903036407,0.0018600377263919437,"Fr95,   mu",['Fr95'],R036082-R034080,nan,noniso
+"036086,037087",0.014206238612230028,0.001702649931175406,"Fr95,   mu",['Fr95'],R037087-R036086,nan,noniso
+"036086,038088",0.03879559073479904,0.0017036062222791507,"Fr95,   mu",['Fr95'],R038088-R036086,nan,noniso
+"038088,039089",0.01826818216034472,0.0015467893360815322,"Fr95,   mu",['Fr95'],R039089-R038088,nan,noniso
+"038088,040090",0.04559421472140429,0.001548404630426957,"Fr95,   mu",['Fr95'],R040090-R038088,nan,noniso
+"040090,042092",0.054,0.02354,"Vr87 (Ph72),   el","['Ph72', 'Vr87']",R042092-R040090,nan,noniso
+"040090,042092",0.05,0.006,"Vr87 (Dr75),  el(FB)","['Dr75', 'Vr87']",R042092-R040090,nan,noniso
+"040092,041093",0.018114900357616655,0.0015468703767976583,"Fr95,   mu",['Fr95'],R041093-R040092,nan,noniso
+"040092,042094",0.04622600017828018,0.0016263837049950063,"Fr95,   mu",['Fr95'],R042094-R040092,nan,noniso
+"042100,044102",0.036236595393181366,0.0017818013446187797,"Fr95,   mu",['Fr95'],R044102-R042100,nan,noniso
+"044102,045103",0.012262411486256165,0.0017030477331786728,"Fr95,   mu",['Fr95'],R045103-R044102,nan,noniso
+"044102,046104",0.026868904877005027,0.0019376724213118412,"Fr95,   mu",['Fr95'],R046104-R044102,nan,noniso
+"046108,047109",0.007889652138279432,0.0017030825776726834,"Fr95,   mu",['Fr95'],R047109-R046108,nan,noniso
+"046108,048110",0.01640478217289304,0.0017032534562062404,"Fr95,   mu",['Fr95'],R048110-R046108,nan,noniso
+"048114,049115",0.003828163570063033,0.001703142505332008,"Fr95,   mu.   Nem differencia-mérés; 2022-ben nem került alkalmazásra.",['Fr95'],R049115-R048114,No,noniso
+"048114,050116",0.014219356171847882,0.0016251883691699499,"Fr95,   mu.   Nem differencia-mérés; 2022-ben nem került alkalmazásra.",['Fr95'],R050116-R048114,No,noniso
+"050122,052124",0.051649398046981085,0.00178308787595109,"Fr95,   mu",['Fr95'],R052124-R050122,nan,noniso
+"051123,052124",0.029693466718406697,0.0016258304376189736,"Fr95,   mu",['Fr95'],R052124-R051123,nan,noniso
+"052126,053127",0.021802593535980262,0.001469379615847252,"Fr95,   mu",['Fr95'],R053127-R052126,nan,noniso
+"052126,054128",0.047748343953320574,0.0016270036381418609,"Fr95,   mu",['Fr95'],R054128-R052126,nan,noniso
+"054132,055133",0.017194064520338715,0.0014692441510097802,"Fr95,   mu",['Fr95'],R055133-R054132,nan,noniso
+"054132,056134",0.04204853315682768,0.0014708241507650705,"Fr95,   mu",['Fr95'],R056134-R054132,nan,noniso
+"056138,057139",0.015398282327737984,0.0014692359384803583,"Fr95,   mu",['Fr95'],R057139-R056138,nan,noniso
+"056138,058140",0.03744155288922978,0.0014704886553608388,"Fr95,   mu",['Fr95'],R058140-R056138,nan,noniso
+"058140,059141",0.014618277972780619,0.0014692634030865428,"Fr95,   mu",['Fr95'],R059141-R058140,nan,noniso
+"058140,060142",0.03572586125499339,0.0014704070989412761,"Fr95,   mu",['Fr95'],R060142-R058140,nan,noniso
+"060142,062144",0.03355851665715742,0.002783867750222788,"Fr95,   mu",['Fr95'],R062144-R060142,nan,noniso
+"062152,063153",0.02865555175324809,0.0031751941903888255,"Fr95,   mu",['Fr95'],R063153-R062152,nan,noniso
+"062152,064154",0.03367621784507777,0.0031758373417521838,"Fr95,   mu",['Fr95'],R064154-R062152,nan,noniso
+"064160,066162",0.028227007089041026,0.0029418524159934402,"Fr95,   mu",['Fr95'],R066162-R064160,nan,noniso
+"066164,068166",0.02802439149179905,0.002864519259845225,"Fr95,   mu",['Fr95'],R068166-R066164,nan,noniso
+"070174,072176",0.020010517226664734,0.0032559205962759117,"Fr95,   mu",['Fr95'],R072176-R070174,nan,noniso
+"072180,073181",0.009723485361443997,0.0027842876761688326,"Fr95,   mu",['Fr95'],R073181-R072180,nan,noniso
+"072180,074182",0.017639109931872107,0.0027844068043140547,"Fr95,   mu",['Fr95'],R074182-R072180,nan,noniso
+"074186,076188",0.016133774009571646,0.003409954950593777,"Fr95,   mu.   Nem differencia-mérés; 2022-ben nem került alkalmazásra.",['Fr95'],R076188-R074186,No,noniso
+"076192,078194",0.016352654710588003,0.003252118156892099,"Fr95,   mu.   Nem differencia-mérés; 2022-ben nem került alkalmazásra.",['Fr95'],R078194-R076192,No,noniso
+"078196,079197",0.004460096594549813,0.001782485797935174,"Fr95,   mu",['Fr95'],R079197-R078196,nan,noniso
+"078196,080198",0.014945546790120346,0.0017826320776961745,"Fr95,   mu.   Nem differencia-mérés; 2022-ben nem került alkalmazásra.",['Fr95'],R080198-R078196,No,noniso
+"080202,081203",0.004773479388179951,0.002252069266803481,"Fr95,   mu.   Nem differencia-mérés; 2022-ben nem került alkalmazásra.",['Fr95'],R081203-R080202,No,noniso
+"081203,082204",0.015,0.013000000000000001,"Vr87 (Eu78),   el(FB)","['Eu78', 'Vr87']",R082204-R081203,nan,noniso
+"080204,082206",0.01377294154725124,0.001704432803191878,"Fr95,   mu.   Nem differencia-mérés; 2022-ben nem került alkalmazásra.",['Fr95'],R082206-R080204,No,noniso
+"081205,082206",0.029,0.013000000000000001,"Vr87 (Eu78),   el(FB)","['Eu78', 'Vr87']",R082206-R081205,nan,noniso
+"082208,083209",0.014712891707077586,0.00373914169384755,"Fr95,   mu",['Fr95'],R083209-R082208,nan,noniso
+"002003,002004",-0.271,0.0152,Vr87 (Gu82) MI,"['Gu82', 'Vr87']",R002004-R002003,nan,isoe
+"003006,003007",-0.08,0.030199999999999998,"Vr87 (Be65) MI, +10","['Be65', 'Vr87']",R003007-R003006,nan,isoe
+"003006,003007",-0.13,0.030199999999999998,"Vr87 (Su67) MI, + 10","['Su67', 'Vr87']",R003007-R003006,nan,isoe
+"006012,006013",-0.023,0.01123,Ja74,['Ja74'],R006013-R006012,nan,isoe
+"006012,006013",-0.012,0.02012,Vr87 (Ya71),"['Ya71', 'Vr87']",R006013-R006012,nan,isoe
+"006012,006014",0.12,0.0522,Vr87 (Kl73),"['Kl73', 'Vr87']",R006014-R006012,nan,isoe
+"007014,007015",0.04,0.013399999999999999,Vr87 (Sc75),"['Sc75', 'Vr87']",R007015-R007014,nan,isoe
+"008016,008017",-0.013,0.021130000000000003,Vr87 (Si70a) + 5,"['Si70a', 'Vr87']",R008017-R008016,nan,isoe
+"008016,008017",0.004,0.01604,Vr87 (Ki78),"['Ki78', 'Vr87']",R008017-R008016,nan,isoe
+"008016,008017",-0.008,0.0072,Vr87 (Mi79)  FB,"['Mi79', 'Vr87']",R008017-R008016,nan,isoe
+"008016,008018",0.053,0.01353,Vr87 (Si70a),"['Si70a', 'Vr87']",R008018-R008016,nan,isoe
+"008016,008018",0.07,0.0127,Vr87 (Sc75),"['Sc75', 'Vr87']",R008018-R008016,nan,isoe
+"008016,008018",0.074,0.0052,Vr87 (Mi79)   FB,"['Mi79', 'Vr87']",R008018-R008016,nan,isoe
+"010020,010022",-0.073,0.028730000000000002,Vr87 (Mo71),"['Mo71', 'Vr87']",R010022-R010020,nan,isoe
+"010020,010022",-0.053,0.010529999999999998,Vr87 (Kn81),"['Kn81', 'Vr87']",R010022-R010020,nan,isoe
+"012024,012025",0.016,0.03316,Vr87 (Le76),"['Le76', 'Vr87']",R012025-R012024,nan,isoe
+"012024,012026",-0.05,0.0465,Vr87 (Kh70a) + 5,"['Kh70a', 'Vr87']",R012026-R012024,nan,isoe
+"012024,012026",-0.019,0.033190000000000004,Vr87 (Le76),"['Le76', 'Vr87']",R012026-R012024,nan,isoe
+"014028,014029",-0.052,0.026520000000000002,Vr87 (Br77),"['Br77', 'Vr87']",R014029-R014028,nan,isoe
+"014028,014030",0.03,0.12129999999999999,Vr87 (Br77),"['Br77', 'Vr87']",R014030-R014028,nan,isoe
+"016032,016034",0.032,0.0102,Vr87 (Ry83a)   FB,"['Ry83a', 'Vr87']",R016034-R016032,nan,isoe
+"016032,016036",0.034,0.0104,Vr87 (Ry83a)   FB,"['Ry83a', 'Vr87']",R016036-R016032,nan,isoe
+"016034,016036",-0.007,0.0122,Vr87 (Ry83a)   FB,"['Ry83a', 'Vr87']",R016036-R016034,nan,isoe
+"020040,020042",0.03,0.011300000000000001,Vr87 (Fr68) est.,"['Fr68', 'Vr87']",R020042-R020040,nan,isoe
+"020040,020044",0.028,0.011280000000000002,Vr87 (Fr68) est.,"['Fr68', 'Vr87']",R020044-R020040,nan,isoe
+"020040,020048",-0.0107,0.0061070000000000004,Vr87 (Fr68),"['Fr68', 'Vr87']",R020048-R020040,nan,isoe
+"020040,020048",-0.0014,0.0034,Vr87 (Em83b)   FB,"['Em83b', 'Vr87']",R020048-R020040,nan,isoe
+"022046,022048",-0.005,0.03305,Vr87 (Th67) + 5,"['Th67', 'Vr87']",R022048-R022046,nan,isoe
+"022046,022048",-0.015,0.01115,Vr87 (Ro71),"['Ro71', 'Vr87']",R022048-R022046,nan,isoe
+"022046,022048",0.003,0.01603,Vr87 (He72),"['He72', 'Vr87']",R022048-R022046,nan,isoe
+"022046,022050",0.003,0.02703,Vr87 (Th67) + 5,"['Th67', 'Vr87']",R022050-R022046,nan,isoe
+"022046,022050",-0.03,0.0163,Vr87 (Ro71),"['Ro71', 'Vr87']",R022050-R022046,nan,isoe
+"022046,022050",-0.013,0.01613,Vr87 (He72),"['He72', 'Vr87']",R022050-R022046,nan,isoe
+"022048,022050",-0.02,0.011200000000000002,Vr87 (Ro71),"['Ro71', 'Vr87']",R022050-R022048,nan,isoe
+"022048,022050",-0.016,0.01616,Vr87 (He72),"['He72', 'Vr87']",R022050-R022048,nan,isoe
+"024050,024052",-0.037,0.012369999999999999,Vr87 (La76),"['La76', 'Vr87']",R024052-R024050,nan,isoe
+"024050,024052",-0.028,0.01828,Vr87 (Sh78b) + 5,"['Sh78b', 'Vr87']",R024052-R024050,nan,isoe
+"024050,024053",0.027,0.01827,Vr87 (Sh78b) + 5,"['Sh78b', 'Vr87']",R024053-R024050,nan,isoe
+"024050,024054",0.033,0.007330000000000001,Vr87 (La76),"['La76', 'Vr87']",R024054-R024050,nan,isoe
+"024050,024054",0.068,0.018680000000000002,Vr87 (Sh78b) + 5,"['Sh78b', 'Vr87']",R024054-R024050,nan,isoe
+"024052,024054",0.048,0.01048,Vr87 (La76),"['La76', 'Vr87']",R024054-R024052,nan,isoe
+"026054,026056",0.0445,0.001,Vr87 (Wo80)  FB+mu,"['Wo80', 'Vr87']",R026056-R026054,nan,isoe
+"026056,026058",0.0382,0.0012000000000000001,Vr87 (Wo80)  FB+mu,"['Wo80', 'Vr87']",R026058-R026056,nan,isoe
+"028058,028060",0.0373,0.0013000000000000002,Vr87 (Wo80)  FB+mu,"['Wo80', 'Vr87']",R028060-R028058,nan,isoe
+"028058,028062",0.061,0.014609999999999998,Vr87 (Li71b) + 5,"['Li71b', 'Vr87']",R028062-R028058,nan,isoe
+"028058,028062",0.079,0.00779,Vr87 (Ke77),"['Ke77', 'Vr87']",R028062-R028058,nan,isoe
+"028058,028064",0.082,0.01682,Vr87 (Kh70b) est,"['Kh70b', 'Vr87']",R028064-R028058,nan,isoe
+"028060,028062",0.0286,0.001,Vr87 (Wo80)  FB+mu,"['Wo80', 'Vr87']",R028062-R028060,nan,isoe
+"028060,028064",0.043,0.01643,Vr87 (Kh70b) est,"['Kh70b', 'Vr87']",R028064-R028060,nan,isoe
+"028062,028064",0.0181,0.0007999999999999999,Vr87 (Wo80)  FB+mu,"['Wo80', 'Vr87']",R028064-R028062,nan,isoe
+"029063,029065",0.0202,0.0018019999999999998,Vr87 (Sc77),"['Sc77', 'Vr87']",R029065-R029063,nan,isoe
+"030064,030066",0.018,0.01218,Vr87 (Ke77),"['Ke77', 'Vr87']",R030066-R030064,nan,isoe
+"030064,030066",0.0225,0.0032,Vr87 (Wo80)  FB+mu,"['Wo80', 'Vr87']",R030066-R030064,nan,isoe
+"030066,030068",-0.016,0.010159999999999999,Vr87 (Ne72),"['Ne72', 'Vr87']",R030068-R030066,nan,isoe
+"030066,030068",0.007,0.01407,Vr87 (Ke77),"['Ke77', 'Vr87']",R030068-R030066,nan,isoe
+"030066,030068",0.0144,0.0032,Vr87 (Wo80)  FB+mu,"['Wo80', 'Vr87']",R030068-R030066,nan,isoe
+"030068,030070",0.047,0.01647,Vr87 (Ne72),"['Ne72', 'Vr87']",R030070-R030068,nan,isoe
+"030068,030070",0.026,0.01726,Vr87 (Ke77),"['Ke77', 'Vr87']",R030070-R030068,nan,isoe
+"030068,030070",0.0173,0.0027,Vr87 (Wo80)  FB+mu,"['Wo80', 'Vr87']",R030070-R030068,nan,isoe
+"032070,032072",0.0168,0.0026,Vr87 (Ma84) FB,"['Ma84', 'Vr87']",R032072-R032070,nan,isoe
+"032070,032076",0.0383,0.003,Vr87 (Ma84) FB,"['Ma84', 'Vr87']",R032076-R032070,nan,isoe
+"032072,032074",0.0151,0.0026,Vr87 (Ma84) FB,"['Ma84', 'Vr87']",R032074-R032072,nan,isoe
+"032074,032076",0.0064,0.0026,Vr87 (Ma84) FB,"['Ma84', 'Vr87']",R032076-R032074,nan,isoe
+"040090,040092",0.0378,0.0022,Ro76   FB,['Ro76'],R040092-R040090,nan,isoe
+"040092,040094",0.0211,0.005999999999999999,Ro76   FB,['Ro76'],R040094-R040092,nan,isoe
+"042092,042094",0.04,0.0052,Vr87 (Dr75)  FB,"['Dr75', 'Vr87']",R042094-R042092,nan,isoe
+"042094,042096",0.028,0.0052,Vr87 (Dr75)  FB,"['Dr75', 'Vr87']",R042096-R042094,nan,isoe
+"042096,042098",0.028,0.0052,Vr87 (Dr75)  FB,"['Dr75', 'Vr87']",R042098-R042096,nan,isoe
+"042098,042100",0.039,0.0052,Vr87 (Dr75)  FB,"['Dr75', 'Vr87']",R042100-R042098,nan,isoe
+"048110,048112",0.03,0.0163,Vr87 (Gi75),"['Gi75', 'Vr87']",R048112-R048110,nan,isoe
+"048110,048116",0.061,0.01861,Vr87 (Gi75),"['Gi75', 'Vr87']",R048116-R048110,nan,isoe
+"048112,048114",0.021,0.01721,Vr87 (Gi75),"['Gi75', 'Vr87']",R048114-R048112,nan,isoe
+"048114,048116",0.01,0.0171,Vr87 (Gi75),"['Gi75', 'Vr87']",R048116-R048114,nan,isoe
+"050112,050118",0.019,0.01619,Vr87 (Kh70b) est,"['Kh70b', 'Vr87']",R050118-R050112,nan,isoe
+"050116,050118",-0.004,0.012039999999999999,Vr87 (Li72b) + 5,"['Li72b', 'Vr87']",R050118-R050116,nan,isoe
+"050116,050124",0.015,0.013150000000000002,Vr87 (Li72b) + 5,"['Li72b', 'Vr87']",R050124-R050116,nan,isoe
+"050118,050124",0.019,0.014189999999999998,Vr87 (Li72b) + 5,"['Li72b', 'Vr87']",R050124-R050118,nan,isoe
+"060142,060146",0.0527,0.009527,"Vr87 (Ma74),+K-X-rays","['Ma74', 'Vr87']",R060146-R060142,nan,isoe
+"060142,060150",0.115,0.012150000000000001,"Vr87 (Ma74),+K-X-rays","['Ma74', 'Vr87']",R060150-R060142,nan,isoe
+"060146,060150",0.067,0.009670000000000002,"Vr87 (Ma74),+K-X-rays","['Ma74', 'Vr87']",R060150-R060146,nan,isoe
+"062148,062150",0.03,0.0713,Vr87 (Ca73),"['Ca73', 'Vr87']",R062150-R062148,nan,isoe
+"062148,062152",0.17,0.07270000000000001,Vr87 (Ca73),"['Ca73', 'Vr87']",R062152-R062148,nan,isoe
+"062148,062152",0.12,0.0208,Vr87 (Ho80)   FB,"['Ho80', 'Vr87']",R062152-R062148,nan,isoe
+"062152,062154",0.03,0.0204,Vr87 (Ho80)   FB,"['Ho80', 'Vr87']",R062154-R062152,nan,isoe
+"082206,082207",0.005,0.00805,Vr87 (Ja73),"['Ja73', 'Vr87']",R082207-R082206,nan,isoe
+"082206,082208",0.013,0.00513,Vr87 (Ja73),"['Ja73', 'Vr87']",R082208-R082206,nan,isoe
+"082207,082208",0.008,0.00808,Vr87 (Ja73),"['Ja73', 'Vr87']",R082208-R082207,nan,isoe
+"006012,006013",-0.00225294687346084,0.013952997657306863,Fr95 (Sc82),"['Sc82', 'Fr95']",R006013-R006012,nan,isom
+"006012,006014",0.021519527032712163,0.010709375662109036,Fr95 (Sc82),"['Sc82', 'Fr95']",R006014-R006012,nan,isom
+"008016,008018",0.076,0.0052,Ba80,['Ba80'],R008018-R008016,nan,isom
+"008016,008018",0.07664661626118587,0.006884113535328934,Fr95,['Fr95'],R008018-R008016,nan,isom
+"010020,010021",-0.03834307864042721,0.0034271183813940082,Fr95 (Fr92),"['Fr92', 'Fr95']",R010021-R010020,nan,isom
+"010020,010022",-0.052109254947436574,0.003440884557701018,Fr95 (Fr92),"['Fr92', 'Fr95']",R010022-R010020,nan,isom
+"010021,010022",-0.013999501329162065,0.00565825001822552,Fr92  Redund.,['Fr92'],R010022-R010021,nan,isom
+"012024,012025",-0.028556246186812358,0.0016291350782375548,Fr95 (Fr92),"['Fr92', 'Fr95']",R012025-R012024,nan,isom
+"012024,012026",-0.023265170599065108,0.0016238440026498076,Fr95 (Fr92),"['Fr92', 'Fr95']",R012026-R012024,nan,isom
+"012025,012026",0.005446695457975109,0.0025397447488758793,Fr92  Red.,['Fr92'],R012026-R012025,nan,isom
+"014028,014029",-0.004047725356453922,0.005497227037642351,Fr95 (Fr92),"['Fr92', 'Fr95']",R014029-R014028,nan,isom
+"014028,014030",0.010742040369050793,0.005503921352654947,Fr95 (Fr92),"['Fr92', 'Fr95']",R014030-R014028,nan,isom
+"014029,014030",0.014789765725504713,0.004885242100095414,Fr92  Red.,['Fr92'],R014030-R014029,nan,isom
+"016032,016034",0.022504036339293952,0.0020134827069405426,Fr95 (Sc85),"['Sc85', 'Fr95']",R016034-R016032,nan,isom
+"016032,016036",0.03768842072047845,0.002150798453469499,Fr92  Red.,['Fr92'],R016036-R016032,nan,isom
+"016034,016036",0.01479504119192336,0.001850036436088716,Fr95 (Sc85),"['Sc85', 'Fr95']",R016036-R016034,nan,isom
+"018036,018038",0.011606179502980738,0.001535801156353132,Fr95,['Fr95'],R018038-R018036,nan,isom
+"018038,018040",0.025081810737985225,0.0015492767875881367,Fr95,['Fr95'],R018040-R018038,nan,isom
+"019039,019041",0.0171,0.0050999999999999995,Wo81+ 1,['Wo81'],R019041-R019039,nan,isom
+"020040,020042",0.03038757718561698,0.001321223681284688,Fr95  (Wo81),"['Wo81', 'Fr95']",R020042-R020040,nan,isom
+"020040,020044",0.03629367552066766,0.002103714577500676,En74(67EF1) R,['En74'],R020044-R020040,nan,isom
+"013040,013044",0.03957444204505222,0.0037627380120032225,En74(70MB1) R,['En74'],R013044-R013040,nan,isom
+"020040,020048",-0.003436133727912074,0.004400571286605222,En74(67EF1) R,['En74'],R020048-R020040,nan,isom
+"020042,020043",-0.013869201894973903,0.001304705305994045,Fr95  (Wo81),"['Wo81', 'Fr95']",R020043-R020042,nan,isom
+"020042,020044",0.00997335866604865,0.0013008094627651196,Fr95  (Wo81),"['Wo81', 'Fr95']",R020044-R020042,nan,isom
+"020043,020044",0.0234,0.004699999999999999,"Wo81+1, Red",['Wo81'],R020044-R020043,nan,isom
+"020044,020046",-0.019868800467518797,0.004271545758549782,Fr95  (Wo81),"['Wo81', 'Fr95']",R020046-R020044,nan,isom
+"020046,020048",-0.019868800467518797,0.004271545758549782,Fr95  (Wo81),"['Wo81', 'Fr95']",R020048-R020046,nan,isom
+"022046,022047",-0.010677519841550789,0.0013018109343065948,Fr95  (Wo81),"['Wo81', 'Fr95']",R022047-R022046,nan,isom
+"022046,022048",-0.014340610590112006,0.0013834121260883736,Fr95  (Wo81),"['Wo81', 'Fr95']",R022048-R022046,nan,isom
+"022047,022048",-0.0028,0.004699999999999999,"Wo81+1, Red",['Wo81'],R022048-R022047,nan,isom
+"022048,022049",-0.018237515641772877,0.001465247132173252,Fr95  (Wo81),"['Wo81', 'Fr95']",R022049-R022048,nan,isom
+"022048,022050",-0.02127710158206836,0.00139034861708033,Fr95  (Wo81),"['Wo81', 'Fr95']",R022050-R022048,nan,isom
+"022049,022050",-0.0027,0.0048,"Wo81+1, Red",['Wo81'],R022050-R022049,nan,isom
+"024050,024052",-0.019411490745245834,0.0012328628147942253,Fr95  (Wo81),"['Wo81', 'Fr95']",R024052-R024050,nan,isom
+"024052,024053",0.017150714714675035,0.001074686450448427,Fr95  (Wo81),"['Wo81', 'Fr95']",R024053-R024052,nan,isom
+"024052,024054",0.045215520611416,0.0011807090505027817,Fr95  (Wo81),"['Wo81', 'Fr95']",R024054-R024052,nan,isom
+"024053,024054",0.0282,0.0046,"Wo81+1, Red",['Wo81'],R024054-R024053,nan,isom
+"026054,026056",0.04343271730613096,0.0012571227082930295,Fr95,['Fr95'],R026056-R026054,nan,isom
+"026056,026057",0.01637499216209605,0.0013080411363018327,Fr95,['Fr95'],R026057-R026056,nan,isom
+"026056,026058",0.03727260120705672,0.0012509625921939553,Fr95,['Fr95'],R026058-R026056,nan,isom
+"028058,028060",0.03735881339035877,0.001095285634463316,Fr95,['Fr95'],R028060-R028058,nan,isom
+"028060,028061",0.010919068631837637,0.0011468392370750635,Fr95,['Fr95'],R028061-R028060,nan,isom
+"028060,028062",0.02940349195859135,0.0010873303130315487,Fr95,['Fr95'],R028062-R028060,nan,isom
+"028062,028064",0.018640410021494247,0.0010765672310944516,Fr95,['Fr95'],R028064-R028062,nan,isom
+"029063,029065",0.019734392685148438,0.0010777514659524722,Fr95,['Fr95'],R029065-R029063,nan,isom
+"030064,030066",0.020672521695248535,0.0010007676800065138,Fr95,['Fr95'],R030066-R030064,nan,isom
+"030066,030068",0.016850055419523332,0.0009969452137307889,Fr95,['Fr95'],R030068-R030066,nan,isom
+"030068,030070",0.018098207672821356,0.0017782885242953524,Fr95,['Fr95'],R030070-R030068,nan,isom
+"031069,031071",0.014589226175634906,0.0008387272443846149,Fr95,['Fr95'],R031071-R031069,nan,isom
+"032070,032072",0.016385202553216714,0.0008405833950567107,Fr95,['Fr95'],R032072-R032070,nan,isom
+"032072,032073",0.0061639571509720026,0.0009083869237174028,Fr95,['Fr95'],R032073-R032072,nan,isom
+"032072,032074",0.017789648486349577,0.000998037389115717,Fr95,['Fr95'],R032074-R032072,nan,isom
+"032074,032076",0.007490378310041927,0.0009877381189394095,Fr95,['Fr95'],R032076-R032074,nan,isom
+"034076,034077",7.803921911212562e-05,0.001058509449452494,Fr95,['Fr95'],R034077-R034076,nan,isom
+"034076,034078",0.0014827451631303865,0.0010599141553965122,Fr95,['Fr95'],R034078-R034076,nan,isom
+"034078,034080",-0.0003901960955606281,0.0009027431681046912,Fr95,['Fr95'],R034080-R034078,nan,isom
+"034080,034082",7.803921911212562e-05,0.0009024310112282427,Fr95,['Fr95'],R034082-R034080,nan,isom
+"035079,035081",-0.0030438003534006067,0.0009054592665227714,Fr95,['Fr95'],R035081-R035079,nan,isom
+"036078,036080",-0.005541758263390419,0.0011421769577096585,Fr95,['Fr95'],R036080-R036078,nan,isom
+"036080,036082",-0.0054637053301032305,0.0010640459714891823,Fr95,['Fr95'],R036082-R036080,nan,isom
+"036082,036083",-0.006322287596262308,0.0009868516204681523,Fr95,['Fr95'],R036083-R036082,nan,isom
+"036082,036084",-0.003980699597646639,0.0009845100324695367,Fr95,['Fr95'],R036084-R036082,nan,isom
+"036084,036086",-0.004449017197369773,0.0009069254167820707,Fr95,['Fr95'],R036086-R036084,nan,isom
+"037085,037087",-0.004995810476915772,0.0007514125813895782,Fr95,['Fr95'],R037087-R037085,nan,isom
+"038084,038086",-0.010538908244957101,0.0009131327912420971,Fr95,['Fr95'],R038086-R038084,nan,isom
+"038086,038087",-0.006947872842971719,0.0009095417558401119,Fr95,['Fr95'],R038087-R038086,nan,isom
+"038086,038088",-0.007182070803970765,0.0007536439798017464,Fr95,['Fr95'],R038088-R038086,nan,isom
+"040090,040091",0.014912982221833243,0.0007614620688858786,Fr95,['Fr95'],R040091-R040090,nan,isom
+"040090,040092",0.03552569063316296,0.0007039963363452019,Fr95,['Fr95'],R040092-R040090,nan,isom
+"040092,040094",0.025297414868450104,0.0006937680605804891,Fr95,['Fr95'],R040094-R040092,nan,isom
+"040094,040096",0.018660747387529555,0.0007652098340515751,Fr95,['Fr95'],R040096-R040094,nan,isom
+"042092,042094",0.035687288964853806,0.0007823197238750871,Fr95 (Sc80),"['Sc80', 'Fr95']",R042094-R042092,nan,isom
+"042092,042096",0.06761843219839586,0.002021616354300345,En74/70MB1+1 R,['En74'],R042096-R042092,nan,isom
+"042094,042095",0.00999556452407284,0.0007566279994343062,Fr95 (Sc80),"['Sc80', 'Fr95']",R042095-R042094,nan,isom
+"042094,042096",0.03139231983341626,0.0007780247547436495,Fr95 (Sc80),"['Sc80', 'Fr95']",R042096-R042094,nan,isom
+"042095,042096",0.021334283031067967,0.0015801063355222196,En74/70MB1+1 R,['En74'],R042096-R042095,nan,isom
+"042096,042097",0.003201704261617081,0.0007498341391718504,Fr95 (Sc80),"['Sc80', 'Fr95']",R042097-R042096,nan,isom
+"042096,042098",0.024051827136050266,0.0007706842620462836,Fr95 (Sc80),"['Sc80', 'Fr95']",R042098-R042096,nan,isom
+"042098,042100",0.036780553834674275,0.0008615033365892268,Fr95 (Sc80),"['Sc80', 'Fr95']",R042100-R042098,nan,isom
+"044096,044098",0.03077209096649949,0.0007774843670210589,Fr95,['Fr95'],R044098-R044096,nan,isom
+"044098,044099",0.011715263058311989,0.0007584275391128714,Fr95,['Fr95'],R044099-R044098,nan,isom
+"044098,044100",0.030459683951611173,0.0007771719600061706,Fr95,['Fr95'],R044100-R044098,nan,isom
+"044100,044101",0.008122582387096311,0.0010672418733299754,Fr95,['Fr95'],R044101-R044100,nan,isom
+"044100,044102",0.02796042783250461,0.0010089779650533039,Fr95,['Fr95'],R044102-R044100,nan,isom
+"044102,044104",0.028663343616003336,0.0009315791271147226,Fr95,['Fr95'],R044104-R044102,nan,isom
+"046102,046104",0.02499606369643804,0.0011623484523128646,Fr95,['Fr95'],R046104-R046102,nan,isom
+"046104,046105",0.007342593710828675,0.001379033079481362,Fr95,['Fr95'],R046105-R046104,nan,isom
+"046104,046106",0.02382437321066751,0.0010830640627757253,Fr95,['Fr95'],R046106-R046104,nan,isom
+"046106,046108",0.02398059860877025,0.001005107589122459,Fr95,['Fr95'],R046108-R046106,nan,isom
+"046108,046110",0.02163721763722918,0.0010808769072022872,Fr95,['Fr95'],R046110-R046108,nan,isom
+"047107,047109",0.02124809881441384,0.0007680741712441818,Fr95,['Fr95'],R047109-R047107,nan,isom
+"048106,048108",0.01976517455510928,0.000922874150823819,Fr95,['Fr95'],R048108-R048106,nan,isom
+"048108,048110",0.01992142099428011,0.0008449071776775775,Fr95,['Fr95'],R048110-R048108,nan,isom
+"048110,048111",0.00499988605346638,0.0008299856427367638,Fr95,['Fr95'],R048111-R048110,nan,isom
+"048110,048112",0.01929643523759681,0.0008442821919208943,Fr95,['Fr95'],R048112-R048110,nan,isom
+"048112,048113",0.004843639614295556,0.0007517061767121808,Fr95,['Fr95'],R048113-R048112,nan,isom
+"048112,048114",0.017577724406717742,0.000764440261504603,Fr95,['Fr95'],R048114-R048112,nan,isom
+"048114,048116",0.01492153494081373,0.000761784072038699,Fr95,['Fr95'],R048116-R048114,nan,isom
+"049113,049115",0.016328821098440704,0.001700767102774868,Fr95,['Fr95'],R049115-R049113,nan,isom
+"050112,050114",0.016329869537453176,0.000841396646090685,Fr95,['Fr95'],R050114-R050112,nan,isom
+"050114,050116",0.016329869537453176,0.000841396646090685,Fr95,['Fr95'],R050116-R050114,nan,isom
+"050116,050117",0.004844267518287547,0.0008299110440715193,Fr95,['Fr95'],R050117-R050116,nan,isom
+"050116,050118",0.015470402719692487,0.0009186705263420782,Fr95,['Fr95'],R050118-R050116,nan,isom
+"050116,050120",0.030581392042866862,0.001735408288097738,En74/68EH1+1 R,['En74'],R050120-R050116,nan,isom
+"050116,050124",0.0534353960605944,0.0021582622921154657,En74/70MB1+1 R,['En74'],R050124-R050116,nan,isom
+"050117,050120",0.024557310983835092,0.0015965575170211446,En74/68EH1+1 R,['En74'],R050120-R050117,nan,isom
+"050118,050119",0.002890933841558697,0.0009060910574639444,Fr95,['Fr95'],R050119-R050118,nan,isom
+"050118,050120",0.014064002472447715,0.0009953974731639875,Fr95,['Fr95'],R050120-R050118,nan,isom
+"050119,050120",0.009040028255901115,0.0014357335772416187,En74/68EH1+1 R,['En74'],R050120-R050119,nan,isom
+"050120,050122",0.012266935489857172,0.001071733753250551,Fr95,['Fr95'],R050122-R050120,nan,isom
+"050122,050124",0.010469868507266632,0.0009918033391988065,Fr95,['Fr95'],R050124-R050122,nan,isom
+"051121,051123",0.008204518600503804,0.0008333106976865078,Fr95,['Fr95'],R051123-R051121,nan,isom
+"052122,052123",0.002578722623957407,0.0015310115895111067,Fr95,['Fr95'],R052123-R052122,nan,isom
+"052122,052124",0.009533459397660716,0.00153796632628481,Fr95,['Fr95'],R052124-R052122,nan,isom
+"052124,052125",0.0017191484159716048,0.0006705778073173184,Fr95,['Fr95'],R052125-R052124,nan,isom
+"052124,052126",0.008205026530773568,0.0006770636854321202,Fr95,['Fr95'],R052126-R052124,nan,isom
+"052126,052128",0.007892454091506003,0.0006767511129928528,Fr95,['Fr95'],R052128-R052126,nan,isom
+"052128,052130",0.007423595432604657,0.0006762822543339513,Fr95,['Fr95'],R052130-R052128,nan,isom
+"054124,054126",0.008206015984893544,0.0007552737483111297,Fr95,['Fr95'],R054126-R054124,nan,isom
+"054126,054128",0.005314372256883438,0.0007523821045831196,Fr95,['Fr95'],R054128-R054126,nan,isom
+"054128,054129",0.0007815253318946233,0.0008260017908475932,Fr95,['Fr95'],R054129-R054128,nan,isom
+"054128,054130",0.007815253318946232,0.0010674931184030318,Fr95,['Fr95'],R054130-R054128,nan,isom
+"054130,054131",-0.0020319658629260203,0.0010617098309470116,Fr95,['Fr95'],R054131-R054130,nan,isom
+"054130,054132",0.0034387114603363425,0.001063116576544422,Fr95,['Fr95'],R054132-R054130,nan,isom
+"054132,054134",0.005626982389641287,0.0006745421815264152,Fr95,['Fr95'],R054134-R054132,nan,isom
+"054134,054136",0.007346338119809458,0.0006762615372565833,Fr95,['Fr95'],R054136-R054134,nan,isom
+"056134,056135",-0.002266687559746227,0.0006712365275072415,Fr95,['Fr95'],R056135-R056134,nan,isom
+"056134,056136",0.0033609505196237166,0.000672330790467119,Fr95,['Fr95'],R056136-R056134,nan,isom
+"056134,056138",0.005274970780799107,0.0011240155973645833,"Sh82,  Red.",['Sh82'],R056138-R056134,nan,isom
+"056135,056138",0.009104264520267333,0.0011242028595667198,"Sh82,  Red.",['Sh82'],R056138-R056135,nan,isom
+"056136,056137",-0.0005471314799387445,0.0007476786114186833,Fr95,['Fr95'],R056137-R056136,nan,isom
+"056136,056138",0.006331092839291187,0.0006753009327867865,Fr95 (Sh82),"['Sh82', 'Fr95']",R056138-R056136,nan,isom
+"056137,056138",0.007444861494555946,0.0008204051245463287,"Sh82,  Red.",['Sh82'],R056138-R056137,nan,isom
+"058140,058142",0.029861112206606463,0.0007770542678250494,Fr95,['Fr95'],R058142-R058140,nan,isom
+"060142,060143",0.010866878812156,0.0008362987528930768,Fr95,['Fr95'],R060143-R060142,nan,isom
+"060142,060144",0.027753539412340867,0.0006968274449730315,Fr95,['Fr95'],R060144-R060142,nan,isom
+"060144,060145",0.012039563576057727,0.0009156504219170937,Fr95,['Fr95'],R060145-R060144,nan,isom
+"060144,060146",0.027284465506780174,0.0006963583710674709,Fr95,['Fr95'],R060146-R060144,nan,isom
+"060146,060148",0.030020729955884205,0.0006990946355165748,Fr95,['Fr95'],R060148-R060146,nan,isom
+"060148,060150",0.04018399790969916,0.002461657993923496,En74/70MB1+1,['En74'],R060150-R060148,nan,isom
+"062144,062152",0.12773813121377864,0.004139734608838658,Po79,['Po79'],R062152-R062144,nan,isom
+"062147,062148",0.015575911833052665,0.000814718436419244,Fr95,['Fr95'],R062148-R062147,nan,isom
+"062148,062149",0.010096947871677356,0.000806499990477181,Fr95,['Fr95'],R062149-R062148,nan,isom
+"062148,062152",0.07420082621976848,0.0031028868238797765,Po79,['Po79'],R062152-R062148,nan,isom
+"062150,062152",0.04273591889872741,0.002499147635430349,Po79,['Po79'],R062152-R062150,nan,isom
+"062150,062152",0.043205544381131014,0.0010909756264431605,Fr95,['Fr95'],R062152-R062150,nan,isom
+"062152,062154",0.024498795998721026,0.0017673537274749422,Po79,['Po79'],R062154-R062152,nan,isom
+"063151,063153",0.05709293676525977,0.0016603911904413005,Fr95 (Ta84),"['Ta84', 'Fr95']",R063153-R063151,nan,isom
+"064154,064155",0.011989477526044498,0.001515060591221243,Fr95 (La83),"['La83', 'Fr95']",R064155-R064154,nan,isom
+"064154,064156",0.02233334048969073,0.0016089389838761534,Fr95 (La83),"['La83', 'Fr95']",R064156-R064154,nan,isom
+"064156,064157",0.0036830421158437344,0.0012675131434776185,Fr95 (La83),"['La83', 'Fr95']",R064157-R064156,nan,isom
+"064156,064158",0.015672519641888233,0.0011287721633478028,Fr95 (La83),"['La83', 'Fr95']",R064158-R064156,nan,isom
+"064158,064160",0.016612870820401526,0.001208545288325014,Fr95 (La83),"['La83', 'Fr95']",R064160-R064158,nan,isom
+"066161,066162",0.011218929404689848,0.0013582770154796093,Fr95,['Fr95'],R066162-R066161,nan,isom
+"066162,066163",0.004628789055081826,0.0011914837013931017,Fr95,['Fr95'],R066163-R066162,nan,isom
+"066162,066164",0.015220086045523289,0.0012073706468787638,Fr95,['Fr95'],R066164-R066162,nan,isom
+"068166,068167",0.005890896552063262,0.0011157439310756864,Fr95,['Fr95'],R068167-R068166,nan,isom
+"068166,068168",0.014452332874395202,0.0011285860855591843,Fr95,['Fr95'],R068168-R068166,nan,isom
+"068168,068170",0.015630512184807852,0.0011303533545248034,Fr95,['Fr95'],R068170-R068168,nan,isom
+"070170,070172",0.014124420706804983,0.0013628146781805397,Fr95 (Ze75),"['Ze75', 'Fr95']",R070172-R070170,nan,isom
+"070171,070172",0.007689962384816047,0.001353162990697556,Fr95 (Ze75),"['Ze75', 'Fr95']",R070172-R070171,nan,isom
+"070172,070174",0.011613412581150763,0.001045172150285281,Fr95 (Ze75),"['Ze75', 'Fr95']",R070174-R070172,nan,isom
+"070173,070174",0.006748334337695714,0.0015086885564802642,Fr95 (Ze75),"['Ze75', 'Fr95']",R070174-R070173,nan,isom
+"070174,070176",0.010593315530103738,0.0012005800125620993,Fr95 (Ze75),"['Ze75', 'Fr95']",R070176-R070174,nan,isom
+"072176,072177",0.0030573084857455006,0.0011885112154838748,Fr95 (Ta84a),"['Ta84a', 'Fr95']",R072177-R072176,nan,isom
+"072176,072178",0.009093532931960975,0.0011975655521531982,Fr95 (Ta84a),"['Ta84a', 'Fr95']",R072178-R072176,nan,isom
+"072178,072179",0.004311588890153911,0.0012687851613660134,Fr95 (Ta84a),"['Ta84a', 'Fr95']",R072179-R072178,nan,isom
+"072178,072180",0.009955850709991759,0.00127725155409577,Fr95 (Ta84a),"['Ta84a', 'Fr95']",R072180-R072178,nan,isom
+"074182,074184",0.010572641299647249,0.0011207017152592876,Fr95,['Fr95'],R074184-R074182,nan,isom
+"074184,074186",0.00947621923894309,0.0011190570821682313,Fr95,['Fr95'],R074186-R074184,nan,isom
+"076186,076188",0.009623399687353975,0.0012750643398635004,Fr95 (Ho81),"['Ho81', 'Fr95']",R076188-R076186,nan,isom
+"076188,076190",0.008293336315931068,0.0011948302229579596,Fr95 (Ho81),"['Ho81', 'Fr95']",R076190-R076188,nan,isom
+"076190,076192",0.00782390218484063,0.0009594090062161049,Fr95 (Ho81),"['Ho81', 'Fr95']",R076192-R076190,nan,isom
+"078194,078195",0.002738598500778599,0.001141686655910584,Fr95,['Fr95'],R078195-R078194,nan,isom
+"078194,078196",0.0074333387878276255,0.001068135724746816,Fr95,['Fr95'],R078196-R078194,nan,isom
+"078196,078198",0.00923298923119642,0.0009916897037393676,Fr95,['Fr95'],R078198-R078196,nan,isom
+"080198,080200",0.009703268069719455,0.0007574684010377532,Fr95,['Fr95'],R080200-R080198,nan,isom
+"080199,080200",0.007825216185257625,0.0010685989965635966,Fr95,['Fr95'],R080200-R080199,nan,isom
+"080200,080201",0.004069112416333965,0.0009865907309420966,Fr95,['Fr95'],R080201-R080200,nan,isom
+"080200,080202",0.00962501590786688,0.0007573901488759006,Fr95,['Fr95'],R080202-R080200,nan,isom
+"080202,080204",0.011190059144918404,0.0009154595158181046,Fr95,['Fr95'],R080204-R080202,nan,isom
+"081203,081205",0.010251450810738137,0.0009928049478136495,Fr95,['Fr95'],R081205-R081203,nan,isom
+"082204,082208",0.021419351586508425,0.0013292179573720316,En74/73FR1+1,['En74'],R082208-R082204,nan,isom
+"082204,082208",0.021333267235959803,0.0013213060229716079,En74/73FR1+1,['En74'],R082208-R082204,nan,isom
+"082204,082208",0.021912380139650564,0.0008914633831321626,Fr95,['Fr95'],R082208-R082204,nan,isom
+"082206,082207",0.004124222976284231,0.0013388724802081886,En74/68Po1+1 R,['En74'],R082207-R082206,nan,isom
+"082206,082207",0.004679858329825371,0.0019811478196514964,En74/68Po1+1 R,['En74'],R082207-R082206,nan,isom
+"082206,082207",0.004765942680373998,0.0010969128483661469,En74/68Po1+1 R,['En74'],R082207-R082206,nan,isom
+"082206,082207",0.004179003926633357,0.0011041517596622815,En74/68Po1+1 R,['En74'],R082207-R082206,nan,isom
+"082206,082208",0.01105792612047366,0.001118856531905997,En74/73FR1+1,['En74'],R082208-R082206,nan,isom
+"082206,082208",0.010682285318079649,0.0010950033409539773,En74/73FR1+1,['En74'],R082208-R082206,nan,isom
+"082206,082208",0.011503999573316544,0.0006810550025658287,Fr95,['Fr95'],R082208-R082206,nan,isom
+"082207,082208",0.006675450092543547,0.0013770808562770685,En74/73FR1+1,['En74'],R082208-R082207,nan,isom
+"082207,082208",0.0069102255940398025,0.0013851414818284399,En74/73FR1+1,['En74'],R082208-R082207,nan,isom
+"082207,082208",0.00735629904688269,0.0009551658025381468,Fr95,['Fr95'],R082208-R082207,nan,isom
+"001001,001002",3.8212,0.0015,Hu98,['Hu98'],R001002-R001001,nan,kalpha
+"042092,042100",1.1005508080175228,0.1753975575980519,"Su65, Su68","['Su65', 'Su68']",R042100-R042092,nan,kalpha
+"042094,042100",0.9777666899403461,0.27224804571017946,"Su65, Su68","['Su65', 'Su68']",R042100-R042094,nan,kalpha
+"048110,048112",0.14457043497446267,0.031807723821857384,Ei79,['Ei79'],R048112-R048110,nan,kalpha
+"048110,048116",0.45135922188977345,0.028665077753072445,Ei79,['Ei79'],R048116-R048110,nan,kalpha
+"048112,048114",0.1414195886472215,0.030214485320057518,Ei79,['Ei79'],R048114-R048112,nan,kalpha
+"048114,048116",0.1526200592491177,0.0366552623329003,Ei79,['Ei79'],R048116-R048114,nan,kalpha
+"050116,050124",0.4418988914504171,0.022972332201977096,Ch68,['Ch68'],R050124-R050116,nan,kalpha
+"051121,051123",0.02024429044094146,0.028183712714047373,Ry72,['Ry72'],R051123-R051121,nan,kalpha
+"052124,052126",0.0860201587404543,0.029976890880974855,Su69,['Su69'],R052126-R052124,nan,kalpha
+"052126,052128",0.05817758042559512,0.029799429969556684,Su69,['Su69'],R052128-R052126,nan,kalpha
+"052128,052130",0.04996492214397352,0.029747806492453052,Su69,['Su69'],R052130-R052128,nan,kalpha
+"056134,056135",-0.041461138381878634,0.01750829464424768,Su69a,['Su69a'],R056135-R056134,nan,kalpha
+"056134,056136",-0.022602615967251685,0.01788377842144335,Su69a,['Su69a'],R056136-R056134,nan,kalpha
+"056136,056137",-0.0013338431386534018,0.017331780275639475,Su69a,['Su69a'],R056137-R056136,nan,kalpha
+"056136,056138",0.060620205785051756,0.018336122654317572,Su69a,['Su69a'],R056138-R056136,nan,kalpha
+"058140,058142",0.2905327518304694,0.013884597971528257,Ei70a,['Ei70a'],R058142-R058140,nan,kalpha
+"060142,060143",0.12788455377633906,0.026516359780947883,Le73,['Le73'],R060143-R060142,nan,kalpha
+"060142,060144",0.3197107466279277,0.014820325994864773,Le73,['Le73'],R060144-R060142,nan,kalpha
+"060143,060144",0.192157313056866,0.0197437736565336,Le73,['Le73'],R060144-R060143,nan,kalpha
+"060144,060145",0.13800281365205166,0.02234075067116742,Le73,['Le73'],R060145-R060144,nan,kalpha
+"060144,060146",0.2559230969769531,0.03885744330937669,"Bh69,  Le73","['Bh69', 'Le73']",R060146-R060144,nan,kalpha
+"060144,060146",0.2971968364153119,0.05484338288547317,"Su67, Su68","['Su67', 'Su68']",R060146-R060144,nan,kalpha
+"060145,060146",0.11748148281773291,0.043915959096067804,"Bh69,  Le73","['Bh69', 'Le73']",R060146-R060145,nan,kalpha
+"060146,060148",0.30410263274946936,0.040598628508411595,"Bh69,  Le73","['Bh69', 'Le73']",R060148-R060146,nan,kalpha
+"060146,060148",0.3069991195189382,0.05017097250176846,"Su67, Su68","['Su67', 'Su68']",R060148-R060146,nan,kalpha
+"060148,060150",0.4528050931496133,0.029043970052876334,"Bh69,  Le73","['Bh69', 'Le73']",R060150-R060148,nan,kalpha
+"060148,060150",0.52726842941104,0.06787055686948619,"Su67, Su68","['Su67', 'Su68']",R060150-R060148,nan,kalpha
+"062144,062148",0.5268478167105203,0.09731379854862915,"Su67, Su68","['Su67', 'Su68']",R062148-R062144,nan,kalpha
+"062147,062148",0.19157998778901889,0.01542910916776126,Le73,['Le73'],R062148-R062147,nan,kalpha
+"062148,062149",0.08682305895298874,0.012625210538243862,Le73,['Le73'],R062149-R062148,nan,kalpha
+"062148,062150",0.33812787778795356,0.015754150347853657,Le73,['Le73'],R062150-R062148,nan,kalpha
+"062148,062150",0.3929524858360583,0.06337842410013138,"Su67, Su68","['Su67', 'Su68']",R062150-R062148,nan,kalpha
+"062148,062154",1.0572829702728985,0.017762358598621575,"Ch68, Bh69","['Ch68', 'Bh69']",R062154-R062148,nan,kalpha
+"062149,062150",0.25331492312956017,0.015944137822439773,Le73,['Le73'],R062150-R062149,nan,kalpha
+"062150,062152",0.46402698640590795,0.017901687595902226,Le73,['Le73'],R062152-R062150,nan,kalpha
+"062150,062152",0.4257750682697059,0.06750279414055875,"Su67, Su68","['Su67', 'Su68']",R062152-R062150,nan,kalpha
+"062152,062154",0.24386531271510212,0.018670052521767875,Le73,['Le73'],R062154-R062152,nan,kalpha
+"063151,063153",0.6650711628629883,0.07583988735996738,Ry72,['Ry72'],R063153-R063151,nan,kalpha
+"064154,064155",0.12363023922610207,0.029466352233092605,Bh69,['Bh69'],R064155-R064154,nan,kalpha
+"064154,064156",0.2244374332694578,0.0293421746072063,Bh69,['Bh69'],R064156-R064154,nan,kalpha
+"064155,064156",0.10086715743726442,0.01476422526671986,Bh69,['Bh69'],R064156-R064155,nan,kalpha
+"064156,064157",0.03178223703081053,0.016681581198095985,Bh69,['Bh69'],R064157-R064156,nan,kalpha
+"064156,064158",0.1573784949939846,0.014616050499244767,Bh69,['Bh69'],R064158-R064156,nan,kalpha
+"064157,064158",0.12831232993617844,0.015257720483055084,Bh69,['Bh69'],R064158-R064157,nan,kalpha
+"064158,064160",0.16833293942514213,0.01402645504490957,Bh69,['Bh69'],R064160-R064158,nan,kalpha
+"066161,066162",0.10181644651821001,0.016172358301984317,Le73,['Le73'],R066162-R066161,nan,kalpha
+"066162,066163",0.010467041603737725,0.01076061289223433,Le73,['Le73'],R066163-R066162,nan,kalpha
+"066162,066164",0.1421292407192538,0.0122716182668161,Le73,['Le73'],R066164-R066162,nan,kalpha
+"066162,066164",0.14870591873951763,0.011248029914732111,Ei70,['Ei70'],R066164-R066162,nan,kalpha
+"066163,066164",0.13428704022610538,0.015317889186011622,Le73,['Le73'],R066164-R066163,nan,kalpha
+"068166,068168",0.14785835464808145,0.011970382875856396,Bh69,['Bh69'],R068168-R068166,nan,kalpha
+"068168,068170",0.1710479106610908,0.01556238748209583,Bh69,['Bh69'],R068170-R068168,nan,kalpha
+"070170,070171",0.08500854476931008,0.038519743441532826,Le73,['Le73'],R070171-R070170,nan,kalpha
+"070170,070172",0.17996398643550307,0.022960407772657357,Le73,['Le73'],R070172-R070170,nan,kalpha
+"070171,070172",0.09497429586117731,0.017542954121253996,Le73,['Le73'],R070172-R070171,nan,kalpha
+"070172,070173",0.054547603343964655,0.031916075115324,Le73,['Le73'],R070173-R070172,nan,kalpha
+"070172,070174",0.1554517101626772,0.017018863315805037,Le73,['Le73'],R070174-R070172,nan,kalpha
+"070173,070174",0.10132017562960888,0.039623222975487246,Le73,['Le73'],R070174-R070173,nan,kalpha
+"070174,070176",0.1147051204676757,0.015015619032301518,Le73,['Le73'],R070176-R070174,nan,kalpha
+"072178,072180",0.11278767881315628,0.009377308973553166,Bh69,['Bh69'],R072180-R072178,nan,kalpha
+"074182,074184",0.11180182453318067,0.014239657064557931,Ch68,['Ch68'],R074184-R074182,nan,kalpha
+"074184,074186",0.07192362942381075,0.010963228475764048,Ch68,['Ch68'],R074186-R074184,nan,kalpha
+"080198,080199",0.028908222045812785,0.013639259858500582,Le78,['Le78'],R080199-R080198,nan,kalpha
+"080198,080200",0.11354850909003861,0.029862250794310485,Le78,['Le78'],R080200-R080198,nan,kalpha
+"080198,080201",0.12639139209718508,0.01880420484077207,Le78,['Le78'],R080201-R080198,nan,kalpha
+"080198,080202",0.21842810706519383,0.02837408309253813,Le78,['Le78'],R080202-R080198,nan,kalpha
+"080198,080204",0.3277003786253773,0.031974080422912894,Le78,['Le78'],R080204-R080198,nan,kalpha
+"080199,080200",0.08556154771808215,0.026883259523047792,Le78,['Le78'],R080200-R080199,nan,kalpha
+"080199,080201",0.09765365809351545,0.01464549330376653,Le78,['Le78'],R080201-R080199,nan,kalpha
+"080199,080202",0.19006946360814775,0.025703840422656568,Le78,['Le78'],R080202-R080199,nan,kalpha
+"080199,080204",0.29856908473338384,0.02923867872273928,Le78,['Le78'],R080204-R080199,nan,kalpha
+"080200,080201",0.01362216213615077,0.022322847344137402,Le78,['Le78'],R080201-R080200,nan,kalpha
+"080200,080202",0.10488769869136871,0.008963263726564067,Le78,['Le78'],R080202-R080200,nan,kalpha
+"080200,080204",0.21343132967467832,0.021894581867146257,Le78,['Le78'],R080204-R080200,nan,kalpha
+"080200,080204",0.1766906473333985,0.026679584962229254,Ch68,['Ch68'],R080204-R080200,nan,kalpha
+"080201,080202",0.09312566468458809,0.02185382841383194,Le78,['Le78'],R080202-R080201,nan,kalpha
+"080201,080204",0.20189632582016212,0.026530932226982072,Le78,['Le78'],R080204-R080201,nan,kalpha
+"080202,080204",0.10927224469595213,0.031990719398284705,Le78,['Le78'],R080204-R080202,nan,kalpha
+"082204,082206",0.11753994868767859,0.023267231937719755,Le73,['Le73'],R082206-R082204,nan,kalpha
+"082204,082206",0.1090056129813492,0.012339139819611279,Bo83,['Bo83'],R082206-R082204,nan,kalpha
+"082204,082208",0.22657735571636542,0.025640176577538597,Le73,['Le73'],R082208-R082204,nan,kalpha
+"082204,082208",0.24369583469483788,0.010599869704657663,Bo83,['Bo83'],R082208-R082204,nan,kalpha
+"082206,082207",0.028790118628845035,0.012006006131181832,Le73,['Le73'],R082207-R082206,nan,kalpha
+"082206,082207",0.045444370233638655,0.00865190551236633,Bo83,['Bo83'],R082207-R082206,nan,kalpha
+"082206,082208",0.10904546630861699,0.011141227623115518,"Ch68, Le73","['Ch68', 'Le73']",R082208-R082206,nan,kalpha
+"082206,082208",0.13479713846293806,0.008835931302499054,Bo83,['Bo83'],R082208-R082206,nan,kalpha
+"082207,082208",0.08110186975007906,0.015715884964804024,Le73,['Le73'],R082208-R082207,nan,kalpha
+"082207,082208",0.08992030754363609,0.008994607824430621,Bo83,['Bo83'],R082208-R082207,nan,kalpha
+"092233,092238",0.4406658696056001,0.051018495126416694,Br65,['Br65'],R092238-R092233,nan,kalpha
+"092233,092238",0.432,0.043,El96,['El96'],R092238-R092233,nan,kalpha
+"092235,092238",0.25,0.032,El98,['El98'],R092238-R092235,nan,kalpha
+"002003,002004",-1.059,0.003,Mu07nan,,R002004**2-R002003**2,nan,ois
+"002004,002006",1.466,0.034,See alsonan,,R002006**2-R002004**2,nan,ois
+"002004,002008",0.911,0.095,"Ma94, Sh95, Wa04nan",,R002008**2-R002004**2,nan,ois
+"003006,003007",-0.47,0.05,Bu03nan,,R003007**2-R003006**2,nan,ois
+"003006,003007",-0.84,0.08,Wa03From Bu03,,R003007**2-R003006**2,nan,ois
+"003006,003007",-0.38,0.07,Sc96From Bu03,,R003007**2-R003006**2,nan,ois
+"003006,003007",-0.29,0.25,Sa95From Bu03,,R003007**2-R003006**2,nan,ois
+"003006,003007",-0.39,0.04,Bu03nan,,R003007**2-R003006**2,nan,ois
+"003006,003007",-0.41,0.08,Wa03From Bu03,,R003007**2-R003006**2,nan,ois
+"003006,003007",-0.96,0.07,Sc96From Bu03,,R003007**2-R003006**2,nan,ois
+"003006,003007",-0.29,0.21,Sa95From Bu03,,R003007**2-R003006**2,nan,ois
+"003006,003007",-0.742,0.013,Ri94See Pu06,,R003007**2-R003006**2,nan,ois
+"003006,003007",-0.738,0.013,"Ew04, Sá06Corrected by Pu06",,R003007**2-R003006**2,nan,ois
+"003007,003008",-0.503,0.028,nanCorrected by Pu06,,R003008**2-R003007**2,nan,ois
+"003007,003009",-0.938,0.026,nanCorrected by Pu06,,R003009**2-R003007**2,nan,ois
+"003007,003011",0.157,0.081,nanCorrected by Pu06,,R003011**2-R003007**2,nan,ois
+"003006,003007",-0.731,0.022,Nö11anan,,R003007**2-R003006**2,nan,ois
+"003006,003008",-1.23,0.032,nannan,,R003008**2-R003006**2,nan,ois
+"003006,003009",-1.663,0.032,nannan,,R003009**2-R003006**2,nan,ois
+"003006,003011",-0.543,0.069,nannan,,R003011**2-R003006**2,nan,ois
+"004007,004009",-0.66,0.05,Nö09R12 data ,,R004009**2-R004007**2,nan,ois
+"004009,004010",-0.79,0.08,nanfrom tab.1. ,,R004010**2-R004009**2,nan,ois
+"004009,004011",-0.28,0.05,nanof Nö09,,R004011**2-R004009**2,nan,ois
+"010017,010020",-0.22,0.152,"Ge02, Ge08nan",,R010020**2-R010017**2,nan,ois
+"010018,010020",0.207,0.127,nannan,,R010020**2-R010018**2,nan,ois
+"010019,010020",-0.017,0.06,nannan,,R010020**2-R010019**2,nan,ois
+"010020,010021",-0.217,0.038,nannan,,R010021**2-R010020**2,nan,ois
+"010020,010022",-0.321,0.047,nannan,,R010022**2-R010020**2,nan,ois
+"010020,010023",-0.573,0.112,nannan,,R010023**2-R010020**2,nan,ois
+"010020,010024",-0.631,0.125,nannan,,R010024**2-R010020**2,nan,ois
+"010020,010025",-0.462,0.16,nannan,,R010025**2-R010020**2,nan,ois
+"010020,010026",-0.485,0.185,nannan,,R010026**2-R010020**2,nan,ois
+"010020,010028",-0.26,0.265,nannan,,R010028**2-R010020**2,nan,ois
+"011020,011023",0.13,0.25,Ot89 :  Values,,R011023**2-R011020**2,nan,ois
+"011021,011023",-0.12,0.16999999999999998,Au87 :  Syst error,,R011023**2-R011021**2,nan,ois
+"011022,011023",0.05,0.1,(To82)  nan,,R011023**2-R011022**2,nan,ois
+"011023,011024",-0.12,0.1,nannan,,R011024**2-R011023**2,nan,ois
+"011023,011025",-0.1,0.15,nannan,,R011025**2-R011023**2,nan,ois
+"011023,011026",-0.005,0.19799999999999998,nannan,,R011026**2-R011023**2,nan,ois
+"011023,011027",0.12,0.27999999999999997,nannan,,R011027**2-R011023**2,nan,ois
+"011023,011028",0.28,0.35,nannan,,R011028**2-R011023**2,nan,ois
+"011023,011029",0.6,0.44,nannan,,R011029**2-R011023**2,nan,ois
+"011023,011030",0.76,0.54,nannan,,R011030**2-R011023**2,nan,ois
+"011023,011031",1.09,0.55,nannan,,R011031**2-R011023**2,nan,ois
+"018032,018038",0.375,0.134,Kl96Calibr: Mu,,R018038**2-R018032**2,nan,ois
+"018033,018038",0.395,0.108,nannan,,R018038**2-R018033**2,nan,ois
+"018034,018038",0.251,0.068,nannan,,R018038**2-R018034**2,nan,ois
+"018035,018038",0.263,0.079,nannan,,R018038**2-R018035**2,nan,ois
+"018036,018038",0.084,0.047,Bl08nan,,R018038**2-R018036**2,nan,ois
+"018037,018038",0.081,0.026000000000000002,nannan,,R018038**2-R018037**2,nan,ois
+"018038,018039",0.044,0.079,nannan,,R018039**2-R018038**2,nan,ois
+"018038,018040",0.167,0.044000000000000004,Bl08nan,,R018040**2-R018038**2,nan,ois
+"018038,018041",0.151,0.05499999999999999,nannan,,R018041**2-R018038**2,nan,ois
+"018038,018042",0.262,0.074,nannan,,R018042**2-R018038**2,nan,ois
+"018038,018043",0.221,0.08,nannan,,R018043**2-R018038**2,nan,ois
+"018038,018044",0.289,0.09,nannan,,R018044**2-R018038**2,nan,ois
+"018038,018046",0.237,0.1,nannan,,R018046**2-R018038**2,nan,ois
+"019038,019039",0.05621371721310052,0.044,Au87nan,,R019039**2-R019038**2,nan,ois
+"019039,019040",0.021061060094178588,0.019,(To82b)Mu data ,,R019040**2-R019039**2,nan,ois
+"019039,019041",0.11243379222862718,0.037,nannan,,R019041**2-R019039**2,nan,ois
+"019039,019042",0.11137394012024456,0.056,nannan,,R019042**2-R019039**2,nan,ois
+"019039,019043",0.13745267665401575,0.071,nannan,,R019043**2-R019039**2,nan,ois
+"019039,019044",0.14244716125547285,0.087,nannan,,R019044**2-R019039**2,nan,ois
+"019039,019045",0.17053666943829943,0.102,nannan,,R019045**2-R019039**2,nan,ois
+"019039,019046",0.13940555088793333,0.116,nannan,,R019046**2-R019039**2,nan,ois
+"019039,019047",0.12434650136329843,0.13,nannan,,R019047**2-R019039**2,nan,ois
+"020039,020040",0.127,0.016,nannan,,R020040**2-R020039**2,nan,ois
+"020040,020041",0.0032081803947954677,0.0035413427486317905,Au87Calib: MIA E+M,,R020041**2-R020040**2,nan,ois
+"020040,020042",0.21650865666207086,0.00812166346602094,(Pa84)nan,,R020042**2-R020040**2,nan,ois
+"020040,020043",0.12586794368531418,0.005480991548340824,nannan,,R020043**2-R020040**2,nan,ois
+"020040,020044",0.2845068292128294,0.010299991412971613,nannan,,R020044**2-R020040**2,nan,ois
+"020040,020045",0.11918077722790911,0.008119732324270035,nannan,,R020045**2-R020040**2,nan,ois
+"020040,020046",0.1245872033883612,0.007269169661181069,nannan,,R020046**2-R020040**2,nan,ois
+"020040,020047",0.0050124154594915135,0.014085122790897023,nannan,,R020047**2-R020040**2,nan,ois
+"020040,020048",-0.004410744474240428,0.007061033232273941,nannan,,R020048**2-R020040**2,nan,ois
+"020044,020050",-0.007016933648528206,0.058137620310178856,Ve92Calib  Mu,,R020050**2-R020044**2,nan,ois
+"021042,021045",-0.0295,0.0915,Ga06nan,,R021045**2-R021042**2,nan,ois
+"021043,021045",-0.005500000000000001,0.060500000000000005,Ma08nan,,R021045**2-R021043**2,nan,ois
+"021044,021045",0.04,0.031,Priv. Comm.nan,,R021045**2-R021044**2,nan,ois
+"021045,021046",-0.0885,0.0305,nannan,,R021046**2-R021045**2,nan,ois
+"021042,021045",-0.019,0.1005,Ma10nan,,R021045**2-R021042**2,nan,ois
+"021043,021045",0.005,0.0635,Priv. nan,,R021045**2-R021043**2,nan,ois
+"021044,021045",0.055,0.035,Comm.nan,,R021045**2-R021044**2,nan,ois
+"021045,021046",-0.1,0.0315,nannan,,R021046**2-R021045**2,nan,ois
+"021042,021045",-0.172,0.167,Av11nan,,R021045**2-R021042**2,nan,ois
+"021043,021045",-0.082,0.102,nannan,,R021045**2-R021043**2,nan,ois
+"021044,021045",0.019,0.05399999999999999,nannan,,R021045**2-R021044**2,nan,ois
+"021045,021046",-0.152,0.054,nannan,,R021046**2-R021045**2,nan,ois
+"022044,022048",-0.143,0.062,Ga04nan,,R022048**2-R022044**2,nan,ois
+"022045,022048",-0.013,0.035,nannan,,R022048**2-R022045**2,nan,ois
+"022046,022048",-0.11,0.019,nannan,,R022048**2-R022046**2,nan,ois
+"022047,022048",-0.03,0.01,nannan,,R022048**2-R022047**2,nan,ois
+"022048,022049",-0.139,0.015,nannan,,R022049**2-R022048**2,nan,ois
+"022048,022050",-0.16,0.018,nannan,,R022050**2-R022048**2,nan,ois
+"024050,024052",-0.07309340218375475,0.025638146228017265,Au87El+mu,,R024052**2-R024050**2,nan,ois
+"024052,024053",0.06236424807620652,0.02134113802842546,"(HW67, nan",,R024053**2-R024052**2,nan,ois
+"024052,024054",0.16006359246504484,0.03833282974138284,We69)nan,,R024054**2-R024052**2,nan,ois
+"025050,025055",-0.046,0.14300000000000002,Ch10nan,,R025055**2-R025050**2,nan,ois
+"025051,025055",0.023,0.155,nannan,,R025055**2-R025051**2,nan,ois
+"025052,025055",0.259,0.093,nannan,,R025055**2-R025052**2,nan,ois
+"025053,025055",0.292,0.054000000000000006,nannan,,R025055**2-R025053**2,nan,ois
+"025054,025055",0.165,0.032,nannan,,R025055**2-R025054**2,nan,ois
+"025055,025056",0.066,0.035,nannan,,R025056**2-R025055**2,nan,ois
+"028058,028060",0.22020597303968406,0.04,Au87El+mu,,R028060**2-R028058**2,nan,ois
+"028060,028061",0.06549785635005942,0.017,(St80)Full error ,,R028061**2-R028060**2,nan,ois
+"028060,028062",0.17151423886920675,0.035,nannan,,R028062**2-R028060**2,nan,ois
+"028062,028064",0.11079045898576935,0.022,nannan,,R028064**2-R028062**2,nan,ois
+"030066,030067",0.03137014615351847,0.018161663562563324,"Fo82el+mu(64-66) adatokat felhasználva, ld. 152_UPDATED/R++EMKO lap Z=30, sorok végét: AC175:  0.1651 fm^2",,R030067**2-R030066**2,nan,ois
+"036072,036086",0.1656999390312224,0.16620151775247885,Ke95Bl85:  2%,,R036086**2-R036072**2,nan,ois
+"036074,036086",-0.029542031658683635,0.10945042420416869,nannan,,R036086**2-R036074**2,nan,ois
+"036075,036086",-0.21718899607559808,0.07900767921474372,nannan,,R036086**2-R036075**2,nan,ois
+"036076,036086",-0.1533874647691837,0.07508395652216089,nannan,,R036086**2-R036076**2,nan,ois
+"036077,036086",-0.20531469792992763,0.05995767889551177,nannan,,R036086**2-R036077**2,nan,ois
+"036078,036086",-0.16899862326917753,0.05198300967531498,nannan,,R036086**2-R036078**2,nan,ois
+"036079,036086",-0.16501687600293086,0.0469548145066513,nannan,,R036086**2-R036079**2,nan,ois
+"036080,036086",-0.11204061857011884,0.04400942616205817,nannan,,R036086**2-R036080**2,nan,ois
+"036081,036086",-0.09728778683353609,0.03399975028167514,nannan,,R036086**2-R036081**2,nan,ois
+"036082,036086",-0.06978827929434037,0.02801297554888594,nannan,,R036086**2-R036082**2,nan,ois
+"036083,036086",-0.030497776767698218,0.024053664492898197,nannan,,R036086**2-R036083**2,nan,ois
+"036084,036086",-0.04126580084217528,0.011995309115569308,nannan,,R036086**2-R036084**2,nan,ois
+"036085,036086",-0.008855494349985903,0.011027834739872889,nannan,,R036086**2-R036085**2,nan,ois
+"036086,036087",0.12483768252457085,0.026779068358328377,nannan,,R036087**2-R036086**2,nan,ois
+"036086,036088",0.28209591320837846,0.05473016350815874,nannan,,R036088**2-R036086**2,nan,ois
+"036086,036089",0.3786123982433977,0.07315991549302243,nannan,,R036089**2-R036086**2,nan,ois
+"036086,036090",0.49440108691363677,0.1019810179898559,nannan,,R036090**2-R036086**2,nan,ois
+"036086,036091",0.596056549005794,0.11736239837233751,nannan,,R036091**2-R036086**2,nan,ois
+"036086,036092",0.7503051341133282,0.1432509362885164,nannan,,R036092**2-R036086**2,nan,ois
+"036086,036093",0.8095335641685222,0.15539611244498663,nannan,,R036093**2-R036086**2,nan,ois
+"036086,036094",0.9880696549476483,0.1855002235969007,nannan,,R036094**2-R036086**2,nan,ois
+"036086,036095",1.0432777890275389,0.19970001555525022,nannan,,R036095**2-R036086**2,nan,ois
+"036086,036096",1.2157838227027387,0.23597533361891532,nannan,,R036096**2-R036086**2,nan,ois
+"037076,037087",-0.20052870565315017,0.37,Au87Total error,,R037087**2-R037076**2,nan,ois
+"037077,037087",-0.2604308830995539,0.36,(Th81)nan,,R037087**2-R037077**2,nan,ois
+"037078,037087",-0.28027812238509114,0.34,nannan,,R037087**2-R037078**2,nan,ois
+"037079,037087",-0.21033306163791404,0.28,nannan,,R037087**2-R037079**2,nan,ois
+"037080,037087",-0.20025402792905636,0.25,nannan,,R037087**2-R037080**2,nan,ois
+"037081,037087",-0.1602388183289026,0.21,nannan,,R037087**2-R037081**2,nan,ois
+"037082,037087",-0.12021786714061708,0.17,nannan,,R037087**2-R037082**2,nan,ois
+"037083,037087",-0.0501637592207239,0.11,nannan,,R037087**2-R037083**2,nan,ois
+"037084,037087",-0.0070319485964153265,0.074,nannan,,R037087**2-R037084**2,nan,ois
+"037085,037087",-0.03309036651460665,0.06,nannan,,R037087**2-R037085**2,nan,ois
+"037086,037087",-0.025040269334935507,0.034,nannan,,R037087**2-R037086**2,nan,ois
+"037087,037088",0.1295295571899593,0.041,nannan,,R037088**2-R037087**2,nan,ois
+"037087,037089",0.28909182925418064,0.057,nannan,,R037089**2-R037087**2,nan,ois
+"037087,037090",0.4082996645209604,0.1,nannan,,R037090**2-R037087**2,nan,ois
+"037087,037091",0.5306456629482853,0.12,nannan,,R037091**2-R037087**2,nan,ois
+"037087,037092",0.6633580066077307,0.16,nannan,,R037092**2-R037087**2,nan,ois
+"037087,037093",0.7650637936800894,0.18,nannan,,R037093**2-R037087**2,nan,ois
+"037087,037094",0.8668023261616473,0.2,nannan,,R037094**2-R037087**2,nan,ois
+"037087,037095",1.0202366996294003,0.23,nannan,,R037095**2-R037087**2,nan,ois
+"037087,037096",1.1013365847599046,0.26,nannan,,R037096**2-R037087**2,nan,ois
+"037087,037097",1.6490261913548934,0.4,nannan,,R037097**2-R037087**2,nan,ois
+"037087,037098",1.7298229031207264,0.43,nannan,,R037098**2-R037087**2,nan,ois
+"038077,038088",-0.248,0.057999999999999996,Li92Előjel?  ???,,R038088**2-R038077**2,nan,ois
+"038078,038088",-0.24246020710924104,0.04893941202275673,Bu90High moments,,R038088**2-R038078**2,nan,ois
+"038079,038088",-0.26132696201156536,0.042889932662006365,nanneglected,,R038088**2-R038079**2,nan,ois
+"038080,038088",-0.24325459579457492,0.03988082234956077,nannan,,R038088**2-R038080**2,nan,ois
+"038081,038088",-0.2321517333700354,0.03387121448481382,nannan,,R038088**2-R038081**2,nan,ois
+"038082,038088",-0.17919196727243372,0.029912136648456253,nannan,,R038088**2-R038082**2,nan,ois
+"038083,038088",-0.16211373921615502,0.023911465349425995,nannan,,R038088**2-R038083**2,nan,ois
+"038084,038088",-0.11613205865470001,0.01894692151885184,nannan,,R038088**2-R038084**2,nan,ois
+"038085,038088",-0.04813809483191055,0.015011046843682043,nannan,,R038088**2-R038085**2,nan,ois
+"038086,038088",-0.0500820276474604,0.009982320671958226,nannan,,R038088**2-R038086**2,nan,ois
+"038087,038088",-0.007028495881779486,0.006018754269097816,nannan,,R038088**2-R038087**2,nan,ois
+"038088,038089",0.12652772589043365,0.013837719759541428,nannan,,R038089**2-R038088**2,nan,ois
+"038088,038090",0.28311316336720044,0.032820237761923714,nannan,,R038090**2-R038088**2,nan,ois
+"038088,038091",0.3817105861717719,0.041734741693963365,nannan,,R038091**2-R038088**2,nan,ois
+"038088,038092",0.5227882784118231,0.05809755204008497,nannan,,R038092**2-R038088**2,nan,ois
+"038088,038093",0.6018064325889178,0.06501984862347406,nannan,,R038093**2-R038088**2,nan,ois
+"038088,038094",0.7294577148647557,0.08001104083276647,nannan,,R038094**2-R038088**2,nan,ois
+"038088,038095",0.8178487200934195,0.0878970693993283,nannan,,R038095**2-R038088**2,nan,ois
+"038088,038096",0.9879255276216016,0.10619098999820585,nannan,,R038096**2-R038088**2,nan,ois
+"038088,038097",1.068060280540113,0.11530004283332772,nannan,,R038097**2-R038088**2,nan,ois
+"038088,038098",1.666238131781412,0.17529632482584542,nannan,,R038098**2-R038088**2,nan,ois
+"038088,038099",1.7605873515477803,0.18689707805281525,Li91nan,,R038099**2-R038088**2,nan,ois
+"038088,038100",1.8768743308025058,0.2059370427565523,nannan,,R038100**2-R038088**2,nan,ois
+"039086,039089",-0.07,-0.007000000000000001,Ch07Előjel-,,R039089**2-R039086**2,nan,ois
+"039087,039089",-0.057,-0.0057,nanfordítás!,,R039089**2-R039087**2,nan,ois
+"039088,039089",-0.009,-0.0009,"nan""   """,,R039089**2-R039088**2,nan,ois
+"039089,039090",0.12,0.012,nannan,,R039090**2-R039089**2,nan,ois
+"039089,039092",0.385,0.038500000000000006,nannan,,R039092**2-R039089**2,nan,ois
+"039089,039093",0.526,0.05260000000000001,nanError ~ 10 %,,R039093**2-R039089**2,nan,ois
+"039089,039094",0.602,0.060200000000000004,nannan,,R039094**2-R039089**2,nan,ois
+"039089,039095",0.723,0.0723,"nansee Ch07, p.135",,R039095**2-R039089**2,nan,ois
+"039089,039096",0.824,0.0824,nannan,,R039096**2-R039089**2,nan,ois
+"039089,039097",0.976,0.0976,nannan,,R039097**2-R039089**2,nan,ois
+"039089,039098",1.088,0.10880000000000001,nannan,,R039098**2-R039089**2,nan,ois
+"039089,039099",1.904,0.1904,nannan,,R039099**2-R039089**2,nan,ois
+"039089,039100",1.946,0.1946,nannan,,R039100**2-R039089**2,nan,ois
+"039089,039101",2.084,0.20840000000000003,nannan,,R039101**2-R039089**2,nan,ois
+"039089,039102",2.129,0.2129,nan(I = 2),,R039102**2-R039089**2,nan,ois
+"039089,039102",2.119,0.21190000000000003,nan(I = 3),,R039102**2-R039089**2,nan,ois
+"040087,040090",-0.08,0.012,Fo02nan,,R040090**2-R040087**2,nan,ois
+"040088,040090",-0.075,0.011,nannan,,R040090**2-R040088**2,!,ois
+"040089,040090",-0.012,0.013000000000000001,nannan,,R040090**2-R040089**2,nan,ois
+"040090,040092",0.22861693541616912,0.0489620646448774,Ga88anan,,R040092**2-R040090**2,nan,ois
+"040090,040091",0.09777783634336658,0.024613862182763735,nannan,,R040091**2-R040090**2,nan,ois
+"040092,040094",0.17295898272795682,0.04180129248787188,nannan,,R040094**2-R040092**2,nan,ois
+"040094,040096",0.11863476597565631,0.03438617482489077,nannan,,R040096**2-R040094**2,nan,ois
+"040090,040097",0.813,0.041,Ca02nan,,R040097**2-R040090**2,nan,ois
+"040090,040098",0.98,0.049,nannan,,R040098**2-R040090**2,nan,ois
+"040090,040099",1.089,0.054,nannan,,R040099**2-R040090**2,nan,ois
+"040090,040100",1.665,0.083,nannan,,R040100**2-R040090**2,nan,ois
+"040090,040101",1.843,0.092,nannan,,R040101**2-R040090**2,nan,ois
+"040090,040102",1.979,0.099,nannan,,R040102**2-R040090**2,nan,ois
+"041090,041091",-0.011,0.0011,Ch09a0.1,,R041091**2-R041090**2,nan,ois
+"041091,041092",0.127,0.0127,nansee p.3.,,R041092**2-R041091**2,nan,ois
+"041091,041093",0.312,0.0312,nannan,,R041093**2-R041091**2,nan,ois
+"041091,041099",1.028,0.1028,nannan,,R041099**2-R041091**2,nan,ois
+"041091,041101",1.731,0.1731,nannan,,R041101**2-R041091**2,nan,ois
+"041091,041103",1.942,0.1942,nannan,,R041103**2-R041091**2,nan,ois
+"042090,042092",-0.084,0.002,"Ch09,001 errors",,R042092**2-R042090**2,nan,ois
+"042091,042092",-0.021,0.002,nanadded,,R042092**2-R042091**2,nan,ois
+"042092,042094",0.322,0.004,"nan,001 errors",,R042094**2-R042092**2,nan,ois
+"042092,042095",0.41,0.027,nanadded,,R042095**2-R042092**2,nan,ois
+"042092,042096",0.597,0.012,"nan,001 errors",,R042096**2-R042092**2,nan,ois
+"042092,042097",0.63,0.013000000000000001,nanadded,,R042097**2-R042092**2,nan,ois
+"042092,042098",0.811,0.021,"nan,001 errors",,R042098**2-R042092**2,nan,ois
+"042092,042100",1.139,0.04,nanadded,,R042100**2-R042092**2,nan,ois
+"042092,042102",1.526,0.07100000000000001,nannan,,R042102**2-R042092**2,nan,ois
+"042092,042103",1.727,0.091,nannan,,R042103**2-R042092**2,nan,ois
+"042092,042104",1.821,0.101,nannan,,R042104**2-R042092**2,nan,ois
+"042092,042105",1.945,0.116,nannan,,R042105**2-R042092**2,nan,ois
+"042092,042106",2.036,0.117,nannan,,R042106**2-R042092**2,nan,ois
+"042092,042108",2.14,0.14,nannan,,R042108**2-R042092**2,nan,ois
+"044096,044098",0.21485349516569643,0.1302267673959431,Au87nan,,R044098**2-R044096**2,nan,ois
+"044098,044099",0.06097382474226242,0.0395706440733335,(Ki64)nan,,R044099**2-R044098**2,nan,ois
+"044098,044100",0.19416008217237182,0.11579904604039647,nannan,,R044100**2-R044098**2,nan,ois
+"044099,044101",0.1734784103124689,0.10623942143575298,nannan,,R044101**2-R044099**2,nan,ois
+"044100,044101",0.040521200229951676,0.028236824010856226,nannan,,R044101**2-R044100**2,nan,ois
+"044100,044102",0.17350147606942148,0.10605636067414216,nannan,,R044102**2-R044100**2,nan,ois
+"044102,044104",0.19427313180126998,0.11290469735509591,nannan,,R044104**2-R044102**2,nan,ois
+"046102,046104",0.1530410949417549,0.07435328262006022,Au87nan,,R046104**2-R046102**2,nan,ois
+"046104,046106",0.1468786832208256,0.0725855650498605,(Ba76)nan,,R046106**2-R046104**2,nan,ois
+"046106,046108",0.14898149778141745,0.07312236520744646,nannan,,R046108**2-R046106**2,nan,ois
+"046108,046110",0.1324922970750688,0.04120307279577851,nannan,,R046110**2-R046108**2,nan,ois
+"047101,047109",0.676,0.07060000000000001,Ot89nan,,R047109**2-R047101**2,nan,ois
+"047103,047109",0.486,0.050600000000000006,(Di89)nan,,R047109**2-R047103**2,nan,ois
+"047104,047109",0.419,0.0439,nannan,,R047109**2-R047104**2,nan,ois
+"047105,047109",0.298,0.0318,nannan,,R047109**2-R047105**2,nan,ois
+"047107,047109",0.149,0.0159,nannan,,R047109**2-R047107**2,nan,ois
+"048102,048114",0.982,0.255,Ot89Syst errors,,R048114**2-R048102**2,nan,ois
+"048103,048114",0.876,0.231,(Bu87)from Bu87,,R048114**2-R048103**2,nan,ois
+"048104,048114",0.745,0.21300000000000002,nannan,,R048114**2-R048104**2,nan,ois
+"048105,048114",0.673,0.183,nannan,,R048114**2-R048105**2,nan,ois
+"048106,048114",0.5345,0.09620000000000001,nannan,,R048114**2-R048106**2,nan,ois
+"048107,048114",0.481,0.139,nannan,,R048114**2-R048107**2,nan,ois
+"048108,048114",0.392,0.07020000000000001,nannan,,R048114**2-R048108**2,nan,ois
+"048109,048114",0.377,0.122,nannan,,R048114**2-R048109**2,nan,ois
+"048110,048114",0.2555,0.0462,nannan,,R048114**2-R048110**2,nan,ois
+"048111,048114",0.2348,0.0402,nannan,,R048114**2-R048111**2,nan,ois
+"048112,048114",0.1206,0.044,nannan,,R048114**2-R048112**2,nan,ois
+"048113,048114",0.0989,0.0162,nannan,,R048114**2-R048113**2,nan,ois
+"048114,048115",0.023,0.055999999999999994,nannan,,R048115**2-R048114**2,nan,ois
+"048114,048116",0.0941,0.0192,nannan,,R048116**2-R048114**2,nan,ois
+"048114,048118",0.125,0.064,nannan,,R048118**2-R048114**2,nan,ois
+"048114,048120",0.169,0.10300000000000001,nannan,,R048120**2-R048114**2,nan,ois
+"049104,049115",0.842,0.0992,Ot89Syst errors,,R049115**2-R049104**2,nan,ois
+"049105,049115",0.733,0.0873,(Eb87b)from Eb87b,,R049115**2-R049105**2,nan,ois
+"049106,049115",0.678,0.07980000000000001,nannan,,R049115**2-R049106**2,nan,ois
+"049107,049115",0.575,0.0675,nannan,,R049115**2-R049107**2,nan,ois
+"049108,049115",0.509,0.0559,nannan,,R049115**2-R049108**2,nan,ois
+"049109,049115",0.41,0.048,nannan,,R049115**2-R049109**2,nan,ois
+"049110,049115",0.361,0.0441,nannan,,R049115**2-R049110**2,nan,ois
+"049111,049115",0.262,0.031200000000000002,nannan,,R049115**2-R049111**2,nan,ois
+"049112,049115",0.218,0.0278,nannan,,R049115**2-R049112**2,nan,ois
+"049113,049115",0.128,0.0131,nannan,,R049115**2-R049113**2,nan,ois
+"049114,049115",0.087,0.0107,nannan,,R049115**2-R049114**2,nan,ois
+"049115,049116",0.048,0.0058000000000000005,nannan,,R049116**2-R049115**2,nan,ois
+"049115,049117",0.119,0.0159,nannan,,R049117**2-R049115**2,nan,ois
+"049115,049118",0.157,0.0177,nannan,,R049118**2-R049115**2,nan,ois
+"049115,049119",0.22,0.026000000000000002,nannan,,R049119**2-R049115**2,nan,ois
+"049115,049120",0.252,0.027200000000000002,nannan,,R049120**2-R049115**2,nan,ois
+"049115,049121",0.306,0.033600000000000005,nannan,,R049121**2-R049115**2,nan,ois
+"049115,049122",0.332,0.0372,nannan,,R049122**2-R049115**2,nan,ois
+"049115,049123",0.385,0.04150000000000001,nannan,,R049123**2-R049115**2,nan,ois
+"049115,049124",0.412,0.0472,nannan,,R049124**2-R049115**2,nan,ois
+"049115,049125",0.452,0.0502,nannan,,R049125**2-R049115**2,nan,ois
+"049115,049126",0.48,0.055,nannan,,R049126**2-R049115**2,nan,ois
+"049115,049127",0.508,0.057800000000000004,nannan,,R049127**2-R049115**2,nan,ois
+"050108,050116",0.578,0.023,Ot89Syst errors,,R050116**2-R050108**2,nan,ois
+"050109,050116",0.506,0.02,(Eb87)from Eb87,,R050116**2-R050109**2,nan,ois
+"050110,050116",0.417,0.016,nannan,,R050116**2-R050110**2,nan,ois
+"050111,050116",0.378,0.015,nannan,,R050116**2-R050111**2,nan,ois
+"050112,050116",0.269,0.011,nannan,,R050116**2-R050112**2,nan,ois
+"050113,050116",0.212,0.008,nannan,,R050116**2-R050113**2,nan,ois
+"050114,050116",0.136,0.008,nannan,,R050116**2-R050114**2,nan,ois
+"050115,050116",0.096,0.004,nannan,,R050116**2-R050115**2,nan,ois
+"050116,050117",0.044,0.002,nannan,,R050117**2-R050116**2,nan,ois
+"050116,050118",0.128,0.005,nannan,,R050118**2-R050116**2,nan,ois
+"050116,050119",0.165,0.006,nannan,,R050119**2-R050116**2,nan,ois
+"050116,050120",0.241,0.01,nannan,,R050120**2-R050116**2,nan,ois
+"050116,050121",0.281,0.009999999999999998,nannan,,R050121**2-R050116**2,nan,ois
+"050116,050122",0.342,0.013999999999999999,nannan,,R050122**2-R050116**2,nan,ois
+"050116,050123",0.367,0.013000000000000001,nannan,,R050123**2-R050116**2,nan,ois
+"050116,050124",0.428,0.018000000000000002,nannan,,R050124**2-R050116**2,nan,ois
+"050116,050125",0.455,0.018,nannan,,R050125**2-R050116**2,nan,ois
+"050120,050125",0.236,0.031,nannan,,R050125**2-R050120**2,nan,ois
+"050120,050126",0.29,0.037,nannan,,R050126**2-R050120**2,nan,ois
+"050120,050127",0.322,0.042,nannan,,R050127**2-R050120**2,nan,ois
+"050120,050128",0.373,0.048,nannan,,R050128**2-R050120**2,nan,ois
+"050120,050129",0.384,0.052,nannan,,R050129**2-R050120**2,nan,ois
+"050120,050130",0.465,0.059,nannan,,R050130**2-R050120**2,nan,ois
+"050120,050131",0.521,0.066,nannan,,R050131**2-R050120**2,nan,ois
+"050120,050132",0.534,0.069,nannan,,R050132**2-R050120**2,nan,ois
+"052116,052130",0.5224,0.12944999999999995,Li07nan,,R052130**2-R052116**2,nan,ois
+"052118,052130",0.4242,0.10355000000000003,és nan,,R052130**2-R052118**2,nan,ois
+"052120,052130",0.35035,0.09270000000000002,PrivComm.nan,,R052130**2-R052120**2,nan,ois
+"052122,052130",0.28259999999999996,0.07229999999999996,from nan,,R052130**2-R052122**2,nan,ois
+"052123,052130",0.26795,0.06685000000000002,B.Roussiére:nan,,R052130**2-R052123**2,nan,ois
+"052124,052130",0.21065,0.05289999999999999,Ro07nan,,R052130**2-R052124**2,nan,ois
+"052125,052130",0.19230000000000003,0.046750000000000014,nannan,,R052130**2-R052125**2,nan,ois
+"052126,052130",0.1422,0.03449999999999999,nannan,,R052130**2-R052126**2,nan,ois
+"052128,052130",0.07089999999999999,0.017299999999999996,nannan,,R052130**2-R052128**2,nan,ois
+"052130,052132",0.07015,0.03055,nannan,,R052132**2-R052130**2,nan,ois
+"052130,052134",0.1334,0.047,nannan,,R052134**2-R052130**2,nan,ois
+"052130,052136",0.35645,0.1,nannan,,R052136**2-R052130**2,nan,ois
+"054116,054136",0.599,0.14900000000000002,Ot89Syst errors,,R054136**2-R054116**2,nan,ois
+"054118,054136",0.46,0.127,   Bo88 (+Prepr.)nan,,R054136**2-R054118**2,nan,ois
+"054120,054136",0.363,0.117,nannan,,R054136**2-R054120**2,nan,ois
+"054122,054136",0.299,0.096,nannan,,R054136**2-R054122**2,nan,ois
+"054124,054136",0.242,0.085,nannan,,R054136**2-R054124**2,nan,ois
+"054126,054136",0.193,0.067,nannan,,R054136**2-R054126**2,nan,ois
+"054128,054136",0.152,0.054000000000000006,nannan,,R054136**2-R054128**2,nan,ois
+"054129,054136",0.151,0.043000000000000003,Bo89nan,,R054136**2-R054129**2,nan,ois
+"054130,054136",0.117,0.043000000000000003,nannan,,R054136**2-R054130**2,nan,ois
+"054131,054136",0.125,0.032,Bo89nan,,R054136**2-R054131**2,nan,ois
+"054132,054136",0.0844,0.0217,nannan,,R054136**2-R054132**2,nan,ois
+"054132,054133",-0.022,0.005,nannan,,R054133**2-R054132**2,nan,ois
+"054134,054136",0.0518,0.0133,nannan,,R054136**2-R054134**2,nan,ois
+"054136,054137",0.105,0.013000000000000001,nannan,,R054137**2-R054136**2,nan,ois
+"054136,054138",0.254,0.023,nannan,,R054138**2-R054136**2,nan,ois
+"054136,054139",0.359,0.036,nannan,,R054139**2-R054136**2,nan,ois
+"054136,054140",0.486,0.042,0nan,,R054140**2-R054136**2,nan,ois
+"054136,054141",0.591,0.054000000000000006,nannan,,R054141**2-R054136**2,nan,ois
+"054136,054142",0.71,0.06899999999999999,nannan,,R054142**2-R054136**2,nan,ois
+"054136,054143",0.794,0.07400000000000001,nannan,,R054143**2-R054136**2,nan,ois
+"054136,054144",0.908,0.085,nannan,,R054144**2-R054136**2,nan,ois
+"054136,054146",1.1,0.10500000000000001,nannan,,R054146**2-R054136**2,nan,ois
+"055118,055133",0.197,0.076,Ot89Syst error,,R055133**2-R055118**2,nan,ois
+"055119,055133",0.136,0.07300000000000001,"(Th81b,from Co87",,R055133**2-R055119**2,nan,ois
+"055120,055133",0.1185,0.0574,Co87)nan,,R055133**2-R055120**2,nan,ois
+"055121,055133",0.2555,0.06,nannan,,R055133**2-R055121**2,nan,ois
+"055122,055133",0.2524,0.05,nannan,,R055133**2-R055122**2,nan,ois
+"055123,055133",0.2078,0.05,nannan,,R055133**2-R055123**2,nan,ois
+"055124,055133",0.2008,0.04,nannan,,R055133**2-R055124**2,nan,ois
+"055125,055133",0.1517,0.04,nannan,,R055133**2-R055125**2,nan,ois
+"055126,055133",0.1586,0.030000000000000002,nannan,,R055133**2-R055126**2,nan,ois
+"055127,055133",0.0985,0.028999999999999998,nannan,,R055133**2-R055127**2,nan,ois
+"055128,055133",0.1131,0.023,nannan,,R055133**2-R055128**2,nan,ois
+"055129,055133",0.0561,0.02,nannan,,R055133**2-R055129**2,nan,ois
+"055130,055133",0.0465,0.015,nannan,,R055133**2-R055130**2,nan,ois
+"055131,055133",0.0141,0.011,nannan,,R055133**2-R055131**2,nan,ois
+"055132,055133",0.0369,0.005,nannan,,R055133**2-R055132**2,nan,ois
+"055133,055134",-0.0096,0.006,nannan,,R055134**2-R055133**2,nan,ois
+"055133,055135",0.025,0.01,nannan,,R055135**2-R055133**2,nan,ois
+"055133,055136",0.0168,0.023,nannan,,R055136**2-R055133**2,nan,ois
+"055133,055137",0.0821,0.02,nannan,,R055137**2-R055133**2,nan,ois
+"055133,055138",0.2023,0.019999999999999997,nannan,,R055138**2-R055133**2,nan,ois
+"055133,055139",0.3604,0.05,nannan,,R055139**2-R055133**2,nan,ois
+"055133,055140",0.4869,0.072,nannan,,R055140**2-R055133**2,nan,ois
+"055133,055141",0.6159,0.095,nannan,,R055141**2-R055133**2,nan,ois
+"055133,055142",0.7454,0.12000000000000001,nannan,,R055142**2-R055133**2,nan,ois
+"055133,055143",0.8798,0.139,nannan,,R055143**2-R055133**2,nan,ois
+"055133,055144",0.9669,0.15,nannan,,R055144**2-R055133**2,nan,ois
+"055133,055145",1.0953,0.18,nannan,,R055145**2-R055133**2,nan,ois
+"055133,055146",1.185,0.182,nannan,,R055146**2-R055133**2,nan,ois
+"056120,056138",0.262,0.028200000000000003,Ot89nan,,R056138**2-R056120**2,nan,ois
+"056121,056138",0.184,0.0204,"(Ea88,nan",,R056138**2-R056121**2,nan,ois
+"056122,056138",0.204,0.0234,Be79)nan,,R056138**2-R056122**2,nan,ois
+"056123,056138",0.22,0.025,nannan,,R056138**2-R056123**2,nan,ois
+"056124,056138",0.175,0.019500000000000003,nannan,,R056138**2-R056124**2,nan,ois
+"056125,056138",0.182,0.020200000000000003,nannan,,R056138**2-R056125**2,nan,ois
+"056126,056138",0.142,0.0162,nannan,,R056138**2-R056126**2,nan,ois
+"056127,056138",0.158,0.017800000000000003,nannan,,R056138**2-R056127**2,nan,ois
+"056128,056138",0.111,0.0121,nannan,,R056138**2-R056128**2,nan,ois
+"056129,056138",0.118,0.012799999999999999,nannan,,R056138**2-R056129**2,nan,ois
+"056130,056138",0.086,0.009600000000000001,nannan,,R056138**2-R056130**2,nan,ois
+"056131,056138",0.093,0.0103,nannan,,R056138**2-R056131**2,nan,ois
+"056132,056138",0.068,0.0078000000000000005,nannan,,R056138**2-R056132**2,nan,ois
+"056133,056138",0.084,0.009400000000000002,nannan,,R056138**2-R056133**2,nan,ois
+"056134,056138",0.049,0.005900000000000001,nannan,,R056138**2-R056134**2,nan,ois
+"056135,056138",0.074,0.008400000000000001,nannan,,R056138**2-R056135**2,nan,ois
+"056136,056138",0.039,0.0049,nannan,,R056138**2-R056136**2,nan,ois
+"056137,056138",0.057,0.0067,nannan,,R056138**2-R056137**2,nan,ois
+"056138,056139",0.123,0.0133,nannan,,R056139**2-R056138**2,nan,ois
+"056138,056140",0.278,0.028800000000000006,nannan,,R056140**2-R056138**2,nan,ois
+"056138,056141",0.391,0.040100000000000004,nannan,,R056141**2-R056138**2,nan,ois
+"056138,056142",0.525,0.0545,nannan,,R056142**2-R056138**2,nan,ois
+"056138,056143",0.648,0.06680000000000001,nannan,,R056143**2-R056138**2,nan,ois
+"056138,056144",0.786,0.0806,nannan,,R056144**2-R056138**2,nan,ois
+"056138,056145",0.886,0.09060000000000001,nannan,,R056145**2-R056138**2,nan,ois
+"056138,056146",1.011,0.1031,nannan,,R056146**2-R056138**2,nan,ois
+"056138,056148",1.245,0.1275,nannan,,R056148**2-R056138**2,nan,ois
+"057137,057139",0.05594983969328459,0.033323936123406464,Au87nan,,R057139**2-R057137**2,nan,ois
+"057138,057139",0.08270715564141977,0.01895977268344252,nannan,,R057139**2-R057138**2,nan,ois
+"058136,058140",0.031,0.004,Ch03nan,,R058140**2-R058136**2,nan,ois
+"058138,058140",0.033,0.004,nannan,,R058140**2-R058138**2,nan,ois
+"058140,058142",0.281,0.016,nannan,,R058142**2-R058140**2,nan,ois
+"058140,058144",0.513,0.026000000000000002,nannan,,R058144**2-R058140**2,nan,ois
+"058140,058146",0.793,0.03,nannan,,R058146**2-R058140**2,nan,ois
+"058140,058148",1.089,0.04,nannan,,R058148**2-R058140**2,nan,ois
+"060132,060142",-0.047,0.0327,Ot89nan,,R060142**2-R060132**2,nan,ois
+"060134,060142",-0.005,0.0205,"(Al87,nan",,R060142**2-R060134**2,nan,ois
+"060135,060142",0.035,0.0345,Ki73)nan,,R060142**2-R060135**2,nan,ois
+"060136,060142",0.011,0.0261,nannan,,R060142**2-R060136**2,nan,ois
+"060137,060142",0.04,0.019,nannan,,R060142**2-R060137**2,nan,ois
+"060138,060142",-0.006,0.0206,nannan,,R060142**2-R060138**2,nan,ois
+"060139,060142",0.044,0.0174,nannan,,R060142**2-R060139**2,nan,ois
+"060140,060142",0.021,0.027100000000000003,nannan,,R060142**2-R060140**2,nan,ois
+"060141,060142",0.062,0.019200000000000002,nannan,,R060142**2-R060141**2,nan,ois
+"060142,060143",0.122,0.0172,nannan,,R060143**2-R060142**2,nan,ois
+"060142,060144",0.278,0.030800000000000004,nannan,,R060144**2-R060142**2,nan,ois
+"060142,060145",0.385,0.043500000000000004,nannan,,R060145**2-R060142**2,nan,ois
+"060142,060146",0.537,0.0577,nannan,,R060146**2-R060142**2,nan,ois
+"060142,060148",0.823,0.0863,nannan,,R060148**2-R060142**2,nan,ois
+"060142,060150",1.205,0.1255,nannan,,R060150**2-R060142**2,nan,ois
+"062138,062144",-0.073,0.0183,Ot89nan,,R062144**2-R062138**2,nan,ois
+"062139,062144",-0.031,0.0141,(Al87)nan,,R062144**2-R062139**2,nan,ois
+"062140,062144",-0.04,0.015,nannan,,R062144**2-R062140**2,nan,ois
+"062141,062144",0.043,0.0223,nannan,,R062144**2-R062141**2,nan,ois
+"062142,062144",0.006,0.0096,nannan,,R062144**2-R062142**2,nan,ois
+"062143,062144",0.043,0.0153,nannan,,R062144**2-R062143**2,nan,ois
+"062144,062145",0.123,0.0193,nannan,,R062145**2-R062144**2,nan,ois
+"062144,062146",0.266,0.0366,nannan,,R062146**2-R062144**2,nan,ois
+"062144,062147",0.365,0.0645,nannan,,R062147**2-R062144**2,nan,ois
+"062144,062148",0.517,0.0787,nannan,,R062148**2-R062144**2,nan,ois
+"062144,062149",0.609,0.08990000000000001,nannan,,R062149**2-R062144**2,nan,ois
+"062144,062150",0.82,0.113,nannan,,R062150**2-R062144**2,nan,ois
+"062144,062151",0.981,0.1381,nannan,,R062151**2-R062144**2,nan,ois
+"062144,062152",1.243,0.16230000000000003,nannan,,R062152**2-R062144**2,nan,ois
+"062144,062153",1.339,0.1359,nannan,,R062153**2-R062144**2,nan,ois
+"062144,062154",1.473,0.18730000000000002,nannan,,R062154**2-R062144**2,nan,ois
+"063137,063145",-0.09641553002666713,0.05357765990275298,Ba04Syst 5%,,R063145**2-R063137**2,nan,ois
+"063138,063145",-0.11429556386535215,0.045221507134639974,Ot89  Signs: Ah85 Fig. 5.,,R063145**2-R063138**2,nan,ois
+"063139,063145",-0.109,0.0439,"(Ah85,nan",,R063145**2-R063139**2,nan,ois
+"063140,063145",-0.033,0.015300000000000001,Al87)nan,,R063145**2-R063140**2,nan,ois
+"063141,063145",-0.035,0.0125,nannan,,R063145**2-R063141**2,nan,ois
+"063142,063145",0.054,0.0154,nannan,,R063145**2-R063142**2,nan,ois
+"063143,063145",0.026,0.0076,nannan,,R063145**2-R063143**2,nan,ois
+"063144,063145",0.05,0.011,nannan,,R063145**2-R063144**2,nan,ois
+"063145,063146",0.124,0.021400000000000002,nannan,,R063146**2-R063145**2,nan,ois
+"063145,063147",0.271,0.0441,nannan,,R063147**2-R063145**2,nan,ois
+"063145,063148",0.376,0.0616,nannan,,R063148**2-R063145**2,nan,ois
+"063145,063149",0.532,0.0862,nannan,,R063149**2-R063145**2,nan,ois
+"063145,063150",0.625,0.1015,nannan,,R063150**2-R063145**2,nan,ois
+"063145,063151",0.851,0.1361,nannan,,R063151**2-R063145**2,nan,ois
+"063151,063152",0.5435449591597431,0.0802185377886661,"Au87: Br81, Ah85nan",,R063152**2-R063151**2,nan,ois
+"063151,063153",0.5925820518534817,0.06141791236773742,Al90anan,,R063153**2-R063151**2,nan,ois
+"063151,063154",0.7094701486067145,0.11427966026849756,"Au87: Br81, Ah85nan",,R063154**2-R063151**2,nan,ois
+"063151,063155",0.694491320784476,0.0791283867084393,Al90anan,,R063155**2-R063151**2,nan,ois
+"063151,063156",0.7356816858933576,0.08329093236225518,nannan,,R063156**2-R063151**2,nan,ois
+"063151,063157",0.8249359430066271,0.09132777029842301,nannan,,R063157**2-R063151**2,nan,ois
+"063151,063158",0.8858488720648328,0.09751154446539119,nannan,,R063158**2-R063151**2,nan,ois
+"063151,063159",0.972172817562746,0.10741893309906822,nannan,,R063159**2-R063151**2,nan,ois
+"064145,064160",1.8908644750516816,0.032564605632163346,Ba05nan,,R064160**2-R064145**2,nan,ois
+"064148,064160",1.62,0.15,Al88bnan,,R064160**2-R064148**2,nan,ois
+"064150,064160",1.37,0.14,Fe08Priv. Comm.,,R064160**2-R064150**2,nan,ois
+"064146,064154",1.4,0.12,Al88anan,,R064154**2-R064146**2,nan,ois
+"064152,064154",0.412,0.021997366052440084,Wa90See d<r2> !,,R064154**2-R064152**2,nan,ois
+"064154,064156",0.183,0.009642048218502628,nanSpec meth,,R064156**2-R064154**2,nan,ois
+"064156,064158",0.137,0.007529027882908456,nannan,,R064158**2-R064156**2,nan,ois
+"064158,064160",0.142,0.008530001349571001,nannan,,R064160**2-R064158**2,nan,ois
+"064154,064155",0.089,0.005320645780654305,nannan,,R064155**2-R064154**2,nan,ois
+"064156,064157",0.027,0.0022060442350236476,nannan,,R064157**2-R064156**2,nan,ois
+"065147,065159",1.3950824690613128,0.15522365587450315,AL90Syst 5-10%,,R065159**2-R065147**2,nan,ois
+"065148,065159",1.3077262308152604,0.14521464518783478,nannan,,R065159**2-R065148**2,nan,ois
+"065149,065159",1.1776350244484695,0.1307528683518591,nannan,,R065159**2-R065149**2,nan,ois
+"065150,065159",1.1045336334982025,0.12331103109507913,nannan,,R065159**2-R065150**2,nan,ois
+"065151,065159",0.9732688190007377,0.10872477935575314,nannan,,R065159**2-R065151**2,nan,ois
+"065152,065159",0.91567341495434,0.10289654188129373,nannan,,R065159**2-R065152**2,nan,ois
+"065153,065159",0.654865219868993,0.07588707117182547,nannan,,R065159**2-R065153**2,nan,ois
+"065154,065159",0.26630144892852975,0.044943867376496395,nannan,,R065159**2-R065154**2,nan,ois
+"065155,065159",0.21052620428958524,0.030863732391370392,nannan,,R065159**2-R065155**2,nan,ois
+"065157,065159",0.11372143521265476,0.02000293411975633,nannan,,R065159**2-R065157**2,nan,ois
+"066146,066148",0.017,0.0037,Ot89Ref:  A=148 !,,R066148**2-R066146**2,nan,ois
+"066148,066149",0.113,0.0233,Ne88bnan,,R066149**2-R066148**2,nan,ois
+"066148,066150",0.254,0.0504,nannan,,R066150**2-R066148**2,nan,ois
+"066148,066151",0.35,0.07,nannan,,R066151**2-R066148**2,nan,ois
+"066148,066152",0.502,0.10020000000000001,nannan,,R066152**2-R066148**2,nan,ois
+"066148,066153",0.588,0.11779999999999999,nannan,,R066153**2-R066148**2,nan,ois
+"066148,066154",0.799,0.15990000000000001,nannan,,R066154**2-R066148**2,nan,ois
+"066148,066155",1.02,0.202,nannan,,R066155**2-R066148**2,nan,ois
+"066148,066156",1.19,0.239,nannan,,R066156**2-R066148**2,nan,ois
+"066148,066157",1.28,0.258,nannan,,R066157**2-R066148**2,nan,ois
+"066148,066158",1.39,0.279,nannan,,R066158**2-R066148**2,nan,ois
+"066148,066159",1.4,0.28,nannan,,R066159**2-R066148**2,nan,ois
+"066148,066160",1.53,0.30300000000000005,nannan,,R066160**2-R066148**2,nan,ois
+"066148,066161",1.56,0.31600000000000006,nannan,,R066161**2-R066148**2,nan,ois
+"066148,066162",1.66,0.336,nannan,,R066162**2-R066148**2,nan,ois
+"066148,066163",1.71,0.341,nannan,,R066163**2-R066148**2,nan,ois
+"066148,066164",1.8,0.36,nannan,,R066164**2-R066148**2,nan,ois
+"066156,066158",0.199,0.011077734362942595,Wa90Spec!,,R066158**2-R066156**2,nan,ois
+"066158,066160",0.134,0.008953851168269961,nannan,,R066160**2-R066158**2,nan,ois
+"066160,066162",0.136,0.00916707061347085,nannan,,R066162**2-R066160**2,nan,ois
+"066162,066164",0.126,0.0080582503164956,nannan,,R066164**2-R066162**2,nan,ois
+"066160,066161",0.036,0.0024156316372336297,nannan,,R066161**2-R066160**2,nan,ois
+"066162,066163",0.041,0.0024170591772565276,nannan,,R066163**2-R066162**2,nan,ois
+"067151,067165",1.617,0.16970000000000002,Ot89nan,,R067165**2-R067151**2,nan,ois
+"067152,067165",1.406,0.1456,"(Ne88c,nan",,R067165**2-R067152**2,nan,ois
+"067153,067165",1.271,0.1341,Al87)nan,,R067165**2-R067153**2,nan,ois
+"067154,067165",1.167,0.11970000000000001,nannan,,R067165**2-R067154**2,nan,ois
+"067155,067165",0.949,0.0969,nannan,,R067165**2-R067155**2,nan,ois
+"067156,067165",0.907,0.09570000000000001,nannan,,R067165**2-R067156**2,nan,ois
+"067157,067165",0.49,0.051000000000000004,nannan,,R067165**2-R067157**2,nan,ois
+"067158,067165",0.454,0.0494,nannan,,R067165**2-R067158**2,nan,ois
+"067159,067165",0.35,0.037000000000000005,nannan,,R067165**2-R067159**2,nan,ois
+"067160,067165",0.363,0.0383,nannan,,R067165**2-R067160**2,nan,ois
+"067161,067165",0.24,0.026000000000000002,nannan,,R067165**2-R067161**2,nan,ois
+"067162,067165",0.207,0.0277,nannan,,R067165**2-R067162**2,nan,ois
+"067163,067165",0.117,0.0177,nannan,,R067165**2-R067163**2,nan,ois
+"068150,068152",0.253,0.050300000000000004,Ot89Ref:  A=150 !,,R068152**2-R068150**2,nan,ois
+"068150,068154",0.499,0.0999,(Ne88b)nan,,R068154**2-R068150**2,nan,ois
+"068150,068156",0.76,0.15200000000000002,Prelim. Eval.nan,,R068156**2-R068150**2,nan,ois
+"068150,068158",1.05,0.215,nannan,,R068158**2-R068150**2,nan,ois
+"068150,068160",1.3,0.26,nannan,,R068160**2-R068150**2,nan,ois
+"068150,068162",1.48,0.298,nannan,,R068162**2-R068150**2,nan,ois
+"068162,068164",0.107,0.0212,"Ji90""2par"" meth",,R068164**2-R068162**2,nan,ois
+"068164,068166",0.105,0.020999999999999998,nannan,,R068166**2-R068164**2,nan,ois
+"068166,068167",0.0362,0.007170000000000001,nannan,,R068167**2-R068166**2,nan,ois
+"068166,068168",0.105,0.020999999999999998,nannan,,R068168**2-R068166**2,nan,ois
+"068168,068170",0.128,0.0252,nannan,,R068170**2-R068168**2,nan,ois
+"069153,069169",1.615,0.1925,Ba00nan,,R069169**2-R069153**2,nan,ois
+"069154,069169",1.486,0.1676,nanI=2. ground state?,,R069169**2-R069154**2,nan,ois
+"069156,069169",1.284,0.13440000000000002,Ot89 (Al87)nan,,R069169**2-R069156**2,nan,ois
+"069157,069169",1.1518568047480513,0.06782912211043884,Al88Syst ~5%,,R069169**2-R069157**2,nan,ois
+"069158,069169",1.0560819439556919,0.06183018083005119,nannan,,R069169**2-R069158**2,nan,ois
+"069159,069169",0.8936934727488275,0.05018514108480416,nannan,,R069169**2-R069159**2,nan,ois
+"069160,069169",0.7782902530686046,0.04424022358167912,nannan,,R069169**2-R069160**2,nan,ois
+"069161,069169",0.6629220455293245,0.03721947077162456,nannan,,R069169**2-R069161**2,nan,ois
+"069162,069169",0.5627712178008843,0.0342179520276943,nannan,,R069169**2-R069162**2,nan,ois
+"069163,069169",0.4216694685502737,0.023710081049043676,nannan,,R069169**2-R069163**2,nan,ois
+"069164,069169",0.3625466753825187,0.02497584969425149,nannan,,R069169**2-R069164**2,nan,ois
+"069165,069169",0.260407821664962,0.015439690686586054,nannan,,R069169**2-R069165**2,nan,ois
+"069166,069169",0.218430941498626,0.014392986507533654,nannan,,R069169**2-R069166**2,nan,ois
+"069167,069169",0.13129826811058934,0.009908684571495248,nannan,,R069169**2-R069167**2,nan,ois
+"069168,069169",0.08836669946293647,0.008856564993025126,nannan,,R069169**2-R069168**2,nan,ois
+"069169,069170",0.04967796819198777,0.0078013808868405785,nannan,,R069170**2-R069169**2,nan,ois
+"069169,069171",0.1367137507310381,0.013401392720219757,nannan,,R069171**2-R069169**2,nan,ois
+"069169,069172",0.15966143364799096,0.03985469157290444,nannan,,R069172**2-R069169**2,nan,ois
+"070152,070154",0.36790424152174694,0.049109375342928974,Sp89Error est.,,R070154**2-R070152**2,nan,ois
+"070154,070156",0.2778698376164058,0.03966845314514243,Fig.3.nan,,R070156**2-R070154**2,nan,ois
+"070155,070168",1.316,0.13960000000000003,Ba00Sysdt error est.,,R070168**2-R070155**2,nan,ois
+"070156,070168",1.171,0.1411,Sc91nan,,R070168**2-R070156**2,nan,ois
+"070157,070168",1.091,0.1451,nannan,,R070168**2-R070157**2,nan,ois
+"070158,070168",0.9554,0.10134000000000001,Ot89nan,,R070168**2-R070158**2,nan,ois
+"070159,070168",0.846,0.1076,Sc91nan,,R070168**2-R070159**2,nan,ois
+"070160,070168",0.7319,0.07699,(Bu82)nan,,R070168**2-R070160**2,nan,ois
+"070161,070168",0.6472,0.06792,nannan,,R070168**2-R070161**2,nan,ois
+"070162,070168",0.5157,0.05437,nannan,,R070168**2-R070162**2,nan,ois
+"070163,070168",0.434,0.045700000000000005,nannan,,R070168**2-R070163**2,nan,ois
+"070164,070168",0.3135,0.034050000000000004,nannan,,R070168**2-R070164**2,nan,ois
+"070165,070168",0.2409,0.02569,nannan,,R070168**2-R070165**2,nan,ois
+"070166,070168",0.1397,0.01497,nannan,,R070168**2-R070166**2,nan,ois
+"070167,070168",0.064,0.0069,nannan,,R070168**2-R070167**2,nan,ois
+"070168,070169",0.0517,0.01917,nannan,,R070169**2-R070168**2,nan,ois
+"070168,070170",0.1173,0.01293,nannan,,R070170**2-R070168**2,nan,ois
+"070168,070171",0.1573,0.01713,nannan,,R070171**2-R070168**2,nan,ois
+"070168,070172",0.2279,0.02469,nannan,,R070172**2-R070168**2,nan,ois
+"070168,070173",0.2664,0.028940000000000004,nannan,,R070173**2-R070168**2,nan,ois
+"070168,070174",0.3144,0.034140000000000004,nannan,,R070174**2-R070168**2,nan,ois
+"070168,070175",0.333,0.0463,Sc91nan,,R070175**2-R070168**2,nan,ois
+"070168,070176",0.3968,0.04308,nannan,,R070176**2-R070168**2,nan,ois
+"071161,071170",1.12,0.11300000000000002,"Ge98""2par"" meth",,R071170**2-R071161**2,nan,ois
+"071162,071170",1.011,0.1021,nannan,,R071170**2-R071162**2,nan,ois
+"071163,071170",0.835,0.0845,nannan,,R071170**2-R071163**2,nan,ois
+"071164,071170",0.721,0.0731,nannan,,R071170**2-R071164**2,nan,ois
+"071165,071170",0.561,0.05710000000000001,nannan,,R071170**2-R071165**2,nan,ois
+"071166,071170",0.412,0.0422,nannan,,R071170**2-R071166**2,nan,ois
+"071167,071170",0.269,0.027900000000000005,nannan,,R071170**2-R071167**2,nan,ois
+"071168,071170",0.144,0.0154,nannan,,R071170**2-R071168**2,nan,ois
+"071169,071170",0.078,0.0088,nannan,,R071170**2-R071169**2,nan,ois
+"071170,071171",0.076,0.0086,nannan,,R071171**2-R071170**2,nan,ois
+"071170,071172",0.129,0.013900000000000003,nannan,,R071172**2-R071170**2,nan,ois
+"071170,071173",0.225,0.0235,nannan,,R071173**2-R071170**2,nan,ois
+"071170,071174",0.286,0.0296,nannan,,R071174**2-R071170**2,nan,ois
+"071170,071175",0.356,0.0366,nannan,,R071175**2-R071170**2,nan,ois
+"071170,071176",0.397,0.04070000000000001,nannan,,R071176**2-R071170**2,nan,ois
+"071170,071177",0.477,0.0487,nannan,,R071177**2-R071170**2,nan,ois
+"071170,071178",0.523,0.05330000000000001,nannan,,R071178**2-R071170**2,nan,ois
+"071170,071179",0.586,0.0596,nannan,,R071179**2-R071170**2,nan,ois
+"072174,072175",-0.010049158640217918,0.01198986470583565,Ji97Calib: Zi94,,R072175**2-R072174**2,nan,ois
+"072170,072178",0.4861097530559964,0.05718938980171477,Le99nan,,R072178**2-R072170**2,nan,ois
+"072172,072178",0.31379841958237253,0.03733194284969132,nannan,,R072178**2-R072172**2,nan,ois
+"072173,072178",0.23633538321933895,0.028315219822464818,nannan,,R072178**2-R072173**2,nan,ois
+"072174,072178",0.17381998143932262,0.020857534118685413,nannan,,R072178**2-R072174**2,nan,ois
+"072176,072178",0.08692108773827134,0.010957729692940055,nannan,,R072178**2-R072176**2,nan,ois
+"072177,072178",0.06376085047182656,0.007598319348473082,nannan,,R072178**2-R072177**2,nan,ois
+"072178,072179",0.03713724268782372,0.00482235089275598,nannan,,R072179**2-R072178**2,nan,ois
+"072178,072180",0.1018172763953607,0.012512510663597091,nannan,,R072180**2-R072178**2,nan,ois
+"072178,072182",0.12758301460612118,0.02471009504561429,An94nan,,R072182**2-R072178**2,nan,ois
+"074180,074182",0.07016562812580646,0.015518052878313536,Au87nan,,R074182**2-R074180**2,nan,ois
+"074182,074183",0.05314869392918148,0.01075881027688025,nannan,,R074183**2-R074182**2,nan,ois
+"074182,074184",0.10095183819326745,0.0192559212408437,nannan,,R074184**2-R074182**2,nan,ois
+"074184,074186",0.08712098619873472,0.016282346495922834,nannan,,R074186**2-R074184**2,nan,ois
+"075185,075187",0.10751022128517171,0.02060721549284117,Au87nan,,R075187**2-R075185**2,nan,ois
+"076184,076186",0.08616943563236149,0.01977747107891717,Au87nan,,R076186**2-R076184**2,nan,ois
+"076186,076187",0.024652549338713043,0.007697827067618457,nannan,,R076187**2-R076186**2,nan,ois
+"076186,076188",0.08406447298429727,0.01809485338244593,nannan,,R076188**2-R076186**2,nan,ois
+"076187,076189",0.08301210413837165,0.01919000254865999,nannan,,R076189**2-R076187**2,nan,ois
+"076188,076189",0.023614131763967025,0.0075875706089625124,nannan,,R076189**2-R076188**2,nan,ois
+"076188,076190",0.0734771087203016,0.015905551038639495,nannan,,R076190**2-R076188**2,nan,ois
+"076190,076192",0.06504831585489954,0.012907342673583198,nannan,,R076192**2-R076190**2,nan,ois
+"077182,077191",0.283,0.0343,"Ve06, Tab.5.""2par"" meth",,R077191**2-R077182**2,nan,ois
+"077183,077191",0.203,0.024300000000000002,a korábbi nan,,R077191**2-R077183**2,nan,ois
+"077184,077191",0.176,0.0206,"Ve99, Fig. 1. nan",,R077191**2-R077184**2,nan,ois
+"077185,077191",0.123,0.015300000000000001,helyett !nan,,R077191**2-R077185**2,nan,ois
+"077186,077191",0.073,0.011300000000000001,nannan,,R077191**2-R077186**2,nan,ois
+"077187,077191",0.168,0.0198,nannan,,R077191**2-R077187**2,nan,ois
+"077188,077191",0.14,0.018000000000000002,nannan,,R077191**2-R077188**2,nan,ois
+"077189,077191",0.076,0.009600000000000001,nannan,,R077191**2-R077189**2,nan,ois
+"077191,077193",0.0691,0.00771,nannan,,R077193**2-R077191**2,nan,ois
+"078178,078194",0.529,0.0689,"LB99""2par"" meth",,R078194**2-R078178**2,nan,ois
+"078179,078194",0.335,0.05450000000000001,nannan,,R078194**2-R078179**2,nan,ois
+"078180,078194",0.36,0.047,nannan,,R078194**2-R078180**2,nan,ois
+"078181,078194",0.251,0.0401,nannan,,R078194**2-R078181**2,nan,ois
+"078182,078194",0.279,0.0379,nannan,,R078194**2-R078182**2,nan,ois
+"078183,078194",0.216,0.0296,nannan,,R078194**2-R078183**2,nan,ois
+"078184,078194",0.221,0.0291,nannan,,R078194**2-R078184**2,nan,ois
+"078185,078194",0.093,0.016300000000000002,nannan,,R078194**2-R078185**2,nan,ois
+"078186,078194",0.203,0.0323,"Hi92""2par"" meth",,R078194**2-R078186**2,nan,ois
+"078187,078194",0.175,0.037500000000000006,nannan,,R078194**2-R078187**2,nan,ois
+"078188,078194",0.19,0.027000000000000003,nannan,,R078194**2-R078188**2,nan,ois
+"078189,078194",0.181,0.031100000000000003,nannan,,R078194**2-R078189**2,nan,ois
+"078190,078194",0.132,0.021200000000000004,nannan,,R078194**2-R078190**2,nan,ois
+"078191,078194",0.139,0.021900000000000003,nannan,,R078194**2-R078191**2,nan,ois
+"078192,078194",0.067,0.0167,nannan,,R078194**2-R078192**2,nan,ois
+"078193,078194",0.047,0.0117,nannan,,R078194**2-R078193**2,nan,ois
+"078194,078195",0.035,0.007500000000000001,nannan,,R078195**2-R078194**2,nan,ois
+"078194,078196",0.074,0.0114,nannan,,R078196**2-R078194**2,nan,ois
+"078194,078198",0.154,0.0234,nannan,,R078198**2-R078194**2,nan,ois
+"079183,079187",0.13,0.022,Kr88nan,,R079187**2-R079183**2,nan,ois
+"079184,079197",0.064,0.0184,LB97nan,,R079197**2-R079184**2,nan,ois
+"079185,079197",0.075,0.0165,"Wa89""2par"" meth",,R079197**2-R079185**2,nan,ois
+"079186,079197",0.014,0.0094,nannan,,R079197**2-R079186**2,nan,ois
+"079187,079197",0.385,0.04750000000000001,nannan,,R079197**2-R079187**2,nan,ois
+"079188,079197",0.347,0.0437,nannan,,R079197**2-R079188**2,nan,ois
+"079189,079197",0.309,0.0379,nannan,,R079197**2-R079189**2,nan,ois
+"079190,079197",0.285,0.034499999999999996,nannan,,R079197**2-R079190**2,nan,ois
+"079191,079197",0.2427,0.02847,Pa94nan,,R079197**2-R079191**2,nan,ois
+"079192,079197",0.2065,0.024050000000000002,nannan,,R079197**2-R079192**2,nan,ois
+"079193,079197",0.162,0.018900000000000004,nannan,,R079197**2-R079193**2,nan,ois
+"079194,079197",0.1289,0.014989999999999998,"nan""2par"" meth",,R079197**2-R079194**2,nan,ois
+"079195,079197",0.08,0.014,"Sa90""2par"" meth",,R079197**2-R079195**2,nan,ois
+"079196,079197",0.043,0.0083,nannan,,R079197**2-R079196**2,nan,ois
+"079197,079198",0.031,0.0051,nannan,,R079198**2-R079197**2,nan,ois
+"079197,079199",0.089,0.009899999999999999,nannan,,R079199**2-R079197**2,nan,ois
+"080181,080198",0.0953,0.012830000000000001,Ot89nan,,R080198**2-R080181**2,nan,ois
+"080182,080198",0.6384,0.06713999999999999,Ul86 (Kü77)nan,,R080198**2-R080182**2,nan,ois
+"080183,080198",0.0527,0.008570000000000001,nannan,,R080198**2-R080183**2,nan,ois
+"080184,080198",0.5337,0.05667,nannan,,R080198**2-R080184**2,nan,ois
+"080185,080198",0.0622,0.00952,nannan,,R080198**2-R080185**2,nan,ois
+"080186,080198",0.4643,0.049729999999999996,nannan,,R080198**2-R080186**2,nan,ois
+"080187,080198",0.4324,0.04654,nannan,,R080198**2-R080187**2,nan,ois
+"080188,080198",0.3944,0.04274,nannan,,R080198**2-R080188**2,nan,ois
+"080189,080198",0.3793,0.04123,nannan,,R080198**2-R080189**2,nan,ois
+"080190,080198",0.3188,0.035179999999999996,nannan,,R080198**2-R080190**2,nan,ois
+"080191,080198",0.3041,0.03371,nannan,,R080198**2-R080191**2,nan,ois
+"080192,080198",0.2405,0.027350000000000003,nannan,,R080198**2-R080192**2,nan,ois
+"080193,080198",0.234,0.026700000000000005,nannan,,R080198**2-R080193**2,nan,ois
+"080194,080198",0.1607,0.019370000000000002,nannan,,R080198**2-R080194**2,nan,ois
+"080195,080198",0.1234,0.01564,nannan,,R080198**2-R080195**2,nan,ois
+"080196,080198",0.0809,0.01139,nannan,,R080198**2-R080196**2,nan,ois
+"080197,080198",0.0532,0.00862,nannan,,R080198**2-R080197**2,nan,ois
+"080198,080199",0.0119,0.00449,nannan,,R080199**2-R080198**2,nan,ois
+"080198,080200",0.0935,0.012650000000000002,nannan,,R080200**2-R080198**2,nan,ois
+"080198,080201",0.1245,0.01575,nannan,,R080201**2-R080198**2,nan,ois
+"080198,080202",0.197,0.023000000000000003,nannan,,R080202**2-R080198**2,nan,ois
+"080198,080203",0.2288,0.026180000000000002,nannan,,R080203**2-R080198**2,nan,ois
+"080198,080204",0.2988,0.03318,nannan,,R080204**2-R080198**2,nan,ois
+"080198,080205",0.3333,0.036629999999999996,nannan,,R080205**2-R080198**2,nan,ois
+"080198,080206",0.3987,0.04317,nannan,,R080206**2-R080198**2,nan,ois
+"081190,081205",0.677,0.081,nannan,,R081205**2-R081190**2,nan,ois
+"081191,081205",0.627,0.066,nannan,,R081205**2-R081191**2,nan,ois
+"081192,081205",0.603,0.072,nannan,,R081205**2-R081192**2,nan,ois
+"081193,081205",0.55,0.055,nannan,,R081205**2-R081193**2,nan,ois
+"081194,081205",0.531,0.063,nannan,,R081205**2-R081194**2,nan,ois
+"081195,081205",0.462,0.049,nannan,,R081205**2-R081195**2,nan,ois
+"081196,081205",0.459,0.055,nannan,,R081205**2-R081196**2,nan,ois
+"081197,081205",0.394,0.041,nannan,,R081205**2-R081197**2,nan,ois
+"081198,081205",0.386,0.04,nannan,,R081205**2-R081198**2,nan,ois
+"081199,081205",0.298,0.029,nannan,,R081205**2-R081199**2,nan,ois
+"081200,081205",0.285,0.027,nannan,,R081205**2-R081200**2,nan,ois
+"081201,081205",0.199,0.023,nannan,,R081205**2-R081201**2,nan,ois
+"081202,081205",0.175,0.014,nannan,,R081205**2-R081202**2,nan,ois
+"081203,081205",0.099,0.012,nannan,,R081205**2-R081203**2,nan,ois
+"081205,081207",0.1,0.012,nannan,,R081207**2-R081205**2,nan,ois
+"081207,081208",0.099,0.015,La92nan,,R081208**2-R081207**2,nan,ois
+"081202,081204",0.12256786509442143,0.041377950043855305,Au87(Hu61?)nan,,R081204**2-R081202**2,nan,ois
+"081203,081204",0.040660313514145265,0.012953471786113363,nannan,,R081204**2-R081203**2,nan,ois
+"082182,082208",1.299,0.025,DW07nan,,R082208**2-R082182**2,nan,ois
+"082183,082208",1.215,0.013,seenan,,R082208**2-R082183**2,nan,ois
+"082184,082208",1.15,0.013,alsonan,,R082208**2-R082184**2,nan,ois
+"082185,082208",1.093,0.013,Se06nan,,R082208**2-R082185**2,nan,ois
+"082186,082208",1.048,0.01,nannan,,R082208**2-R082186**2,nan,ois
+"082187,082208",0.993,0.01,nannan,,R082208**2-R082187**2,nan,ois
+"082188,082208",0.93,0.01,nannan,,R082208**2-R082188**2,nan,ois
+"082189,082208",0.89,0.01,nannan,,R082208**2-R082189**2,nan,ois
+"082190,082208",0.839,0.01,nannan,,R082208**2-R082190**2,nan,ois
+"082190,082208",0.838,0.02138,Ot89MIA (El+Mu),,R082208**2-R082190**2,nan,ois
+"082191,082208",0.831,0.02131,(Me88)nan,,R082208**2-R082191**2,nan,ois
+"082192,082208",0.758,0.02058,nannan,,R082208**2-R082192**2,nan,ois
+"082193,082208",0.747,0.01647,Du91nan,,R082208**2-R082193**2,nan,ois
+"082194,082208",0.683,0.01783,Ot89 (Me88)Corrected values from KfK_4159 p.63,,R082208**2-R082194**2,nan,ois
+"082195,082206",0.546,0.0666,Di87nan,,R082206**2-R082195**2,nan,ois
+"082196,082208",0.606,0.02206,nannan,,R082208**2-R082196**2,nan,ois
+"082197,082208",0.604,0.02204,nannan,,R082208**2-R082197**2,nan,ois
+"082198,082208",0.521,0.019209999999999998,nannan,,R082208**2-R082198**2,nan,ois
+"082199,082208",0.516,0.01916,nannan,,R082208**2-R082199**2,nan,ois
+"082200,082208",0.429,0.01629,nannan,,R082208**2-R082200**2,nan,ois
+"082201,082208",0.409,0.01509,nannan,,R082208**2-R082201**2,nan,ois
+"082202,082208",0.328,0.012280000000000001,nannan,,R082208**2-R082202**2,nan,ois
+"082203,082208",0.305,0.01205,nannan,,R082208**2-R082203**2,nan,ois
+"082204,082208",0.223,0.00923,nannan,,R082208**2-R082204**2,nan,ois
+"082205,082208",0.197,0.00797,nannan,,R082208**2-R082205**2,nan,ois
+"082206,082208",0.118,0.005180000000000001,nannan,,R082208**2-R082206**2,nan,ois
+"082207,082208",0.074,0.0037400000000000003,nannan,,R082208**2-R082207**2,nan,ois
+"082208,082209",0.096,0.00396,nannan,,R082209**2-R082208**2,nan,ois
+"082208,082210",0.211,0.00811,nannan,,R082210**2-R082208**2,nan,ois
+"082208,082211",0.299,0.01199,nannan,,R082211**2-R082208**2,nan,ois
+"082208,082212",0.414,0.016139999999999998,nannan,,R082212**2-R082208**2,nan,ois
+"082208,082214",0.61,0.023100000000000002,nannan,,R082214**2-R082208**2,nan,ois
+"084200,084208",0.379,0.033530000000000004,Ko91nan,,R084208**2-R084200**2,nan,ois
+"084202,084208",0.3,0.024,Tévedésből vettem először l-nak?nan,,R084208**2-R084202**2,nan,ois
+"084204,084208",0.206,0.01642,nannan,,R084208**2-R084204**2,nan,ois
+"084205,084208",0.185,0.01895,nannan,,R084208**2-R084205**2,nan,ois
+"084206,084208",0.104,0.00828,nannan,,R084208**2-R084206**2,nan,ois
+"084207,084208",0.078,0.01046,nannan,,R084208**2-R084207**2,nan,ois
+"084208,084209",0.044,0.00708,nannan,,R084209**2-R084208**2,nan,ois
+"084208,084210",0.118,0.01126,nannan,,R084210**2-R084208**2,nan,ois
+"086202,086212",0.4382,0.044219999999999995,Bo87nan,,R086212**2-R086202**2,nan,ois
+"086204,086212",0.386,0.038900000000000004,nannan,,R086212**2-R086204**2,nan,ois
+"086205,086212",0.3849,0.038790000000000005,nannan,,R086212**2-R086205**2,nan,ois
+"086206,086212",0.3058,0.030880000000000005,nannan,,R086212**2-R086206**2,nan,ois
+"086207,086212",0.2926,0.029460000000000004,nannan,,R086212**2-R086207**2,nan,ois
+"086208,086212",0.2125,0.02145,nannan,,R086212**2-R086208**2,nan,ois
+"086209,086212",0.1917,0.019270000000000002,nannan,,R086212**2-R086209**2,nan,ois
+"086210,086212",0.1143,0.01153,nannan,,R086212**2-R086210**2,nan,ois
+"086211,086212",0.0735,0.00745,nannan,,R086212**2-R086211**2,nan,ois
+"086212,086218",0.7,0.0703,nannan,,R086218**2-R086212**2,nan,ois
+"086212,086219",0.8212,0.08242000000000001,nannan,,R086219**2-R086212**2,nan,ois
+"086212,086220",0.9151,0.09181,nannan,,R086220**2-R086212**2,nan,ois
+"086212,086221",1.032,0.10360000000000001,nannan,,R086221**2-R086212**2,nan,ois
+"086212,086222",1.1236,0.11276,nannan,,R086222**2-R086212**2,nan,ois
+"087207,087212",0.21794,0.004518800000000001,Ot89nan,,R087212**2-R087207**2,nan,ois
+"087208,087212",0.20804,0.0042808,"(Co87,nan",,R087212**2-R087208**2,nan,ois
+"087209,087212",0.13043,0.0026886,Co85)nan,,R087212**2-R087209**2,nan,ois
+"087210,087212",0.10831,0.0022462000000000003,nannan,,R087212**2-R087210**2,nan,ois
+"087211,087212",0.03757,0.0008314,nannan,,R087212**2-R087211**2,nan,ois
+"087212,087213",0.06829,0.0014458000000000001,nannan,,R087213**2-R087212**2,nan,ois
+"087212,087220",0.86725,0.017795,nannan,,R087220**2-R087212**2,nan,ois
+"087212,087221",0.98269,0.0199838,nannan,,R087221**2-R087212**2,nan,ois
+"087212,087222",1.09543,0.022028599999999995,nannan,,R087222**2-R087212**2,nan,ois
+"087212,087223",1.16507,0.0233814,nannan,,R087223**2-R087212**2,nan,ois
+"087212,087224",1.28937,0.0258674,nannan,,R087224**2-R087212**2,nan,ois
+"087212,087225",1.34862,0.027192400000000002,nannan,,R087225**2-R087212**2,nan,ois
+"087212,087226",1.437,0.028820000000000002,nannan,,R087226**2-R087212**2,nan,ois
+"087212,087227",1.60249,0.0321298,nannan,,R087227**2-R087212**2,nan,ois
+"087212,087228",1.67522,0.033704399999999995,nannan,,R087228**2-R087212**2,nan,ois
+"088208,088214",0.256,0.0526,Ah88nan,,R088214**2-R088208**2,nan,ois
+"088209,088214",0.253,0.050300000000000004,nannan,,R088214**2-R088209**2,nan,ois
+"088210,088214",0.182,0.0372,nannan,,R088214**2-R088210**2,nan,ois
+"088211,088214",0.168,0.033800000000000004,nannan,,R088214**2-R088211**2,nan,ois
+"088212,088214",0.099,0.0199,nannan,,R088214**2-R088212**2,nan,ois
+"088213,088214",0.066,0.013600000000000001,nannan,,R088214**2-R088213**2,nan,ois
+"088214,088220",0.679,0.13690000000000002,nannan,,R088220**2-R088214**2,nan,ois
+"088214,088221",0.805,0.16250000000000003,nannan,,R088221**2-R088214**2,nan,ois
+"088214,088222",0.894,0.1804,nannan,,R088222**2-R088214**2,nan,ois
+"088214,088223",1.007,0.2027,nannan,,R088223**2-R088214**2,nan,ois
+"088214,088224",1.09,0.21900000000000003,nannan,,R088224**2-R088214**2,nan,ois
+"088214,088225",1.208,0.24280000000000002,nannan,,R088225**2-R088214**2,nan,ois
+"088214,088226",1.277,0.25670000000000004,nannan,,R088226**2-R088214**2,nan,ois
+"088214,088227",1.356,0.27360000000000007,nannan,,R088227**2-R088214**2,nan,ois
+"088214,088228",1.459,0.2939,nannan,,R088228**2-R088214**2,nan,ois
+"088214,088229",1.556,0.3136,nannan,,R088229**2-R088214**2,nan,ois
+"088214,088230",1.667,0.3357,nannan,,R088230**2-R088214**2,nan,ois
+"088214,088232",1.854,0.3734,nannan,,R088232**2-R088214**2,nan,ois
+"090227,090232",0.508,0.12384467891609519,Kä89K = 0.92,,R090232**2-R090227**2,nan,ois
+"090228,090232",0.413,0.09979857430202252,nanEst from full error,,R090232**2-R090228**2,nan,ois
+"090229,090232",0.334,0.08160724129630953,nannan,,R090232**2-R090229**2,nan,ois
+"090230,090232",0.205,0.04972110602646432,nannan,,R090232**2-R090230**2,nan,ois
+"092233,092238",0.41933948487922856,0.08050817405015784,An92nan,,R092238**2-R092233**2,nan,ois
+"092234,092238",0.3198830571651624,0.06177315463542152,nannan,,R092238**2-R092234**2,nan,ois
+"092235,092238",0.2707047544566249,0.051701904727204775,nannan,,R092238**2-R092235**2,nan,ois
+"092236,092238",0.16056879678614894,0.03094434247887903,nannan,,R092238**2-R092236**2,nan,ois
+"094238,094239",0.07297093468450103,0.021668367575492772,Au87nan,,R094239**2-R094238**2,nan,ois
+"094238,094240",0.1859353958425466,0.05007046575946669,(GLT85)nan,,R094240**2-R094238**2,nan,ois
+"094239,094240",0.11223476532093413,0.030615854370419224,nannan,,R094240**2-R094239**2,nan,ois
+"094240,094241",0.05131585283953553,0.01671687779163967,nannan,,R094241**2-R094240**2,nan,ois
+"094240,094242",0.1356303125130003,0.03544066122639696,nannan,,R094242**2-R094240**2,nan,ois
+"094242,094244",0.1403213996857428,0.039464511179739634,nannan,,R094244**2-R094242**2,nan,ois
+"095241,095243",0.13930999338154673,0.029136523764866813,Au87nan,,R095243**2-R095241**2,nan,ois
+"096242,096244",0.1665216749772859,0.07464961747631008,Au87nan,,R096244**2-R096242**2,nan,ois
+"096244,096245",0.05259349329993925,0.016533141243916066,nannan,,R096245**2-R096244**2,nan,ois
+"096244,096246",0.15363680491851237,0.038774059537401095,nannan,,R096246**2-R096244**2,nan,ois
+"096244,096248",0.2991443356176754,0.07707368612297091,nannan,,R096248**2-R096244**2,nan,ois

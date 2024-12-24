@@ -1,0 +1,461 @@
+Type,id,Citation,Elements,Authors,Year
+Electronic,Fe47,"E.Fermi, and L.Marshall: Phys. Rev. 72 (1947) 1139 ",.............................. neutron,"E.Fermi,L.Marshall",1947
+Electronic,Ha47,"W.W.Havens Jr., I.I.Rabi, and L.J.Rainwater: Phys. Rev. 72(1947)634 ",.. neutron,"W.W.HavensJr.,I.I.Rabi,L.J.Rainwater",1947
+Electronic,Ha51,"W.W.Havens Jr., L.J.Rainwater, and I.I.Rabi: Phys. Rev. 82(1951 )345 ",. neutron,"W.W.HavensJr.,L.J.Rainwater,I.I.Rabi",1951
+Electronic,Ly51,"E.Lyman, A.Hanson, and M.Scott: Phys. Rev. 84 (1951) 626 ","................. Cu, Ag, Au","E.Lyman,A.Hanson,M.Scott",1951
+Electronic,Ha52,"M.Hamermesh, G.R.Ringo, and A.Wattenberg: Phys. Rev. 85(1952)483L  ",neutron,"M.Hamermesh,G.R.Ringo,A.Wattenberg",1952
+Electronic,Ha53,"C.L.Hammer, E.C.Raka, RW.Pidd: Phys. Rev. 90 (1953) 341 ","............... Sn, W","C.L.Hammer,E.C.Raka,RW.Pidd",1953
+Electronic,Ho53,"RHofstadter, H.R.Fechter, J.A.Mclntyre: Phys. Rev. 91(1953)422 ","........ ""Program initiated ... ""","RHofstadter,H.R.Fechter,J.A.Mclntyre",1953
+Electronic,Ho53a,"R.Hofstadter, H.R.Fechter, J.A.Mclntyre: Phys. Rev. 92(1953)978 ","........ H,D,Be,C,Ta,Au,Pb","R.Hofstadter,H.R.Fechter,J.A.Mclntyre",1953
+Electronic,Hu53,"D.J.Hughes, J.A.Harvey, et al.: Phys. Rev. 90 (1953) 497 ",...................... neutron,"D.J.Hughes,J.A.Harvey,etal.",1953
+Electronic,Pi53,"R.W.Pidd, C.L.Hammer, and E.C,Raka: Phys. Rev. 92 (1953) 436 ","......... Sn, W","R.W.Pidd,C.L.Hammer,E.C,Raka",1953
+Electronic,Ml54,"J.A.Mclntyre, B.Hahn, R.Hofstadter: Phys. Rev. 94 (1954) 1084 ",............ Be,"J.A.Mclntyre,B.Hahn,R.Hofstadter",1954
+Electronic,Do55,"B.W.Downs, D.G.Ravenhall, D.R.Yennie: Phys. Rev. 98(1955)277(A) ",.. Ta,"B.W.Downs,D.G.Ravenhall,D.R.Yennie",1955
+Electronic,Do55a,"8.D.Downs: Ph.D. Thesis, Stanford University, Oct.(1955) ","..................... Ta, Sr",8.D.Downs,1955
+Electronic,Fo55,"KW.Ford, and D.L.Hill: Ann. Rev. Nuc/. Sci. 5 (1955) ","............................. Ag, Au, Sn, W","KW.Ford,D.L.Hill",1955
+Electronic,Fr55,"J.H.Fregeau, and R,Hofstadter: Phys. Rev. 99 (1955) 1503 ",................... C,"J.H.Fregeau,R,Hofstadter",1955
+Electronic,Ha55,"B.Hahn, and R.Hofstadter: Phys. Rev. 98 (1955) 278(A) ",........................ Ta,"B.Hahn,R.Hofstadter",1955
+Electronic,Ho55,"R.Hofstadter, and R.W.McAllister: Phys. Rev. 98 (1955) 217 ",................. H,"R.Hofstadter,R.W.McAllister",1955
+Electronic,Ml55,"J.A.Mclntyre, and RHofstadter: Phys. Rev. 98 (1955) 158 ",..................... D,"J.A.Mclntyre,RHofstadter",1955
+Electronic,Pi55,"RW.Pidd, and C.L.Hammer: Phys. Rev. 99 (1955) 1396 ",....................... W,"RW.Pidd,C.L.Hammer",1955
+Electronic,St55,J.F.Streib: Phys. Rev. 100 (1955) 1797 ,................................................... Li,J.F.Streib,1955
+Electronic,Ye55,"D.RYennie, D.G.Ravenhall, B.W.Downs: Phys. Rev. 98(1955)277(A) ",.. Sr,"D.RYennie,D.G.Ravenhall,B.W.Downs",1955
+Electronic,8156,"RBlankenbecler, RHofstadter: Bull. Am. Phys. Soc. Ser.//.1(1956)10 ",.. He,"RBlankenbecler,RHofstadter",1956
+Electronic,Ch56,"EE.Chambers, and RHofstadter: Phys. Rev. 103 (1956) 1454 ",............. H,"EE.Chambers,RHofstadter",1956
+Electronic,Cr56,"M.F.Crouch, VE.Krohn, and G.RRingo: Phys. Rev., 102 (1956) ",........... neutron,"M.F.Crouch,VE.Krohn,G.RRingo",1956
+Electronic,Fr56,J.H.Fregeau: Phys. Rev. 104 (1956) 225 ,................................................ C,J.H.Fregeau,1956
+Electronic,Ha56,"B.Hahn, D.G.Ravenhall, RHofstadter: Phys. Rev. 101 (1956) 1131 ","...... Ca, V, Ni, Co, In, Sb, Au, Bi","B.Hahn,D.G.Ravenhall,RHofstadter",1956
+Electronic,He56,RH.Helm: Phys. Rev. 104 (1956) 1466 ,"................................................... Mg, Si, S",RH.Helm,1956
+Electronic,Ho56,RHofstadter: Rev. Mod. Phys. 28 (1956) 214 ,......................................... Many; review,RHofstadter,1956
+Electronic,MA56,"RW.McAllister, and RHofstadter: Phys. Rev. 102 (1956) 851 ","............... H, He","RW.McAllister,RHofstadter",1956
+Electronic,Me56,"E.Melkonian, et al.: Bull. Am. Phys. Soc. 1 (1956) 62 [UA8] ",.................. neutron,"E.Melkonian,etal.",1956
+Electronic,Ml56,J.A.Mclntyre: Phys. Rev. 103 (1956) 1464 ,.............................................. D,J.A.Mclntyre,1956
+Electronic,Do57,"B.Downs, D.G.Ravenhall, D.RYennie: Phys. Rev. 106(1957)1285 ","........ Hf, Ta, W, U","B.Downs,D.G.Ravenhall,D.RYennie",1957
+Electronic,Ha57,"B.Hahn, R.Hofstadter, D.G.Ravenhall: Phys. Rev. 105 (1957) 1353 ",...... Ni,"B.Hahn,R.Hofstadter,D.G.Ravenhall",1957
+Electronic,Ho57,RHofstadter: Ann. Rev. Nucl. Sci. 7 (1957) 231 ,..................................... Many; review,RHofstadter,1957
+Electronic,Mi57,"RC.Miller, and C.S.Robinson: Ann. Phys. (N. Y.) 2 (1957) 129 ","............... Al, Pb","RC.Miller,C.S.Robinson",1957
+Electronic,Ml57,"J.A.Mclntyre, and S.Dhar: Phys. Rev. 106 (1957) 1074 ",.......................... D,"J.A.Mclntyre,S.Dhar",1957
+Electronic,Bu58,"G.R.Burleson, and RHofstadter: Phys. Rev. 112 (1958) 1282 ",............... Li,"G.R.Burleson,RHofstadter",1958
+Electronic,Fo58,L.L.Foldy: Rev. Mod. Phys. 30 (1958)471 ,.............................................. n,L.L.Foldy,1958
+Electronic,Ho58,"RHofstadter, F.Bumiller, M.RYearian: Rev. Mod. Phys. 30(1958)482 ","... n, H","RHofstadter,F.Bumiller,M.RYearian",1958
+Electronic,Eh59,"H.F.Ehrenberg, et al.: Phys. Rev. 113 (1959} 66C ",".................................. C, 0","H.F.Ehrenberg,etal.",1959
+Electronic,Me59,"U.Meyer-Berkhout, KW.Ford, A.ES.Green: Ann. Phys. 8(1959)119 ","..... Li, Be, 8, C, N, 0","U.Meyer-Berkhout,KW.Ford,A.ES.Green",1959
+Electronic,Me59a,"E.Melkonian, B.M.Rustad, W.W.Havens Jr: Phys. Rev. 114(1959)1571 ", neutron,"E.Melkonian,B.M.Rustad,W.W.HavensJr",1959
+Electronic,Be60,"J.Bellicard, and P.Barreau: Nucl. Phys. 17 (1960) 141 ","........................... Au, Bi","J.Bellicard,P.Barreau",1960
+Electronic,Bu60,"G.R.Burleson, and H.W.Kendall: Nucl. Phys. 19 (1960) 68 ",..................... He,"G.R.Burleson,H.W.Kendall",1960
+Electronic,Bu61,"F.Bumiller, et al.: Phys. Rev. 124 (1961) 1623 ",........................................ H,"F.Bumiller,etal.",1961
+Electronic,Cr61,"H.Crannell, etal.: Phys. Rev.121 (1961) 283 ","......................................... Ca, V, Co, In, Sb, Bi","H.Crannell,etal.",1961
+Electronic,La61,"F.Lacoste, and G.R.Bishop: Nucl. Phys. 26 (1961) 511 ",.......................... 0,"F.Lacoste,G.R.Bishop",1961
+Electronic,Be62,"J.Bellicard, and P.Barreau: Nucl. Phys. 36 (1962) 476 ",........................... Fe,"J.Bellicard,P.Barreau",1962
+Electronic,Le62,"P.Lehmann, R.Taylor, R.Wilson: Phys. Rev. 126 (1962) 1183 ",................ H,"P.Lehmann,R.Taylor,R.Wilson",1962
+Electronic,Be63,"K.Berkelman, et al.: Phys. Rev. 130 (1963) 2061 ",.................................... H,"K.Berkelman,etal.",1963
+Electronic,Du63,"B.Dudelzak, G.Sauvage, P.Lehmann: Nuovo Cim. 28 (1963) 18 ",............ H,"B.Dudelzak,G.Sauvage,P.Lehmann",1963
+Electronic,Go63,"J.Goldemberg, J.J.Pine, D.Yount: Phys. Rev. 132 (1963) 406 ","................ Co, Bi","J.Goldemberg,J.J.Pine,D.Yount",1963
+Electronic,Ha63,"L.N.Hand, D.G.Miller, and R.Wilson: Rev. Mod. Phys., 35 (1963) 335 ",... H re-analysis,"L.N.Hand,D.G.Miller,R.Wilson",1963
+Electronic,Re63,"J.Repellin: Diplome, Orsay, France, L.A.L. 1046 (1963) ",......................... C,J.Repellin,1046
+Electronic,Be64,"J.Bellicard, P.Barreau, and D.Blum: Nucl. Phys. 60 (1964) 319 ",............. Cr,"J.Bellicard,P.Barreau,D.Blum",1964
+Electronic,Bi64,"G.R.Bishop, M.Bemheim, P.Kossanyi-Demay: Nucl. Phys. 54(1964)353 …. N",,"G.R.Bishop,M.Bemheim,P.Kossanyi-Demay",1964
+Electronic,E164,"L.R.B.Elton, and A.Swift: Proc. Phys. Soc. 84 (1964) 125 ","...................... Re-anal: V, Co, In, Sb,Bi, Fe,Ni","L.R.B.Elton,A.Swift",1964
+Electronic,Lo64,"Rlombard: Thesis, Orsay, France, L.A.L. 1099 (1964) ",.......................... AI,Rlombard,1099
+Electronic,Lo64a,"Rlombard, P.Kossanyi-Demay, G.R.Bishop: Nuc/. Phys. 59(1964)398 ", S,"Rlombard,P.Kossanyi-Demay,G.R.Bishop",1964
+Electronic,Ng64,"C.H.Nguyen-Ngoc: Thesis, Masson, Paris (1964) unpublished ",.............. Be,C.H.Nguyen-Ngoc,1964
+Electronic,Co65,"H.Collard, et al.: Phys. Rev. 138 (1965) 857 ","........................................... H, He","H.Collard,etal.",1965
+Electronic,Cr65,"M.Croissiaux, etal.: Phys. Rev.137 (1965) 8865 ",................................... Ca,"M.Croissiaux,etal.",1965
+Electronic,Du65,"B.Dudelzak, PhD.Diss., Univ. Paris: (1965), Orsay, Serie A No.103 ",.... n,"B.Dudelzak,PhD.Diss.,Univ.Paris",1965
+Electronic,Fr65,"H.Frank, D.Haas, and H.Prange: Phys. Letters, 19 (1965) 391,719 ",...... He,"H.Frank,D.Haas,H.Prange",1965
+Electronic,Ko65,"P.Kossanyi-Demay, R.Lombard, G.R.Bishop: Nucl. Phys. 62(1965)615 ", P,"P.Kossanyi-Demay,R.Lombard,G.R.Bishop",1965
+Electronic,Pe65,"G.A.Peterson, J.F.Ziegler, RB.Clark: Phys. Letters, 17 (1965) 320 ",....... Pb,"G.A.Peterson,J.F.Ziegler,RB.Clark",1965
+Electronic,Br66,"A.Browman, 8.Grossetete, D.Yount: Phys. Rev. 143 (1966) 899 ",........... Bi,"A.Browman,8.Grossetete,D.Yount",1966
+Electronic,Cr66,H.Crannell: Phys. Rev. 148 (1966) 1107 ,"................................................. C, 0",H.Crannell,1966
+Electronic,En66,REngfer: Z. Physik 192 (1966) 29 ,........................................................... Ti,REngfer,1966
+Electronic,Fr66,"D.Frerejaque, D.Benaksas, D.Drickey: Phys. Rev. 141(1966)1308 ",........ H,"D.Frerejaque,D.Benaksas,D.Drickey",1966
+Electronic,Fr66a,"RF.Frosch, etal.: Phys. Letters, 21 (1966} 598 ",...................................... He,"RF.Frosch,etal.",1966
+Electronic,Ja66,"T.Janssens, et al.: Phys. Rev. 142 (1966) 922 ",......................................... H,"T.Janssens,etal.",1966
+Electronic,Kr66,"VE.Krohn, and G.Ringo: Phys. Rev. 148 (1966) 1303 ",.......................... neutron,"VE.Krohn,G.Ringo",1966
+Electronic,Ni66,"G.J.C. van Niftrik, and R.Engfer: Phys. Letters, 22 (1966) 490 ","............... Pb, Bi","G.J.C.vanNiftrik,R.Engfer",1966
+Electronic,St66b,"T.Stovall, J.Goldemberg, D.B.lsabelle: Nucl. Phys. 86 (1966) 225 ",......... B,"T.Stovall,J.Goldemberg,D.B.lsabelle",1966
+Electronic,Th66,"H.Theissen, REngfer, G. van Niftrik: Phys. Letters, 22 (1966) 623 ",........ Ti,"H.Theissen,REngfer,G.vanNiftrik",1966
+Electronic,Af67,"N.G.Afanasev, et al.: Yad. Fiz. 5 (1967) 318 ",........................................... C,"N.G.Afanasev,etal.",1967
+Electronic,Af67a,N.G.Afanasev et al: /. Cont. Nucl. Struct. Tokyo (Sept. 1967) p.366 ,"....... Be, C, Al",N.G.Afanasevetal,1967
+Electronic,Ba67b,"P.Barreau, and J.B.Bellicard: Phys. Letters, 25B (1967) 470 ",................. Sn,"P.Barreau,J.B.Bellicard",1967
+Electronic,Be67,"J.B.Bellicard, K.J. van Oostrum: Phys. Rev. Lett. 19 (1967) 242 ",............ Pb,"J.B.Bellicard,K.J.vanOostrum",1967
+Electronic,Be67a,"H.A.Bentz, REngfer, W.BOhring: Nucl. Phys. A101 (1967) 527 ",............. Be,"H.A.Bentz,REngfer,W.BOhring",1967
+Electronic,Be67b,"J.B.Bellicard, etal.: Phys. Rev. Lett. 19 (1967) 527 ","................................ Ca, Ti","J.B.Bellicard,etal.",1967
+Electronic,Cr67,"H. L. Crannell, et al.: Bull. Am. Phys. Soc. 12 ( 1967) 51 ",........................... C,"H.L.Crannell,etal.",1967
+Electronic,En67,"REngfer, and T.TOrck: Z.Physik, A205 (1967) 90 ",................................... C,"REngfer,T.TOrck",1967
+Electronic,Fr67,"RF.Frosch, et al.: Phys. Rev. 160 (1967) 874 ",........................................ He,"RF.Frosch,etal.",1967
+Electronic,Ho67,"R.Hofstadter, and H.R.Collard: Landolt-86rnstein, New series, Group Nuclear Physics and Technology, vol. 2, Nuclear Radii, ed. H.Schopper, Springer-Verlag, Berlin (1967) pp. 21-54:", Many: compilation,"R.Hofstadter,H.R.Collard",1967
+Electronic,Lo67,"RM.Lombard, and G.R.Bishop: Nucl. Phys. A101 (1967) 601 ",............... Al,"RM.Lombard,G.R.Bishop",1967
+Electronic,Sa67,"RS.Safrata, et al.: Phys. Rev. Lett. 18 (1967) 667 ",.................................. Ho,"RS.Safrata,etal.",1967
+Electronic,Sa67a,"G.A.Savitski, et al.: Yad. Fiz. 6 (1967) 685 ",.............................................. Si,"G.A.Savitski,etal.",1967
+Electronic,Sh67,"N.G.Shevchenko, et al.: Yad. Fiz. 6 (1967) 1119 ",.................................... La,"N.G.Shevchenko,etal.",1967
+Electronic,Sh67a,"N.G.Shevchenko, et al.: Yad. Fiz. 5 (1967) 948 ","...................................... Y, Nb","N.G.Shevchenko,etal.",1967
+Electronic,Sh67b,"N.G.Shevchenko, etal.: Nucl. Phys. A101 (1967) 187 ",............................ La,"N.G.Shevchenko,etal.",1967
+Electronic,St67,"T.Stovall, D.Vinciguerra, and M.Bemheim: Nucl. Phys. A91 (1967) 513 ", Al,"T.Stovall,D.Vinciguerra,M.Bemheim",1967
+Electronic,Su67,"L.RSuelzle, M.RYearian, and H.Crannell: Phys. Rev. 162 (1967) 992 ",.. Li,"L.RSuelzle,M.RYearian,H.Crannell",1967
+Electronic,Th67,"H.Theissen: Z. Physik, 202 (1967) 190 ",................................................... Ti,H.Theissen,1967
+Electronic,Er68,"U.Erich, et al.: Z. Physik 209 (1968) 208 ",................................................. He,"U.Erich,etal.",1968
+Electronic,Fr68,"RF.Frosch, et al.: Phys. Rev. 174 (1968) 1380 ","...................................... Ca, Ti","RF.Frosch,etal.",1968
+Electronic,Kh68,"V.M.Khvastunov, et al.: Phys. Letters 28B (1968) 119 ","............................ Ni, Sn","V.M.Khvastunov,etal.",1968
+Electronic,Kh68a,"V.M.Khvastunov, et al.: Pis'ma v Zh.E. T.F. 8 (1968) 420 ","....................... Ni, Sn","V.M.Khvastunov,etal.",1968
+Electronic,Be69,"M.Bemheim, eta!.: Phys. Letters308 (1969)412 ",................................... Be,"M.Bemheim,eta!.",1969
+Electronic,Be69a,H.A.Bentz: Z. Naturf. 24a (1969) 858 ,"...................................................... C, N, 0",H.A.Bentz,1969
+Electronic,Cu69,"T.H.Curtis, et al.: Phys. Rev. 184 (1969) 1162 ",........................................ Sn,"T.H.Curtis,etal.",1969
+Electronic,Da69,"EB.Dally, M.G.Croissiaux, B.Schweitz: Phys. Rev. 188(1969)1590 ",....... N,"EB.Dally,M.G.Croissiaux,B.Schweitz",1969
+Electronic,Ei69,"RA.Eisenstein, et al.: Phys. Rev. 188 (1969) 1815 ",................................. Ca,"RA.Eisenstein,etal.",1969
+Electronic,He69,"J.Heisenberg, et al.: Phys. Rev. Lett. 23 (1969) 1402 ",............................. Pb,"J.Heisenberg,etal.",1969
+Electronic,Kh69,"V.M.Khvastunov, et al.: Yad. Fiz. 10 (1969) 217 ",..................................... Ni,"V.M.Khvastunov,etal.",1969
+Electronic,Ni69,G.J.C. van Niftrik: Nuc/. Phys. A131 (1969) 574 ,"..................................... Pb, Bi",G.J.C.vanNiftrik,1969
+Electronic,Sa69a,"G.A.Savitski, et al.: lzv. Ak. Nauk. SSSR, Ser. Fiz. 33 (1969) 60 ","........... Na, K","G.A.Savitski,etal.",1969
+Electronic,Th69,"H.Theissen, et al.: Phys. Rev. 186 (1969) 1119 ",...................................... Mn,"H.Theissen,etal.",1969
+Electronic,Af70,"V.D.Afanasev, et al.: Yad. Fiz. 12 (1970) 673 ",......................................... Zn,"V.D.Afanasev,etal.",1970
+Electronic,Be70,"J.Bellicard, et al.: Nucl. Phys. A143 (1970) 213 ",...................................... Zr,"J.Bellicard,etal.",1970
+Electronic,Be70a,"H.A.Bentz, M.Loewenhaupt, H.Theissen: Z. Physik, 231(1970)484 ","........ AI, Si","H.A.Bentz,M.Loewenhaupt,H.Theissen",1970
+Electronic,Bu70,F.A.Bumiller: Phys. Rev. Lett. 25 (1970) 1774 ,........................................ H,F.A.Bumiller,1970
+Electronic,Da70,"EB.Dally, M.G.Croissiaux, B.Schweitz: Phys. Rev. C2(1970)2057 ",........ N,"EB.Dally,M.G.Croissiaux,B.Schweitz",1970
+Electronic,Fi70,"J.R.Ficenec, et al.: Phys. Letters, 32B (1970) 460 ",.................................. Ni,"J.R.Ficenec,etal.",1970
+Electronic,He70a,"J.Heisenberg, J.S.McCarthy, I.Sick: Nucl. Phys. A157 (1970) 435 ",......... C,"J.Heisenberg,J.S.McCarthy,I.Sick",1970
+Electronic,Hu70,"H.Hultzsch: Ph.D. Thesis, Univ. Mainz, 1970 (unpublished) ",.................... S,H.Hultzsch,1970
+Electronic,Ju70,"P.Junk: Ph.D. Thesis, Univ. Mainz, 1970 (unpublished) ",.......................... Mg,P.Junk,1970
+Electronic,Kh70b,"V.M.Khvastunov, etal.: Nucl. Phys. A146 (1970) 15 ","............................... Ni, Sn","V.M.Khvastunov,etal.",1970
+Electronic,MC70,"J.S.McCarthy, et al.: Phys. Rev. Lett. 25 (1970) 884 ",............................... He,"J.S.McCarthy,etal.",1970
+Electronic,Ml70,"G.M0hlhaupt: Ph.D. Thesis, Univ. Mainz, 1970 (unpublished) ",................ Si,G.M0hlhaupt,1970
+Electronic,Si70a,"RP.Singha!, J.R.Moreira, H.S.Caplan: Phys. Rev. Lett. 24 (1970) 73 ",.... 0,"RP.Singha!,J.R.Moreira,H.S.Caplan",1970
+Electronic,Si70b,"I.Sick, and J.S.McCarthy: Nuc/. Phys. A150 (1970) 631 ","......................... C, 0","I.Sick,J.S.McCarthy",1970
+Electronic,Th70,"H.Theissen, H.Fink, and H.A.Bentz: Z. Physik, 231 (1970) 475 ",".............. Sc,V, Fe,Co,Ni,Cu,Zn","H.Theissen,H.Fink,H.A.Bentz",1970
+Electronic,Vl70,"V.G.Vlasenko, et al.: Proc. Conf. Leningrad, Jan. 1970, vol.2, p.123 ","..... B, Al","V.G.Vlasenko,etal.",1970
+Electronic,Be71,"H.A.Bentz: Z. Physik, 243 (1971) 138 ","..................................................... C, N, 0",H.A.Bentz,1971
+Electronic,Fa71,"LA.Fajardo, J.R.Ficenec, W.P.Trower: Phys. Lett. 378(1971)363 ",......... Zr,"LA.Fajardo,J.R.Ficenec,W.P.Trower",1971
+Electronic,Gr71,"J.L.Groh, RP.Singha!, H.S.Caplan: Can. J. Phys. 49(1971)2073 ",........... Ar,"J.L.Groh,RP.Singha!,H.S.Caplan",1971
+Electronic,He71,"J.H.Heisenberg, J.S.McCarthy, I.Sick: Nucl.Phys. A164(1971)353 ",........ Ti,"J.H.Heisenberg,J.S.McCarthy,I.Sick",1971
+Electronic,He71a,"J.H.Heisenberg, et al.: Nuc/. Phys. A164 (1971) 340 ",.............................. Nd,"J.H.Heisenberg,etal.",1971
+Electronic,Li71,"G.C.Li, I.Sick, M.RYearian: Phys. Letters, 37B (1971) 282 ",".................... Mg, Si, S","G.C.Li,I.Sick,M.RYearian",1971
+Electronic,Li71a,"G.C.Li, et al.: Nucl. Phys. A162 (1971) 583 ",............................................. Li,"G.C.Li,etal.",1971
+Electronic,Li71,"b A.S.Litvinenko, et al.: Yad. Fiz. 14 (1971) 40 ",".......................................... Fe, Ni","bA.S.Litvinenko,etal.",1971
+Electronic,Ma71,"D.W.Madsen, et al.: Nucl. Phys. A168 (1971) 97 ",.................................... Nd,"D.W.Madsen,etal.",1971
+Electronic,Mo71,"J.R.Moreira, RP.Singha!, H.S.Caplan: Can. J. Phys. 49(1971)1434 ",...... Ne,"J.R.Moreira,RP.Singha!,H.S.Caplan",1971
+Electronic,Ri71,"RRiskalla: Ph.D. Thesis, Univ. Paris, Orsay LAL 1243(1971) unpubl. ",... B,RRiskalla,1243
+Electronic,Sc71,"W.Sch0tz, and H.Frank: Z. Physik, 243 (1971) 132 ",................................ Ar,"W.Sch0tz,H.Frank",1971
+Electronic,Sc71a,"W.Sch0tz, et al.: Z. Naturf. 26a (1971) 2070 ","........................................... N, 0","W.Sch0tz,etal.",1971
+Electronic,Si71,"R.P.Singhal, et al.: Joum. Phys. A: Gen. Phys. 4 (1971) L93 ","................. Y, Zr, Mo","R.P.Singhal,etal.",1971
+Electronic,Uh71,"F.J.Uhrhane, J.S.McCarthy, M.R.Yearian: Phys. Rev. Lett. 26(1971)578", Ho,"F.J.Uhrhane,J.S.McCarthy,M.R.Yearian",1971
+Electronic,Ak72,"Yu.K.Akimov, et al.: Zh. Eksp. Teor. Fiz. 62 (1972) 1231 ",........................ H,"Yu.K.Akimov,etal.",1972
+Electronic,Be72,"W.Bertozzi, etal.: Phys. Rev. Lett. 28 (1972) 1711 ",................................. Sm,"W.Bertozzi,etal.",1972
+Electronic,Bu72,"F.A.Bumiller, et al.: Phys. Rev. CS (1972) 391 ",........................................ Li,"F.A.Bumiller,etal.",1972
+Electronic,Cu72,"C.S.Curran, et al.: J. Phys. A.: Gen. Phys. 5 (1972) L39 ",......................... Mg,"C.S.Curran,etal.",1972
+Electronic,Fi72,"J.R.Ficenec, et al.: Phys. Letters, 42B (1972) 213 ",.................................. Sn,"J.R.Ficenec,etal.",1972
+Electronic,Fr72,"H.Frank et al: AED-Conf. 71-400 Giessen 1972, ed. H.Schneider p.177 ",. Ne,H.Franketal,1972
+Electronic,Fr72b,"J.Friedrich, and F.Lenz: Nucf. Phys. A183 (1972) 523 ",............................ Pb,"J.Friedrich,F.Lenz",1972
+Electronic,Ge72,"W.J.Gerace, and G.C.Hamilton: Phys. Letters 39B (1972) 481 ",.............. N,"W.J.Gerace,G.C.Hamilton",1972
+Electronic,He72,"J.Heisenberg, et al.: Phys. Rev. C6 (1972) 381 ",...................................... Ti,"J.Heisenberg,etal.",1972
+Electronic,Ja72,"J.A.Jansen, R.Th.Peerdeman, C.DeVries: Nucl. Phys. A188(1972)337 ",". C, Be","J.A.Jansen,R.Th.Peerdeman,C.DeVries",1972
+Electronic,Li72b,"A.S.Litvinenko, et al.: Yad. Fiz.15 (1972) 1104 ","...................................... Ni, Zn","A.S.Litvinenko,etal.",1972
+Electronic,Li72c,"A.S.Litvinenko, et al.: Nucl. Phys. A182 (1972) 265 ",................................ Sn,"A.S.Litvinenko,etal.",1972
+Electronic,Na72,"A.Nakada, and Y.Torizuka: J. Phys. Soc. Japan 32 (1972) 1 ",".................. Mg, Si","A.Nakada,Y.Torizuka",1972
+Electronic,Ne72,"R.Neuhausen, et al.: Phys. Rev. CS (1972) 124 ",...................................... Zn,"R.Neuhausen,etal.",1972
+Electronic,Ph72,"Phan Xuan Ho, et al.: Nucl. Phys. A179 (1972) 529 ","............................... Zr, Mo","PhanXuanHo,etal.",1972
+Electronic,Si72,"8.8.P.Sinha, and G.A.Peterson: Phys. Rev. C6 (1972) 1657 ","................. P, S","8.8.P.Sinha,G.A.Peterson",1972
+Electronic,Th72,"H.Theissen: Habilitationsschrift, T.H.Darmstadt (1972) unp., from Vr87 ",. H,H.Theissen,1972
+Electronic,Al73,"J.Alster, et al.: Phys. Rev. C7 (1973) 1089 ",.............................................. Sr,"J.Alster,etal.",1973
+Electronic,Be73a,"R.W.Berard, et al.: Phys. Letters, 47B (1973) 355 ",".................................. neutron, H","R.W.Berard,etal.",1973
+Electronic,Ca73,"L.S.Cardman, et al.: Nucf. Phys. A216 (1973) 285 ",.................................. Sm,"L.S.Cardman,etal.",1973
+Electronic,Dr73,"B.Dreher et al.: Proc. Int. Conf. Photonucl. Reactions and Applications Asilomar (Calif.) 1973, ed. 8.L.Berman, p.191 ",". Zr, Mo",B.Dreheretal.,1973
+Electronic,Fe73a,"G.Fey, et al.: Z. Physik, 265 (1973) 401 ",".................................................. C +many, re-anal","G.Fey,etal.",1973
+Electronic,Ha73b,"P.L.Hallowell, et al.: Phys. Rev. C7 (1973) 1396 ","..................................... F, Ca","P.L.Hallowell,etal.",1973
+Electronic,Ja73,"C.W. de Jager: Ph.D. Thesis, Univ. Amsterdam (1973) unpubl. ",............. Pb,C.W.deJager,1973
+Electronic,Ka73,"D.Kalinsky, et al.: Nucl. Phys. A216 (1973) 312 ",...................................... W,"D.Kalinsky,etal.",1973
+Electronic,Kl73,"F.J.Kline, et al.: Nucf. Phys. A209 (1973) 381 ",......................................... C,"F.J.Kline,etal.",1973
+Electronic,Ko73,L.Koester (From Kr73) ,............................................................................. neutron,L.Koester(FromKr73),
+Electronic,Kr73,"V.E.Krohn, and G.R.Ringo: Phys. Rev. D8 (1973) 1305 ",......................... neutron,"V.E.Krohn,G.R.Ringo",1973
+Electronic,Li73,"A.S.Litvinenko, et al.: Yad. Fiz. 18 (1973) 250 ",........................................ Zn,"A.S.Litvinenko,etal.",1973
+Electronic,Me73a,"K.Merle: Proc. Int. Cont. on Photonuclear Reactions and Applications Asilomar (Calif.) 1973, ed. B.L.Berman, p. 889, 893 ","... C, P",K.Merle,1973
+Electronic,Pe73,"G.A.Peterson, et al.: Phys. Rev. C7 (1973) 1028 ",.................................... V,"G.A.Peterson,etal.",1973
+Electronic,Si73a,"8.8.P.Sinha, et al.: Phys. Rev. C7 (1973) 1930 ","...................................... K, Ca","8.8.P.Sinha,etal.",1973
+Electronic,Si73b,I.Sick: Nucf. Phys. A208 (1973) 557 ,"........................................................ Pb, Bi",I.Sick,1973
+Electronic,Si73c,"R.P.Singhal, et al.: Nucl. Phys. A216 (1973) 29 ","...................................... Sr, Y, Zr, Mo","R.P.Singhal,etal.",1973
+Electronic,Av74,"H.Averdung: Internal Report KPH 3ll4, Mainz, 1974 (unpubl.) ","............... Mg, Si, S reanal",H.Averdung,1974
+Electronic,8074,"F.Borkowski, et al.: Nucl. Phys. A222 (1974) 269 ",................................... H,"F.Borkowski,etal.",1974
+Electronic,Dr74,"B.Dreher, et al.: Nucl. Phys. A235 (1974) 219 ",......................................... Pb,"B.Dreher,etal.",1974
+Electronic,Dr74a,"B.Dreher, Ph.D. Thesis, Univ. Mainz (1974) unpublished (from Ja74) ",.... Zr,"B.Dreher,Ph.D.Thesis,Univ.Mainz(1974)unpublished(fromJa74)",1974
+Electronic,Fi74,"S.P.Fivozinsky, etal.: Phys. Rev. C9 (1974) 1533 ",".................................. Sr, Y","S.P.Fivozinsky,etal.",1974
+Electronic,Fi74a,"J.R.Ficenec, et al.: To be published (from Ja74) ",..................................... Ni,"J.R.Ficenec,etal.",
+Electronic,Go74,"H.Gompelman, H.J.Blaauw, C.W. de Jager: to be pub/. (from Ja74) ","...... V, Ni, Cu","H.Gompelman,H.J.Blaauw,C.W.deJager",
+Electronic,Ja74,"C.W. deJager, H. deVries, C. deVries: At. D. Nucl. D. T. 14(1974)479 ","... Many, compil.","C.W.deJager,H.deVries,C.deVries",1974
+Electronic,Li74b,"G.C.Li, M.R.Yearian, I.Sick: Phys. Rev. C9 (1974) 128 ",".......................... Mg, Al, Si, S","G.C.Li,M.R.Yearian,I.Sick",1974
+Electronic,Ma74,"R.Maas, and C.W. de Jager: Phys. Letters, 488 (1974) 212 ",.................. Nd,"R.Maas,C.W.deJager",1974
+Electronic,Mu74,"J.J.Murphy, Y.M.Shin, D.M.Skopik: Phys. Rev. C9 (1974) 2125 ",............. H,"J.J.Murphy,Y.M.Shin,D.M.Skopik",1974
+Electronic,Si74,I.Sick: Nucl. Phys. A218 (1974) 509 ,"........................................................ C, S",I.Sick,1974
+Electronic,We74,"RD.Wendling, V.H.Walther: Nucl. Phys. A219 (1974) 450 ","..................... Ar, Ca","RD.Wendling,V.H.Walther",1974
+Electronic,B075,"F.Borkowski, et al.: Z. Physik, A275 (1975) 29 ",........................................ H,"F.Borkowski,etal.",1975
+Electronic,Bo75a,"F.Borkowski, et al.: Nucl. Phys. B93 (1975) 461 ",..................................... H,"F.Borkowski,etal.",1975
+Electronic,Dr75,B.Dreher: Phys. Rev. Lett. 35 (1975) 716 ,................................................ Mo,B.Dreher,1975
+Electronic,Gi75,"W.A.Gillespie, et al.: J. Phys. G.: Nucl. Phys. 1 (1975) L6 ",...................... Cd,"W.A.Gillespie,etal.",1975
+Electronic,Ho75,"A.Holthuizen: MS Thesis, Univ. Amsterdam, 1975, unpubl. ",.................... Ti,A.Holthuizen,1975
+Electronic,Kl75,"F.J.Kline, et al.: Nucl. Phys. A255 (1975) 435 ",......................................... Ge,"F.J.Kline,etal.",1975
+Electronic,La75,J.J.Lapikas: (Ref. [8] in DV75) ,"................................................................. Cr, Fe",J.J.Lapikas,
+Electronic,Oy75,"M.Oyamada, et al.: Phys. Rev. C11 (1975) 1578 ",.................................... F,"M.Oyamada,etal.",1975
+Electronic,Sc75,"W.Sch0tz: Z. Physik, A273 (1975) 69 ","...................................................... N, 0",W.Sch0tz,1975
+Electronic,Si75,"I.Sick, et al.: Phys. Rev. Lett. 35 (1975) 910 ",........................................... Ni,"I.Sick,etal.",1975
+Electronic,Vr75,"C. deVries: Rencontres de Saclay, 12-16 mai, 8-12 sept. 1975, p.485 ","... Ti, Cr, Fe, Nd",C.deVries,1975
+Electronic,Co76,"T.Cooper, et al.: Phys. Rev. C13 (1976) 1083 ","......................................... Sm, Er, Yb, Th, U","T.Cooper,etal.",1976
+Electronic,Eu76,"H.Euteneuer, J.Friedrich, N.Voegler: Phys. Rev. Lett. 36(1976)129 ","....... Pb, Tl","H.Euteneuer,J.Friedrich,N.Voegler",1976
+Electronic,Fi76,"J.M.Finn, et al.: Nucl. Phys. A274 (1976) 28 ",........................................... Ar,"J.M.Finn,etal.",1976
+Electronic,Ja76,"E.Jans: MS thesis, Univ. Amsterdam (1976), unpublished ","...................... Nb, Mo, Pd, In",E.Jans,1976
+Electronic,Ko76,"L.Koester, W.Nistler, W.Waschkowski: Phys. Rev. Lett. 36(1976)1021 ",.. neutron,"L.Koester,W.Nistler,W.Waschkowski",1976
+Electronic,La76,"J.J.Lapikas: MS thesis, Univ. Amsterdam (1976), unpublished ",".............. Cr, Fe",J.J.Lapikas,1976
+Electronic,Le76,"E.W.Lees, et al.: J. Phys. G.: Nucl. Phys. 2 (1976) 105 ",.......................... Mg,"E.W.Lees,etal.",1976
+Electronic,Li76,"J.W.Lightbody, et al.: Phys. Rev. C14 (1976) 952 ","................................... Cr, Pd, Cd, Sn","J.W.Lightbody,etal.",1976
+Electronic,Me76,"K.Merle: Ph.D. thesis, Univ. Mainz (1976) unpublished (from Vr87) ","....... P, S",K.Merle,1976
+Electronic,Ro76,"H.Rothhaas: Ph.D. thesis, Univ. Mainz (1976) unpubl. (from Vr87) ",........ Zr,H.Rothhaas,1976
+Electronic,Si76,"I.Sick, J.S.McCarthy, RR.Whitney: Phys. Letters, 648(1976)33 ",............ He,"I.Sick,J.S.McCarthy,RR.Whitney",1976
+Electronic,St76,"G.Stephan: Ph.D. thesis, Univ. Mainz (1976) unpubl. (from Vr87) ",.......... Sr,G.Stephan,1976
+Electronic,Wo76,"H.D.Wohlfahrt: Habilitationschrift, Univ. Mainz (1976) unp. (from Ja79) ",". Fe, Ni, Zn",H.D.Wohlfahrt,1976
+Electronic,An77,"D.A.Andrews, R.Golub, G.Newton: J. Phys. G: 3(1977)L91 ",.................... H,"D.A.Andrews,R.Golub,G.Newton",1977
+Electronic,Br77,"S.W.Brain, etal.: J. Phys. G.: Nucl. Phys. 3 (1977) 821 ",......................... Si,"S.W.Brain,etal.",1977
+Electronic,Cr77,"C.W.Creswell: Ph.D. thesis, Mass. Inst. Techn., unpubl. (from Vr87) ","..... Er, Yb, U",C.W.Creswell,
+Electronic,Eu77a,"H.Euteneuer, et al.: Phys. Rev. C16 (1977) 1703 ",.................................... Mg,"H.Euteneuer,etal.",1977
+Electronic,Fr77a,"B.Frois, et al.: Phys. Rev. Lett. 38 (1977) 152 ",......................................... Pb,"B.Frois,etal.",1977
+Electronic,Fr77b,"J.L.Friar, et al.: Proc. Workshop lnterm. En. Electrom. Interact. ed. AM.Bernstein, Mass. Inst. Techn. (1977) p. 325 ",............. Pb,"J.L.Friar,etal.",1977
+Electronic,Hi77,"AS.Hirsch, Ph.D. thesis, Mass. Inst. Techn. (1977) unpubl. (from Vr87)"," Nd, Gd, Th","AS.Hirsch,Ph.D.thesis,Mass.Inst.Techn.(1977)unpubl.(fromVr87)",1977
+Electronic,Ke77,"M.Kegel: MS thesis, Univ. Amsterdam (1977) unpublished ",".................... Ni, Cu, Zn",M.Kegel,1977
+Electronic,MC77,"J.S.McCarthy, I.Sick, RR.Whitney: Phys. Rev. C15 (1977) 1396 ",........... He,"J.S.McCarthy,I.Sick,RR.Whitney",1977
+Electronic,Na77,"A.Nakada, et al.: Phys. Rev. Lett. 38 (1977) 584 ",..................................... Sm,"A.Nakada,etal.",1977
+Electronic,Sz77,"Z.M.Szalata, et al.: Phys. Rev. C15 (1977) 1200 ",.................................... He,"Z.M.Szalata,etal.",1977
+Electronic,Ak78,"Yu.K.Akimov, et al.: Preprint EFl-326(5I)-78 (1978) ",................................ H,"Yu.K.Akimov,etal.",1978
+Electronic,Ar78,"R.G.Arnold, et al.: Phys. Rev. Lett. 40 (1978) 1429 ",................................ He,"R.G.Arnold,etal.",1978
+Electronic,Ca78,"L.S.Cardman, et al.: Phys. Rev. C18 (1978) 1388 ",................................... Er,"L.S.Cardman,etal.",1978
+Electronic,Eu78,"H.Euteneuer, J.Friedrich, N.Voegler: Nucl. Phys. A298 (1978) 452 ","....... Tl, Pb, Bi","H.Euteneuer,J.Friedrich,N.Voegler",1978
+Electronic,Ki78,"J.C.Kim, et al.: Nucl. Phys. A297 (1978) 301 ",.......................................... 0,"J.C.Kim,etal.",1978
+Electronic,Sh78a,"N.G.Shevchenko, et al.: Yad. Fiz. 27 (1978) 293 ",".................................... Co, Ni, Cu","N.G.Shevchenko,etal.",1978
+Electronic,Sh78b,"N.G.Shevchenko, et al.: Yad. Fiz. 28 (1978) 276 ",".................................... Cr, Fe","N.G.Shevchenko,etal.",1978
+Electronic,Sh78c,"N.G.Shevchenko, et al.: Yad. Fiz. 28 (1978) 577 ",".................................... Ti, Cr","N.G.Shevchenko,etal.",1978
+Electronic,8a79,"A.V.Batyunin, et al.: lzv. Ak. Nauk SSSR, Ser. Fiz. 43(1979)2353 ",......... C,"A.V.Batyunin,etal.",1979
+Electronic,Do79,"B.Dolbilkin: Contr.2.2 Int. Conf. Nucl. Phys. Mainz, June 5-9 (1979) ",...... C,B.Dolbilkin,1979
+Electronic,Ho79,"R.Hofrnan, et al.: Jahresbericht 1978-79, Mainz, p. 170 ",.......................... Sm,"R.Hofrnan,etal.",1978
+Electronic,Sa79,"T.Sasanuma: Ph.D. thesis, Mass. Inst. Techn. (1979) unp. (from Vr87) ",". Yb, Lu",T.Sasanuma,1979
+Electronic,Sc79,"a.Schwentker: Contr.2. 7 Int. Conf. Nucl. Phys. Mainz, June 5-9 (1979) ",". Co, Cu",a.Schwentker,1979
+Electronic,Si79,"I.Sick, et al.: Phys. Letters, 888 (1979) 245 ",............................................ Ca,"I.Sick,etal.",1979
+Electronic,Sp79,"D.W.L.Sprung, et al.: Nucl. Phys. A325 (1979) 125 ",................................ Ni,"D.W.L.Sprung,etal.",1979
+Electronic,8r80,"W.J.Briscoe, Hall Crannell, J.C.Bergstrom: Nucl. Phys. A344(1980)475 ", Cl,"W.J.Briscoe,HallCrannell,J.C.Bergstrom",1980
+Electronic,Ca80a,"L.S.Cardman, et al.: Phys. Letters, 918 (1980) 203 ",................................ C,"L.S.Cardman,etal.",1980
+Electronic,Ca80b,"J.M.Cavedon: Ph.D. thesis, Univ. Paris-Sud, (1980) unp. (from Vr87) ",... Ni,J.M.Cavedon,1980
+Electronic,Si80,"G.G.Simon, et al.: Nucl. Phys. A333 (1980)381 ","...................................... C, H","G.G.Simon,etal.",1980
+Electronic,Si80a,I.Sick: (Ref. [11) of Ba80(mu)) ,................................................................. O,I.Sick,
+Electronic,Wo80,"H.D.Wohlfahrt, et al.: Phys. Rev. C22 (1980) 264 ","................................... Fe, Ni, Zn","H.D.Wohlfahrt,etal.",1980
+Electronic,Oo81,"B.S.Dolbilkin, et al.: lzv. Akad. Nauk SSSR, Ser. Fiz., 45 (1981) 188 ",..... Al,"B.S.Dolbilkin,etal.",1981
+Electronic,Kn81,"EA.Knight, et al.: J. Phys. G.: Nuc/. Phys. 7 (1981) 1115 ",....................... Ne,"EA.Knight,etal.",1981
+Electronic,Mo81,"M.A.Moinester, et al.: Phys. Rev. C24 (1981) 80 ",.................................... Sm,"M.A.Moinester,etal.",1981
+Electronic,Si81,"G.G.Simon, Ch.Schmitt, V.H.Walther: Nucl. Phys. A364 (1981) 285 ",...... H,"G.G.Simon,Ch.Schmitt,V.H.Walther",1981
+Electronic,Be82,"D.H.Beck, J.Asai, and D.M.Skopik: Phys. Rev. C25 (1982) 1152 ",........... H,"D.H.Beck,J.Asai,D.M.Skopik",1982
+Electronic,Ca82a,"J.M.Cavedon, etal.: Phys. Lett. 118B (1982) 311 ",................................... Sn,"J.M.Cavedon,etal.",1982
+Electronic,Gu82,"A.V.Gunten: Thesis, TH Darmstadt (1982) (Ref. 5. in Ot85) ",................... He,A.V.Gunten,1982
+Electronic,He82,"F.W.Hersman: Ph.D. thesis, Univ. Mainz (1982) unpubl. (from Vr87) ",..... Gd,F.W.Hersman,1982
+Electronic,La82,"G.Lahm: Ph.D. thesis, Univ. Mainz (1982) unpubl. (from Vr87) ",".............. N, 0",G.Lahm,1982
+Electronic,Mi82,"H.Miessen: Ph.D. thesis, Univ. Mainz (1982) unpubl. (from Vr87) ",".......... Si, P",H.Miessen,1982
+Electronic,Ot82,"C.R.Ottermann, et al.: Nuc/. Phys. A379 (1982) 396 ",............................... Ar,"C.R.Ottermann,etal.",1982
+Electronic,Re82,"W.Reuter, et al.: Phys. Rev. C26 (1982) 806 ",........................................... C,"W.Reuter,etal.",1982
+Electronic,Si82,"I.Sick: Phys. Letters, 1168 (1982) 212 ",".................................................... He, C",I.Sick,1168
+Electronic,Be83,"G.Beuscher: Ph.D. thesis, Univ. Mainz (1983) unpubl. (from Vr87) ",........ Ni,G.Beuscher,1983
+Electronic,Bo83,"W.T.A.Borghols: MS thesis, Univ. Amsterdam (1983) unp. (from Vr87) ",. Pt,W.T.A.Borghols,1983
+Electronic,Do83,"B.S.Dolbilkin, etal.: Yad. Fiz. 37 (1983) 264 ",........................................... Al,"B.S.Dolbilkin,etal.",1983
+Electronic,Du83,"P.C.Dunn, et al.: Phys. Rev. C27 (1983) 71 ",............................................ He,"P.C.Dunn,etal.",1983
+Electronic,Em83,"H.J.Emrich, et al.: Nucl. Phys. A396 (1983) 401 ",..................................... Ca,"H.J.Emrich,etal.",1983
+Electronic,Em83a,"H.J.Emrich, et al.: Jahresbericht Mainz, 1982-83 p. 46 ",........................... Ca,"H.J.Emrich,etal.",1982
+Electronic,Fr83,"B.Frois, et al.: Nucl. Phys. A396 (1983) 409c ","......................................... Tl, Pb","B.Frois,etal.",1983
+Electronic,Li83,"J.W.Lightbody, Jr., etal.: Phys. Rev. C27 (1983) 113 ",............................. Cr,"J.W.Lightbody,Jr.,etal.",1983
+Electronic,Ma83,"G.Mallot, et al.: Jahresbericht, Univ. Mainz, 1982-83 p. 51 ",..................... Ge,"G.Mallot,etal.",1982
+Electronic,M083,"M.M0ller, H.G.Andresen: Jahresbericht, Univ. Mainz, 1982-83 p.64 ",....... Gd,"M.M0ller,H.G.Andresen",1982
+Electronic,Ry83a,"D.Rychel, etal.: Phys. Letters, 1308 (1983) 5 ",........................................ S,"D.Rychel,etal.",1308
+Electronic,Be84,"D.H.Beck, etal.: Phys. Rev. C30 (1984) 1403 ",........................................ H,"D.H.Beck,etal.",1984
+Electronic,Ma84,"G.K.Mallot: Ph.D. Thesis, Univ. Mainz (1984) unpubl. (from Vr87) ",.......... Ge,G.K.Mallot,1984
+Electronic,Re84a,W.Reuter et al: Phys. Rev. C30{1984)1465; Phys. Lett. 1378(1984)32 ,. Os,W.Reuteretal,1984
+Electronic,Re84b,"G.A.Retzlaff, and D.M.Skopik: Phys. Rev. C29 (1984) 1194 ",................... He,"G.A.Retzlaff,D.M.Skopik",1984
+Electronic,Al85,"Yu.A.Aleksandrov, et al.: Zh. Eksp. Teor. Fiz. 89 (1985) 34 ",................... neutron,"Yu.A.Aleksandrov,etal.",1985
+Electronic,Be85,"J.C.Bergstrom, R.Neuhausen, G.Lahm: to be publ. (from Vr87) ",............. Ne,"J.C.Bergstrom,R.Neuhausen,G.Lahm",
+Electronic,Ju85,"F.-P.Juster, et al.: Phys. Rev. Lett. 55 (1985) 2261 ",................................. H,"F.-P.Juster,etal.",1985
+Electronic,Kh85,"A.Khomich: Tez. dokl. XXXV. sov. Leningrad, 16-18 Apr. 1985 p.346 ",..... Se,A.Khomich,1985
+Electronic,Ot85,"C.R.Ottermann, et al.: Nuc/. Phys. A436 (1985) 688 ",............................... He,"C.R.Ottermann,etal.",1985
+Electronic,Al86,"Yu.A.Aleksandrov, etal.: Yad. Fiz. 44 (1986) 1384 ",................................. neutron,"Yu.A.Aleksandrov,etal.",1986
+Electronic,0086,"B.Dolbilkin: Tez. dokl. XXXVI sov. Kharkov, 15-18 Apr. 1986 p.352 ",....... B,B.Dolbilkin,1986
+Electronic,Kh86,"A.A.Khomich, et al.: lzv. Akad. Nauk. SSSR Ser. Fiz. 51 (1987)958 ",....... Se,"A.A.Khomich,etal.",1987
+Electronic,Kh86a,"A.A.Khomich, etal.: Yad. Fiz. 43 (1986) 1351 ",......................................... Se,"A.A.Khomich,etal.",1986
+Electronic,Ko86,"L.Koester, et al.: Physica, 1378 (1986) 282 ",........................................... neutron,"L.Koester,etal.",1378
+Electronic,La86,J.B. van der Laan: Ph.D. th. U. Amsterdam (1986) unp. (from Vr87) ,...... Pd,J.B.vanderLaan,1986
+Electronic,La86a,"J.Laksanaboonsong: Ph.D.th. Univ. Virginia, (1986) unp. (from Vr87) ",.... Hg,J.Laksanaboonsong,1986
+Electronic,Pe86,"B.A.Peterson: Ph.D. Thesis, University of Wyoming, USA (1986) ",.......... W,B.A.Peterson,1986
+Electronic,Ro86,H.Rothhaas: (from Vr87) ,.......................................................................... AI,H.Rothhaas,
+Electronic,Se86,"VF.Sears: Physics Reports, 141 (1986) 281 ",......................................... neutron (review),VF.Sears,1986
+Electronic,Kh87,"A.A. Khomich et al: lzv. Ak. Nauk SSSR, Ser. Fiz. 51 (1987) 958 ",........... Se,A.A.Khomichetal,1987
+Electronic,Vr87,"H.deVries, C.W.deJager, C.deVries: At. D. Nuc/. D. T. 36 (1987) 495 ",.... Many: Compilation,"H.deVries,C.W.deJager,C.deVries",1987
+Electronic,8088,"W.Boeglin, et al.: Nucl. Phys. A477 (1988) 399 ","...................................... Os, Pt","W.Boeglin,etal.",1988
+Electronic,Kh88,"A.A.Khomich, et al.: Yad. Fiz. 47 (1988) 305 ",........................................... Se,"A.A.Khomich,etal.",1988
+Electronic,Ko88,"L.Koester, et al.: Z. Phys. A329 (1988) 229 ",............................................. neutron,"L.Koester,etal.",1988
+Electronic,Se88,"AM.Selig, et al.: Nuc/. Phys. A476 (1988) 413 ",....................................... Ti,"AM.Selig,etal.",1988
+Electronic,Of88,"E.A.J.M.Offermann: Thesis, Univ. Amsterdam (1988) ",............................. C,E.A.J.M.Offermann,1988
+Electronic,Vr88,"J.W.de Vries, et al.: Phys. Lett. 8205 (1988) 22 ",...................................... N,"J.W.deVries,etal.",8205
+Electronic,So88,"R.Soundranayagam, et al.: Phys. Lett. 8212 (1988) 13 ",.......................... Mg,"R.Soundranayagam,etal.",8212
+Electronic,8u89,"A.J.C.Burghardt: Ph.D. thesis, Univ. Amsterdam (1989) ",......................... Hg,A.J.C.Burghardt,1989
+Electronic,Ma89,"P.Mazanek: Dip/. Th., Inst. f. Kemph. PKH 11/89, U. Mainz 1989 ",".......... Zr, Mo (re-anal)",P.Mazanek,1989
+Electronic,Kh90,"A.A.Khomich, et al.: Yad. Fiz. 51 (1990) 27 ",............................................. Ge,"A.A.Khomich,etal.",1990
+Electronic,Pl90,"Platchkov, et al.: Nucl. Phys., A510 (1990) 740 ",...................................... neutron,"Platchkov,etal.",1990
+Electronic,Of91,"E.A.J.M.Offermann, et al.: Phys. Rev. C44 (1991) 1096 ",......................... C,"E.A.J.M.Offermann,etal.",1991
+Electronic,Ki92,"W.Kim, et al.: Phys. Rev., C46 (1992) 1656 ",............................................ Sr,"W.Kim,etal.",1992
+Electronic,Ko92,"S.Kopecky, et al.: KNP Wiesbaden, 1992, Abstr. 2.1.11 ",........................ neutron,"S.Kopecky,etal.",1992
+Electronic,Ma92a,"P.Mazanek, Ph.D. Th. Inst. f. Kemph. PKH 5/92, U. Mainz 1992 ",........... Pb (re-anal),"P.Mazanek,Ph.D.Th.Inst.f.Kemph.PKH5/92,U.Mainz1992",1992
+Electronic,We93,"J.Wesseling, et al.: (to be published, from Fr95) ",".................................... Si, P, S","J.Wesseling,etal.",
+Electronic,Al94,Yu.A.Alexandrov: Phys Rev. C49 (1994) R2297 ,..................................... neutron,Yu.A.Alexandrov,1994
+Electronic,Am94,"A.Amroun, et al.: Nucl. Phys. A579 (1994) 596 ","....................................... H, He","A.Amroun,etal.",1994
+Electronic,Fr95,"G. Fricke, et al.: At. D. Nucl. D. T. 60 ( 1995) 177 ",..................................... Many: combined anal,"G.Fricke,etal.",1995
+Electronic,Ko95,"S.Kopecky, et al.Phys. Rev. Letters, 74 (1995) 2427 ",............................ neutron,"S.Kopecky,etal.Phys.Rev.Letters,74(1995)2427",1995
+Electronic,Ko95a,"L.Koester, et al.: Phys. Rev. C51 (1995) 3363 ",........................................ neutron,"L.Koester,etal.",1995
+Electronic,Me96,"P.Mergell, et al.: Nucl. Phys, A596 (1996) 367 ","....................................... neutron, H","P.Mergell,etal.",1996
+Electronic,Si96,"I.Sick, and D.Trautmann: Physics Letters 8375 (1996) 16 ",...................... D: re-anal of x-sects,"I.Sick,D.Trautmann",8375
+Electronic,Fr97,"G.Fricke, private communication ",............................................................. Sn: combined analysis,"G.Fricke,privatecommunication",
+Electronic,Ko97,"S.Kopecky, et al.Phys. Rev. C56 (1997) 2229 ",...................................... neutron,"S.Kopecky,etal.Phys.Rev.C56(1997)2229",1997
+Electronic,PC97,"Priv. comm. (""Anonym·, 1997). Not confirmed! ",...................................... D,"Priv.comm.(""Anonym·,1997).Notconfirmed!",1997
+Electronic,Si98,"I.Sick, and D.Trautmann: Nucl. Phys., A637 (1998) 559 ",........................ D: re-anal ofx-sects.,"I.Sick,D.Trautmann",1998
+Muonic,Wh49,J.A.Wheeler: Rev. Mod. Phys. 21 (1949) 133 ,......................................... Method suggested,J.A.Wheeler,1949
+Muonic,Co53,"L.N.Cooper, and EM.Henley: Phys. Rev. 92 (1953) 801 ",........................ Method,"L.N.Cooper,EM.Henley",1953
+Muonic,Fi53,"V.L.Fitch, and J.Rainwater: Phys. Rev. 92 (1953) 789 ","............................ Ti, Cu, Sb, Pb","V.L.Fitch,J.Rainwater",1953
+Muonic,Wh53,J.A.Wheeler: Phys. Rev. 92 (1953) 812 ,.................................................. Method,J.A.Wheeler,1953
+Muonic,Br62,"P.Brix, et al.: Phys. Letters, 1 (1962) 56 ",.................................................. Many; preliminary,"P.Brix,etal.",1962
+Muonic,Fr62,"W.Frati, and J.Rainwater: Phys. Rev. 128 (1962) 2360 ",".......................... Ti, Fe, Cu, Zn,Tl, Pb, Bi","W.Frati,J.Rainwater",1962
+Muonic,Jo62,"C.S.Johnson, E.P.Hincks, H.L.Anderson: Phys. Rev. 125(1962)2102 ",".... AI, K, Ca, Ti, Cr, Mn, Fe, Co, Ni, Cu, Zn","C.S.Johnson,E.P.Hincks,H.L.Anderson",1962
+Muonic,An63,"H.L.Anderson, C.S.Johnson, E.P.Hincks: Phys. Rev. 130(1963)2468 ",".... Mg, Al, Si, P, S, Cl, Ca, Fe, Ni, Zn, As, Zr, Mo","H.L.Anderson,C.S.Johnson,E.P.Hincks",1963
+Muonic,Bj64,"J.A.Bjorkland, et al.: Phys. Rev. 136 (1964) B 341 ",.................................. Ca,"J.A.Bjorkland,etal.",1964
+Muonic,Eh64,"RD.Ehrlich, et al.: Phys. Rev. Lett. 13 (1964) 550 ",".................................. Th, U","RD.Ehrlich,etal.",1964
+Muonic,Qu64,"D.Quitmann, et al.: Nuc/. Phys. 51 (1964) 609 ","........................................ S, K, Ca, Ti, Mn, Fe, Co, Ni, Cu, Zn, As, Mo","D.Quitmann,etal.",1964
+Muonic,Ac65,"H.L.Acker, et al.: Phys. Letters, 14 (1965) 317 ","........................................ Au, Pb, Bi, W, U","H.L.Acker,etal.",1965
+Muonic,Ba65,"G.Backenstoss, et al.: Nuc/. Phys. 62 (1965) 449 ","................................... Rh, Pd, Ag, Cd, In, Sn, Sb, Te, I, Cs, Ba, La, Ce, Pr, Pb, Bi","G.Backenstoss,etal.",1965
+Muonic,Bj65,"J.A.Bjorkland, et al.: Nucl. Phys. 69 (1965) 161 ","...................................... Mg, Al, Ca, V, Fe, Cu, Ni, Zn","J.A.Bjorkland,etal.",1965
+Muonic,Ch65,"C.Chasman, et al.: Phys. Rev. Lett. 14 (1965) 181 ",................................. Mo,"C.Chasman,etal.",1965
+Muonic,Ac66,"H.L.Acker, et al.: Nuc/. Phys. 87 (1966) 1 ","................................................ Cl, Ca, Fe, Sn, Sb, Te, I, As, Ba, La, Ce, Pr, Nd, Au, Hg, Tl, Pb, Bi","H.L.Acker,etal.",1966
+Muonic,An66,"H.L.Anderson, et al.: Phys. Rev. Lett. 16 (1966) 434 ",............................. Pb,"H.L.Anderson,etal.",1966
+Muonic,Ba66,"TT.Bardin, et al.: Phys. Rev. Lett. 16 (1966) 429 ",................................... Bi,"TT.Bardin,etal.",1966
+Muonic,Ba66a,TT.Bardin et al: Prog. Rep. Jan. 1 (1966) GEN-72; ONR-666(72) (From Wu69 and En74),......... Ti,TT.Bardinetal,1966
+Muonic,Ba66b,"TT.Bardin, et al.: Phys. Rev. Lett. 16 (1966) 718 ","................................... Sn, Nd, W","TT.Bardin,etal.",1966
+Muonic,Eh66,"RD.Ehrlich, et al.: Phys. Rev. Lett. 16 (1966) 425 ",.................................. Bi,"RD.Ehrlich,etal.",1966
+Muonic,Eh66a,"RD.Ehrlich, et al.: Phys. Letters, 23 (1966) 468 ",..................................... Pb,"RD.Ehrlich,etal.",1966
+Muonic,Je66,"D.A.Jenkins, et al.: Phys. Rev. Lett. 17 (1966) 1 ","..................................... Li, Be, B, C, N, 0, F, Na, Mg","D.A.Jenkins,etal.",1966
+Muonic,Ba67,"C.G.Backenstoss, et al.: Phys. Letters, 25B (1967) 547 ","......................... B, C, N, 0, F, Na, Mg, Al, Si, P, S, Cl","C.G.Backenstoss,etal.",1967
+Muonic,Ba67a,"T.T.Bardin, et al.: Phys. Rev. 160 (1967) 1043 ",....................................... Bi,"T.T.Bardin,etal.",1967
+Muonic,Be67,"S.Bemow, et al.: Phys. Rev. Lett. 18 (1967) 787 ",..................................... Sm,"S.Bemow,etal.",1967
+Muonic,Bu67,"Yu.T.Budyashov, et al.: Yad. Fiz. 5 (1967) 134 ","....................................... Ar, S, Cl, K, Ca, Cr","Yu.T.Budyashov,etal.",1967
+Muonic,El67,"L.RB.Elton: Landolt-Bornstein, Gruppe I.: Kernphysik und Kerntechnik, Band 2: Kemradien; Springer, Berlin (1967) pp.1-20 ",..................... Many; compilation,L.RB.Elton,1967
+Muonic,Su67,A.Suzuki: Phys. Rev. Lett. 19 (1967) 1005 ,"............................................. Mg, Si, S, Ca",A.Suzuki,1967
+Muonic,We67,"R.J.Wetmore, et al.: Phys. Rev. Lett. 19 (1967) 1003 ",............................. He,"R.J.Wetmore,etal.",1967
+Muonic,Wr67,"S.A.De Wit, et al.: Nucl. Phys. 87 (1967)657 ","........................................... Sm, Eu, Tb, Ho, Hf, Ta, W, Os, Ir, Th, U, Pu","S.A.DeWit,etal.",1967
+Muonic,Be68,"S.Bernow, et al.: Phys. Rev. Lett. 21 (1968) 457 ","..................................... Nd, Sm, Gd, Er, W","S.Bernow,etal.",1968
+Muonic,Ca68,"RA.Carrigan.Jr., et al.: Phys. Rev. Lett. 20 (1968) 874 ",.......................... Eu,"RA.Carrigan.Jr.,etal.",1968
+Muonic,Ca68a,"R.A.Carrigan,Jr., et al.: Phys. Letters, 278 (1968) 622 ",........................... Ag,"R.A.Carrigan,Jr.,etal.",1968
+Muonic,Eh68,RD.Ehrlich: Phys. Rev. 173 (1968) 1088 ,"................................................ K, Ca, Fe, Ni, Cu, Sr, Zr, Sn",RD.Ehrlich,1968
+Muonic,Ha68,"R.J Harris, et al.: Phys. Rev. Lett. 20 (1968) 505 ",".................................... Li, Be, B, C","R.JHarris,etal.",1968
+Muonic,Po68,R.J.Powers: Phys. Rev. 169 (1968) 1 ,"...................................................... Pb, Bi",R.J.Powers,1968
+Muonic,Su68,"M.N.Suzuki: Thesis, Carnegie-Mellon Univ. (1968) unp. (from En74) ",..... Lu,M.N.Suzuki,1968
+Muonic,An69,"H.L.Anderson, etal.: Phys. Rev. 187 (1969) 1565 ",.................................. Pb,"H.L.Anderson,etal.",1969
+Muonic,Co69,"RE.Cati, etal.: Phys. Rev. 179 (1969) 1134 ","........................................... Th, U","RE.Cati,etal.",1969
+Muonic,Fo69,"KW.Ford, and J.G.Wills: Phys. Rev. 185 (1969) 1429 ",............................ Theory,"KW.Ford,J.G.Wills",1969
+Muonic,Le69,"W.Y.Lee, et al.: Phys. Rev. Lett. 23 (1969) 648 ","....................................... In, Cs, Pr","W.Y.Lee,etal.",1969
+Muonic,MK69,R.J.McKee: Phys. Rev. 180 (1969) 1139 ,"................................................. Th, U",R.J.McKee,1969
+Muonic,Wu69,C.S.Wu and L.Wilets: Ann. Rev. Nuc/. Sci. 19 (1969) 546 ,...................... Review,C.S.WuL.Wilets,1969
+Muonic,Be70,"A.Bertin, et al.: Phys. Letters, 558 (1970) 411 ",........................................ He,"A.Bertin,etal.",1970
+Muonic,Hi70,"D.Hitlin, et al.: Phys. Rev, C1 (1970) 1184 ",".............................................. Nd, Sm, Dy, Er, W","D.Hitlin,etal.",1970
+Muonic,Je70,"D.A.Jenkins, et al.: Phys. Letters, 328 (1970) 267 ",.................................. Ce,"D.A.Jenkins,etal.",1970
+Muonic,Ke70,"D.Kessler, et al.: Can. J. Phys. 48 (1970) 3029 ",....................................... Y,"D.Kessler,etal.",1970
+Muonic,Ma70,"E.RMacagno, et al.: Phys. Rev. C1 (1970) 1202 ",".................................... Ca, Cr, Cu, Mo, Sn, Nd","E.RMacagno,etal.",1970
+Muonic,Ba71,"G.Backenstoss, et al.: Phys. Letters, 36B (1971) 422 ","............................. Ne, Ar","G.Backenstoss,etal.",1971
+Muonic,Ba71a,"H.Backe: Z. Physik, 241 (1971) 435 ","........................................................ W, Os, Bi",H.Backe,1971
+Muonic,Bv71,T.Bohringer: Trav. dip/. ETH Zurich (1971) unpubl. (From En74) ,........... Fe,T.Bohringer,1971
+Muonic,Di71,"M.S.Dixit, etal.: Phys. Rev. Lett. 27 (1971) 878 ","...................................... Ca, Ti, Fe, Sr, Ag, Cd,Sn,Ba,Pb","M.S.Dixit,etal.",1971
+Muonic,Je71,"D.A.Jenkins, et al.: Nucl. Phys. A175 (1971) 73 ",...................................... Pb,"D.A.Jenkins,etal.",1971
+Muonic,Ka71,"J.W.Kast, et al.: Nucl Phys. A169 (1971) 62 ","........................................... Cd, In, Sn, Te, I","J.W.Kast,etal.",1971
+Muonic,Ki71,Y.N.Kim: Mesic atoms and nuclear structure. North-Holland P.Co.(1971) ,Review,Y.N.Kim,1971
+Muonic,Pl71,"A.Placci, et al.: Nuovo Cimento 1A (1971) 445 ",....................................... He,"A.Placci,etal.",1971
+Muonic,Ba72,"H.Backe, et al.: Nuc/. Phys. A189 (1972) 472 ",......................................... Tl,"H.Backe,etal.",1972
+Muonic,Ki72,"Y.N.Kim, and M.Khan: Phys. Letters, 408 (1972) 217 ",............................ Pb (theory),"Y.N.Kim,M.Khan",1972
+Muonic,Ma72,"P.Martin: Thesis, William and Mary College, WM-38-72 (from En74) ",..... Ba,P.Martin,
+Muonic,Po72,"H.P.Povel: Thesis, Karlsruhe, KFK 1602 (1972) to be publ. (from En74)", Nb,H.P.Povel,1602
+Muonic,Wa72,"H.K.Walter, etal.: Phys. Letters, 408 (1972) 197 ",".................................... Hg, Tl","H.K.Walter,etal.",1972
+Muonic,Ad73,"D.T.Adler: Thesis, Carnegie-Me/Ion Univ. (1973) (from En74) ",................ Yb,D.T.Adler,1973
+Muonic,De73,"E.Deci: Thesis, State Univ. NY at Binghampton (1973) unp. (from En74)", Tm,E.Deci,1973
+Muonic,Fo73,"KW.Ford, and G.A.Rinker: Phys. Rev. C7 (1973) 1206 ",.......................... Pb (Re-anal.),"KW.Ford,G.A.Rinker",1973
+Muonic,Pf73,H.J.Pfeiffer et al: Proc. Int. Conf. Nuc/. Phys. (1973) Munich Vol.1 p.313 .Ar,,H.J.Pfeifferetal,1973
+Muonic,Ro73,"B.Robert-Tissot, et al.: He/v. Phys. Acta, 46 (1973) 51 ",........................... Au,"B.Robert-Tissot,etal.",1973
+Muonic,Ze73,"A.Zehnder: Thesis, ETH Zurich (1973) to be publ. (from En74) ",.............. Yb,A.Zehnder,1973
+Muonic,Ba74,"G.Backenstoss, et al.: Nuc/. Phys. A232 (1974) 519 ",............................... He,"G.Backenstoss,etal.",1974
+Muonic,Da74,"H.Daniel, et al.: Phys. Letters, 488 (1974) 109 ",....................................... Ar,"H.Daniel,etal.",1974
+Muonic,Du74,"T.Dubler,etal.:Nuc/.Phys.A219(1974)29 ","........................................... C, N, 0","T.Dubler,etal.",1974
+Muonic,Eg74,"T.von Egidy, and H.P.Povel: Nucl. Phys. A232 (1974) 511 ","..................... C, 0","T.vonEgidy,H.P.Povel",1974
+Muonic,En74,"R.Engfer, et al.: At. Data Nucl. Data Tables, 14 (1974) 509 ",.................... Many; compilation,"R.Engfer,etal.",1974
+Muonic,Po74,"RJ.Powers, et al.: Nucl. Phys. A230 (1974) 413 ",.................................... Au,"RJ.Powers,etal.",1974
+Muonic,Ke75,"D.Kessler, et al.: Phys. Rev. C11 (1975) 1719 ",........................................ Pb,"D.Kessler,etal.",1975
+Muonic,Sh75,"EB.Shera, et al.: Phys. Rev. Lett. 34 (1975) 535 ",.................................... Fe,"EB.Shera,etal.",1975
+Muonic,8r76,"A.Brandco d'Oliviera, and T.von Egidy: Z.Naturf. 31a (1976) 211 ","........... Br, Cd","A.Brandcod'Oliviera,T.vonEgidy",1976
+Muonic,Ca76,"G.Carboni, et al.: Nuovo Cimento, 34 (1976) 493 ",.................................... He,"G.Carboni,etal.",1976
+Muonic,Cl76,"D.A.Close, J.J.Malanify, J.P.Davidson: Nuovo Cim. 34A(1976)301 ",....... Pb,"D.A.Close,J.J.Malanify,J.P.Davidson",1976
+Muonic,Du76,"T.Dubler et al: Proc. Europhys. Conf. Rad. Shape Nucl. 1976 Cracow, p.9 ","...... Na, S",T.Dubleretal,1976
+Muonic,He76,"EM.Henley, F.R.Krejs, L.Wilets: Nuc/. Phys. A256 (1976) 349 ",.............. He,"EM.Henley,F.R.Krejs,L.Wilets",1976
+Muonic,ML76,"D.McLoughlin, et al.: Phys. Rev. C13 (1976) 1644 ",.................................. Ta,"D.McLoughlin,etal.",1976
+Muonic,Pf76,"H.-J.Pfeiffer, and H.Daniel: Nucl. Phys. A264 (1976) 498 ",....................... Ar,"H.-J.Pfeiffer,H.Daniel",1976
+Muonic,Po76,"R.J.Powers, et al.: Nucl. Phys. A262 (1976) 493 ",.................................... Ho,"R.J.Powers,etal.",1976
+Muonic,Sh76,"EB.Shera, et al.: Phys. Rev. C14 (1976) 731 ","......................................... Fe, Co, Ni, Cu, Zn","EB.Shera,etal.",1976
+Muonic,Ca77,"G.Carboni, et al.: Nuc/. Phys. A278 (1977) 381 ",...................................... He,"G.Carboni,etal.",1977
+Muonic,Du77,"T.Dubler, et al.: He/v. Phys. Acta, 50 (1977) 205 ",".................................... Na, S","T.Dubler,etal.",1977
+Muonic,8078,"EBorie, and G.A.Rinker: Phys. Rev. A18 (1978) 324 ",............................. He,"EBorie,G.A.Rinker",1978
+Muonic,Cl78,"D.A.Close, J.J.Malanfy, J.P.Davidson: Phys. Rev. C17(1978)1433 ","........ Th, U, Pu","D.A.Close,J.J.Malanfy,J.P.Davidson",1978
+Muonic,Du78,"T.Dubler, et al.: Helv. Phys. Acta, 51 (1978) 513 ",".................................... Mo, Sr, Zr","T.Dubler,etal.",1978
+Muonic,Pl78,"G.R.Plattner, and I.Sick: He/v. Phys. Acta, 51 (1978) 514 ",...................... He,"G.R.Plattner,I.Sick",1978
+Muonic,Ri78,"G.A.Rinker, and J.Speth: Nucl. Phys. A306 (1978) 360 ",.......................... Pb; (theory),"G.A.Rinker,J.Speth",1978
+Muonic,Sc78,"L.A.Schaller, et al.: Nucl. Phys. A300 (1978) 225 ","................................... F, Na, Al, Si, P, S, K","L.A.Schaller,etal.",1978
+Muonic,Vu78,"J.-L.Vuilleumier, et al.: Nucl. Phys. A294 (1978) 273 ",.............................. Pd,"J.-L.Vuilleumier,etal.",1978
+Muonic,Wo78,"H.D.Wohlfahrt, eta!.: Phys. Letters, 738 (1978) 131 ",.............................. Ca,"H.D.Wohlfahrt,eta!.",1978
+Muonic,Wo78a,"H.D.Wohlfahrt, et al.: Bull. Am. Phys. Soc. 23 (1978) HL4 ","...................... K, Ca, Sc, Ti, V, Cr, Mn, Fe","H.D.Wohlfahrt,etal.",1978
+Muonic,Ya78,"Y.Yamazaki, et al.: Phys. Rev. C18 (1978) 1474 ",.................................... Sm,"Y.Yamazaki,etal.",1978
+Muonic,Be79,"G.A.Beer et al: flh Int. Conf. High En. Phys. Nucl. Struct. Aug. 13-17 1979, Vancouver, Canada, Contr. 1827, p.21 ","....................... 8, C",G.A.Beeretal,1979
+Muonic,Ha79,"A.A.Hahn, et al.: Nuc/. Phys. A314 (1979) 361 ",....................................... Hg,"A.A.Hahn,etal.",1979
+Muonic,Ka79,"K.Kaeser, et al.: He/v. Phys. Acta, 52 (1979) 238 ","................................... P, Se","K.Kaeser,etal.",1979
+Muonic,Po79,"R.J.Powers, et al.: Nuc/. Phys. A316 (1979) 295 ",.................................... Sm,"R.J.Powers,etal.",1979
+Muonic,8a80,"G.Backenstoss, et al.: Phys. Letters, 958 (1980) 212 ",............................. O,"G.Backenstoss,etal.",1980
+Muonic,Ma80,"G.Mallot: Dip/omarbeit, Univ. Mainz (1980) ",............................................ Kr,G.Mallot,1980
+Muonic,Sc80,"L.Schellenberg, et al.: Nucl. Phys. A333 (1980) 333 ",............................... Mo,"L.Schellenberg,etal.",1980
+Muonic,Sc80a,"LA.Schaller, et al.: Nucl. Phys. A343 (1980) 333 ","................................... Be, B, C, N","LA.Schaller,etal.",1980
+Muonic,Ba81,"P.Barreau, L.Roussel, R.J.Powers: Nucl. Phys. A364(1981)446 ",............ Sm,"P.Barreau,L.Roussel,R.J.Powers",1981
+Muonic,Ho81,"M.V.Hoehn, et al.: Phys. Rev. C24 (1981) 1667 ",...................................... Os,"M.V.Hoehn,etal.",1981
+Muonic,Ol81,"A.Olin, et al.: Nuc/. Phys. A360 (1981) 426 ",............................................. B,"A.Olin,etal.",1981
+Muonic,Wo81,"H.D.Wohlfahrt, et al.: Phys. Rev. C23 (1981) 533 K, Ca,Sc,Ti,Cr,Mn,Fe",,"H.D.Wohlfahrt,etal.",1981
+Muonic,Fr82,"G.Fricke, et al.: SIN Newsletter, 14 (1982) 61 (From Fr95) ","..................... Ar, Sc","G.Fricke,etal.",1982
+Muonic,Ru82,"W.Ruckstuhl, et al.: Phys. Rev. Lett. 49 (1982) 859 ",................................ C,"W.Ruckstuhl,etal.",1982
+Muonic,Sc82,"L.A.Schaller, et al.: Nucl. Phys. A379 (1982) 525 ",................................... C,"L.A.Schaller,etal.",1982
+Muonic,Sh82,"EB.Shera, et al.: Phys. Letters, 1128 (1982) 124 ",................................... Ba,"EB.Shera,etal.",1128
+Muonic,Si82a,"H.G.Sieberling, Dip/. Thesis U. Mainz, 1982 KPH 16/82 (From Fr95) ",.... Ge,"H.G.Sieberling,Dip/.ThesisU.Mainz,1982KPH16/82(FromFr95)",1982
+Muonic,Si82b,"H.G.Sieberling, (From Fr95) ",.................................................................... Se,"H.G.Sieberling,(FromFr95)",
+Muonic,Ku83,"W.Kunold, et al.: Z. Physik, A312 (1983) 11 ",............................................ Ba,"W.Kunold,etal.",1983
+Muonic,La83,"D.8.Laubacher, et al.: Phys. Rev. C27 (1983) 1772 ",................................ Gd,"D.8.Laubacher,etal.",1983
+Muonic,Ma83,G.Mallott (From Fr95) ,.............................................................................. Ga,G.Mallott(FromFr95),
+Muonic,He84,"Th.Hennemann, PhD thesis, Univ. Mainz KPH 2/84(1984) (from Sh89) ",. Xe,"Th.Hennemann,PhDthesis,Univ.MainzKPH2/84(1984)(fromSh89)",1984
+Muonic,Ru84,"W.Ruckstuhl, et al.: Nucl. Phys. A430 (1984) 685 ",................................... C,"W.Ruckstuhl,etal.",1984
+Muonic,Ta84,"Y.Tanaka, et al.: Phys. Rev. C29 (1984) 1897 ",........................................ Eu,"Y.Tanaka,etal.",1984
+Muonic,Ta84a,"Y.Tanaka, et al.: Phys. Rev. C30 (1984) 350 ",.......................................... Hf,"Y.Tanaka,etal.",1984
+Muonic,Zu84,"J.O.Zumbro, et al.: Phys. Rev. Lett. 53 (1984) 1888 ",................................ U,"J.O.Zumbro,etal.",1984
+Muonic,Bo85,"F.W.N.de Boer, et al.: Nucl. Phys. A444 (1985) 589 ",............................... C,"F.W.N.deBoer,etal.",1985
+Muonic,Jo85,"M.W.Johnson, et al.: Phys. Letters, 161B (1985) 75 ",............................... Am,"M.W.Johnson,etal.",1985
+Muonic,Ph85,"T.Q.Phan, et al.: Phys. Rev. C32 (1985) 609 ",.......................................... Zr,"T.Q.Phan,etal.",1985
+Muonic,Sc85,"L.A.Schaller, et al.: Phys. Rev. C31 (1985) 1007 ",".................................... P, S","L.A.Schaller,etal.",1985
+Muonic,He86,"Th.Hennemann, and J.Herberz {Ma83 data re-analysed. From Fr95) ",.... Rb,"Th.Hennemann,J.Herberz{Ma83datare-analysed.FromFr95)",
+Muonic,Fr87,"G.Fricke, et al.: (From Fr95) ",.................................................................... Cd,"G.Fricke,etal.",
+Muonic,Re87,"M.Reutter, Dip/. Thesis, U. Mainz, 1987, KPH 6/87 (From Fr95) ",............ La,"M.Reutter,Dip/.Thesis,U.Mainz,1987,KPH6/87(FromFr95)",1987
+Muonic,Be88,"P.Bergem, et al.: Phys. Rev. C37 (1988) 2821 ",........................................ Pb,"P.Bergem,etal.",1988
+Muonic,Kl88,"RM.Klein, Dip/. Thesis, U. Mainz, 1988, KPH 8/88 (From Fr95) ",............ Sb,"RM.Klein,Dip/.Thesis,U.Mainz,1988,KPH8/88(FromFr95)",1988
+Muonic,Bu89,"A.J.C.Burghardt, Ph.D. thesis, Univ. Amsterdam (1989) ",......................... Hg,"A.J.C.Burghardt,Ph.D.thesis,Univ.Amsterdam(1989)",1989
+Muonic,Ha89,"Th.Hack, Dip/. Thesis, U. Mainz, 1989, KPH 9/89 (From Fr95) ",............... Ru,"Th.Hack,Dip/.Thesis,U.Mainz,1989,KPH9/89(FromFr95)",1989
+Muonic,Ja89,"J.Jansen: Diplomarbeit, lnstitut tor Kemphysik, KPH 9/89 Mainz (1989) "," Sm, Gd",J.Jansen,1989
+Muonic,Ma89,"P.Mazanek: Dip/. Th., Inst. f. Kemph. PKH 11/89, U. Mainz 1989 ",".......... Zr, Mo",P.Mazanek,1989
+Muonic,Sh89,EB.Shera. et al.: Phys. Rev. C39 (1989) 195 ,......................................... Te,EB.Shera.etal.,1989
+Muonic,8e90,"C. Bernhadt: Dip/. Thesis U. Mainz, 1990 KPH 7/90 (From Fr95) ",............ Pt,C.Bernhadt,1990
+Muonic,Pi90,"C.Piller, et al.: Phys. Rev. C42 (1990) 182 ",.............................................. Sn,"C.Piller,etal.",1990
+Muonic,Be92,"C.Bernhardt: Ph.D. Thesis U. Mainz, 1992 KPH 6/92 (From Fr95) ",......... Nd,C.Bernhardt,1992
+Muonic,Fr92,"G.Fricke, et al.: Phys. Rev. C45 (1992) 80 ",".............................................. 0, F, Ne, Na, Mg,Al,Si","G.Fricke,etal.",1992
+Muonic,Ma92a,"P.Mazanek, Ph.D. Th. Inst. f. Kemph. PKH 5/92, U. Mainz 1992 ",........... Pb,"P.Mazanek,Ph.D.Th.Inst.f.Kemph.PKH5/92,U.Mainz1992",1992
+Muonic,Be93,"C.Bernhardt, et al. (From Fr95) Sn",,"C.Bernhardt,etal.(FromFr95)Sn",
+Muonic,Fr95,"G.Fricke, et al.: Atomic Data Nucl Data Tables, 60 (1995) 177 ",............... Many: combined anal.,"G.Fricke,etal.",1995
+Muonic,Fr97,"G.Fricke, private communication, November, 1997 ",................................. Sn: combined analysis,"G.Fricke,privatecommunication,November,1997",1997
