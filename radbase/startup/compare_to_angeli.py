@@ -109,7 +109,7 @@ abs_df = abs_df[~abs_df['Z'].isin([0, 1])]
 abs_df.rename(columns={'Rav': 'Value', 'dRav': 'Unc'}, inplace=True)
 abs_df.reset_index(drop=True, inplace=True)
 
-compare_abs_results('../comparisons/angeli_abs_abs.xlsx', abs_df, pd.read_csv(
+compare_abs_results('comparisons/angeli_abs_abs.xlsx', abs_df, pd.read_csv(
     '../outputs/absonly/absolute_radii_absonly.csv'),
                     lsuffix='ar', rsuffix='hr')
 

@@ -15,6 +15,6 @@ def process_garbage(file_loc):
     return df
 
 
-res = process_garbage('../References.xlsx')
+res = process_garbage('../../References.xlsx')
 print(res.info())
 res.to_csv('references.csv', index=False)
