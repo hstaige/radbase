@@ -4,9 +4,11 @@ from itertools import product
 from typing import Optional, Collection
 from lmfit import Parameters, Minimizer
 from dataclasses import dataclass
+from uncertainties import ufloat
 
 import copy
 import re
+import numpy as np
 
 
 class Nuclide:
@@ -91,8 +93,11 @@ class RadiusData:
         self.correlations = defaultdict(dict)
         self.nuclides = self.term.get_nuclides()
 
-    def residual(self, params):
-        return (self.term.eval(params=params) - self.value) / self.unc
+    def residual(self, params, normalize=True):
+        resid = self.term.eval(params=params) - self.value
+        if normalize:
+            return resid / self.unc
+        return resid
 
     def copy(self):
         return copy.deepcopy(self)
@@ -104,6 +109,10 @@ class Measurement(RadiusData):
     def __init__(self, references, **kwargs):
         super().__init__(**kwargs)
         self.references = references
+
+    @abstractmethod
+    def calc_radius(self):
+        pass
 
 
 class Projection(RadiusData):
@@ -124,6 +133,25 @@ class RadiiInformation(dict):
         self.MAX_MEASUREMENTS = 10000
 
     def add(self, term, value, unc, data_id=None, dtype=RadiusData, **kwargs):
+        """
+        Add a RadiusData
+
+        Parameters
+        ----------
+        term: str
+            quantity described by data; examples are:
+            'R001002', the radius of H-2 (Deuterium)
+            'R006014-R006012', the difference in radius between C-14 and C-12
+            'R006014-R006012', the difference in squared radius between C-14 and C-12
+        value: float
+            mean value of the `term` quantity
+        unc: float
+            uncertainty of the `term` quantity
+        data_id: int | None
+            identifier of the data object. If not given, the smallest integer not yet taken will be chosen automatically
+        dtype: type[RadiusData]
+            the class of this data; for example, a measurement or a projection
+        """
         if data_id in self:
             raise ValueError(f'data_id {data_id} is already in the radii information')
 
@@ -138,14 +166,52 @@ class RadiiInformation(dict):
         new_data = dtype(termstr=term, value=value, unc=unc, data_id=data_id, **kwargs)
         self[data_id] = new_data
 
-    def residuals(self, params):
-        return [data.residual(params) for data in self]
+    def _get_data_sorted(self):
+        return sorted(self.values(), key=lambda d: d.data_id)
 
-    def join(self, other: Collection, ):
+    def residuals(self, params, normalize=True):
+        return np.array([data.residual(params, normalize) for data in self._get_data_sorted()])
+
+    def get_covariance_matrix(self) -> np.ndarray:
+        """
+        Generates covariance matrix from correlations of RadiusData objects.
+        cov[i][j] is the covariance of ith and jth RadiusData when sorted in ascending data_id order
+
+        Returns
+        -------
+        np.ndarray:
+            Covariance matrix
+
+        """
+        data = self._get_data_sorted()
+        unc = np.diag([d.unc for d in data])
+        correlation = self.get_correlation_matrix()
+        return unc.T @ correlation @ unc
+
+    def get_correlation_matrix(self) -> np.ndarray:
+        data = self._get_data_sorted()
+        ids = [d.data_id for d in data]
+        correlation = np.eye(len(data))
+        for d in data:
+            for correl_id in d.correlations:
+                if correl_id not in self:
+                    continue
+                correlation[ids.index(d.data_id)][ids.index(correl_id)] = d.correlations[correl_id]
+        return correlation
+
+    def join(self, other: Collection):
         new_rinfo = self.copy()
         for ri in other:
             new_rinfo = new_rinfo | ri
         return new_rinfo
+
+    def correlate(self, id1: int, id2: int, correlation: float):
+        if correlation > 1 or correlation < -1:
+            raise ValueError('Correlation must be between -1 and 1')
+        if id1 == id2:
+            raise ValueError('Cannot correlate data with itself')
+        self[id1].correlations[id2] = correlation
+        self[id2].correlations[id1] = correlation
 
     @staticmethod
     def split(datalist: list[RadiusData]):
@@ -191,6 +257,12 @@ class RadiusAnalyzer:
         new_rad_info = RadiiInformation.from_params(params=mini_res.params)
 
         return new_rad_info
+
+    def combine_redundant(self, rad_info: RadiiInformation):
+        # combines any redundant measurements by taking a weighted average of any data points with the same Term.
+        # The combined measurements will also be correlated with each other, something missing from optimize_radii
+        # as of 12/29/2024
+        terms = set([data.term for data in rad_info])  # collect unique terms
 
     @staticmethod
     def guess_params(rad_info: RadiiInformation) -> Parameters:
@@ -313,6 +385,3 @@ class RadiusDataGenerator(RadiusDataRequester):
 
     def respond(self, request: RadiusDataRequest):
         return self.convert_to_response(*self.parse_request(request))
-
-
-

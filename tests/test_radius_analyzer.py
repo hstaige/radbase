@@ -31,11 +31,22 @@ def test_radius_data():
 def test_radii_information():
     rad_info = RadiiInformation()
     rad_info.add('R001001', 0, 1)
-    rad_info.add('R001002-R001001', 0, 1)
-    rad_info.add('R001003-R001001', 0, 1)
-    rad_info.add('R001004**2-R001005**2', 0, 1)
+    rad_info.add('R001002-R001001', 0, 2)
+    rad_info.add('R001003-R001001', 0, 3)
+    rad_info.add('R001004**2-R001005**2', 0, 4)
 
     assert sorted(rad_info.nuclides, key=lambda n: n.z) == [Nuclide(f'R00100{i}') for i in range(1, 6)]
+
+    rad_info.correlate(0, 1, 0.3)
+    rad_info.correlate(1, 2, 0.4)
+    rad_info.correlate(3,2, 0.5)
+
+    corr_matrix = np.array([[1, 0.3, 0, 0], [0.3, 1, 0.4, 0], [0, 0.4, 1, 0.5], [0, 0, 0.5, 1]])
+    assert np.allclose(rad_info.get_correlation_matrix(), corr_matrix)
+
+    uncs = np.diag([1, 2, 3, 4])
+    cov_matrix = uncs @ corr_matrix @ uncs
+    assert np.allclose(rad_info.get_covariance_matrix(), cov_matrix)
 
 
 def test_data_grouper():
@@ -56,7 +67,3 @@ def test_data_grouper():
     assert all(isinstance(g, RadiiInformation) for g in groups)
     groups = sorted(groups, key=lambda x: len(x.keys()))
     assert [len(g.keys()) for g in groups] == [1, 5]
-
-
-def test_radius_analyzer():
-    pass
