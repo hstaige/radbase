@@ -4,7 +4,7 @@ from itertools import product
 from typing import Optional, Collection
 from lmfit import Parameters, Minimizer
 from dataclasses import dataclass
-from uncertainties import ufloat
+from uncertainties import ufloat, correlation_matrix, correlated_values_norm
 
 import copy
 import re
@@ -36,7 +36,7 @@ class Nuclide:
 
     def __str__(self):
         return f'R{self.z:03}{self.a:03}'
-
+    
 
 class Term:
     """
@@ -47,31 +47,78 @@ class Term:
 
     def __init__(self, termstr: str):
         self.termstr = termstr
-        self.make_termtype()
+        self.termtype = ''
 
-    def eval(self, params):
+    @abstractmethod
+    def eval(self, params: Parameters) -> ufloat:
+        pass
+
+    def asteval(self, params):
         return params.eval(self.termstr)
-
-    def make_termtype(self):
-        if re.fullmatch(r'R\d{6}', self.termstr):
-            self.termtype = 'absolute'
-        elif re.fullmatch(r'R\d{6}-R\d{6}', self.termstr):
-            self.termtype = 'linear relative'
-        elif re.fullmatch(r'R\d{6}\*\*2-R\d{6}\*\*2', self.termstr):
-            self.termtype = 'squared relative'
-        else:
-            raise NotImplementedError(f'Term string of {self.termstr} does not match any patterns.')
 
     def get_nuclides(self):
         return [Nuclide(pstr) for pstr in re.findall(r'R\d{6}', self.termstr)]
 
+    @abstractmethod
+    def calc_uvar(self, uvars: dict[str, ufloat]) -> ufloat:
+        """Calculates value from dict of uvars"""
+        pass
+
     def __repr__(self):
-        print(f'{self.termtype} Term: {self.termstr}')
+        return f'{self.termtype} Term: {self.termstr}'
 
 
-class Citation:
-    # stores information about papers
-    pass
+def create_term(termstr):
+    if re.fullmatch(r'R\d{6}', termstr):
+        return AbsoluteTerm(termstr)
+    elif re.fullmatch(r'R\d{6}-R\d{6}', termstr):
+        return LinearRelativeTerm(termstr)
+    elif re.fullmatch(r'R\d{6}\*\*2-R\d{6}\*\*2', termstr):
+        return SquaredRelativeTerm(termstr)
+    else:
+        raise NotImplementedError(f'Term string of {termstr} does not match any patterns.')
+
+
+class AbsoluteTerm(Term):
+
+    def __init__(self, termstr):
+        super().__init__(termstr)
+        self.termtype = 'absolute'
+        self.rstr = termstr
+
+    def eval(self, params):
+        return params[self.rstr].value
+
+    def calc_uvar(self, uvars):
+        return uvars[self.rstr]
+
+
+class LinearRelativeTerm(Term):
+    """A linear relative term of the form R1-R2"""
+    def __init__(self, termstr):
+        super().__init__(termstr)
+        self.termtype = 'linear_relative'
+        self.R1, self.R2 = re.findall(r'R\d{6}', termstr)
+
+    def eval(self, params):
+        return params[self.R1].value - params[self.R2].value
+
+    def calc_uvar(self, uvars: dict[str, ufloat]) -> ufloat:
+        return uvars[self.R1] - uvars[self.R2]
+
+
+class SquaredRelativeTerm(Term):
+
+    def __init__(self, termstr):
+        super().__init__(termstr)
+        self.termtype = 'squared_relative'
+        self.R1, self.R2 = re.findall(r'R\d{6}', termstr)
+
+    def eval(self, params):
+        return params[self.R1].value ** 2 - params[self.R2].value ** 2
+
+    def calc_uvar(self, uvars: dict[str, ufloat]) -> ufloat:
+        return uvars[self.R1] ** 2 - uvars[self.R2] ** 2
 
 
 class RadiusData:
@@ -86,7 +133,7 @@ class RadiusData:
     nuclides: list[Nuclide]
 
     def __init__(self, termstr, value, unc, data_id, **kwargs):
-        self.term = Term(termstr)
+        self.term = create_term(termstr)
         self.value = value
         self.unc = unc
         self.data_id = data_id
@@ -104,7 +151,6 @@ class RadiusData:
 
 
 class Measurement(RadiusData):
-    references = list[Citation]
 
     def __init__(self, references, **kwargs):
         super().__init__(**kwargs)
@@ -210,8 +256,9 @@ class RadiiInformation(dict):
             raise ValueError('Correlation must be between -1 and 1')
         if id1 == id2:
             raise ValueError('Cannot correlate data with itself')
-        self[id1].correlations[id2] = correlation
-        self[id2].correlations[id1] = correlation
+        if abs(correlation) > 1e-2:
+            self[id1].correlations[id2] = correlation
+            self[id2].correlations[id1] = correlation
 
     @staticmethod
     def split(datalist: list[RadiusData]):
@@ -225,10 +272,42 @@ class RadiiInformation(dict):
     def from_params(params: Parameters, data_kwargs: Optional[dict[str, dict]] = None,
                     dtype: type[RadiusData] = RadiusData):
 
+        if data_kwargs is None:
+            data_kwargs = defaultdict(dict)
+
         rad_info = RadiiInformation()
         for par in params:
             rad_info.add(par, params[par].value, params[par].unc, dtype=dtype, **data_kwargs[par])
         return rad_info
+
+    @staticmethod
+    def from_terms_and_uvars(terms: list[Term], uvars: list[ufloat], data_kwargs: Optional[dict[str, dict]] = None,
+                             dtype: type[RadiusData] = RadiusData):
+        """Constructs radii information given terms[i] is described by uvar[i]. 
+        Captures correlations in uvars"""
+
+        if data_kwargs is None:
+            data_kwargs = defaultdict(dict)
+
+        rad_info = RadiiInformation()
+        for i, (term, uvar) in enumerate(zip(terms, uvars)):
+            rad_info.add(term.termstr, uvar.nominal_value, uvar.std_dev, dtype=dtype,  **data_kwargs[term.termstr])
+        term_to_id = {data.term.termstr: data.data_id for data in rad_info.values()}
+        
+        corr_matrix = correlation_matrix(uvars)
+        for i, row in enumerate(corr_matrix):
+            for j, val in enumerate(row):
+                if i == j:
+                    continue
+                id1, id2 = term_to_id[terms[i].termstr], term_to_id[terms[j].termstr]
+                rad_info.correlate(id1, id2, val)
+                
+        return rad_info
+            
+    def create_uvars(self):
+        val_uncs = [(data.value, data.unc) for data in self._get_data_sorted()]
+        corr_matrix = self.get_correlation_matrix()
+        return correlated_values_norm(val_uncs, corr_matrix)
 
     @property
     def nuclides(self) -> list[Nuclide]:
@@ -258,11 +337,24 @@ class RadiusAnalyzer:
 
         return new_rad_info
 
-    def combine_redundant(self, rad_info: RadiiInformation):
-        # combines any redundant measurements by taking a weighted average of any data points with the same Term.
-        # The combined measurements will also be correlated with each other, something missing from optimize_radii
-        # as of 12/29/2024
-        terms = set([data.term for data in rad_info])  # collect unique terms
+    @staticmethod
+    def evaluate_terms(terms: list[str] | list[Term], abs_rad_info: RadiiInformation):
+        if not all(data.term.termtype == 'absolute' for data in abs_rad_info):
+            raise ValueError('abs_rad_info must only have absolute terms.')
+
+        terms = [create_term(term) if isinstance(term, str) else term for term in terms]
+
+        uvars = abs_rad_info.create_uvars()
+
+        term_uvars = [term.calc_uvar(uvars) for term in terms]
+
+        return RadiiInformation.from_terms_and_uvars(terms, uvars)
+
+    # def combine_redundant(self, rad_info: RadiiInformation):
+    #     # combines any redundant measurements by taking a weighted average of any data points with the same Term.
+    #     # The combined measurements will also be correlated with each other, something missing from optimize_radii
+    #     # as of 12/29/2024
+    #     terms = set([data.term for data in rad_info])  # collect unique terms
 
     @staticmethod
     def guess_params(rad_info: RadiiInformation) -> Parameters:
