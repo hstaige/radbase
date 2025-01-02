@@ -3,6 +3,7 @@ from radbase.radius_analyzer import create_term, Nuclide, RadiusData, RadiiInfor
 from lmfit import Parameters
 from uncertainties import ufloat, UFloat, correlated_values_norm
 import numpy as np
+import pytest
 
 
 def test_terms():
@@ -59,7 +60,7 @@ def test_radii_information():
 
     rad_info.correlate(0, 1, 0.3)
     rad_info.correlate(1, 2, 0.4)
-    rad_info.correlate(3,2, 0.5)
+    rad_info.correlate(3, 2, 0.5)
 
     corr_matrix = np.array([[1, 0.3, 0, 0], [0.3, 1, 0.4, 0], [0, 0.4, 1, 0.5], [0, 0, 0.5, 1]])
     assert np.allclose(rad_info.get_correlation_matrix(), corr_matrix)
@@ -73,11 +74,78 @@ def test_radii_information():
     assert all(isinstance(uvar, UFloat) for uvar in uvars)
 
     uvars = correlated_values_norm([(0, 1), (0, 2), (0, 3), (0, 4)], corr_matrix)
-    terms = [data.term for data in rad_info._get_data_sorted()]
+    terms = [data.term for data in rad_info.get_data_sorted()]
     rad_info_from_uvar = RadiiInformation.from_terms_and_uvars(terms, uvars)
     assert [np.isclose(rad_info_from_uvar[i].value, rad_info[i].value) for i in rad_info]
     assert [np.isclose(rad_info_from_uvar[i].unc, rad_info[i].unc) for i in rad_info]
     assert [rad_info_from_uvar[i].correlations == rad_info[i].correlations for i in rad_info]
+
+
+def test_radius_analyzer():
+    rad_analyzer = RadiusAnalyzer()
+
+    rad_info = RadiiInformation()
+    rad_info.add('R001001', 1, .1)
+    rad_info.add('R001002', 3, .1)
+
+    terms = [create_term('R001001'), create_term('R001002'), create_term('R001002-R001001')]
+    rad_info_res = rad_analyzer.evaluate_terms(terms, rad_info)
+    assert len(rad_info_res) == len(terms)
+    assert np.allclose([data.value for data in rad_info_res.get_data_sorted()], [1, 3, 2])
+    assert np.allclose([data.unc for data in rad_info_res.get_data_sorted()], [0.1, 0.1, 0.1 * np.sqrt(2)])
+
+    # Test optimization with uncorrelated variables and len(rad_info.nuclides) == len(rad_info)
+    rad_info = RadiiInformation()
+    rad_info.add('R001001', 1, .1)
+    rad_info.add('R001002-R001001', 3, .1)
+    opt_rad_info = rad_analyzer.optimize_radii(rad_info)
+    assert len(opt_rad_info) == len(rad_info.nuclides)
+    assert np.allclose([opt_rad_info[0].value, opt_rad_info[1].value], [1, 4], rtol=1e-4)
+    assert np.allclose([opt_rad_info[0].unc, opt_rad_info[1].unc], [0.1, 0.1*np.sqrt(2)], rtol=1e-4)
+
+    # Test optimization with uncorrelated variables and len(rad_info.nuclides) < len(rad_info)
+    rad_info = RadiiInformation()
+    rad_info.add('R001001', 1, .1)
+    rad_info.add('R001002-R001001', 3, .1)
+    rad_info.add('R001002', 4.3, .1)
+    opt_rad_info = rad_analyzer.optimize_radii(rad_info)
+    assert len(opt_rad_info) == len(rad_info.nuclides)
+    assert np.allclose([opt_rad_info[0].value, opt_rad_info[1].value], [1.1, 4.2], rtol=1e-4)
+    assert np.allclose([opt_rad_info[0].unc, opt_rad_info[1].unc], [0.08165, 0.08165], rtol=1e-4)
+
+    # Test optimization with correlated variables and len(rad_info.nuclides) < len(rad_info)
+    rad_info = RadiiInformation()
+    rad_info.add('R001001', 1, .1)
+    rad_info.add('R001002-R001001', 3, .1)
+    rad_info.add('R001002', 4.3, .1)
+    rad_info.correlate(0, 1, 0.5)
+    opt_rad_info = rad_analyzer.optimize_radii(rad_info)
+    assert len(opt_rad_info) == len(rad_info.nuclides)
+    assert np.allclose([opt_rad_info[0].value, opt_rad_info[1].value], [1.113, 4.225], rtol=1e-3)
+    assert np.allclose([opt_rad_info[0].unc, opt_rad_info[1].unc], [0.06614, 0.0866], rtol=1e-3)
+
+    # Test optimization with unccorrelated variables, linear relative term
+    rad_info = RadiiInformation()
+    rad_info.add('R001002-R001001', 3, .1)
+    opt_rad_info = rad_analyzer.optimize_radii(rad_info)
+    assert np.isclose(opt_rad_info[0].value, 3)
+    assert np.isclose(opt_rad_info[0].unc, .1)
+
+    # Test optimization with unccorrelated variables, squared relative term
+    rad_info = RadiiInformation()
+    rad_info.add('R001002**2-R001001**2', 3, .1)
+    opt_rad_info = rad_analyzer.optimize_radii(rad_info)
+    assert np.isclose(opt_rad_info[0].value, 3)
+    assert np.isclose(opt_rad_info[0].unc, .1)
+
+    # Test optimization with unccorrelated variables, squared relative term
+    rad_info = RadiiInformation()
+    rad_info.add('R001002-R001001', 1, .1)
+    rad_info.add('R001002**2-R001001**2', 3, .1)
+    opt_rad_info = rad_analyzer.optimize_radii(rad_info)
+    assert np.allclose([opt_rad_info[0].value, opt_rad_info[1].value], [1, 2], rtol=1e-3)
+    assert np.allclose([opt_rad_info[0].unc, opt_rad_info[1].unc], [0.206, 0.1118], rtol=1e-3)
+
 
 
 def test_data_grouper():

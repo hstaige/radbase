@@ -123,7 +123,7 @@ def solve_group(group, measurements):
 
     def target(pars, tars):
         # note, the two zeros are to force scalar minimize to calc covariances ...
-        return [0] * 1 + [(pars.asteval(term) - val) / unc for term, val, unc in tars]
+        return [0] * 1 + [(pars.eval(term) - val) / unc for term, val, unc in tars]
 
     def iter_cb(params, iter, resids, *args, **kwargs):
         nfree = len([p for p in params if params[p].vary])

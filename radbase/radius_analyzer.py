@@ -1,7 +1,8 @@
 from abc import ABC, abstractmethod
 from collections import defaultdict
+from functools import partial
 from itertools import product
-from typing import Optional, Collection
+from typing import Optional
 from lmfit import Parameters, Minimizer
 from dataclasses import dataclass
 from uncertainties import ufloat, correlation_matrix, correlated_values_norm
@@ -36,7 +37,7 @@ class Nuclide:
 
     def __str__(self):
         return f'R{self.z:03}{self.a:03}'
-    
+
 
 class Term:
     """
@@ -62,6 +63,10 @@ class Term:
     @abstractmethod
     def calc_uvar(self, uvars: dict[str, ufloat]) -> ufloat:
         """Calculates value from dict of uvars"""
+        pass
+
+    @abstractmethod
+    def adjust_params(self, params):
         pass
 
     def __repr__(self):
@@ -92,6 +97,9 @@ class AbsoluteTerm(Term):
     def calc_uvar(self, uvars):
         return uvars[self.rstr]
 
+    def adjust_params(self, params):
+        return params
+
 
 class LinearRelativeTerm(Term):
     """A linear relative term of the form R1-R2"""
@@ -106,6 +114,11 @@ class LinearRelativeTerm(Term):
     def calc_uvar(self, uvars: dict[str, ufloat]) -> ufloat:
         return uvars[self.R1] - uvars[self.R2]
 
+    def adjust_params(self, params):
+        smallest = min(params.keys())
+        params[smallest].vary = False
+        return params
+
 
 class SquaredRelativeTerm(Term):
 
@@ -119,6 +132,11 @@ class SquaredRelativeTerm(Term):
 
     def calc_uvar(self, uvars: dict[str, ufloat]) -> ufloat:
         return uvars[self.R1] ** 2 - uvars[self.R2] ** 2
+
+    def adjust_params(self, params):
+        smallest = min(params.keys())
+        params[smallest].vary = False
+        return params
 
 
 class RadiusData:
@@ -148,6 +166,9 @@ class RadiusData:
 
     def copy(self):
         return copy.deepcopy(self)
+
+    def __repr__(self):
+        return f'Id {self.data_id}: {self.term.termstr} = {self.value} +/- {self.unc}'
 
 
 class Measurement(RadiusData):
@@ -202,21 +223,16 @@ class RadiiInformation(dict):
             raise ValueError(f'data_id {data_id} is already in the radii information')
 
         if data_id is None:
-            i = 0
-            while i in self:
-                if i >= self.MAX_MEASUREMENTS:
-                    raise Warning(f'Radii Information has exceeded maximum measurements')
-                i += 1
-            data_id = i
+            data_id = self._get_next_id()
 
         new_data = dtype(termstr=term, value=value, unc=unc, data_id=data_id, **kwargs)
         self[data_id] = new_data
 
-    def _get_data_sorted(self):
+    def get_data_sorted(self):
         return sorted(self.values(), key=lambda d: d.data_id)
 
     def residuals(self, params, normalize=True):
-        return np.array([data.residual(params, normalize) for data in self._get_data_sorted()])
+        return np.array([data.residual(params, normalize) for data in self.get_data_sorted()])
 
     def get_covariance_matrix(self) -> np.ndarray:
         """
@@ -229,13 +245,13 @@ class RadiiInformation(dict):
             Covariance matrix
 
         """
-        data = self._get_data_sorted()
+        data = self.get_data_sorted()
         unc = np.diag([d.unc for d in data])
         correlation = self.get_correlation_matrix()
         return unc.T @ correlation @ unc
 
     def get_correlation_matrix(self) -> np.ndarray:
-        data = self._get_data_sorted()
+        data = self.get_data_sorted()
         ids = [d.data_id for d in data]
         correlation = np.eye(len(data))
         for d in data:
@@ -245,17 +261,20 @@ class RadiiInformation(dict):
                 correlation[ids.index(d.data_id)][ids.index(correl_id)] = d.correlations[correl_id]
         return correlation
 
-    def join(self, other: Collection):
-        new_rinfo = self.copy()
+    def join(self, other):
+        new_rinfo = copy.deepcopy(self)
         for ri in other:
-            new_rinfo = new_rinfo | ri
+            ri = ri.copy()
+            for data in ri.items():
+                # IGNORE
+                new_rinfo[new_rinfo._get_next_id()] = data
         return new_rinfo
 
     def correlate(self, id1: int, id2: int, correlation: float):
         if correlation > 1 or correlation < -1:
             raise ValueError('Correlation must be between -1 and 1')
-        if id1 == id2:
-            raise ValueError('Cannot correlate data with itself')
+        if id1 == id2:  # don't change correlation matrix for data with itself.
+            return
         if abs(correlation) > 1e-2:
             self[id1].correlations[id2] = correlation
             self[id2].correlations[id1] = correlation
@@ -271,13 +290,14 @@ class RadiiInformation(dict):
     @staticmethod
     def from_params(params: Parameters, data_kwargs: Optional[dict[str, dict]] = None,
                     dtype: type[RadiusData] = RadiusData):
+        """Constructs a RadiiInformation object from a lmfit.Parameters object."""
 
         if data_kwargs is None:
             data_kwargs = defaultdict(dict)
 
         rad_info = RadiiInformation()
         for par in params:
-            rad_info.add(par, params[par].value, params[par].unc, dtype=dtype, **data_kwargs[par])
+            rad_info.add(par, params[par].value, params[par].stderr, dtype=dtype, **data_kwargs[par])
         return rad_info
 
     @staticmethod
@@ -293,7 +313,7 @@ class RadiiInformation(dict):
         for i, (term, uvar) in enumerate(zip(terms, uvars)):
             rad_info.add(term.termstr, uvar.nominal_value, uvar.std_dev, dtype=dtype,  **data_kwargs[term.termstr])
         term_to_id = {data.term.termstr: data.data_id for data in rad_info.values()}
-        
+
         corr_matrix = correlation_matrix(uvars)
         for i, row in enumerate(corr_matrix):
             for j, val in enumerate(row):
@@ -301,11 +321,24 @@ class RadiiInformation(dict):
                     continue
                 id1, id2 = term_to_id[terms[i].termstr], term_to_id[terms[j].termstr]
                 rad_info.correlate(id1, id2, val)
-                
+
         return rad_info
-            
+
+    def copy(self):
+        return copy.deepcopy(self)
+
+    def _get_next_id(self):
+        i = 0
+        while i in self:
+            if i >= self.MAX_MEASUREMENTS:
+                raise Warning(f'Radii Information has exceeded maximum measurements')
+            i += 1
+        return i
+
     def create_uvars(self):
-        val_uncs = [(data.value, data.unc) for data in self._get_data_sorted()]
+        """Return a list of ufloats that describe the values and covariance matrix of the data. Note that
+        uvars correspond to the indexes in ascending order."""
+        val_uncs = [(data.value, data.unc) for data in self.get_data_sorted()]
         corr_matrix = self.get_correlation_matrix()
         return correlated_values_norm(val_uncs, corr_matrix)
 
@@ -317,11 +350,35 @@ class RadiiInformation(dict):
 class RadiusAnalyzer:
 
     def __init__(self):
-        self.default_mini_kwargs = {'method': 'lstsq', 'scale_covar': False, 'calc_covar': True}
+        self.default_mini_kwargs = {'scale_covar': False, 'calc_covar': True, 'tol': 1e-5}
 
     def optimize_radii(self, rad_info: RadiiInformation, params: Optional[Parameters] = None,
-                       mini_kwargs: Optional[dict] = None) -> RadiiInformation:
-        # Same logic defined in solve.py right now
+                       method='lbfgsb', mini_kwargs: Optional[dict] = None, verbose: bool = True) -> RadiiInformation:
+        """
+        Takes in radius data and returns the optimal radius values for each nuclide.
+
+        Note that if rad_info contains only one kind of term (e.g. only linear relative or squared relative),
+        the return RadiiInformation will also contain only that kind of term. This is because if we only know
+        'R001002-R001001', 'R001003-R001002', and 'R001003-R001001' we cannot determine individual radii, but we can
+        determine differences.
+
+        Parameters
+        ----------
+        rad_info: RadiiInformation
+            Contains radius data to use for optimization
+        params: Parameters
+            initial values for optimization
+        method: str
+            The optimization method for lmfit.minimize
+        mini_kwargs: dict
+            keywords for lmfit.Minimizer
+        verbose: bool
+            Whether to add an an iter_cb to the minimizer
+
+        Returns
+        -------
+        opt_rad_info: RadiiInformation
+        """
         if params is None:
             params = self.guess_params(rad_info)
 
@@ -329,26 +386,53 @@ class RadiusAnalyzer:
             mini_kwargs = {}
         mini_kwargs = self.default_mini_kwargs | mini_kwargs  # override default mini_kwargs
 
-        mini = Minimizer(rad_info.residuals, params=params, **mini_kwargs)
-        mini_res = mini.minimize()
-        mini_res.params = getattr(mini_res, 'params')  # purely for type hinting purposes
+        if len(set(data.term.termtype for data in rad_info.values())) == 1:  # all one type of term
+            params = list(rad_info.values())[0].term.adjust_params(params)
 
-        new_rad_info = RadiiInformation.from_params(params=mini_res.params)
+        """
+        Somewhat annoyingly, lmfit.minimize will not provide uncertainties if len(residuals) <= len(params). To get around this,
+        and allow for 'redundant' minimizations, I append a zero to the residuals array, and adjust the shape of the covariance
+        matrix to reflect this. This is definitely a hack, but it is easier then checking all edges cases.
+        """
+
+        def add_zero_resid(pars):
+            return np.pad(rad_info.residuals(pars, normalize=False), (0, 1), 'constant')
+
+        def reduce_fcn(resids: np.ndarray, inv_corr_matrix: np.ndarray):
+            return resids.T @ inv_corr_matrix @ resids
+
+        inv_cov_matrix = np.linalg.inv(rad_info.get_covariance_matrix())
+        inv_cov_matrix = np.pad(inv_cov_matrix, (0, 1), 'constant')
+        # noinspection PyTypeChecker
+        mini_kwargs['reduce_fcn'] = partial(reduce_fcn, inv_corr_matrix=inv_cov_matrix)
+
+        mini = Minimizer(add_zero_resid, params=params, **mini_kwargs)
+        mini_res = mini.minimize(method=method)
+        mini_res.params = getattr(mini_res, 'params')  # purely for type hinting purposes
+        mini_res.covar = getattr(mini_res, 'covar')
+
+        terms = [create_term(par) for par in mini_res.params.keys()]
+        uvars = mini_res.params.create_uvars(covar=mini_res.covar)
+
+        if len(set(data.term.termtype for data in rad_info.values())) == 1:  # all one type of term
+            terms = list(set([data.term for data in rad_info.values()]))
+            uvars = {term: term.calc_uvar(uvars) for term in terms}
+
+        uvars = list(uvars.values())
+        new_rad_info = RadiiInformation.from_terms_and_uvars(terms, uvars)
 
         return new_rad_info
 
     @staticmethod
     def evaluate_terms(terms: list[str] | list[Term], abs_rad_info: RadiiInformation):
-        if not all(data.term.termtype == 'absolute' for data in abs_rad_info):
+        if not all(data.term.termtype == 'absolute' for data in abs_rad_info.values()):
             raise ValueError('abs_rad_info must only have absolute terms.')
 
         terms = [create_term(term) if isinstance(term, str) else term for term in terms]
-
-        uvars = abs_rad_info.create_uvars()
-
-        term_uvars = [term.calc_uvar(uvars) for term in terms]
-
-        return RadiiInformation.from_terms_and_uvars(terms, uvars)
+        abs_uvars = {data.term.termstr: abs_uvar for data, abs_uvar in zip(abs_rad_info.get_data_sorted(),
+                                                                           abs_rad_info.create_uvars())}
+        term_uvars = [term.calc_uvar(abs_uvars) for term in terms]
+        return RadiiInformation.from_terms_and_uvars(terms, term_uvars)
 
     # def combine_redundant(self, rad_info: RadiiInformation):
     #     # combines any redundant measurements by taking a weighted average of any data points with the same Term.
