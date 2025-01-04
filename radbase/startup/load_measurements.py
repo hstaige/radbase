@@ -11,7 +11,7 @@ Last updated 12/14/24
 pd.set_option('display.max_columns', None)  # print everything
 pd.set_option('display.width', 200)
 
-abs_df = pd.read_excel('./NuclearRadius_all_sheets_renamed.xlsx', skiprows=5, usecols=list(range(1, 7)))
+abs_df = pd.read_excel('../../NuclearRadius_all_sheets_renamed.xlsx', skiprows=5, usecols=list(range(1, 7)))
 abs_df = abs_df.dropna(how='all')
 
 cols = ['Z', 'A']
@@ -26,7 +26,7 @@ abs_df.rename(columns={'Rexp': 'Value', 'dRexp': 'Unc'}, inplace=True)
 abs_df.reset_index(drop=True, inplace=True)
 # abs_df.info(show_counts=True)
 
-rel_noniso_df = pd.read_excel('./NuclearRadius_all_sheets_renamed.xlsx', usecols=[0, 2, 3, 5, 10, 13, 18, 31],
+rel_noniso_df = pd.read_excel('../../NuclearRadius_all_sheets_renamed.xlsx', usecols=[0, 2, 3, 5, 10, 13, 18, 31],
                               sheet_name='dRem_non_iso_11')
 rel_noniso_df.drop(rel_noniso_df.tail(2).index, inplace=True)
 rel_noniso_df.dropna(how='any', subset=['DRexp'], inplace=True)
@@ -40,7 +40,7 @@ rel_noniso_df.reset_index(drop=True, inplace=True)
 print('RELATIVE NONISOTOPIC')
 rel_noniso_df.info(show_counts=True)
 
-rel_isoe_df = pd.read_excel('./NuclearRadius_all_sheets_renamed.xlsx', usecols=[0, 2, 3, 4, 7, 8, 26],
+rel_isoe_df = pd.read_excel('../../NuclearRadius_all_sheets_renamed.xlsx', usecols=[0, 2, 3, 4, 7, 8, 26],
                             sheet_name='dRe_iso_123')
 rel_isoe_df.dropna(how='any', subset=['DRexp'], inplace=True)
 cols = ['Z', 'A1', 'A2']
@@ -53,7 +53,7 @@ print('\nRELATIVE ISOTOPIC ELECTRONIC')
 rel_isoe_df.info(show_counts=True)
 rel_isoe_df.reset_index(drop=True, inplace=True)
 
-rel_isom_df = pd.read_excel('./NuclearRadius_all_sheets_renamed.xlsx', usecols=[1, 2, 3, 12, 15, 20, 63],
+rel_isom_df = pd.read_excel('../../NuclearRadius_all_sheets_renamed.xlsx', usecols=[1, 2, 3, 12, 15, 20, 63],
                             sheet_name='dRm_iso_123')
 rel_isom_df.dropna(how='any', subset=['DRx'], inplace=True)
 cols = ['Z', 'A1', 'A2']
@@ -66,7 +66,7 @@ print('\nRELATIVE ISOTOPIC MUONIC')
 rel_isom_df.info(show_counts=True)
 rel_isom_df.reset_index(drop=True, inplace=True)
 
-rel_k_df = pd.read_excel('./NuclearRadius_all_sheets_renamed.xlsx', usecols=[1, 2, 3, 24, 29, 8, 56],
+rel_k_df = pd.read_excel('../../NuclearRadius_all_sheets_renamed.xlsx', usecols=[1, 2, 3, 24, 29, 8, 56],
                          sheet_name='dRk_14')
 rel_k_df.dropna(how='any', subset=['DR2'], inplace=True)
 cols = ['Z', 'A1', 'A2']
@@ -79,7 +79,7 @@ print('\nRELATIVE K-Alpha')
 rel_k_df.info(show_counts=True)
 rel_k_df.reset_index(drop=True, inplace=True)
 
-rel_ois_df = pd.read_excel('./NuclearRadius_all_sheets_renamed.xlsx', usecols=[0, 2, 3, 4, 7, 8, 9, 19],
+rel_ois_df = pd.read_excel('../../NuclearRadius_all_sheets_renamed.xlsx', usecols=[0, 2, 3, 4, 7, 8, 9, 19],
                            sheet_name='dRo_19')
 rel_ois_df.dropna(how='any', subset=['d<r2>'], inplace=True)
 cols = ['Z', 'A1', 'A2']
@@ -151,4 +151,4 @@ measurement_df = measurement_df.astype({'Iso_Idxs': str, 'Value': float, 'Unc': 
 
 measurement_df.info(show_counts=True)
 
-measurement_df.to_csv('measurements.csv', index=False)
+measurement_df.to_csv('../../measurements.csv', index=False)

@@ -3,6 +3,8 @@ from collections import defaultdict
 from functools import partial
 from itertools import product
 from typing import Optional
+
+import pytest
 from lmfit import Parameters, Minimizer
 from dataclasses import dataclass
 from uncertainties import ufloat, correlation_matrix, correlated_values_norm
@@ -10,6 +12,7 @@ from uncertainties import ufloat, correlation_matrix, correlated_values_norm
 import copy
 import re
 import numpy as np
+import pandas as pd
 
 
 class Nuclide:
@@ -262,22 +265,44 @@ class RadiiInformation(dict):
         return correlation
 
     def join(self, other):
+        """Main challenge is maintaining correlations/correct data ids in this process. For now, simply shift all
+        relevant ids UP by a certain amount to avoid overlaps"""
         new_rinfo = copy.deepcopy(self)
         for ri in other:
             ri = ri.copy()
-            for data in ri.items():
-                # IGNORE
-                new_rinfo[new_rinfo._get_next_id()] = data
+            min_data_id = max(list(new_rinfo.keys()) + [0])
+            ri.shift_all_ids(min_data_id+1)  # move all data ids upwards
+            if any(data_id in new_rinfo.keys() for data_id in ri.keys()):
+                raise ValueError('Somehow have overlapping keys even after shift!')
+            for data in ri.values():
+                new_rinfo[data.data_id] = data
         return new_rinfo
 
+    def shift_all_ids(self, amount: int):
+        # TODO: Make this less janky. Currently im manually updating the RadiiData,
+        #  but this should really be a method in the data object
+        if amount == 0:
+            return
+        overwritten = set()
+        for data_id, data in list(self.items()):
+            data.data_id += amount
+            for other in list(data.correlations.keys()):
+                data.correlations[other+amount] = data.correlations[other]
+                del data.correlations[other]
+            self[data_id + amount] = data
+            overwritten.add(data_id + amount)
+            if data_id not in overwritten:
+                del self[data_id]
+
     def correlate(self, id1: int, id2: int, correlation: float):
-        if correlation > 1 or correlation < -1:
-            raise ValueError('Correlation must be between -1 and 1')
         if id1 == id2:  # don't change correlation matrix for data with itself.
             return
-        if abs(correlation) > 1e-2:
-            self[id1].correlations[id2] = correlation
-            self[id2].correlations[id1] = correlation
+        if correlation > 1 or correlation < -1:
+            raise ValueError('Correlation must be between -1 and 1')
+        if abs(correlation) < 1e-2:
+            correlation = 0
+        self[id1].correlations[id2] = correlation
+        self[id2].correlations[id1] = correlation
 
     @staticmethod
     def split(datalist: list[RadiusData]):
@@ -342,23 +367,94 @@ class RadiiInformation(dict):
         corr_matrix = self.get_correlation_matrix()
         return correlated_values_norm(val_uncs, corr_matrix)
 
+    def evaluate_terms(self, terms: list[str] | list[Term]):
+        # if not all(data.term.termtype == 'absolute' for data in self.values()):
+        #     raise ValueError('self must only have absolute terms.')
+
+        terms = [create_term(term) if isinstance(term, str) else term for term in terms]
+        abs_uvars = {data.term.termstr: abs_uvar for data, abs_uvar in zip(self.get_data_sorted(),
+                                                                           self.create_uvars())}
+        term_uvars = [term.calc_uvar(abs_uvars) for term in terms]
+        return RadiiInformation.from_terms_and_uvars(terms, term_uvars)
+
     @property
     def nuclides(self) -> list[Nuclide]:
         return list(set().union(*[data.nuclides for data in self.values()]))
 
 
+def compare_radii_information(outfile, rad_infos: list[RadiiInformation], prefixes: None | list[str] = None):
+    """Dumps term-by-term comparison of rad_infos into an Excel file. Expects each term to show up only once in each
+    radii_information object"""
+
+    if prefixes is None:
+        prefixes = [str(f'R{i}') for i in range(len(rad_infos))]
+
+    if len(rad_infos) != len(prefixes):
+        raise ValueError(f'rad_infos and prefixes must have same length,'
+                         f' instead have lengths {len(rad_infos)} and {len(prefixes)}')
+
+    terms = sorted(list(set([data.term.termstr for rad_info in rad_infos for data in rad_info.values()])))
+    info = defaultdict(list)
+    for term in terms:
+        info['Term'].append(term)
+        for prefix, rad_info in zip(prefixes, rad_infos):
+            match = [data for data in rad_info.values() if data.term.termstr == term]
+            if len(match) == 0:
+                try:
+                    term_data = rad_info.evaluate_terms([term])[0]
+                    info[prefix + '_value'].append(term_data.value)
+                    info[prefix + '_unc'].append(term_data.unc)
+                except (ValueError, KeyError):  # value error if radinfo not only absolute, key error if radius not found.
+                    info[prefix+'_value'].append(np.nan)
+                    info[prefix+'_unc'].append(np.nan)
+                continue
+            # if len(match) > 1:
+            #     raise Warning(f'Multiple data for prefix {prefix} have term "{term}"')
+            info[prefix + '_value'].append(match[0].value)
+            info[prefix + '_unc'].append(match[0].unc)
+
+        if len(rad_infos) == 2:
+            info[f'{prefixes[0]}-{prefixes[1]}_value'].append(info[prefixes[0] + '_value'][-1] -
+                                                              info[prefixes[1] + '_value'][-1])
+            info[f'{prefixes[0]}-{prefixes[1]}_unc'].append(info[prefixes[0] + '_unc'][-1] -
+                                                            info[prefixes[1] + '_unc'][-1])
+
+    writer = pd.ExcelWriter(outfile, engine='xlsxwriter')
+    format1 = writer.book.add_format({'num_format': '0.0000'})
+    df = pd.DataFrame(info)
+    df.to_excel(writer, sheet_name='comparison', index=False, na_rep='NaN')
+
+    for column in df:
+        column_length = max(df[column].astype(str).map(len).max(), len(column))
+        col_idx = df.columns.get_loc(column)
+        writer.sheets['comparison'].set_column(col_idx, col_idx, column_length, format1)
+
+    if len(rad_infos) == 2: # add some conditional formatting to hightlight odd cells
+        format_red = writer.book.add_format({'bg_color':   '#FFC7CE',
+                                             'font_color': '#9C0006'})
+
+        for idx in [len(df.columns) - 2, len(df.columns) - 1]:
+            writer.sheets['comparison'].conditional_format(1, idx, len(df), idx, {'type': 'cell',
+                                                                                  'criteria': 'not between',
+                                                                                  'minimum': '=-MIN(ABS($C2), ABS($E2))',
+                                                                                  'maximum': '=MIN(ABS($C2), ABS($E2))',
+                                                                                  'format': format_red})
+
+    writer.close()  # (writer.save() was deprecated and removed as of 2023/2024)
+
+
 class RadiusAnalyzer:
 
     def __init__(self):
-        self.default_mini_kwargs = {'scale_covar': False, 'calc_covar': True, 'tol': 1e-5}
+        self.default_mini_kwargs = {'scale_covar': False, 'calc_covar': True, 'tol': 1e-4, 'max_nfev': 1e6}
 
     def optimize_radii(self, rad_info: RadiiInformation, params: Optional[Parameters] = None,
-                       method='lbfgsb', mini_kwargs: Optional[dict] = None, verbose: bool = True) -> RadiiInformation:
+                       method='nelder', mini_kwargs: Optional[dict] = None, verbose: bool = True) -> RadiiInformation:
         """
         Takes in radius data and returns the optimal radius values for each nuclide.
 
         Note that if rad_info contains only one kind of term (e.g. only linear relative or squared relative),
-        the return RadiiInformation will also contain only that kind of term. This is because if we only know
+        the returned RadiiInformation will also contain only that kind of term. This is because if we only know
         'R001002-R001001', 'R001003-R001002', and 'R001003-R001001' we cannot determine individual radii, but we can
         determine differences.
 
@@ -398,13 +494,13 @@ class RadiusAnalyzer:
         def add_zero_resid(pars):
             return np.pad(rad_info.residuals(pars, normalize=False), (0, 1), 'constant')
 
-        def reduce_fcn(resids: np.ndarray, inv_corr_matrix: np.ndarray):
-            return resids.T @ inv_corr_matrix @ resids
+        def reduce_fcn(resids: np.ndarray, inv_cov_matrix: np.ndarray):
+            return resids.T @ inv_cov_matrix @ resids
 
         inv_cov_matrix = np.linalg.inv(rad_info.get_covariance_matrix())
         inv_cov_matrix = np.pad(inv_cov_matrix, (0, 1), 'constant')
         # noinspection PyTypeChecker
-        mini_kwargs['reduce_fcn'] = partial(reduce_fcn, inv_corr_matrix=inv_cov_matrix)
+        mini_kwargs['reduce_fcn'] = partial(reduce_fcn, inv_cov_matrix=inv_cov_matrix)
 
         mini = Minimizer(add_zero_resid, params=params, **mini_kwargs)
         mini_res = mini.minimize(method=method)
@@ -423,22 +519,36 @@ class RadiusAnalyzer:
 
         return new_rad_info
 
+    def adjust_uncertainties(self, rad_info):
+        optimized_rad_info = RadiiInformation().join([self.optimize_radii(rad_info) for rad_info in
+                                                      DataGrouper.group_by_term(rad_info)])
+        return self.adjust_uncertainties_by_term(rad_info, optimized_rad_info)
+
     @staticmethod
-    def evaluate_terms(terms: list[str] | list[Term], abs_rad_info: RadiiInformation):
-        if not all(data.term.termtype == 'absolute' for data in abs_rad_info.values()):
-            raise ValueError('abs_rad_info must only have absolute terms.')
+    def adjust_uncertainties_by_term(original_rad_info: RadiiInformation, optimized_rad_info: RadiiInformation) -> RadiiInformation:
+        """
 
-        terms = [create_term(term) if isinstance(term, str) else term for term in terms]
-        abs_uvars = {data.term.termstr: abs_uvar for data, abs_uvar in zip(abs_rad_info.get_data_sorted(),
-                                                                           abs_rad_info.create_uvars())}
-        term_uvars = [term.calc_uvar(abs_uvars) for term in terms]
-        return RadiiInformation.from_terms_and_uvars(terms, term_uvars)
+        Parameters
+        ----------
+        original_rad_info: Original RadiiInformation with all data
+        optimized_rad_info: An optimized RadiiInformation, potenntially containing only a subset of the data
 
-    # def combine_redundant(self, rad_info: RadiiInformation):
-    #     # combines any redundant measurements by taking a weighted average of any data points with the same Term.
-    #     # The combined measurements will also be correlated with each other, something missing from optimize_radii
-    #     # as of 12/29/2024
-    #     terms = set([data.term for data in rad_info])  # collect unique terms
+        Returns
+        -------
+        """
+        term_data = {data.term.termstr: data for data in optimized_rad_info.values()}
+        for term, opt_data in term_data.items():
+
+            match = [data for data in original_rad_info.values() if data.term.termstr == term]
+            if len(match) <= 1:
+                continue
+            values, uncs = list(zip(*[(data.value, data.unc) for data in match]))
+            values, uncs = np.array(values), np.array(uncs)
+            red_chi_sq = np.sum(np.square((values-opt_data.value)/uncs)) / (len(match) - 1)
+            multiplier = max(1, np.sqrt(0.5 * (1 + red_chi_sq)))
+            for data in match:
+                original_rad_info[data.data_id].unc *= multiplier
+        return original_rad_info
 
     @staticmethod
     def guess_params(rad_info: RadiiInformation) -> Parameters:
@@ -504,6 +614,11 @@ class DataGrouper:
 
         z_groups = sorted([(atomic_number, rad_info.split(data)) for atomic_number, data in z_groups.items()])
         return [group[1] for group in z_groups]
+
+    @staticmethod
+    def group_by_term(rad_info: RadiiInformation) -> list[RadiiInformation]:
+        terms = set([data.term.termstr for data in rad_info.values()])
+        return [rad_info.split([data for data in rad_info.values() if data.term.termstr == term]) for term in terms]
 
 
 @dataclass

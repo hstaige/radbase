@@ -80,6 +80,27 @@ def test_radii_information():
     assert [np.isclose(rad_info_from_uvar[i].unc, rad_info[i].unc) for i in rad_info]
     assert [rad_info_from_uvar[i].correlations == rad_info[i].correlations for i in rad_info]
 
+    rad_info = RadiiInformation()
+    rad_info.add('R001001', 1, .1)
+    rad_info.add('R001002', 3, .1)
+    rad_info.correlate(0, 1, 0.5)
+    terms = [create_term('R001001'), create_term('R001002'), create_term('R001002-R001001')]
+    rad_info_res = rad_info.evaluate_terms(terms)
+    assert len(rad_info_res) == len(terms)
+    assert np.allclose([data.value for data in rad_info_res.get_data_sorted()], [1, 3, 2])
+    assert np.allclose([data.unc for data in rad_info_res.get_data_sorted()],
+                       [0.1, 0.1, 0.1])
+
+    rad_info = RadiiInformation()
+    rad_info.add('R001001', 1, .1)
+    rad_info.add('R001002', 3, .1)
+
+    other_rad_info = RadiiInformation()
+    other_rad_info.add('R001002-R001001', 2, 0.3)
+    rad_info = RadiiInformation().join([rad_info, other_rad_info])
+    assert len(rad_info) == 3
+    assert [data.data_id == data_id for data_id, data in rad_info.items()]
+
 
 def test_radius_analyzer():
     rad_analyzer = RadiusAnalyzer()
@@ -87,12 +108,6 @@ def test_radius_analyzer():
     rad_info = RadiiInformation()
     rad_info.add('R001001', 1, .1)
     rad_info.add('R001002', 3, .1)
-
-    terms = [create_term('R001001'), create_term('R001002'), create_term('R001002-R001001')]
-    rad_info_res = rad_analyzer.evaluate_terms(terms, rad_info)
-    assert len(rad_info_res) == len(terms)
-    assert np.allclose([data.value for data in rad_info_res.get_data_sorted()], [1, 3, 2])
-    assert np.allclose([data.unc for data in rad_info_res.get_data_sorted()], [0.1, 0.1, 0.1 * np.sqrt(2)])
 
     # Test optimization with uncorrelated variables and len(rad_info.nuclides) == len(rad_info)
     rad_info = RadiiInformation()
@@ -121,8 +136,11 @@ def test_radius_analyzer():
     rad_info.correlate(0, 1, 0.5)
     opt_rad_info = rad_analyzer.optimize_radii(rad_info)
     assert len(opt_rad_info) == len(rad_info.nuclides)
-    assert np.allclose([opt_rad_info[0].value, opt_rad_info[1].value], [1.113, 4.225], rtol=1e-3)
+    assert np.allclose([opt_rad_info[0].value, opt_rad_info[1].value], [1.1125, 4.225], rtol=1e-3)
     assert np.allclose([opt_rad_info[0].unc, opt_rad_info[1].unc], [0.06614, 0.0866], rtol=1e-3)
+    diff_info = opt_rad_info.evaluate_terms(['R001002-R001001'])
+    assert np.isclose(diff_info[0].value, 3.1125, rtol=1e-3)
+    assert np.isclose(diff_info[0].unc, 0.06614, rtol=1e-3)
 
     # Test optimization with unccorrelated variables, linear relative term
     rad_info = RadiiInformation()
@@ -146,13 +164,23 @@ def test_radius_analyzer():
     assert np.allclose([opt_rad_info[0].value, opt_rad_info[1].value], [1, 2], rtol=1e-3)
     assert np.allclose([opt_rad_info[0].unc, opt_rad_info[1].unc], [0.206, 0.1118], rtol=1e-3)
 
+    # Test uncertainty adjustment by term
+    rad_info = RadiiInformation()
+    rad_info.add('R001001', 2.590, .0500)
+    rad_info.add('R001001', 2.4920, .0111)
+
+    opt_rad_info = rad_analyzer.optimize_radii(rad_info)
+    assert np.isclose(opt_rad_info[0].unc, 0.010836, rtol=1e-3)
+    adj_rad_info = rad_analyzer.adjust_uncertainties(rad_info)
+    opt_rad_info = rad_analyzer.optimize_radii(adj_rad_info)
+    assert np.isclose(opt_rad_info[0].unc, 0.01654, rtol=1e-3)
 
 
 def test_data_grouper():
     rad_info = RadiiInformation()
     rad_info.add('R001001', 0, 1)
     rad_info.add('R001002-R001001', 0, 1)
-    rad_info.add('R001003-R001001', 0, 1)
+    rad_info.add('R001002-R001001', 0, 1)
     rad_info.add('R001004**2-R001005**2', 0, 1)
     rad_info.add('R001004**2-R001006**2', 0, 1)
     rad_info.add('R002004**2-R002006**2', 0, 1)
@@ -166,3 +194,9 @@ def test_data_grouper():
     assert all(isinstance(g, RadiiInformation) for g in groups)
     groups = sorted(groups, key=lambda x: len(x.keys()))
     assert [len(g.keys()) for g in groups] == [1, 5]
+    pytest.set_trace()
+
+    groups = DataGrouper.group_by_term(rad_info)
+    assert all(isinstance(g, RadiiInformation) for g in groups)
+    groups = sorted(groups, key=lambda x: len(x.keys()))
+    assert [len(g.keys()) for g in groups] == [1, 1, 1, 1, 2]
