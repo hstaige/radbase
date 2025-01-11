@@ -1,0 +1,12 @@
+.idea/
+.pytest_cache/
+radbase.egg-info/
+build/
+notebooks/
+
+inputs/
+outputs/
+
+*.py[cod]
+.coverage
+coverage.xml
