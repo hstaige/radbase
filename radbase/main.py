@@ -104,9 +104,10 @@ if __name__ == '__main__':
                               [angeli_remko_info(excel_loc), opt_rad_info],
                               prefixes=['angeli_remko', 'hunter_remko'])
 
-    f_factors = {}
+    f_factors, delta_factors = {}, {}
     for group in groups:
-        f_factors.update(analyzer.calculate_f_factors(group.all_data, opt_rad_info))
+        f_facts, d_facts = analyzer.calculate_f_factors(group.all_data, opt_rad_info)
+        f_factors.update(f_facts), delta_factors.update(d_facts)
 
         not_ois_nuclides = set()
         for data in group.all_data.values():
@@ -115,10 +116,10 @@ if __name__ == '__main__':
 
         for secondary in group.secondary_data:
             for data in secondary.values():
-                if data.measurement_type == 'ois' and not(all(nuc in not_ois_nuclides for nuc in data.nuclides)):
+                if data.measurement_type == 'ois' and not all(nuc in not_ois_nuclides for nuc in data.nuclides):
                     z = data.nuclides[0].z
                     if z in f_factors:
-                        data.unc = ((data.unc * f_factors[z].n) ** 2 + (data.value * f_factors[z].s) ** 2) ** (1/2)
+                        data.unc = ((data.unc * delta_factors[z].n) ** 2 + (data.value * f_factors[z].s) ** 2) ** (1/2)
                         data.value *= f_factors[z].n
     print(f_factors)
 

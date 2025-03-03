@@ -80,7 +80,7 @@ print('\nRELATIVE K-Alpha')
 rel_k_df.info(show_counts=True)
 rel_k_df.reset_index(drop=True, inplace=True)
 
-rel_ois_df = pd.read_excel('../../inputs/NuclearRadius_all_sheets_renamed.xlsx', usecols=[0, 2, 3, 4, 7, 8, 9, 19],
+rel_ois_df = pd.read_excel('../../inputs/NuclearRadius_all_sheets_renamed.xlsx', usecols=[0, 2, 3, 4, 5, 7, 8, 9, 19],
                            sheet_name='dRo_19')
 rel_ois_df.dropna(how='any', subset=['d<r2>'], inplace=True)
 cols = ['Z', 'A1', 'A2']
@@ -92,6 +92,7 @@ rel_ois_df['Refs'] = None
 print('\nRELATIVE OIS')
 rel_ois_df.info(show_counts=True)
 rel_ois_df.reset_index(drop=True, inplace=True)
+print(rel_ois_df)
 
 
 def get_idx(df, zcol, acol, idx_name='iso_idx'):
@@ -140,8 +141,9 @@ abs_df['Include'] = ''
 abs_df['Table'] = 'absl'
 
 rel_df = pd.concat([rel_noniso_df, rel_isoe_df, rel_isom_df, rel_k_df, rel_ois_df], join='inner', ignore_index=True)
+rel_df['rel_unc'] = 0.0
+rel_df.loc[rel_df['Table'] == 'ois', 'rel_unc'] = rel_ois_df['Dexp'].astype('float64').tolist()
 rel_df['Iso_Idxs'] = rel_df['iso_idx1'] + ',' + rel_df['iso_idx2']
-print(rel_df)
 rel_df.drop(columns=['iso_idx1', 'iso_idx2'], inplace=True)
 
 measurement_df = pd.concat([abs_df, rel_df], ignore_index=True)

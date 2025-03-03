@@ -10,3 +10,4 @@ outputs/
 *.py[cod]
 .coverage
 coverage.xml
+*.pptx

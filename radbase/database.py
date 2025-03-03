@@ -26,9 +26,18 @@ class AngeliDataMapper(RadiusDataGateway):
                 continue
             rad_info.add(term=row['Term'], value=row['Value'], unc=row['Unc'])
 
+            rad_info[max(rad_info.keys())].rel_unc = row['rel_unc'] if row['rel_unc'] > 0 else 0
             rad_info[max(rad_info.keys())].measurement_type = row['Table']  # TODO: REMOVE THIS HACK
 
         return rad_info
 
     def load_analysis(self, **kwargs) -> RadiiInformation:
         pass
+
+
+if __name__ == '__main__':
+    loader = AngeliDataMapper(file_loc='../inputs/measurements.csv')
+    data = loader.load_data(bad_types=['noniso'])
+    for data in data.values():
+        if data.measurement_type == 'ois':
+            print(data.data_id, data.nuclides[0].z, data.value, data.unc, data.rel_unc, data.measurement_type)

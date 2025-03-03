@@ -677,7 +677,7 @@ class RadiusAnalyzer:
 
     @staticmethod
     def calculate_f_factors(rad_info: RadiiInformation,
-                            opt_rad_info: RadiiInformation) -> dict[int, float]:
+                            opt_rad_info: RadiiInformation) -> tuple[dict[int, ufloat], dict[int, ufloat]]:
         """Calculates the 'f' correction factor for optical isotope shift measurements
 
         Note for future Hunter: this function uses the data.measurement_type attribute I hacked in in database.py
@@ -689,23 +689,28 @@ class RadiusAnalyzer:
                 not_ois_nuclides.update(set(data.nuclides))
 
         f_factors = {}
+        delta_factors = {}
         opt_uvars = opt_rad_info.create_uvars()
         opt_uvars = {data.term.termstr: uvar for data, uvar in zip(opt_rad_info.get_data_sorted(), opt_uvars)}
         for group in DataGrouper.group_by_element(rad_info):
             z = group.nuclides[0].z
             group = group.all_data
-            fs = []
+            fs, ds = [], []
             for data in group.values():
                 try:
                     if getattr(data, 'measurement_type', '') == 'ois' and all(nuc in not_ois_nuclides for nuc in data.nuclides):
                         optimal = data.term.calc_uvar(opt_uvars)
-                        fs.append(optimal / data.value)
+                        print(data.data_id, data.value, data.unc, data.rel_unc)
+                        fs.append(optimal / ufloat(data.value, data.rel_unc if data.rel_unc != 0 else data.unc))
+                        ds.append(optimal.s / data.unc)
                 except KeyError:  # opt_rad_info doesn't have right form
                     pass
             if not fs:
                 continue
-            f_factors[z] = sum(fs) / len(fs)
-        return f_factors
+            print(z, fs, ds)
+            f_factors[z] = sum(f / f.s ** 2 for f in fs) / sum(1 / f.s**2 for f in fs)  # weighted average
+            delta_factors[z] = ufloat(np.mean(ds), np.std(ds))
+        return f_factors, delta_factors
 
 
 class DataGrouper:
