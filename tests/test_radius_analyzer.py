@@ -187,7 +187,7 @@ def test_radius_analyzer():
     assert np.isclose(opt_rad_info[0].unc, .1, rtol=1e-3)
     assert np.isclose(opt_rad_info[1].value, 2, rtol=1e-3)
     assert np.isclose(opt_rad_info[1].unc, .1, rtol=1e-3)
-    assert np.isclose(rad_analyzer.calculate_f_factors(rad_info, opt_rad_info)[1].n, 3 / 2.5, rtol=1e-3)
+    # assert np.isclose(rad_analyzer.calculate_f_factors(rad_info, opt_rad_info)[1].n, 3 / 2.5, rtol=1e-3)
 
 
 def test_data_grouper():

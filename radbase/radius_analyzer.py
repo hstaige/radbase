@@ -700,7 +700,6 @@ class RadiusAnalyzer:
                 try:
                     if getattr(data, 'measurement_type', '') == 'ois' and all(nuc in not_ois_nuclides for nuc in data.nuclides):
                         optimal = data.term.calc_uvar(opt_uvars)
-                        print(data.data_id, data.value, data.unc, data.rel_unc)
                         fs.append(optimal / ufloat(data.value, data.rel_unc if data.rel_unc != 0 else data.unc))
                         ds.append(optimal.s / data.unc)
                 except KeyError:  # opt_rad_info doesn't have right form
