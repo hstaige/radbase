@@ -13,6 +13,8 @@ import pandas as pd
 from lmfit import Minimizer, Parameters
 from uncertainties import correlated_values_norm, correlation_matrix, ufloat
 
+from .converter import Measurement
+
 
 class Nuclide:
     z: int
@@ -180,8 +182,9 @@ class RadiusData:
     data_id: int
     correlations: defaultdict[int, dict]
     nuclides: list[Nuclide]
+    measurement: None | Measurement
 
-    def __init__(self, term: str | Term, value, unc, data_id, **kwargs):
+    def __init__(self, term: str | Term, value, unc, data_id, measurement=None, **kwargs):
         if isinstance(term, Term):
             self.term = term
         elif isinstance(term, str):
@@ -194,6 +197,7 @@ class RadiusData:
         self.data_id = data_id
         self.correlations = defaultdict(dict)
         self.nuclides = self.term.get_nuclides()
+        self.measurement = measurement
 
     def residual(self, params, normalize=True):
         resid = self.term.eval(params=params) - self.value
@@ -206,17 +210,6 @@ class RadiusData:
 
     def __repr__(self):
         return f'Id {self.data_id}: {self.term.termstr} = {self.value} +/- {self.unc}'
-
-
-class Measurement(RadiusData):
-
-    def __init__(self, references, **kwargs):
-        super().__init__(**kwargs)
-        self.references = references
-
-    @abstractmethod
-    def calc_radius(self):
-        pass
 
 
 class Projection(RadiusData):

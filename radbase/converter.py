@@ -1,36 +1,32 @@
-from abc import ABC, abstractmethod
+from abc import ABC
+
+from .radius_analyzer import RadiiInformation
+
+
+class ConversionStep(ABC):
+    pass
+
+
+class ConversionStrategy:
+    pass
+
+
+class ConversionRecord:
+
+    def __init__(self):
+        pass
 
 
 class Measurement(ABC):
 
-    @abstractmethod
-    def calc_radius(self, information):
-        pass
-
-    @abstractmethod
-    def calc_seltzer(self):
+    def __init__(self):
         pass
 
 
-class MuonicMeasurement(Measurement):
-    pass
+class Converter:
 
+    def __init__(self, conversion_strategy: ConversionStrategy):
+        self.strategy = conversion_strategy
 
-class ElectronicMeasurement(Measurement):
-    pass
-
-
-class KalphaMeasurement(Measurement):
-    pass
-
-
-class OISMeasurement(Measurement):
-    pass
-
-
-class RadiusConverter:
-    measurements = list[Measurement]
-
-    def request_information(self, information):
-        """Retrieves desired quantity from measurements; if quantity not found yields a calculated value"""
+    def convert(self, measurements: list[Measurement], conversion_steps) -> RadiiInformation:  # or something like RI
         pass
