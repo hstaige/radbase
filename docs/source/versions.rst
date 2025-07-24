@@ -1,3 +1,6 @@
+Version Info
+============
+
 0.1.0
 
 Combine an input file of independent radii measurements into a recommended radii for each included isotope following a least squares procedure

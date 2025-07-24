@@ -3,7 +3,7 @@ from lmfit import Parameters
 from uncertainties import UFloat, correlated_values_norm
 
 from radbase.radius_analyzer import (AbsoluteTerm, DataGroup, DataGrouper,
-                                     LinearRelativeTerm, Nuclide,
+                                     GeneralTerm, LinearRelativeTerm, Nuclide,
                                      RadiiInformation, RadiusAnalyzer,
                                      RadiusData, SquaredRelativeTerm,
                                      create_term)
@@ -40,6 +40,12 @@ def test_terms():
     assert sqrelterm.termtype == 'squared_relative'
     assert sqrelterm.get_nuclides() == [Nuclide('R001002'), Nuclide('R001001')]
     assert isinstance(sqrelterm, SquaredRelativeTerm)
+
+    genterm = GeneralTerm('0.8 * R001001 + 0.2 * R001002')
+    assert np.isclose(genterm.asteval(params), 1.2)
+    assert np.isclose(genterm.eval(params), 1.2)
+    assert genterm.termtype == 'general'
+    assert genterm.get_nuclides() == [Nuclide('R001001'), Nuclide('R001002')]
 
 
 def test_radius_data():
