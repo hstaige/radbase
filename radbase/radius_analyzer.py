@@ -148,6 +148,28 @@ class SquaredRelativeTerm(Term):
         return params
 
 
+class GeneralTerm(Term):
+    """
+    Still needs serious improvements, this is a placeholder and should not be used in production code.
+
+    A general term to use when one of the existing categories does not fit. Will be slower, as it will use the asteval
+    of parameters rather than the params[par].value syntax.
+    """
+    def __init__(self, termstr):
+        super().__init__(termstr)
+        self.termtype = 'general'
+
+    def eval(self, params):
+        return self.asteval(params)
+
+    def calc_uvar(self, uvars: dict[str, ufloat]) -> ufloat:
+        raise NotImplementedError
+        return ufloat(0, 0)
+
+    def adjust_params(self, params):
+        return params
+
+
 class RadiusData:
     """
     Describes a probability distribution over radii, along with correlations with any other data
@@ -159,8 +181,14 @@ class RadiusData:
     correlations: defaultdict[int, dict]
     nuclides: list[Nuclide]
 
-    def __init__(self, termstr, value, unc, data_id, **kwargs):
-        self.term = create_term(termstr)
+    def __init__(self, term: str | Term, value, unc, data_id, **kwargs):
+        if isinstance(term, Term):
+            self.term = term
+        elif isinstance(term, str):
+            self.term = create_term(term)
+        else:
+            raise TypeError(f'{term} was provided by the type of {type(term)} is not a string or Term')
+
         self.value = value
         self.unc = unc
         self.data_id = data_id
@@ -235,7 +263,7 @@ class RadiiInformation(dict):
         if data_id is None:
             data_id = self._get_next_id()
 
-        new_data = dtype(termstr=term, value=value, unc=unc, data_id=data_id, **kwargs)
+        new_data = dtype(term=term, value=value, unc=unc, data_id=data_id, **kwargs)
         self[data_id] = new_data
 
     def get_data_sorted(self):
