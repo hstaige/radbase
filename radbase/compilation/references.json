@@ -1,0 +1,70 @@
+{
+    "zehnder_charge_1975": {
+        "title": "CHARGE PARAMETERS, ISOTOPE SHIFTS, QUADRUPOLE MOMENTS, AND NUCLEAR EXCITATION IN MUONIC 170-174, 176yb",
+        "author": [
+            "A. Zehnder",
+            "F. Boehm",
+            "W. Dey",
+            "R. Engfer",
+            "H. K. Walter",
+            "J. L. Vuilleumier"
+        ],
+        "year": "1975",
+        "month": null,
+        "journal": "Nuclear Physics A",
+        "volume": 254,
+        "pages": "315-340",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/0375947475902195",
+        "doi": "10.1016/0375-9474(75)90219-5"
+    },
+    "bergem_nuclear_1988": {
+        "title": "Nuclear polarization and charge moments of  \n208 Pb from muonic x rays",
+        "author": [
+            "P. Bergem",
+            "G. Piller",
+            "A. Rueetschi",
+            "L. A. Schaller",
+            "L. Schellenberg",
+            "H. Schneuwly"
+        ],
+        "year": "1988",
+        "month": "June",
+        "journal": "Physical Review C",
+        "volume": "37",
+        "pages": "2821",
+        "url": "https://journals.aps.org/prc/abstract/10.1103/PhysRevC.37.2821",
+        "doi": "10.1103/PhysRevC.37.2821"
+    },
+    "kessler_muonic_1975": {
+        "title": "Muonic x rays in lead isotopes",
+        "author": [
+            "D. Kessler",
+            "H. Mes",
+            "A. C. Thompson",
+            "H. L. Anderson",
+            "M. S. Dixit",
+            "C. K. Hargrove",
+            "R. J. McKee"
+        ],
+        "year": "1975",
+        "month": "May",
+        "journal": "Physical Review C",
+        "volume": "11",
+        "pages": "1719-1734",
+        "url": "https://link.aps.org/doi/10.1103/PhysRevC.11.1719",
+        "doi": "10.1103/PhysRevC.11.1719"
+    },
+    "test_test_1700": {
+        "title": "Test",
+        "author": [
+            "Test Test"
+        ],
+        "year": "1700",
+        "month": null,
+        "journal": null,
+        "volume": "",
+        "pages": "",
+        "url": null,
+        "doi": null
+    }
+}

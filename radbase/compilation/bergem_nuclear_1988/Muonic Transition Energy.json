@@ -1,0 +1,182 @@
+{
+    "bergem_nuclear_1988_muonic_Pb208_2p3/2_1s1/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": "5962.854(90)",
+        "Notes": ""
+    },
+    "bergem_nuclear_1988_muonic_Pb208_2p1/2_1s1/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": "5778.058(100)",
+        "Notes": ""
+    },
+    "bergem_nuclear_1988_muonic_Pb208_3d3/2_2p1/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": "2642.332(30)",
+        "Notes": ""
+    },
+    "bergem_nuclear_1988_muonic_Pb208_3d5/2_2p3/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": "2500.590(30)",
+        "Notes": ""
+    },
+    "bergem_nuclear_1988_muonic_Pb208_3d3/2_2p3/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": "2457.569(70)",
+        "Notes": ""
+    },
+    "bergem_nuclear_1988_muonic_Pb208_3p3/2_2s1/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "3p3/2",
+            "Lower": "2s1/2"
+        },
+        "Energy [keV]": "1507.754(50)",
+        "Notes": ""
+    },
+    "bergem_nuclear_1988_muonic_Pb208_3p1/2_2s1/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "3p1/2",
+            "Lower": "2s1/2"
+        },
+        "Energy [keV]": "1460.558(32)",
+        "Notes": ""
+    },
+    "bergem_nuclear_1988_muonic_Pb208_2s1/2_2p1/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "2s1/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": "1215.330(30)",
+        "Notes": ""
+    },
+    "bergem_nuclear_1988_muonic_Pb208_2s1/2_2p3/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "2s1/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": "1030.543(27)",
+        "Notes": ""
+    },
+    "bergem_nuclear_1988_muonic_Pb208_5f5/2_3d3/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "5f5/2",
+            "Lower": "3d3/2"
+        },
+        "Energy [keV]": "1404.659(20)",
+        "Notes": ""
+    },
+    "bergem_nuclear_1988_muonic_Pb208_5f7/2_3d5/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "5f7/2",
+            "Lower": "3d5/2"
+        },
+        "Energy [keV]": "1366.347(19)",
+        "Notes": ""
+    },
+    "bergem_nuclear_1988_muonic_Pb208_5f5/2_3d5/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "5f5/2",
+            "Lower": "3d5/2"
+        },
+        "Energy [keV]": "1361.748(250)",
+        "Notes": ""
+    },
+    "bergem_nuclear_1988_muonic_Pb208_4f5/2_3d3/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "4f5/2",
+            "Lower": "3d3/2"
+        },
+        "Energy [keV]": "971.974(17)",
+        "Notes": ""
+    },
+    "bergem_nuclear_1988_muonic_Pb208_3f7/2_3d5/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "3f7/2",
+            "Lower": "3d5/2"
+        },
+        "Energy [keV]": "938.096(18)",
+        "Notes": ""
+    },
+    "bergem_nuclear_1988_muonic_Pb208_4f5/2_3d5/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "4f5/2",
+            "Lower": "3d5/2"
+        },
+        "Energy [keV]": "928.883(14)",
+        "Notes": ""
+    },
+    "bergem_nuclear_1988_muonic_Pb208_4d3/2_3p1/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "4d3/2",
+            "Lower": "3p1/2"
+        },
+        "Energy [keV]": "920.959(28)",
+        "Notes": ""
+    },
+    "bergem_nuclear_1988_muonic_Pb208_4d5/2_3p3/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "4d5/2",
+            "Lower": "3p3/2"
+        },
+        "Energy [keV]": "891.383(22)",
+        "Notes": ""
+    },
+    "bergem_nuclear_1988_muonic_Pb208_4d3/2_3p3/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "4d3/2",
+            "Lower": "3p3/2"
+        },
+        "Energy [keV]": "873.761(63)",
+        "Notes": ""
+    }
+}

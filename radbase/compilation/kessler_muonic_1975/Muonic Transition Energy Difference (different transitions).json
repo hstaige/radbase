@@ -1,0 +1,658 @@
+{
+    "kessler_muonic_1975_muonic_difference_Pb208_A_2p3/2_1s1/2_B_2p1/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transitions": {
+            "A": {
+                "Upper": "2p3/2",
+                "Lower": "1s1/2"
+            },
+            "B": {
+                "Upper": "2p1/2",
+                "Lower": "1s1/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 184.83,
+            "uncertainty": 0.01
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_difference_Pb207_A_2p3/2_1s1/2_B_2p1/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transitions": {
+            "A": {
+                "Upper": "2p3/2",
+                "Lower": "1s1/2"
+            },
+            "B": {
+                "Upper": "2p1/2",
+                "Lower": "1s1/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 185.09,
+            "uncertainty": 0.14
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_difference_Pb206_A_2p3/2_1s1/2_B_2p1/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transitions": {
+            "A": {
+                "Upper": "2p3/2",
+                "Lower": "1s1/2"
+            },
+            "B": {
+                "Upper": "2p1/2",
+                "Lower": "1s1/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 185.75,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_difference_Pb204_A_2p3/2_1s1/2_B_2p1/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transitions": {
+            "A": {
+                "Upper": "2p3/2",
+                "Lower": "1s1/2"
+            },
+            "B": {
+                "Upper": "2p1/2",
+                "Lower": "1s1/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 186.04,
+            "uncertainty": 0.11
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_difference_Pb208_A_3d3/2_2p1/2_B_3d5/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transitions": {
+            "A": {
+                "Upper": "3d3/2",
+                "Lower": "2p1/2"
+            },
+            "B": {
+                "Upper": "3d5/2",
+                "Lower": "2p3/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 141.77,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_difference_Pb207_A_3d3/2_2p1/2_B_3d5/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transitions": {
+            "A": {
+                "Upper": "3d3/2",
+                "Lower": "2p1/2"
+            },
+            "B": {
+                "Upper": "3d5/2",
+                "Lower": "2p3/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 141.82,
+            "uncertainty": 0.08
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_difference_Pb206_A_3d3/2_2p1/2_B_3d5/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transitions": {
+            "A": {
+                "Upper": "3d3/2",
+                "Lower": "2p1/2"
+            },
+            "B": {
+                "Upper": "3d5/2",
+                "Lower": "2p3/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 142.53,
+            "uncertainty": 0.05
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_difference_Pb204_A_3d3/2_2p1/2_B_3d5/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transitions": {
+            "A": {
+                "Upper": "3d3/2",
+                "Lower": "2p1/2"
+            },
+            "B": {
+                "Upper": "3d5/2",
+                "Lower": "2p3/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 142.68,
+            "uncertainty": 0.08
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_difference_Pb208_A_3d3/2_2p1/2_B_3d3/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transitions": {
+            "A": {
+                "Upper": "3d3/2",
+                "Lower": "2p1/2"
+            },
+            "B": {
+                "Upper": "3d3/2",
+                "Lower": "2p3/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 184.89,
+            "uncertainty": 0.25
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_difference_Pb207_A_3d3/2_2p1/2_B_3d3/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transitions": {
+            "A": {
+                "Upper": "3d3/2",
+                "Lower": "2p1/2"
+            },
+            "B": {
+                "Upper": "3d3/2",
+                "Lower": "2p3/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 185.05,
+            "uncertainty": 0.17
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_difference_Pb206_A_3d3/2_2p1/2_B_3d3/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transitions": {
+            "A": {
+                "Upper": "3d3/2",
+                "Lower": "2p1/2"
+            },
+            "B": {
+                "Upper": "3d3/2",
+                "Lower": "2p3/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 185.76,
+            "uncertainty": 0.4
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_difference_Pb204_A_3d3/2_2p1/2_B_3d3/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transitions": {
+            "A": {
+                "Upper": "3d3/2",
+                "Lower": "2p1/2"
+            },
+            "B": {
+                "Upper": "3d3/2",
+                "Lower": "2p3/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 185.82,
+            "uncertainty": 0.22
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_difference_Pb208_A_3d5/2_2p3/2_B_3d3/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transitions": {
+            "A": {
+                "Upper": "3d5/2",
+                "Lower": "2p3/2"
+            },
+            "B": {
+                "Upper": "3d3/2",
+                "Lower": "2p3/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 43.13,
+            "uncertainty": 0.18
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_difference_Pb207_A_3d5/2_2p3/2_B_3d3/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transitions": {
+            "A": {
+                "Upper": "3d5/2",
+                "Lower": "2p3/2"
+            },
+            "B": {
+                "Upper": "3d3/2",
+                "Lower": "2p3/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 43.25,
+            "uncertainty": 0.13
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_difference_Pb206_A_3d5/2_2p3/2_B_3d3/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transitions": {
+            "A": {
+                "Upper": "3d5/2",
+                "Lower": "2p3/2"
+            },
+            "B": {
+                "Upper": "3d3/2",
+                "Lower": "2p3/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 43.24,
+            "uncertainty": 0.36
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_difference_Pb204_A_3d5/2_2p3/2_B_3d3/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transitions": {
+            "A": {
+                "Upper": "3d5/2",
+                "Lower": "2p3/2"
+            },
+            "B": {
+                "Upper": "3d3/2",
+                "Lower": "2p3/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 43.13,
+            "uncertainty": 0.21
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_difference_Pb208_A_4f5/2_3d3/2_B_4f5/2_4f7/2_C_4f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transitions": {
+            "A": {
+                "Upper": "4f5/2",
+                "Lower": "3d3/2"
+            },
+            "B": {
+                "Upper": "4f5/2",
+                "Lower": "4f7/2"
+            },
+            "C": {
+                "Upper": "4f7/2",
+                "Lower": "3d5/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 43.07,
+            "uncertainty": 0.03
+        },
+        "Notes": "Using 4f splitting from theory"
+    },
+    "kessler_muonic_1975_muonic_difference_Pb207_A_4f5/2_3d3/2_B_4f5/2_4f7/2_C_4f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transitions": {
+            "A": {
+                "Upper": "4f5/2",
+                "Lower": "3d3/2"
+            },
+            "B": {
+                "Upper": "4f5/2",
+                "Lower": "4f7/2"
+            },
+            "C": {
+                "Upper": "4f7/2",
+                "Lower": "3d5/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 43.2,
+            "uncertainty": 0.03
+        },
+        "Notes": "Using 4f splitting from theory"
+    },
+    "kessler_muonic_1975_muonic_difference_Pb206_A_4f5/2_3d3/2_B_4f5/2_4f7/2_C_4f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transitions": {
+            "A": {
+                "Upper": "4f5/2",
+                "Lower": "3d3/2"
+            },
+            "B": {
+                "Upper": "4f5/2",
+                "Lower": "4f7/2"
+            },
+            "C": {
+                "Upper": "4f7/2",
+                "Lower": "3d5/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 43.19,
+            "uncertainty": 0.03
+        },
+        "Notes": "Using 4f splitting from theory"
+    },
+    "kessler_muonic_1975_muonic_difference_Pb204_A_4f5/2_3d3/2_B_4f5/2_4f7/2_C_4f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transitions": {
+            "A": {
+                "Upper": "4f5/2",
+                "Lower": "3d3/2"
+            },
+            "B": {
+                "Upper": "4f5/2",
+                "Lower": "4f7/2"
+            },
+            "C": {
+                "Upper": "4f7/2",
+                "Lower": "3d5/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 43.08,
+            "uncertainty": 0.03
+        },
+        "Notes": "Using 4f splitting from theory"
+    },
+    "kessler_muonic_1975_muonic_difference_Pb208_A_5f5/2_3d3/2_B_5f5/2_5f7/2_C_5f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transitions": {
+            "A": {
+                "Upper": "5f5/2",
+                "Lower": "3d3/2"
+            },
+            "B": {
+                "Upper": "5f5/2",
+                "Lower": "5f7/2"
+            },
+            "C": {
+                "Upper": "5f7/2",
+                "Lower": "3d5/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 42.95,
+            "uncertainty": 0.1
+        },
+        "Notes": "Using 5f splitting from theory"
+    },
+    "kessler_muonic_1975_muonic_difference_Pb207_A_5f5/2_3d3/2_B_5f5/2_5f7/2_C_5f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transitions": {
+            "A": {
+                "Upper": "5f5/2",
+                "Lower": "3d3/2"
+            },
+            "B": {
+                "Upper": "5f5/2",
+                "Lower": "5f7/2"
+            },
+            "C": {
+                "Upper": "5f7/2",
+                "Lower": "3d5/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 42.98,
+            "uncertainty": 0.09
+        },
+        "Notes": "Using 5f splitting from theory"
+    },
+    "kessler_muonic_1975_muonic_difference_Pb206_A_5f5/2_3d3/2_B_5f5/2_5f7/2_C_5f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transitions": {
+            "A": {
+                "Upper": "5f5/2",
+                "Lower": "3d3/2"
+            },
+            "B": {
+                "Upper": "5f5/2",
+                "Lower": "5f7/2"
+            },
+            "C": {
+                "Upper": "5f7/2",
+                "Lower": "3d5/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 42.95,
+            "uncertainty": 0.1
+        },
+        "Notes": "Using 5f splitting from theory"
+    },
+    "kessler_muonic_1975_muonic_difference_Pb204_A_5f5/2_3d3/2_B_5f5/2_5f7/2_C_5f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transitions": {
+            "A": {
+                "Upper": "5f5/2",
+                "Lower": "3d3/2"
+            },
+            "B": {
+                "Upper": "5f5/2",
+                "Lower": "5f7/2"
+            },
+            "C": {
+                "Upper": "5f7/2",
+                "Lower": "3d5/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 42.84,
+            "uncertainty": 0.14
+        },
+        "Notes": "Using 5f splitting from theory"
+    },
+    "kessler_muonic_1975_muonic_difference_Pb208_A_6f5/2_3d3/2_B_6f5/2_6f7/2_C_6f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transitions": {
+            "A": {
+                "Upper": "6f5/2",
+                "Lower": "3d3/2"
+            },
+            "B": {
+                "Upper": "6f5/2",
+                "Lower": "6f7/2"
+            },
+            "C": {
+                "Upper": "6f7/2",
+                "Lower": "3d5/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 43.04,
+            "uncertainty": 0.24
+        },
+        "Notes": "Using 6f splitting from theory"
+    },
+    "kessler_muonic_1975_muonic_difference_Pb207_A_6f5/2_3d3/2_B_6f5/2_6f7/2_C_6f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transitions": {
+            "A": {
+                "Upper": "6f5/2",
+                "Lower": "3d3/2"
+            },
+            "B": {
+                "Upper": "6f5/2",
+                "Lower": "6f7/2"
+            },
+            "C": {
+                "Upper": "6f7/2",
+                "Lower": "3d5/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 43.28,
+            "uncertainty": 0.31
+        },
+        "Notes": "Using 6f splitting from theory"
+    },
+    "kessler_muonic_1975_muonic_difference_Pb206_A_6f5/2_3d3/2_B_6f5/2_6f7/2_C_6f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transitions": {
+            "A": {
+                "Upper": "6f5/2",
+                "Lower": "3d3/2"
+            },
+            "B": {
+                "Upper": "6f5/2",
+                "Lower": "6f7/2"
+            },
+            "C": {
+                "Upper": "6f7/2",
+                "Lower": "3d5/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 43.24,
+            "uncertainty": 0.36
+        },
+        "Notes": "Using 6f splitting from theory"
+    },
+    "kessler_muonic_1975_muonic_difference_Pb204_A_6f5/2_3d3/2_B_6f5/2_6f7/2_C_6f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transitions": {
+            "A": {
+                "Upper": "6f5/2",
+                "Lower": "3d3/2"
+            },
+            "B": {
+                "Upper": "6f5/2",
+                "Lower": "6f7/2"
+            },
+            "C": {
+                "Upper": "6f7/2",
+                "Lower": "3d5/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 43.14,
+            "uncertainty": 0.39
+        },
+        "Notes": "Using 6f splitting from theory"
+    },
+    "kessler_muonic_1975_muonic_difference_Pb208_A_2s1/2_2p1/2_B_2s1/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transitions": {
+            "A": {
+                "Upper": "2s1/2",
+                "Lower": "2p1/2"
+            },
+            "B": {
+                "Upper": "2s1/2",
+                "Lower": "2p3/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 184.99,
+            "uncertainty": 0.31
+        },
+        "Notes": "Using 6f splitting from theory"
+    },
+    "kessler_muonic_1975_muonic_difference_Pb207_A_2s1/2_2p1/2_B_2s1/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transitions": {
+            "A": {
+                "Upper": "2s1/2",
+                "Lower": "2p1/2"
+            },
+            "B": {
+                "Upper": "2s1/2",
+                "Lower": "2p3/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 185.58,
+            "uncertainty": 0.52
+        },
+        "Notes": "Using 6f splitting from theory"
+    },
+    "kessler_muonic_1975_muonic_difference_Pb206_A_2s1/2_2p1/2_B_2s1/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transitions": {
+            "A": {
+                "Upper": "2s1/2",
+                "Lower": "2p1/2"
+            },
+            "B": {
+                "Upper": "2s1/2",
+                "Lower": "2p3/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 185.59,
+            "uncertainty": 0.68
+        },
+        "Notes": "Using 6f splitting from theory"
+    },
+    "kessler_muonic_1975_muonic_difference_Pb204_A_2s1/2_2p1/2_B_2s1/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transitions": {
+            "A": {
+                "Upper": "2s1/2",
+                "Lower": "2p1/2"
+            },
+            "B": {
+                "Upper": "2s1/2",
+                "Lower": "2p3/2"
+            }
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 185.29,
+            "uncertainty": 0.48
+        },
+        "Notes": "Using 6f splitting from theory"
+    }
+}

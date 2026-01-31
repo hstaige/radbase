@@ -13,40 +13,7 @@ import pandas as pd
 from lmfit import Minimizer, Parameters
 from uncertainties import correlated_values_norm, correlation_matrix, ufloat
 
-from .converter import Measurement
-
-
-class Nuclide:
-    z: int
-    a: int
-
-    def __init__(self, nucstr):
-        self.nucstr = nucstr
-        nucstr = nucstr[1:]
-        self.z = int(nucstr[:3])
-        self.a = int(nucstr[3:])
-        self.n = self.a - self.z
-
-    def guess_radius(self):
-        # semiempirical estimate
-        return (0.9071 + 1.1025 / (self.a ** (2 / 3)) + -0.548 / (self.a ** (4 / 3))) * self.a ** (1 / 3)
-
-    def __repr__(self):
-        return f'Nuclide (Z={self.z}, A={self.a})'
-
-    def __eq__(self, other):
-        return (self.z == other.z) and (self.a == other.a)
-
-    def __lt__(self, other):
-        if self.z != other.z:
-            return self.z < other.z
-        return self.a < other.a
-
-    def __hash__(self):
-        return self.z * 1000 + self.a
-
-    def __str__(self):
-        return f'R{self.z:03}{self.a:03}'
+from .converter import Measurement, Nuclide
 
 
 class Term:

@@ -1,0 +1,110 @@
+{
+    "bergem_nuclear_1988_barrett_moment_Pb208_2s1/2_2p1/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Previous Measurements": [
+            "bergem_nuclear_1988_muonic_Pb208_2s1/2_2p1/2"
+        ],
+        "Nuclide": "Pb208",
+        "Rka [fm]": "6.8821(6)",
+        "k [-]": "1.1456",
+        "alpha [1/fm]": "0.1415",
+        "Cz [fm/keV]": "-2.136E-5",
+        "Notes": "Experimental Uncertainty Only"
+    },
+    "bergem_nuclear_1988_barrett_moment_Pb208_2s1/2-2p3/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Previous Muonic Measurements": [
+            "bergem_nuclear_1988_muonic_Pb208_2s1/2_2p3/2"
+        ],
+        "Nuclide": "Pb208",
+        "Rka [fm]": "6.9370(3)",
+        "k [-]": "1.3993",
+        "alpha [1/fm]": "0.1415",
+        "Cz [fm/keV]": "-1.268E-5",
+        "Notes": ""
+    },
+    "bergem_nuclear_1988_barrett_moment_Pb208_3p1/2-2s1/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Previous Muonic Measurements": [
+            "bergem_nuclear_1988_muonic_Pb208_3p1/2_2s1/2"
+        ],
+        "Nuclide": "Pb208",
+        "Rka [fm]": "6.9960(3)",
+        "k [-]": "1.8474",
+        "alpha [1/fm]": "0.1415",
+        "Cz [fm/keV]": "8.547E-6",
+        "Notes": "Experimental Uncertainty Only"
+    },
+    "bergem_nuclear_1988_barrett_moment_Pb208_3p3/2-2s1/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Previous Muonic Measurements": [
+            "bergem_nuclear_1988_muonic_Pb208_3p3/2_2s1/2"
+        ],
+        "Nuclide": "Pb208",
+        "Rka [fm]": "6.9958(4)",
+        "k [-]": "1.8715",
+        "alpha [1/fm]": "0.1415",
+        "Cz [fm/keV]": "7.909E-6",
+        "Notes": "Experimental Uncertainty Only"
+    },
+    "bergem_nuclear_1988_barrett_moment_Pb208_2p1/2-1s1/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Previous Muonic Measurements": [
+            "bergem_nuclear_1988_muonic_Pb208_2p1/2_1s1/2"
+        ],
+        "Nuclide": "Pb208",
+        "Rka [fm]": "7.0319(1)",
+        "k [-]": "2.2429",
+        "alpha [1/fm]": "0.1415",
+        "Cz [fm/keV]": "1.478E-6",
+        "Notes": "Experimental Uncertainty Only"
+    },
+    "bergem_nuclear_1988_barrett_moment_Pb208_2p3/2-1s1/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Previous Muonic Measurements": [
+            "bergem_nuclear_1988_muonic_Pb208_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Pb208",
+        "Rka [fm]": "7.0320(1)",
+        "k [-]": "2.2559",
+        "alpha [1/fm]": "0.1415",
+        "Cz [fm/keV]": "1.406E-6",
+        "Notes": "Experimental Uncertainty Only"
+    },
+    "bergem_nuclear_1988_barrett_moment_Pb208_3d3/2-2p1/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Previous Muonic Measurements": [
+            "bergem_nuclear_1988_muonic_Pb208_3d3/2_2p1/2"
+        ],
+        "Nuclide": "Pb208",
+        "Rka [fm]": "7.1222(3)",
+        "k [-]": "3.4781",
+        "alpha [1/fm]": "0.1415",
+        "Cz [fm/keV]": "9.128E-6",
+        "Notes": "Experimental Uncertainty Only"
+    },
+    "bergem_nuclear_1988_barrett_moment_Pb208_3d3/2-2p3/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Previous Muonic Measurements": [
+            "bergem_nuclear_1988_muonic_Pb208_3d3/2_2p3/2"
+        ],
+        "Nuclide": "Pb208",
+        "Rka [fm]": "7.1654(9)",
+        "k [-]": "4.0454",
+        "alpha [1/fm]": "0.1415",
+        "Cz [fm/keV]": "1.329E-5",
+        "Notes": "Experimental Uncertainty Only"
+    },
+    "bergem_nuclear_1988_barrett_moment_Pb208_3d5/2-2p3/2": {
+        "Reference": "bergem_nuclear_1988",
+        "Previous Muonic Measurements": [
+            "bergem_nuclear_1988_muonic_Pb208_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Pb208",
+        "Rka [fm]": "7.1670(4)",
+        "k [-]": "4.0699",
+        "alpha [1/fm]": "0.1415",
+        "Cz [fm/keV]": "1.318E-5",
+        "Notes": "Experimental Uncertainty Only"
+    }
+}
