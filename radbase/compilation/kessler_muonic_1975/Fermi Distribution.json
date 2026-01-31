@@ -1,0 +1,126 @@
+{
+    "kessler_muonic_1975_fermi_Pb208": {
+        "Reference": "kessler_muonic_1975",
+        "Data used as input": [
+            "kessler_muonic_1975_muonic_Pb208_2p1/2_1s1/2",
+            "kessler_muonic_1975_muonic_Pb208_2p3/2_1s1/2",
+            "kessler_muonic_1975_muonic_Pb208_2s1/2_2p1/2",
+            "kessler_muonic_1975_muonic_Pb208_2s1/2_2p3/2",
+            "kessler_muonic_1975_muonic_Pb208_3d3/2_1s1/2",
+            "kessler_muonic_1975_muonic_Pb208_3d3/2_2p1/2",
+            "kessler_muonic_1975_muonic_Pb208_3d3/2_2p3/2",
+            "kessler_muonic_1975_muonic_Pb208_3d5/2_2p3/2",
+            "kessler_muonic_1975_muonic_Pb208_3p3/2_1s1/2",
+            "kessler_muonic_1975_muonic_Pb208_3p3/2_2s1/2",
+            "kessler_muonic_1975_muonic_Pb208_4f5/2_3d3/2",
+            "kessler_muonic_1975_muonic_Pb208_4f7/2_3d5/2",
+            "kessler_muonic_1975_muonic_Pb208_5f5/2_3d3/2",
+            "kessler_muonic_1975_muonic_Pb208_5f7/2_3d5/2",
+            "kessler_muonic_1975_muonic_Pb208_6f5/2_3d3/2",
+            "kessler_muonic_1975_muonic_Pb208_6f7/2_3d5/2"
+        ],
+        "Nuclide": "Pb208",
+        "c [fm]": {
+            "value": 6.65,
+            "uncertainty": 0.007
+        },
+        "a [fm]": {
+            "value": 0.526,
+            "uncertainty": 0.0014
+        },
+        "Notes": "Fit done using 2p1/2, 2p3/2, 2s1/2, and 3p3/2 levels, but these levels determined from all transitions."
+    },
+    "kessler_muonic_1975_fermi_Pb207": {
+        "Reference": "kessler_muonic_1975",
+        "Data used as input": [
+            "kessler_muonic_1975_muonic_Pb207_2p1/2_1s1/2",
+            "kessler_muonic_1975_muonic_Pb207_2p3/2_1s1/2",
+            "kessler_muonic_1975_muonic_Pb207_2s1/2_2p1/2",
+            "kessler_muonic_1975_muonic_Pb207_2s1/2_2p3/2",
+            "kessler_muonic_1975_muonic_Pb207_3d3/2_1s1/2",
+            "kessler_muonic_1975_muonic_Pb207_3d3/2_2p1/2",
+            "kessler_muonic_1975_muonic_Pb207_3d3/2_2p3/2",
+            "kessler_muonic_1975_muonic_Pb207_3d5/2_2p3/2",
+            "kessler_muonic_1975_muonic_Pb207_3p3/2_1s1/2",
+            "kessler_muonic_1975_muonic_Pb207_3p3/2_2s1/2",
+            "kessler_muonic_1975_muonic_Pb207_4f5/2_3d3/2",
+            "kessler_muonic_1975_muonic_Pb207_4f7/2_3d5/2",
+            "kessler_muonic_1975_muonic_Pb207_5f5/2_3d3/2",
+            "kessler_muonic_1975_muonic_Pb207_5f7/2_3d5/2",
+            "kessler_muonic_1975_muonic_Pb207_6f5/2_3d3/2",
+            "kessler_muonic_1975_muonic_Pb207_6f7/2_3d5/2"
+        ],
+        "Nuclide": "Pb207",
+        "c [fm]": {
+            "value": 6.647,
+            "uncertainty": 0.005
+        },
+        "a [fm]": {
+            "value": 0.523,
+            "uncertainty": 0.003
+        },
+        "Notes": "Fit done using 2p1/2, 2p3/2, 2s1/2, and 3p3/2 levels, but these levels determined from all transitions."
+    },
+    "kessler_muonic_1975_fermi_Pb206": {
+        "Reference": "kessler_muonic_1975",
+        "Data used as input": [
+            "kessler_muonic_1975_muonic_Pb206_2p1/2_1s1/2",
+            "kessler_muonic_1975_muonic_Pb206_2p3/2_1s1/2",
+            "kessler_muonic_1975_muonic_Pb206_2s1/2_2p1/2",
+            "kessler_muonic_1975_muonic_Pb206_2s1/2_2p3/2",
+            "kessler_muonic_1975_muonic_Pb206_3d3/2_1s1/2",
+            "kessler_muonic_1975_muonic_Pb206_3d3/2_2p1/2",
+            "kessler_muonic_1975_muonic_Pb206_3d3/2_2p3/2",
+            "kessler_muonic_1975_muonic_Pb206_3d5/2_2p3/2",
+            "kessler_muonic_1975_muonic_Pb206_3p3/2_1s1/2",
+            "kessler_muonic_1975_muonic_Pb206_3p3/2_2s1/2",
+            "kessler_muonic_1975_muonic_Pb206_4f5/2_3d3/2",
+            "kessler_muonic_1975_muonic_Pb206_4f7/2_3d5/2",
+            "kessler_muonic_1975_muonic_Pb206_5f5/2_3d3/2",
+            "kessler_muonic_1975_muonic_Pb206_5f7/2_3d5/2",
+            "kessler_muonic_1975_muonic_Pb206_6f5/2_3d3/2",
+            "kessler_muonic_1975_muonic_Pb206_6f7/2_3d5/2"
+        ],
+        "Nuclide": "Pb206",
+        "c [fm]": {
+            "value": 6.649,
+            "uncertainty": 0.019
+        },
+        "a [fm]": {
+            "value": 0.517,
+            "uncertainty": 0.01
+        },
+        "Notes": "Fit done using 2p1/2, 2p3/2, 2s1/2, and 3p3/2 levels, but these levels determined from all transitions."
+    },
+    "kessler_muonic_1975_fermi_Pb204": {
+        "Reference": "kessler_muonic_1975",
+        "Data used as input": [
+            "kessler_muonic_1975_muonic_Pb204_2p1/2_1s1/2",
+            "kessler_muonic_1975_muonic_Pb204_2p3/2_1s1/2",
+            "kessler_muonic_1975_muonic_Pb204_2s1/2_2p1/2",
+            "kessler_muonic_1975_muonic_Pb204_2s1/2_2p3/2",
+            "kessler_muonic_1975_muonic_Pb204_3d3/2_1s1/2",
+            "kessler_muonic_1975_muonic_Pb204_3d3/2_2p1/2",
+            "kessler_muonic_1975_muonic_Pb204_3d3/2_2p3/2",
+            "kessler_muonic_1975_muonic_Pb204_3d5/2_2p3/2",
+            "kessler_muonic_1975_muonic_Pb204_3p3/2_1s1/2",
+            "kessler_muonic_1975_muonic_Pb204_3p3/2_2s1/2",
+            "kessler_muonic_1975_muonic_Pb204_4f5/2_3d3/2",
+            "kessler_muonic_1975_muonic_Pb204_4f7/2_3d5/2",
+            "kessler_muonic_1975_muonic_Pb204_5f5/2_3d3/2",
+            "kessler_muonic_1975_muonic_Pb204_5f7/2_3d5/2",
+            "kessler_muonic_1975_muonic_Pb204_6f5/2_3d3/2",
+            "kessler_muonic_1975_muonic_Pb204_6f7/2_3d5/2"
+        ],
+        "Nuclide": "Pb204",
+        "c [fm]": {
+            "value": 6.627,
+            "uncertainty": 0.014
+        },
+        "a [fm]": {
+            "value": 0.52,
+            "uncertainty": 0.008
+        },
+        "Notes": "Fit done using 2p1/2, 2p3/2, 2s1/2, and 3p3/2 levels, but these levels determined from all transitions."
+    }
+}

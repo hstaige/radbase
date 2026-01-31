@@ -1,0 +1,46 @@
+{
+    "bergem_nuclear_1988_radius_Pb208_NP_Calculated": {
+        "Reference": "bergem_nuclear_1988",
+        "Previous Muonic Measurements": [
+            "bergem_nuclear_1988_muonic_Pb208_2p1/2_1s1/2",
+            "bergem_nuclear_1988_muonic_Pb208_2p3/2_1s1/2",
+            "bergem_nuclear_1988_muonic_Pb208_2s1/2_2p1/2",
+            "bergem_nuclear_1988_muonic_Pb208_2s1/2_2p3/2",
+            "bergem_nuclear_1988_muonic_Pb208_3d3/2_2p1/2",
+            "bergem_nuclear_1988_muonic_Pb208_3d3/2_2p3/2",
+            "bergem_nuclear_1988_muonic_Pb208_3d5/2_2p3/2",
+            "bergem_nuclear_1988_muonic_Pb208_3p1/2_2s1/2",
+            "bergem_nuclear_1988_muonic_Pb208_3p3/2_2s1/2"
+        ],
+        "Nuclide": "Pb208",
+        "R [fm]": {
+            "value": 5.504,
+            "uncertainty": 0.0011
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Reduced Chi-Squared": 187.0,
+        "Notes": "Fixed alpha=0.1415 from e- scattering"
+    },
+    "bergem_nuclear_1988_radius_Pb208_NP_Fit": {
+        "Reference": "bergem_nuclear_1988",
+        "Previous Muonic Measurements": [
+            "bergem_nuclear_1988_muonic_Pb208_2p1/2_1s1/2",
+            "bergem_nuclear_1988_muonic_Pb208_2p3/2_1s1/2",
+            "bergem_nuclear_1988_muonic_Pb208_2s1/2_2p1/2",
+            "bergem_nuclear_1988_muonic_Pb208_2s1/2_2p3/2",
+            "bergem_nuclear_1988_muonic_Pb208_3d3/2_2p1/2",
+            "bergem_nuclear_1988_muonic_Pb208_3d3/2_2p3/2",
+            "bergem_nuclear_1988_muonic_Pb208_3d5/2_2p3/2",
+            "bergem_nuclear_1988_muonic_Pb208_3p1/2_2s1/2",
+            "bergem_nuclear_1988_muonic_Pb208_3p3/2_2s1/2"
+        ],
+        "Nuclide": "Pb208",
+        "R [fm]": {
+            "value": 5.5031,
+            "uncertainty": 0.0011
+        },
+        "Nuclear Polarization Method": "Fit",
+        "Reduced Chi-Squared": 0.19,
+        "Notes": "Alpha=0.1415, 2pf fit, "
+    }
+}

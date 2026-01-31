@@ -1,0 +1,834 @@
+{
+    "kessler_muonic_1975_muonic_Pb208_2p1/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 5777.91,
+            "uncertainty": 0.4
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb207_2p1/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 5783.79,
+            "uncertainty": 0.44
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb206_2p1/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 5787.0,
+            "uncertainty": 0.41
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb204_2p1/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 5796.06,
+            "uncertainty": 0.41
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb208_2p3/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 5962.77,
+            "uncertainty": 0.42
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb207_2p3/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 5968.89,
+            "uncertainty": 0.44
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb206_2p3/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 5972.8,
+            "uncertainty": 0.41
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb204_2p3/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 5982.12,
+            "uncertainty": 0.41
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb208_3d3/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 8419.51,
+            "uncertainty": 0.75
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb207_3d3/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 8426.42,
+            "uncertainty": 0.78
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb206_3d3/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 8430.85,
+            "uncertainty": 0.79
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb204_3d3/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 8442.11,
+            "uncertainty": 0.91
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb208_3p3/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "3p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 8501.53,
+            "uncertainty": 0.97
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb207_3p3/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transition": {
+            "Upper": "3p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 8507.52,
+            "uncertainty": 0.82
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb206_3p3/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "3p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 8512.15,
+            "uncertainty": 0.72
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb204_3p3/2_1s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transition": {
+            "Upper": "3p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 8523.3,
+            "uncertainty": 0.78
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb208_3d3/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 2457.2,
+            "uncertainty": 0.2
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb207_3d3/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 2457.86,
+            "uncertainty": 0.15
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb206_3d3/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 2458.33,
+            "uncertainty": 0.36
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb204_3d3/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 2459.7,
+            "uncertainty": 0.21
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb208_3d5/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 2500.33,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb207_3d5/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 2501.1,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb206_3d5/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 2501.6,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb204_3d5/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 2502.83,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb208_3d3/2_2p1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": {
+            "value": 2642.11,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb207_3d3/2_2p1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": {
+            "value": 2642.93,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb206_3d3/2_2p1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": {
+            "value": 2644.14,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb204_3d3/2_2p1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": {
+            "value": 2645.52,
+            "uncertainty": 0.07
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb208_4f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "4f7/2",
+            "Lower": "3d5/2"
+        },
+        "Energy [keV]": {
+            "value": 937.98,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb207_4f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transition": {
+            "Upper": "4f7/2",
+            "Lower": "3d5/2"
+        },
+        "Energy [keV]": {
+            "value": 937.83,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb206_4f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "4f7/2",
+            "Lower": "3d5/2"
+        },
+        "Energy [keV]": {
+            "value": 937.87,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb204_4f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transition": {
+            "Upper": "4f7/2",
+            "Lower": "3d5/2"
+        },
+        "Energy [keV]": {
+            "value": 937.99,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb208_4f5/2_3d3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "4f5/2",
+            "Lower": "3d3/2"
+        },
+        "Energy [keV]": {
+            "value": 971.85,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb207_4f5/2_3d3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transition": {
+            "Upper": "4f5/2",
+            "Lower": "3d3/2"
+        },
+        "Energy [keV]": {
+            "value": 971.83,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb206_4f5/2_3d3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "4f5/2",
+            "Lower": "3d3/2"
+        },
+        "Energy [keV]": {
+            "value": 971.86,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb204_4f5/2_3d3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transition": {
+            "Upper": "4f5/2",
+            "Lower": "3d3/2"
+        },
+        "Energy [keV]": {
+            "value": 971.86,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb208_5f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "5f7/2",
+            "Lower": "3d5/2"
+        },
+        "Energy [keV]": {
+            "value": 1366.52,
+            "uncertainty": 0.08
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb207_5f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transition": {
+            "Upper": "5f7/2",
+            "Lower": "3d5/2"
+        },
+        "Energy [keV]": {
+            "value": 1366.42,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb206_5f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "5f7/2",
+            "Lower": "3d5/2"
+        },
+        "Energy [keV]": {
+            "value": 1366.4,
+            "uncertainty": 0.08
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb204_5f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transition": {
+            "Upper": "5f7/2",
+            "Lower": "3d5/2"
+        },
+        "Energy [keV]": {
+            "value": 1366.57,
+            "uncertainty": 0.09
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb208_5f5/2_3d3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "5f5/2",
+            "Lower": "3d3/2"
+        },
+        "Energy [keV]": {
+            "value": 1404.74,
+            "uncertainty": 0.08
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb207_5f5/2_3d3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transition": {
+            "Upper": "5f5/2",
+            "Lower": "3d3/2"
+        },
+        "Energy [keV]": {
+            "value": 1404.66,
+            "uncertainty": 0.08
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb206_5f5/2_3d3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "5f5/2",
+            "Lower": "3d3/2"
+        },
+        "Energy [keV]": {
+            "value": 1404.62,
+            "uncertainty": 0.09
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb204_5f5/2_3d3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transition": {
+            "Upper": "5f5/2",
+            "Lower": "3d3/2"
+        },
+        "Energy [keV]": {
+            "value": 1404.68,
+            "uncertainty": 0.11
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb208_6f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "6f7/2",
+            "Lower": "3d5/2"
+        },
+        "Energy [keV]": {
+            "value": 1599.67,
+            "uncertainty": 0.15
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb207_6f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transition": {
+            "Upper": "6f7/2",
+            "Lower": "3d5/2"
+        },
+        "Energy [keV]": {
+            "value": 1599.68,
+            "uncertainty": 0.21
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb206_6f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "6f7/2",
+            "Lower": "3d5/2"
+        },
+        "Energy [keV]": {
+            "value": 1599.11,
+            "uncertainty": 0.2
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb204_6f7/2_3d5/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transition": {
+            "Upper": "6f7/2",
+            "Lower": "3d5/2"
+        },
+        "Energy [keV]": {
+            "value": 1599.8,
+            "uncertainty": 0.19
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb208_6f5/2_3d3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "6f5/2",
+            "Lower": "3d3/2"
+        },
+        "Energy [keV]": {
+            "value": 1639.98,
+            "uncertainty": 0.19
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb207_6f5/2_3d3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transition": {
+            "Upper": "6f5/2",
+            "Lower": "3d3/2"
+        },
+        "Energy [keV]": {
+            "value": 1640.23,
+            "uncertainty": 0.24
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb206_6f5/2_3d3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "6f5/2",
+            "Lower": "3d3/2"
+        },
+        "Energy [keV]": {
+            "value": 1639.92,
+            "uncertainty": 0.24
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb204_6f5/2_3d3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transition": {
+            "Upper": "6f5/2",
+            "Lower": "3d3/2"
+        },
+        "Energy [keV]": {
+            "value": 1640.21,
+            "uncertainty": 0.34
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb208_2s1/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "2s1/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 1030.44,
+            "uncertainty": 0.17
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb207_2s1/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transition": {
+            "Upper": "2s1/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 1030.02,
+            "uncertainty": 0.27
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb206_2s1/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "2s1/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 1029.99,
+            "uncertainty": 0.41
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb204_2s1/2_2p3/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transition": {
+            "Upper": "2s1/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 1028.83,
+            "uncertainty": 0.38
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb208_2s1/2_2p1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "2s1/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": {
+            "value": 1215.43,
+            "uncertainty": 0.26
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb207_2s1/2_2p1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transition": {
+            "Upper": "2s1/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": {
+            "value": 1215.6,
+            "uncertainty": 0.45
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb206_2s1/2_2p1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "2s1/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": {
+            "value": 1215.58,
+            "uncertainty": 0.54
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb204_2s1/2_2p1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transition": {
+            "Upper": "2s1/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": {
+            "value": 1214.12,
+            "uncertainty": 0.3
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb208_3p3/2_2s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb208",
+        "Transition": {
+            "Upper": "3p3/2",
+            "Lower": "2s1/2"
+        },
+        "Energy [keV]": {
+            "value": 1507.48,
+            "uncertainty": 0.26
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb207_3p3/2_2s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb207",
+        "Transition": {
+            "Upper": "3p3/2",
+            "Lower": "2s1/2"
+        },
+        "Energy [keV]": {
+            "value": 1508.71,
+            "uncertainty": 0.22
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb206_3p3/2_2s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "3p3/2",
+            "Lower": "2s1/2"
+        },
+        "Energy [keV]": {
+            "value": 1509.53,
+            "uncertainty": 0.26
+        },
+        "Notes": ""
+    },
+    "kessler_muonic_1975_muonic_Pb204_3p3/2_2s1/2": {
+        "Reference": "kessler_muonic_1975",
+        "Nuclide": "Pb204",
+        "Transition": {
+            "Upper": "3p3/2",
+            "Lower": "2s1/2"
+        },
+        "Energy [keV]": {
+            "value": 1511.63,
+            "uncertainty": 0.2
+        },
+        "Notes": ""
+    }
+}

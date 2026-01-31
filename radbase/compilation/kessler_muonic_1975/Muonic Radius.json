@@ -1,0 +1,58 @@
+{
+    "kessler_muonic_1975_radius_Pb204_NP_Calculated": {
+        "Reference": "kessler_muonic_1975",
+        "Data used as input": [
+            "kessler_muonic_1975_fermi_Pb204"
+        ],
+        "Nuclide": "Pb204",
+        "R [fm]": {
+            "value": 5.4857,
+            "uncertainty": 0.0012
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Reduced Chi-Squared": 0.47,
+        "Notes": "Oddly low chi-squared and error given the experimental/theoretical errorbars."
+    },
+    "kessler_muonic_1975_radius_Pb206_NP_Calculated": {
+        "Reference": "kessler_muonic_1975",
+        "Data used as input": [
+            "kessler_muonic_1975_fermi_Pb206"
+        ],
+        "Nuclide": "Pb206",
+        "R [fm]": {
+            "value": 5.497,
+            "uncertainty": 0.0015
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Reduced Chi-Squared": 0.73,
+        "Notes": "Oddly low chi-squared and error given the experimental/theoretical errorbars."
+    },
+    "kessler_muonic_1975_radius_Pb208_NP_Calculated": {
+        "Reference": "kessler_muonic_1975",
+        "Data used as input": [
+            "kessler_muonic_1975_fermi_Pb208"
+        ],
+        "Nuclide": "Pb208",
+        "R [fm]": {
+            "value": 5.5097,
+            "uncertainty": 0.0006
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Reduced Chi-Squared": 0.11,
+        "Notes": "Oddly low chi-squared and error given the experimental/theoretical errorbars."
+    },
+    "kessler_muonic_1975_radius_Pb207_NP_Calculated": {
+        "Reference": "kessler_muonic_1975",
+        "Data used as input": [
+            "kessler_muonic_1975_fermi_Pb207"
+        ],
+        "Nuclide": "Pb207",
+        "R [fm]": {
+            "value": 5.5036,
+            "uncertainty": 0.0004
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Reduced Chi-Squared": 0.05,
+        "Notes": "Oddly low chi-squared and error given the experimental/theoretical errorbars."
+    }
+}
