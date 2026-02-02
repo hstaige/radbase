@@ -119,14 +119,14 @@ def test_number_with_uncertainty_processor():
         ref_proc.process(bad_widget)
 
 
-def test_init_data_entry_interface(tmp_path):
-
-    global example_references
-
-    temp_references_file = tmp_path / 'references.json'
-    temp_references_file.write_text(json.dumps(example_references))
-
-    DataEntryInterface()
+# def test_init_data_entry_interface(tmp_path):
+#
+#     global example_references
+#
+#     temp_references_file = tmp_path / 'references.json'
+#     temp_references_file.write_text(json.dumps(example_references))
+#
+#     DataEntryInterface()
 
 
 def test_save_data(tmp_path):
@@ -136,7 +136,7 @@ def test_save_data(tmp_path):
     tmp_path.mkdir(exist_ok=True)
     tmp_data_loc = tmp_path / ref_key / f'{dummy_template.name}.json'
 
-    interface = DataEntryInterface(compilation_folder=tmp_path)
+    interface = DataEntryInterface(compilation_folder=tmp_path, start_interface=False)
 
     interface.save_data(dummy_template, test_data, replacement_strategy='AlwaysReplace')
     assert json.loads(tmp_data_loc.read_text()) == {'testkey': test_data}

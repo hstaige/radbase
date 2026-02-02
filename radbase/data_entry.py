@@ -770,19 +770,8 @@ class DataEntryInterface:
 
     def __init__(self,
                  references: dict[str, Reference] | Traversable | None = None,
-                 compilation_folder: Optional[str | Traversable] = None):
-
-        self.root = tk.Tk()
-        self.root.title("Data Entry Interface")
-
-        def _on_mousewheel(event):
-            widget = event.widget
-            try:
-                widget.yview_scroll(int(-1 * (event.delta / 120)), "units")
-            except AttributeError:
-                pass
-
-        self.root.bind_all("<MouseWheel>", _on_mousewheel)
+                 compilation_folder: Optional[str | Traversable] = None,
+                 start_interface: bool = True):
 
         if references is None:
             self._load_references_from_json(config['reference_path'])
@@ -799,13 +788,28 @@ class DataEntryInterface:
         # Register templates here
         self.templates = templates
 
-        self.last_submitted = tk.StringVar()
         self.field_widgets = {}  # field_name -> widget
         self.keep_vars = {}  # field_name -> BooleanVar
 
         self.current_entries: OrderedDict[
             str, tuple[tk.Widget, FieldProcessor]] = OrderedDict()  # Stores tk entry objects for each field displayed.
-        self.show_template_selection()
+
+        if start_interface:
+            self.root = tk.Tk()
+            self.root.title("Data Entry Interface")
+
+            def _on_mousewheel(event):
+                widget = event.widget
+                try:
+                    widget.yview_scroll(int(-1 * (event.delta / 120)), "units")
+                except AttributeError:
+                    pass
+
+            self.root.bind_all("<MouseWheel>", _on_mousewheel)
+
+            self.last_submitted = tk.StringVar()
+
+            self.show_template_selection()
 
     def _load_references_from_json(self, reference_path: Optional[str | Traversable] = None):
         with open(reference_path, "r", encoding="utf-8") as f:
