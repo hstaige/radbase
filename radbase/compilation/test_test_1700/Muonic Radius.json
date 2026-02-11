@@ -1,0 +1,43 @@
+{
+    "test_test_1700_radius_Pb203_NP_Vary": {
+        "Reference": "test_test_1700",
+        "Relies On": [
+            "bergem_nuclear_1988_muonic_Pb208_2p1/2_1s1/2",
+            "bergem_nuclear_1988_muonic_Pb208_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Pb203",
+        "R [fm]": {
+            "value": 100.0,
+            "uncertainty": null
+        },
+        "Nuclear Polarization Method": "Vary",
+        "Transition_A": {
+            "Upper": "2p",
+            "Lower": "1s"
+        },
+        "Energy [keV]_A": {
+            "value": 300.3,
+            "uncertainty": 0.3
+        },
+        "Reduced Chi-Squared": 0.0,
+        "Notes": ""
+    },
+    "test_test_1700_radius_Pb204_NP_Calculated": {
+        "Reference": "test_test_1700",
+        "Relies On": [
+            "test_test_1700_muonic_Sn112_2p1/2_1s1/2"
+        ],
+        "Nuclide": "Pb204",
+        "R [fm]": {
+            "value": 100.3,
+            "uncertainty": 0.3
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "test_test_1700_muonic_nuclear_polarization_Sn112_1s1/2",
+            "test_test_1700_muonic_nuclear_polarization_Sn112_2p1/2"
+        ],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": ""
+    }
+}

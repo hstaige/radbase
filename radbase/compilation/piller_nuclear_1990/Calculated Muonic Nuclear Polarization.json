@@ -1,0 +1,32 @@
+{
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn112_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn112",
+        "Level": "1s1/2",
+        "Energy [keV]": {
+            "value": 1.755,
+            "uncertainty": null
+        },
+        "Notes": ""
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn112_2p1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn112",
+        "Level": "2p1/2",
+        "Energy [keV]": {
+            "value": 0.255,
+            "uncertainty": null
+        },
+        "Notes": ""
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn112_2p3/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn112",
+        "Level": "2p3/2",
+        "Energy [keV]": {
+            "value": 0.226,
+            "uncertainty": null
+        },
+        "Notes": ""
+    }
+}

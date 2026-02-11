@@ -45,7 +45,7 @@ def compare_rel_results(filename, rel1, rel2, lsuffix='x', rsuffix='y'):
             series = merge_df.iloc[:, col[0].column - 1]
             max_len = max((
                 series.astype(str).map(len).max(),  # len of largest item
-                len(str(series.name))  # len of column name/header
+                len(str(series.label))  # len of column name/header
             )) + 1  # adding a little extra space)
             worksheet.column_dimensions[
                 openpyxl.utils.get_column_letter(col[0].column)].width = max_len  # set column width
@@ -95,7 +95,7 @@ def compare_abs_results(filename, absl1, absl2, lsuffix='x', rsuffix='y'):
             series = merge_df.iloc[:, col[0].column - 1]
             max_len = max((
                 series.astype(str).map(len).max(),  # len of largest item
-                len(str(series.name))  # len of column name/header
+                len(str(series.label))  # len of column name/header
             )) + 1  # adding a little extra space)
             worksheet.column_dimensions[
                 openpyxl.utils.get_column_letter(col[0].column)].width = max_len  # set column width

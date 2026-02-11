@@ -1,0 +1,15 @@
+{
+    "test_test_1700_muonic_Sn112_2p1/2_1s1/2": {
+        "Reference": "test_test_1700",
+        "Nuclide": "Sn112",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3432.564,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "test_test_1700_muonic_nuclear_polarization_Sn112_1s1/2": {
+        "Reference": "test_test_1700",
+        "Nuclide": "Sn112",
+        "Level": "1s1/2",
+        "Energy [keV]": {
+            "value": 1755.0,
+            "uncertainty": null
+        },
+        "Notes": ""
+    },
+    "test_test_1700_muonic_nuclear_polarization_Sn112_2p1/2": {
+        "Reference": "test_test_1700",
+        "Nuclide": "Sn112",
+        "Level": "2p1/2",
+        "Energy [keV]": {
+            "value": 255.0,
+            "uncertainty": null
+        },
+        "Notes": ""
+    }
+}
