@@ -155,5 +155,22 @@
         "pages": "731-748",
         "url": "10.1103/PhysRevC.14.731",
         "doi": "https://link.aps.org/doi/10.1103/PhysRevC.14.731"
+    },
+    "phan_nuclear_1985": {
+        "title": "Nuclear polarization in muonic 90Zr",
+        "author": [
+            "T. Q. Phan",
+            "P. Bergem",
+            "A. R\u00fcetschi",
+            "L. A. Schaller",
+            "L. Schellenberg"
+        ],
+        "year": "1985",
+        "month": "August",
+        "journal": "Physical Review C",
+        "volume": "32",
+        "pages": "609-619",
+        "url": "https://link.aps.org/doi/10.1103/PhysRevC.32.609",
+        "doi": "10.1103/PhysRevC.32.609"
     }
 }

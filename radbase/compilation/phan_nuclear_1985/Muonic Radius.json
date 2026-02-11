@@ -1,0 +1,28 @@
+{
+    "phan_nuclear_1985_radius_Zr90_NP_Mixed": {
+        "Reference": "phan_nuclear_1985",
+        "Relies On": [],
+        "Nuclide": "Zr90",
+        "R [fm]": {
+            "value": 4.2724,
+            "uncertainty": 0.0009
+        },
+        "Nuclear Polarization Method": "Mixed",
+        "Calculated Nuclear Polarization": [
+            "test_test_1700_muonic_nuclear_polarization_Sn112_1s1/2",
+            "test_test_1700_muonic_nuclear_polarization_Sn112_2p1/2"
+        ],
+        "Level_A": "1s",
+        "Energy [keV]_A": {
+            "value": 175.0,
+            "uncertainty": 22.0
+        },
+        "Level_B": "2s",
+        "Energy [keV]_B": {
+            "value": 175.0,
+            "uncertainty": 22.0
+        },
+        "Reduced Chi-Squared": 0.76,
+        "Notes": ""
+    }
+}

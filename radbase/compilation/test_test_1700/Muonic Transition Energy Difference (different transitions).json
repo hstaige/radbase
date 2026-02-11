@@ -1,0 +1,19 @@
+{
+    "test_test_1700_muonic_difference_Zr90": {
+        "Reference": "test_test_1700",
+        "Nuclide": "Zr90",
+        "Transition_A": {
+            "Upper": "3p3/2",
+            "Lower": "1s1/2"
+        },
+        "Transition_B": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 100.0,
+            "uncertainty": null
+        },
+        "Notes": ""
+    }
+}
