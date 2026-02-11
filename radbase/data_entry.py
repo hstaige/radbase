@@ -943,7 +943,7 @@ muonic_transition_energy_difference_diff_transition_template = InputTemplate(
     fields=[
         reference_field,
         nuclide_field,
-        FieldSpec("Transitions", MultiTransitionProcessor(), VariableNumberWidgetCreator(TransitionWidgetCreator()),
+        FieldSpec("Transitions", VariableNumberProcessor(TransitionProcessor()), VariableNumberWidgetCreator(TransitionWidgetCreator()),
                   hovertext='Enter the upper and lower levels of the atomic/muonic transition'),
         FieldSpec("Energy Difference [keV] (A-B)", NumberWithUncertaintyProcessor("Energy Difference [keV] (A-B)")),
         notes_field
@@ -951,7 +951,7 @@ muonic_transition_energy_difference_diff_transition_template = InputTemplate(
     data_key=lambda values: '_'.join(
         [values['Reference'], 'muonic_difference', values['Nuclide'],
          *list(
-             sum([(field_name, field['Upper'], field['Lower']) for field_name, field in values['Transitions'].items()],
+             sum([(field_name, field['Upper'], field['Lower']) for field_name, field in values.items() if 'Transition' in field_name.lower()],
                  ()))])
 )
 

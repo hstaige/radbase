@@ -1,0 +1,15 @@
+{
+    "phan_nuclear_1985_muonic_Zr90_2s1/2_2p3/2": {
+        "Reference": "phan_nuclear_1985",
+        "Nuclide": "Zr90",
+        "Transition": {
+            "Upper": "2s1/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 106.404,
+            "uncertainty": 0.009
+        },
+        "Notes": ""
+    }
+}
