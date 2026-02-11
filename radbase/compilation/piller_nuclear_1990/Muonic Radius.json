@@ -1,0 +1,22 @@
+{
+    "piller_nuclear_1990_radius_Sn112_NP_Calculated": {
+        "Reference": "piller_nuclear_1990",
+        "Relies On": [
+            "piller_nuclear_1990_muonic_Sn112_2p1/2_1s1/2",
+            "piller_nuclear_1990_muonic_Sn112_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Sn112",
+        "R [fm]": {
+            "value": 4.5958,
+            "uncertainty": 0.0005
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn112_1s1/2",
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn112_2p1/2",
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn112_2p3/2"
+        ],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": "Experimental uncertainty only"
+    }
+}

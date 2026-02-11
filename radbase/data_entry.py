@@ -34,6 +34,28 @@ class Reference:
     doi: Optional[str] = None
 
 
+class ScrollableFrame(ttk.Frame):
+    def __init__(self, container, *args, **kwargs):
+        super().__init__(container, *args, **kwargs)
+        canvas = tk.Canvas(self)
+        scrollbar = ttk.Scrollbar(self, orient="vertical", command=canvas.yview)
+        self.scrollable_frame = ttk.Frame(canvas)
+
+        self.scrollable_frame.bind(
+            "<Configure>",
+            lambda e: canvas.configure(
+                scrollregion=canvas.bbox("all")
+            )
+        )
+
+        canvas.create_window((0, 0), window=self.scrollable_frame, anchor="nw")
+
+        canvas.configure(yscrollcommand=scrollbar.set)
+
+        canvas.pack(side="left", fill="both", expand=True)
+        scrollbar.pack(side="right", fill="y")
+
+
 class ToolTip:
     def __init__(self, widget, text: str, delay: int = 500):
         self.widget = widget
@@ -81,13 +103,14 @@ class ToolTip:
 
 
 class FieldProcessor(Protocol):
-    def process(self, widget: tk.Widget) -> Any:
+    def process(self, widget: tk.Widget) -> dict[str, Any]:
         pass
 
 
 class CastProcessor:
 
-    def __init__(self, field_type: type, allows_empty: bool = False):
+    def __init__(self, field_type: type, key: str, allows_empty: bool = False):
+        self.key = key
         self.field_type = field_type
         self.allows_empty = allows_empty
 
@@ -95,27 +118,124 @@ class CastProcessor:
         raw = widget.get()
         if raw == "" and not self.allows_empty:
             raise ValueError("Field is empty")
-        return self.field_type(raw)
+        return {self.key: self.field_type(raw)}
+
+
+class GroupedProcessor:
+
+    def __init__(self, processors: list[FieldProcessor]):
+        self.processors = processors
+
+    def process(self, widget: tk.Widget, allows_empty=False):
+        result = {}
+
+        for sub_widget, processor in zip(widget.widgets, self.processors):
+            try:
+                sub_result = processor.process(sub_widget)
+            except ValueError:
+                continue
+
+            result = result | sub_result
+
+        if result == {} and not allows_empty:
+            raise ValueError(f'At least one sub_widget of {widget} must be non-empty for GroupedProcessor')
+
+        return result
+
+
+class XORProcessor:
+    # Requires exactly one of the two fields to be filled, and then returns data from filled out field.
+    def __init__(self, processors: list[FieldProcessor]):
+        self.processors = processors
+
+    def process(self, widget: tk.Widget):
+        result = {}
+
+        if len(widget.widgets) != 2:
+            raise ValueError('XOR processor applied to widget that does not have two fields.')
+
+        num_filled = 0
+        for sub_widget, processor in zip(widget.widgets, self.processors):
+            try:
+                sub_result = processor.process(sub_widget)
+            except ValueError:
+                continue
+
+            num_filled += 1
+            result = result | sub_result
+
+        if num_filled != 1:
+            raise ValueError(f'Exactly one of the XOR fields must be filled, {num_filled} were filled.')
+
+        return result
 
 
 class NumberWithUncertaintyProcessor:
 
-    @staticmethod
-    def process(widget: tk.Widget):
+    def __init__(self, key: str):
+        self.key = key
+
+    def process(self, widget: tk.Widget):
         raw = widget.get().strip()
         try:
             value = float(raw)
-            return {'value': value, 'uncertainty': None}
+            return {self.key: {'value': value, 'uncertainty': None}}
         except ValueError:
             try:
                 uvar = uncertainties.ufloat_fromstr(raw)
-                return {'value': uvar.n, 'uncertainty': uvar.s}
+                return {self.key: {'value': uvar.n, 'uncertainty': uvar.s}}
             except ValueError:
                 raise ValueError(
                     f'Entered value of {raw} does not match the number with uncertainty pattern. Ex. 0.65(2) or 0.32')
 
 
+class NuclearPolarizationProcessor:
+
+    @staticmethod
+    def process(widget: tk.Widget):
+        selection = widget.selection
+        fit_widget = widget.fit_widget
+        prev_calced_widget = widget.prev_calced_widget
+
+        calced_processor = PreviousDataProcessor(key='Calculated Nuclear Polarization')
+        varied_processor = VariableNumberProcessor(
+            GroupedProcessor([
+                XORProcessor(
+                    [TransitionProcessor(), CastProcessor(str, key='Level')]
+                ),
+                NumberWithUncertaintyProcessor('Energy [keV]')
+            ]))
+
+        mode = selection.get()
+        result = {'Nuclear Polarization Method': mode}
+
+        if mode == 'Calculated':
+            return result | calced_processor.process(prev_calced_widget)
+        elif mode == 'Vary':
+            return result | varied_processor.process(fit_widget)
+        elif mode == 'Mixed':
+            return result | calced_processor.process(prev_calced_widget) | varied_processor.process(fit_widget)
+        else:
+            raise ValueError(f'{mode} is not in [Calculated, Vary, Mixed]')
+
+
+class VariableNumberProcessor:
+
+    def __init__(self, processor: FieldProcessor, suffixes: list[str] | None = None):
+        self.processor = processor
+        self.suffixes = suffixes if suffixes else [f'_{chr(ord('A') + i)}' for i in range(26)]
+
+    def process(self, widget: tk.Widget) -> dict:
+        data = {}
+        for suffix, (label, widget) in zip(self.suffixes, widget.entries):
+            sub_result = self.processor.process(widget)
+            sub_result = {key + suffix: value for key, value in sub_result.items()}
+            data = data | sub_result
+        return data
+
+
 class MultiTransitionProcessor:
+
     @staticmethod
     def process(widget: tk.Widget):
         data = {}
@@ -125,20 +245,35 @@ class MultiTransitionProcessor:
 
 
 class NuclideProcessor:
-    @staticmethod
-    def process(widget: tk.Widget):
+
+    def __init__(self, key: str = 'Nuclide'):
+        self.key = key
+
+    def process(self, widget: tk.Widget):
         raw = widget.get()
-        if re.match(r'[a-zA-Z]{2}\d{1,3}', raw):
-            return raw
-        elif re.match(r'[a-zA-Z]{2}nat', raw):
-            return raw
+        if re.match(r'[a-zA-Z]{2}\d{1,3}', raw) or re.match(r'[a-zA-Z]{2}nat', raw):
+            return {self.key: raw}
         else:
             raise ValueError(
                 'Entered Nuclide does not match pattern of two letters and one to three numbers (Ex. Pb208')
 
 
+class PreviousDataProcessor:
+    def __init__(self, key: str = 'Relies On'):
+        self.key = key
+
+    def process(self, widget: tk.Widget) -> dict[str, list[str]]:
+        selected = [
+            key
+            for key, var in widget.selection_vars.items()
+            if var.get()
+        ]
+        return {self.key: selected}
+
+
 class ReferenceProcessor:
-    def __init__(self, reference_path: Traversable):
+    def __init__(self, reference_path: Traversable, key: str = 'Reference'):
+        self.key = key
         self.reference_path = reference_path
 
     @property
@@ -158,14 +293,15 @@ class ReferenceProcessor:
                 f"Reference '{value}' is not a known citation key"
             )
 
-        return value
+        return {self.key: value}
 
 
 class SelectProcessor:
-    def __init__(self, options: list[str]):
+    def __init__(self, options: list[str], key: str):
+        self.key = key
         self.options = set(options)
 
-    def process(self, widget: tk.Widget) -> str:
+    def process(self, widget: tk.Widget) -> dict[str, str]:
         value = widget.get().strip()
 
         if not value:
@@ -174,7 +310,7 @@ class SelectProcessor:
         if value not in self.options:
             raise ValueError(f"'{value}' is not a valid selection")
 
-        return value
+        return {self.key: value}
 
 
 class TransitionProcessor:
@@ -192,17 +328,19 @@ class TransitionProcessor:
     HYBRID_LEVEL_PATTERN = re.compile(
         r"""
         ^
-        \d+[+-]            # nuclear spin/parity (e.g. 2+, 0-)
-        ,
+        (\d+[+-],)?          # nuclear spin/parity (e.g. 2+, 0-)
         \d+                # principal quantum number
         [spdf]             # orbital
-        \d+/\d+            # required j
+        \d/\d            # required j
         $
         """,
         re.VERBOSE
     )
 
-    def process(self, widget: tk.Widget) -> dict[str, str]:
+    def __init__(self, key: str = 'Transition'):
+        self.key = key
+
+    def process(self, widget: tk.Widget) -> dict[str, dict[str, str]]:
         upper = widget.upper_entry.get().strip()
         lower = widget.lower_entry.get().strip()
 
@@ -217,7 +355,7 @@ class TransitionProcessor:
 
         # both simple or both hybrid
         if upper_simple and lower_simple or upper_hybrid and lower_hybrid:
-            return {'Upper': upper, 'Lower': lower}
+            return {self.key: {'Upper': upper, 'Lower': lower}}
 
         raise ValueError(
             "Invalid transition format.\n"
@@ -227,25 +365,12 @@ class TransitionProcessor:
         )
 
 
-class PreviousMeasurementProcessor:
-    @staticmethod
-    def process(widget: tk.Widget) -> list[str]:
-        selected = [
-            key
-            for key, var in widget.selection_vars.items()
-            if var.get()
-        ]
-        if not selected:
-            raise ValueError("At least one previous measurement must be selected")
-        return selected
-
-
-class Widgetcreator(Protocol):
+class WidgetCreator(Protocol):
     def create_widget(self, frame, row) -> tk.Widget:
         pass
 
 
-class DefaultWidgetcreator:
+class DefaultWidgetCreator:
     @staticmethod
     def create_widget(frame, row) -> tk.Widget:
         entry = ttk.Entry(frame, width=40)
@@ -253,7 +378,131 @@ class DefaultWidgetcreator:
         return entry
 
 
-class PreviousMeasurementWidgetCreator:
+class GroupedWidgetCreator:
+
+    def __init__(self, labels: list[str], widget_creators: list[WidgetCreator]):
+        self.labels = labels
+        self.widget_creators = widget_creators
+        self.widgets = []
+
+    def create_widget(self, frame, row) -> tk.Widget:
+        grouped_frame = tk.Frame(frame)
+        grouped_frame.grid(row=row, column=1, pady=4, sticky='w')
+        grouped_frame.widgets = []
+
+        for i, (label, widget_creator) in enumerate(zip(self.labels, self.widget_creators)):
+            tk.Label(grouped_frame, text=label).grid(row=i, column=0, pady=4, sticky='w')
+            grouped_frame.widgets.append(widget_creator.create_widget(grouped_frame, i))
+
+        return grouped_frame
+
+
+class NuclearPolarizationWidgetCreator:
+
+    def __init__(self, compilation_path: Traversable):
+        self.compilation_path = compilation_path
+
+    def create_widget(self, frame, row) -> tk.Widget:
+        container = ttk.Frame(frame)
+        container.grid(row=row, column=1, sticky="w")
+
+        # Selection combobox (Calculated / Vary / Mixed)
+        selection = SelectWidgetCreator(
+            ["Calculated", "Vary", "Mixed"]
+        ).create_widget(container, row=0)
+        selection.grid(row=0, column=0, sticky="w", pady=4)
+
+        # Sub-widgets
+        prev_calced_widget = PreviousDataWidgetCreator(
+            self.compilation_path,
+            filter_regex="muonic_nuclear"
+        ).create_widget(container, row=1)
+
+        pair = GroupedWidgetCreator(['', 'Energy [keV]'], [GroupedWidgetCreator(['Transition', 'Level'],
+                                                                                [TransitionWidgetCreator(),
+                                                                                 DefaultWidgetCreator()]),
+                                                           DefaultWidgetCreator()])
+        fit_widget = VariableNumberWidgetCreator(pair).create_widget(container, row=1)
+
+        # Start hidden
+        prev_calced_widget.grid_remove()
+        fit_widget.grid_remove()
+
+        def handle_selection(event=None):
+            mode = selection.get()
+
+            if mode == "Calculated":
+                prev_calced_widget.grid(row=1, column=0)
+                fit_widget.grid_remove()
+
+            elif mode == "Vary":
+                prev_calced_widget.grid_remove()
+                fit_widget.grid(row=1, column=0)
+
+            elif mode == "Mixed":
+                prev_calced_widget.grid(row=1, column=0)
+                fit_widget.grid(row=2, column=0)
+
+        selection.bind("<<ComboboxSelected>>", handle_selection)
+        handle_selection()
+
+        container.selection = selection
+        container.fit_widget = fit_widget
+        container.prev_calced_widget = prev_calced_widget
+        return container
+
+
+class VariableNumberWidgetCreator:
+
+    def __init__(self, widget_creator: WidgetCreator):
+        self.widget_creator = widget_creator
+
+    def create_widget(self, frame, row):
+
+        class MultiContainer(ttk.Frame):  # Mainly for type hinting
+            def __init__(self, entries, buttons, *args, **kwargs):
+                super().__init__(frame, *args, **kwargs)
+                self.entries: list[tuple[tk.Label, tk.Widget]] = entries
+                self.buttons: list[tk.Button] = buttons
+
+            def regrid(self):
+                for i, (label, entry) in enumerate(self.entries):
+                    label.grid(row=i), entry.grid(row=i)
+                for button in self.buttons:
+                    button.grid(row=len(self.entries))
+
+        container = MultiContainer(entries=[], buttons=[])
+        container.grid(row=row, column=1, pady=4, sticky="w")
+
+        def add_new_entry(*_):
+            number_of_rows = len(container.entries)
+            new_letter = f'{chr(ord("A") + number_of_rows)}'
+
+            label = tk.Label(container, text=f'{new_letter}')
+            label.grid(row=number_of_rows, column=0)
+
+            next_entry = self.widget_creator.create_widget(frame=container, row=number_of_rows)
+
+            container.entries.append((label, next_entry))
+            container.regrid()
+
+        def delete_entry(*_):
+            label, entry = container.entries.pop()
+            label.grid_forget(), entry.grid_forget()
+            container.regrid()
+
+        add_button = ttk.Button(container, text="Add", command=add_new_entry, takefocus=0)
+        add_button.grid(row=0, column=0, pady=10)
+
+        delete_button = ttk.Button(container, text="Remove", command=delete_entry, takefocus=0)
+        delete_button.grid(row=0, column=1, pady=10)
+        container.buttons = [add_button, delete_button]
+        add_new_entry(), add_new_entry()
+
+        return container
+
+
+class PreviousDataWidgetCreator:
 
     def __init__(self, compilation_path: Traversable, filter_regex: str = ""):
         self.filter_regex = filter_regex
@@ -273,7 +522,6 @@ class PreviousMeasurementWidgetCreator:
 
         return sorted(previous_measurements)
 
-    # CHATGPT generated. TODO: Double check this works as intended.
     def create_widget(self, frame, row) -> tk.Widget:
         container = ttk.Frame(frame)
         container.grid(row=row, column=1, pady=4, sticky="w")
@@ -633,9 +881,9 @@ class MultiTransitionWidgetCreator:
 
 
 class FieldSpec(NamedTuple):
-    name: str
+    label: str
     processor: FieldProcessor
-    widget_creator: Widgetcreator = DefaultWidgetcreator()
+    widget_creator: WidgetCreator = DefaultWidgetCreator()
     hovertext: str | None = None
 
 
@@ -654,7 +902,13 @@ nuclide_field = FieldSpec("Nuclide", NuclideProcessor(), hovertext='Provide a nu
 transition_field = FieldSpec("Transition", TransitionProcessor(), TransitionWidgetCreator(),
                              hovertext='Enter the upper and lower levels of the atomic/muonic transition')
 
-notes_field = FieldSpec("Notes", CastProcessor(str, allows_empty=True))
+transition_or_level_field = FieldSpec("Transition\nor Level",
+                                      XORProcessor([TransitionProcessor(), CastProcessor(str, key='Level')]),
+                                      GroupedWidgetCreator(['Transition', 'Level'],
+                                                           [TransitionWidgetCreator(), DefaultWidgetCreator()]),
+                                      hovertext='The transition/level for which the nuclear polarization calculation was done.')
+
+notes_field = FieldSpec("Notes", CastProcessor(str, key='Notes', allows_empty=True))
 
 # LIST TEMPLATES HERE. Each template must include a FieldSpec named "Reference".
 muonic_transition_energy_template = InputTemplate(
@@ -663,7 +917,7 @@ muonic_transition_energy_template = InputTemplate(
         reference_field,
         nuclide_field,
         transition_field,
-        FieldSpec("Energy [keV]", NumberWithUncertaintyProcessor()),
+        FieldSpec("Energy [keV]", NumberWithUncertaintyProcessor("Energy [keV]")),
         notes_field
     ],
     data_key=lambda values: '_'.join([values['Reference'], 'muonic', values['Nuclide'],
@@ -673,14 +927,14 @@ muonic_transition_energy_difference_template = InputTemplate(
     name="Muonic Transition Energy Difference (different nuclides)",
     fields=[
         reference_field,
-        FieldSpec("Nuclide A", NuclideProcessor()),
-        FieldSpec("Nuclide B", NuclideProcessor()),
+        FieldSpec("Nuclide A", NuclideProcessor(key="Nuclide_A")),
+        FieldSpec("Nuclide B", NuclideProcessor(key="Nuclide_B")),
         transition_field,
-        FieldSpec("Energy Difference [keV] (A-B)", NumberWithUncertaintyProcessor()),
+        FieldSpec("Energy Difference [keV] (A-B)", NumberWithUncertaintyProcessor("Energy Difference [keV] (A-B)")),
         notes_field
     ],
     data_key=lambda values: '_'.join(
-        [values['Reference'], 'muonic_difference', values['NuclideA'], values['NuclideB'],
+        [values['Reference'], 'muonic_difference', values['Nuclide_A'], values['Nuclide_B'],
          values['Transition']['Upper'], values['Transition']['Lower']])
 )
 
@@ -689,28 +943,55 @@ muonic_transition_energy_difference_diff_transition_template = InputTemplate(
     fields=[
         reference_field,
         nuclide_field,
-        FieldSpec("Transitions", MultiTransitionProcessor(), MultiTransitionWidgetCreator(),
+        FieldSpec("Transitions", MultiTransitionProcessor(), VariableNumberWidgetCreator(TransitionWidgetCreator()),
                   hovertext='Enter the upper and lower levels of the atomic/muonic transition'),
-        FieldSpec("Energy Difference [keV] (A-B)", NumberWithUncertaintyProcessor()),
+        FieldSpec("Energy Difference [keV] (A-B)", NumberWithUncertaintyProcessor("Energy Difference [keV] (A-B)")),
         notes_field
     ],
     data_key=lambda values: '_'.join(
         [values['Reference'], 'muonic_difference', values['Nuclide'],
-         *list(sum([(field_name, field['Upper'], field['Lower']) for field_name, field in values['Transitions'].items()], ()))])
+         *list(
+             sum([(field_name, field['Upper'], field['Lower']) for field_name, field in values['Transitions'].items()],
+                 ()))])
 )
+
+
+def mu_nuc_pol_key(values):
+    if 'Transition' in values:
+        return '_'.join([values['Reference'], 'muonic_nuclear_polarization', values['Nuclide'],
+                         values['Transition']['Upper'], values['Transition']['Lower']])
+    else:
+        return '_'.join([values['Reference'], 'muonic_nuclear_polarization', values['Nuclide'],
+                         values['Level']])
+
+
+muonic_nuclear_polarization_calculation_template = InputTemplate(
+    name="Calculated Muonic Nuclear Polarization",
+    fields=[
+        reference_field,
+        nuclide_field,
+        transition_or_level_field,
+        FieldSpec("Energy [keV]", NumberWithUncertaintyProcessor("Energy [keV]")),
+        notes_field
+    ],
+    data_key=mu_nuc_pol_key)
 
 muonic_barret_theory_template = InputTemplate(
     name="Muonic Barrett Moment",
     fields=[
         reference_field,
-        FieldSpec("Data used as input", PreviousMeasurementProcessor(),
-                  PreviousMeasurementWidgetCreator(compilation_path=config['compilation_dir'],
-                                                   filter_regex='muonic.*_')),
+        FieldSpec("Data used as input", PreviousDataProcessor(),
+                  PreviousDataWidgetCreator(compilation_path=config['compilation_dir'],
+                                            filter_regex='muonic.*_')),
         nuclide_field,
-        FieldSpec('Rka [fm]', NumberWithUncertaintyProcessor()),
-        FieldSpec('k [-]', CastProcessor(str)),
-        FieldSpec('alpha [1/fm]', CastProcessor(str)),
-        FieldSpec('Cz [fm/keV]', CastProcessor(str)),
+        FieldSpec('Rka [fm]', NumberWithUncertaintyProcessor('Rka [fm]')),
+        FieldSpec('k [-]', CastProcessor(str, key='k [-]')),
+        FieldSpec('alpha [1/fm]', CastProcessor(str, key='alpha [1/fm]')),
+        FieldSpec('Cz [fm/keV]', CastProcessor(str, key='Cz [fm/keV]')),
+        FieldSpec('Nuclear Polarization Method',
+                  NuclearPolarizationProcessor(),
+                  NuclearPolarizationWidgetCreator(compilation_path=config['compilation_dir']),
+                  hovertext='Were the NP corrections from theory ("Calculated") or varied as part of the optimization ("Fit")?'),
         notes_field
     ],
     data_key=lambda values: '_'.join([values['Reference'], 'barrett_moment', values['Nuclide'],
@@ -722,15 +1003,16 @@ muonic_radius_template = InputTemplate(
     name="Muonic Radius",
     fields=[
         reference_field,
-        FieldSpec("Data used as input", PreviousMeasurementProcessor(),
-                  PreviousMeasurementWidgetCreator(compilation_path=config['compilation_dir'],
-                                                   filter_regex='muonic.*_')),
+        FieldSpec("Data used as input", PreviousDataProcessor(),
+                  PreviousDataWidgetCreator(compilation_path=config['compilation_dir'],
+                                            filter_regex='muonic.*_')),
         nuclide_field,
-        FieldSpec('R [fm]', NumberWithUncertaintyProcessor()),
-        FieldSpec('Nuclear Polarization Method', SelectProcessor(['Calculated', 'Fit']),
-                  SelectWidgetCreator(['Calculated', 'Fit']),
+        FieldSpec('R [fm]', NumberWithUncertaintyProcessor(key='R [fm]')),
+        FieldSpec('Nuclear Polarization Method',
+                  NuclearPolarizationProcessor(),
+                  NuclearPolarizationWidgetCreator(compilation_path=config['compilation_dir']),
                   hovertext='Were the NP corrections from theory ("Calculated") or varied as part of the optimization ("Fit")?'),
-        FieldSpec('Reduced Chi-Squared', CastProcessor(float, allows_empty=True)),
+        FieldSpec('Reduced Chi-Squared', CastProcessor(float, key='Reduced Chi-Squared', allows_empty=True)),
         notes_field
     ],
     data_key=lambda values: '_'.join([values['Reference'], 'radius', values['Nuclide'],
@@ -741,13 +1023,15 @@ muonic_fermi_distribution_template = InputTemplate(
     name="Fermi Distribution",
     fields=[
         reference_field,
-        FieldSpec("Data used as input", PreviousMeasurementProcessor(),
-                  PreviousMeasurementWidgetCreator(compilation_path=config['compilation_dir'],
-                                                   filter_regex='muonic.*_')),
+        FieldSpec("Data used as input", PreviousDataProcessor(),
+                  PreviousDataWidgetCreator(compilation_path=config['compilation_dir'],
+                                            filter_regex='muonic.*_')),
         nuclide_field,
         # TODO add fermi distribution processor and widget creator with different fermi distribution options.
-        FieldSpec('c [fm]', NumberWithUncertaintyProcessor()),
-        FieldSpec('a [fm]', NumberWithUncertaintyProcessor()),
+        FieldSpec('c [fm]', NumberWithUncertaintyProcessor(key='c [fm]')),
+        FieldSpec('a [fm]', NumberWithUncertaintyProcessor(key='a [fm]')),
+        FieldSpec('beta2 [-]', NumberWithUncertaintyProcessor(key='beta2 [-]')),
+        FieldSpec('beta4 [-]', NumberWithUncertaintyProcessor(key='beta4 [-]')),
         notes_field
     ],
     data_key=lambda values: '_'.join([values['Reference'], 'fermi', values['Nuclide']])
@@ -756,6 +1040,7 @@ muonic_fermi_distribution_template = InputTemplate(
 templates = [muonic_transition_energy_template,
              muonic_transition_energy_difference_template,
              muonic_transition_energy_difference_diff_transition_template,
+             muonic_nuclear_polarization_calculation_template,
              muonic_barret_theory_template,
              muonic_radius_template,
              muonic_fermi_distribution_template]
@@ -796,6 +1081,7 @@ class DataEntryInterface:
 
         if start_interface:
             self.root = tk.Tk()
+            self.root.geometry("600x500")
             self.root.title("Data Entry Interface")
 
             def _on_mousewheel(event):
@@ -873,12 +1159,14 @@ class DataEntryInterface:
             wraplength=300
         ).pack(pady=10)
 
-        form_frame = ttk.Frame(self.root)
-        form_frame.pack(padx=10, pady=10, fill="x")
+        form_frame = ScrollableFrame(self.root)
+        form_frame.pack(padx=10, pady=10, expand=True, fill='both')
+
+        form_frame = form_frame.scrollable_frame
 
         for row, field in enumerate(template.fields):
             label = ttk.Label(form_frame,
-                              text=field.name,
+                              text=field.label,
                               font=("Arial", 11),
                               wraplength=120
                               )
@@ -887,10 +1175,10 @@ class DataEntryInterface:
                 ToolTip(label, field.hovertext)
 
             entry = field.widget_creator.create_widget(form_frame, row)
-            self.current_entries[field.name] = (entry, field.processor)
+            self.current_entries[field.label] = (entry, field.processor)
 
             keep_var = tk.BooleanVar(value=False)
-            self.keep_vars[field.name] = keep_var
+            self.keep_vars[field.label] = keep_var
 
             keep_check = ttk.Checkbutton(
                 form_frame,
@@ -943,7 +1231,7 @@ class DataEntryInterface:
             justify="left"
         ).pack(padx=20, pady=15)
 
-        field_names = [field.name for field in template.fields]
+        field_names = [field.label for field in template.fields]
         btn_frame = ttk.Frame(dialog)
         btn_frame.pack(fill="both", expand=True, padx=20, pady=10)
         buttons = []
@@ -992,7 +1280,8 @@ class DataEntryInterface:
         main_btn_frame = ttk.Frame(frame)
         main_btn_frame.grid(row=0, column=0, sticky='w')
         tk.Button(main_btn_frame, text='Submit',
-                  command=lambda: self.submit_2d(template, row_field, col_field, value_field, row_widgets, col_widgets, cells)).pack()
+                  command=lambda: self.submit_2d(template, row_field, col_field, value_field, row_widgets, col_widgets,
+                                                 cells)).pack()
         tk.Button(main_btn_frame, text='Back', command=lambda: dialog.destroy()).pack()
 
         row_widgets: list[tk.Widget] = []
@@ -1000,8 +1289,10 @@ class DataEntryInterface:
         cells: list[list[tk.Widget]] = []
 
         def make_widget(field_name):
-            field, = [field for field in template.fields if field.name == field_name]
-            return field.widget_creator.create_widget(grid_frame, row=0)
+            field, = [field for field in template.fields if field.label == field_name]
+            widget = field.widget_creator.create_widget(grid_frame, row=0)
+            widget.config(width=20)
+            return widget
 
         def regrid():
             for w in grid_frame.winfo_children():
@@ -1060,16 +1351,26 @@ class DataEntryInterface:
         # We take each (row_widget, col_widget, cell_widget) triplet, fill them in to the main data entry tab,
         # and trigger the data submission.
 
-        original_entries = {field_name: self.current_entries[field_name] for field_name in (row_field, col_field, value_field)}
+        original_entries = {field_name: self.current_entries[field_name] for field_name in
+                            (row_field, col_field, value_field)}
 
         for row_widget, cell_row in zip(row_widgets, cells):
             for col_widget, cell in zip(col_widgets, cell_row):
+
+                try:
+                    if not cell.get():
+                        continue
+                except AttributeError:
+                    continue
+
                 for field_name, widget in [(row_field, row_widget), (col_field, col_widget), (value_field, cell)]:
                     prev_entry, processor = self.current_entries[field_name]
                     self.current_entries[field_name] = (widget, processor)
-                self.submit_data(template, clear_fields=False)  # We don't want to erase our row/col entries as we submit
+                self.submit_data(template,
+                                 clear_fields=False)  # We don't want to erase our row/col entries as we submit
 
-        for field_name in (row_field, col_field, value_field):  # make sure we restore the original widgets once we are done submitting.
+        for field_name in (row_field, col_field,
+                           value_field):  # make sure we restore the original widgets once we are done submitting.
             self.current_entries[field_name] = original_entries[field_name]
 
         pass
@@ -1090,7 +1391,12 @@ class DataEntryInterface:
 
         try:
             for field_name, (widget, processor) in self.current_entries.items():
-                data[field_name] = processor.process(widget)
+                result = processor.process(widget)
+                if overlap := set(data.keys()).intersection(set(result.keys())):  # Key collision
+                    raise ValueError(
+                        f'Tried to add {field_name} data, but {overlap} field(s) are already present from another widget')
+                data = data | result
+
         except ValueError as e:
             messagebox.showerror("Invalid Input", str(e))
             return

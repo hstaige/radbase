@@ -1,0 +1,67 @@
+{
+    "powers_hyperfine_1968_muonic_Pb206_2p3/2_1s1/2": {
+        "Reference": "powers_hyperfine_1968",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 5974.1,
+            "uncertainty": 2.0
+        },
+        "Notes": ""
+    },
+    "powers_hyperfine_1968_muonic_Pb206_2p1/2_1s1/2": {
+        "Reference": "powers_hyperfine_1968",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 5789.0,
+            "uncertainty": 2.8
+        },
+        "Notes": ""
+    },
+    "powers_hyperfine_1968_muonic_Pb206_3d5/2_2p3/2": {
+        "Reference": "powers_hyperfine_1968",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 2503.4,
+            "uncertainty": 2.3
+        },
+        "Notes": ""
+    },
+    "powers_hyperfine_1968_muonic_Pb206_3d3/2_2p1/2": {
+        "Reference": "powers_hyperfine_1968",
+        "Nuclide": "Pb206",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": {
+            "value": 2645.5,
+            "uncertainty": 2.3
+        },
+        "Notes": ""
+    },
+    "powers_hyperfine_1968_muonic_Bi209_2p3/2_1s1/2": {
+        "Reference": "powers_hyperfine_1968",
+        "Nuclide": "Bi209",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 6034.0,
+            "uncertainty": 2.2
+        },
+        "Notes": ""
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "piller_nuclear_1990_muonic_Sn112_2p1/2_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn112",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3432.564,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "piller_nuclear_1990_muonic_Sn112_2p3/2_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn112",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3478.531,
+            "uncertainty": 0.056
+        },
+        "Notes": ""
+    }
+}

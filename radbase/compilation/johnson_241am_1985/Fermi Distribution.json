@@ -1,0 +1,50 @@
+{
+    "johnson_241am_1985_fermi_Am241": {
+        "Reference": "johnson_241am_1985",
+        "Relies On": [
+            "bergem_nuclear_1988_muonic_Pb208_2p1/2_1s1/2"
+        ],
+        "Nuclide": "Am241",
+        "c [fm]": {
+            "value": 7.1865,
+            "uncertainty": 0.0004
+        },
+        "a [fm]": {
+            "value": 0.522,
+            "uncertainty": null
+        },
+        "beta2 [-]": {
+            "value": 0.298,
+            "uncertainty": null
+        },
+        "beta4 [-]": {
+            "value": 0.057,
+            "uncertainty": null
+        },
+        "Notes": "Beta2, Beta4 from OIS; Experimental uncertainties only"
+    },
+    "johnson_241am_1985_fermi_Am243": {
+        "Reference": "johnson_241am_1985",
+        "Relies On": [
+            "bergem_nuclear_1988_muonic_Pb208_2p1/2_1s1/2"
+        ],
+        "Nuclide": "Am243",
+        "c [fm]": {
+            "value": 7.2048,
+            "uncertainty": 0.0004
+        },
+        "a [fm]": {
+            "value": 0.522,
+            "uncertainty": null
+        },
+        "beta2 [-]": {
+            "value": 0.296,
+            "uncertainty": null
+        },
+        "beta4 [-]": {
+            "value": 0.037,
+            "uncertainty": null
+        },
+        "Notes": "Beta2, Beta4 from OIS; Experimental uncertainties only"
+    }
+}

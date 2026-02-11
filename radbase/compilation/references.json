@@ -66,5 +66,94 @@
         "pages": "",
         "url": null,
         "doi": null
+    },
+    "piller_nuclear_1990": {
+        "title": "Nuclear charge radii of the tin isotopes from muonic atoms",
+        "author": [
+            "C. Piller",
+            "C. Gugler",
+            "R. Jacot-Guillarmod",
+            "L. A. Schaller",
+            "L. Schellenberg",
+            "H. Schneuwly",
+            "G. Fricke",
+            "T. Hennemann",
+            "J. Herberz"
+        ],
+        "year": "1990",
+        "month": "July",
+        "journal": "Physical Review C",
+        "volume": "42",
+        "pages": "182-189",
+        "url": "https://link.aps.org/doi/10.1103/PhysRevC.42.182",
+        "doi": "10.1103/PhysRevC.42.182"
+    },
+    "johnson_241am_1985": {
+        "title": "241Am AND 243Am CHARGE DISTRJBUTIONS FROM MUON IC X-RAY SPECTROSCOPY AND THE QUADRUPOLE MOMENT OF THE 240Am FISSION ISOMER",
+        "author": [
+            "M.W. JOHNSON",
+            "E.B. SHERA",
+            "M.V. HOEHN",
+            "R.A. NAUMANN",
+            "J.D. ZUMBRO",
+            "C. E. BEMIS Jr."
+        ],
+        "year": "1985",
+        "month": "October",
+        "journal": "Physics Letters B",
+        "volume": "161",
+        "pages": "75-78",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/0370269385906124?via%3Dihub",
+        "doi": "10.1016/0370-2693(85)90612-4"
+    },
+    "powers_muonlc_1974": {
+        "title": "MUONlC 197Au: A TEST OF THE WEAK-COUPLING MODEL",
+        "author": [
+            "R. J . POWERS",
+            "P. MARTIN",
+            "G. H. MILLER",
+            "R. E. WELSH",
+            "D. A. JENKINS"
+        ],
+        "year": "1974",
+        "month": "February",
+        "journal": "Nuclear Physics A",
+        "volume": "230",
+        "pages": "413-445",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/037594747490147X",
+        "doi": "10.1016/0375-9474(74)90147-X\n"
+    },
+    "powers_hyperfine_1968": {
+        "title": "Hyperfine ESects in Muonic Bi and Pb",
+        "author": [
+            "R. J. Powers"
+        ],
+        "year": "1968",
+        "month": "May",
+        "journal": "The Physical Review",
+        "volume": "169",
+        "pages": "1-20",
+        "url": "https://journals.aps.org/pr/abstract/10.1103/PhysRev.169.1",
+        "doi": "10.1103/PhysRev.169.1"
+    },
+    "shera_systematics_1976": {
+        "title": "Systematics of nuclear charge distributions in Fe, Co, Ni, Cu, and Zn deduced from muonic x-ray measurements",
+        "author": [
+            "E. B. Shera",
+            "E. T. Ritter",
+            "R. B. Perkins",
+            "G. A. Rinker",
+            "L. K. Wagner",
+            "H. D. Wohlfahrt",
+            "G. Fricke",
+            "R. M. Steffen"
+        ],
+        "year": "1976",
+        "month": "August",
+        "journal": "Physical Review C",
+        "volume": "14",
+        "pages": "731-748",
+        "url": "10.1103/PhysRevC.14.731",
+        "doi": "https://link.aps.org/doi/10.1103/PhysRevC.14.731"
     }
 }

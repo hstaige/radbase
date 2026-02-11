@@ -1,109 +1,14 @@
 {
-    "test_test_1700_muonic_Pb204_2p_1s": {
+    "test_test_1700_muonic_Sn112_2p1/2_1s1/2": {
         "Reference": "test_test_1700",
-        "Nuclide": "Pb204",
+        "Nuclide": "Sn112",
         "Transition": {
-            "Upper": "2p",
-            "Lower": "1s"
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
         },
         "Energy [keV]": {
-            "value": 300.0,
-            "uncertainty": null
-        },
-        "Composite?": "No",
-        "Notes": ""
-    },
-    "test_test_1700_muonic_Pb203_3p_1s": {
-        "Reference": "test_test_1700",
-        "Nuclide": "Pb203",
-        "Transition": {
-            "Upper": "3p",
-            "Lower": "1s"
-        },
-        "Energy [keV]": {
-            "value": 200.0,
-            "uncertainty": null
-        },
-        "Composite?": "No",
-        "Notes": ""
-    },
-    "test_test_1700_muonic_Pb203_2p_1s": {
-        "Reference": "test_test_1700",
-        "Nuclide": "Pb203",
-        "Transition": {
-            "Upper": "2p",
-            "Lower": "1s"
-        },
-        "Energy [keV]": {
-            "value": 100.0,
-            "uncertainty": null
-        },
-        "Composite?": "No",
-        "Notes": ""
-    },
-    "test_test_1700_muonic_Pb204_3p_1s": {
-        "Reference": "test_test_1700",
-        "Nuclide": "Pb204",
-        "Transition": {
-            "Upper": "3p",
-            "Lower": "1s"
-        },
-        "Energy [keV]": {
-            "value": 400.0,
-            "uncertainty": null
-        },
-        "Composite?": "No",
-        "Notes": ""
-    },
-    "test_test_1700_muonic_Pb200_2p_1s": {
-        "Reference": "test_test_1700",
-        "Nuclide": "Pb200",
-        "Transition": {
-            "Upper": "2p",
-            "Lower": "1s"
-        },
-        "Energy [keV]": {
-            "value": 202.0,
-            "uncertainty": null
-        },
-        "Notes": ""
-    },
-    "test_test_1700_muonic_Pb200_3p_1s": {
-        "Reference": "test_test_1700",
-        "Nuclide": "Pb200",
-        "Transition": {
-            "Upper": "3p",
-            "Lower": "1s"
-        },
-        "Energy [keV]": {
-            "value": 203.0,
-            "uncertainty": null
-        },
-        "Notes": ""
-    },
-    "test_test_1700_muonic_Pb100_2p_1s": {
-        "Reference": "test_test_1700",
-        "Nuclide": "Pb100",
-        "Transition": {
-            "Upper": "2p",
-            "Lower": "1s"
-        },
-        "Energy [keV]": {
-            "value": 102.0,
-            "uncertainty": null
-        },
-        "Notes": ""
-    },
-    "test_test_1700_muonic_Pb100_3p_1s": {
-        "Reference": "test_test_1700",
-        "Nuclide": "Pb100",
-        "Transition": {
-            "Upper": "3p",
-            "Lower": "1s"
-        },
-        "Energy [keV]": {
-            "value": 103.0,
-            "uncertainty": null
+            "value": 3432.564,
+            "uncertainty": 0.06
         },
         "Notes": ""
     }

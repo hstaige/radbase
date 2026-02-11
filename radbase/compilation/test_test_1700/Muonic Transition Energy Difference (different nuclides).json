@@ -1,0 +1,30 @@
+{
+    "test_test_1700_muonic_difference_Fe1_Fe3_2p3/2_1s1/2": {
+        "Reference": "test_test_1700",
+        "Nuclide_A": "Fe1",
+        "Nuclide_B": "Fe3",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 1.0,
+            "uncertainty": null
+        },
+        "Notes": ""
+    },
+    "test_test_1700_muonic_difference_Fe2_Fe4_2p3/2_1s1/2": {
+        "Reference": "test_test_1700",
+        "Nuclide_A": "Fe2",
+        "Nuclide_B": "Fe4",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 2.0,
+            "uncertainty": null
+        },
+        "Notes": ""
+    }
+}

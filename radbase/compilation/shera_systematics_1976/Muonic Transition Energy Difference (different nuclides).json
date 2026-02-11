@@ -1,0 +1,1682 @@
+{
+    "shera_systematics_1976_muonic_difference_Fe57_Fe58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Fe57",
+        "Nuclide_B": "Fe58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 1.436,
+            "uncertainty": 0.05
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Fe56_Fe58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Fe56",
+        "Nuclide_B": "Fe58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 2.2569,
+            "uncertainty": 0.0033
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Fe56_Fe57_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Fe56",
+        "Nuclide_B": "Fe57",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 1.133,
+            "uncertainty": 0.038
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Fe54_Fe58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Fe54",
+        "Nuclide_B": "Fe58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 5.526,
+            "uncertainty": 0.038
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Fe54_Fe57_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Fe54",
+        "Nuclide_B": "Fe57",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 4.09,
+            "uncertainty": 0.049
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Fe54_Fe56_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Fe54",
+        "Nuclide_B": "Fe56",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 2.957,
+            "uncertainty": 0.031
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Co59_Fe58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Co59",
+        "Nuclide_B": "Fe58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 86.976,
+            "uncertainty": 0.049
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Co59_Fe57_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Co59",
+        "Nuclide_B": "Fe57",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 85.54,
+            "uncertainty": 0.044
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Co59_Fe56_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Co59",
+        "Nuclide_B": "Fe56",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 84.407,
+            "uncertainty": 0.036
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Co59_Fe54_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Co59",
+        "Nuclide_B": "Fe54",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 81.45,
+            "uncertainty": 0.048
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni64_Fe58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni64",
+        "Nuclide_B": "Fe58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 170.745,
+            "uncertainty": 0.061
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni64_Fe57_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni64",
+        "Nuclide_B": "Fe57",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 169.309,
+            "uncertainty": 0.057
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni64_Fe56_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni64",
+        "Nuclide_B": "Fe56",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 168.175,
+            "uncertainty": 0.05
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni64_Fe54_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni64",
+        "Nuclide_B": "Fe54",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 165.218,
+            "uncertainty": 0.059
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni64_Co59_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni64",
+        "Nuclide_B": "Co59",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 83.769,
+            "uncertainty": 0.047
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni62_Fe58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni62",
+        "Nuclide_B": "Fe58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 172.345,
+            "uncertainty": 0.056
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni62_Fe57_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni62",
+        "Nuclide_B": "Fe57",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 170.908,
+            "uncertainty": 0.052
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni62_Fe56_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni62",
+        "Nuclide_B": "Fe56",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 169.775,
+            "uncertainty": 0.045
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni62_Fe54_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni62",
+        "Nuclide_B": "Fe54",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 166.818,
+            "uncertainty": 0.055
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni62_Co59_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni62",
+        "Nuclide_B": "Co59",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 85.368,
+            "uncertainty": 0.041
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni62_Ni64_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni62",
+        "Nuclide_B": "Ni64",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 1.6,
+            "uncertainty": 0.029
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni61_Fe58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni61",
+        "Nuclide_B": "Fe58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 173.909,
+            "uncertainty": 0.061
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni61_Fe57_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni61",
+        "Nuclide_B": "Fe57",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 172.473,
+            "uncertainty": 0.057
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni61_Fe56_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni61",
+        "Nuclide_B": "Fe56",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 171.339,
+            "uncertainty": 0.051
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni61_Fe54_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni61",
+        "Nuclide_B": "Fe54",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 168.382,
+            "uncertainty": 0.006
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni61_Co59_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni61",
+        "Nuclide_B": "Co59",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 86.933,
+            "uncertainty": 0.045
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni61_Ni64_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni61",
+        "Nuclide_B": "Ni64",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 3.164,
+            "uncertainty": 0.046
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni61_Ni62_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni61",
+        "Nuclide_B": "Ni62",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 1.564,
+            "uncertainty": 0.041
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni60_Fe58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni60",
+        "Nuclide_B": "Fe58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 174.884,
+            "uncertainty": 0.052
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni60_Fe57_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni60",
+        "Nuclide_B": "Fe57",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 173.448,
+            "uncertainty": 0.048
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni60_Fe56_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni60",
+        "Nuclide_B": "Fe56",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 172.315,
+            "uncertainty": 0.04
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni60_Fe54_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni60",
+        "Nuclide_B": "Fe54",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 169.358,
+            "uncertainty": 0.051
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni60_Co59_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni60",
+        "Nuclide_B": "Co59",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 87.908,
+            "uncertainty": 0.035
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni60_Ni64_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni60",
+        "Nuclide_B": "Ni64",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 4.14,
+            "uncertainty": 0.033
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni60_Ni62_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni60",
+        "Nuclide_B": "Ni62",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 2.54,
+            "uncertainty": 0.026
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni60_Ni61_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni60",
+        "Nuclide_B": "Ni61",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 0.976,
+            "uncertainty": 0.036
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni58_Fe58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni58",
+        "Nuclide_B": "Fe58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 178.079,
+            "uncertainty": 0.047
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni58_Fe57_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni58",
+        "Nuclide_B": "Fe57",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 176.643,
+            "uncertainty": 0.042
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni58_Fe56_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni58",
+        "Nuclide_B": "Fe56",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 175.51,
+            "uncertainty": 0.033
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni58_Fe54_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni58",
+        "Nuclide_B": "Fe54",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 172.553,
+            "uncertainty": 0.045
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni58_Co59_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni58",
+        "Nuclide_B": "Co59",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 91.103,
+            "uncertainty": 0.034
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni58_Ni64_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni58",
+        "Nuclide_B": "Ni64",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 7.334,
+            "uncertainty": 0.043
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni58_Ni62_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni58",
+        "Nuclide_B": "Ni62",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 5.734,
+            "uncertainty": 0.036
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni58_Ni61_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni58",
+        "Nuclide_B": "Ni61",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 4.17,
+            "uncertainty": 0.045
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Ni58_Ni60_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni58",
+        "Nuclide_B": "Ni60",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 3.195,
+            "uncertainty": 0.031
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu65_Fe58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu65",
+        "Nuclide_B": "Fe58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 258.031,
+            "uncertainty": 0.062
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu65_Fe57_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu65",
+        "Nuclide_B": "Fe57",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 256.595,
+            "uncertainty": 0.058
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu65_Fe56_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu65",
+        "Nuclide_B": "Fe56",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 255.462,
+            "uncertainty": 0.051
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu65_Fe54_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu65",
+        "Nuclide_B": "Fe54",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 252.505,
+            "uncertainty": 0.06
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu65_Co59_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu65",
+        "Nuclide_B": "Co59",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 171.055,
+            "uncertainty": 0.048
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu65_Ni64_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu65",
+        "Nuclide_B": "Ni64",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 87.286,
+            "uncertainty": 0.031
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu65_Ni62_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu65",
+        "Nuclide_B": "Ni62",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 85.686,
+            "uncertainty": 0.031
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu65_Ni61_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu65",
+        "Nuclide_B": "Ni61",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 84.122,
+            "uncertainty": 0.048
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu65_Ni60_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu65",
+        "Nuclide_B": "Ni60",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 83.147,
+            "uncertainty": 0.035
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu63_Fe58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu63",
+        "Nuclide_B": "Fe58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 252.949,
+            "uncertainty": 0.061
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu63_Fe57_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu63",
+        "Nuclide_B": "Fe57",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 258.512,
+            "uncertainty": 0.057
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu63_Fe56_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu63",
+        "Nuclide_B": "Fe56",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 257.379,
+            "uncertainty": 0.05
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu63_Fe54_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu63",
+        "Nuclide_B": "Fe54",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 254.422,
+            "uncertainty": 0.059
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu63_Co59_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu63",
+        "Nuclide_B": "Co59",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 172.972,
+            "uncertainty": 0.047
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu63_Ni64_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu63",
+        "Nuclide_B": "Ni64",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 89.204,
+            "uncertainty": 0.037
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu63_Ni62_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu63",
+        "Nuclide_B": "Ni62",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 87.604,
+            "uncertainty": 0.029
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu63_Ni61_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu63",
+        "Nuclide_B": "Ni61",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 86.04,
+            "uncertainty": 0.047
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu63_Ni60_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu63",
+        "Nuclide_B": "Ni60",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 85.064,
+            "uncertainty": 0.033
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn70_Fe58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn70",
+        "Nuclide_B": "Fe58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 342.413,
+            "uncertainty": 0.121
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn70_Fe57_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn70",
+        "Nuclide_B": "Fe57",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 340.977,
+            "uncertainty": 0.119
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn70_Fe56_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn70",
+        "Nuclide_B": "Fe56",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 339.844,
+            "uncertainty": 0.116
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn70_Co59_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn70",
+        "Nuclide_B": "Co59",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 255.437,
+            "uncertainty": 0.114
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn70_Ni64_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn70",
+        "Nuclide_B": "Ni64",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 171.668,
+            "uncertainty": 0.112
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn70_Ni62_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn70",
+        "Nuclide_B": "Ni62",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 170.068,
+            "uncertainty": 0.11
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn70_Ni61_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn70",
+        "Nuclide_B": "Ni61",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 168.504,
+            "uncertainty": 0.115
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn70_Ni60_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn70",
+        "Nuclide_B": "Ni60",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 167.529,
+            "uncertainty": 0.104
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn68_Fe58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn68",
+        "Nuclide_B": "Fe58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 344.278,
+            "uncertainty": 0.062
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn68_Fe57_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn68",
+        "Nuclide_B": "Fe57",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 342.842,
+            "uncertainty": 0.058
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn68_Fe56_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn68",
+        "Nuclide_B": "Fe56",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 341.709,
+            "uncertainty": 0.051
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn68_Fe54_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn68",
+        "Nuclide_B": "Fe54",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 338.752,
+            "uncertainty": 0.061
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn68_Co59_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn68",
+        "Nuclide_B": "Co59",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 257.302,
+            "uncertainty": 0.049
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn68_Ni64_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn68",
+        "Nuclide_B": "Ni64",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 173.533,
+            "uncertainty": 0.038
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn68_Ni62_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn68",
+        "Nuclide_B": "Ni62",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 171.934,
+            "uncertainty": 0.033
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn68_Ni61_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn68",
+        "Nuclide_B": "Ni61",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 170.369,
+            "uncertainty": 0.049
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn68_Ni60_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn68",
+        "Nuclide_B": "Ni60",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 169.394,
+            "uncertainty": 0.035
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn66_Fe58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn66",
+        "Nuclide_B": "Fe58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 346.049,
+            "uncertainty": 0.061
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn66_Fe57_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn66",
+        "Nuclide_B": "Fe57",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 344.623,
+            "uncertainty": 0.058
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn66_Fe56_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn66",
+        "Nuclide_B": "Fe56",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 343.49,
+            "uncertainty": 0.05
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn66_Fe54_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn66",
+        "Nuclide_B": "Fe54",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 340.533,
+            "uncertainty": 0.06
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn66_Co59_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn66",
+        "Nuclide_B": "Co59",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 259.083,
+            "uncertainty": 0.047
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn66_Ni64_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn66",
+        "Nuclide_B": "Ni64",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 175.315,
+            "uncertainty": 0.032
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn66_Ni62_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn66",
+        "Nuclide_B": "Ni62",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 173.715,
+            "uncertainty": 0.03
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn66_Ni61_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn66",
+        "Nuclide_B": "Ni61",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 172.151,
+            "uncertainty": 0.047
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn66_Ni60_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn66",
+        "Nuclide_B": "Ni60",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 171.175,
+            "uncertainty": 0.033
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn64_Fe58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn64",
+        "Nuclide_B": "Fe58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 348.234,
+            "uncertainty": 0.061
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn64_Fe57_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn64",
+        "Nuclide_B": "Fe57",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 346.797,
+            "uncertainty": 0.057
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn64_Fe56_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn64",
+        "Nuclide_B": "Fe56",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 345.664,
+            "uncertainty": 0.051
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn64_Fe54_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn64",
+        "Nuclide_B": "Fe54",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 342.707,
+            "uncertainty": 0.06
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn64_Co59_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn64",
+        "Nuclide_B": "Co59",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 261.257,
+            "uncertainty": 0.048
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn64_Ni64_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn64",
+        "Nuclide_B": "Ni64",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 177.489,
+            "uncertainty": 0.036
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn64_Ni62_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn64",
+        "Nuclide_B": "Ni62",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 175.489,
+            "uncertainty": 0.036
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn64_Ni61_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn64",
+        "Nuclide_B": "Ni61",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 174.325,
+            "uncertainty": 0.047
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn64_Ni60_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn64",
+        "Nuclide_B": "Ni60",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 173.349,
+            "uncertainty": 0.034
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn70_Fe54_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn70",
+        "Nuclide_B": "Fe54",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 336.887,
+            "uncertainty": 0.12
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu65_Ni58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu65",
+        "Nuclide_B": "Ni58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 79.952,
+            "uncertainty": 0.044
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu63_Ni58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu63",
+        "Nuclide_B": "Ni58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 81.87,
+            "uncertainty": 0.043
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Cu63_Cu65_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu63",
+        "Nuclide_B": "Cu65",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 82.464,
+            "uncertainty": 0.112
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn70_Ni58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn70",
+        "Nuclide_B": "Ni58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 164.334,
+            "uncertainty": 0.113
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn70_Cu65_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn70",
+        "Nuclide_B": "Cu65",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 84.382,
+            "uncertainty": 0.111
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn70_Cu63_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn70",
+        "Nuclide_B": "Cu63",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 82.464,
+            "uncertainty": 0.112
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn68_Ni58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn68",
+        "Nuclide_B": "Ni58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 166.199,
+            "uncertainty": 0.044
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn68_Cu65_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn68",
+        "Nuclide_B": "Cu65",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 86.247,
+            "uncertainty": 0.038
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn68_Cu63_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn68",
+        "Nuclide_B": "Cu63",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 84.33,
+            "uncertainty": 0.036
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn68_Zn70_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn68",
+        "Nuclide_B": "Zn70",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 1.865,
+            "uncertainty": 0.111
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn66_Ni58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn66",
+        "Nuclide_B": "Ni58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 167.98,
+            "uncertainty": 0.043
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn66_Cu65_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn66",
+        "Nuclide_B": "Cu65",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 88.028,
+            "uncertainty": 0.033
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn66_Cu63_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn66",
+        "Nuclide_B": "Cu63",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 86.111,
+            "uncertainty": 0.034
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn66_Zn70_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn66",
+        "Nuclide_B": "Zn70",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 3.634,
+            "uncertainty": 0.111
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn66_Zn68_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn66",
+        "Nuclide_B": "Zn68",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 1.781,
+            "uncertainty": 0.026
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn64_Ni58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn64",
+        "Nuclide_B": "Ni58",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 170.155,
+            "uncertainty": 0.044
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn64_Cu65_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn64",
+        "Nuclide_B": "Cu65",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 90.203,
+            "uncertainty": 0.035
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn64_Cu63_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn64",
+        "Nuclide_B": "Cu63",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 88.285,
+            "uncertainty": 0.031
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn64_Zn70_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn64",
+        "Nuclide_B": "Zn70",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 5.821,
+            "uncertainty": 0.111
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn64_Zn68_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn64",
+        "Nuclide_B": "Zn68",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 3.955,
+            "uncertainty": 0.027
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    },
+    "shera_systematics_1976_muonic_difference_Zn64_Zn66_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn64",
+        "Nuclide_B": "Zn66",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy Difference [keV] (A-B)": {
+            "value": 2.174,
+            "uncertainty": 0.027
+        },
+        "Notes": "Combined Ka1 and Ka2 using theoretical FS splitting. Corrected for hyperfine splitting."
+    }
+}
