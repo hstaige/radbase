@@ -172,5 +172,94 @@
         "pages": "609-619",
         "url": "https://link.aps.org/doi/10.1103/PhysRevC.32.609",
         "doi": "10.1103/PhysRevC.32.609"
+    },
+    "kast_isotone_1971": {
+        "title": "THE ISOTONE SHIFT IN MUONIC X-RAYS IN THE TIN REGION",
+        "author": [
+            "J. W. KAST",
+            "S. BERNOW",
+            "S. C. CHENG",
+            "D. HLTLIN",
+            "W. Y. LEE",
+            "E. R. MACAGNO",
+            "A. M. RUSHTON",
+            "C. S. WU"
+        ],
+        "year": "1971",
+        "month": "June",
+        "journal": "Nuclear Physics A",
+        "volume": "169",
+        "pages": "62-70",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/0375947471905586",
+        "doi": "10.1016/0375-9474(71)90558-6"
+    },
+    "hahn_experimental_1979": {
+        "title": "An experimental study of muonic X-ray transitions in mercury isotopes",
+        "author": [
+            "A. A. Hahn",
+            "J. P. Miller",
+            "R. J. Powers",
+            "A. Zehnder",
+            "A. M. Rushton",
+            "R. E. Welsh",
+            "A. R. Kunselman",
+            "P. Roberson",
+            "H. K. Walter"
+        ],
+        "year": "1979",
+        "month": "February",
+        "journal": "Nuclear Physics A",
+        "volume": "314",
+        "pages": "361-386",
+        "url": "https://www.sciencedirect.com/science/article/pii/0375947479906043",
+        "doi": "10.1016/0375-9474(79)90604-3"
+    },
+    "saito_muonic_2025": {
+        "title": "Muonic x-ray measurement for the nuclear charge distribution: The case of stable palladium isotopes",
+        "author": [
+            "T. Y. Saito",
+            "M. Niikura",
+            "T. Matsuzaki",
+            "H. Sakurai",
+            "M. Igashira",
+            "H. Imao",
+            "K. Ishida",
+            "T. Katabuchi",
+            "Y. Kawashima",
+            "M. K. Kubo",
+            "Y. Miyake",
+            "Y. Mori",
+            "K. Ninomiya",
+            "A. Sato",
+            "K. Shimomura",
+            "P. Strasser",
+            "A. Taniguchi",
+            "D. Tomono",
+            "Y. Watanabe"
+        ],
+        "year": "2025",
+        "month": "March",
+        "journal": "Physical Review C",
+        "volume": "Volume 111",
+        "pages": "034313",
+        "url": "https://link.aps.org/doi/10.1103/PhysRevC.111.034313",
+        "doi": "10.1103/PhysRevC.111.034313"
+    },
+    "wolfhahrt_nuclear_1981": {
+        "title": "Nuclear charge distributions in 1f7\\2-shell nuclei from muonic x-ray measurements",
+        "author": [
+            "H. D. Wolfhahrt",
+            "E. B. Shera",
+            "M. V. Hoehn",
+            "Y. Yamazaki",
+            "R. M. Steffen"
+        ],
+        "year": "1981",
+        "month": "January",
+        "journal": "Physical Review C",
+        "volume": "23",
+        "pages": "533-548",
+        "url": "https://link.aps.org/doi/10.1103/PhysRevC.23.533",
+        "doi": "10.1103/PhysRevC.23.533"
     }
 }

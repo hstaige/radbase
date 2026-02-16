@@ -1,0 +1,4 @@
+Measured muonic transition energies for 1s - 4f7/2 levels with >0.1 keV uncertainty for Pd104, 105, 106, 108, 110 and
+fit 2pF distribution for all even isotopes using the 1s-2p and 2p-3d transition energies. Radii do not include any
+theoretical uncertainties, and the confidence bands are assymetric. The lower bands are often much stricter than the
+upper bands. Barrett radii are also provided, with uncertainty from theory only.

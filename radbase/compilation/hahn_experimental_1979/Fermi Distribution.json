@@ -1,0 +1,162 @@
+{
+    "hahn_experimental_1979_fermi_Hg198": {
+        "Reference": "hahn_experimental_1979",
+        "Relies On": [
+            "hahn_experimental_1979_muonic_Hg198_2p1/2_1s1/2",
+            "hahn_experimental_1979_muonic_Hg198_2p3/2_1s1/2",
+            "hahn_experimental_1979_muonic_Hg198_3d3/2_2p1/2",
+            "hahn_experimental_1979_muonic_Hg198_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Hg198",
+        "c [fm]": {
+            "value": 6.5712,
+            "uncertainty": 0.002
+        },
+        "a [fm]": {
+            "value": 0.5234,
+            "uncertainty": null
+        },
+        "beta2 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "beta4 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "Notes": "Fixed a, #NP_unc, #QED_unc, #Exp_unc"
+    },
+    "hahn_experimental_1979_fermi_Hg200": {
+        "Reference": "hahn_experimental_1979",
+        "Relies On": [
+            "hahn_experimental_1979_muonic_Hg200_2p1/2_1s1/2",
+            "hahn_experimental_1979_muonic_Hg200_2p3/2_1s1/2",
+            "hahn_experimental_1979_muonic_Hg200_3d3/2_2p1/2",
+            "hahn_experimental_1979_muonic_Hg200_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Hg200",
+        "c [fm]": {
+            "value": 6.5829,
+            "uncertainty": 0.0023
+        },
+        "a [fm]": {
+            "value": 0.5234,
+            "uncertainty": null
+        },
+        "beta2 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "beta4 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "Notes": "Fixed a, #NP_unc, #QED_unc, #Exp_unc"
+    },
+    "hahn_experimental_1979_fermi_Hg202": {
+        "Reference": "hahn_experimental_1979",
+        "Relies On": [
+            "hahn_experimental_1979_muonic_Hg202_2p1/2_1s1/2",
+            "hahn_experimental_1979_muonic_Hg202_2p3/2_1s1/2",
+            "hahn_experimental_1979_muonic_Hg202_3d3/2_2p1/2",
+            "hahn_experimental_1979_muonic_Hg202_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Hg202",
+        "c [fm]": {
+            "value": 6.5962,
+            "uncertainty": 0.0023
+        },
+        "a [fm]": {
+            "value": 0.5234,
+            "uncertainty": null
+        },
+        "beta2 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "beta4 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "Notes": "Fixed a, #NP_unc, #QED_unc, #Exp_unc"
+    },
+    "hahn_experimental_1979_fermi_Hg204": {
+        "Reference": "hahn_experimental_1979",
+        "Relies On": [
+            "hahn_experimental_1979_muonic_Hg204_2p1/2_1s1/2",
+            "hahn_experimental_1979_muonic_Hg204_2p3/2_1s1/2",
+            "hahn_experimental_1979_muonic_Hg204_3d3/2_2p1/2",
+            "hahn_experimental_1979_muonic_Hg204_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Hg204",
+        "c [fm]": {
+            "value": 6.61,
+            "uncertainty": 0.0024
+        },
+        "a [fm]": {
+            "value": 0.5234,
+            "uncertainty": null
+        },
+        "beta2 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "beta4 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "Notes": "Fixed a, #NP_unc, #QED_unc, #Exp_unc"
+    },
+    "hahn_experimental_1979_fermi_Hg199": {
+        "Reference": "hahn_experimental_1979",
+        "Relies On": [
+            "hahn_experimental_1979_muonic_Hg199_2p1/2_1s1/2",
+            "hahn_experimental_1979_muonic_Hg199_3d3/2_2p1/2",
+            "hahn_experimental_1979_muonic_Hg199_4f7/2_3d5/2"
+        ],
+        "Nuclide": "Hg199",
+        "c [fm]": {
+            "value": 6.5741,
+            "uncertainty": 0.0027
+        },
+        "a [fm]": {
+            "value": 0.5234,
+            "uncertainty": null
+        },
+        "beta2 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "beta4 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "Notes": "Fixed a, #NP_unc, #QED_unc, #Exp_unc"
+    },
+    "hahn_experimental_1979_fermi_Hg201": {
+        "Reference": "hahn_experimental_1979",
+        "Relies On": [
+            "hahn_experimental_1979_muonic_Hg201_2p1/2_1s1/2",
+            "hahn_experimental_1979_muonic_Hg201_3d3/2_2p1/2",
+            "hahn_experimental_1979_muonic_Hg201_4f7/2_3d5/2"
+        ],
+        "Nuclide": "Hg201",
+        "c [fm]": {
+            "value": 6.5892,
+            "uncertainty": 0.0025
+        },
+        "a [fm]": {
+            "value": 0.5234,
+            "uncertainty": null
+        },
+        "beta2 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "beta4 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "Notes": "Fixed a, #NP_unc, #QED_unc, #Exp_unc"
+    }
+}

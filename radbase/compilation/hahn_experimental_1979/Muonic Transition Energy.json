@@ -1,0 +1,368 @@
+{
+    "hahn_experimental_1979_muonic_Hg198_2p3/2_1s1/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Hg198",
+        "Energy [keV]": {
+            "Value": 5839.37,
+            "Uncertainty": 0.52
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg200_2p3/2_1s1/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Hg200",
+        "Energy [keV]": {
+            "Value": 5831.19,
+            "Uncertainty": 0.52
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg202_2p3/2_1s1/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Hg202",
+        "Energy [keV]": {
+            "Value": 5824.08,
+            "Uncertainty": 0.52
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg204_2p3/2_1s1/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Hg204",
+        "Energy [keV]": {
+            "Value": 5815.83,
+            "Uncertainty": 0.52
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg198_2p1/2_1s1/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Hg198",
+        "Energy [keV]": {
+            "Value": 5665.89,
+            "Uncertainty": 0.52
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg200_2p1/2_1s1/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Hg200",
+        "Energy [keV]": {
+            "Value": 5658.44,
+            "Uncertainty": 0.52
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg202_2p1/2_1s1/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Hg202",
+        "Energy [keV]": {
+            "Value": 5649.95,
+            "Uncertainty": 0.52
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg204_2p1/2_1s1/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Hg204",
+        "Energy [keV]": {
+            "Value": 5642.36,
+            "Uncertainty": 0.54
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg198_3d5/2_2p3/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Nuclide": "Hg198",
+        "Energy [keV]": {
+            "Value": 2398.98,
+            "Uncertainty": 0.17
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg200_3d5/2_2p3/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Nuclide": "Hg200",
+        "Energy [keV]": {
+            "Value": 2398.16,
+            "Uncertainty": 0.17
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg202_3d5/2_2p3/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Nuclide": "Hg202",
+        "Energy [keV]": {
+            "Value": 2395.49,
+            "Uncertainty": 0.16
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg204_3d5/2_2p3/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Nuclide": "Hg204",
+        "Energy [keV]": {
+            "Value": 2394.15,
+            "Uncertainty": 0.19
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg198_3d3/2_2p1/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Nuclide": "Hg198",
+        "Energy [keV]": {
+            "Value": 2533.28,
+            "Uncertainty": 0.2
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg200_3d3/2_2p1/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Nuclide": "Hg200",
+        "Energy [keV]": {
+            "Value": 2532.62,
+            "Uncertainty": 0.2
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg202_3d3/2_2p1/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Nuclide": "Hg202",
+        "Energy [keV]": {
+            "Value": 2530.34,
+            "Uncertainty": 0.19
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg204_3d3/2_2p1/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Nuclide": "Hg204",
+        "Energy [keV]": {
+            "Value": 2528.83,
+            "Uncertainty": 0.22
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg198_4f7/2_3d5/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "4f7/2",
+            "Lower": "3d5/2"
+        },
+        "Nuclide": "Hg198",
+        "Energy [keV]": {
+            "Value": 892.32,
+            "Uncertainty": 0.07
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg200_4f7/2_3d5/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "4f7/2",
+            "Lower": "3d5/2"
+        },
+        "Nuclide": "Hg200",
+        "Energy [keV]": {
+            "Value": 892.51,
+            "Uncertainty": 0.07
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg202_4f7/2_3d5/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "4f7/2",
+            "Lower": "3d5/2"
+        },
+        "Nuclide": "Hg202",
+        "Energy [keV]": {
+            "Value": 892.37,
+            "Uncertainty": 0.07
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg204_4f7/2_3d5/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "4f7/2",
+            "Lower": "3d5/2"
+        },
+        "Nuclide": "Hg204",
+        "Energy [keV]": {
+            "Value": 892.43,
+            "Uncertainty": 0.07
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg198_4f5/2_3d3/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "4f5/2",
+            "Lower": "3d3/2"
+        },
+        "Nuclide": "Hg198",
+        "Energy [keV]": {
+            "Value": 923.04,
+            "Uncertainty": 0.08
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg200_4f5/2_3d3/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "4f5/2",
+            "Lower": "3d3/2"
+        },
+        "Nuclide": "Hg200",
+        "Energy [keV]": {
+            "Value": 923.1,
+            "Uncertainty": 0.08
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg202_4f5/2_3d3/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "4f5/2",
+            "Lower": "3d3/2"
+        },
+        "Nuclide": "Hg202",
+        "Energy [keV]": {
+            "Value": 923.07,
+            "Uncertainty": 0.08
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg204_4f5/2_3d3/2": {
+        "Reference": "hahn_experimental_1979",
+        "Transition": {
+            "Upper": "4f5/2",
+            "Lower": "3d3/2"
+        },
+        "Nuclide": "Hg204",
+        "Energy [keV]": {
+            "Value": 922.99,
+            "Uncertainty": 0.08
+        }
+    },
+    "hahn_experimental_1979_muonic_Hg199_2p1/2_1s1/2": {
+        "Reference": "hahn_experimental_1979",
+        "Nuclide": "Hg199",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 5660.63,
+            "uncertainty": 1.08
+        },
+        "Notes": "Corrected for dynamic effects"
+    },
+    "hahn_experimental_1979_muonic_Hg199_3d3/2_2p1/2": {
+        "Reference": "hahn_experimental_1979",
+        "Nuclide": "Hg199",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": {
+            "value": 2529.55,
+            "uncertainty": 0.45
+        },
+        "Notes": "Corrected for dynamic effects"
+    },
+    "hahn_experimental_1979_muonic_Hg199_4f7/2_3d5/2": {
+        "Reference": "hahn_experimental_1979",
+        "Nuclide": "Hg199",
+        "Transition": {
+            "Upper": "4f7/2",
+            "Lower": "3d5/2"
+        },
+        "Energy [keV]": {
+            "value": 892.46,
+            "uncertainty": 0.06
+        },
+        "Notes": "Corrected for dynamic effects"
+    },
+    "hahn_experimental_1979_muonic_Hg201_2p1/2_1s1/2": {
+        "Reference": "hahn_experimental_1979",
+        "Nuclide": "Hg201",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 5651.94,
+            "uncertainty": 0.9
+        },
+        "Notes": "Corrected for dynamic effects"
+    },
+    "hahn_experimental_1979_muonic_Hg201_3d3/2_2p1/2": {
+        "Reference": "hahn_experimental_1979",
+        "Nuclide": "Hg201",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": {
+            "value": 2528.57,
+            "uncertainty": 0.4
+        },
+        "Notes": "Corrected for dynamic effects"
+    },
+    "hahn_experimental_1979_muonic_Hg201_4f7/2_3d5/2": {
+        "Reference": "hahn_experimental_1979",
+        "Nuclide": "Hg201",
+        "Transition": {
+            "Upper": "4f7/2",
+            "Lower": "3d5/2"
+        },
+        "Energy [keV]": {
+            "value": 892.57,
+            "uncertainty": 0.1
+        },
+        "Notes": "Corrected for dynamic effects"
+    }
+}

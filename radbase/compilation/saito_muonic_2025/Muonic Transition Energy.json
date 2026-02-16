@@ -1,0 +1,338 @@
+{
+    "saito_muonic_2025_muonic_Pd104_2p1/2_1s1/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Pd104",
+        "Energy [keV]": {
+            "Value": 3057.8,
+            "Uncertainty": 0.3
+        }
+    },
+    "saito_muonic_2025_muonic_Pd104_2p3/2_1s1/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Pd104",
+        "Energy [keV]": {
+            "Value": 3091.7,
+            "Uncertainty": 0.2
+        }
+    },
+    "saito_muonic_2025_muonic_Pd104_3d5/2_2p3/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Nuclide": "Pd104",
+        "Energy [keV]": {
+            "Value": 833.4,
+            "Uncertainty": 0.1
+        }
+    },
+    "saito_muonic_2025_muonic_Pd104_3d3/2_2p1/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Nuclide": "Pd104",
+        "Energy [keV]": {
+            "Value": 863.6,
+            "Uncertainty": 0.3
+        }
+    },
+    "saito_muonic_2025_muonic_Pd104_4d5/2_2p3/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "4d5/2",
+            "Lower": "2p3/2"
+        },
+        "Nuclide": "Pd104",
+        "Energy [keV]": {
+            "Value": 1122.5,
+            "Uncertainty": 0.6
+        }
+    },
+    "saito_muonic_2025_muonic_Pd104_4f7/2_3d5/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "4f7/2",
+            "Lower": "3d5/2"
+        },
+        "Nuclide": "Pd104",
+        "Energy [keV]": {
+            "Value": 291.6,
+            "Uncertainty": 0.1
+        }
+    },
+    "saito_muonic_2025_muonic_Pd104_4f5/2_3d3/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "4f5/2",
+            "Lower": "3d3/2"
+        },
+        "Nuclide": "Pd104",
+        "Energy [keV]": {
+            "Value": 294.9,
+            "Uncertainty": 0.2
+        }
+    },
+    "saito_muonic_2025_muonic_Pd106_2p1/2_1s1/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Pd106",
+        "Energy [keV]": {
+            "Value": 3050.3,
+            "Uncertainty": 0.5
+        }
+    },
+    "saito_muonic_2025_muonic_Pd106_2p3/2_1s1/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Pd106",
+        "Energy [keV]": {
+            "Value": 3084.0,
+            "Uncertainty": 0.3
+        }
+    },
+    "saito_muonic_2025_muonic_Pd106_3d5/2_2p3/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Nuclide": "Pd106",
+        "Energy [keV]": {
+            "Value": 833.4,
+            "Uncertainty": 0.3
+        }
+    },
+    "saito_muonic_2025_muonic_Pd106_3d3/2_2p1/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Nuclide": "Pd106",
+        "Energy [keV]": {
+            "Value": 863.8,
+            "Uncertainty": 0.3
+        }
+    },
+    "saito_muonic_2025_muonic_Pd106_4d5/2_2p3/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "4d5/2",
+            "Lower": "2p3/2"
+        },
+        "Nuclide": "Pd106",
+        "Energy [keV]": {
+            "Value": 1124.8,
+            "Uncertainty": 0.4
+        }
+    },
+    "saito_muonic_2025_muonic_Pd106_4f7/2_3d5/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "4f7/2",
+            "Lower": "3d5/2"
+        },
+        "Nuclide": "Pd106",
+        "Energy [keV]": {
+            "Value": 291.7,
+            "Uncertainty": 0.2
+        }
+    },
+    "saito_muonic_2025_muonic_Pd106_4f5/2_3d3/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "4f5/2",
+            "Lower": "3d3/2"
+        },
+        "Nuclide": "Pd106",
+        "Energy [keV]": {
+            "Value": 295.1,
+            "Uncertainty": 0.3
+        }
+    },
+    "saito_muonic_2025_muonic_Pd108_2p1/2_1s1/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Pd108",
+        "Energy [keV]": {
+            "Value": 3042.9,
+            "Uncertainty": 0.2
+        }
+    },
+    "saito_muonic_2025_muonic_Pd108_2p3/2_1s1/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Pd108",
+        "Energy [keV]": {
+            "Value": 3076.6,
+            "Uncertainty": 0.2
+        }
+    },
+    "saito_muonic_2025_muonic_Pd108_3d5/2_2p3/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Nuclide": "Pd108",
+        "Energy [keV]": {
+            "Value": 833.3,
+            "Uncertainty": 0.1
+        }
+    },
+    "saito_muonic_2025_muonic_Pd108_3d3/2_2p1/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Nuclide": "Pd108",
+        "Energy [keV]": {
+            "Value": 863.5,
+            "Uncertainty": 0.1
+        }
+    },
+    "saito_muonic_2025_muonic_Pd108_4d5/2_2p3/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "4d5/2",
+            "Lower": "2p3/2"
+        },
+        "Nuclide": "Pd108",
+        "Energy [keV]": {
+            "Value": 1124.4,
+            "Uncertainty": 0.3
+        }
+    },
+    "saito_muonic_2025_muonic_Pd108_4f7/2_3d5/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "4f7/2",
+            "Lower": "3d5/2"
+        },
+        "Nuclide": "Pd108",
+        "Energy [keV]": {
+            "Value": 291.6,
+            "Uncertainty": 0.1
+        }
+    },
+    "saito_muonic_2025_muonic_Pd108_4f5/2_3d3/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "4f5/2",
+            "Lower": "3d3/2"
+        },
+        "Nuclide": "Pd108",
+        "Energy [keV]": {
+            "Value": 294.9,
+            "Uncertainty": 0.1
+        }
+    },
+    "saito_muonic_2025_muonic_Pd110_2p1/2_1s1/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Pd110",
+        "Energy [keV]": {
+            "Value": 3036.2,
+            "Uncertainty": 0.7
+        }
+    },
+    "saito_muonic_2025_muonic_Pd110_2p3/2_1s1/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Pd110",
+        "Energy [keV]": {
+            "Value": 3068.8,
+            "Uncertainty": 0.4
+        }
+    },
+    "saito_muonic_2025_muonic_Pd110_3d5/2_2p3/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Nuclide": "Pd110",
+        "Energy [keV]": {
+            "Value": 833.4,
+            "Uncertainty": 0.2
+        }
+    },
+    "saito_muonic_2025_muonic_Pd110_3d3/2_2p1/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Nuclide": "Pd110",
+        "Energy [keV]": {
+            "Value": 863.4,
+            "Uncertainty": 0.3
+        }
+    },
+    "saito_muonic_2025_muonic_Pd110_4d5/2_2p3/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "4d5/2",
+            "Lower": "2p3/2"
+        },
+        "Nuclide": "Pd110",
+        "Energy [keV]": {
+            "Value": 1124.2,
+            "Uncertainty": 0.5
+        }
+    },
+    "saito_muonic_2025_muonic_Pd110_4f7/2_3d5/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "4f7/2",
+            "Lower": "3d5/2"
+        },
+        "Nuclide": "Pd110",
+        "Energy [keV]": {
+            "Value": 291.6,
+            "Uncertainty": 0.1
+        }
+    },
+    "saito_muonic_2025_muonic_Pd110_4f5/2_3d3/2": {
+        "Reference": "saito_muonic_2025",
+        "Transition": {
+            "Upper": "4f5/2",
+            "Lower": "3d3/2"
+        },
+        "Nuclide": "Pd110",
+        "Energy [keV]": {
+            "Value": 294.9,
+            "Uncertainty": 0.2
+        }
+    }
+}

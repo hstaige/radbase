@@ -1,0 +1,314 @@
+{
+    "kast_isotone_1971_muonic_Cd114_2p3/2_1s1/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "Cd114",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3263.63,
+            "uncertainty": 0.37
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_Cd114_2p1/2_1s1/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "Cd114",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3223.74,
+            "uncertainty": 0.46
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_Cd114_3d5/2_2p3/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "Cd114",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 905.85,
+            "uncertainty": 0.26
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_Cd114_3d3/2_2p1/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "Cd114",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": {
+            "value": 940.58,
+            "uncertainty": 0.23
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_In115_2p3/2_1s1/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "In115",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3366.27,
+            "uncertainty": 0.42
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_In115_2p1/2_1s1/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "In115",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3322.67,
+            "uncertainty": 0.42
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_In115_3d5/2_2p3/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "In115",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 982.23,
+            "uncertainty": 0.22
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_In115_3d3/2_2p1/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "In115",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": {
+            "value": 981.64,
+            "uncertainty": 0.48
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_Sn116_2p3/2_1s1/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "Sn116",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3464.78,
+            "uncertainty": 0.47
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_Sn116_2p1/2_1s1/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "Sn116",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3419.06,
+            "uncertainty": 0.4
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_Sn116_3d5/2_2p3/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "Sn116",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 982.23,
+            "uncertainty": 0.22
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_Sn116_3d3/2_2p1/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "Sn116",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": {
+            "value": 1022.09,
+            "uncertainty": 0.23
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_Sn124_2p3/2_1s1/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "Sn124",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3444.29,
+            "uncertainty": 0.35
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_Sn124_2p1/2_1s1/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "Sn124",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3398.91,
+            "uncertainty": 0.36
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_Sn124_3d5/2_2p3/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "Sn124",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 981.69,
+            "uncertainty": 0.21
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_Sn124_3d3/2_2p1/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "Sn124",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": {
+            "value": 1021.42,
+            "uncertainty": 0.21
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_Te126_2p3/2_1s1/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "Te126",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3629.26,
+            "uncertainty": 0.42
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_Te126_2p1/2_1s1/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "Te126",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3577.63,
+            "uncertainty": 0.58
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_Te126_3d5/2_2p3/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "Te126",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 1060.66,
+            "uncertainty": 0.22
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_Te126_3d3/2_2p1/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "Te126",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": {
+            "value": 1105.66,
+            "uncertainty": 0.23
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_I127_2p3/2_1s1/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "I127",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3723.23,
+            "uncertainty": 0.2
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_I127_2p1/2_1s1/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "I127",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3667.35,
+            "uncertainty": 0.2
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_I127_3d5/2_2p3/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "I127",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 1101.84,
+            "uncertainty": 0.2
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_muonic_I127_3d3/2_2p1/2": {
+        "Reference": "kast_isotone_1971",
+        "Nuclide": "I127",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": {
+            "value": 1150.42,
+            "uncertainty": 0.15
+        },
+        "Notes": ""
+    }
+}

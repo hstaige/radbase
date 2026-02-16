@@ -251,7 +251,7 @@ class NuclideProcessor:
 
     def process(self, widget: tk.Widget):
         raw = widget.get()
-        if re.match(r'[a-zA-Z]{2}\d{1,3}', raw) or re.match(r'[a-zA-Z]{2}nat', raw):
+        if re.match(r'[a-zA-Z]{1,2}\d{1,3}', raw) or re.match(r'[a-zA-Z]{1,2}nat', raw):
             return {self.key: raw}
         else:
             raise ValueError(
@@ -929,13 +929,14 @@ muonic_transition_energy_difference_template = InputTemplate(
         reference_field,
         FieldSpec("Nuclide A", NuclideProcessor(key="Nuclide_A")),
         FieldSpec("Nuclide B", NuclideProcessor(key="Nuclide_B")),
-        transition_field,
+        transition_or_level_field,
         FieldSpec("Energy Difference [keV] (A-B)", NumberWithUncertaintyProcessor("Energy Difference [keV] (A-B)")),
         notes_field
     ],
     data_key=lambda values: '_'.join(
         [values['Reference'], 'muonic_difference', values['Nuclide_A'], values['Nuclide_B'],
-         values['Transition']['Upper'], values['Transition']['Lower']])
+         *([values['Transition']['Upper'], values['Transition']['Lower']] if 'Transition' in values else [
+             values['Level'], ])])
 )
 
 muonic_transition_energy_difference_diff_transition_template = InputTemplate(
@@ -943,7 +944,11 @@ muonic_transition_energy_difference_diff_transition_template = InputTemplate(
     fields=[
         reference_field,
         nuclide_field,
-        FieldSpec("Transitions", VariableNumberProcessor(TransitionProcessor()), VariableNumberWidgetCreator(TransitionWidgetCreator()),
+        FieldSpec("Transitions",
+                  VariableNumberProcessor(XORProcessor([TransitionProcessor(), CastProcessor(str, key='Level')]), ),
+                  VariableNumberWidgetCreator(GroupedWidgetCreator(['Transition', 'Level'],
+                                                                   [TransitionWidgetCreator(),
+                                                                    DefaultWidgetCreator()])),
                   hovertext='Enter the upper and lower levels of the atomic/muonic transition'),
         FieldSpec("Energy Difference [keV] (A-B)", NumberWithUncertaintyProcessor("Energy Difference [keV] (A-B)")),
         notes_field
@@ -951,7 +956,8 @@ muonic_transition_energy_difference_diff_transition_template = InputTemplate(
     data_key=lambda values: '_'.join(
         [values['Reference'], 'muonic_difference', values['Nuclide'],
          *list(
-             sum([(field_name, field['Upper'], field['Lower']) for field_name, field in values.items() if 'Transition' in field_name.lower()],
+             sum([(field_name, field['Upper'], field['Lower']) for field_name, field in values.items() if
+                  'Transition' in field_name.lower()],
                  ()))])
 )
 
@@ -980,7 +986,7 @@ muonic_barret_theory_template = InputTemplate(
     name="Muonic Barrett Moment",
     fields=[
         reference_field,
-        FieldSpec("Data used as input", PreviousDataProcessor(),
+        FieldSpec("Data used as input", PreviousDataProcessor(key='Previous Muonic Measurements'),
                   PreviousDataWidgetCreator(compilation_path=config['compilation_dir'],
                                             filter_regex='muonic.*_')),
         nuclide_field,
@@ -997,6 +1003,31 @@ muonic_barret_theory_template = InputTemplate(
     data_key=lambda values: '_'.join([values['Reference'], 'barrett_moment', values['Nuclide'],
                                       *['-'.join(s.split('_')[-2:]) for s in
                                         values['Previous Muonic Measurements']]])
+)
+
+muonic_barret_shift_template = InputTemplate(
+    name="Muonic Barrett Moment Difference",
+    fields=[
+        reference_field,
+        FieldSpec("Data used as input", PreviousDataProcessor(),
+                  PreviousDataWidgetCreator(compilation_path=config['compilation_dir'],
+                                            filter_regex='muonic.*_')),
+        FieldSpec("Nuclide A", NuclideProcessor(key="Nuclide_A")),
+        FieldSpec("Nuclide B", NuclideProcessor(key="Nuclide_B")),
+        FieldSpec('Rka (A-B) [fm]', NumberWithUncertaintyProcessor('Rka [fm]')),
+        FieldSpec('k [-]', CastProcessor(str, key='k [-]')),
+        FieldSpec('alpha [1/fm]', CastProcessor(str, key='alpha [1/fm]')),
+        FieldSpec('Cz [fm/keV]', CastProcessor(str, key='Cz [fm/keV]')),
+        FieldSpec('Nuclear Polarization Method',
+                  NuclearPolarizationProcessor(),
+                  NuclearPolarizationWidgetCreator(compilation_path=config['compilation_dir']),
+                  hovertext='Were the NP corrections from theory ("Calculated") or varied as part of the optimization ("Fit")?'),
+        notes_field
+    ],
+    data_key=lambda values: '_'.join(
+        [values['Reference'], 'barrett_moment_difference', values['Nuclide_A'], values['Nuclide_B'],
+         *['-'.join(s.split('_')[-2:]) for s in
+           values['Previous Muonic Measurements']]])
 )
 
 muonic_radius_template = InputTemplate(
@@ -1042,6 +1073,7 @@ templates = [muonic_transition_energy_template,
              muonic_transition_energy_difference_diff_transition_template,
              muonic_nuclear_polarization_calculation_template,
              muonic_barret_theory_template,
+             muonic_barret_shift_template,
              muonic_radius_template,
              muonic_fermi_distribution_template]
 
@@ -1463,7 +1495,7 @@ class DataEntryInterface:
         with file.open("w", encoding="utf-8") as f:
             json.dump(data_to_write, f, indent=4)
 
-        print(f"Data successfully saved to {file}")
+        # print(f"Data successfully saved to {file}")
 
     @staticmethod
     def _next_available_key(base_key: str, existing: dict) -> str:
