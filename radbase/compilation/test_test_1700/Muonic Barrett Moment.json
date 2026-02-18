@@ -1,0 +1,19 @@
+{
+    "test_test_1700_barrett_moment_Pb203_2p1/2-1s1/2": {
+        "Reference": "test_test_1700",
+        "Previous Muonic Measurements": [
+            "bergem_nuclear_1988_muonic_Pb208_2p1/2_1s1/2"
+        ],
+        "Nuclide": "Pb203",
+        "Rka [fm]": {
+            "value": 100.0,
+            "uncertainty": 3.0
+        },
+        "k [-]": "1",
+        "alpha [1/fm]": "1",
+        "Cz [fm/keV]": "1",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": ""
+    }
+}

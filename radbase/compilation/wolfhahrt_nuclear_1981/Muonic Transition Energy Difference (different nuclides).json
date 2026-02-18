@@ -1,18 +1,4 @@
 {
-    "wolfhahrt_nuclear_1981_muonic_difference_wRo_lumnCo_2p3/2_1s1/2": {
-        "Reference": "wolfhahrt_nuclear_1981",
-        "Transition": {
-            "Upper": "2p3/2",
-            "Lower": "1s1/2"
-        },
-        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
-        "Nuclide_A": "wRo",
-        "Nuclide_B": "lumnCo",
-        "Energy Difference [keV] (A-B)": {
-            "Value": "Value",
-            "Uncertainty": "Uncertainty"
-        }
-    },
     "wolfhahrt_nuclear_1981_muonic_difference_K41_K39_2p3/2_1s1/2": {
         "Reference": "wolfhahrt_nuclear_1981",
         "Transition": {

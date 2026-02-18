@@ -37,10 +37,20 @@ class Reference:
 class ScrollableFrame(ttk.Frame):
     def __init__(self, container, *args, **kwargs):
         super().__init__(container, *args, **kwargs)
+
         canvas = tk.Canvas(self)
         scrollbar = ttk.Scrollbar(self, orient="vertical", command=canvas.yview)
+
         self.scrollable_frame = ttk.Frame(canvas)
 
+        # Create window and store ID
+        self.window_id = canvas.create_window(
+            (0, 0),
+            window=self.scrollable_frame,
+            anchor="nw"
+        )
+
+        # Update scrollregion when content changes
         self.scrollable_frame.bind(
             "<Configure>",
             lambda e: canvas.configure(
@@ -48,7 +58,11 @@ class ScrollableFrame(ttk.Frame):
             )
         )
 
-        canvas.create_window((0, 0), window=self.scrollable_frame, anchor="nw")
+        # KEY FIX: make inner frame track canvas width
+        canvas.bind(
+            "<Configure>",
+            lambda e: canvas.itemconfig(self.window_id, width=e.width)
+        )
 
         canvas.configure(yscrollcommand=scrollbar.set)
 
@@ -529,7 +543,7 @@ class PreviousDataWidgetCreator:
         # --- filter entry ---
         filter_var = tk.StringVar()
         filter_var.set(self.filter_regex)
-        filter_entry = ttk.Entry(container, width=40, textvariable=filter_var)
+        filter_entry = ttk.Entry(container, width=80, textvariable=filter_var)
         filter_entry.grid(row=0, column=0, columnspan=2, sticky="w")
 
         # --- scrollable checklist ---
@@ -555,7 +569,7 @@ class PreviousDataWidgetCreator:
                 text=data_key,
                 variable=var
             )
-            check.pack(anchor="w")
+            check.pack(expand=True, fill='x')
             vars_by_key[data_key] = var
             checkbox_widgets[data_key] = check
 
@@ -982,6 +996,27 @@ muonic_nuclear_polarization_calculation_template = InputTemplate(
     ],
     data_key=mu_nuc_pol_key)
 
+
+def mu_nuc_pol_key(values):
+    if 'Transition' in values:
+        return '_'.join([values['Reference'], 'muonic_qed', values['Nuclide'],
+                         values['Transition']['Upper'], values['Transition']['Lower']])
+    else:
+        return '_'.join([values['Reference'], 'muonic_qed', values['Nuclide'],
+                         values['Level']])
+
+
+muonic_qed_calculation_template = InputTemplate(
+    name="Calculated QED Correction",
+    fields=[
+        reference_field,
+        nuclide_field,
+        transition_or_level_field,
+        FieldSpec("Energy [keV]", NumberWithUncertaintyProcessor("Energy [keV]")),
+        notes_field
+    ],
+    data_key=mu_nuc_pol_key)
+
 muonic_barret_theory_template = InputTemplate(
     name="Muonic Barrett Moment",
     fields=[
@@ -1022,6 +1057,9 @@ muonic_barret_shift_template = InputTemplate(
                   NuclearPolarizationProcessor(),
                   NuclearPolarizationWidgetCreator(compilation_path=config['compilation_dir']),
                   hovertext='Were the NP corrections from theory ("Calculated") or varied as part of the optimization ("Fit")?'),
+        FieldSpec('QED Calculations Used',
+                  PreviousDataProcessor(key='Calculated QED'),
+                  PreviousDataWidgetCreator(compilation_path=config['compilation_dir'])),
         notes_field
     ],
     data_key=lambda values: '_'.join(
@@ -1072,6 +1110,7 @@ templates = [muonic_transition_energy_template,
              muonic_transition_energy_difference_template,
              muonic_transition_energy_difference_diff_transition_template,
              muonic_nuclear_polarization_calculation_template,
+             muonic_qed_calculation_template,
              muonic_barret_theory_template,
              muonic_barret_shift_template,
              muonic_radius_template,
@@ -1113,7 +1152,7 @@ class DataEntryInterface:
 
         if start_interface:
             self.root = tk.Tk()
-            self.root.geometry("600x500")
+            self.root.minsize(650, 500)
             self.root.title("Data Entry Interface")
 
             def _on_mousewheel(event):
@@ -1195,6 +1234,7 @@ class DataEntryInterface:
         form_frame.pack(padx=10, pady=10, expand=True, fill='both')
 
         form_frame = form_frame.scrollable_frame
+        form_frame.columnconfigure(1, weight=1)
 
         for row, field in enumerate(template.fields):
             label = ttk.Label(form_frame,

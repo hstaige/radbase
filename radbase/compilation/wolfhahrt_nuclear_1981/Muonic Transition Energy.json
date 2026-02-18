@@ -1,0 +1,275 @@
+{
+    "wolfhahrt_nuclear_1981_muonic_K39_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "K39",
+        "Energy [keV]": {
+            "Value": 713.118,
+            "Uncertainty": 0.032
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_K41_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "K41",
+        "Energy [keV]": {
+            "Value": 712.769,
+            "Uncertainty": 0.028
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_Ca40_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "Ca40",
+        "Energy [keV]": {
+            "Value": 784.18,
+            "Uncertainty": 0.025
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_Ca42_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "Ca42",
+        "Energy [keV]": {
+            "Value": 783.369,
+            "Uncertainty": 0.029
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_Ca43_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "Ca43",
+        "Energy [keV]": {
+            "Value": 783.811,
+            "Uncertainty": 0.027
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_Ca44_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "Ca44",
+        "Energy [keV]": {
+            "Value": 783.156,
+            "Uncertainty": 0.026
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_Ca46_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "Ca46",
+        "Energy [keV]": {
+            "Value": 783.817,
+            "Uncertainty": 0.107
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_Ca48_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "Ca48",
+        "Energy [keV]": {
+            "Value": 784.487,
+            "Uncertainty": 0.026
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_Sc45_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "Sc45",
+        "Energy [keV]": {
+            "Value": 856.995,
+            "Uncertainty": 0.028
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_Ti46_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "Ti46",
+        "Energy [keV]": {
+            "Value": 931.994,
+            "Uncertainty": 0.026
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_Ti47_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "Ti47",
+        "Energy [keV]": {
+            "Value": 932.474,
+            "Uncertainty": 0.025
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_Ti48_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "Ti48",
+        "Energy [keV]": {
+            "Value": 932.652,
+            "Uncertainty": 0.026
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_Ti49_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "Ti49",
+        "Energy [keV]": {
+            "Value": 933.426,
+            "Uncertainty": 0.033
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_Ti50_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "Ti50",
+        "Energy [keV]": {
+            "Value": 933.588,
+            "Uncertainty": 0.026
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_V51_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "V51",
+        "Energy [keV]": {
+            "Value": 1012.201,
+            "Uncertainty": 0.026
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_Cr50_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "Cr50",
+        "Energy [keV]": {
+            "Value": 1091.178,
+            "Uncertainty": 0.027
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_Cr52_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "Cr52",
+        "Energy [keV]": {
+            "Value": 1092.286,
+            "Uncertainty": 0.021
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_Cr53_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "Cr53",
+        "Energy [keV]": {
+            "Value": 1091.381,
+            "Uncertainty": 0.025
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_Cr54_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "Cr54",
+        "Energy [keV]": {
+            "Value": 1089.888,
+            "Uncertainty": 0.031
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_Mn55_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "Mn55",
+        "Energy [keV]": {
+            "Value": 1172.854,
+            "Uncertainty": 0.034
+        }
+    },
+    "wolfhahrt_nuclear_1981_muonic_Fe56_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Notes": "Determined from least squares fitting. HF splitting and isotopic impurity corrected. 2p3/2-1s from CoM of 2p-1s and theoretical FS splitting. ",
+        "Nuclide": "Fe56",
+        "Energy [keV]": {
+            "Value": 1257.042,
+            "Uncertainty": 0.025
+        }
+    }
+}
