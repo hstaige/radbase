@@ -1,0 +1,12 @@
+{
+    "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_1s1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Nuclide": "Zr90",
+        "Level": "1s1/2",
+        "Energy [keV]": {
+            "value": 1067.0,
+            "uncertainty": null
+        },
+        "Notes": ""
+    }
+}

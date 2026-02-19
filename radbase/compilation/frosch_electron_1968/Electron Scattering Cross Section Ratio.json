@@ -1,0 +1,2228 @@
+{
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=6.984e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.6984279472969682,
+            "Uncertainty": 0.021255559589947286
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 32.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.013000000000000001,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=7.619e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.7619480083370856,
+            "Uncertainty": 0.021088729077864483
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 35.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.006999999999999999,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=8.145e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.81448432585086,
+            "Uncertainty": 0.020938657891025794
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 37.5,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.032,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=8.666e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.8666329929378521,
+            "Uncertainty": 0.020778621037064876
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 40.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.06,
+            "Uncertainty": 0.015
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=9.081e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.9080561327983517,
+            "Uncertainty": 0.020643467300597594
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 42.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.049,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=9.492e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.9492026699642637,
+            "Uncertainty": 0.020502025364012796
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 44.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.096,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=9.901e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.9900600708017718,
+            "Uncertainty": 0.02035433831189453
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 46.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.11699999999999999,
+            "Uncertainty": 0.013999999999999999
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.010e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.010376452315617,
+            "Uncertainty": 0.020278166851979997
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 47.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.102,
+            "Uncertainty": 0.013000000000000001
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.031e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.0306158897507864,
+            "Uncertainty": 0.020200451131149568
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 48.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.11599999999999999,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.051e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.0507768417957601,
+            "Uncertainty": 0.020121197067756273
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 49.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.128,
+            "Uncertainty": 0.013000000000000001
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.071e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.0708577731159827,
+            "Uncertainty": 0.02004041069730389
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 50.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.115,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.091e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.0908571544707881,
+            "Uncertainty": 0.019958098171987303
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 51.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.075,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.111e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.1107734628298558,
+            "Uncertainty": 0.019874265760223997
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 52.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.003,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.131e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.1306051814891944,
+            "Uncertainty": 0.019788919846176704
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 53.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.046,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.150e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.1503508001866465,
+            "Uncertainty": 0.01970206692926721
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 54.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.132,
+            "Uncertainty": 0.016
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.170e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.1700088152169004,
+            "Uncertainty": 0.019613713623681386
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 55.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.17600000000000002,
+            "Uncertainty": 0.021
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.190e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.1895777295460024,
+            "Uncertainty": 0.01952386665786555
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 56.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.19699999999999998,
+            "Uncertainty": 0.017
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.228e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.2284423020052397,
+            "Uncertainty": 0.01933971922754796
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 58.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.213,
+            "Uncertainty": 0.022000000000000002
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.267e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.2669326790390987,
+            "Uncertainty": 0.0191496807314056
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.226,
+            "Uncertainty": 0.017
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.305e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.3050371361058701,
+            "Uncertainty": 0.01895380905700533
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 62.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.19699999999999998,
+            "Uncertainty": 0.015
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.343e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.3427440662188048,
+            "Uncertainty": 0.01875216386875662
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 64.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.18899999999999997,
+            "Uncertainty": 0.015
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.417e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.416919526587691,
+            "Uncertainty": 0.01833180038298297
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 68.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.162,
+            "Uncertainty": 0.015
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.489e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.4893686887731512,
+            "Uncertainty": 0.01788910242224003
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 72.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.13,
+            "Uncertainty": 0.013000000000000001
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.560e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.5600032846310004,
+            "Uncertainty": 0.01742460934580058
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 76.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.121,
+            "Uncertainty": 0.015
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.629e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.6287372567866116,
+            "Uncertainty": 0.016938887066928577
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 80.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.07200000000000001,
+            "Uncertainty": 0.015
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.712e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.711854623334179,
+            "Uncertainty": 0.01630278459352114
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 85.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.048,
+            "Uncertainty": 0.013999999999999999
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.792e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.7917133773107732,
+            "Uncertainty": 0.01563564884305023
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 90.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.017,
+            "Uncertainty": 0.02
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.868e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.868161503039325,
+            "Uncertainty": 0.014938749746334384
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 95.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.179,
+            "Uncertainty": 0.03
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.941e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.9410534771674826,
+            "Uncertainty": 0.014213413890413367
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 100.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.204,
+            "Uncertainty": 0.12
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=2.010e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 2.0102505456795847,
+            "Uncertainty": 0.013461021993314311
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 105.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.527,
+            "Uncertainty": 0.11
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=2.076e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 2.075620988022814,
+            "Uncertainty": 0.012683006275776504
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 110.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.25,
+            "Uncertainty": 0.08
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=2.137e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 2.1370403678447563,
+            "Uncertainty": 0.011880847734937807
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 115.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.489,
+            "Uncertainty": 0.13
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=2.248e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 2.247566022430375,
+            "Uncertainty": 0.010210253051446426
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 125.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.304,
+            "Uncertainty": 0.11
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca42_q=6.984e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.6984279472969682,
+            "Uncertainty": 0.021255559589947286
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 32.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca42",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.027000000000000003,
+            "Uncertainty": 0.009000000000000001
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca42_q=7.830e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.7830074571041244,
+            "Uncertainty": 0.021029901161084497
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 36.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca42",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.033,
+            "Uncertainty": 0.008
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca42_q=8.666e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.8666329929378521,
+            "Uncertainty": 0.020778621037064876
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 40.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca42",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.053,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca42_q=9.492e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.9492026699642637,
+            "Uncertainty": 0.020502025364012796
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 44.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca42",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.054000000000000006,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca42_q=1.031e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.0306158897507864,
+            "Uncertainty": 0.020200451131149568
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 48.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca42",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.08199999999999999,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca42_q=1.071e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.0708577731159827,
+            "Uncertainty": 0.02004041069730389
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 50.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca42",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.085,
+            "Uncertainty": 0.015
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca42_q=1.111e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.1107734628298558,
+            "Uncertainty": 0.019874265760223997
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 52.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca42",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.052000000000000005,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca42_q=1.150e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.1503508001866465,
+            "Uncertainty": 0.01970206692926721
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 54.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca42",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.004,
+            "Uncertainty": 0.013999999999999999
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca42_q=1.190e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.1895777295460024,
+            "Uncertainty": 0.01952386665786555
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 56.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca42",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.028999999999999998,
+            "Uncertainty": 0.015
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca42_q=1.267e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.2669326790390987,
+            "Uncertainty": 0.0191496807314056
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca42",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.01,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca42_q=1.343e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.3427440662188048,
+            "Uncertainty": 0.01875216386875662
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 64.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca42",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.004,
+            "Uncertainty": 0.013000000000000001
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca42_q=1.417e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.416919526587691,
+            "Uncertainty": 0.01833180038298297
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 68.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca42",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.001,
+            "Uncertainty": 0.013000000000000001
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca42_q=1.489e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.4893686887731512,
+            "Uncertainty": 0.01788910242224003
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 72.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca42",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.023,
+            "Uncertainty": 0.015
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca42_q=1.560e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.5600032846310004,
+            "Uncertainty": 0.01742460934580058
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 76.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca42",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.039,
+            "Uncertainty": 0.015
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca42_q=1.629e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.6287372567866116,
+            "Uncertainty": 0.016938887066928577
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 80.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca42",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.065,
+            "Uncertainty": 0.013999999999999999
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca42_q=1.695e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.69548686348257,
+            "Uncertainty": 0.016432527363401055
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 84.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca42",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.10300000000000001,
+            "Uncertainty": 0.024
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=6.984e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.6984279472969682,
+            "Uncertainty": 0.021255559589947286
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 32.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.013000000000000001,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=7.619e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.7619480083370856,
+            "Uncertainty": 0.021088729077864483
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 35.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.03,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=8.145e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.81448432585086,
+            "Uncertainty": 0.020938657891025794
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 37.5,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.064,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=8.666e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.8666329929378521,
+            "Uncertainty": 0.020778621037064876
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 40.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.057,
+            "Uncertainty": 0.008
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=9.081e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.9080561327983517,
+            "Uncertainty": 0.020643467300597594
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 42.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.061,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=9.492e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.9492026699642637,
+            "Uncertainty": 0.020502025364012796
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 44.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.08,
+            "Uncertainty": 0.008
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=9.901e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.9900600708017718,
+            "Uncertainty": 0.02035433831189453
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 46.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.087,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=1.031e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.0306158897507864,
+            "Uncertainty": 0.020200451131149568
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 48.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.12300000000000001,
+            "Uncertainty": 0.009000000000000001
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=1.071e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.0708577731159827,
+            "Uncertainty": 0.02004041069730389
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 50.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.091,
+            "Uncertainty": 0.009000000000000001
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=1.111e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.1107734628298558,
+            "Uncertainty": 0.019874265760223997
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 52.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.057999999999999996,
+            "Uncertainty": 0.006999999999999999
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=1.150e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.1503508001866465,
+            "Uncertainty": 0.01970206692926721
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 54.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.048,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=1.190e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.1895777295460024,
+            "Uncertainty": 0.01952386665786555
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 56.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.087,
+            "Uncertainty": 0.011000000000000001
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=1.267e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.2669326790390987,
+            "Uncertainty": 0.0191496807314056
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.09,
+            "Uncertainty": 0.011000000000000001
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=1.343e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.3427440662188048,
+            "Uncertainty": 0.01875216386875662
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 64.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.057,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=1.417e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.416919526587691,
+            "Uncertainty": 0.01833180038298297
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 68.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.044000000000000004,
+            "Uncertainty": 0.015
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=1.489e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.4893686887731512,
+            "Uncertainty": 0.01788910242224003
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 72.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.005,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=1.560e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.5600032846310004,
+            "Uncertainty": 0.01742460934580058
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 76.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.003,
+            "Uncertainty": 0.015
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=1.629e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.6287372567866116,
+            "Uncertainty": 0.016938887066928577
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 80.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.04,
+            "Uncertainty": 0.02
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=1.712e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.711854623334179,
+            "Uncertainty": 0.01630278459352114
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 85.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.055999999999999994,
+            "Uncertainty": 0.024
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca44_q=1.792e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.7917133773107732,
+            "Uncertainty": 0.01563564884305023
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 90.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca44",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.125,
+            "Uncertainty": 0.031000000000000003
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=6.984e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.6984279472969682,
+            "Uncertainty": 0.021255559589947286
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 32.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.013000000000000001,
+            "Uncertainty": 0.012
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=7.619e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.7619480083370856,
+            "Uncertainty": 0.021088729077864483
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 35.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.002,
+            "Uncertainty": 0.015
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=8.145e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.81448432585086,
+            "Uncertainty": 0.020938657891025794
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 37.5,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.034,
+            "Uncertainty": 0.013999999999999999
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=8.666e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.8666329929378521,
+            "Uncertainty": 0.020778621037064876
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 40.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.043,
+            "Uncertainty": 0.006999999999999999
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=9.081e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.9080561327983517,
+            "Uncertainty": 0.020643467300597594
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 42.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.05,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=9.492e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.9492026699642637,
+            "Uncertainty": 0.020502025364012796
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 44.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.054000000000000006,
+            "Uncertainty": 0.008
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=9.901e-01": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 0.9900600708017718,
+            "Uncertainty": 0.02035433831189453
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 46.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.061,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=1.031e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.0306158897507864,
+            "Uncertainty": 0.020200451131149568
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 48.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.034,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=1.071e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.0708577731159827,
+            "Uncertainty": 0.02004041069730389
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 50.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.07200000000000001,
+            "Uncertainty": 0.006999999999999999
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=1.111e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.1107734628298558,
+            "Uncertainty": 0.019874265760223997
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 52.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.161,
+            "Uncertainty": 0.015
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=1.150e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.1503508001866465,
+            "Uncertainty": 0.01970206692926721
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 54.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.193,
+            "Uncertainty": 0.015
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=1.190e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.1895777295460024,
+            "Uncertainty": 0.01952386665786555
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 56.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.19899999999999998,
+            "Uncertainty": 0.015
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=1.228e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.2284423020052397,
+            "Uncertainty": 0.01933971922754796
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 58.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.161,
+            "Uncertainty": 0.013999999999999999
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=1.267e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.2669326790390987,
+            "Uncertainty": 0.0191496807314056
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.105,
+            "Uncertainty": 0.012
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=1.305e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.3050371361058701,
+            "Uncertainty": 0.01895380905700533
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 62.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.07400000000000001,
+            "Uncertainty": 0.012
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=1.343e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.3427440662188048,
+            "Uncertainty": 0.01875216386875662
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 64.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.048,
+            "Uncertainty": 0.012
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=1.380e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.3800419834817157,
+            "Uncertainty": 0.0185448065897372
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 66.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.011000000000000001,
+            "Uncertainty": 0.015
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=1.417e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.416919526587691,
+            "Uncertainty": 0.01833180038298297
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 68.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.018000000000000002,
+            "Uncertainty": 0.013999999999999999
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=1.453e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.45336546227986,
+            "Uncertainty": 0.018113210132247946
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 70.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.04,
+            "Uncertainty": 0.013999999999999999
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=1.489e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.4893686887731512,
+            "Uncertainty": 0.01788910242224003
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 72.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.055,
+            "Uncertainty": 0.013999999999999999
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=1.525e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.5249182391360037,
+            "Uncertainty": 0.017659545518338676
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 74.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.114,
+            "Uncertainty": 0.02
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=1.560e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.5600032846310004,
+            "Uncertainty": 0.01742460934580058
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 76.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.086,
+            "Uncertainty": 0.013999999999999999
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=1.629e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.6287372567866116,
+            "Uncertainty": 0.016938887066928577
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 80.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.175,
+            "Uncertainty": 0.013999999999999999
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=1.712e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.711854623334179,
+            "Uncertainty": 0.01630278459352114
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 85.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.209,
+            "Uncertainty": 0.024
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca48_Ti48_q=1.792e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.7917133773107732,
+            "Uncertainty": 0.01563564884305023
+        },
+        "Energy [MeV]": {
+            "Value": 250.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 90.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.349,
+            "Uncertainty": 0.03
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.397e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.3968558945939364,
+            "Uncertainty": 0.04251111917989457
+        },
+        "Energy [MeV]": {
+            "Value": 500.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 32.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.171,
+            "Uncertainty": 0.009000000000000001
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.524e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.5238960166741713,
+            "Uncertainty": 0.042177458155728965
+        },
+        "Energy [MeV]": {
+            "Value": 500.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 35.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.136,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.650e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.6498917365448824,
+            "Uncertainty": 0.04181489080855449
+        },
+        "Energy [MeV]": {
+            "Value": 500.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 38.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.076,
+            "Uncertainty": 0.01
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.733e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.7332659858757042,
+            "Uncertainty": 0.04155724207412975
+        },
+        "Energy [MeV]": {
+            "Value": 500.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 40.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.017,
+            "Uncertainty": 0.011000000000000001
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.816e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.8161122655967035,
+            "Uncertainty": 0.04128693460119519
+        },
+        "Energy [MeV]": {
+            "Value": 500.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 42.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.068,
+            "Uncertainty": 0.017
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.898e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.8984053399285274,
+            "Uncertainty": 0.04100405072802559
+        },
+        "Energy [MeV]": {
+            "Value": 500.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 44.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.171,
+            "Uncertainty": 0.026000000000000002
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=1.980e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 1.9801201416035437,
+            "Uncertainty": 0.04070867662378906
+        },
+        "Energy [MeV]": {
+            "Value": 500.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 46.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.195,
+            "Uncertainty": 0.031000000000000003
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=2.061e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 2.061231779501573,
+            "Uncertainty": 0.040400902262299136
+        },
+        "Energy [MeV]": {
+            "Value": 500.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 48.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.47100000000000003,
+            "Uncertainty": 0.021
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=2.182e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 2.1817143089415763,
+            "Uncertainty": 0.03991619634397461
+        },
+        "Energy [MeV]": {
+            "Value": 500.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 51.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.361,
+            "Uncertainty": 0.015
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=2.301e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 2.300701600373293,
+            "Uncertainty": 0.03940413385853442
+        },
+        "Energy [MeV]": {
+            "Value": 500.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 54.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.27899999999999997,
+            "Uncertainty": 0.024
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=2.418e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 2.418112105850723,
+            "Uncertainty": 0.03886506574802798
+        },
+        "Energy [MeV]": {
+            "Value": 500.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 57.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": 0.184,
+            "Uncertainty": 0.042
+        }
+    },
+    "frosch_electron_1968_electron_cross_section_ratio_Ca40_Ca48_q=2.534e+00": {
+        "Reference": "frosch_electron_1968",
+        "q [1/fm]": {
+            "Value": 2.5338653580781973,
+            "Uncertainty": 0.0382993614628112
+        },
+        "Energy [MeV]": {
+            "Value": 500.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 1.0
+        },
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "Ca48",
+        "Cross section Ratio [fm^2/sr]": {
+            "Value": -0.11699999999999999,
+            "Uncertainty": 0.052000000000000005
+        }
+    }
+}

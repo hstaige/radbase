@@ -1,0 +1,92 @@
+{
+    "kast_isotone_1971_radius_Cd114_NP_Calculated": {
+        "Reference": "kast_isotone_1971",
+        "Relies On": [
+            "kast_isotone_1971_fermi_Cd114"
+        ],
+        "Nuclide": "Cd114",
+        "R [fm]": {
+            "value": 4.624,
+            "uncertainty": 0.008
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": ""
+    },
+    "kast_isotone_1971_radius_In115_NP_Calculated": {
+        "Reference": "kast_isotone_1971",
+        "Relies On": [
+            "kast_isotone_1971_fermi_In115"
+        ],
+        "Nuclide": "In115",
+        "R [fm]": {
+            "value": 4.619,
+            "uncertainty": 0.015
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": ""
+    },
+    "kast_isotone_1971_radius_Sn116_NP_Calculated": {
+        "Reference": "kast_isotone_1971",
+        "Relies On": [
+            "kast_isotone_1971_fermi_Sn116"
+        ],
+        "Nuclide": "Sn116",
+        "R [fm]": {
+            "value": 4.642,
+            "uncertainty": 0.006
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": ""
+    },
+    "kast_isotone_1971_radius_Sn124_NP_Calculated": {
+        "Reference": "kast_isotone_1971",
+        "Relies On": [
+            "kast_isotone_1971_fermi_Sn124"
+        ],
+        "Nuclide": "Sn124",
+        "R [fm]": {
+            "value": 4.698,
+            "uncertainty": 0.006
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": ""
+    },
+    "kast_isotone_1971_radius_Te126_NP_Calculated": {
+        "Reference": "kast_isotone_1971",
+        "Relies On": [
+            "kast_isotone_1971_fermi_Te126"
+        ],
+        "Nuclide": "Te126",
+        "R [fm]": {
+            "value": 4.774,
+            "uncertainty": 0.006
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": ""
+    },
+    "kast_isotone_1971_radius_I127_NP_Calculated": {
+        "Reference": "kast_isotone_1971",
+        "Relies On": [
+            "kast_isotone_1971_fermi_I127"
+        ],
+        "Nuclide": "I127",
+        "R [fm]": {
+            "value": 4.763,
+            "uncertainty": 0.006
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": ""
+    }
+}

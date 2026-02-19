@@ -1,0 +1,4 @@
+Measured muonic transition energies up to 4f7/2 for Hg 198, 199, 200, 201, 202, and 204. Much of the paper is focused on
+extracting quadrapole moments, but a two parameter Fermi fit is performed as well. This fit includes the 2p->1s, 3d->2p
+and 2p FS splitting. Isotope shifts are presented as a shift in the 1s1/2 level by looking at the 4f7/2->1s1/2 isotope
+shifts. These shifts are then converted into shifts in Barrett radii using alpha from Engfer 74.

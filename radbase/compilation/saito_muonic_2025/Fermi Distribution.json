@@ -1,0 +1,110 @@
+{
+    "saito_muonic_2025_fermi_Pd104": {
+        "Reference": "saito_muonic_2025",
+        "Relies On": [
+            "saito_muonic_2025_muonic_Pd104_2p1/2_1s1/2",
+            "saito_muonic_2025_muonic_Pd104_2p3/2_1s1/2",
+            "saito_muonic_2025_muonic_Pd104_3d3/2_2p1/2",
+            "saito_muonic_2025_muonic_Pd104_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Pd104",
+        "c [fm]": {
+            "value": 5.26,
+            "uncertainty": 0.12
+        },
+        "a [fm]": {
+            "value": 2.25,
+            "uncertainty": 0.25
+        },
+        "beta2 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "beta4 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "Notes": "No theoretical uncertainties. #Exp_unc"
+    },
+    "saito_muonic_2025_fermi_Pd106": {
+        "Reference": "saito_muonic_2025",
+        "Relies On": [
+            "saito_muonic_2025_muonic_Pd106_2p1/2_1s1/2",
+            "saito_muonic_2025_muonic_Pd106_2p3/2_1s1/2",
+            "saito_muonic_2025_muonic_Pd106_3d3/2_2p1/2",
+            "saito_muonic_2025_muonic_Pd106_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Pd106",
+        "c [fm]": {
+            "value": 5.49,
+            "uncertainty": 0.3
+        },
+        "a [fm]": {
+            "value": 1.76,
+            "uncertainty": 0.65
+        },
+        "beta2 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "beta4 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "Notes": "No theoretical uncertainties. #Exp_unc"
+    },
+    "saito_muonic_2025_fermi_Pd108": {
+        "Reference": "saito_muonic_2025",
+        "Relies On": [
+            "saito_muonic_2025_muonic_Pd108_2p1/2_1s1/2",
+            "saito_muonic_2025_muonic_Pd108_2p3/2_1s1/2",
+            "saito_muonic_2025_muonic_Pd108_3d3/2_2p1/2",
+            "saito_muonic_2025_muonic_Pd108_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Pd108",
+        "c [fm]": {
+            "value": 5.45,
+            "uncertainty": 0.11
+        },
+        "a [fm]": {
+            "value": 1.96,
+            "uncertainty": 0.27
+        },
+        "beta2 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "beta4 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "Notes": "No theoretical uncertainties. #Exp_unc"
+    },
+    "saito_muonic_2025_fermi_Pd110": {
+        "Reference": "saito_muonic_2025",
+        "Relies On": [
+            "saito_muonic_2025_muonic_Pd110_2p1/2_1s1/2",
+            "saito_muonic_2025_muonic_Pd110_2p3/2_1s1/2",
+            "saito_muonic_2025_muonic_Pd110_3d3/2_2p1/2",
+            "saito_muonic_2025_muonic_Pd110_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Pd110",
+        "c [fm]": {
+            "value": 5.6,
+            "uncertainty": 0.26
+        },
+        "a [fm]": {
+            "value": 1.61,
+            "uncertainty": 0.7
+        },
+        "beta2 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "beta4 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "Notes": "No theoretical uncertainties. #Exp_unc"
+    }
+}

@@ -1,0 +1,208 @@
+{
+    "kast_isotone_1971_fermi_Cd114": {
+        "Reference": "kast_isotone_1971",
+        "Relies On": [
+            "kast_isotone_1971_muonic_Cd114_2p1/2_1s1/2",
+            "kast_isotone_1971_muonic_Cd114_2p3/2_1s1/2",
+            "kast_isotone_1971_muonic_Cd114_3d3/2_2p1/2",
+            "kast_isotone_1971_muonic_Cd114_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Cd114",
+        "c [fm]": {
+            "value": 5.27,
+            "uncertainty": 0.11
+        },
+        "a [fm]": {
+            "value": 0.58,
+            "uncertainty": 0.05
+        },
+        "beta2 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "beta4 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_fermi_In115": {
+        "Reference": "kast_isotone_1971",
+        "Relies On": [
+            "kast_isotone_1971_muonic_Cd114_2p1/2_1s1/2",
+            "kast_isotone_1971_muonic_Cd114_2p3/2_1s1/2",
+            "kast_isotone_1971_muonic_Cd114_3d3/2_2p1/2",
+            "kast_isotone_1971_muonic_Cd114_3d5/2_2p3/2",
+            "kast_isotone_1971_muonic_In115_2p1/2_1s1/2",
+            "kast_isotone_1971_muonic_In115_2p3/2_1s1/2",
+            "kast_isotone_1971_muonic_In115_3d3/2_2p1/2",
+            "kast_isotone_1971_muonic_In115_3d5/2_2p3/2"
+        ],
+        "Nuclide": "In115",
+        "c [fm]": {
+            "value": 5.38,
+            "uncertainty": 0.19
+        },
+        "a [fm]": {
+            "value": 0.53,
+            "uncertainty": 0.1
+        },
+        "beta2 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "beta4 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_fermi_Sn116": {
+        "Reference": "kast_isotone_1971",
+        "Relies On": [
+            "kast_isotone_1971_muonic_Cd114_2p1/2_1s1/2",
+            "kast_isotone_1971_muonic_Cd114_2p3/2_1s1/2",
+            "kast_isotone_1971_muonic_Cd114_3d3/2_2p1/2",
+            "kast_isotone_1971_muonic_Cd114_3d5/2_2p3/2",
+            "kast_isotone_1971_muonic_In115_2p1/2_1s1/2",
+            "kast_isotone_1971_muonic_In115_2p3/2_1s1/2",
+            "kast_isotone_1971_muonic_In115_3d3/2_2p1/2",
+            "kast_isotone_1971_muonic_In115_3d5/2_2p3/2",
+            "kast_isotone_1971_muonic_Sn116_2p1/2_1s1/2",
+            "kast_isotone_1971_muonic_Sn116_2p3/2_1s1/2",
+            "kast_isotone_1971_muonic_Sn116_3d3/2_2p1/2",
+            "kast_isotone_1971_muonic_Sn116_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Sn116",
+        "c [fm]": {
+            "value": 5.26,
+            "uncertainty": 0.08
+        },
+        "a [fm]": {
+            "value": 0.6,
+            "uncertainty": 0.03
+        },
+        "beta2 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "beta4 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_fermi_Sn124": {
+        "Reference": "kast_isotone_1971",
+        "Relies On": [
+            "kast_isotone_1971_muonic_Cd114_2p1/2_1s1/2",
+            "kast_isotone_1971_muonic_Cd114_2p3/2_1s1/2",
+            "kast_isotone_1971_muonic_Cd114_3d3/2_2p1/2",
+            "kast_isotone_1971_muonic_Cd114_3d5/2_2p3/2",
+            "kast_isotone_1971_muonic_In115_2p1/2_1s1/2",
+            "kast_isotone_1971_muonic_In115_2p3/2_1s1/2",
+            "kast_isotone_1971_muonic_In115_3d3/2_2p1/2",
+            "kast_isotone_1971_muonic_In115_3d5/2_2p3/2",
+            "kast_isotone_1971_muonic_Sn124_2p1/2_1s1/2",
+            "kast_isotone_1971_muonic_Sn124_2p3/2_1s1/2",
+            "kast_isotone_1971_muonic_Sn124_3d3/2_2p1/2",
+            "kast_isotone_1971_muonic_Sn124_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Sn124",
+        "c [fm]": {
+            "value": 5.3,
+            "uncertainty": 0.07
+        },
+        "a [fm]": {
+            "value": 0.61,
+            "uncertainty": 0.03
+        },
+        "beta2 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "beta4 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_fermi_Te126": {
+        "Reference": "kast_isotone_1971",
+        "Relies On": [
+            "kast_isotone_1971_muonic_Cd114_2p1/2_1s1/2",
+            "kast_isotone_1971_muonic_Cd114_2p3/2_1s1/2",
+            "kast_isotone_1971_muonic_Cd114_3d3/2_2p1/2",
+            "kast_isotone_1971_muonic_Cd114_3d5/2_2p3/2",
+            "kast_isotone_1971_muonic_In115_2p1/2_1s1/2",
+            "kast_isotone_1971_muonic_In115_2p3/2_1s1/2",
+            "kast_isotone_1971_muonic_In115_3d3/2_2p1/2",
+            "kast_isotone_1971_muonic_In115_3d5/2_2p3/2",
+            "kast_isotone_1971_muonic_Sn124_2p1/2_1s1/2",
+            "kast_isotone_1971_muonic_Sn124_2p3/2_1s1/2",
+            "kast_isotone_1971_muonic_Sn124_3d3/2_2p1/2",
+            "kast_isotone_1971_muonic_Sn124_3d5/2_2p3/2",
+            "kast_isotone_1971_muonic_Te126_2p1/2_1s1/2",
+            "kast_isotone_1971_muonic_Te126_2p3/2_1s1/2",
+            "kast_isotone_1971_muonic_Te126_3d3/2_2p1/2",
+            "kast_isotone_1971_muonic_Te126_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Te126",
+        "c [fm]": {
+            "value": 5.43,
+            "uncertainty": 0.07
+        },
+        "a [fm]": {
+            "value": 0.59,
+            "uncertainty": 0.03
+        },
+        "beta2 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "beta4 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "Notes": ""
+    },
+    "kast_isotone_1971_fermi_I127": {
+        "Reference": "kast_isotone_1971",
+        "Relies On": [
+            "kast_isotone_1971_muonic_Cd114_2p1/2_1s1/2",
+            "kast_isotone_1971_muonic_Cd114_2p3/2_1s1/2",
+            "kast_isotone_1971_muonic_Cd114_3d3/2_2p1/2",
+            "kast_isotone_1971_muonic_Cd114_3d5/2_2p3/2",
+            "kast_isotone_1971_muonic_In115_2p1/2_1s1/2",
+            "kast_isotone_1971_muonic_In115_2p3/2_1s1/2",
+            "kast_isotone_1971_muonic_In115_3d3/2_2p1/2",
+            "kast_isotone_1971_muonic_In115_3d5/2_2p3/2",
+            "kast_isotone_1971_muonic_Sn124_2p1/2_1s1/2",
+            "kast_isotone_1971_muonic_Sn124_2p3/2_1s1/2",
+            "kast_isotone_1971_muonic_Sn124_3d3/2_2p1/2",
+            "kast_isotone_1971_muonic_Sn124_3d5/2_2p3/2",
+            "kast_isotone_1971_muonic_Te126_2p1/2_1s1/2",
+            "kast_isotone_1971_muonic_Te126_2p3/2_1s1/2",
+            "kast_isotone_1971_muonic_Te126_3d3/2_2p1/2",
+            "kast_isotone_1971_muonic_Te126_3d5/2_2p3/2"
+        ],
+        "Nuclide": "I127",
+        "c [fm]": {
+            "value": 5.51,
+            "uncertainty": 0.06
+        },
+        "a [fm]": {
+            "value": 2.49,
+            "uncertainty": 0.08
+        },
+        "beta2 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "beta4 [-]": {
+            "value": 0.0,
+            "uncertainty": null
+        },
+        "Notes": ""
+    }
+}

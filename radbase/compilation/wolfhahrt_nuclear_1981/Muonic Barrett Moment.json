@@ -1,0 +1,464 @@
+{
+    "wolfhahrt_nuclear_1981_barrett_moment_K39_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "K39",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_K39_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.4073,
+            "Uncertainty": 0.0016
+        },
+        "k [-]": "2.114",
+        "alpha [1/fm]": "0.064",
+        "Cz [fm/keV]": "-0.0499",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_K39_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_K39_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_K41_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "K41",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_K41_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.4293,
+            "Uncertainty": 0.0014
+        },
+        "k [-]": "2.114",
+        "alpha [1/fm]": "0.064",
+        "Cz [fm/keV]": "-0.0499",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_K41_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_K41_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_Ca40_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "Ca40",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_Ca40_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.4626,
+            "Uncertainty": 0.001
+        },
+        "k [-]": "2.114",
+        "alpha [1/fm]": "0.065",
+        "Cz [fm/keV]": "-0.0420",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_Ca40_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_Ca40_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_Ca42_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "Ca42",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_Ca42_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.5016,
+            "Uncertainty": 0.0012
+        },
+        "k [-]": "2.114",
+        "alpha [1/fm]": "0.065",
+        "Cz [fm/keV]": "-0.0420",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_Ca42_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_Ca42_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_Ca43_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "Ca43",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_Ca43_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.4841,
+            "Uncertainty": 0.0011
+        },
+        "k [-]": "2.114",
+        "alpha [1/fm]": "0.065",
+        "Cz [fm/keV]": "-0.0420",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_Ca43_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_Ca43_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_Ca44_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "Ca44",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_Ca44_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.5143,
+            "Uncertainty": 0.0011
+        },
+        "k [-]": "2.114",
+        "alpha [1/fm]": "0.065",
+        "Cz [fm/keV]": "-0.0420",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_Ca44_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_Ca44_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_Ca46_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "Ca46",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_Ca46_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.4898,
+            "Uncertainty": 0.0045
+        },
+        "k [-]": "2.114",
+        "alpha [1/fm]": "0.065",
+        "Cz [fm/keV]": "-0.0420",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_Ca46_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_Ca46_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_Ca48_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "Ca48",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_Ca48_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.4639,
+            "Uncertainty": 0.0011
+        },
+        "k [-]": "2.114",
+        "alpha [1/fm]": "0.065",
+        "Cz [fm/keV]": "-0.0420",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_Ca48_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_Ca48_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_Sc45_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "Sc45",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_Sc45_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.5505,
+            "Uncertainty": 0.001
+        },
+        "k [-]": "2.116",
+        "alpha [1/fm]": "0.066",
+        "Cz [fm/keV]": "-0.0356",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_Sc45_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_Sc45_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_Ti46_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "Ti46",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_Ti46_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.6261,
+            "Uncertainty": 0.0008
+        },
+        "k [-]": "2.118",
+        "alpha [1/fm]": "0.068",
+        "Cz [fm/keV]": "-0.0307",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_Ti46_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_Ti46_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_Ti47_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "Ti47",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_Ti47_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.612,
+            "Uncertainty": 0.0008
+        },
+        "k [-]": "2.118",
+        "alpha [1/fm]": "0.068",
+        "Cz [fm/keV]": "-0.0307",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_Ti47_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_Ti47_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_Ti48_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "Ti48",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_Ti48_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.6083,
+            "Uncertainty": 0.0008
+        },
+        "k [-]": "2.118",
+        "alpha [1/fm]": "0.068",
+        "Cz [fm/keV]": "-0.0307",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_Ti48_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_Ti48_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_Ti49_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "Ti49",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_Ti49_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.5843,
+            "Uncertainty": 0.001
+        },
+        "k [-]": "2.118",
+        "alpha [1/fm]": "0.068",
+        "Cz [fm/keV]": "-0.0307",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_Ti49_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_Ti49_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_Ti50_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "Ti50",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_Ti50_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.5809,
+            "Uncertainty": 0.0008
+        },
+        "k [-]": "2.118",
+        "alpha [1/fm]": "0.068",
+        "Cz [fm/keV]": "-0.0307",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_Ti50_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_Ti50_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_V51_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "V51",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_V51_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.6173,
+            "Uncertainty": 0.0007
+        },
+        "k [-]": "2.116",
+        "alpha [1/fm]": "0.069",
+        "Cz [fm/keV]": "-0.0265",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_V51_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_V51_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_Cr50_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "Cr50",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_Cr50_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.6947,
+            "Uncertainty": 0.0006
+        },
+        "k [-]": "2.115",
+        "alpha [1/fm]": "0.071",
+        "Cz [fm/keV]": "-0.0232",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_Cr50_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_Cr50_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_Cr52_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "Cr52",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_Cr52_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.6698,
+            "Uncertainty": 0.0005
+        },
+        "k [-]": "2.115",
+        "alpha [1/fm]": "0.071",
+        "Cz [fm/keV]": "-0.0232",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_Cr52_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_Cr52_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_Cr53_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "Cr53",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_Cr53_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.6914,
+            "Uncertainty": 0.0006
+        },
+        "k [-]": "2.115",
+        "alpha [1/fm]": "0.071",
+        "Cz [fm/keV]": "-0.0232",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_Cr53_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_Cr53_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_Cr54_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "Cr54",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_Cr54_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.7278,
+            "Uncertainty": 0.0007
+        },
+        "k [-]": "2.115",
+        "alpha [1/fm]": "0.071",
+        "Cz [fm/keV]": "-0.0232",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_Cr54_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_Cr54_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_Mn55_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "Mn55",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_Mn55_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.7527,
+            "Uncertainty": 0.0007
+        },
+        "k [-]": "2.120",
+        "alpha [1/fm]": "0.072",
+        "Cz [fm/keV]": "-0.0203",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_Mn55_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_Mn55_2p3/2_1s1/2"
+        ]
+    },
+    "wolfhahrt_nuclear_1981_barrett_moment_Fe56_2p3/2-1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Nuclear Polarization Method": "Calculated",
+        "Notes": "No NP or QED uncertainties included. #Exp_unc",
+        "Nuclide": "Fe56",
+        "Previous Muonic Measurements": [
+            "wolfhahrt_nuclear_1981_muonic_Fe56_2p3/2_1s1/2"
+        ],
+        "Rka [fm]": {
+            "Value": 4.7921,
+            "Uncertainty": 0.0005
+        },
+        "k [-]": "2.121",
+        "alpha [1/fm]": "0.074",
+        "Cz [fm/keV]": "-0.0181",
+        "Calculated Nuclear Polarization": [
+            "wolfhahrt_nuclear_1981_muonic_nuclear_polarization_Fe56_2p3/2_1s1/2"
+        ],
+        "Calculated QED": [
+            "wolfhahrt_nuclear_1981_muonic_qed_Fe56_2p3/2_1s1/2"
+        ]
+    }
+}

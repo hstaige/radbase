@@ -37,10 +37,20 @@ class Reference:
 class ScrollableFrame(ttk.Frame):
     def __init__(self, container, *args, **kwargs):
         super().__init__(container, *args, **kwargs)
+
         canvas = tk.Canvas(self)
         scrollbar = ttk.Scrollbar(self, orient="vertical", command=canvas.yview)
+
         self.scrollable_frame = ttk.Frame(canvas)
 
+        # Create window and store ID
+        self.window_id = canvas.create_window(
+            (0, 0),
+            window=self.scrollable_frame,
+            anchor="nw"
+        )
+
+        # Update scrollregion when content changes
         self.scrollable_frame.bind(
             "<Configure>",
             lambda e: canvas.configure(
@@ -48,7 +58,11 @@ class ScrollableFrame(ttk.Frame):
             )
         )
 
-        canvas.create_window((0, 0), window=self.scrollable_frame, anchor="nw")
+        # KEY FIX: make inner frame track canvas width
+        canvas.bind(
+            "<Configure>",
+            lambda e: canvas.itemconfig(self.window_id, width=e.width)
+        )
 
         canvas.configure(yscrollcommand=scrollbar.set)
 
@@ -103,7 +117,14 @@ class ToolTip:
 
 
 class FieldProcessor(Protocol):
+
     def process(self, widget: tk.Widget) -> dict[str, Any]:
+        return self.process_data(self.unpack_widget(widget))
+
+    def unpack_widget(self, widget: tk.Widget) -> Any:
+        pass
+
+    def process_data(self, data: Any) -> dict[str, Any]:
         pass
 
 
@@ -114,31 +135,43 @@ class CastProcessor:
         self.field_type = field_type
         self.allows_empty = allows_empty
 
-    def process(self, widget: tk.Widget):
-        raw = widget.get()
-        if raw == "" and not self.allows_empty:
+    def process(self, widget: tk.Widget) -> dict[str, Any]:
+        return self.process_data(self.unpack_widget(widget))
+
+    @staticmethod
+    def unpack_widget(widget: tk.Widget):
+        return widget.get()
+
+    def process_data(self, data: str) -> dict[str, str]:
+        if data == "" and not self.allows_empty:
             raise ValueError("Field is empty")
-        return {self.key: self.field_type(raw)}
+        return {self.key: self.field_type(data)}
 
 
 class GroupedProcessor:
 
-    def __init__(self, processors: list[FieldProcessor]):
+    def __init__(self, processors: list[FieldProcessor], allows_empty=False):
         self.processors = processors
+        self.allows_empty = allows_empty
 
-    def process(self, widget: tk.Widget, allows_empty=False):
+    def process(self, widget: tk.Widget):
+        return self.process_data(self.unpack_widget(widget))
+
+    def unpack_widget(self, widget: tk.Widget):
+        return [processor.unpack_widget(sub_widget) for sub_widget, processor in zip(widget.widgets, self.processors)]
+
+    def process_data(self, data: list):
         result = {}
-
-        for sub_widget, processor in zip(widget.widgets, self.processors):
+        for sub_data, processor in zip(data, self.processors):
             try:
-                sub_result = processor.process(sub_widget)
+                sub_result = processor.process_data(sub_data)
             except ValueError:
                 continue
 
             result = result | sub_result
 
-        if result == {} and not allows_empty:
-            raise ValueError(f'At least one sub_widget of {widget} must be non-empty for GroupedProcessor')
+        if result == {} and not self.allows_empty:
+            raise ValueError('At least one sub_widget must be non-empty for GroupedProcessor')
 
         return result
 
@@ -149,15 +182,20 @@ class XORProcessor:
         self.processors = processors
 
     def process(self, widget: tk.Widget):
-        result = {}
+        return self.process_data(self.unpack_widget(widget))
 
+    def unpack_widget(self, widget: tk.Widget) -> list:
         if len(widget.widgets) != 2:
             raise ValueError('XOR processor applied to widget that does not have two fields.')
+        return [processor.unpack_widget(sub_widget) for sub_widget, processor in zip(widget.widgets, self.processors)]
+
+    def process_data(self, data: list) -> dict[str, Any]:
+        result = {}
 
         num_filled = 0
-        for sub_widget, processor in zip(widget.widgets, self.processors):
+        for sub_data, processor in zip(data, self.processors):
             try:
-                sub_result = processor.process(sub_widget)
+                sub_result = processor.process_data(sub_data)
             except ValueError:
                 continue
 
@@ -176,29 +214,29 @@ class NumberWithUncertaintyProcessor:
         self.key = key
 
     def process(self, widget: tk.Widget):
-        raw = widget.get().strip()
+        return self.process_data(self.unpack_widget(widget))
+
+    def process_data(self, data):
         try:
-            value = float(raw)
+            value = float(data)
             return {self.key: {'value': value, 'uncertainty': None}}
         except ValueError:
             try:
-                uvar = uncertainties.ufloat_fromstr(raw)
+                uvar = uncertainties.ufloat_fromstr(data)
                 return {self.key: {'value': uvar.n, 'uncertainty': uvar.s}}
             except ValueError:
                 raise ValueError(
-                    f'Entered value of {raw} does not match the number with uncertainty pattern. Ex. 0.65(2) or 0.32')
+                    f'Entered value of {data} does not match the number with uncertainty pattern. Ex. 0.65(2) or 0.32')
+
+    @staticmethod
+    def unpack_widget(widget: tk.Widget):
+        return widget.get().strip()
 
 
 class NuclearPolarizationProcessor:
-
-    @staticmethod
-    def process(widget: tk.Widget):
-        selection = widget.selection
-        fit_widget = widget.fit_widget
-        prev_calced_widget = widget.prev_calced_widget
-
-        calced_processor = PreviousDataProcessor(key='Calculated Nuclear Polarization')
-        varied_processor = VariableNumberProcessor(
+    def __init__(self):
+        self.calced_processor = PreviousDataProcessor(key='Calculated Nuclear Polarization')
+        self.varied_processor = VariableNumberProcessor(
             GroupedProcessor([
                 XORProcessor(
                     [TransitionProcessor(), CastProcessor(str, key='Level')]
@@ -206,15 +244,32 @@ class NuclearPolarizationProcessor:
                 NumberWithUncertaintyProcessor('Energy [keV]')
             ]))
 
-        mode = selection.get()
-        result = {'Nuclear Polarization Method': mode}
+    def process(self, widget: tk.Widget):
+        return self.process_data(self.unpack_widget(widget))
 
+    def unpack_widget(self, widget: tk.Widget) -> dict[str, Any]:
+        selection = widget.selection
+        fit_widget = widget.fit_widget
+        prev_calced_widget = widget.prev_calced_widget
+
+        mode = selection.get()
+
+        return {'mode': mode,
+                'fit_data': self.varied_processor.unpack_widget(fit_widget),
+                'calced_data': self.calced_processor.unpack_widget(prev_calced_widget)}
+
+    def process_data(self, data):
+        mode = data['mode']
+        fit_data = data['fit_data']
+        calced_data = data['calced_data']
+
+        result = {'Nuclear Polarization Method': mode}
         if mode == 'Calculated':
-            return result | calced_processor.process(prev_calced_widget)
+            return result | self.calced_processor.process(calced_data)
         elif mode == 'Vary':
-            return result | varied_processor.process(fit_widget)
+            return result | self.varied_processor.process(fit_data)
         elif mode == 'Mixed':
-            return result | calced_processor.process(prev_calced_widget) | varied_processor.process(fit_widget)
+            return result | self.calced_processor.process(calced_data) | self.varied_processor.process(fit_data)
         else:
             raise ValueError(f'{mode} is not in [Calculated, Vary, Mixed]')
 
@@ -225,10 +280,16 @@ class VariableNumberProcessor:
         self.processor = processor
         self.suffixes = suffixes if suffixes else [f'_{chr(ord('A') + i)}' for i in range(26)]
 
-    def process(self, widget: tk.Widget) -> dict:
+    def process(self, widget: tk.Widget):
+        return self.process_data(self.unpack_widget(widget))
+
+    def unpack_widget(self, widget: tk.Widget) -> list:
+        return [self.processor.unpack_widget(sub_widget) for sub_widget in widget.entries]
+
+    def process_data(self, data):
         data = {}
-        for suffix, (label, widget) in zip(self.suffixes, widget.entries):
-            sub_result = self.processor.process(widget)
+        for suffix, sub_data in zip(self.suffixes, data):
+            sub_result = self.processor.process_data(sub_data)
             sub_result = {key + suffix: value for key, value in sub_result.items()}
             data = data | sub_result
         return data
@@ -249,10 +310,16 @@ class NuclideProcessor:
     def __init__(self, key: str = 'Nuclide'):
         self.key = key
 
-    def process(self, widget: tk.Widget):
-        raw = widget.get()
-        if re.match(r'[a-zA-Z]{2}\d{1,3}', raw) or re.match(r'[a-zA-Z]{2}nat', raw):
-            return {self.key: raw}
+    def process(self, widget: tk.Widget) -> dict[str, str]:
+        return self.process_data(self.unpack_widget(widget))
+
+    @staticmethod
+    def unpack_widget(widget: tk.Widget):
+        return widget.get().strip()
+
+    def process_data(self, data: str):
+        if re.match(r'[a-zA-Z]{1,2}\d{1,3}', data) or re.match(r'[a-zA-Z]{1,2}nat', data):
+            return {self.key: data}
         else:
             raise ValueError(
                 'Entered Nuclide does not match pattern of two letters and one to three numbers (Ex. Pb208')
@@ -263,9 +330,16 @@ class PreviousDataProcessor:
         self.key = key
 
     def process(self, widget: tk.Widget) -> dict[str, list[str]]:
+        return self.process_data(self.unpack_widget(widget))
+
+    @staticmethod
+    def unpack_widget(widget: tk.Widget):
+        return widget.selection_vars.items()
+
+    def process_data(self, data: dict) -> dict[str, list[str]]:
         selected = [
             key
-            for key, var in widget.selection_vars.items()
+            for key, var in data.items()
             if var.get()
         ]
         return {self.key: selected}
@@ -285,15 +359,20 @@ class ReferenceProcessor:
         with open(self.reference_path, 'r') as f:
             return json.load(f)
 
-    def process(self, widget: tk.Widget):
-        value = widget.get().strip()
+    def process(self, widget: tk.Widget) -> dict[str, str]:
+        return self.process_data(self.unpack_widget(widget))
 
-        if value not in sorted(self.references.keys()):
+    @staticmethod
+    def unpack_widget(widget: tk.Widget) -> str:
+        return widget.get().strip()
+
+    def process_data(self, data: str):
+        if data not in sorted(self.references.keys()):
             raise ValueError(
-                f"Reference '{value}' is not a known citation key"
+                f"Reference '{data}' is not a known citation key"
             )
 
-        return {self.key: value}
+        return {self.key: data}
 
 
 class SelectProcessor:
@@ -341,8 +420,16 @@ class TransitionProcessor:
         self.key = key
 
     def process(self, widget: tk.Widget) -> dict[str, dict[str, str]]:
-        upper = widget.upper_entry.get().strip()
-        lower = widget.lower_entry.get().strip()
+        return self.process_data(self.unpack_widget(widget))
+
+    @staticmethod
+    def unpack_widget(widget: tk.Widget) -> dict[str, str]:
+        return {'Upper': widget.upper_entry.get().strip(),
+                'Lower': widget.lower_entry.get().strip()}
+
+    def process_data(self, data) -> dict[str, dict[str, str]]:
+        upper = data['Upper']
+        lower = data['Lower']
 
         if not upper or not lower:
             raise ValueError("Both upper and lower transition levels must be provided")
@@ -529,7 +616,7 @@ class PreviousDataWidgetCreator:
         # --- filter entry ---
         filter_var = tk.StringVar()
         filter_var.set(self.filter_regex)
-        filter_entry = ttk.Entry(container, width=40, textvariable=filter_var)
+        filter_entry = ttk.Entry(container, width=80, textvariable=filter_var)
         filter_entry.grid(row=0, column=0, columnspan=2, sticky="w")
 
         # --- scrollable checklist ---
@@ -555,7 +642,7 @@ class PreviousDataWidgetCreator:
                 text=data_key,
                 variable=var
             )
-            check.pack(anchor="w")
+            check.pack(expand=True, fill='x')
             vars_by_key[data_key] = var
             checkbox_widgets[data_key] = check
 
@@ -929,13 +1016,14 @@ muonic_transition_energy_difference_template = InputTemplate(
         reference_field,
         FieldSpec("Nuclide A", NuclideProcessor(key="Nuclide_A")),
         FieldSpec("Nuclide B", NuclideProcessor(key="Nuclide_B")),
-        transition_field,
+        transition_or_level_field,
         FieldSpec("Energy Difference [keV] (A-B)", NumberWithUncertaintyProcessor("Energy Difference [keV] (A-B)")),
         notes_field
     ],
     data_key=lambda values: '_'.join(
         [values['Reference'], 'muonic_difference', values['Nuclide_A'], values['Nuclide_B'],
-         values['Transition']['Upper'], values['Transition']['Lower']])
+         *([values['Transition']['Upper'], values['Transition']['Lower']] if 'Transition' in values else [
+             values['Level'], ])])
 )
 
 muonic_transition_energy_difference_diff_transition_template = InputTemplate(
@@ -943,7 +1031,11 @@ muonic_transition_energy_difference_diff_transition_template = InputTemplate(
     fields=[
         reference_field,
         nuclide_field,
-        FieldSpec("Transitions", VariableNumberProcessor(TransitionProcessor()), VariableNumberWidgetCreator(TransitionWidgetCreator()),
+        FieldSpec("Transitions",
+                  VariableNumberProcessor(XORProcessor([TransitionProcessor(), CastProcessor(str, key='Level')]), ),
+                  VariableNumberWidgetCreator(GroupedWidgetCreator(['Transition', 'Level'],
+                                                                   [TransitionWidgetCreator(),
+                                                                    DefaultWidgetCreator()])),
                   hovertext='Enter the upper and lower levels of the atomic/muonic transition'),
         FieldSpec("Energy Difference [keV] (A-B)", NumberWithUncertaintyProcessor("Energy Difference [keV] (A-B)")),
         notes_field
@@ -951,7 +1043,8 @@ muonic_transition_energy_difference_diff_transition_template = InputTemplate(
     data_key=lambda values: '_'.join(
         [values['Reference'], 'muonic_difference', values['Nuclide'],
          *list(
-             sum([(field_name, field['Upper'], field['Lower']) for field_name, field in values.items() if 'Transition' in field_name.lower()],
+             sum([(field_name, field['Upper'], field['Lower']) for field_name, field in values.items() if
+                  'Transition' in field_name.lower()],
                  ()))])
 )
 
@@ -976,11 +1069,32 @@ muonic_nuclear_polarization_calculation_template = InputTemplate(
     ],
     data_key=mu_nuc_pol_key)
 
+
+def mu_nuc_pol_key(values):
+    if 'Transition' in values:
+        return '_'.join([values['Reference'], 'muonic_qed', values['Nuclide'],
+                         values['Transition']['Upper'], values['Transition']['Lower']])
+    else:
+        return '_'.join([values['Reference'], 'muonic_qed', values['Nuclide'],
+                         values['Level']])
+
+
+muonic_qed_calculation_template = InputTemplate(
+    name="Calculated QED Correction",
+    fields=[
+        reference_field,
+        nuclide_field,
+        transition_or_level_field,
+        FieldSpec("Energy [keV]", NumberWithUncertaintyProcessor("Energy [keV]")),
+        notes_field
+    ],
+    data_key=mu_nuc_pol_key)
+
 muonic_barret_theory_template = InputTemplate(
     name="Muonic Barrett Moment",
     fields=[
         reference_field,
-        FieldSpec("Data used as input", PreviousDataProcessor(),
+        FieldSpec("Data used as input", PreviousDataProcessor(key='Previous Muonic Measurements'),
                   PreviousDataWidgetCreator(compilation_path=config['compilation_dir'],
                                             filter_regex='muonic.*_')),
         nuclide_field,
@@ -997,6 +1111,34 @@ muonic_barret_theory_template = InputTemplate(
     data_key=lambda values: '_'.join([values['Reference'], 'barrett_moment', values['Nuclide'],
                                       *['-'.join(s.split('_')[-2:]) for s in
                                         values['Previous Muonic Measurements']]])
+)
+
+muonic_barret_shift_template = InputTemplate(
+    name="Muonic Barrett Moment Difference",
+    fields=[
+        reference_field,
+        FieldSpec("Data used as input", PreviousDataProcessor(),
+                  PreviousDataWidgetCreator(compilation_path=config['compilation_dir'],
+                                            filter_regex='muonic.*_')),
+        FieldSpec("Nuclide A", NuclideProcessor(key="Nuclide_A")),
+        FieldSpec("Nuclide B", NuclideProcessor(key="Nuclide_B")),
+        FieldSpec('Rka (A-B) [fm]', NumberWithUncertaintyProcessor('Rka [fm]')),
+        FieldSpec('k [-]', CastProcessor(str, key='k [-]')),
+        FieldSpec('alpha [1/fm]', CastProcessor(str, key='alpha [1/fm]')),
+        FieldSpec('Cz [fm/keV]', CastProcessor(str, key='Cz [fm/keV]')),
+        FieldSpec('Nuclear Polarization Method',
+                  NuclearPolarizationProcessor(),
+                  NuclearPolarizationWidgetCreator(compilation_path=config['compilation_dir']),
+                  hovertext='Were the NP corrections from theory ("Calculated") or varied as part of the optimization ("Fit")?'),
+        FieldSpec('QED Calculations Used',
+                  PreviousDataProcessor(key='Calculated QED'),
+                  PreviousDataWidgetCreator(compilation_path=config['compilation_dir'])),
+        notes_field
+    ],
+    data_key=lambda values: '_'.join(
+        [values['Reference'], 'barrett_moment_difference', values['Nuclide_A'], values['Nuclide_B'],
+         *['-'.join(s.split('_')[-2:]) for s in
+           values['Previous Muonic Measurements']]])
 )
 
 muonic_radius_template = InputTemplate(
@@ -1037,13 +1179,48 @@ muonic_fermi_distribution_template = InputTemplate(
     data_key=lambda values: '_'.join([values['Reference'], 'fermi', values['Nuclide']])
 )
 
+electron_scattering_cross_section_template = InputTemplate(
+    name="Electron Scattering Cross Section",
+    fields=[
+        reference_field,
+        nuclide_field,
+        FieldSpec('q [1/fm]', NumberWithUncertaintyProcessor(key='q [1/fm]')),
+        FieldSpec('E [MeV]', NumberWithUncertaintyProcessor(key='E [MeV]')),
+        FieldSpec('theta [deg]', NumberWithUncertaintyProcessor(key='theta [deg]')),
+        FieldSpec('Cross section [μb/sr]', NumberWithUncertaintyProcessor(key='Cross section [μb/sr]')),
+        notes_field
+    ],
+    data_key=lambda values: '_'.join(
+        [values['Reference'], 'electron_cross_section', values['Nuclide'], f'q={values['q [1/fm]']['Value']:0.3e}'])
+)
+
+electron_scattering_cross_section_ratio_template = InputTemplate(
+    name="Electron Scattering Cross Section Ratio",
+    fields=[
+        reference_field,
+        FieldSpec("Nuclide A", NuclideProcessor(key="Nuclide_A")),
+        FieldSpec("Nuclide B", NuclideProcessor(key="Nuclide_B")),
+        FieldSpec('q [1/fm]', NumberWithUncertaintyProcessor(key='q [1/fm]')),
+        FieldSpec('E [MeV]', NumberWithUncertaintyProcessor(key='E [MeV]')),
+        FieldSpec('theta [deg]', NumberWithUncertaintyProcessor(key='theta [deg]')),
+        FieldSpec('Cross section Ratio (A/B) [μb/sr]', NumberWithUncertaintyProcessor(key='Cross section [μb/sr]')),
+        notes_field
+    ],
+    data_key=lambda values: '_'.join(
+        [values['Reference'], 'electron_cross_section_ratio', values['Nuclide_A'], values['Nuclide_B'],
+         f'q={values['q [1/fm]']['Value']:0.3e}'])
+)
+
 templates = [muonic_transition_energy_template,
              muonic_transition_energy_difference_template,
              muonic_transition_energy_difference_diff_transition_template,
              muonic_nuclear_polarization_calculation_template,
+             muonic_qed_calculation_template,
              muonic_barret_theory_template,
+             muonic_barret_shift_template,
              muonic_radius_template,
-             muonic_fermi_distribution_template]
+             muonic_fermi_distribution_template,
+             electron_scattering_cross_section_template]
 
 
 class DataEntryInterface:
@@ -1081,7 +1258,7 @@ class DataEntryInterface:
 
         if start_interface:
             self.root = tk.Tk()
-            self.root.geometry("600x500")
+            self.root.minsize(650, 500)
             self.root.title("Data Entry Interface")
 
             def _on_mousewheel(event):
@@ -1163,6 +1340,7 @@ class DataEntryInterface:
         form_frame.pack(padx=10, pady=10, expand=True, fill='both')
 
         form_frame = form_frame.scrollable_frame
+        form_frame.columnconfigure(1, weight=1)
 
         for row, field in enumerate(template.fields):
             label = ttk.Label(form_frame,
@@ -1463,7 +1641,7 @@ class DataEntryInterface:
         with file.open("w", encoding="utf-8") as f:
             json.dump(data_to_write, f, indent=4)
 
-        print(f"Data successfully saved to {file}")
+        # print(f"Data successfully saved to {file}")
 
     @staticmethod
     def _next_available_key(base_key: str, existing: dict) -> str:

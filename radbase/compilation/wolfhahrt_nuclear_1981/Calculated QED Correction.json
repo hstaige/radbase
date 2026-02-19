@@ -1,0 +1,275 @@
+{
+    "wolfhahrt_nuclear_1981_muonic_qed_K39_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "K39",
+        "Energy [keV]": {
+            "Value": 5.324,
+            "Uncertainty": 1.5972
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_K41_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "K41",
+        "Energy [keV]": {
+            "Value": 5.305,
+            "Uncertainty": 1.5915
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_Ca40_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ca40",
+        "Energy [keV]": {
+            "Value": 5.907,
+            "Uncertainty": 1.7721
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_Ca42_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ca42",
+        "Energy [keV]": {
+            "Value": 5.891,
+            "Uncertainty": 1.7672999999999999
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_Ca43_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ca43",
+        "Energy [keV]": {
+            "Value": 5.897,
+            "Uncertainty": 1.7691000000000001
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_Ca44_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ca44",
+        "Energy [keV]": {
+            "Value": 5.886,
+            "Uncertainty": 1.7658
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_Ca46_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ca46",
+        "Energy [keV]": {
+            "Value": 5.897,
+            "Uncertainty": 1.7691000000000001
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_Ca48_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ca48",
+        "Energy [keV]": {
+            "Value": 5.905,
+            "Uncertainty": 1.7715
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_Sc45_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Sc45",
+        "Energy [keV]": {
+            "Value": 6.489,
+            "Uncertainty": 1.9466999999999999
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_Ti46_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ti46",
+        "Energy [keV]": {
+            "Value": 7.093,
+            "Uncertainty": 2.1279
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_Ti47_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ti47",
+        "Energy [keV]": {
+            "Value": 7.099,
+            "Uncertainty": 2.1297
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_Ti48_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ti48",
+        "Energy [keV]": {
+            "Value": 7.103,
+            "Uncertainty": 2.1309
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_Ti49_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ti49",
+        "Energy [keV]": {
+            "Value": 7.113,
+            "Uncertainty": 2.1339
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_Ti50_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ti50",
+        "Energy [keV]": {
+            "Value": 7.114,
+            "Uncertainty": 2.1342
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_V51_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "V51",
+        "Energy [keV]": {
+            "Value": 7.758,
+            "Uncertainty": 2.3274
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_Cr50_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Cr50",
+        "Energy [keV]": {
+            "Value": 8.391,
+            "Uncertainty": 2.5173
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_Cr52_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Cr52",
+        "Energy [keV]": {
+            "Value": 8.408,
+            "Uncertainty": 2.5223999999999998
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_Cr53_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Cr53",
+        "Energy [keV]": {
+            "Value": 8.391,
+            "Uncertainty": 2.5173
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_Cr54_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Cr54",
+        "Energy [keV]": {
+            "Value": 8.366,
+            "Uncertainty": 2.5098
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_Mn55_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Mn55",
+        "Energy [keV]": {
+            "Value": 9.041,
+            "Uncertainty": 2.7123
+        },
+        "Notes": "30% uncertainty assigned."
+    },
+    "wolfhahrt_nuclear_1981_muonic_qed_Fe56_2p3/2_1s1/2": {
+        "Reference": "wolfhahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Fe56",
+        "Energy [keV]": {
+            "Value": 9.715,
+            "Uncertainty": 2.9145
+        },
+        "Notes": "30% uncertainty assigned."
+    }
+}
