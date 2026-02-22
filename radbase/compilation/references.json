@@ -261,5 +261,103 @@
         "pages": "533-548",
         "url": "https://link.aps.org/doi/10.1103/PhysRevC.23.533",
         "doi": "10.1103/PhysRevC.23.533"
+    },
+    "heisenberg_electron_1972": {
+        "title": "Electron-Scattering Determination of Isotopic Differences in the Charge Distributions of Ti46, 48, 50",
+        "author": [
+            "J. Heisenberg",
+            "R. Hofstadter",
+            "J. S. McCarthy",
+            "R. Herman",
+            "B. C. Clark",
+            "D. G. Ravenhall"
+        ],
+        "year": "1972",
+        "month": "July",
+        "journal": "Physical Review C",
+        "volume": "6",
+        "pages": "381-384",
+        "url": "https://link.aps.org/doi/10.1103/PhysRevC.6.381",
+        "doi": "10.1103/PhysRevC.6.381"
+    },
+    "tanaka_measurement_1984": {
+        "title": "Measurement and analysis of muonic x rays of 176,177, 178, 179, 180Hf",
+        "author": [
+            "Y. Tanaka",
+            "R. M. Steffen",
+            "E. B. Shera",
+            "W. Reuter",
+            "M. V. Hoehn",
+            "J. D. Zumbro"
+        ],
+        "year": "1984",
+        "month": "July",
+        "journal": "Physical Review C",
+        "volume": "30",
+        "pages": "350-359",
+        "url": "https://link.aps.org/doi/10.1103/PhysRevC.30.350",
+        "doi": "10.1103/PhysRevC.30.350"
+    },
+    "lightbody_elastic_1983": {
+        "title": "Elastic and inelastic electron scattering from 50,52,54Cr",
+        "author": [
+            "J. W. Lightbody,Jr",
+            "J. B. Bellicard",
+            "J. M. Cavedon",
+            "B. Frois",
+            "D. Goutte",
+            "M. Huet",
+            "Ph. Leconte",
+            "A. Nakada",
+            "Phan Xuan Ho",
+            "S. K. Platchkov",
+            "S. Turck-Chieze"
+        ],
+        "year": "1983",
+        "month": "January",
+        "journal": "Physical Review C",
+        "volume": "27",
+        "pages": "113-132",
+        "url": "https://link.aps.org/doi/10.1103/PhysRevC.27.113",
+        "doi": "10.1103/PhysRevC.27.113"
+    },
+    "frosch_electron_1968": {
+        "title": "Electron Scattering Studies of Calcium and Titanium Isotopes",
+        "author": [
+            "R. F. Frosch",
+            "R. Hofstadter",
+            "J. S. McCarthy",
+            "G. K. N\u00f6ldeke",
+            "K. J. van OostraM",
+            "M. R. Yearian"
+        ],
+        "year": "1968",
+        "month": "October",
+        "journal": "Physical Review",
+        "volume": "174",
+        "pages": "1380-1399",
+        "url": "https://link.aps.org/doi/10.1103/PhysRev.174.1380",
+        "doi": "10.1103/PhysRev.174.1380"
+    },
+    "schaller_nuclear_1985": {
+        "title": "Nuclear charge radii of the even sulphur isotopes 32S, 34S, and 36S  and of 31P using muonic atoms",
+        "author": [
+            "L. A. Schaller",
+            "D. A. Barandao",
+            "P. Bergem",
+            "M. Boschung",
+            "T. Q. Phan",
+            "G. Piller",
+            "A. Ruetschi",
+            "L. Schellenberg",
+            "H. Schneuwly"
+        ],
+        "year": "1985",
+        "month": "March",
+        "journal": "Physical Review C",
+        "volume": "31",
+        "pages": "1007-1011",
+        "url": "https://link.aps.org/doi/10.1103/PhysRevC.31.1007",
+        "doi": "10.1103/PhysRevC.31.1007"
     }
 }

@@ -219,11 +219,11 @@ class NumberWithUncertaintyProcessor:
     def process_data(self, data):
         try:
             value = float(data)
-            return {self.key: {'value': value, 'uncertainty': None}}
+            return {self.key: {'Value': value, 'Uncertainty': None}}
         except ValueError:
             try:
                 uvar = uncertainties.ufloat_fromstr(data)
-                return {self.key: {'value': uvar.n, 'uncertainty': uvar.s}}
+                return {self.key: {'Value': uvar.n, 'Uncertainty': uvar.s}}
             except ValueError:
                 raise ValueError(
                     f'Entered value of {data} does not match the number with uncertainty pattern. Ex. 0.65(2) or 0.32')
@@ -239,8 +239,7 @@ class NuclearPolarizationProcessor:
         self.varied_processor = VariableNumberProcessor(
             GroupedProcessor([
                 XORProcessor(
-                    [TransitionProcessor(), CastProcessor(str, key='Level')]
-                ),
+                    [TransitionProcessor(), CastProcessor(str, key='Level')]),
                 NumberWithUncertaintyProcessor('Energy [keV]')
             ]))
 
@@ -265,11 +264,11 @@ class NuclearPolarizationProcessor:
 
         result = {'Nuclear Polarization Method': mode}
         if mode == 'Calculated':
-            return result | self.calced_processor.process(calced_data)
+            return result | self.calced_processor.process_data(calced_data)
         elif mode == 'Vary':
-            return result | self.varied_processor.process(fit_data)
+            return result | self.varied_processor.process_data(fit_data)
         elif mode == 'Mixed':
-            return result | self.calced_processor.process(calced_data) | self.varied_processor.process(fit_data)
+            return result | self.calced_processor.process_data(calced_data) | self.varied_processor.process_data(fit_data)
         else:
             raise ValueError(f'{mode} is not in [Calculated, Vary, Mixed]')
 
@@ -284,7 +283,7 @@ class VariableNumberProcessor:
         return self.process_data(self.unpack_widget(widget))
 
     def unpack_widget(self, widget: tk.Widget) -> list:
-        return [self.processor.unpack_widget(sub_widget) for sub_widget in widget.entries]
+        return [self.processor.unpack_widget(sub_widget) for _, sub_widget in widget.entries]
 
     def process_data(self, data):
         data = {}
@@ -334,14 +333,10 @@ class PreviousDataProcessor:
 
     @staticmethod
     def unpack_widget(widget: tk.Widget):
-        return widget.selection_vars.items()
+        return {key: checkbox for key, checkbox in widget.selection_vars.items()}
 
     def process_data(self, data: dict) -> dict[str, list[str]]:
-        selected = [
-            key
-            for key, var in data.items()
-            if var.get()
-        ]
+        selected = [key for key, var in data.items() if var]
         return {self.key: selected}
 
 
@@ -416,6 +411,21 @@ class TransitionProcessor:
         re.VERBOSE
     )
 
+    HYBRID_F_LEVEL_PATTERN = re.compile(
+        r"""
+        ^
+        \(
+        \d+[+-],         # nuclear spin/parity (e.g. 2+, 0-)
+        \d+                # principal quantum number
+        [spdf]             # orbital
+        \d/\d            # required j
+        \)
+        \d/\d[+-]
+        $
+        """,
+        re.VERBOSE
+    )
+
     def __init__(self, key: str = 'Transition'):
         self.key = key
 
@@ -440,15 +450,19 @@ class TransitionProcessor:
         upper_hybrid = self.HYBRID_LEVEL_PATTERN.match(upper)
         lower_hybrid = self.HYBRID_LEVEL_PATTERN.match(lower)
 
+        upper_hybrid_with_f = self.HYBRID_F_LEVEL_PATTERN.match(upper)
+        lower_hybrid_with_f = self.HYBRID_F_LEVEL_PATTERN.match(lower)
+
         # both simple or both hybrid
-        if upper_simple and lower_simple or upper_hybrid and lower_hybrid:
+        if upper_simple and lower_simple or upper_hybrid and lower_hybrid or upper_hybrid_with_f and lower_hybrid_with_f:
             return {self.key: {'Upper': upper, 'Lower': lower}}
 
         raise ValueError(
             "Invalid transition format.\n"
             "Both levels must be either:\n"
             "  - Simple atomic levels (e.g. 2p3/2)\n"
-            "  - Hybrid nuclear+atomic levels (e.g. 2+,1s1/2)"
+            "  - Hybrid nuclear+atomic levels (e.g. 2+,1s1/2)\n"
+            "  - Hybrid nuclear+atomic levels with F (e.g. (0+,1s1/2)1/2"
         )
 
 
@@ -979,6 +993,10 @@ class InputTemplate(NamedTuple):
     fields: list[FieldSpec]
     data_key: Callable[[dict[str, Any]], str]
 
+    @property
+    def proc_dict(self) -> dict[str, FieldProcessor]:
+        return {field.label: field.processor for field in self.fields}
+
 
 # Useful fields that get reused
 reference_field = FieldSpec("Reference", ReferenceProcessor(reference_path=config['reference_path']),
@@ -1021,7 +1039,7 @@ muonic_transition_energy_difference_template = InputTemplate(
         notes_field
     ],
     data_key=lambda values: '_'.join(
-        [values['Reference'], 'muonic_difference', values['Nuclide_A'], values['Nuclide_B'],
+        [values['Reference'], 'muonicdifference', values['Nuclide_A'], values['Nuclide_B'],
          *([values['Transition']['Upper'], values['Transition']['Lower']] if 'Transition' in values else [
              values['Level'], ])])
 )
@@ -1041,7 +1059,7 @@ muonic_transition_energy_difference_diff_transition_template = InputTemplate(
         notes_field
     ],
     data_key=lambda values: '_'.join(
-        [values['Reference'], 'muonic_difference', values['Nuclide'],
+        [values['Reference'], 'muonicdifference', values['Nuclide'],
          *list(
              sum([(field_name, field['Upper'], field['Lower']) for field_name, field in values.items() if
                   'Transition' in field_name.lower()],
@@ -1051,10 +1069,10 @@ muonic_transition_energy_difference_diff_transition_template = InputTemplate(
 
 def mu_nuc_pol_key(values):
     if 'Transition' in values:
-        return '_'.join([values['Reference'], 'muonic_nuclear_polarization', values['Nuclide'],
+        return '_'.join([values['Reference'], 'muonicnuclearpolarization', values['Nuclide'],
                          values['Transition']['Upper'], values['Transition']['Lower']])
     else:
-        return '_'.join([values['Reference'], 'muonic_nuclear_polarization', values['Nuclide'],
+        return '_'.join([values['Reference'], 'muonicnuclearpolarization', values['Nuclide'],
                          values['Level']])
 
 
@@ -1072,10 +1090,10 @@ muonic_nuclear_polarization_calculation_template = InputTemplate(
 
 def mu_nuc_pol_key(values):
     if 'Transition' in values:
-        return '_'.join([values['Reference'], 'muonic_qed', values['Nuclide'],
+        return '_'.join([values['Reference'], 'muonicqed', values['Nuclide'],
                          values['Transition']['Upper'], values['Transition']['Lower']])
     else:
-        return '_'.join([values['Reference'], 'muonic_qed', values['Nuclide'],
+        return '_'.join([values['Reference'], 'muonicqed', values['Nuclide'],
                          values['Level']])
 
 
@@ -1108,7 +1126,7 @@ muonic_barret_theory_template = InputTemplate(
                   hovertext='Were the NP corrections from theory ("Calculated") or varied as part of the optimization ("Fit")?'),
         notes_field
     ],
-    data_key=lambda values: '_'.join([values['Reference'], 'barrett_moment', values['Nuclide'],
+    data_key=lambda values: '_'.join([values['Reference'], 'barrettmoment', values['Nuclide'],
                                       *['-'.join(s.split('_')[-2:]) for s in
                                         values['Previous Muonic Measurements']]])
 )
@@ -1136,7 +1154,7 @@ muonic_barret_shift_template = InputTemplate(
         notes_field
     ],
     data_key=lambda values: '_'.join(
-        [values['Reference'], 'barrett_moment_difference', values['Nuclide_A'], values['Nuclide_B'],
+        [values['Reference'], 'barrettmomentdifference', values['Nuclide_A'], values['Nuclide_B'],
          *['-'.join(s.split('_')[-2:]) for s in
            values['Previous Muonic Measurements']]])
 )
@@ -1185,13 +1203,13 @@ electron_scattering_cross_section_template = InputTemplate(
         reference_field,
         nuclide_field,
         FieldSpec('q [1/fm]', NumberWithUncertaintyProcessor(key='q [1/fm]')),
-        FieldSpec('E [MeV]', NumberWithUncertaintyProcessor(key='E [MeV]')),
+        FieldSpec('Energy [MeV]', NumberWithUncertaintyProcessor(key='E [MeV]')),
         FieldSpec('theta [deg]', NumberWithUncertaintyProcessor(key='theta [deg]')),
-        FieldSpec('Cross section [μb/sr]', NumberWithUncertaintyProcessor(key='Cross section [μb/sr]')),
+        FieldSpec('Cross section [fm^2/sr]', NumberWithUncertaintyProcessor(key='Cross section [fm^2/sr]')),
         notes_field
     ],
     data_key=lambda values: '_'.join(
-        [values['Reference'], 'electron_cross_section', values['Nuclide'], f'q={values['q [1/fm]']['Value']:0.3e}'])
+        [values['Reference'], 'electroncrosssection', values['Nuclide'], f'q={values['q [1/fm]']['Value']:0.3e}'])
 )
 
 electron_scattering_cross_section_ratio_template = InputTemplate(
@@ -1201,13 +1219,13 @@ electron_scattering_cross_section_ratio_template = InputTemplate(
         FieldSpec("Nuclide A", NuclideProcessor(key="Nuclide_A")),
         FieldSpec("Nuclide B", NuclideProcessor(key="Nuclide_B")),
         FieldSpec('q [1/fm]', NumberWithUncertaintyProcessor(key='q [1/fm]')),
-        FieldSpec('E [MeV]', NumberWithUncertaintyProcessor(key='E [MeV]')),
+        FieldSpec('Energy [MeV]', NumberWithUncertaintyProcessor(key='E [MeV]')),
         FieldSpec('theta [deg]', NumberWithUncertaintyProcessor(key='theta [deg]')),
-        FieldSpec('Cross section Ratio (A/B) [μb/sr]', NumberWithUncertaintyProcessor(key='Cross section [μb/sr]')),
+        FieldSpec('Cross section ratio (A/B) [-]', NumberWithUncertaintyProcessor(key='Cross section Ratio [-]')),
         notes_field
     ],
     data_key=lambda values: '_'.join(
-        [values['Reference'], 'electron_cross_section_ratio', values['Nuclide_A'], values['Nuclide_B'],
+        [values['Reference'], 'electroncrosssectionratio', values['Nuclide_A'], values['Nuclide_B'],
          f'q={values['q [1/fm]']['Value']:0.3e}'])
 )
 
@@ -1220,7 +1238,8 @@ templates = [muonic_transition_energy_template,
              muonic_barret_shift_template,
              muonic_radius_template,
              muonic_fermi_distribution_template,
-             electron_scattering_cross_section_template]
+             electron_scattering_cross_section_template,
+             electron_scattering_cross_section_ratio_template]
 
 
 class DataEntryInterface:
