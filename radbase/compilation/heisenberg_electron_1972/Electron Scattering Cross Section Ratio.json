@@ -1,0 +1,2354 @@
+{
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=5.532e-01": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 32.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 0.5531549342591987,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 0.993,
+            "Uncertainty": 0.018
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=6.864e-01": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 40.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 0.6863733304067787,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 0.991,
+            "Uncertainty": 0.02
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=7.680e-01": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 45.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 0.7679772875652465,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 0.994,
+            "Uncertainty": 0.028
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=8.481e-01": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 50.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 0.8481193563078583,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 0.987,
+            "Uncertainty": 0.022
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=8.797e-01": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 52.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 0.8797325825612455,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 0.966,
+            "Uncertainty": 0.022
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.111e-01": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 54.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 0.9110778337478238,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 0.973,
+            "Uncertainty": 0.024
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.421e-01": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 56.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 0.9421455618004336,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 0.952,
+            "Uncertainty": 0.024
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.729e-01": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 58.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 0.9729263031881499,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 0.901,
+            "Uncertainty": 0.024
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.003e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.0034106817989659,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 0.951,
+            "Uncertainty": 0.02
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.034e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 62.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.0335894117958488,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 0.96,
+            "Uncertainty": 0.021
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.063e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 64.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.0634533004452933,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.015,
+            "Uncertainty": 0.013
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.093e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 66.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.0929932509175186,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.02,
+            "Uncertainty": 0.015
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.122e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 68.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.1222002650574512,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.096,
+            "Uncertainty": 0.022
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.151e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 70.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.1510654461256489,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.148,
+            "Uncertainty": 0.015
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.180e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 72.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.1795800015083355,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.142,
+            "Uncertainty": 0.017
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.208e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 74.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.2077352453957146,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.156,
+            "Uncertainty": 0.016
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.236e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 76.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.235522601427752,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.164,
+            "Uncertainty": 0.019
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.263e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 78.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.2629336053066187,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.162,
+            "Uncertainty": 0.018
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.290e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 80.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.289959907374996,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.222,
+            "Uncertainty": 0.023
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.317e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 82.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.316593275159465,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.181,
+            "Uncertainty": 0.02
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.343e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 84.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.3428255958781952,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.205,
+            "Uncertainty": 0.025
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.369e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 86.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.3686488789121767,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.193,
+            "Uncertainty": 0.021
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.419e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 90.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.419036994830132,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.161,
+            "Uncertainty": 0.018
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.480e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 95.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.479583910407145,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.132,
+            "Uncertainty": 0.019
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.537e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 100.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.537314353916646,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.132,
+            "Uncertainty": 0.022
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.592e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 105.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.592118432178231,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.164,
+            "Uncertainty": 0.03
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=5.532e-01": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 32.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 0.5531549342591987,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 0.973,
+            "Uncertainty": 0.018
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=6.864e-01": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 40.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 0.6863733304067787,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 0.975,
+            "Uncertainty": 0.02
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=7.680e-01": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 45.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 0.7679772875652465,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.006,
+            "Uncertainty": 0.028
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=8.481e-01": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 50.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 0.8481193563078583,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 0.994,
+            "Uncertainty": 0.022
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=8.797e-01": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 52.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 0.8797325825612455,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 0.963,
+            "Uncertainty": 0.022
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.111e-01": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 54.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 0.9110778337478238,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 0.933,
+            "Uncertainty": 0.023
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.421e-01": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 56.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 0.9421455618004336,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 0.975,
+            "Uncertainty": 0.024
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.729e-01": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 58.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 0.9729263031881499,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 0.997,
+            "Uncertainty": 0.027
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.003e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.0034106817989659,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 0.943,
+            "Uncertainty": 0.02
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.034e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 62.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.0335894117958488,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 0.997,
+            "Uncertainty": 0.022
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.063e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 64.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.0634533004452933,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.052,
+            "Uncertainty": 0.014
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.093e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 66.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.0929932509175186,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.051,
+            "Uncertainty": 0.016
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.122e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 68.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.1222002650574512,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.112,
+            "Uncertainty": 0.022
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.151e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 70.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.1510654461256489,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.091,
+            "Uncertainty": 0.014
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.180e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 72.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.1795800015083355,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.099,
+            "Uncertainty": 0.014
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.208e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 74.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.2077352453957146,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.105,
+            "Uncertainty": 0.017
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.236e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 76.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.235522601427752,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.123,
+            "Uncertainty": 0.018
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.263e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 78.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.2629336053066187,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.119,
+            "Uncertainty": 0.017
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.290e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 80.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.289959907374996,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.126,
+            "Uncertainty": 0.022
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.317e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 82.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.316593275159465,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.096,
+            "Uncertainty": 0.019
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.343e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 84.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.3428255958781952,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.118,
+            "Uncertainty": 0.025
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.369e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 86.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.3686488789121767,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.111,
+            "Uncertainty": 0.018
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.419e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 90.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.419036994830132,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.133,
+            "Uncertainty": 0.018
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.480e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 95.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.479583910407145,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.151,
+            "Uncertainty": 0.019
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.537e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 100.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.537314353916646,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.159,
+            "Uncertainty": 0.022
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.592e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 105.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.592118432178231,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.088,
+            "Uncertainty": 0.027
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.644e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 110.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.6438918225140682,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 198.0,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.131,
+            "Uncertainty": 0.034
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.883e-01": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 38.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 0.9882851501903847,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 0.919,
+            "Uncertainty": 0.028
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.038e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 40.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.0382263255395467,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 0.94,
+            "Uncertainty": 0.05
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.088e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 42.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.0878512470924255,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.039,
+            "Uncertainty": 0.029
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.137e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 44.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.137144798617188,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.11,
+            "Uncertainty": 0.05
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.186e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 46.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.1860919648205228,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.09,
+            "Uncertainty": 0.05
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.235e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 48.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.2346778359214423,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.21,
+            "Uncertainty": 0.04
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.283e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 50.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.2828876121929476,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.195,
+            "Uncertainty": 0.027
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.331e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 52.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.3307066084701673,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.08,
+            "Uncertainty": 0.04
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.378e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 54.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.3781202586236028,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.19,
+            "Uncertainty": 0.04
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.425e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 56.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.4251141199961108,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.21,
+            "Uncertainty": 0.05
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.472e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 58.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.4716738778022775,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.144,
+            "Uncertainty": 0.021
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.518e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.5177853494888405,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.06,
+            "Uncertainty": 0.06
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.563e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 62.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.5634344890548324,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.06,
+            "Uncertainty": 0.04
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.609e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 64.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.6086073913301284,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.172,
+            "Uncertainty": 0.026
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.653e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 66.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.6532902962110956,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 0.96,
+            "Uncertainty": 0.05
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.697e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 68.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.6974695928520542,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.08,
+            "Uncertainty": 0.05
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.741e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 70.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.7411318238112723,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.01,
+            "Uncertainty": 0.04
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.784e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 72.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.7842636891502355,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.07,
+            "Uncertainty": 0.07
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.827e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 74.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.8268520504849326,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.67,
+            "Uncertainty": 0.15
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.869e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 76.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.8688839349879387,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.08,
+            "Uncertainty": 0.1
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.910e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 78.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.9103465393400627,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.1,
+            "Uncertainty": 0.09
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.951e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 80.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.9512272336303609,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.66,
+            "Uncertainty": 0.16
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.031e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 84.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 2.0311932624521187,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.25,
+            "Uncertainty": 0.09
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.070e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 86.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 2.0702542385565508,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.73,
+            "Uncertainty": 0.14
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.146e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 90.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 2.1464726260183062,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.3,
+            "Uncertainty": 0.17
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.220e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 94.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 2.2200758672240197,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.49,
+            "Uncertainty": 0.1
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.291e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 98.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 2.2909742879619928,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.13,
+            "Uncertainty": 0.12
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.359e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 102.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 2.3590815094276194,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.39,
+            "Uncertainty": 0.17
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.424e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 106.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 2.424314553462658,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ti48",
+        "Cross section Ratio [-]": {
+            "Value": 1.58,
+            "Uncertainty": 0.26
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.883e-01": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 38.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 0.9882851501903847,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.079,
+            "Uncertainty": 0.035
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.038e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 40.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.0382263255395467,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 0.98,
+            "Uncertainty": 0.05
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.088e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 42.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.0878512470924255,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.062,
+            "Uncertainty": 0.03
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.137e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 44.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.137144798617188,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.18,
+            "Uncertainty": 0.05
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.186e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 46.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.1860919648205228,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.22,
+            "Uncertainty": 0.05
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.235e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 48.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.2346778359214423,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.22,
+            "Uncertainty": 0.04
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.283e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 50.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.2828876121929476,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.141,
+            "Uncertainty": 0.023
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.331e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 52.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.3307066084701673,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.25,
+            "Uncertainty": 0.05
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.378e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 54.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.3781202586236028,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.11,
+            "Uncertainty": 0.04
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.425e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 56.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.4251141199961108,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.13,
+            "Uncertainty": 0.05
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.472e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 58.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.4716738778022775,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.134,
+            "Uncertainty": 0.021
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.518e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.5177853494888405,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.2,
+            "Uncertainty": 0.06
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.563e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 62.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.5634344890548324,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.19,
+            "Uncertainty": 0.05
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.609e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 64.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.6086073913301284,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.13,
+            "Uncertainty": 0.023
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.653e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 66.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.6532902962110956,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.19,
+            "Uncertainty": 0.06
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.697e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 68.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.6974695928520542,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.19,
+            "Uncertainty": 0.05
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.741e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 70.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.7411318238112723,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.13,
+            "Uncertainty": 0.05
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.784e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 72.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.7842636891502355,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.28,
+            "Uncertainty": 0.08
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.827e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 74.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.8268520504849326,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.09,
+            "Uncertainty": 0.07
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.869e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 76.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.8688839349879387,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.46,
+            "Uncertainty": 0.12
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.910e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 78.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.9103465393400627,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.76,
+            "Uncertainty": 0.14
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.951e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 80.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 1.9512272336303609,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.22,
+            "Uncertainty": 0.09
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.031e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 84.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 2.0311932624521187,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.46,
+            "Uncertainty": 0.1
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.070e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 86.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 2.0702542385565508,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.24,
+            "Uncertainty": 0.08
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.146e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 90.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 2.1464726260183062,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.31,
+            "Uncertainty": 0.17
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.220e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 94.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 2.2200758672240197,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.43,
+            "Uncertainty": 0.09
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.291e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 98.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 2.2909742879619928,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.4,
+            "Uncertainty": 0.14
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.359e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 102.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 2.3590815094276194,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.13,
+            "Uncertainty": 0.13
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.424e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 106.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 2.424314553462658,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.13,
+            "Uncertainty": 0.15
+        }
+    },
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.487e+00": {
+        "Reference": "heisenberg_electron_1972",
+        "theta [deg]": {
+            "Value": 110.0,
+            "Uncertainty": null
+        },
+        "q [1/fm]": {
+            "Value": 2.4865939436513314,
+            "Uncertainty": null
+        },
+        "E [MeV]": {
+            "Value": 299.5,
+            "Uncertainty": null
+        },
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti50",
+        "Cross section Ratio [-]": {
+            "Value": 1.54,
+            "Uncertainty": 0.27
+        }
+    }
+}

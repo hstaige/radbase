@@ -6,9 +6,10 @@ import pytest
 
 from radbase.data_entry import (CastProcessor, DataEntryInterface, FieldSpec,
                                 GroupedProcessor, InputTemplate,
-                                NuclideProcessor,
+                                NuclearPolarizationProcessor, NuclideProcessor,
                                 NumberWithUncertaintyProcessor,
-                                ReferenceProcessor, TransitionProcessor,
+                                PreviousDataProcessor, ReferenceProcessor,
+                                TransitionProcessor, VariableNumberProcessor,
                                 XORProcessor)
 
 if os.environ.get('DISPLAY', '') == '':
@@ -33,8 +34,6 @@ example_outputs = {
     'Reference': list(example_references.keys())[0],
     'Previous Muonic Measurements': list(example_references.keys())[0] + '_muonic_2p1/2_1s1/2',
     'Nuclide': 'Pb208'
-               ''
-
 }
 
 
@@ -105,6 +104,17 @@ def test_reference_processor(tmp_path):
         ref_proc.process(bad_widget)
 
 
+def test_previous_data_processor(tmp_path):
+    options = {'test_test_0000_data1': True,
+               'test_test_0000_data2': False}
+
+    previous_widget = DummyWidget('')
+    previous_widget.selection_vars = options
+
+    prev_data_proc = PreviousDataProcessor(key='test')
+    assert prev_data_proc.process(previous_widget) == {'test': ['test_test_0000_data1']}
+
+
 def test_number_with_uncertainty_processor():
     float_widget = DummyWidget('100.1')
     uncertainty_widget = DummyWidget('100.1(3)')
@@ -112,8 +122,8 @@ def test_number_with_uncertainty_processor():
 
     ref_proc = NumberWithUncertaintyProcessor('test')
 
-    assert ref_proc.process(float_widget) == {'test': {'value': 100.1, 'uncertainty': None}}
-    assert ref_proc.process(uncertainty_widget) == {'test': {'value': 100.1, 'uncertainty': 0.3}}
+    assert ref_proc.process(float_widget) == {'test': {'Value': 100.1, 'Uncertainty': None}}
+    assert ref_proc.process(uncertainty_widget) == {'test': {'Value': 100.1, 'Uncertainty': 0.3}}
     with pytest.raises(ValueError) as e_info:
         ref_proc.process(bad_widget)
 
@@ -161,6 +171,16 @@ def test_grouped_processor():
     assert grouped_proc.process(parent_widget) == {'label1': 'test', 'label2': 'test'}
 
 
+def test_variable_number_processor():
+    varied_widget = DummyWidget('')
+    varied_widget.entries = [(None, DummyWidget(str(i))) for i in range(3)]
+
+    var_proc = VariableNumberProcessor(CastProcessor(str, key='test'), suffixes=['_A', '_B', '_C'])
+    assert var_proc.process(varied_widget) == {'test_A': '0',
+                                               'test_B': '1',
+                                               'test_C': '2'}
+
+
 def test_transition_processor():
     trans_widget = DummyWidget('')
 
@@ -175,6 +195,9 @@ def test_transition_processor():
     nuclear_upper = DummyWidget('2+,2p1/2')
     nuclear_lower = DummyWidget('0+,1s1/2')
 
+    nuclearf_upper = DummyWidget('(2+,2p1/2)1/2+')
+    nuclearf_lower = DummyWidget('(0+,1s1/2)1/2-')
+
     trans_widget.upper_entry, trans_widget.lower_entry = simple_upper, simple_lower
     assert TransitionProcessor().process(trans_widget) == {'Transition': {'Upper': '2p', 'Lower': '1s'}}
 
@@ -184,6 +207,10 @@ def test_transition_processor():
     trans_widget.upper_entry, trans_widget.lower_entry = nuclear_upper, nuclear_lower
     assert TransitionProcessor().process(trans_widget) == {'Transition': {'Upper': '2+,2p1/2', 'Lower': '0+,1s1/2'}}
 
+    trans_widget.upper_entry, trans_widget.lower_entry = nuclearf_upper, nuclearf_lower
+    assert TransitionProcessor().process(trans_widget) == {
+        'Transition': {'Upper': '(2+,2p1/2)1/2+', 'Lower': '(0+,1s1/2)1/2-'}}
+
     with pytest.raises(ValueError) as e_info:
         trans_widget.upper_entry, trans_widget.lower_entry = bad_level, bad_level
         TransitionProcessor().process(trans_widget)
@@ -192,15 +219,31 @@ def test_transition_processor():
         TransitionProcessor().process(trans_widget)
 
 
+def test_nuclear_polarization_processor():
+    data = {}
+    data['mode'] = 'Calculated'
+    data['fit_data'] = [[({'Upper': '', 'Lower': ''}, '1s'), '30.3']]
+    data['calced_data'] = {'test_ref_1': True, 'test_ref_2': False}
 
-# def test_init_data_entry_interface(tmp_path):
-#
-#     global example_references
-#
-#     temp_references_file = tmp_path / 'references.json'
-#     temp_references_file.write_text(json.dumps(example_references))
-#
-#     DataEntryInterface()
+    assert NuclearPolarizationProcessor().process_data(data) == {'Nuclear Polarization Method': 'Calculated',
+                                                                 'Calculated Nuclear Polarization':
+                                                                     ['test_ref_1']}
+
+    data['mode'] = 'Vary'
+    assert NuclearPolarizationProcessor().process_data(data) == {'Nuclear Polarization Method': 'Vary',
+                                                                 'Energy [keV]_A': {'Value': 30.3,
+                                                                                    'Uncertainty': None},
+                                                                 'Level_A': '1s'
+                                                                 }
+
+    data['mode'] = 'Mixed'
+    assert NuclearPolarizationProcessor().process_data(data) == {'Nuclear Polarization Method': 'Mixed',
+                                                                 'Energy [keV]_A': {'Value': 30.3,
+                                                                                    'Uncertainty': None},
+                                                                 'Level_A': '1s',
+                                                                 'Calculated Nuclear Polarization':
+                                                                     ['test_ref_1']
+                                                                 }
 
 
 def test_save_data(tmp_path):

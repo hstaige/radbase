@@ -1,0 +1,15 @@
+{
+    "schaller_nuclear_1985_muonic_P31_2p_1s": {
+        "Reference": "schaller_nuclear_1985",
+        "Nuclide": "P31",
+        "Transition": {
+            "Upper": "2p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 456.806,
+            "Uncertainty": 0.012
+        },
+        "Notes": "Recoil corrected; #stat_unc #cal_unc #sys_unc"
+    }
+}
