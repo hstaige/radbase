@@ -6,10 +6,11 @@ import pytest
 
 from radbase.data_entry import (CastProcessor, DataEntryInterface, FieldSpec,
                                 GroupedProcessor, InputTemplate,
-                                NuclideProcessor,
+                                NuclearPolarizationProcessor, NuclideProcessor,
                                 NumberWithUncertaintyProcessor,
                                 PreviousDataProcessor, ReferenceProcessor,
-                                TransitionProcessor, XORProcessor)
+                                TransitionProcessor, VariableNumberProcessor,
+                                XORProcessor)
 
 if os.environ.get('DISPLAY', '') == '':
     print('no display found. Using :0.0')
@@ -170,6 +171,16 @@ def test_grouped_processor():
     assert grouped_proc.process(parent_widget) == {'label1': 'test', 'label2': 'test'}
 
 
+def test_variable_number_processor():
+    varied_widget = DummyWidget('')
+    varied_widget.entries = [(None, DummyWidget(str(i))) for i in range(3)]
+
+    var_proc = VariableNumberProcessor(CastProcessor(str, key='test'), suffixes=['_A', '_B', '_C'])
+    assert var_proc.process(varied_widget) == {'test_A': '0',
+                                               'test_B': '1',
+                                               'test_C': '2'}
+
+
 def test_transition_processor():
     trans_widget = DummyWidget('')
 
@@ -197,7 +208,8 @@ def test_transition_processor():
     assert TransitionProcessor().process(trans_widget) == {'Transition': {'Upper': '2+,2p1/2', 'Lower': '0+,1s1/2'}}
 
     trans_widget.upper_entry, trans_widget.lower_entry = nuclearf_upper, nuclearf_lower
-    assert TransitionProcessor().process(trans_widget) == {'Transition': {'Upper': '(2+,2p1/2)1/2+', 'Lower': '(0+,1s1/2)1/2-'}}
+    assert TransitionProcessor().process(trans_widget) == {
+        'Transition': {'Upper': '(2+,2p1/2)1/2+', 'Lower': '(0+,1s1/2)1/2-'}}
 
     with pytest.raises(ValueError) as e_info:
         trans_widget.upper_entry, trans_widget.lower_entry = bad_level, bad_level
@@ -205,6 +217,33 @@ def test_transition_processor():
 
         trans_widget.upper_entry, trans_widget.lower_entry = withj_upper, nuclear_lower
         TransitionProcessor().process(trans_widget)
+
+
+def test_nuclear_polarization_processor():
+    data = {}
+    data['mode'] = 'Calculated'
+    data['fit_data'] = [[({'Upper': '', 'Lower': ''}, '1s'), '30.3']]
+    data['calced_data'] = {'test_ref_1': True, 'test_ref_2': False}
+
+    assert NuclearPolarizationProcessor().process_data(data) == {'Nuclear Polarization Method': 'Calculated',
+                                                                 'Calculated Nuclear Polarization':
+                                                                     ['test_ref_1']}
+
+    data['mode'] = 'Vary'
+    assert NuclearPolarizationProcessor().process_data(data) == {'Nuclear Polarization Method': 'Vary',
+                                                                 'Energy [keV]_A': {'Value': 30.3,
+                                                                                    'Uncertainty': None},
+                                                                 'Level_A': '1s'
+                                                                 }
+
+    data['mode'] = 'Mixed'
+    assert NuclearPolarizationProcessor().process_data(data) == {'Nuclear Polarization Method': 'Mixed',
+                                                                 'Energy [keV]_A': {'Value': 30.3,
+                                                                                    'Uncertainty': None},
+                                                                 'Level_A': '1s',
+                                                                 'Calculated Nuclear Polarization':
+                                                                     ['test_ref_1']
+                                                                 }
 
 
 def test_save_data(tmp_path):

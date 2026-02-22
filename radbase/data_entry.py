@@ -286,12 +286,16 @@ class VariableNumberProcessor:
         return [self.processor.unpack_widget(sub_widget) for _, sub_widget in widget.entries]
 
     def process_data(self, data):
-        data = {}
+        result = {}
+
+        if len(self.suffixes) < len(data):
+            raise ValueError(f'Not enough suffixes for data. {len(self.suffixes)} suffixes and {len(data)=}')
+
         for suffix, sub_data in zip(self.suffixes, data):
             sub_result = self.processor.process_data(sub_data)
             sub_result = {key + suffix: value for key, value in sub_result.items()}
-            data = data | sub_result
-        return data
+            result = result | sub_result
+        return result
 
 
 class MultiTransitionProcessor:

@@ -15,5 +15,23 @@
             "uncertainty": null
         },
         "Notes": ""
+    },
+    "test_test_1700_muonicdifference_W174": {
+        "Reference": "test_test_1700",
+        "Nuclide": "W174",
+        "Energy Difference [keV] (A-B)": {
+            "Value": 100.0,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "test_test_1700_muonicdifference_pb203": {
+        "Reference": "test_test_1700",
+        "Nuclide": "pb203",
+        "Energy Difference [keV] (A-B)": {
+            "Value": 100.0,
+            "Uncertainty": null
+        },
+        "Notes": ""
     }
 }
