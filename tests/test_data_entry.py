@@ -105,8 +105,11 @@ def test_reference_processor(tmp_path):
 
 
 def test_previous_data_processor(tmp_path):
-    options = {'test_test_0000_data1': True,
-               'test_test_0000_data2': False}
+    true_widget = DummyWidget(True)
+    false_widget = DummyWidget(False)
+
+    options = {'test_test_0000_data1': true_widget,
+               'test_test_0000_data2': false_widget}
 
     previous_widget = DummyWidget('')
     previous_widget.selection_vars = options
