@@ -337,7 +337,7 @@ class PreviousDataProcessor:
 
     @staticmethod
     def unpack_widget(widget: tk.Widget):
-        return {key: checkbox for key, checkbox in widget.selection_vars.items()}
+        return {key: checkbox.get() for key, checkbox in widget.selection_vars.items()}
 
     def process_data(self, data: dict) -> dict[str, list[str]]:
         selected = [key for key, var in data.items() if var]
