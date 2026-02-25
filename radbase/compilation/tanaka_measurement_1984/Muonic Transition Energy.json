@@ -1,17 +1,4 @@
 {
-    "tanaka_measurement_1984_muonic_Hf176_(2+,2p3/2)1/2-_(2+,1s1/2)3/2+": {
-        "Reference": "tanaka_measurement_1984",
-        "Nuclide": "Hf176",
-        "Transition": {
-            "Upper": "(2+,2p3/2)1/2-",
-            "Lower": "(2+,1s1/2)3/2+"
-        },
-        "Energy [keV]": {
-            "Value": 5214.21,
-            "Uncertainty": 0.73
-        },
-        "Notes": "#Stat_only"
-    },
     "tanaka_measurement_1984_muonic_Hf176_(0+,2p3/2)3/2-_(0+,1s1/2)1/2+": {
         "Reference": "tanaka_measurement_1984",
         "Nuclide": "Hf176",
@@ -23,6 +10,565 @@
             "Value": 5268.95,
             "Uncertainty": 0.23
         },
-        "Notes": "Blend of I=1/2+ and I=3/2+ for 0+,1s1/2 level. #Stat_only"
+        "Notes": "Blend of (0+, 2p3/2)3/2- -> (0+,1s1/2)1/2+ and (2+, 2p3/2)3/2- -> (2+,1s1/2)3/2+."
+    },
+    "tanaka_measurement_1984_muonic_Hf176_(2+,2p3/2)1/2-_(2+,1s1/2)3/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf176",
+        "Transition": {
+            "Upper": "(2+,2p3/2)1/2-",
+            "Lower": "(2+,1s1/2)3/2+"
+        },
+        "Energy [keV]": {
+            "Value": 5214.21,
+            "Uncertainty": 0.73
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf176_(0+,2p3/2)3/2-_(2+,1s1/2)3/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf176",
+        "Transition": {
+            "Upper": "(0+,2p3/2)3/2-",
+            "Lower": "(2+,1s1/2)3/2+"
+        },
+        "Energy [keV]": {
+            "Value": 5181.17,
+            "Uncertainty": 0.26
+        },
+        "Notes": "Blend of F=3/2+ and l=5/2+ for (2+,1s1/2) level."
+    },
+    "tanaka_measurement_1984_muonic_Hf176_(2+,2p1/2)3/2-_(0+,1s1/2)1/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf176",
+        "Transition": {
+            "Upper": "(2+,2p1/2)3/2-",
+            "Lower": "(0+,1s1/2)1/2+"
+        },
+        "Energy [keV]": {
+            "Value": 5134.82,
+            "Uncertainty": 0.36
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf176_(0+,2p1/2)1/2-_(0+,1s1/2)1/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf176",
+        "Transition": {
+            "Upper": "(0+,2p1/2)1/2-",
+            "Lower": "(0+,1s1/2)1/2+"
+        },
+        "Energy [keV]": {
+            "Value": 5079.41,
+            "Uncertainty": 0.21
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf176_(2+,2p1/2)3/2-_(2+,1s1/2)5/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf176",
+        "Transition": {
+            "Upper": "(2+,2p1/2)3/2-",
+            "Lower": "(2+,1s1/2)5/2+"
+        },
+        "Energy [keV]": {
+            "Value": 5047.87,
+            "Uncertainty": 0.24
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf176_(0+,2p1/2)1/2-_(2+,1s1/2)3/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf176",
+        "Transition": {
+            "Upper": "(0+,2p1/2)1/2-",
+            "Lower": "(2+,1s1/2)3/2+"
+        },
+        "Energy [keV]": {
+            "Value": 4991.11,
+            "Uncertainty": 0.56
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf176_(0+,3d3/2)3/2+_(0+,2p1/2)1/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf176",
+        "Transition": {
+            "Upper": "(0+,3d3/2)3/2+",
+            "Lower": "(0+,2p1/2)1/2-"
+        },
+        "Energy [keV]": {
+            "Value": 2109.3,
+            "Uncertainty": 0.05
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf176_(0+,3d5/2)5/2+_(2+,2p1/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf176",
+        "Transition": {
+            "Upper": "(0+,3d5/2)5/2+",
+            "Lower": "(2+,2p1/2)3/2-"
+        },
+        "Energy [keV]": {
+            "Value": 2079.27,
+            "Uncertainty": 0.06
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf176_(0+,3d3/2)3/2+_(2+,2p1/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf176",
+        "Transition": {
+            "Upper": "(0+,3d3/2)3/2+",
+            "Lower": "(2+,2p1/2)3/2-"
+        },
+        "Energy [keV]": {
+            "Value": 2053.38,
+            "Uncertainty": 0.24
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf176_(0+,3d5/2)5/2+_(0+,2p3/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf176",
+        "Transition": {
+            "Upper": "(0+,3d5/2)5/2+",
+            "Lower": "(0+,2p3/2)3/2-"
+        },
+        "Energy [keV]": {
+            "Value": 1945.04,
+            "Uncertainty": 0.05
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf176_(0+,3d3/2)3/2+_(0+,2p3/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf176",
+        "Transition": {
+            "Upper": "(0+,3d3/2)3/2+",
+            "Lower": "(0+,2p3/2)3/2-"
+        },
+        "Energy [keV]": {
+            "Value": 1919.5,
+            "Uncertainty": 0.25
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf176_(0+,3d3/2)3/2+_(2+,2p3/2)1/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf176",
+        "Transition": {
+            "Upper": "(0+,3d3/2)3/2+",
+            "Lower": "(2+,2p3/2)1/2-"
+        },
+        "Energy [keV]": {
+            "Value": 1886.2,
+            "Uncertainty": 0.25
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf176_(0+,3d5/2)5/2+_(2+,2p3/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf176",
+        "Transition": {
+            "Upper": "(0+,3d5/2)5/2+",
+            "Lower": "(2+,2p3/2)3/2-"
+        },
+        "Energy [keV]": {
+            "Value": 1860.11,
+            "Uncertainty": 0.21
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf178_(0+,2p3/2)3/2-_(0+,1s1/2)1/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf178",
+        "Transition": {
+            "Upper": "(0+,2p3/2)3/2-",
+            "Lower": "(0+,1s1/2)1/2+"
+        },
+        "Energy [keV]": {
+            "Value": 5262.65,
+            "Uncertainty": 0.27
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf178_(2+,2p3/2)3/2-_(2+,1s1/2)3/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf178",
+        "Transition": {
+            "Upper": "(2+,2p3/2)3/2-",
+            "Lower": "(2+,1s1/2)3/2+"
+        },
+        "Energy [keV]": {
+            "Value": 5257.86,
+            "Uncertainty": 0.27
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf178_(2+,2p3/2)1/2-_(2+,1s1/2)3/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf178",
+        "Transition": {
+            "Upper": "(2+,2p3/2)1/2-",
+            "Lower": "(2+,1s1/2)3/2+"
+        },
+        "Energy [keV]": {
+            "Value": 5207.91,
+            "Uncertainty": 0.89
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf178_(0+,2p3/2)3/2-_(2+,1s1/2)3/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf178",
+        "Transition": {
+            "Upper": "(0+,2p3/2)3/2-",
+            "Lower": "(2+,1s1/2)3/2+"
+        },
+        "Energy [keV]": {
+            "Value": 5169.38,
+            "Uncertainty": 0.24
+        },
+        "Notes": "Blend of F=3/2 and F=5/2 for (2+,1s1/2) level."
+    },
+    "tanaka_measurement_1984_muonic_Hf178_(2+,2p1/2)3/2-_(0+,1s1/2)1/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf178",
+        "Transition": {
+            "Upper": "(2+,2p1/2)3/2-",
+            "Lower": "(0+,1s1/2)1/2+"
+        },
+        "Energy [keV]": {
+            "Value": 5135.33,
+            "Uncertainty": 0.32
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf178_(0+,2p1/2)1/2-_(0+,1s1/2)1/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf178",
+        "Transition": {
+            "Upper": "(0+,2p1/2)1/2-",
+            "Lower": "(0+,1s1/2)1/2+"
+        },
+        "Energy [keV]": {
+            "Value": 5075.0,
+            "Uncertainty": 0.21
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf178_(2+,2p1/2)3/2-_(2+,1s1/2)5/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf178",
+        "Transition": {
+            "Upper": "(2+,2p1/2)3/2-",
+            "Lower": "(2+,1s1/2)5/2+"
+        },
+        "Energy [keV]": {
+            "Value": 5042.12,
+            "Uncertainty": 0.24
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf178_(0+,2p1/2)1/2-_(2+,1s1/2)3/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf178",
+        "Transition": {
+            "Upper": "(0+,2p1/2)1/2-",
+            "Lower": "(2+,1s1/2)3/2+"
+        },
+        "Energy [keV]": {
+            "Value": 4982.27,
+            "Uncertainty": 0.55
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf178_(0+,3d3/2)3/2+_(0+,2p1/2)1/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf178",
+        "Transition": {
+            "Upper": "(0+,3d3/2)3/2+",
+            "Lower": "(0+,2p1/2)1/2-"
+        },
+        "Energy [keV]": {
+            "Value": 2106.26,
+            "Uncertainty": 0.05
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf178_(0+,3d5/2)5/2+_(2+,2p1/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf178",
+        "Transition": {
+            "Upper": "(0+,3d5/2)5/2+",
+            "Lower": "(2+,2p1/2)3/2-"
+        },
+        "Energy [keV]": {
+            "Value": 2071.97,
+            "Uncertainty": 0.05
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf178_(0+,3d3/2)3/2+_(2+,2p1/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf178",
+        "Transition": {
+            "Upper": "(0+,3d3/2)3/2+",
+            "Lower": "(2+,2p1/2)3/2-"
+        },
+        "Energy [keV]": {
+            "Value": 2046.12,
+            "Uncertainty": 0.25
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf178_(0+,3d5/2)5/2+_(0+,2p3/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf178",
+        "Transition": {
+            "Upper": "(0+,3d5/2)5/2+",
+            "Lower": "(0+,2p3/2)3/2-"
+        },
+        "Energy [keV]": {
+            "Value": 1944.5,
+            "Uncertainty": 0.04
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf178_(0+,3d3/2)3/2+_(0+,2p3/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf178",
+        "Transition": {
+            "Upper": "(0+,3d3/2)3/2+",
+            "Lower": "(0+,2p3/2)3/2-"
+        },
+        "Energy [keV]": {
+            "Value": 1919.01,
+            "Uncertainty": 0.27
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf178_(0+,3d3/2)3/2+_(2+,2p3/2)1/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf178",
+        "Transition": {
+            "Upper": "(0+,3d3/2)3/2+",
+            "Lower": "(2+,2p3/2)1/2-"
+        },
+        "Energy [keV]": {
+            "Value": 1881.69,
+            "Uncertainty": 0.37
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf178_(0+,3d5/2)5/2+_(2+,2p3/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf178",
+        "Transition": {
+            "Upper": "(0+,3d5/2)5/2+",
+            "Lower": "(2+,2p3/2)3/2-"
+        },
+        "Energy [keV]": {
+            "Value": 1857.33,
+            "Uncertainty": 0.19
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf180_(0+,2p3/2)3/2-_(0+,1s1/2)1/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf180",
+        "Transition": {
+            "Upper": "(0+,2p3/2)3/2-",
+            "Lower": "(0+,1s1/2)1/2+"
+        },
+        "Energy [keV]": {
+            "Value": 5254.7,
+            "Uncertainty": 0.24
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf180_(2+,2p3/2)3/2-_(2+,1s1/2)3/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf180",
+        "Transition": {
+            "Upper": "(2+,2p3/2)3/2-",
+            "Lower": "(2+,1s1/2)3/2+"
+        },
+        "Energy [keV]": {
+            "Value": 5249.76,
+            "Uncertainty": 0.24
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf180_(2+,2p3/2)1/2-_(2+,1s1/2)3/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf180",
+        "Transition": {
+            "Upper": "(2+,2p3/2)1/2-",
+            "Lower": "(2+,1s1/2)3/2+"
+        },
+        "Energy [keV]": {
+            "Value": 5199.27,
+            "Uncertainty": 0.61
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf180_(0+,2p3/2)3/2-_(2+,1s1/2)3/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf180",
+        "Transition": {
+            "Upper": "(0+,2p3/2)3/2-",
+            "Lower": "(2+,1s1/2)3/2+"
+        },
+        "Energy [keV]": {
+            "Value": 5161.35,
+            "Uncertainty": 0.24
+        },
+        "Notes": "Blend of F=3/2 and F=5/2 for (2+,1s1/2) level."
+    },
+    "tanaka_measurement_1984_muonic_Hf180_(2+,2p1/2)3/2-_(0+,1s1/2)1/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf180",
+        "Transition": {
+            "Upper": "(2+,2p1/2)3/2-",
+            "Lower": "(0+,1s1/2)1/2+"
+        },
+        "Energy [keV]": {
+            "Value": 5129.27,
+            "Uncertainty": 0.3
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf180_(0+,2p1/2)1/2-_(0+,1s1/2)1/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf180",
+        "Transition": {
+            "Upper": "(0+,2p1/2)1/2-",
+            "Lower": "(0+,1s1/2)1/2+"
+        },
+        "Energy [keV]": {
+            "Value": 5068.5,
+            "Uncertainty": 0.2
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf180_(2+,2p1/2)3/2-_(2+,1s1/2)5/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf180",
+        "Transition": {
+            "Upper": "(2+,2p1/2)3/2-",
+            "Lower": "(2+,1s1/2)5/2+"
+        },
+        "Energy [keV]": {
+            "Value": 5035.7,
+            "Uncertainty": 0.22
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf180_(0+,2p1/2)1/2-_(2+,1s1/2)3/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf180",
+        "Transition": {
+            "Upper": "(0+,2p1/2)1/2-",
+            "Lower": "(2+,1s1/2)3/2+"
+        },
+        "Energy [keV]": {
+            "Value": 4976.65,
+            "Uncertainty": 0.54
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf180_(0+,3d3/2)3/2+_(0+,2p1/2)1/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf180",
+        "Transition": {
+            "Upper": "(0+,3d3/2)3/2+",
+            "Lower": "(0+,2p1/2)1/2-"
+        },
+        "Energy [keV]": {
+            "Value": 2104.91,
+            "Uncertainty": 0.05
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf180_(0+,3d5/2)5/2+_(2+,2p1/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf180",
+        "Transition": {
+            "Upper": "(0+,3d5/2)5/2+",
+            "Lower": "(2+,2p1/2)3/2-"
+        },
+        "Energy [keV]": {
+            "Value": 2070.1,
+            "Uncertainty": 0.05
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf180_(0+,3d3/2)3/2+_(2+,2p1/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf180",
+        "Transition": {
+            "Upper": "(0+,3d3/2)3/2+",
+            "Lower": "(2+,2p1/2)3/2-"
+        },
+        "Energy [keV]": {
+            "Value": 2044.47,
+            "Uncertainty": 0.19
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf180_(0+,3d5/2)5/2+_(0+,2p3/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf180",
+        "Transition": {
+            "Upper": "(0+,3d5/2)5/2+",
+            "Lower": "(0+,2p3/2)3/2-"
+        },
+        "Energy [keV]": {
+            "Value": 1944.63,
+            "Uncertainty": 0.04
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf180_(0+,3d3/2)3/2+_(0+,2p3/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf180",
+        "Transition": {
+            "Upper": "(0+,3d3/2)3/2+",
+            "Lower": "(0+,2p3/2)3/2-"
+        },
+        "Energy [keV]": {
+            "Value": 1919.0,
+            "Uncertainty": 0.2
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf180_(0+,3d3/2)3/2+_(2+,2p3/2)1/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf180",
+        "Transition": {
+            "Upper": "(0+,3d3/2)3/2+",
+            "Lower": "(2+,2p3/2)1/2-"
+        },
+        "Energy [keV]": {
+            "Value": 1880.64,
+            "Uncertainty": 0.26
+        },
+        "Notes": "#stat_unc, #cal_unc"
+    },
+    "tanaka_measurement_1984_muonic_Hf180_(0+,3d5/2)5/2+_(2+,2p3/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Nuclide": "Hf180",
+        "Transition": {
+            "Upper": "(0+,3d5/2)5/2+",
+            "Lower": "(2+,2p3/2)3/2-"
+        },
+        "Energy [keV]": {
+            "Value": 1856.62,
+            "Uncertainty": 0.15
+        },
+        "Notes": "#stat_unc, #cal_unc"
     }
 }

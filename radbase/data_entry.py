@@ -17,7 +17,8 @@ import uncertainties
 
 config = {
     'compilation_dir': files('radbase') / 'compilation',
-    'reference_path': files('radbase') / 'compilation/references.json'
+    'reference_path': files('radbase') / 'compilation/references.json',
+    'charge_distribution_path': files('radbase') / 'compilation/charge_distributions.json'
 }
 
 
@@ -32,6 +33,13 @@ class Reference:
     volume: Optional[int] = None
     url: Optional[str] = None
     doi: Optional[str] = None
+
+
+class ChargeDistribution(NamedTuple):
+    name: str
+    equation: str
+    parameters: list[str] = []
+    varied_number_parameters: list[str] = []
 
 
 class ScrollableFrame(ttk.Frame):
@@ -268,9 +276,43 @@ class NuclearPolarizationProcessor:
         elif mode == 'Vary':
             return result | self.varied_processor.process_data(fit_data)
         elif mode == 'Mixed':
-            return result | self.calced_processor.process_data(calced_data) | self.varied_processor.process_data(fit_data)
+            return result | self.calced_processor.process_data(calced_data) | self.varied_processor.process_data(
+                fit_data)
         else:
             raise ValueError(f'{mode} is not in [Calculated, Vary, Mixed]')
+
+
+class ChargeDistributionProcessor:
+
+    def __init__(self, charge_distributions: list[ChargeDistribution] | Traversable):
+        if isinstance(charge_distributions, list):
+            self.charge_distributions = charge_distributions
+        else:
+            with open(charge_distributions, 'r') as f:
+                data = json.load(f)
+
+        self.charge_distributions = [ChargeDistribution(name=name, **values) for name, values in data.items()]
+
+    def cd_processor(self, charge_distribution_name):
+        cd, = [cd for cd in self.charge_distributions if cd.name == charge_distribution_name]
+        return GroupedProcessor([NumberWithUncertaintyProcessor(key=par) for par in cd.parameters] + [
+            VariableNumberProcessor(NumberWithUncertaintyProcessor, suffixes=[f'_{i}' for i in range(30)]) for _ in
+            cd.varied_number_parameters])
+
+    def process(self, widget: tk.Widget) -> dict:
+        return self.process_data(self.unpack_widget(widget))
+
+    def unpack_widget(self, widget: tk.Widget) -> dict:
+        cd = widget.selection.get()
+        processor = self.cd_processor(cd)
+
+        cd_data = processor.unpack_widget(widget.cd_widget)
+        return {'cd': cd, 'cd_data': cd_data}
+
+    def process_data(self, data: dict) -> dict:
+        cd, cd_data = data['cd'], data['cd_data']
+        processor = self.cd_processor(cd)
+        return {'Charge Distribution': cd} | processor.process_data(cd_data)
 
 
 class VariableNumberProcessor:
@@ -557,10 +599,70 @@ class NuclearPolarizationWidgetCreator:
         return container
 
 
+class ChargeDistributionWidgetCreator:
+    charge_distributions: list[ChargeDistribution]
+
+    def __init__(self, charge_distributions: list[ChargeDistribution] | Traversable):
+        if isinstance(charge_distributions, list):
+            self.charge_distributions = charge_distributions
+        else:
+            with open(charge_distributions, 'r') as f:
+                data = json.load(f)
+
+        self.charge_distributions = [ChargeDistribution(name=name, **values) for name, values in data.items()]
+
+    @property
+    def available_distributions(self):
+        return [cd.name for cd in self.charge_distributions]
+
+    def create_widget(self, frame, row) -> tk.Widget:
+        frame = tk.Frame(frame)
+        frame.grid(row=row, column=1, pady=4, sticky='w')
+
+        selection = SelectWidgetCreator(self.available_distributions).create_widget(frame, 0)
+        selection.grid(row=0, column=0)
+
+        cd_widgets: dict[str, tk.Widget] = {}
+        for cd in self.charge_distributions:
+            n_par, n_vary_par = len(cd.parameters), len(cd.varied_number_parameters)
+            print(f'Making {cd.name}, {n_par=} and {n_vary_par=}')
+            cd_widget = GroupedWidgetCreator(cd.parameters + cd.varied_number_parameters,
+                                             [DefaultWidgetCreator()] * n_par + [
+                                                 VariableNumberWidgetCreator(DefaultWidgetCreator,
+                                                                             lambda i: f'_{i + 1}')] * n_vary_par
+                                             ).create_widget(frame, 1)
+            cd_widget.grid_remove()
+            cd_widgets[cd.name] = cd_widget
+
+        def handle_selection(event=None):
+            choice = selection.get()
+
+            for name, widget in cd_widgets.items():
+                if name == choice:
+                    widget.grid(row=1, column=0, pady=4, sticky='w')
+                else:
+                    widget.grid_remove()
+
+            frame.cd_widget = cd_widgets[choice]
+
+        selection.bind("<<ComboboxSelected>>", handle_selection)
+        handle_selection()
+
+        frame.selection = selection
+        frame.cd_widget = cd_widgets[self.charge_distributions[0].name]
+
+        return frame
+
+
 class VariableNumberWidgetCreator:
 
-    def __init__(self, widget_creator: WidgetCreator):
+    def __init__(self, widget_creator: WidgetCreator, label_creator: Callable[[int], str] | None = None):
         self.widget_creator = widget_creator
+        self.label_creator = self.default_label_creator if label_creator is None else label_creator
+
+    @staticmethod
+    def default_label_creator(i):
+        return f'{chr(ord("A") + i)}'
 
     def create_widget(self, frame, row):
 
@@ -581,7 +683,7 @@ class VariableNumberWidgetCreator:
 
         def add_new_entry(*_):
             number_of_rows = len(container.entries)
-            new_letter = f'{chr(ord("A") + number_of_rows)}'
+            new_letter = self.label_creator(number_of_rows)
 
             label = tk.Label(container, text=f'{new_letter}')
             label.grid(row=number_of_rows, column=0)
@@ -1183,22 +1285,21 @@ muonic_radius_template = InputTemplate(
                                       'NP', values['Nuclear Polarization Method']])
 )
 
-muonic_fermi_distribution_template = InputTemplate(
-    name="Fermi Distribution",
+charge_distribution_template = InputTemplate(
+    name="Charge Distribution",
     fields=[
         reference_field,
         FieldSpec("Data used as input", PreviousDataProcessor(),
                   PreviousDataWidgetCreator(compilation_path=config['compilation_dir'],
-                                            filter_regex='muonic.*_')),
+                                            filter_regex='')),
         nuclide_field,
-        # TODO add fermi distribution processor and widget creator with different fermi distribution options.
-        FieldSpec('c [fm]', NumberWithUncertaintyProcessor(key='c [fm]')),
-        FieldSpec('a [fm]', NumberWithUncertaintyProcessor(key='a [fm]')),
-        FieldSpec('beta2 [-]', NumberWithUncertaintyProcessor(key='beta2 [-]')),
-        FieldSpec('beta4 [-]', NumberWithUncertaintyProcessor(key='beta4 [-]')),
+        FieldSpec("Charge Distribution Parameters",
+                  ChargeDistributionProcessor(config['charge_distribution_path']),
+                  ChargeDistributionWidgetCreator(config['charge_distribution_path'])),
         notes_field
     ],
-    data_key=lambda values: '_'.join([values['Reference'], 'fermi', values['Nuclide']])
+    data_key=lambda values: '_'.join(
+        [values['Reference'], 'chargedistribution', values['Nuclide'], values['Charge Distribution']])
 )
 
 electron_scattering_cross_section_template = InputTemplate(
@@ -1225,12 +1326,26 @@ electron_scattering_cross_section_ratio_template = InputTemplate(
         FieldSpec('q [1/fm]', NumberWithUncertaintyProcessor(key='q [1/fm]')),
         FieldSpec('Energy [MeV]', NumberWithUncertaintyProcessor(key='E [MeV]')),
         FieldSpec('theta [deg]', NumberWithUncertaintyProcessor(key='theta [deg]')),
-        FieldSpec('Cross section ratio (A/B) [-]', NumberWithUncertaintyProcessor(key='Cross section Ratio [-]')),
+        FieldSpec('Cross section ratio (A/B) [-]', NumberWithUncertaintyProcessor(key='Cross section Ratio (A/B) [-]')),
         notes_field
     ],
     data_key=lambda values: '_'.join(
         [values['Reference'], 'electroncrosssectionratio', values['Nuclide_A'], values['Nuclide_B'],
          f'q={values['q [1/fm]']['Value']:0.3e}'])
+)
+
+radius_template = InputTemplate(
+    name='Radius',
+    fields=[
+        reference_field,
+        nuclide_field,
+        FieldSpec("Data used as input", PreviousDataProcessor(),
+                  PreviousDataWidgetCreator(compilation_path=config['compilation_dir'],
+                                            filter_regex='')),
+        FieldSpec('Radius [fm]', NumberWithUncertaintyProcessor(key='Radius [fm]')),
+        notes_field
+    ],
+    data_key=lambda values: '_'.join([values['Reference'], 'radius', values['Nuclide']])
 )
 
 templates = [muonic_transition_energy_template,
@@ -1241,9 +1356,10 @@ templates = [muonic_transition_energy_template,
              muonic_barret_theory_template,
              muonic_barret_shift_template,
              muonic_radius_template,
-             muonic_fermi_distribution_template,
+             charge_distribution_template,
              electron_scattering_cross_section_template,
-             electron_scattering_cross_section_ratio_template]
+             electron_scattering_cross_section_ratio_template,
+             radius_template]
 
 
 class DataEntryInterface:

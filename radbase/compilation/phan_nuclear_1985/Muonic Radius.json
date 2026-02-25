@@ -1,7 +1,19 @@
 {
     "phan_nuclear_1985_radius_Zr90_NP_Mixed": {
         "Reference": "phan_nuclear_1985",
-        "Relies On": [],
+        "Relies On": [
+            "phan_nuclear_1985_muonic_Zr90_2p1/2_1s1/2",
+            "phan_nuclear_1985_muonic_Zr90_2p3/2_1s1/2",
+            "phan_nuclear_1985_muonic_Zr90_2s1/2_2p1/2",
+            "phan_nuclear_1985_muonic_Zr90_2s1/2_2p3/2",
+            "phan_nuclear_1985_muonic_Zr90_3d3/2_2p1/2",
+            "phan_nuclear_1985_muonic_Zr90_3d3/2_2p3/2",
+            "phan_nuclear_1985_muonic_Zr90_3d5/2_2p3/2",
+            "phan_nuclear_1985_muonic_Zr90_3p1/2_1s1/2",
+            "phan_nuclear_1985_muonic_Zr90_3p1/2_2s1/2",
+            "phan_nuclear_1985_muonic_Zr90_3p3/2_1s1/2",
+            "phan_nuclear_1985_muonic_Zr90_3p3/2_2s1/2"
+        ],
         "Nuclide": "Zr90",
         "R [fm]": {
             "value": 4.2724,
@@ -9,20 +21,62 @@
         },
         "Nuclear Polarization Method": "Mixed",
         "Calculated Nuclear Polarization": [
-            "test_test_1700_muonic_nuclear_polarization_Sn112_1s1/2",
-            "test_test_1700_muonic_nuclear_polarization_Sn112_2p1/2"
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_3p1/2",
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_3p3/2"
         ],
         "Level_A": "1s",
         "Energy [keV]_A": {
-            "value": 175.0,
-            "uncertainty": 22.0
+            "value": 1138.0,
+            "uncertainty": 155.0
         },
         "Level_B": "2s",
         "Energy [keV]_B": {
             "value": 175.0,
             "uncertainty": 22.0
         },
+        "Level_C": "2p1/2",
+        "Energy [keV]_C": {
+            "value": 55.0,
+            "uncertainty": 3.0
+        },
+        "Level_D": "2p3/2",
+        "Energy [keV]_D": {
+            "value": 66.0,
+            "uncertainty": 3.0
+        },
         "Reduced Chi-Squared": 0.76,
+        "Notes": ""
+    },
+    "phan_nuclear_1985_radius_Zr90_NP_Calculated": {
+        "Reference": "phan_nuclear_1985",
+        "Relies On": [
+            "phan_nuclear_1985_muonic_Zr90_2p1/2_1s1/2",
+            "phan_nuclear_1985_muonic_Zr90_2p3/2_1s1/2",
+            "phan_nuclear_1985_muonic_Zr90_2s1/2_2p1/2",
+            "phan_nuclear_1985_muonic_Zr90_2s1/2_2p3/2",
+            "phan_nuclear_1985_muonic_Zr90_3d3/2_2p1/2",
+            "phan_nuclear_1985_muonic_Zr90_3d3/2_2p3/2",
+            "phan_nuclear_1985_muonic_Zr90_3d5/2_2p3/2",
+            "phan_nuclear_1985_muonic_Zr90_3p1/2_1s1/2",
+            "phan_nuclear_1985_muonic_Zr90_3p1/2_2s1/2",
+            "phan_nuclear_1985_muonic_Zr90_3p3/2_1s1/2",
+            "phan_nuclear_1985_muonic_Zr90_3p3/2_2s1/2"
+        ],
+        "Nuclide": "Zr90",
+        "R [fm]": {
+            "value": 4.2736,
+            "uncertainty": 0.004
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_1s1/2",
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_2p1/2",
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_2p3/2",
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_2s1/2",
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_3p1/2",
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_3p3/2"
+        ],
+        "Reduced Chi-Squared": 4.0,
         "Notes": ""
     }
 }

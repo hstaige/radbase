@@ -1,0 +1,31 @@
+{
+  "TwoParameterFermi":
+  {
+    "equation": "1 / exp(1 + (r-c)/a)",
+    "parameters": ["c [fm]", "a [fm]"]
+  },
+  "ThreeParameterFermi":
+  {
+    "equation": "1 / exp(1 + (r-c*(1 + beta2*Y20(theta))/a)",
+    "parameters": ["c [fm]", "a [fm]", "beta2 [-]"]
+  },
+  "FourParameterFermi":
+  {
+    "equation": "1 / exp(1 + (r-c*(1 + beta2*Y20(theta) + beta4*Y40(theta))/a)",
+    "parameters": ["c [fm]", "a [fm]", "beta2 [-]", "beta4 [-]"]
+  },
+  "ParabolicFermi":
+  {
+    "equation": "(1 + w * r**2 / c**2) / exp(1 + (r-c*(1 + beta2*Y20(theta))/a)",
+    "parameters": ["c [fm]", "a [fm]", "w [-]"]
+  },
+  "FourierBessel": {
+    "equation": "sum_i v_i j_0(q_i r)",
+    "parameters": ["R_cutoff [fm]"],
+    "varied_number_parameters": ["v"]
+  },
+  "SumofGaussians": {
+    "equation": "sum_i A_i exp(-(r-c_i)**2 / sigma_i**2)",
+    "varied_number_parameters": ["A", "c", "sigma"]
+  }
+}

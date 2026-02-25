@@ -1,0 +1,26 @@
+{
+    "heisenberg_electron_1972_radius_Ti46": {
+        "Reference": "heisenberg_electron_1972",
+        "Nuclide": "Ti46",
+        "Relies On": [
+            "heisenberg_electron_1972_chargedistribution_Ti46_ParabolicFermi"
+        ],
+        "Radius [fm]": {
+            "Value": 3.5745,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "heisenberg_electron_1972_radius_Ti50": {
+        "Reference": "heisenberg_electron_1972",
+        "Nuclide": "Ti50",
+        "Relies On": [
+            "heisenberg_electron_1972_chargedistribution_Ti50_ParabolicFermi"
+        ],
+        "Radius [fm]": {
+            "Value": 3.5617,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    }
+}

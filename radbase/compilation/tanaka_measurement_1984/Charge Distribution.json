@@ -1,0 +1,146 @@
+{
+    "tanaka_measurement_1984_chargedistribution_Hf176_ThreeParameterFermi": {
+        "Reference": "tanaka_measurement_1984",
+        "Relies On": [
+            "tanaka_measurement_1984_muonic_Hf176_(0+,2p3/2)3/2-_(0+,1s1/2)1/2+",
+            "tanaka_measurement_1984_muonic_Hf176_(2+,2p3/2)1/2-_(2+,1s1/2)3/2+",
+            "tanaka_measurement_1984_muonic_Hf176_(0+,2p1/2)1/2-_(0+,1s1/2)1/2+",
+            "tanaka_measurement_1984_muonic_Hf176_(0+,2p1/2)1/2-_(2+,1s1/2)3/2+",
+            "tanaka_measurement_1984_muonic_Hf176_(0+,2p3/2)3/2-_(0+,1s1/2)1/2+",
+            "tanaka_measurement_1984_muonic_Hf176_(0+,2p3/2)3/2-_(2+,1s1/2)3/2+",
+            "tanaka_measurement_1984_muonic_Hf176_(0+,3d3/2)3/2+_(0+,2p1/2)1/2-",
+            "tanaka_measurement_1984_muonic_Hf176_(0+,3d3/2)3/2+_(0+,2p3/2)3/2-",
+            "tanaka_measurement_1984_muonic_Hf176_(0+,3d3/2)3/2+_(2+,2p1/2)3/2-",
+            "tanaka_measurement_1984_muonic_Hf176_(0+,3d3/2)3/2+_(2+,2p3/2)1/2-",
+            "tanaka_measurement_1984_muonic_Hf176_(0+,3d5/2)5/2+_(0+,2p3/2)3/2-",
+            "tanaka_measurement_1984_muonic_Hf176_(0+,3d5/2)5/2+_(2+,2p1/2)3/2-",
+            "tanaka_measurement_1984_muonic_Hf176_(0+,3d5/2)5/2+_(2+,2p3/2)3/2-",
+            "tanaka_measurement_1984_muonic_Hf176_(2+,2p1/2)3/2-_(0+,1s1/2)1/2+",
+            "tanaka_measurement_1984_muonic_Hf176_(2+,2p1/2)3/2-_(2+,1s1/2)5/2+",
+            "tanaka_measurement_1984_muonic_Hf176_(2+,2p3/2)1/2-_(2+,1s1/2)3/2+"
+        ],
+        "Nuclide": "Hf176",
+        "Charge Distribution": "ThreeParameterFermi",
+        "c [fm]": {
+            "Value": 6.288,
+            "Uncertainty": 0.002
+        },
+        "a [fm]": {
+            "Value": 0.519,
+            "Uncertainty": 0.001
+        },
+        "beta2 [-]": {
+            "Value": 0.27,
+            "Uncertainty": null
+        },
+        "Notes": "Obtained from direct fit of spectrum; #Exp_unc, #Np_unc"
+    },
+    "tanaka_measurement_1984_chargedistribution_Hf177_ThreeParameterFermi": {
+        "Reference": "tanaka_measurement_1984",
+        "Relies On": [],
+        "Nuclide": "Hf177",
+        "Charge Distribution": "ThreeParameterFermi",
+        "c [fm]": {
+            "Value": 6.297,
+            "Uncertainty": 0.004
+        },
+        "a [fm]": {
+            "Value": 0.517,
+            "Uncertainty": 0.003
+        },
+        "beta2 [-]": {
+            "Value": 0.268,
+            "Uncertainty": null
+        },
+        "Notes": "Obtained from direct fit of spectrum; #exp_unc, #NP_unc"
+    },
+    "tanaka_measurement_1984_chargedistribution_Hf178_ThreeParameterFermi": {
+        "Reference": "tanaka_measurement_1984",
+        "Relies On": [
+            "tanaka_measurements_1984_muonic_Hf178_(0+,2p1/2)1/2-_(0+,1s1/2)1/2+",
+            "tanaka_measurements_1984_muonic_Hf178_(0+,2p1/2)1/2-_(2+,1s1/2)3/2+",
+            "tanaka_measurements_1984_muonic_Hf178_(0+,2p3/2)3/2-_(0+,1s1/2)1/2+",
+            "tanaka_measurements_1984_muonic_Hf178_(0+,2p3/2)3/2-_(2+,1s1/2)3/2+",
+            "tanaka_measurements_1984_muonic_Hf178_(0+,3d3/2)3/2+_(0+,2p1/2)1/2-",
+            "tanaka_measurements_1984_muonic_Hf178_(0+,3d3/2)3/2+_(0+,2p3/2)3/2-",
+            "tanaka_measurements_1984_muonic_Hf178_(0+,3d3/2)3/2+_(2+,2p1/2)3/2-",
+            "tanaka_measurements_1984_muonic_Hf178_(0+,3d3/2)3/2+_(2+,2p3/2)1/2-",
+            "tanaka_measurements_1984_muonic_Hf178_(0+,3d5/2)5/2+_(0+,2p3/2)3/2-",
+            "tanaka_measurements_1984_muonic_Hf178_(0+,3d5/2)5/2+_(2+,2p1/2)3/2-",
+            "tanaka_measurements_1984_muonic_Hf178_(0+,3d5/2)5/2+_(2+,2p3/2)3/2-",
+            "tanaka_measurements_1984_muonic_Hf178_(2+,2p1/2)3/2-_(0+,1s1/2)1/2+",
+            "tanaka_measurements_1984_muonic_Hf178_(2+,2p1/2)3/2-_(2+,1s1/2)5/2+",
+            "tanaka_measurements_1984_muonic_Hf178_(2+,2p3/2)1/2-_(2+,1s1/2)3/2+",
+            "tanaka_measurements_1984_muonic_Hf178_(2+,2p3/2)3/2-_(2+,1s1/2)3/2+"
+        ],
+        "Nuclide": "Hf178",
+        "Charge Distribution": "ThreeParameterFermi",
+        "c [fm]": {
+            "Value": 6.317,
+            "Uncertainty": 0.002
+        },
+        "a [fm]": {
+            "Value": 0.514,
+            "Uncertainty": 0.001
+        },
+        "beta2 [-]": {
+            "Value": 0.259,
+            "Uncertainty": null
+        },
+        "Notes": "Obtained from direct fit of spectrum; #exp_unc, #NP_unc"
+    },
+    "tanaka_measurement_1984_chargedistribution_Hf179_ThreeParameterFermi": {
+        "Reference": "tanaka_measurement_1984",
+        "Relies On": [],
+        "Nuclide": "Hf179",
+        "Charge Distribution": "ThreeParameterFermi",
+        "c [fm]": {
+            "Value": 6.348,
+            "Uncertainty": 0.002
+        },
+        "a [fm]": {
+            "Value": 0.498,
+            "Uncertainty": 0.003
+        },
+        "beta2 [-]": {
+            "Value": 0.257,
+            "Uncertainty": null
+        },
+        "Notes": "Obtained from direct fit of spectrum; #exp_unc, #NP_unc"
+    },
+    "tanaka_measurement_1984_chargedistribution_Hf180_ThreeParameterFermi": {
+        "Reference": "tanaka_measurement_1984",
+        "Relies On": [
+            "tanaka_measurements_1984_muonic_Hf180_(0+,2p1/2)1/2-_(0+,1s1/2)1/2+",
+            "tanaka_measurements_1984_muonic_Hf180_(0+,2p1/2)1/2-_(2+,1s1/2)3/2+",
+            "tanaka_measurements_1984_muonic_Hf180_(0+,2p3/2)3/2-_(0+,1s1/2)1/2+",
+            "tanaka_measurements_1984_muonic_Hf180_(0+,2p3/2)3/2-_(2+,1s1/2)3/2+",
+            "tanaka_measurements_1984_muonic_Hf180_(0+,3d3/2)3/2+_(0+,2p1/2)1/2-",
+            "tanaka_measurements_1984_muonic_Hf180_(0+,3d3/2)3/2+_(0+,2p3/2)3/2-",
+            "tanaka_measurements_1984_muonic_Hf180_(0+,3d3/2)3/2+_(2+,2p1/2)3/2-",
+            "tanaka_measurements_1984_muonic_Hf180_(0+,3d3/2)3/2+_(2+,2p3/2)1/2-",
+            "tanaka_measurements_1984_muonic_Hf180_(0+,3d5/2)5/2+_(0+,2p3/2)3/2-",
+            "tanaka_measurements_1984_muonic_Hf180_(0+,3d5/2)5/2+_(2+,2p1/2)3/2-",
+            "tanaka_measurements_1984_muonic_Hf180_(0+,3d5/2)5/2+_(2+,2p3/2)3/2-",
+            "tanaka_measurements_1984_muonic_Hf180_(2+,2p1/2)3/2-_(0+,1s1/2)1/2+",
+            "tanaka_measurements_1984_muonic_Hf180_(2+,2p1/2)3/2-_(2+,1s1/2)5/2+",
+            "tanaka_measurements_1984_muonic_Hf180_(2+,2p3/2)1/2-_(2+,1s1/2)3/2+",
+            "tanaka_measurements_1984_muonic_Hf180_(2+,2p3/2)3/2-_(2+,1s1/2)3/2+"
+        ],
+        "Nuclide": "Hf180",
+        "Charge Distribution": "ThreeParameterFermi",
+        "c [fm]": {
+            "Value": 6.34,
+            "Uncertainty": 0.002
+        },
+        "a [fm]": {
+            "Value": 0.51,
+            "Uncertainty": 0.001
+        },
+        "beta2 [-]": {
+            "Value": 0.254,
+            "Uncertainty": null
+        },
+        "Notes": "Obtained from direct fit of spectrum; #exp_unc, #NP_unc"
+    }
+}

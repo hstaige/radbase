@@ -24,5 +24,31 @@
             "Uncertainty": 1.0
         },
         "Notes": ""
+    },
+    "test_test_1700_muonic_Pb203_5p_2p_test": {
+        "Reference": "test_test_1700",
+        "Nuclide": "Pb203",
+        "Transition": {
+            "Upper": "5p",
+            "Lower": "2p"
+        },
+        "Energy [keV]": {
+            "Value": 100.0,
+            "Uncertainty": 1.0
+        },
+        "Notes": ""
+    },
+    "test_test_1700_muonic_Pb203_5p_2p": {
+        "Reference": "test_test_1700",
+        "Nuclide": "Pb203",
+        "Transition": {
+            "Upper": "5p",
+            "Lower": "2p"
+        },
+        "Energy [keV]": {
+            "Value": 100.0,
+            "Uncertainty": 1.0
+        },
+        "Notes": ""
     }
 }

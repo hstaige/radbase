@@ -1,0 +1,219 @@
+{
+    "phan_nuclear_1985_barrett_moment_Zr90_3p3/2-1s1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Previous Muonic Measurements": [
+            "phan_nuclear_1985_muonic_Zr90_3p3/2_1s1/2"
+        ],
+        "Nuclide": "Zr90",
+        "Rka [fm]": {
+            "value": 5.469,
+            "uncertainty": 0.0004
+        },
+        "k [-]": "2.205",
+        "alpha [1/fm]": "0.1029",
+        "Cz [fm/keV]": "-0.5437E-2",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_1s1/2",
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_3p3/2"
+        ],
+        "Notes": ""
+    },
+    "phan_nuclear_1985_barrett_moment_Zr90_3p1/2-1s1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Previous Muonic Measurements": [
+            "phan_nuclear_1985_muonic_Zr90_3p1/2_1s1/2"
+        ],
+        "Nuclide": "Zr90",
+        "Rka [fm]": {
+            "value": 5.4693,
+            "uncertainty": 0.0004
+        },
+        "k [-]": "2.204",
+        "alpha [1/fm]": "0.1029",
+        "Cz [fm/keV]": "-0.5450E-2",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_1s1/2",
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_3p1/2"
+        ],
+        "Notes": ""
+    },
+    "phan_nuclear_1985_barrett_moment_Zr90_2p3/2-1s1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Previous Muonic Measurements": [
+            "phan_nuclear_1985_muonic_Zr90_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Zr90",
+        "Rka [fm]": {
+            "value": 5.4684,
+            "uncertainty": 0.0001
+        },
+        "k [-]": "2.197",
+        "alpha [1/fm]": "0.1029",
+        "Cz [fm/keV]": "-0.5470E-2",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_1s1/2",
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_2p3/2"
+        ],
+        "Notes": ""
+    },
+    "phan_nuclear_1985_barrett_moment_Zr90_2p1/2-1s1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Previous Muonic Measurements": [
+            "phan_nuclear_1985_muonic_Zr90_2p1/2_1s1/2"
+        ],
+        "Nuclide": "Zr90",
+        "Rka [fm]": {
+            "value": 5.4683,
+            "uncertainty": 0.0001
+        },
+        "k [-]": "2.195",
+        "alpha [1/fm]": "0.1029",
+        "Cz [fm/keV]": "-0.5510E-2",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_1s1/2",
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_2p1/2"
+        ],
+        "Notes": ""
+    },
+    "phan_nuclear_1985_barrett_moment_Zr90_3p3/2-2s1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Previous Muonic Measurements": [
+            "phan_nuclear_1985_muonic_Zr90_3p3/2_2s1/2"
+        ],
+        "Nuclide": "Zr90",
+        "Rka [fm]": {
+            "value": 5.4581,
+            "uncertainty": 0.0009
+        },
+        "k [-]": "2.098",
+        "alpha [1/fm]": "0.1029",
+        "Cz [fm/keV]": "-0.3722E-1",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_2s1/2",
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_3p3/2"
+        ],
+        "Notes": ""
+    },
+    "phan_nuclear_1985_barrett_moment_Zr90_3p1/2-2s1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Previous Muonic Measurements": [
+            "phan_nuclear_1985_muonic_Zr90_3p1/2_2s1/2"
+        ],
+        "Nuclide": "Zr90",
+        "Rka [fm]": {
+            "value": 5.4583,
+            "uncertainty": 0.0009
+        },
+        "k [-]": "2.097",
+        "alpha [1/fm]": "0.1029",
+        "Cz [fm/keV]": "-0.3813E-1",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_2s1/2",
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_3p1/2"
+        ],
+        "Notes": ""
+    },
+    "phan_nuclear_1985_barrett_moment_Zr90_2s1/2-2p1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Previous Muonic Measurements": [
+            "phan_nuclear_1985_muonic_Zr90_2s1/2_2p1/2"
+        ],
+        "Nuclide": "Zr90",
+        "Rka [fm]": {
+            "value": 5.4524,
+            "uncertainty": 0.0006
+        },
+        "k [-]": "2.028",
+        "alpha [1/fm]": "0.1029",
+        "Cz [fm/keV]": "0.4198E-1",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_2p1/2",
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_2s1/2"
+        ],
+        "Notes": ""
+    },
+    "phan_nuclear_1985_barrett_moment_Zr90_2s1/2-2p3/2": {
+        "Reference": "phan_nuclear_1985",
+        "Previous Muonic Measurements": [
+            "phan_nuclear_1985_muonic_Zr90_2s1/2_2p3/2"
+        ],
+        "Nuclide": "Zr90",
+        "Rka [fm]": {
+            "value": 5.4544,
+            "uncertainty": 0.0004
+        },
+        "k [-]": "2.048",
+        "alpha [1/fm]": "0.1029",
+        "Cz [fm/keV]": "0.4009E-1",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_2p3/2",
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_2s1/2"
+        ],
+        "Notes": ""
+    },
+    "phan_nuclear_1985_barrett_moment_Zr90_3d3/2-2p1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Previous Muonic Measurements": [
+            "phan_nuclear_1985_muonic_Zr90_3d3/2_2p1/2"
+        ],
+        "Nuclide": "Zr90",
+        "Rka [fm]": {
+            "value": 5.5765,
+            "uncertainty": 0.0032
+        },
+        "k [-]": "3.393",
+        "alpha [1/fm]": "0.1029",
+        "Cz [fm/keV]": "-0.3178",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_2p1/2"
+        ],
+        "Notes": ""
+    },
+    "phan_nuclear_1985_barrett_moment_Zr90_3d5/2-2p3/2": {
+        "Reference": "phan_nuclear_1985",
+        "Previous Muonic Measurements": [
+            "phan_nuclear_1985_muonic_Zr90_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Zr90",
+        "Rka [fm]": {
+            "value": 5.6462,
+            "uncertainty": 0.0049
+        },
+        "k [-]": "4.131",
+        "alpha [1/fm]": "0.1029",
+        "Cz [fm/keV]": "-0.5416E0",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_2p3/2"
+        ],
+        "Notes": ""
+    },
+    "phan_nuclear_1985_barrett_moment_Zr90_3d3/2-2p3/2": {
+        "Reference": "phan_nuclear_1985",
+        "Previous Muonic Measurements": [
+            "phan_nuclear_1985_muonic_Zr90_3d3/2_2p3/2"
+        ],
+        "Nuclide": "Zr90",
+        "Rka [fm]": {
+            "value": 5.6424,
+            "uncertainty": 0.0065
+        },
+        "k [-]": "4.131",
+        "alpha [1/fm]": "0.1029",
+        "Cz [fm/keV]": "-0.5423E0",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_2p3/2"
+        ],
+        "Notes": ""
+    }
+}

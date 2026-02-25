@@ -1,0 +1,7 @@
+Muonic X-ray measurements of the K and L transitions for Hf176-180. Transition energies are provided for the even-A
+isotopes, along with the intensities of a deformed Fermi distribution fit. The charge distribution parameters, along
+with some lowlying matrix elements and isomeric energies, are included in the fit of the spectrum. Additional nuclear
+polarization corrections are addressed by adding a large uncertainty (<600 eV for K transitions, <250 eV for L
+transitions) to transition energies and derived Barrett radii. Given the low uncertainty for the derived charge radii (0.002 fm - 0.005 fm),
+it seems likely the extracted radii do not include these additional uncertainties. This is suggested by footnote b of
+Table V. Other quantities (quadrupole moments, isomeric shifts) are extracted as well.

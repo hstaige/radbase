@@ -1,0 +1,6 @@
+A follow-up to Frosch1968 that measured the cross section ratios of Ti46/Ti48 and Ti48/Ti50 at energies of 198 MeV and
+298.5 MeV (0.5 [1/fm] < q <2.5 [1/fm]). Absolute cross sections are obtained by chaining the Ca40 and Ca48/Ca40
+measurements of Frosch1968 and then fitting a parabolic Fermi distribution using a partial-wave calculation. Presumably,
+ radiative corrections have been applied. Reported values for D_AA' are in units of percent despite not being indicated
+ as such. No uncertainties are given on radii, but the authors suggest using the difference in the analysis between
+ their 198 MeV only fit and the 198 MeV + 298.5 MeV fit as a rough estimate of the error.

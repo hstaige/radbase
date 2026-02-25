@@ -1,0 +1,5 @@
+Muonic atom study of Zr90, with transitions with n<=3 reported (including to the 2s level). These transition energies
+were then fit with a two parameter Fermi distribution in two ways. In the first fit, nuclear polarization was kept
+constant, while in the second the NP corrections to the 1s, 2s, 2p1/2, and 2p3/2 states were allowed to vary. Authors
+noted a conflict between their fit NP corrections for the 2p states and the calculated values. Barrett moments are also
+provided, with what seem to be only experimental uncertainties.

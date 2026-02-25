@@ -17,5 +17,94 @@
             "piller_nuclear_1990_muonic_nuclear_polarization_Sn112_2p1/2"
         ],
         "Notes": ""
+    },
+    "test_test_1700_barrettmoment_Pb203_2p3/2-1s1/2": {
+        "Reference": "test_test_1700",
+        "Previous Muonic Measurements": [
+            "bergem_nuclear_1988_muonic_Pb208_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Pb203",
+        "Rka [fm]": {
+            "Value": 300.0,
+            "Uncertainty": 3.0
+        },
+        "k [-]": "3",
+        "alpha [1/fm]": "3",
+        "Cz [fm/keV]": "3",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn112_2p3/2"
+        ],
+        "Notes": "hm"
+    },
+    "test_test_1700_barrettmoment_Pb203_3d3/2-2p3/2": {
+        "Reference": "test_test_1700",
+        "Previous Muonic Measurements": [
+            "bergem_nuclear_1988_muonic_Pb208_3d3/2_2p3/2"
+        ],
+        "Nuclide": "Pb203",
+        "Rka [fm]": {
+            "Value": 100.0,
+            "Uncertainty": null
+        },
+        "k [-]": "100",
+        "alpha [1/fm]": "1",
+        "Cz [fm/keV]": "1",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "shera_systematics_1976_muonic_nuclear_polarization_Co59_2p3/2_1s1/2"
+        ],
+        "Notes": ""
+    },
+    "test_test_1700_barrettmoment_Pb203_test": {
+        "Reference": "test_test_1700",
+        "Previous Muonic Measurements": [],
+        "Nuclide": "Pb203",
+        "Rka [fm]": {
+            "Value": 100.0,
+            "Uncertainty": null
+        },
+        "k [-]": "100",
+        "alpha [1/fm]": "1",
+        "Cz [fm/keV]": "1",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "shera_systematics_1976_muonic_nuclear_polarization_Co59_2p3/2_1s1/2"
+        ],
+        "Notes": ""
+    },
+    "test_test_1700_barrettmoment_Pb203": {
+        "Reference": "test_test_1700",
+        "Previous Muonic Measurements": [],
+        "Nuclide": "Pb203",
+        "Rka [fm]": {
+            "Value": 100.0,
+            "Uncertainty": null
+        },
+        "k [-]": "100",
+        "alpha [1/fm]": "1",
+        "Cz [fm/keV]": "1",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "shera_systematics_1976_muonic_nuclear_polarization_Co59_2p3/2_1s1/2"
+        ],
+        "Notes": ""
+    },
+    "test_test_1700_barrettmoment_Pb203_a": {
+        "Reference": "test_test_1700",
+        "Previous Muonic Measurements": [],
+        "Nuclide": "Pb203",
+        "Rka [fm]": {
+            "Value": 100.0,
+            "Uncertainty": null
+        },
+        "k [-]": "100",
+        "alpha [1/fm]": "1",
+        "Cz [fm/keV]": "1",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "shera_systematics_1976_muonic_nuclear_polarization_Co59_2p3/2_1s1/2"
+        ],
+        "Notes": ""
     }
 }
