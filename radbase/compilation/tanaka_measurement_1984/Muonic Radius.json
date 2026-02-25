@@ -1,0 +1,77 @@
+{
+    "tanaka_measurement_1984_radius_Hf176_NP_Calculated": {
+        "Reference": "tanaka_measurement_1984",
+        "Relies On": [
+            "tanaka_measurement_1984_chargedistribution_Hf176_ThreeParameterFermi"
+        ],
+        "Nuclide": "Hf176",
+        "R [fm]": {
+            "Value": 5.331,
+            "Uncertainty": 0.002
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": "From 3pF fit; #stat_unc"
+    },
+    "tanaka_measurement_1984_radius_Hf177_NP_Calculated": {
+        "Reference": "tanaka_measurement_1984",
+        "Relies On": [
+            "tanaka_measurement_1984_chargedistribution_Hf177_ThreeParameterFermi"
+        ],
+        "Nuclide": "Hf177",
+        "R [fm]": {
+            "Value": 5.3336,
+            "Uncertainty": 0.0047
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": "From 3pF fit; #stat_unc"
+    },
+    "tanaka_measurement_1984_radius_Hf178_NP_Calculated": {
+        "Reference": "tanaka_measurement_1984",
+        "Relies On": [
+            "tanaka_measurement_1984_chargedistribution_Hf178_ThreeParameterFermi"
+        ],
+        "Nuclide": "Hf178",
+        "R [fm]": {
+            "Value": 5.338,
+            "Uncertainty": 0.002
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": "From 3pF fit; #stat_unc"
+    },
+    "tanaka_measurement_1984_radius_Hf179_NP_Calculated": {
+        "Reference": "tanaka_measurement_1984",
+        "Relies On": [
+            "tanaka_measurement_1984_chargedistribution_Hf179_ThreeParameterFermi"
+        ],
+        "Nuclide": "Hf179",
+        "R [fm]": {
+            "Value": 5.3394,
+            "Uncertainty": 0.0047
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": "From 3pF fit; #stat_unc"
+    },
+    "tanaka_measurement_1984_radius_Hf180_NP_Calculated": {
+        "Reference": "tanaka_measurement_1984",
+        "Relies On": [
+            "tanaka_measurement_1984_chargedistribution_Hf180_ThreeParameterFermi"
+        ],
+        "Nuclide": "Hf180",
+        "R [fm]": {
+            "Value": 5.3468,
+            "Uncertainty": 0.0018
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": "From 3pF fit; #stat_unc"
+    }
+}

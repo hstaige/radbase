@@ -10,6 +10,136 @@
             "value": 106.404,
             "uncertainty": 0.009
         },
-        "Notes": ""
+        "Notes": "#stat_unc, #cal_unc, #syst_unc"
+    },
+    "phan_nuclear_1985_muonic_Zr90_2s1/2_2p1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Nuclide": "Zr90",
+        "Transition": {
+            "Upper": "2s1/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": {
+            "value": 127.525,
+            "uncertainty": 0.012
+        },
+        "Notes": "#stat_unc, #cal_unc, #syst_unc"
+    },
+    "phan_nuclear_1985_muonic_Zr90_3p1/2_2s1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Nuclide": "Zr90",
+        "Transition": {
+            "Upper": "3p1/2",
+            "Lower": "2s1/2"
+        },
+        "Energy [keV]": {
+            "value": 516.419,
+            "uncertainty": 0.017
+        },
+        "Notes": "#stat_unc, #cal_unc, #syst_unc"
+    },
+    "phan_nuclear_1985_muonic_Zr90_3p3/2_2s1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Nuclide": "Zr90",
+        "Transition": {
+            "Upper": "3p3/2",
+            "Lower": "2s1/2"
+        },
+        "Energy [keV]": {
+            "value": 522.47,
+            "uncertainty": 0.024
+        },
+        "Notes": "#stat_unc, #cal_unc, #syst_unc"
+    },
+    "phan_nuclear_1985_muonic_Zr90_3d3/2_2p3/2": {
+        "Reference": "phan_nuclear_1985",
+        "Nuclide": "Zr90",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 628.112,
+            "uncertainty": 0.012
+        },
+        "Notes": "#stat_unc, #cal_unc, #syst_unc"
+    },
+    "phan_nuclear_1985_muonic_Zr90_3d5/2_2p3/2": {
+        "Reference": "phan_nuclear_1985",
+        "Nuclide": "Zr90",
+        "Transition": {
+            "Upper": "3d5/2",
+            "Lower": "2p3/2"
+        },
+        "Energy [keV]": {
+            "value": 630.533,
+            "uncertainty": 0.009
+        },
+        "Notes": "#stat_unc, #cal_unc, #syst_unc"
+    },
+    "phan_nuclear_1985_muonic_Zr90_3d3/2_2p1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Nuclide": "Zr90",
+        "Transition": {
+            "Upper": "3d3/2",
+            "Lower": "2p1/2"
+        },
+        "Energy [keV]": {
+            "value": 649.229,
+            "uncertainty": 0.01
+        },
+        "Notes": "#stat_unc, #cal_unc, #syst_unc"
+    },
+    "phan_nuclear_1985_muonic_Zr90_2p1/2_1s1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Nuclide": "Zr90",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 2515.122,
+            "uncertainty": 0.023
+        },
+        "Notes": "#stat_unc, #cal_unc, #syst_unc"
+    },
+    "phan_nuclear_1985_muonic_Zr90_2p3/2_1s1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Nuclide": "Zr90",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 2536.237,
+            "uncertainty": 0.022
+        },
+        "Notes": "#stat_unc, #cal_unc, #syst_unc"
+    },
+    "phan_nuclear_1985_muonic_Zr90_3p1/2_1s1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Nuclide": "Zr90",
+        "Transition": {
+            "Upper": "3p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3158.998,
+            "uncertainty": 0.07
+        },
+        "Notes": "#stat_unc, #cal_unc, #syst_unc"
+    },
+    "phan_nuclear_1985_muonic_Zr90_3p3/2_1s1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Nuclide": "Zr90",
+        "Transition": {
+            "Upper": "3p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3165.1,
+            "uncertainty": 0.07
+        },
+        "Notes": "#stat_unc, #cal_unc, #syst_unc"
     }
 }

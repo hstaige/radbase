@@ -8,5 +8,55 @@
             "uncertainty": null
         },
         "Notes": ""
+    },
+    "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_2s1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Nuclide": "Zr90",
+        "Level": "2s1/2",
+        "Energy [keV]": {
+            "value": 141.0,
+            "uncertainty": null
+        },
+        "Notes": ""
+    },
+    "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_2p1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Nuclide": "Zr90",
+        "Level": "2p1/2",
+        "Energy [keV]": {
+            "value": 69.0,
+            "uncertainty": null
+        },
+        "Notes": ""
+    },
+    "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_2p3/2": {
+        "Reference": "phan_nuclear_1985",
+        "Nuclide": "Zr90",
+        "Level": "2p3/2",
+        "Energy [keV]": {
+            "value": 62.0,
+            "uncertainty": null
+        },
+        "Notes": ""
+    },
+    "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_3p1/2": {
+        "Reference": "phan_nuclear_1985",
+        "Nuclide": "Zr90",
+        "Level": "3p1/2",
+        "Energy [keV]": {
+            "value": 21.0,
+            "uncertainty": null
+        },
+        "Notes": ""
+    },
+    "phan_nuclear_1985_muonic_nuclear_polarization_Zr90_3p3/2": {
+        "Reference": "phan_nuclear_1985",
+        "Nuclide": "Zr90",
+        "Level": "3p3/2",
+        "Energy [keV]": {
+            "value": 20.0,
+            "uncertainty": null
+        },
+        "Notes": ""
     }
 }

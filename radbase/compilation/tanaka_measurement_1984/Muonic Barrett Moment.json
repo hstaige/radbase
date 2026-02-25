@@ -1,0 +1,349 @@
+{
+    "tanaka_measurement_1984_barrettmoment_Hf176_(0+,2p1/2)1/2--(0+,1s1/2)1/2+_(0+,2p1/2)1/2--(2+,1s1/2)3/2+_(2+,2p1/2)3/2--(0+,1s1/2)1/2+_(2+,2p1/2)3/2--(2+,1s1/2)5/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [
+            "tanaka_measurement_1984_muonic_Hf176_(0+,2p1/2)1/2-_(0+,1s1/2)1/2+",
+            "tanaka_measurement_1984_muonic_Hf176_(0+,2p1/2)1/2-_(2+,1s1/2)3/2+",
+            "tanaka_measurement_1984_muonic_Hf176_(2+,2p1/2)3/2-_(0+,1s1/2)1/2+",
+            "tanaka_measurement_1984_muonic_Hf176_(2+,2p1/2)3/2-_(2+,1s1/2)5/2+"
+        ],
+        "Nuclide": "Hf176",
+        "Rka [fm]": {
+            "Value": 6.799,
+            "Uncertainty": 0.0014
+        },
+        "k [-]": "2.2740",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-1.775E-3",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc"
+    },
+    "tanaka_measurement_1984_barrettmoment_Hf176_(0+,2p3/2)3/2--(0+,1s1/2)1/2+_(0+,2p3/2)3/2--(2+,1s1/2)3/2+_(2+,2p3/2)1/2--(2+,1s1/2)3/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [
+            "tanaka_measurement_1984_muonic_Hf176_(0+,2p3/2)3/2-_(0+,1s1/2)1/2+",
+            "tanaka_measurement_1984_muonic_Hf176_(0+,2p3/2)3/2-_(2+,1s1/2)3/2+",
+            "tanaka_measurement_1984_muonic_Hf176_(2+,2p3/2)1/2-_(2+,1s1/2)3/2+"
+        ],
+        "Nuclide": "Hf176",
+        "Rka [fm]": {
+            "Value": 6.8001,
+            "Uncertainty": 0.0014
+        },
+        "k [-]": "2.2847",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-1.710E-3",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc"
+    },
+    "tanaka_measurement_1984_barrettmoment_Hf176_(0+,3d3/2)3/2+-(0+,2p1/2)1/2-_(0+,3d3/2)3/2+-(2+,2p1/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [
+            "tanaka_measurement_1984_muonic_Hf176_(0+,3d3/2)3/2+_(0+,2p1/2)1/2-",
+            "tanaka_measurement_1984_muonic_Hf176_(0+,3d3/2)3/2+_(2+,2p1/2)3/2-"
+        ],
+        "Nuclide": "Hf176",
+        "Rka [fm]": {
+            "Value": 6.914,
+            "Uncertainty": 0.005
+        },
+        "k [-]": "3.5261",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-1.541E-2",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc"
+    },
+    "tanaka_measurement_1984_barrettmoment_Hf176_(0+,3d5/2)5/2+-(0+,2p3/2)3/2-_(0+,3d5/2)5/2+-(2+,2p3/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [
+            "tanaka_measurement_1984_muonic_Hf176_(0+,3d5/2)5/2+_(0+,2p3/2)3/2-",
+            "tanaka_measurement_1984_muonic_Hf176_(0+,3d5/2)5/2+_(2+,2p3/2)3/2-"
+        ],
+        "Nuclide": "Hf176",
+        "Rka [fm]": {
+            "Value": 6.959,
+            "Uncertainty": 0.007
+        },
+        "k [-]": "4.0456",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-2.292E-2",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc"
+    },
+    "tanaka_measurement_1984_barrettmoment_Hf177_2p1/2-1s1/2": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [],
+        "Nuclide": "Hf177",
+        "Rka [fm]": {
+            "Value": 6.803,
+            "Uncertainty": 0.0014
+        },
+        "k [-]": "2.2745",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-1.777E-3",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc, transition energies for Hf177 are not listed"
+    },
+    "tanaka_measurement_1984_barrettmoment_Hf177_2p3/2-1s1/2": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [],
+        "Nuclide": "Hf177",
+        "Rka [fm]": {
+            "Value": 6.804,
+            "Uncertainty": 0.0014
+        },
+        "k [-]": "2.2852",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-1.711E-3",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc, transition energies for Hf177 are not listed"
+    },
+    "tanaka_measurement_1984_barrettmoment_Hf177_3d3/2-2p1/2": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [],
+        "Nuclide": "Hf177",
+        "Rka [fm]": {
+            "Value": 6.918,
+            "Uncertainty": 0.005
+        },
+        "k [-]": "3.5354",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-1.540E-2",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc, transition energies for Hf177 are not listed"
+    },
+    "tanaka_measurement_1984_barrettmoment_Hf177_3d5/2-2p3/2": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [],
+        "Nuclide": "Hf177",
+        "Rka [fm]": {
+            "Value": 6.962,
+            "Uncertainty": 0.007
+        },
+        "k [-]": "4.0454",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-2.291E-2",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc, transition energies for Hf177 are not listed"
+    },
+    "tanaka_measurement_1984_barrettmoment_Hf178_(0+,2p1/2)1/2--(0+,1s1/2)1/2+_(0+,2p1/2)1/2--(2+,1s1/2)3/2+_(2+,2p1/2)3/2--(0+,1s1/2)1/2+_(2+,2p1/2)3/2--(2+,1s1/2)5/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [
+            "tanaka_measurement_1984_muonic_Hf178_(0+,2p1/2)1/2-_(0+,1s1/2)1/2+",
+            "tanaka_measurement_1984_muonic_Hf178_(0+,2p1/2)1/2-_(2+,1s1/2)3/2+",
+            "tanaka_measurement_1984_muonic_Hf178_(2+,2p1/2)3/2-_(0+,1s1/2)1/2+",
+            "tanaka_measurement_1984_muonic_Hf178_(2+,2p1/2)3/2-_(2+,1s1/2)5/2+"
+        ],
+        "Nuclide": "Hf178",
+        "Rka [fm]": {
+            "Value": 6.8107,
+            "Uncertainty": 0.0014
+        },
+        "k [-]": "2.2753",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-1.779E-3",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc"
+    },
+    "tanaka_measurement_1984_barrettmoment_Hf178_(0+,2p3/2)3/2--(0+,1s1/2)1/2+_(0+,2p3/2)3/2--(2+,1s1/2)3/2+_(2+,2p3/2)1/2--(2+,1s1/2)3/2+_(2+,2p3/2)3/2--(2+,1s1/2)3/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [
+            "tanaka_measurement_1984_muonic_Hf178_(0+,2p3/2)3/2-_(0+,1s1/2)1/2+",
+            "tanaka_measurement_1984_muonic_Hf178_(0+,2p3/2)3/2-_(2+,1s1/2)3/2+",
+            "tanaka_measurement_1984_muonic_Hf178_(2+,2p3/2)1/2-_(2+,1s1/2)3/2+",
+            "tanaka_measurement_1984_muonic_Hf178_(2+,2p3/2)3/2-_(2+,1s1/2)3/2+"
+        ],
+        "Nuclide": "Hf178",
+        "Rka [fm]": {
+            "Value": 6.8117,
+            "Uncertainty": 0.0014
+        },
+        "k [-]": "2.2859",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-1.714E-3",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc"
+    },
+    "tanaka_measurement_1984_barrettmoment_Hf178_(0+,3d3/2)3/2+-(0+,2p1/2)1/2-_(0+,3d3/2)3/2+-(2+,2p1/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [
+            "tanaka_measurement_1984_muonic_Hf178_(0+,3d3/2)3/2+_(0+,2p1/2)1/2-",
+            "tanaka_measurement_1984_muonic_Hf178_(0+,3d3/2)3/2+_(2+,2p1/2)3/2-"
+        ],
+        "Nuclide": "Hf178",
+        "Rka [fm]": {
+            "Value": 6.923,
+            "Uncertainty": 0.005
+        },
+        "k [-]": "3.5359",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-1.540E-2",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc"
+    },
+    "tanaka_measurement_1984_barrettmoment_Hf178_(0+,3d5/2)5/2+-(0+,2p3/2)3/2-_(0+,3d5/2)5/2+-(2+,2p3/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [
+            "tanaka_measurement_1984_muonic_Hf178_(0+,3d5/2)5/2+_(0+,2p3/2)3/2-",
+            "tanaka_measurement_1984_muonic_Hf178_(0+,3d5/2)5/2+_(2+,2p3/2)3/2-"
+        ],
+        "Nuclide": "Hf178",
+        "Rka [fm]": {
+            "Value": 6.966,
+            "Uncertainty": 0.007
+        },
+        "k [-]": "4.0452",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-2.290E-2",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc"
+    },
+    "tanaka_measurement_1984_barrettmoment_Hf179_2p1/2-1s1/2": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [],
+        "Nuclide": "Hf179",
+        "Rka [fm]": {
+            "Value": 6.8162,
+            "Uncertainty": 0.0014
+        },
+        "k [-]": "2.2762",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-1.782E-3",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc, transition energies for Hf179 are not listed"
+    },
+    "tanaka_measurement_1984_barrettmoment_Hf179_2p3/2-1s1/2": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [],
+        "Nuclide": "Hf179",
+        "Rka [fm]": {
+            "Value": 6.8172,
+            "Uncertainty": 0.0014
+        },
+        "k [-]": "2.2868",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-1.716E-3",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc, transition energies for Hf179 are not listed"
+    },
+    "tanaka_measurement_1984_barrettmoment_Hf179_3d3/2-2p1/2": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [],
+        "Nuclide": "Hf179",
+        "Rka [fm]": {
+            "Value": 6.923,
+            "Uncertainty": 0.005
+        },
+        "k [-]": "3.5369",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-1.542E-2",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc, transition energies for Hf179 are not listed"
+    },
+    "tanaka_measurement_1984_barrettmoment_Hf179_3d5/2-2p3/2": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [],
+        "Nuclide": "Hf179",
+        "Rka [fm]": {
+            "Value": 6.964,
+            "Uncertainty": 0.007
+        },
+        "k [-]": "4.0453",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-2.292E-2",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc, transition energies for Hf179 are not listed"
+    },
+    "tanaka_measurement_1984_barrettmoment_Hf180_(0+,2p1/2)1/2--(0+,1s1/2)1/2+_(0+,2p1/2)1/2--(2+,1s1/2)3/2+_(2+,2p1/2)3/2--(0+,1s1/2)1/2+_(2+,2p1/2)3/2--(2+,1s1/2)5/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [
+            "tanaka_measurement_1984_muonic_Hf180_(0+,2p1/2)1/2-_(0+,1s1/2)1/2+",
+            "tanaka_measurement_1984_muonic_Hf180_(0+,2p1/2)1/2-_(2+,1s1/2)3/2+",
+            "tanaka_measurement_1984_muonic_Hf180_(2+,2p1/2)3/2-_(0+,1s1/2)1/2+",
+            "tanaka_measurement_1984_muonic_Hf180_(2+,2p1/2)3/2-_(2+,1s1/2)5/2+"
+        ],
+        "Nuclide": "Hf180",
+        "Rka [fm]": {
+            "Value": 6.8234,
+            "Uncertainty": 0.0014
+        },
+        "k [-]": "2.2762",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-1.783E-3",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc"
+    },
+    "tanaka_measurement_1984_barrettmoment_Hf180_(0+,2p3/2)3/2--(0+,1s1/2)1/2+_(0+,2p3/2)3/2--(2+,1s1/2)3/2+_(2+,2p3/2)1/2--(2+,1s1/2)3/2+_(2+,2p3/2)3/2--(2+,1s1/2)3/2+": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [
+            "tanaka_measurement_1984_muonic_Hf180_(0+,2p3/2)3/2-_(0+,1s1/2)1/2+",
+            "tanaka_measurement_1984_muonic_Hf180_(0+,2p3/2)3/2-_(2+,1s1/2)3/2+",
+            "tanaka_measurement_1984_muonic_Hf180_(2+,2p3/2)1/2-_(2+,1s1/2)3/2+",
+            "tanaka_measurement_1984_muonic_Hf180_(2+,2p3/2)3/2-_(2+,1s1/2)3/2+"
+        ],
+        "Nuclide": "Hf180",
+        "Rka [fm]": {
+            "Value": 6.8244,
+            "Uncertainty": 0.0014
+        },
+        "k [-]": "2.2872",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-1.718E-3",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc"
+    },
+    "tanaka_measurement_1984_barrettmoment_Hf180_(0+,3d3/2)3/2+-(0+,2p1/2)1/2-_(0+,3d3/2)3/2+-(2+,2p1/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [
+            "tanaka_measurement_1984_muonic_Hf180_(0+,3d3/2)3/2+_(0+,2p1/2)1/2-",
+            "tanaka_measurement_1984_muonic_Hf180_(0+,3d3/2)3/2+_(2+,2p1/2)3/2-"
+        ],
+        "Nuclide": "Hf180",
+        "Rka [fm]": {
+            "Value": 6.934,
+            "Uncertainty": 0.005
+        },
+        "k [-]": "3.5338",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-1.540E-2",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc"
+    },
+    "tanaka_measurement_1984_barrettmoment_Hf180_(0+,3d5/2)5/2+-(0+,2p3/2)3/2-_(0+,3d5/2)5/2+-(2+,2p3/2)3/2-": {
+        "Reference": "tanaka_measurement_1984",
+        "Previous Muonic measurement": [
+            "tanaka_measurement_1984_muonic_Hf180_(0+,3d5/2)5/2+_(0+,2p3/2)3/2-",
+            "tanaka_measurement_1984_muonic_Hf180_(0+,3d5/2)5/2+_(2+,2p3/2)3/2-"
+        ],
+        "Nuclide": "Hf180",
+        "Rka [fm]": {
+            "Value": 6.975,
+            "Uncertainty": 0.007
+        },
+        "k [-]": "4.0448",
+        "alpha [1/fm]": "0.1388",
+        "Cz [fm/keV]": "-2.287E-2",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Exp_unc, #NP_unc"
+    }
+}

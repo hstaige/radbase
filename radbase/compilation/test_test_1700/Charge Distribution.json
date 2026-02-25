@@ -1,0 +1,17 @@
+{
+    "test_test_1700_chargedistribution_Pb101_TwoParameterFermi": {
+        "Reference": "test_test_1700",
+        "Relies On": [],
+        "Nuclide": "Pb101",
+        "Charge Distribution": "TwoParameterFermi",
+        "a [fm]": {
+            "Value": 100.0,
+            "Uncertainty": null
+        },
+        "c [fm]": {
+            "Value": 3.0,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    }
+}
