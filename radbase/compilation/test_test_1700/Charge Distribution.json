@@ -13,5 +13,23 @@
             "Uncertainty": null
         },
         "Notes": ""
+    },
+    "test_test_1700_chargedistribution_Pb203_TwoParameterFermi": {
+        "Reference": "test_test_1700",
+        "Relies On": [
+            "bergem_nuclear_1988_barrett_moment_Pb208_2s1/2_2p1/2"
+        ],
+        "Nuclide": "Pb203",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 300.0,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 10.0,
+            "Uncertainty": null
+        },
+        "Redchi": null,
+        "Notes": null
     }
 }

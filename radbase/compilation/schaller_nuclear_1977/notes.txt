@@ -1,0 +1,7 @@
+Muonic atom experiment paper studying natural abundance F, Na, Al, Si, P, S, and K samples. Fine structure COM energies
+from the np-1s transition are reported for all samples plus the np-2s transitions for K, with precisions on the order of
+10 eV. Energies are generally dominated by calibration and systematic uncertainties, and it may be possible to estimate
+the correlations present using the calibration lines listed. Theoretical uncertainties come from 10% of lamb shift and
+20% of nuclear polarization corrections. The data was fit with a 2pF distribution with fixed t=2.3, and charge radii
+and Barrett radii are listed. Interestingly, the data was weighted with the statistical uncertainties only, but the
+uncertainty in the charge distribution comes from the total experimental uncertainty.

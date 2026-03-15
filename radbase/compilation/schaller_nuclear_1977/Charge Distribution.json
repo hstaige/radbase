@@ -1,0 +1,159 @@
+{
+    "schaller_nuclear_1977_chargedistribution_F19_TwoParameterFermi": {
+        "Reference": "schaller_nuclear_1977",
+        "Relies On": [
+            "schaller_nuclear_1977_muonic_F19_2p_1s",
+            "schaller_nuclear_1977_muonic_F19_3p_1s",
+            "schaller_nuclear_1977_muonic_F19_4p_1s",
+            "schaller_nuclear_1977_muonic_F19_5p_1s",
+            "schaller_nuclear_1977_muonic_F19_6p_1s",
+            "schaller_nuclear_1977_muonicnuclearpolarization_F19_2p1/2_1s",
+            "schaller_nuclear_1977_muonicqed_F19_2p1/2_1s"
+        ],
+        "Nuclide": "F19",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 2.773,
+            "Uncertainty": 0.016
+        },
+        "a [fm]": {
+            "Value": 0.5233876,
+            "Uncertainty": null
+        },
+        "Notes": "a = (t/4ln(3))"
+    },
+    "schaller_nuclear_1977_chargedistribution_Na23_TwoParameterFermi": {
+        "Reference": "schaller_nuclear_1977",
+        "Relies On": [
+            "schaller_nuclear_1977_muonic_Na23_2p_1s",
+            "schaller_nuclear_1977_muonic_Na23_3p_1s",
+            "schaller_nuclear_1977_muonic_Na23_4p_1s",
+            "schaller_nuclear_1977_muonic_Na23_5p_1s",
+            "schaller_nuclear_1977_muonicnuclearpolarization_Na23_2p1/2_1s",
+            "schaller_nuclear_1977_muonicqed_Na23_2p1/2_1s"
+        ],
+        "Nuclide": "Na23",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 2.986,
+            "Uncertainty": 0.009
+        },
+        "a [fm]": {
+            "Value": 0.5233876,
+            "Uncertainty": null
+        },
+        "Notes": "a = (t/4ln(3))"
+    },
+    "schaller_nuclear_1977_chargedistribution_Al27_TwoParameterFermi": {
+        "Reference": "schaller_nuclear_1977",
+        "Relies On": [
+            "schaller_nuclear_1977_muonic_Al27_2p_1s",
+            "schaller_nuclear_1977_muonic_Al27_3p_1s",
+            "schaller_nuclear_1977_muonicnuclearpolarization_Al27_2p1/2_1s",
+            "schaller_nuclear_1977_muonicqed_Al27_2p1/2_1s"
+        ],
+        "Nuclide": "Al27",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.058,
+            "Uncertainty": 0.005
+        },
+        "a [fm]": {
+            "Value": 0.5233876,
+            "Uncertainty": null
+        },
+        "Notes": "a = (t/4ln(3))"
+    },
+    "schaller_nuclear_1977_chargedistribution_Sinat_TwoParameterFermi": {
+        "Reference": "schaller_nuclear_1977",
+        "Relies On": [
+            "schaller_nuclear_1977_muonic_Sinat_2p_1s",
+            "schaller_nuclear_1977_muonic_Sinat_3p_1s",
+            "schaller_nuclear_1977_muonic_Sinat_4p_1s",
+            "schaller_nuclear_1977_muonic_Sinat_5p_1s",
+            "schaller_nuclear_1977_muonic_Sinat_6p_1s",
+            "schaller_nuclear_1977_muonicnuclearpolarization_Sinat_2p1/2_1s",
+            "schaller_nuclear_1977_muonicqed_Sinat_2p1/2_1s"
+        ],
+        "Nuclide": "Sinat",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.164,
+            "Uncertainty": 0.005
+        },
+        "a [fm]": {
+            "Value": 0.5233876,
+            "Uncertainty": null
+        },
+        "Notes": "a = (t/4ln(3))"
+    },
+    "schaller_nuclear_1977_chargedistribution_P31_TwoParameterFermi": {
+        "Reference": "schaller_nuclear_1977",
+        "Relies On": [
+            "schaller_nuclear_1977_muonic_P31_2p_1s",
+            "schaller_nuclear_1977_muonic_P31_3p_1s",
+            "schaller_nuclear_1977_muonic_P31_4p_1s",
+            "schaller_nuclear_1977_muonic_P31_5p_1s",
+            "schaller_nuclear_1977_muonic_P31_6p_1s",
+            "schaller_nuclear_1977_muonicnuclearpolarization_P31_2p1/2_1s",
+            "schaller_nuclear_1977_muonicqed_P31_2p1/2_1s"
+        ],
+        "Nuclide": "P31",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.258,
+            "Uncertainty": 0.004
+        },
+        "a [fm]": {
+            "Value": 0.5233876,
+            "Uncertainty": null
+        },
+        "Notes": "a = (t/4ln(3))"
+    },
+    "schaller_nuclear_1977_chargedistribution_Snat_TwoParameterFermi": {
+        "Reference": "schaller_nuclear_1977",
+        "Relies On": [
+            "schaller_nuclear_1977_muonic_Snat_2p_1s",
+            "schaller_nuclear_1977_muonic_Snat_3p_1s",
+            "schaller_nuclear_1977_muonic_Snat_4p_1s",
+            "schaller_nuclear_1977_muonic_Snat_5p_1s",
+            "schaller_nuclear_1977_muonicnuclearpolarization_Snat_2p1/2_1s",
+            "schaller_nuclear_1977_muonicqed_Snat_2p1/2_1s"
+        ],
+        "Nuclide": "Snat",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.382,
+            "Uncertainty": 0.003
+        },
+        "a [fm]": {
+            "Value": 0.5233876,
+            "Uncertainty": null
+        },
+        "Notes": "a = (t/4ln(3))"
+    },
+    "schaller_nuclear_1977_chargedistribution_Knat_TwoParameterFermi": {
+        "Reference": "schaller_nuclear_1977",
+        "Relies On": [
+            "schaller_nuclear_1977_muonic_Knat_2p_1s",
+            "schaller_nuclear_1977_muonic_Knat_3p_1s",
+            "schaller_nuclear_1977_muonic_Knat_3p_2s",
+            "schaller_nuclear_1977_muonic_Knat_4p_1s",
+            "schaller_nuclear_1977_muonic_Knat_4p_2s",
+            "schaller_nuclear_1977_muonic_Knat_5p_2s",
+            "schaller_nuclear_1977_muonicnuclearpolarization_Knat_2p1/2_1s",
+            "schaller_nuclear_1977_muonicqed_Knat_2p1/2_1s"
+        ],
+        "Nuclide": "Knat",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.658,
+            "Uncertainty": 0.003
+        },
+        "a [fm]": {
+            "Value": 0.5233876,
+            "Uncertainty": null
+        },
+        "Notes": "a = (t/4ln(3))"
+    }
+}

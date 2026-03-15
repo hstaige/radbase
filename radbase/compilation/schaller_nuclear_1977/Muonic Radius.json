@@ -1,0 +1,108 @@
+{
+    "schaller_nuclear_1977_radius_F19_NP_Calculated": {
+        "Reference": "schaller_nuclear_1977",
+        "Relies On": [
+            "schaller_nuclear_1977_chargedistribution_F19_TwoParameterFermi"
+        ],
+        "Nuclide": "F19",
+        "R [fm]": {
+            "Value": 2.898,
+            "Uncertainty": 0.01
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_radius_Na23_NP_Calculated": {
+        "Reference": "schaller_nuclear_1977",
+        "Relies On": [
+            "schaller_nuclear_1977_chargedistribution_Na23_TwoParameterFermi"
+        ],
+        "Nuclide": "Na23",
+        "R [fm]": {
+            "Value": 3.8352,
+            "Uncertainty": 0.012
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_radius_Al27_NP_Calculated": {
+        "Reference": "schaller_nuclear_1977",
+        "Relies On": [
+            "schaller_nuclear_1977_chargedistribution_Al27_TwoParameterFermi"
+        ],
+        "Nuclide": "Al27",
+        "R [fm]": {
+            "Value": 3.9269,
+            "Uncertainty": 0.0065
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_radius_Sinat_NP_Calculated": {
+        "Reference": "schaller_nuclear_1977",
+        "Relies On": [
+            "schaller_nuclear_1977_chargedistribution_Sinat_TwoParameterFermi"
+        ],
+        "Nuclide": "Sinat",
+        "R [fm]": {
+            "Value": 3.129,
+            "Uncertainty": 0.003
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_radius_P31_NP_Calculated": {
+        "Reference": "schaller_nuclear_1977",
+        "Relies On": [
+            "schaller_nuclear_1977_chargedistribution_P31_TwoParameterFermi"
+        ],
+        "Nuclide": "P31",
+        "R [fm]": {
+            "Value": 3.187,
+            "Uncertainty": 0.003
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+        ],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_radius_Snat_NP_Calculated": {
+        "Reference": "schaller_nuclear_1977",
+        "Relies On": [
+            "schaller_nuclear_1977_chargedistribution_Snat_TwoParameterFermi"
+        ],
+        "Nuclide": "Snat",
+        "R [fm]": {
+            "Value": 3.263,
+            "Uncertainty": 0.002
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_radius_Knat_NP_Calculated": {
+        "Reference": "schaller_nuclear_1977",
+        "Relies On": [
+            "schaller_nuclear_1977_chargedistribution_Knat_TwoParameterFermi"
+        ],
+        "Nuclide": "Knat",
+        "R [fm]": {
+            "Value": 3.437,
+            "Uncertainty": 0.002
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": ""
+    }
+}

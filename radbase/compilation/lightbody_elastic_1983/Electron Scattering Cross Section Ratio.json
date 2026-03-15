@@ -15,7 +15,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9977,
             "Uncertainty": 0.0053
         }
@@ -36,7 +36,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0019,
             "Uncertainty": 0.0058
         }
@@ -57,7 +57,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9995,
             "Uncertainty": 0.0031
         }
@@ -78,7 +78,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0108,
             "Uncertainty": 0.0057
         }
@@ -99,7 +99,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9896,
             "Uncertainty": 0.0055
         }
@@ -120,7 +120,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0003,
             "Uncertainty": 0.003
         }
@@ -141,7 +141,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0046,
             "Uncertainty": 0.0088
         }
@@ -162,7 +162,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9903,
             "Uncertainty": 0.0059
         }
@@ -183,7 +183,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9949,
             "Uncertainty": 0.0054
         }
@@ -204,7 +204,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0025,
             "Uncertainty": 0.0061
         }
@@ -225,7 +225,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9919,
             "Uncertainty": 0.0058
         }
@@ -246,7 +246,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9944,
             "Uncertainty": 0.0035
         }
@@ -267,7 +267,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0091,
             "Uncertainty": 0.0067
         }
@@ -288,7 +288,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9885,
             "Uncertainty": 0.0056
         }
@@ -309,7 +309,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9975,
             "Uncertainty": 0.004
         }
@@ -330,7 +330,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0028,
             "Uncertainty": 0.0064
         }
@@ -351,7 +351,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9888,
             "Uncertainty": 0.007
         }
@@ -372,7 +372,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9916,
             "Uncertainty": 0.0044
         }
@@ -393,7 +393,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0155,
             "Uncertainty": 0.0075
         }
@@ -414,7 +414,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.98,
             "Uncertainty": 0.0073
         }
@@ -435,7 +435,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9952,
             "Uncertainty": 0.0044
         }
@@ -456,7 +456,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9993,
             "Uncertainty": 0.0068
         }
@@ -477,7 +477,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.988,
             "Uncertainty": 0.0063
         }
@@ -498,7 +498,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9873,
             "Uncertainty": 0.0039
         }
@@ -519,7 +519,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0057,
             "Uncertainty": 0.007
         }
@@ -540,7 +540,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9808,
             "Uncertainty": 0.0073
         }
@@ -561,7 +561,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9864,
             "Uncertainty": 0.0046
         }
@@ -582,7 +582,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0059,
             "Uncertainty": 0.0064
         }
@@ -603,7 +603,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9809,
             "Uncertainty": 0.006
         }
@@ -624,7 +624,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9867,
             "Uncertainty": 0.0036
         }
@@ -645,7 +645,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0052,
             "Uncertainty": 0.0095
         }
@@ -666,7 +666,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9816,
             "Uncertainty": 0.0078
         }
@@ -687,7 +687,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9867,
             "Uncertainty": 0.0046
         }
@@ -708,7 +708,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0071,
             "Uncertainty": 0.0072
         }
@@ -729,7 +729,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9747,
             "Uncertainty": 0.0064
         }
@@ -750,7 +750,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9816,
             "Uncertainty": 0.0041
         }
@@ -771,7 +771,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9946,
             "Uncertainty": 0.0056
         }
@@ -792,7 +792,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0062,
             "Uncertainty": 0.0058
         }
@@ -813,7 +813,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0008,
             "Uncertainty": 0.004
         }
@@ -834,7 +834,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9985,
             "Uncertainty": 0.0064
         }
@@ -855,7 +855,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9891,
             "Uncertainty": 0.0067
         }
@@ -876,7 +876,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9876,
             "Uncertainty": 0.0038
         }
@@ -897,7 +897,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0006,
             "Uncertainty": 0.0076
         }
@@ -918,7 +918,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9864,
             "Uncertainty": 0.0067
         }
@@ -939,7 +939,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9869,
             "Uncertainty": 0.0042
         }
@@ -960,7 +960,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.011,
             "Uncertainty": 0.0072
         }
@@ -981,7 +981,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9794,
             "Uncertainty": 0.0068
         }
@@ -1002,7 +1002,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9902,
             "Uncertainty": 0.0035
         }
@@ -1023,7 +1023,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0172,
             "Uncertainty": 0.0055
         }
@@ -1044,7 +1044,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9587,
             "Uncertainty": 0.0057
         }
@@ -1065,7 +1065,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9752,
             "Uncertainty": 0.0037
         }
@@ -1086,7 +1086,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.021,
             "Uncertainty": 0.0059
         }
@@ -1107,7 +1107,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.961,
             "Uncertainty": 0.0054
         }
@@ -1128,7 +1128,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9811,
             "Uncertainty": 0.0037
         }
@@ -1149,7 +1149,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0206,
             "Uncertainty": 0.0075
         }
@@ -1170,7 +1170,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9495,
             "Uncertainty": 0.007
         }
@@ -1191,7 +1191,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.969,
             "Uncertainty": 0.005
         }
@@ -1212,7 +1212,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0188,
             "Uncertainty": 0.0071
         }
@@ -1233,7 +1233,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.943,
             "Uncertainty": 0.0056
         }
@@ -1254,7 +1254,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9608,
             "Uncertainty": 0.0041
         }
@@ -1275,7 +1275,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0174,
             "Uncertainty": 0.0085
         }
@@ -1296,7 +1296,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9348,
             "Uncertainty": 0.0084
         }
@@ -1317,7 +1317,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9511,
             "Uncertainty": 0.0053
         }
@@ -1338,7 +1338,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0272,
             "Uncertainty": 0.0068
         }
@@ -1359,7 +1359,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9254,
             "Uncertainty": 0.0057
         }
@@ -1380,7 +1380,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9505,
             "Uncertainty": 0.0038
         }
@@ -1401,7 +1401,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0118,
             "Uncertainty": 0.0074
         }
@@ -1422,7 +1422,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9151,
             "Uncertainty": 0.006
         }
@@ -1443,7 +1443,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9259,
             "Uncertainty": 0.0041
         }
@@ -1464,7 +1464,7 @@
         },
         "Nuclide_A": "Cr52",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 1.0258,
             "Uncertainty": 0.0088
         }
@@ -1485,7 +1485,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr52",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.8989,
             "Uncertainty": 0.0074
         }
@@ -1506,7 +1506,7 @@
         },
         "Nuclide_A": "Cr54",
         "Nuclide_B": "Cr50",
-        "Cross section Ratio [-]": {
+        "Cross section Ratio (A/B) [-]": {
             "Value": 0.9221,
             "Uncertainty": 0.0035
         }

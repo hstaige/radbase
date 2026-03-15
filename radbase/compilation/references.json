@@ -359,5 +359,24 @@
         "pages": "1007-1011",
         "url": "https://link.aps.org/doi/10.1103/PhysRevC.31.1007",
         "doi": "10.1103/PhysRevC.31.1007"
+    },
+    "schaller_nuclear_1978": {
+        "title": "Nuclear Charge Radii from muonic X-ray transitions in F, Na, Al, Si, P, S, and K",
+        "author": [
+            "L. A. Schaller",
+            "T. Dubler",
+            "K. Kaeser",
+            "G. A. Rinker, Jr.",
+            "B. Robert-Tissot",
+            "L. Schellenberg",
+            "H. Schneuwly"
+        ],
+        "year": "1978",
+        "month": "May",
+        "journal": "Nuclear Physics A",
+        "volume": "300",
+        "pages": "225-234",
+        "url": "https://linkinghub.elsevier.com/retrieve/pii/0375947478961286",
+        "doi": "10.1016/0375-9474(78)96128-6"
     }
 }

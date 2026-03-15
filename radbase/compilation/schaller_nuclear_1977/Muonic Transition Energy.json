@@ -1,0 +1,587 @@
+{
+    "schaller_nuclear_1977_muonic_F19_2p1/2_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "F19",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 168.467,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_muonic_F19_2p3/2_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "F19",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 168.528,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_muonic_F19_2p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "F19",
+        "Transition": {
+            "Upper": "2p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 168.508,
+            "Uncertainty": 0.015
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_F19_3p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "F19",
+        "Transition": {
+            "Upper": "3p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 200.046,
+            "Uncertainty": 0.02
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_F19_4p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "F19",
+        "Transition": {
+            "Upper": "4p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 211.078,
+            "Uncertainty": 0.02
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_F19_5p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "F19",
+        "Transition": {
+            "Upper": "5p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 216.178,
+            "Uncertainty": 0.02
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_F19_6p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "F19",
+        "Transition": {
+            "Upper": "6p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 218.948,
+            "Uncertainty": 0.03
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Na23_2p1/2_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Na23",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 250.165,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_muonic_Na23_2p3/2_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Na23",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 250.302,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_muonic_Na23_2p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Na23",
+        "Transition": {
+            "Upper": "2p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 250.256,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_muonic_Na23_3p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Na23",
+        "Transition": {
+            "Upper": "3p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 297.465,
+            "Uncertainty": 0.035
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Na23_4p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Na23",
+        "Transition": {
+            "Upper": "4p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 313.995,
+            "Uncertainty": 0.05
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Na23_5p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Na23",
+        "Transition": {
+            "Upper": "5p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 321.63,
+            "Uncertainty": 0.05
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Al27_2p1/2_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Al27",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 346.677,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_muonic_Al27_2p3/2_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Al27",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 346.946,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_muonic_Al27_2p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Al27",
+        "Transition": {
+            "Upper": "2p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 346.856,
+            "Uncertainty": 0.03
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Al27_3p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Al27",
+        "Transition": {
+            "Upper": "3p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 412.95,
+            "Uncertainty": 0.08
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Sinat_2p1/2_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Sinat",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 399.879,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_muonic_Sinat_2p3/2_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Sinat",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 400.239,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_muonic_Sinat_2p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Sinat",
+        "Transition": {
+            "Upper": "2p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 400.119,
+            "Uncertainty": 0.02
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Sinat_3p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Sinat",
+        "Transition": {
+            "Upper": "3p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 476.752,
+            "Uncertainty": 0.02
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Sinat_4p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Sinat",
+        "Transition": {
+            "Upper": "4p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 503.521,
+            "Uncertainty": 0.025
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Sinat_5p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Sinat",
+        "Transition": {
+            "Upper": "5p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 515.919,
+            "Uncertainty": 0.03
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Sinat_6p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Sinat",
+        "Transition": {
+            "Upper": "6p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 522.628,
+            "Uncertainty": 0.03
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_P31_2p1/2_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "P31",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 456.511,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_muonic_P31_2p3/2_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "P31",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 456.985,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_muonic_P31_2p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "P31",
+        "Transition": {
+            "Upper": "2p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 456.827,
+            "Uncertainty": 0.02
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_P31_3p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "P31",
+        "Transition": {
+            "Upper": "3p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 544.907,
+            "Uncertainty": 0.02
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_P31_4p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "P31",
+        "Transition": {
+            "Upper": "4p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 575.663,
+            "Uncertainty": 0.025
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_P31_5p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "P31",
+        "Transition": {
+            "Upper": "5p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 589.845,
+            "Uncertainty": 0.03
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_P31_6p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "P31",
+        "Transition": {
+            "Upper": "6p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 597.595,
+            "Uncertainty": 0.03
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Snat_2p1/2_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Snat",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 515.904,
+            "Uncertainty": 0.02
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Snat_2p3/2_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Snat",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 516.516,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_muonic_Snat_2p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Snat",
+        "Transition": {
+            "Upper": "2p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 516.312,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_muonic_Snat_3p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Snat",
+        "Transition": {
+            "Upper": "3p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 616.561,
+            "Uncertainty": 0.03
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Snat_4p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Snat",
+        "Transition": {
+            "Upper": "4p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 651.563,
+            "Uncertainty": 0.035
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Snat_5p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Snat",
+        "Transition": {
+            "Upper": "5p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 667.817,
+            "Uncertainty": 0.04
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Knat_2p1/2_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Knat",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 711.847,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_muonic_Knat_2p3/2_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Knat",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 713.057,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "schaller_nuclear_1977_muonic_Knat_2p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Knat",
+        "Transition": {
+            "Upper": "2p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 712.654,
+            "Uncertainty": 0.02
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Knat_3p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Knat",
+        "Transition": {
+            "Upper": "3p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 854.273,
+            "Uncertainty": 0.025
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Knat_4p_1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Knat",
+        "Transition": {
+            "Upper": "4p",
+            "Lower": "1s"
+        },
+        "Energy [keV]": {
+            "Value": 903.767,
+            "Uncertainty": 0.035
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Knat_3p_2s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Knat",
+        "Transition": {
+            "Upper": "3p",
+            "Lower": "2s"
+        },
+        "Energy [keV]": {
+            "Value": 135.3,
+            "Uncertainty": 0.03
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Knat_4p_2s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Knat",
+        "Transition": {
+            "Upper": "4p",
+            "Lower": "2s"
+        },
+        "Energy [keV]": {
+            "Value": 184.715,
+            "Uncertainty": 0.05
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    },
+    "schaller_nuclear_1977_muonic_Knat_5p_2s": {
+        "Reference": "schaller_nuclear_1977",
+        "Nuclide": "Knat",
+        "Transition": {
+            "Upper": "5p",
+            "Lower": "2s"
+        },
+        "Energy [keV]": {
+            "Value": 207.687,
+            "Uncertainty": 0.05
+        },
+        "Notes": "#stat_unc, #cal_unc, #sys_unc"
+    }
+}

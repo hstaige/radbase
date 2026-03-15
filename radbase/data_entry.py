@@ -150,9 +150,13 @@ class CastProcessor:
     def unpack_widget(widget: tk.Widget):
         return widget.get()
 
-    def process_data(self, data: str) -> dict[str, str]:
-        if data == "" and not self.allows_empty:
-            raise ValueError("Field is empty")
+    def process_data(self, data: str) -> dict:
+        if data == "":
+            if not self.allows_empty:
+                raise ValueError(f"CastProcessor({self.key=}): field is empty")
+            else:
+                return {self.key: None}
+
         return {self.key: self.field_type(data)}
 
 
@@ -218,13 +222,20 @@ class XORProcessor:
 
 class NumberWithUncertaintyProcessor:
 
-    def __init__(self, key: str):
+    def __init__(self, key: str, allows_empty=False):
         self.key = key
+        self.allows_empty = allows_empty
 
     def process(self, widget: tk.Widget):
         return self.process_data(self.unpack_widget(widget))
 
     def process_data(self, data):
+        if data == '' or data is None:
+            if not self.allows_empty:
+                raise ValueError('Data must not be empty when self.allows_empty is False')
+            else:
+                return {self.key: {'Value': None, 'Uncertainty': None}}
+
         try:
             value = float(data)
             return {self.key: {'Value': value, 'Uncertainty': None}}
@@ -575,7 +586,7 @@ class NuclearPolarizationWidgetCreator:
         prev_calced_widget.grid_remove()
         fit_widget.grid_remove()
 
-        def handle_selection(event=None):
+        def handle_selection(_=None):
             mode = selection.get()
 
             if mode == "Calculated":
@@ -634,7 +645,7 @@ class ChargeDistributionWidgetCreator:
             cd_widget.grid_remove()
             cd_widgets[cd.name] = cd_widget
 
-        def handle_selection(event=None):
+        def handle_selection(_=None):
             choice = selection.get()
 
             for name, widget in cd_widgets.items():
@@ -1296,6 +1307,7 @@ charge_distribution_template = InputTemplate(
         FieldSpec("Charge Distribution Parameters",
                   ChargeDistributionProcessor(config['charge_distribution_path']),
                   ChargeDistributionWidgetCreator(config['charge_distribution_path'])),
+        FieldSpec('Reduced Chi Squared', CastProcessor(float, key='Redchi', allows_empty=True)),
         notes_field
     ],
     data_key=lambda values: '_'.join(

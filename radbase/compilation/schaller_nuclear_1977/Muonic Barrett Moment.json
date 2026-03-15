@@ -1,0 +1,180 @@
+{
+    "schaller_nuclear_1977_barrettmoment_F19_2p1/2-1s_2p3/2-1s_2p-1s_3p-1s_4p-1s_5p-1s_6p-1s_2p1/2-1s_2p1/2-1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Previous Muonic Measurements": [
+            "schaller_nuclear_1977_muonic_F19_2p1/2_1s",
+            "schaller_nuclear_1977_muonic_F19_2p3/2_1s",
+            "schaller_nuclear_1977_muonic_F19_2p_1s",
+            "schaller_nuclear_1977_muonic_F19_3p_1s",
+            "schaller_nuclear_1977_muonic_F19_4p_1s",
+            "schaller_nuclear_1977_muonic_F19_5p_1s",
+            "schaller_nuclear_1977_muonic_F19_6p_1s",
+            "schaller_nuclear_1977_muonicqed_F19_2p1/2_1s"
+        ],
+        "Nuclide": "F19",
+        "Rka [fm]": {
+            "Value": 3.7247,
+            "Uncertainty": 0.0125
+        },
+        "k [-]": "2.112",
+        "alpha [1/fm]": "0.049",
+        "Cz [fm/keV]": "-0.7951",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "schaller_nuclear_1977_muonicnuclearpolarization_F19_2p1/2_1s"
+        ],
+        "Notes": "Cz from Engfer74"
+    },
+    "schaller_nuclear_1977_barrettmoment_Na23_2p1/2-1s_2p3/2-1s_2p-1s_3p-1s_4p-1s_5p-1s_2p1/2-1s_2p1/2-1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Previous Muonic Measurements": [
+            "schaller_nuclear_1977_muonic_Na23_2p1/2_1s",
+            "schaller_nuclear_1977_muonic_Na23_2p3/2_1s",
+            "schaller_nuclear_1977_muonic_Na23_2p_1s",
+            "schaller_nuclear_1977_muonic_Na23_3p_1s",
+            "schaller_nuclear_1977_muonic_Na23_4p_1s",
+            "schaller_nuclear_1977_muonic_Na23_5p_1s",
+            "schaller_nuclear_1977_muonicqed_Na23_2p1/2_1s"
+        ],
+        "Nuclide": "Na23",
+        "Rka [fm]": {
+            "Value": 2.924,
+            "Uncertainty": 0.015
+        },
+        "k [-]": "2.112",
+        "alpha [1/fm]": "0.052",
+        "Cz [fm/keV]": "-0.3708",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "schaller_nuclear_1977_muonicnuclearpolarization_Na23_2p1/2_1s"
+        ],
+        "Notes": "Cz from Engfer74"
+    },
+    "schaller_nuclear_1977_barrettmoment_Al27_2p1/2-1s_2p3/2-1s_2p-1s_3p-1s_2p1/2-1s_2p1/2-1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Previous Muonic Measurements": [
+            "schaller_nuclear_1977_muonic_Al27_2p1/2_1s",
+            "schaller_nuclear_1977_muonic_Al27_2p3/2_1s",
+            "schaller_nuclear_1977_muonic_Al27_2p_1s",
+            "schaller_nuclear_1977_muonic_Al27_3p_1s",
+            "schaller_nuclear_1977_muonicqed_Al27_2p1/2_1s"
+        ],
+        "Nuclide": "Al27",
+        "Rka [fm]": {
+            "Value": 3.046,
+            "Uncertainty": 0.008
+        },
+        "k [-]": "2.112",
+        "alpha [1/fm]": "0.055",
+        "Cz [fm/keV]": "-0.1992",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "schaller_nuclear_1977_muonicnuclearpolarization_Al27_2p1/2_1s"
+        ],
+        "Notes": "Cz from Engfer74"
+    },
+    "schaller_nuclear_1977_barrettmoment_Sinat_2p1/2-1s_2p3/2-1s_2p-1s_3p-1s_4p-1s_5p-1s_6p-1s_2p1/2-1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Previous Muonic Measurements": [
+            "schaller_nuclear_1977_muonic_Sinat_2p1/2_1s",
+            "schaller_nuclear_1977_muonic_Sinat_2p3/2_1s",
+            "schaller_nuclear_1977_muonic_Sinat_2p_1s",
+            "schaller_nuclear_1977_muonic_Sinat_3p_1s",
+            "schaller_nuclear_1977_muonic_Sinat_4p_1s",
+            "schaller_nuclear_1977_muonic_Sinat_5p_1s",
+            "schaller_nuclear_1977_muonic_Sinat_6p_1s",
+            "schaller_nuclear_1977_muonicqed_Snat_2p1/2_1s"
+        ],
+        "Nuclide": "Sinat",
+        "Rka [fm]": {
+            "Value": 4.0169,
+            "Uncertainty": 0.0038
+        },
+        "k [-]": "2.112",
+        "alpha [1/fm]": "0.056",
+        "Cz [fm/keV]": "-0.1510",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "schaller_nuclear_1977_muonicnuclearpolarization_Sinat_2p1/2_1s"
+        ],
+        "Notes": "Cz from Engfer74"
+    },
+    "schaller_nuclear_1977_barrettmoment_P31_2p1/2-1s_2p3/2-1s_2p-1s_3p-1s_4p-1s_5p-1s_6p-1s_2p1/2-1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Previous Muonic Measurements": [
+            "schaller_nuclear_1977_muonic_P31_2p1/2_1s",
+            "schaller_nuclear_1977_muonic_P31_2p3/2_1s",
+            "schaller_nuclear_1977_muonic_P31_2p_1s",
+            "schaller_nuclear_1977_muonic_P31_3p_1s",
+            "schaller_nuclear_1977_muonic_P31_4p_1s",
+            "schaller_nuclear_1977_muonic_P31_5p_1s",
+            "schaller_nuclear_1977_muonic_P31_6p_1s",
+            "schaller_nuclear_1977_muonicqed_P31_2p1/2_1s"
+        ],
+        "Nuclide": "P31",
+        "Rka [fm]": {
+            "Value": 4.0904,
+            "Uncertainty": 0.0031
+        },
+        "k [-]": "2.112",
+        "alpha [1/fm]": "0.058",
+        "Cz [fm/keV]": "-0.1168",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "schaller_nuclear_1977_muonicnuclearpolarization_P31_2p1/2_1s"
+        ],
+        "Notes": "Cz from Engfer74"
+    },
+    "schaller_nuclear_1977_barrettmoment_Snat_2p1/2-1s_2p3/2-1s_2p-1s_3p-1s_4p-1s_5p-1s_2p1/2-1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Previous Muonic Measurements": [
+            "schaller_nuclear_1977_muonic_Snat_2p1/2_1s",
+            "schaller_nuclear_1977_muonic_Snat_2p3/2_1s",
+            "schaller_nuclear_1977_muonic_Snat_2p_1s",
+            "schaller_nuclear_1977_muonic_Snat_3p_1s",
+            "schaller_nuclear_1977_muonic_Snat_4p_1s",
+            "schaller_nuclear_1977_muonic_Snat_5p_1s",
+            "schaller_nuclear_1977_muonicqed_Snat_2p1/2_1s"
+        ],
+        "Nuclide": "Snat",
+        "Rka [fm]": {
+            "Value": 4.1888,
+            "Uncertainty": 0.0028
+        },
+        "k [-]": "2.112",
+        "alpha [1/fm]": "0.059",
+        "Cz [fm/keV]": "-0.9251E-1",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "schaller_nuclear_1977_muonicnuclearpolarization_Snat_2p1/2_1s"
+        ],
+        "Notes": "Cz from Engfer74"
+    },
+    "schaller_nuclear_1977_barrettmoment_Knat_2p1/2-1s_2p3/2-1s_2p-1s_3p-1s_3p-2s_4p-1s_4p-2s_5p-2s_2p1/2-1s": {
+        "Reference": "schaller_nuclear_1977",
+        "Previous Muonic Measurements": [
+            "schaller_nuclear_1977_muonic_Knat_2p1/2_1s",
+            "schaller_nuclear_1977_muonic_Knat_2p3/2_1s",
+            "schaller_nuclear_1977_muonic_Knat_2p_1s",
+            "schaller_nuclear_1977_muonic_Knat_3p_1s",
+            "schaller_nuclear_1977_muonic_Knat_3p_2s",
+            "schaller_nuclear_1977_muonic_Knat_4p_1s",
+            "schaller_nuclear_1977_muonic_Knat_4p_2s",
+            "schaller_nuclear_1977_muonic_Knat_5p_2s",
+            "schaller_nuclear_1977_muonicqed_Knat_2p1/2_1s"
+        ],
+        "Nuclide": "Knat",
+        "Rka [fm]": {
+            "Value": 4.0494,
+            "Uncertainty": 0.0019
+        },
+        "k [-]": "2.112",
+        "alpha [1/fm]": "0.064",
+        "Cz [fm/keV]": "-0.5005E-1",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "schaller_nuclear_1977_muonicnuclearpolarization_Knat_2p1/2_1s"
+        ],
+        "Notes": "Cz from Engfer74"
+    }
+}

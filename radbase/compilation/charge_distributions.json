@@ -26,6 +26,10 @@
   },
   "SumofGaussians": {
     "equation": "sum_i A_i exp(-(r-c_i)**2 / sigma_i**2)",
-    "varied_number_parameters": ["A", "c", "sigma"]
+    "varied_number_parameters": ["A", "c [fm]", "sigma [fm]"]
+  },
+  "HarmonicOscillator": {
+    "equation": "(1 + b*(r/d)**2) * exp(-(r/d)^2)",
+    "parameters": ["d [fm]", "b [-]"]
   }
 }
