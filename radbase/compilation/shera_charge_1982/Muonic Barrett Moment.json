@@ -1,0 +1,172 @@
+{
+    "shera_charge_1982_barrettmoment_Ba134_2p3/2-1s1/2": {
+        "Reference": "shera_charge_1982",
+        "Previous Muonic Measurements": [
+            "shera_charge_1982_muonic_Ba134_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Ba134",
+        "Rka [fm]": {
+            "Value": 6.17834,
+            "Uncertainty": 0.00015
+        },
+        "k [-]": "2.212",
+        "alpha [1/fm]": "0.116",
+        "Cz [fm/keV]": "0",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Stat_only, no Cz values listed"
+    },
+    "shera_charge_1982_barrettmoment_Ba134_3d5/2-2p3/2": {
+        "Reference": "shera_charge_1982",
+        "Previous Muonic Measurements": [
+            "shera_charge_1982_muonic_Ba134_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Ba134",
+        "Rka [fm]": {
+            "Value": 6.3218,
+            "Uncertainty": 0.0014
+        },
+        "k [-]": "4.105",
+        "alpha [1/fm]": "0.116",
+        "Cz [fm/keV]": "0",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Stat_only, no Cz values listed"
+    },
+    "shera_charge_1982_barrettmoment_Ba135_2p3/2-1s1/2": {
+        "Reference": "shera_charge_1982",
+        "Previous Muonic Measurements": [
+            "shera_charge_1982_muonic_Ba135_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Ba135",
+        "Rka [fm]": {
+            "Value": 6.17655,
+            "Uncertainty": 0.00019
+        },
+        "k [-]": "2.212",
+        "alpha [1/fm]": "0.116",
+        "Cz [fm/keV]": "0",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Stat_only, no Cz values listed"
+    },
+    "shera_charge_1982_barrettmoment_Ba135_3d5/2-2p3/2": {
+        "Reference": "shera_charge_1982",
+        "Previous Muonic Measurements": [
+            "shera_charge_1982_muonic_Ba135_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Ba135",
+        "Rka [fm]": {
+            "Value": 6.3093,
+            "Uncertainty": 0.0018
+        },
+        "k [-]": "4.105",
+        "alpha [1/fm]": "0.116",
+        "Cz [fm/keV]": "0",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Stat_only, no Cz values listed"
+    },
+    "shera_charge_1982_barrettmoment_Ba136_2p3/2-1s1/2": {
+        "Reference": "shera_charge_1982",
+        "Previous Muonic Measurements": [
+            "shera_charge_1982_muonic_Ba136_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Ba136",
+        "Rka [fm]": {
+            "Value": 6.18269,
+            "Uncertainty": 0.00012
+        },
+        "k [-]": "2.212",
+        "alpha [1/fm]": "0.116",
+        "Cz [fm/keV]": "0",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Stat_only, no Cz values listed"
+    },
+    "shera_charge_1982_barrettmoment_Ba136_3d5/2-2p3/2": {
+        "Reference": "shera_charge_1982",
+        "Previous Muonic Measurements": [
+            "shera_charge_1982_muonic_Ba136_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Ba136",
+        "Rka [fm]": {
+            "Value": 6.3168,
+            "Uncertainty": 0.0011
+        },
+        "k [-]": "4.105",
+        "alpha [1/fm]": "0.116",
+        "Cz [fm/keV]": "0",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Stat_only, no Cz values listed"
+    },
+    "shera_charge_1982_barrettmoment_Ba137_2p3/2-1s1/2": {
+        "Reference": "shera_charge_1982",
+        "Previous Muonic Measurements": [
+            "shera_charge_1982_muonic_Ba137_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Ba137",
+        "Rka [fm]": {
+            "Value": 6.18226,
+            "Uncertainty": 0.00021
+        },
+        "k [-]": "2.212",
+        "alpha [1/fm]": "0.116",
+        "Cz [fm/keV]": "0",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Stat_only, no Cz values listed"
+    },
+    "shera_charge_1982_barrettmoment_Ba137_3d5/2-2p3/2": {
+        "Reference": "shera_charge_1982",
+        "Previous Muonic Measurements": [
+            "shera_charge_1982_muonic_Ba137_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Ba137",
+        "Rka [fm]": {
+            "Value": 6.3096,
+            "Uncertainty": 0.0021
+        },
+        "k [-]": "4.105",
+        "alpha [1/fm]": "0.116",
+        "Cz [fm/keV]": "0",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Stat_only, no Cz values listed"
+    },
+    "shera_charge_1982_barrettmoment_Ba138_2p3/2-1s1/2": {
+        "Reference": "shera_charge_1982",
+        "Previous Muonic Measurements": [
+            "shera_charge_1982_muonic_Ba138_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Ba138",
+        "Rka [fm]": {
+            "Value": 6.19069,
+            "Uncertainty": 0.00013
+        },
+        "k [-]": "2.212",
+        "alpha [1/fm]": "0.116",
+        "Cz [fm/keV]": "0",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Stat_only, no Cz values listed"
+    },
+    "shera_charge_1982_barrettmoment_Ba138_3d5/2-2p3/2": {
+        "Reference": "shera_charge_1982",
+        "Previous Muonic Measurements": [
+            "shera_charge_1982_muonic_Ba138_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Ba138",
+        "Rka [fm]": {
+            "Value": 6.3187,
+            "Uncertainty": 0.0012
+        },
+        "k [-]": "4.105",
+        "alpha [1/fm]": "0.116",
+        "Cz [fm/keV]": "0",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Notes": "#Stat_only, no Cz values listed"
+    }
+}

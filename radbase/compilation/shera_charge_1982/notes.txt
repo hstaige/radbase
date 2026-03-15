@@ -1,0 +1,4 @@
+Muonic atom experiment studying Ba134, 135, 136, 137, 138, with 2p3/2-1s1/2 and 3d5/2-2p3/2 transition energies included.
+Transition energies for the odd isotopes are HF CoM. The parameters of a 2pF charge distribution were determined by
+fitting the K and L spectra directly. QED and NP corrections were calculated but not included in the text. Listed radii
+and Barrett radii uncertainties are statistical only to allow for the computation of isotope shift errors.

@@ -1,0 +1,92 @@
+{
+    "shera_charge_1982_chargedistribution_Ba134_TwoParameterFermi": {
+        "Reference": "shera_charge_1982",
+        "Relies On": [
+            "shera_charge_1982_muonic_Ba134_2p3/2_1s1/2",
+            "shera_charge_1982_muonic_Ba134_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Ba134",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 5.7284,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.51159,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "shera_charge_1982_chargedistribution_Ba135_TwoParameterFermi": {
+        "Reference": "shera_charge_1982",
+        "Relies On": [
+            "shera_charge_1982_muonic_Ba135_2p3/2_1s1/2",
+            "shera_charge_1982_muonic_Ba135_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Ba135",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 5.761,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.49172,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "shera_charge_1982_chargedistribution_Ba136_TwoParameterFermi": {
+        "Reference": "shera_charge_1982",
+        "Relies On": [
+            "shera_charge_1982_muonic_Ba136_2p3/2_1s1/2",
+            "shera_charge_1982_muonic_Ba136_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Ba136",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 5.763,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.49439,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "shera_charge_1982_chargedistribution_Ba137_TwoParameterFermi": {
+        "Reference": "shera_charge_1982",
+        "Relies On": [
+            "shera_charge_1982_muonic_Ba137_2p3/2_1s1/2",
+            "shera_charge_1982_muonic_Ba137_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Ba137",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 5.7842,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.4819,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    },
+    "shera_charge_1982_chargedistribution_Ba138_TwoParameterFermi": {
+        "Reference": "shera_charge_1982",
+        "Relies On": [
+            "shera_charge_1982_muonic_Ba138_2p3/2_1s1/2",
+            "shera_charge_1982_muonic_Ba138_3d5/2_2p3/2"
+        ],
+        "Nuclide": "Ba138",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 5.7906,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.48344,
+            "Uncertainty": null
+        },
+        "Notes": ""
+    }
+}

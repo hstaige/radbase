@@ -1,0 +1,77 @@
+{
+    "shera_charge_1982_radius_Ba134_NP_Calculated": {
+        "Reference": "shera_charge_1982",
+        "Relies On": [
+            "shera_charge_1982_chargedistribution_Ba134_TwoParameterFermi"
+        ],
+        "Nuclide": "Ba134",
+        "R [fm]": {
+            "Value": 4.8269,
+            "Uncertainty": 0.0004
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": null,
+        "Notes": "#Stat_only"
+    },
+    "shera_charge_1982_radius_Ba135_NP_Calculated": {
+        "Reference": "shera_charge_1982",
+        "Relies On": [
+            "shera_charge_1982_chargedistribution_Ba135_TwoParameterFermi"
+        ],
+        "Nuclide": "Ba135",
+        "R [fm]": {
+            "Value": 4.8223,
+            "Uncertainty": 0.00057
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": null,
+        "Notes": "#Stat_only"
+    },
+    "shera_charge_1982_radius_Ba136_NP_Calculated": {
+        "Reference": "shera_charge_1982",
+        "Relies On": [
+            "shera_charge_1982_chargedistribution_Ba136_TwoParameterFermi"
+        ],
+        "Nuclide": "Ba136",
+        "R [fm]": {
+            "Value": 4.8275,
+            "Uncertainty": 0.00035
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": null,
+        "Notes": "#Stat_only"
+    },
+    "shera_charge_1982_radius_Ba137_NP_Calculated": {
+        "Reference": "shera_charge_1982",
+        "Relies On": [
+            "shera_charge_1982_chargedistribution_Ba137_TwoParameterFermi"
+        ],
+        "Nuclide": "Ba137",
+        "R [fm]": {
+            "Value": 4.8252,
+            "Uncertainty": 0.00064
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": null,
+        "Notes": "#Stat_only"
+    },
+    "shera_charge_1982_radius_Ba138_NP_Calculated": {
+        "Reference": "shera_charge_1982",
+        "Relies On": [
+            "shera_charge_1982_chargedistribution_Ba138_TwoParameterFermi"
+        ],
+        "Nuclide": "Ba138",
+        "R [fm]": {
+            "Value": 4.83199,
+            "Uncertainty": 0.00035
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [],
+        "Reduced Chi-Squared": null,
+        "Notes": "#Stat_only"
+    }
+}
