@@ -307,7 +307,7 @@ class ChargeDistributionProcessor:
     def cd_processor(self, charge_distribution_name):
         cd, = [cd for cd in self.charge_distributions if cd.name == charge_distribution_name]
         return GroupedProcessor([NumberWithUncertaintyProcessor(key=par) for par in cd.parameters] + [
-            VariableNumberProcessor(NumberWithUncertaintyProcessor, suffixes=[f'_{i}' for i in range(30)]) for _ in
+            VariableNumberProcessor(NumberWithUncertaintyProcessor(key=par), suffixes=[f'_{i + 1}' for i in range(30)]) for par in
             cd.varied_number_parameters])
 
     def process(self, widget: tk.Widget) -> dict:
@@ -1330,7 +1330,7 @@ charge_distribution_difference_template = InputTemplate(
         notes_field
     ],
     data_key=lambda values: '_'.join(
-        [values['Reference'], 'chargedistribution', values['Nuclide_A'], values['Nuclide_B'], values['Charge Distribution Difference (A-B)']])
+        [values['Reference'], 'chargedistribution', values['Nuclide_A'], values['Nuclide_B'], values['Charge Distribution']])
 )
 
 radius_template = InputTemplate(
@@ -1400,9 +1400,9 @@ electron_scattering_cross_section_ratio_template = InputTemplate(
 templates = [
     charge_distribution_template,
     charge_distribution_difference_template,
-    muonic_transition_energy_template,
     radius_template,
     radius_difference_template,
+    muonic_transition_energy_template,
     muonic_transition_energy_difference_template,
     muonic_transition_energy_difference_diff_transition_template,
     muonic_nuclear_polarization_calculation_template,

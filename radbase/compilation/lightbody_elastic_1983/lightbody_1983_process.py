@@ -1,3 +1,4 @@
+import json
 import re
 
 import pandas as pd
@@ -6,12 +7,15 @@ from uncertainties import ufloat, ufloat_fromstr
 from uncertainties.umath import sin
 
 from radbase.data_entry import (
-    DataEntryInterface, electron_scattering_cross_section_ratio_template,
+    DataEntryInterface, charge_distribution_difference_template,
+    charge_distribution_template,
+    electron_scattering_cross_section_ratio_template,
     electron_scattering_cross_section_template)
 
 ENTER_CROSS_SECTIONS = False
 ENTER_CROSS_SECTION_RATIOS = False
 ENTER_FB_PARAMS = True
+ENTER_FB_DIFF_PARAMS = True
 
 interface = DataEntryInterface(start_interface=False)
 
@@ -83,4 +87,64 @@ if ENTER_CROSS_SECTIONS:
                                 replacement_strategy='AlwaysReplace')
 
 if ENTER_FB_PARAMS:
-    df = pd.read_csv(r'fourier_bessel.csv')
+    fb_df = pd.read_csv(r'fourier_bessel.csv')
+    cd_procs = charge_distribution_template.proc_dict
+
+    for (vi, ui) in [(3, 4), (7, 8), (11, 12)]:
+        nuclide = fb_df.columns[vi][:4]
+        print(nuclide)
+
+        cd_values = {}
+
+        cd_values |= cd_procs['Reference'].process_data('lightbody_elastic_1983')
+
+        with open('./Electron Scattering Cross Section.json', 'r') as f:
+            data = json.load(f)
+        scattering_keys = {key: True for key in data if nuclide in key}
+        cd_values |= cd_procs['Relies On'].process_data(scattering_keys)
+
+        cd_values |= cd_procs['Nuclide'].process_data(nuclide)
+
+        cd_pars = []
+        for i, row in enumerate(fb_df.iloc[:, [vi, ui]].itertuples()):
+            value, unc = row[1], row[2]
+            cd_pars.append(str(convert_value(str(value)+unc)))
+        r_cutoff = 9  # fm
+
+        cd_values |= cd_procs['Charge Distribution Parameters'].process_data({'cd': 'FourierBessel', 'cd_data': [r_cutoff, cd_pars]})
+
+        interface.save_data(charge_distribution_template, cd_values,
+                            replacement_strategy='AlwaysReplace')
+
+if ENTER_FB_DIFF_PARAMS:
+    fb_df = pd.read_csv(r'fourier_bessel_diffs.csv')
+    cd_procs = charge_distribution_difference_template.proc_dict
+
+    for (vi, ui) in [(3, 4), (7, 8), (11, 12)]:
+        nuclideA = fb_df.columns[vi][:4]
+        nuclideB = fb_df.columns[vi][5:9]
+        print(nuclideA, nuclideB)
+
+        cd_values = {}
+
+        cd_values |= cd_procs['Reference'].process_data('lightbody_elastic_1983')
+
+        with open('./Electron Scattering Cross Section Ratio.json', 'r') as f:
+            data = json.load(f)
+        scattering_keys = {key: True for key in data if nuclideA in key and nuclideB in key}
+        cd_values |= cd_procs['Relies On'].process_data(scattering_keys)
+
+        cd_values |= cd_procs['Nuclide A'].process_data(nuclideA)
+        cd_values |= cd_procs['Nuclide B'].process_data(nuclideB)
+
+        cd_pars = []
+        for i, row in enumerate(fb_df.iloc[:, [vi, ui]].itertuples()):
+            value, unc = row[1], row[2]
+            cd_pars.append(str(convert_value(str(value)+unc)))
+        r_cutoff = 9  # fm
+
+        cd_values |= cd_procs['Difference of Charge ''Distribution Parameters (A-B)'].process_data(
+            {'cd': 'FourierBessel', 'cd_data': [r_cutoff, cd_pars]})
+
+        interface.save_data(charge_distribution_difference_template, cd_values,
+                            replacement_strategy='AlwaysReplace')

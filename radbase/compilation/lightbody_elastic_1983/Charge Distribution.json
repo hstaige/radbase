@@ -1,0 +1,347 @@
+{
+    "lightbody_elastic_1983_chargedistribution_Cr50_FourierBessel": {
+        "Reference": "lightbody_elastic_1983",
+        "Relies On": [
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=1.520e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=1.774e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=2.027e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=2.280e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=2.530e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=2.790e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=3.040e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=3.290e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=3.550e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=3.800e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=4.050e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=4.310e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=2.633e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=3.072e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=3.511e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=3.950e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=4.389e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=4.828e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=5.267e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=5.705e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=6.144e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=6.583e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=7.022e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=7.460e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=3.494e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=3.798e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=4.092e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=4.492e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=4.991e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=5.490e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=5.989e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=6.488e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=6.987e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=7.486e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=7.985e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=8.490e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=8.983e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=9.482e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=3.793e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-1.260e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-1.440e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-2.160e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-2.250e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-2.430e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-2.610e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-1.161e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-1.244e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-1.327e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-1.410e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-1.490e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-1.580e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-1.740e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-1.820e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-1.910e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-1.990e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-2.070e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-2.320e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-2.490e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr50_q=-2.650e-01"
+        ],
+        "Nuclide": "Cr50",
+        "Charge Distribution": "FourierBessel",
+        "R_cutoff [fm]": {
+            "Value": 9.0,
+            "Uncertainty": null
+        },
+        "v_1": {
+            "Value": 0.0016387,
+            "Uncertainty": 2.6e-06
+        },
+        "v_2": {
+            "Value": 0.002593,
+            "Uncertainty": 8e-06
+        },
+        "v_3": {
+            "Value": 0.000274,
+            "Uncertainty": 9e-06
+        },
+        "v_4": {
+            "Value": -0.001255,
+            "Uncertainty": 1.3e-05
+        },
+        "v_5": {
+            "Value": -0.00042,
+            "Uncertainty": 0.0001
+        },
+        "v_6": {
+            "Value": 0.000369,
+            "Uncertainty": 7e-06
+        },
+        "v_7": {
+            "Value": 0.000285,
+            "Uncertainty": 8e-06
+        },
+        "v_8": {
+            "Value": 2.0000000000000003e-06,
+            "Uncertainty": 3.5000000000000004e-05
+        },
+        "v_9": {
+            "Value": -9.900000000000001e-05,
+            "Uncertainty": 3.1e-05
+        },
+        "v_10": {
+            "Value": -6.500000000000001e-05,
+            "Uncertainty": 1.5000000000000002e-05
+        },
+        "v_11": {
+            "Value": -3.5000000000000004e-05,
+            "Uncertainty": 8.000000000000001e-06
+        }
+    },
+    "lightbody_elastic_1983_chargedistribution_Cr52_FourierBessel": {
+        "Reference": "lightbody_elastic_1983",
+        "Relies On": [
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=1.520e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=1.774e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=2.027e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=2.280e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=2.530e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=2.790e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=3.040e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=3.290e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=3.550e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=3.800e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=4.050e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=4.310e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=2.633e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=3.072e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=3.511e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=3.950e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=4.389e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=4.828e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=5.267e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=5.705e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=6.144e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=6.583e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=7.022e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=7.460e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=3.494e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=3.798e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=4.092e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=4.492e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=4.991e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=5.490e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=5.989e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=6.488e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=6.987e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=7.486e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=7.985e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=8.490e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=8.983e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=9.482e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=3.793e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-1.260e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-1.440e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-1.710e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-2.160e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-2.250e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-2.430e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-2.610e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-2.790e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-1.161e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-1.244e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-1.327e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-1.410e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-1.580e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-1.660e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-1.740e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-1.820e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-1.910e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-1.990e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-2.070e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-2.320e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-2.490e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr52_q=-2.650e-01"
+        ],
+        "Nuclide": "Cr52",
+        "Charge Distribution": "FourierBessel",
+        "R_cutoff [fm]": {
+            "Value": 9.0,
+            "Uncertainty": null
+        },
+        "v_1": {
+            "Value": 0.0016411,
+            "Uncertainty": 2.7e-06
+        },
+        "v_2": {
+            "Value": 0.002615,
+            "Uncertainty": 9e-06
+        },
+        "v_3": {
+            "Value": 0.000253,
+            "Uncertainty": 9e-06
+        },
+        "v_4": {
+            "Value": -0.001371,
+            "Uncertainty": 1.3e-05
+        },
+        "v_5": {
+            "Value": -0.000448,
+            "Uncertainty": 8e-06
+        },
+        "v_6": {
+            "Value": 0.000441,
+            "Uncertainty": 7e-06
+        },
+        "v_7": {
+            "Value": 0.000355,
+            "Uncertainty": 7e-06
+        },
+        "v_8": {
+            "Value": -1.0000000000000002e-06,
+            "Uncertainty": 1.7e-05
+        },
+        "v_9": {
+            "Value": -8.7e-05,
+            "Uncertainty": 2.2000000000000003e-05
+        },
+        "v_10": {
+            "Value": -5.1e-05,
+            "Uncertainty": 1.2e-05
+        },
+        "v_11": {
+            "Value": -2.6000000000000002e-05,
+            "Uncertainty": 7e-06
+        }
+    },
+    "lightbody_elastic_1983_chargedistribution_Cr54_FourierBessel": {
+        "Reference": "lightbody_elastic_1983",
+        "Relies On": [
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=1.520e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=1.774e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=2.027e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=2.280e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=2.530e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=2.790e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=3.040e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=3.290e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=3.550e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=3.800e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=4.050e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=4.310e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=2.633e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=3.072e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=3.511e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=3.950e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=4.389e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=4.828e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=5.267e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=5.705e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=6.144e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=6.583e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=7.022e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=7.460e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=3.494e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=3.798e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=4.092e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=4.492e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=4.991e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=5.490e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=5.989e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=6.488e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=6.987e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=7.486e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=7.985e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=8.490e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=8.983e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=9.482e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=3.793e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-1.260e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-1.440e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-1.710e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-2.160e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-2.250e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-2.430e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-2.610e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-2.790e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-1.161e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-1.244e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-1.327e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-1.410e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-1.580e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-1.740e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-1.820e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-1.910e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-1.990e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-2.070e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-2.320e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-2.490e-01",
+            "lightbody_elastic_1983_electroncrosssection_Cr54_q=-2.650e-01"
+        ],
+        "Nuclide": "Cr54",
+        "Charge Distribution": "FourierBessel",
+        "R_cutoff [fm]": {
+            "Value": 9.0,
+            "Uncertainty": null
+        },
+        "v_1": {
+            "Value": 0.0016268,
+            "Uncertainty": 2.5e-06
+        },
+        "v_2": {
+            "Value": 0.002517,
+            "Uncertainty": 8e-06
+        },
+        "v_3": {
+            "Value": 0.000188,
+            "Uncertainty": 9e-06
+        },
+        "v_4": {
+            "Value": -0.00128,
+            "Uncertainty": 0.00012
+        },
+        "v_5": {
+            "Value": -0.000383,
+            "Uncertainty": 9e-06
+        },
+        "v_6": {
+            "Value": 0.00039,
+            "Uncertainty": 6e-06
+        },
+        "v_7": {
+            "Value": 0.000252,
+            "Uncertainty": 6e-06
+        },
+        "v_8": {
+            "Value": -6.1e-05,
+            "Uncertainty": 2.1000000000000002e-05
+        },
+        "v_9": {
+            "Value": -4.1e-05,
+            "Uncertainty": 2.7000000000000002e-05
+        },
+        "v_10": {
+            "Value": -3.4e-05,
+            "Uncertainty": 1.1000000000000001e-05
+        },
+        "v_11": {
+            "Value": -1.4e-05,
+            "Uncertainty": 6e-06
+        }
+    }
+}
