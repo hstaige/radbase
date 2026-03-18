@@ -1,0 +1,67 @@
+{
+    "frosch_electron_1968_radius_Ti48": {
+        "Reference": "frosch_electron_1968",
+        "Relies On": [
+            "frosch_electron_1968_chargedistribution_Ti48_ParabolicFermi"
+        ],
+        "Nuclide": "Ti48",
+        "R [fm]": {
+            "Value": 3.584,
+            "Uncertainty": 0.04
+        },
+        "Reduced Chi-Squared": null,
+        "Notes": null
+    },
+    "frosch_electron_1968_radius_Ca40": {
+        "Reference": "frosch_electron_1968",
+        "Relies On": [
+            "frosch_electron_1968_chargedistribution_Ca40_ParabolicFermi"
+        ],
+        "Nuclide": "Ca40",
+        "R [fm]": {
+            "Value": 3.4869,
+            "Uncertainty": null
+        },
+        "Reduced Chi-Squared": null,
+        "Notes": null
+    },
+    "frosch_electron_1968_radius_Ca42": {
+        "Reference": "frosch_electron_1968",
+        "Relies On": [
+            "frosch_electron_1968_chargedistribution_Ca42_ParabolicFermi"
+        ],
+        "Nuclide": "Ca42",
+        "R [fm]": {
+            "Value": 3.5166,
+            "Uncertainty": null
+        },
+        "Reduced Chi-Squared": null,
+        "Notes": null
+    },
+    "frosch_electron_1968_radius_Ca44": {
+        "Reference": "frosch_electron_1968",
+        "Relies On": [
+            "frosch_electron_1968_chargedistribution_Ca44_ParabolicFermi"
+        ],
+        "Nuclide": "Ca44",
+        "R [fm]": {
+            "Value": 3.5149,
+            "Uncertainty": null
+        },
+        "Reduced Chi-Squared": null,
+        "Notes": null
+    },
+    "frosch_electron_1968_radius_Ca48": {
+        "Reference": "frosch_electron_1968",
+        "Relies On": [
+            "frosch_electron_1968_chargedistribution_Ca48_ParabolicFermi"
+        ],
+        "Nuclide": "Ca48",
+        "R [fm]": {
+            "Value": 3.4762,
+            "Uncertainty": null
+        },
+        "Reduced Chi-Squared": null,
+        "Notes": null
+    }
+}

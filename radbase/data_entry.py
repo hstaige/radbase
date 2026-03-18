@@ -1229,7 +1229,7 @@ muonic_barret_theory_template = InputTemplate(
     name="Muonic Barrett Moment",
     fields=[
         reference_field,
-        FieldSpec("Data used as input", PreviousDataProcessor(key='Previous Muonic Measurements'),
+        FieldSpec("Relies On", PreviousDataProcessor(key='Previous Muonic Measurements'),
                   PreviousDataWidgetCreator(compilation_path=config['compilation_dir'],
                                             filter_regex='muonic.*_')),
         nuclide_field,
@@ -1252,7 +1252,7 @@ muonic_barret_shift_template = InputTemplate(
     name="Muonic Barrett Moment Difference",
     fields=[
         reference_field,
-        FieldSpec("Data used as input", PreviousDataProcessor(),
+        FieldSpec("Relies On", PreviousDataProcessor(),
                   PreviousDataWidgetCreator(compilation_path=config['compilation_dir'],
                                             filter_regex='muonic.*_')),
         FieldSpec("Nuclide A", NuclideProcessor(key="Nuclide_A")),
@@ -1280,7 +1280,7 @@ muonic_radius_template = InputTemplate(
     name="Muonic Radius",
     fields=[
         reference_field,
-        FieldSpec("Data used as input", PreviousDataProcessor(),
+        FieldSpec("Relies On", PreviousDataProcessor(),
                   PreviousDataWidgetCreator(compilation_path=config['compilation_dir'],
                                             filter_regex='muonic.*_')),
         nuclide_field,
@@ -1300,7 +1300,7 @@ charge_distribution_template = InputTemplate(
     name="Charge Distribution",
     fields=[
         reference_field,
-        FieldSpec("Data used as input", PreviousDataProcessor(),
+        FieldSpec("Relies On", PreviousDataProcessor(),
                   PreviousDataWidgetCreator(compilation_path=config['compilation_dir'],
                                             filter_regex='')),
         nuclide_field,
@@ -1313,6 +1313,57 @@ charge_distribution_template = InputTemplate(
     data_key=lambda values: '_'.join(
         [values['Reference'], 'chargedistribution', values['Nuclide'], values['Charge Distribution']])
 )
+
+charge_distribution_difference_template = InputTemplate(
+    name="Charge Distribution Difference",
+    fields=[
+        reference_field,
+        FieldSpec("Relies On", PreviousDataProcessor(),
+                  PreviousDataWidgetCreator(compilation_path=config['compilation_dir'],
+                                            filter_regex='')),
+        FieldSpec("Nuclide A", NuclideProcessor(key="Nuclide_A")),
+        FieldSpec("Nuclide B", NuclideProcessor(key="Nuclide_B")),
+        FieldSpec("Difference of Charge Distribution Parameters (A-B)",
+                  ChargeDistributionProcessor(config['charge_distribution_path']),
+                  ChargeDistributionWidgetCreator(config['charge_distribution_path'])),
+        FieldSpec('Reduced Chi Squared', CastProcessor(float, key='Redchi', allows_empty=True)),
+        notes_field
+    ],
+    data_key=lambda values: '_'.join(
+        [values['Reference'], 'chargedistribution', values['Nuclide_A'], values['Nuclide_B'], values['Charge Distribution Difference (A-B)']])
+)
+
+radius_template = InputTemplate(
+    name="Radius",
+    fields=[
+        reference_field,
+        FieldSpec("Relies On", PreviousDataProcessor(),
+                  PreviousDataWidgetCreator(compilation_path=config['compilation_dir'],
+                                            filter_regex='chargedistribution')),
+        nuclide_field,
+        FieldSpec('R [fm]', NumberWithUncertaintyProcessor(key='R [fm]')),
+        FieldSpec('Reduced Chi-Squared', CastProcessor(float, key='Reduced Chi-Squared', allows_empty=True)),
+        notes_field
+    ],
+    data_key=lambda values: '_'.join([values['Reference'], 'radius', values['Nuclide']])
+)
+
+radius_difference_template = InputTemplate(
+    name="Radius Difference",
+    fields=[
+        reference_field,
+        FieldSpec("Relies On", PreviousDataProcessor(),
+                  PreviousDataWidgetCreator(compilation_path=config['compilation_dir'],
+                                            filter_regex='chargedistribution')),
+        FieldSpec("Nuclide A", NuclideProcessor(key="Nuclide_A")),
+        FieldSpec("Nuclide B", NuclideProcessor(key="Nuclide_B")),
+        FieldSpec('Radius Difference (A-B)', NumberWithUncertaintyProcessor(key='Radius Difference (A-B) [fm]')),
+        FieldSpec('Reduced Chi-Squared', CastProcessor(float, key='Reduced Chi-Squared', allows_empty=True)),
+        notes_field
+    ],
+    data_key=lambda values: '_'.join([values['Reference'], 'radiusdifference', values['Nuclide A'], values['Nuclide B']])
+)
+
 
 electron_scattering_cross_section_template = InputTemplate(
     name="Electron Scattering Cross Section",
@@ -1346,32 +1397,21 @@ electron_scattering_cross_section_ratio_template = InputTemplate(
          f'q={values['q [1/fm]']['Value']:0.3e}'])
 )
 
-radius_template = InputTemplate(
-    name='Radius',
-    fields=[
-        reference_field,
-        nuclide_field,
-        FieldSpec("Data used as input", PreviousDataProcessor(),
-                  PreviousDataWidgetCreator(compilation_path=config['compilation_dir'],
-                                            filter_regex='')),
-        FieldSpec('Radius [fm]', NumberWithUncertaintyProcessor(key='Radius [fm]')),
-        notes_field
-    ],
-    data_key=lambda values: '_'.join([values['Reference'], 'radius', values['Nuclide']])
-)
-
-templates = [muonic_transition_energy_template,
-             muonic_transition_energy_difference_template,
-             muonic_transition_energy_difference_diff_transition_template,
-             muonic_nuclear_polarization_calculation_template,
-             muonic_qed_calculation_template,
-             muonic_barret_theory_template,
-             muonic_barret_shift_template,
-             muonic_radius_template,
-             charge_distribution_template,
-             electron_scattering_cross_section_template,
-             electron_scattering_cross_section_ratio_template,
-             radius_template]
+templates = [
+    charge_distribution_template,
+    charge_distribution_difference_template,
+    muonic_transition_energy_template,
+    radius_template,
+    radius_difference_template,
+    muonic_transition_energy_difference_template,
+    muonic_transition_energy_difference_diff_transition_template,
+    muonic_nuclear_polarization_calculation_template,
+    muonic_qed_calculation_template,
+    muonic_barret_theory_template,
+    muonic_barret_shift_template,
+    muonic_radius_template,
+    electron_scattering_cross_section_template,
+    electron_scattering_cross_section_ratio_template]
 
 
 class DataEntryInterface:
@@ -1746,7 +1786,7 @@ class DataEntryInterface:
             self,
             template: InputTemplate,
             data: dict,
-            replacement_strategy: Literal["Ask", "AlwaysReplace", "NeverReplace"] = "Ask",
+            replacement_strategy: Literal["Ask", "AlwaysReplace", "NeverReplace", "Suffix"] = "Ask",
     ) -> None:
 
         data_key = template.data_key(data)
@@ -1768,6 +1808,9 @@ class DataEntryInterface:
 
                     case "NeverReplace":
                         return
+
+                    case "Suffix":
+                        existing_data[self._next_available_key(data_key, existing_data)] = data
 
                     case "Ask":
                         action = self._ask_collision_action(self.root, data_key, file)

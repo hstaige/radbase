@@ -1,0 +1,6 @@
+Elastic electron scattering experiment on Ca40, Ca42, Ca44, Ca48, Ti48 at incident energies of 250 MeV and 500 MeV with
+angles between 30 degrees and 125 degrees (0.7 fm-1<q<2.3 fm-1). Absolute cross sections are only provided for Ca40 -
+all other nuclides are reported as cross section ratios. Parabolic Fermi distributions are fit to the data, although
+uncertainties in extracted quantities are not reported. Charge distribution differences are also given, but are again
+without uncertainties. The exception is the radius of Ti40, which is reported with a 0.04 fm uncertainty. This work is
+utilized by later papers (see Bergem 1988) as a source of data for V factors and V factor differences.

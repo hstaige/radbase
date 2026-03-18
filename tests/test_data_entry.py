@@ -268,6 +268,10 @@ def test_save_data(tmp_path):
     interface.save_data(dummy_template, test_data, replacement_strategy='NeverReplace')
     assert json.loads(tmp_data_loc.read_text()) == {'testkey': new_test_data}
 
+    interface.save_data(dummy_template, test_data, replacement_strategy='Suffix')
+    assert json.loads(tmp_data_loc.read_text()) == {'testkey': new_test_data,
+                                                    'testkey_a': test_data}
+
 # def test_previous_measurement_processor(tmp_path):
 #
 #     previous_measurements = {'Authors'}

@@ -1,4 +1,5 @@
 import re
+from pathlib import Path
 
 import pandas as pd
 from scipy.constants import c, electron_volt, hbar, pi
@@ -47,9 +48,13 @@ for df in [dfa, dfb, dfc]:
 by_quant_dfs = pd.concat(by_quant_dfs)
 by_quant_dfs.to_csv('./cross_sections.csv', index=False)
 
+# Remove previous data as we will be adding suffixes instead of replacing old data
+Path(f'./{electron_scattering_cross_section_template.name}.json').unlink(missing_ok=True)
+Path(f'./{electron_scattering_cross_section_ratio_template.name}.json').unlink(missing_ok=True)
+
 interface = DataEntryInterface(start_interface=False)
-csr_procs = electron_scattering_cross_section_ratio_template.proc_dict
 cs_procs = electron_scattering_cross_section_template.proc_dict
+csr_procs = electron_scattering_cross_section_ratio_template.proc_dict
 
 for i, row in by_quant_dfs.iterrows():
 
@@ -67,23 +72,24 @@ for i, row in by_quant_dfs.iterrows():
 
     cs_values |= cs_procs['q [1/fm]'].process_data(str(q))
 
-    cs_values |= cs_procs['Energy [MeV]'].process_data(str(nrg))
-    cs_values |= cs_procs['theta [deg]'].process_data(str(theta))
+    cs_values |= cs_procs['Energy [MeV]'].process_data(repr(nrg))
+    cs_values |= cs_procs['theta [deg]'].process_data(repr(theta))
 
     if 'D' in row['Quantity']:
         cs_values |= csr_procs['Nuclide A'].process_data(row['Quantity'][2:6])
         cs_values |= csr_procs['Nuclide B'].process_data(row['Quantity'][7:11])
-        cs_values |= csr_procs['q [1/fm]'].process_data(str(q))
+        cs_values |= csr_procs['q [1/fm]'].process_data(repr(q))
 
         dratio = row['Value']
         dratio, angular_acceptance = angle_acceptance(dratio)
         dratio = convert_value(dratio) / 100  # convert from percent
         ratio = (1 - dratio) / (1 + dratio)
 
-        cs_values |= csr_procs['Cross section ratio (A/B) [-]'].process_data(str(ratio))
+        cs_values |= csr_procs['Cross section ratio (A/B) [-]'].process_data(repr(ratio))
+        cs_values |= cs_procs['Notes'].process_data(f'Angular acceptance: {angular_acceptance:0.2f}')
 
         interface.save_data(electron_scattering_cross_section_ratio_template, cs_values,
-                            replacement_strategy='AlwaysReplace')
+                            replacement_strategy='Suffix')
 
     else:
         cs_values |= cs_procs['Nuclide'].process_data(row['Quantity'])
@@ -91,10 +97,10 @@ for i, row in by_quant_dfs.iterrows():
         cs = row['Value']
         cs, angular_acceptance = angle_acceptance(cs)
         cs = convert_value(cs)
-        cs /= 100  # microbarn to fm^2 conversion
-        cs_values |= cs_procs['Cross section [fm^2/sr]'].process_data(str(cs))
+        cs *= 10000  # microbarn to fm^2 conversion
+        cs_values |= cs_procs['Cross section [fm^2/sr]'].process_data(repr(cs))
 
         cs_values |= cs_procs['Notes'].process_data(f'Angular acceptance: {angular_acceptance:0.2f}')
 
         interface.save_data(electron_scattering_cross_section_template, cs_values,
-                            replacement_strategy='AlwaysReplace')
+                            replacement_strategy='Suffix')
