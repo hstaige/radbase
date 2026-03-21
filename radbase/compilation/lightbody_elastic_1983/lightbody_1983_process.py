@@ -123,7 +123,6 @@ if ENTER_FB_DIFF_PARAMS:
     for (vi, ui) in [(3, 4), (7, 8), (11, 12)]:
         nuclideA = fb_df.columns[vi][:4]
         nuclideB = fb_df.columns[vi][5:9]
-        print(nuclideA, nuclideB)
 
         cd_values = {}
 

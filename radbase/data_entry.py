@@ -378,7 +378,7 @@ class NuclideProcessor:
             return {self.key: data}
         else:
             raise ValueError(
-                'Entered Nuclide does not match pattern of two letters and one to three numbers (Ex. Pb208')
+                f'Entered Nuclide {data} does not match pattern of two letters and one to three numbers (Ex. Pb208)')
 
 
 class PreviousDataProcessor:
@@ -1152,7 +1152,7 @@ muonic_transition_energy_difference_template = InputTemplate(
         FieldSpec("Nuclide A", NuclideProcessor(key="Nuclide_A")),
         FieldSpec("Nuclide B", NuclideProcessor(key="Nuclide_B")),
         transition_or_level_field,
-        FieldSpec("Energy Difference [keV] (A-B)", NumberWithUncertaintyProcessor("Energy Difference [keV] (A-B)")),
+        FieldSpec("Energy Difference (A-B) [keV]", NumberWithUncertaintyProcessor("Energy Difference (A-B) [keV]")),
         notes_field
     ],
     data_key=lambda values: '_'.join(
@@ -1225,11 +1225,11 @@ muonic_qed_calculation_template = InputTemplate(
     ],
     data_key=mu_nuc_pol_key)
 
-muonic_barret_theory_template = InputTemplate(
+muonic_barrett_theory_template = InputTemplate(
     name="Muonic Barrett Moment",
     fields=[
         reference_field,
-        FieldSpec("Relies On", PreviousDataProcessor(key='Previous Muonic Measurements'),
+        FieldSpec("Relies On", PreviousDataProcessor(key='Relies On'),
                   PreviousDataWidgetCreator(compilation_path=config['compilation_dir'],
                                             filter_regex='muonic.*_')),
         nuclide_field,
@@ -1244,11 +1244,10 @@ muonic_barret_theory_template = InputTemplate(
         notes_field
     ],
     data_key=lambda values: '_'.join([values['Reference'], 'barrettmoment', values['Nuclide'],
-                                      *['-'.join(s.split('_')[-2:]) for s in
-                                        values['Previous Muonic Measurements']]])
+                                      *list(set(['-'.join(s.split('_')[-2:]) for s in values['Relies On']]))])
 )
 
-muonic_barret_shift_template = InputTemplate(
+muonic_barrett_shift_template = InputTemplate(
     name="Muonic Barrett Moment Difference",
     fields=[
         reference_field,
@@ -1257,10 +1256,10 @@ muonic_barret_shift_template = InputTemplate(
                                             filter_regex='muonic.*_')),
         FieldSpec("Nuclide A", NuclideProcessor(key="Nuclide_A")),
         FieldSpec("Nuclide B", NuclideProcessor(key="Nuclide_B")),
-        FieldSpec('Rka (A-B) [fm]', NumberWithUncertaintyProcessor('Rka [fm]')),
-        FieldSpec('k [-]', CastProcessor(str, key='k [-]')),
-        FieldSpec('alpha [1/fm]', CastProcessor(str, key='alpha [1/fm]')),
-        FieldSpec('Cz [fm/keV]', CastProcessor(str, key='Cz [fm/keV]')),
+        FieldSpec('Rka (A-B) [fm]', NumberWithUncertaintyProcessor('Rka (A-B) [fm]')),
+        FieldSpec('k [-]', NumberWithUncertaintyProcessor('k [-])', allows_empty=True)),
+        FieldSpec('alpha [1/fm]', NumberWithUncertaintyProcessor('alpha [1/fm]', allows_empty=True)),
+        FieldSpec('Cz [fm/keV]', NumberWithUncertaintyProcessor('Cz [fm/keV]', allows_empty=True)),
         FieldSpec('Nuclear Polarization Method',
                   NuclearPolarizationProcessor(),
                   NuclearPolarizationWidgetCreator(compilation_path=config['compilation_dir']),
@@ -1272,8 +1271,7 @@ muonic_barret_shift_template = InputTemplate(
     ],
     data_key=lambda values: '_'.join(
         [values['Reference'], 'barrettmomentdifference', values['Nuclide_A'], values['Nuclide_B'],
-         *['-'.join(s.split('_')[-2:]) for s in
-           values['Previous Muonic Measurements']]])
+         *list(set(['-'.join(s.split('_')[-2:]) for s in values['Relies On']]))])
 )
 
 muonic_radius_template = InputTemplate(
@@ -1357,11 +1355,11 @@ radius_difference_template = InputTemplate(
                                             filter_regex='chargedistribution')),
         FieldSpec("Nuclide A", NuclideProcessor(key="Nuclide_A")),
         FieldSpec("Nuclide B", NuclideProcessor(key="Nuclide_B")),
-        FieldSpec('Radius Difference (A-B)', NumberWithUncertaintyProcessor(key='Radius Difference (A-B) [fm]')),
+        FieldSpec('Radius Difference (A-B) [fm]', NumberWithUncertaintyProcessor(key='Radius Difference (A-B) [fm]')),
         FieldSpec('Reduced Chi-Squared', CastProcessor(float, key='Reduced Chi-Squared', allows_empty=True)),
         notes_field
     ],
-    data_key=lambda values: '_'.join([values['Reference'], 'radiusdifference', values['Nuclide A'], values['Nuclide B']])
+    data_key=lambda values: '_'.join([values['Reference'], 'radiusdifference', values['Nuclide_A'], values['Nuclide_B']])
 )
 
 
@@ -1407,8 +1405,8 @@ templates = [
     muonic_transition_energy_difference_diff_transition_template,
     muonic_nuclear_polarization_calculation_template,
     muonic_qed_calculation_template,
-    muonic_barret_theory_template,
-    muonic_barret_shift_template,
+    muonic_barrett_theory_template,
+    muonic_barrett_shift_template,
     muonic_radius_template,
     electron_scattering_cross_section_template,
     electron_scattering_cross_section_ratio_template]

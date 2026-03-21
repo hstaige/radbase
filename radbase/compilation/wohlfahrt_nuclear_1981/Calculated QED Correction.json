@@ -1,0 +1,275 @@
+{
+    "wohlfahrt_nuclear_1981_muonicqed_K39_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "K39",
+        "Energy [keV]": {
+            "Value": 5.324,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_K41_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "K41",
+        "Energy [keV]": {
+            "Value": 5.305,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_Ca40_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ca40",
+        "Energy [keV]": {
+            "Value": 5.907,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_Ca42_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ca42",
+        "Energy [keV]": {
+            "Value": 5.891,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_Ca43_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ca43",
+        "Energy [keV]": {
+            "Value": 5.897,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_Ca44_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ca44",
+        "Energy [keV]": {
+            "Value": 5.886,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_Ca46_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ca46",
+        "Energy [keV]": {
+            "Value": 5.897,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_Ca48_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ca48",
+        "Energy [keV]": {
+            "Value": 5.905,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_Sc45_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Sc45",
+        "Energy [keV]": {
+            "Value": 6.489,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_Ti46_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ti46",
+        "Energy [keV]": {
+            "Value": 7.093,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_Ti47_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ti47",
+        "Energy [keV]": {
+            "Value": 7.099,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_Ti48_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ti48",
+        "Energy [keV]": {
+            "Value": 7.103,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_Ti49_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ti49",
+        "Energy [keV]": {
+            "Value": 7.113,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_Ti50_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ti50",
+        "Energy [keV]": {
+            "Value": 7.114,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_V51_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "V51",
+        "Energy [keV]": {
+            "Value": 7.758,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_Cr50_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Cr50",
+        "Energy [keV]": {
+            "Value": 8.391,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_Cr52_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Cr52",
+        "Energy [keV]": {
+            "Value": 8.408,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_Cr53_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Cr53",
+        "Energy [keV]": {
+            "Value": 8.391,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_Cr54_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Cr54",
+        "Energy [keV]": {
+            "Value": 8.366,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_Mn55_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Mn55",
+        "Energy [keV]": {
+            "Value": 9.041,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    },
+    "wohlfahrt_nuclear_1981_muonicqed_Fe56_2p3/2_1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Fe56",
+        "Energy [keV]": {
+            "Value": 9.715,
+            "Uncertainty": 0.02
+        },
+        "Notes": "Page 539, constant uncertainty"
+    }
+}

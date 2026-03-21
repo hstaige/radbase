@@ -1,0 +1,859 @@
+{
+    "wohlfahrt_nuclear_1981_radiusdifference_K41_K39": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "K41",
+        "Nuclide_B": "K39",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_K41_K39_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.0171,
+            "Uncertainty": 0.004026164427839479
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Ca42_Ca40": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ca42",
+        "Nuclide_B": "Ca40",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Ca42_Ca40_2p3/2-1s1/2",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=6.984e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=7.830e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=8.666e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=9.492e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.031e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.071e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.111e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.150e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.190e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.267e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.343e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.417e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.489e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.560e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.629e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.695e+00"
+        ],
+        "Notes": "Model independent radius difference determined from the cross section ratios in ../frosch_electron_1968/Electron Scattering Cross Section Ratio.json.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.03,
+            "Uncertainty": 0.001414213562373095
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Ca44_Ca42": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ca44",
+        "Nuclide_B": "Ca42",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Ca44_Ca42_2p3/2-1s1/2",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=6.984e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=7.619e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=8.145e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=8.666e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=9.081e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=9.492e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=9.901e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.031e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.071e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.111e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.150e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.190e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.267e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.343e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.417e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.489e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.560e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.629e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.712e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.792e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=6.984e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=7.830e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=8.666e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=9.492e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.031e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.071e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.111e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.150e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.190e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.267e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.343e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.417e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.489e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.560e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.629e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.695e+00"
+        ],
+        "Notes": "Model independent radius difference determined from the cross section ratios in ../frosch_electron_1968/Electron Scattering Cross Section Ratio.json.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.0114,
+            "Uncertainty": 0.0018867962264113207
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Ca46_Ca44": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ca46",
+        "Nuclide_B": "Ca44",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Ca46_Ca44_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": -0.0189,
+            "Uncertainty": 0.0065764732189829535
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Ca48_Ca46": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ca46",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Ca48_Ca46_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": -0.0202,
+            "Uncertainty": 0.0065764732189829535
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Ti48_Ti46": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti46",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti48_Ti46_2p3/2-1s1/2",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=5.532e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=6.864e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=7.680e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=8.481e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=8.797e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.111e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.421e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.729e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.003e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.034e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.063e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.093e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.122e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.151e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.180e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.208e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.236e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.263e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.290e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.317e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.343e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.369e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.419e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.480e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.537e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.592e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.883e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.038e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.088e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.137e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.186e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.235e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.283e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.331e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.378e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.425e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.472e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.518e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.563e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.609e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.653e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.697e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.741e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.784e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.827e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.869e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.910e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.951e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.031e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.070e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.146e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.220e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.291e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.359e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.424e+00"
+        ],
+        "Notes": "Model independent radius difference determined from the cross section ratios in ../heisenberg_electron_1972/Electron Scattering Cross Section Ratio.json.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": -0.0152,
+            "Uncertainty": 0.001345362404707371
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Ti50_Ti48": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti50",
+        "Nuclide_B": "Ti48",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti50_Ti48_2p3/2-1s1/2",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=5.532e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=6.864e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=7.680e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=8.481e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=8.797e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.111e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.421e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.729e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.003e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.034e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.063e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.093e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.122e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.151e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.180e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.208e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.236e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.263e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.290e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.317e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.343e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.369e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.419e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.480e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.537e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.592e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.644e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.883e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.038e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.088e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.137e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.186e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.235e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.283e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.331e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.378e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.425e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.472e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.518e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.563e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.609e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.653e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.697e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.741e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.784e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.827e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.869e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.910e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.951e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.031e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.070e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.146e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.220e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.291e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.359e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.424e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.487e+00"
+        ],
+        "Notes": "Model independent radius difference determined from the cross section ratios in ../heisenberg_electron_1972/Electron Scattering Cross Section Ratio.json.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": -0.0228,
+            "Uncertainty": 0.0015620499351813306
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Cr52_Cr50": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Cr52",
+        "Nuclide_B": "Cr50",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Cr52_Cr50_2p3/2-1s1/2",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=1.520e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=1.774e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=2.027e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=2.280e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=2.534e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=2.787e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=3.041e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=3.294e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=3.547e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=3.801e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=4.054e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=4.308e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=2.633e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=3.072e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=3.511e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=3.950e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=4.389e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=4.828e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=5.267e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=5.705e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=6.144e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=6.583e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=7.022e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr52_Cr50_q=7.461e-01"
+        ],
+        "Notes": "Model independent radius difference determined from the cross section ratios in ../lightbody_elastic_1983/Electron Scattering Cross Section Ratio.json.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": -0.0212,
+            "Uncertainty": 0.0012206555615733702
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Cr54_Cr52": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Cr54",
+        "Nuclide_B": "Cr52",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Cr54_Cr52_2p3/2-1s1/2",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=1.520e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=1.774e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=2.027e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=2.280e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=2.534e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=2.787e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=3.041e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=3.294e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=3.547e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=3.801e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=4.054e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=4.308e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=2.633e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=3.072e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=3.511e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=3.950e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=4.389e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=4.828e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=5.267e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=5.705e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=6.144e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=6.583e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=7.022e-01",
+            "lightbody_elastic_1983_electroncrosssectionratio_Cr54_Cr52_q=7.461e-01"
+        ],
+        "Notes": "Model independent radius difference determined from the cross section ratios in ../lightbody_elastic_1983/Electron Scattering Cross Section Ratio.json.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.0466,
+            "Uncertainty": 0.0012206555615733702
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Ti46_Ca44": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ca44",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti46_Ca44_2p3/2-1s1/2",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=5.532e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=6.864e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=7.680e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=8.481e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=8.797e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.111e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.421e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.729e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.003e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.034e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.063e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.093e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.122e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.151e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.180e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.208e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.236e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.263e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.290e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.317e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.343e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.369e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.419e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.480e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.537e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.592e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.883e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.038e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.088e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.137e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.186e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.235e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.283e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.331e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.378e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.425e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.472e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.518e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.563e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.609e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.653e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.697e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.741e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.784e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.827e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.869e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.910e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=1.951e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.031e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.070e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.146e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.220e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.291e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.359e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=2.424e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=6.984e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=6.984e-01_a",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=7.619e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=7.619e-01_a",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=8.145e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=8.145e-01_a",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=8.666e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=9.081e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=9.492e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=9.901e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.031e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.071e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.111e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.150e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.190e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.228e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.267e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.305e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.343e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.380e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.417e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.453e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.489e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.525e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.560e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.629e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.712e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.792e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=6.984e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=6.984e-01_a",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=7.619e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=7.619e-01_a",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=7.619e-01_b",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=8.145e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=8.145e-01_a",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=8.666e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=9.081e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=9.492e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=9.901e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=9.901e-01_a",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.010e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.031e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.051e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.071e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.071e+00_a",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.091e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.111e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.131e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.150e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.150e+00_a",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.170e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.190e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.228e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.228e+00_a",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.267e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.305e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.343e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.417e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.489e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.560e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.629e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.712e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.792e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.868e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.941e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.010e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.076e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.137e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.248e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.397e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.524e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.650e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.733e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.816e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.898e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.980e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.980e+00_a",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.061e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.182e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.301e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.418e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.534e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=6.984e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=7.619e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=8.145e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=8.666e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=9.081e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=9.492e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=9.901e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.031e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.071e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.111e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.150e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.190e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.267e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.343e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.417e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.489e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.560e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.629e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.712e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.792e+00"
+        ],
+        "Notes": "Model independent radius difference determined from the cross section ratios in ../frosch_electron_1968/Electron Scattering Cross Section Ratio.json,../heisenberg_electron_1972/Electron Scattering Cross Section Ratio.json.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.0896,
+            "Uncertainty": 0.0023259406699226016
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Ti48_Ca46": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ca46",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti48_Ca46_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.0931,
+            "Uncertainty": 0.006675327707311454
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Ti50_Ca48": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti50",
+        "Nuclide_B": "Ca48",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti50_Ca48_2p3/2-1s1/2",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=5.532e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=6.864e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=7.680e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=8.481e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=8.797e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.111e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.421e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.729e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.003e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.034e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.063e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.093e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.122e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.151e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.180e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.208e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.236e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.263e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.290e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.317e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.343e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.369e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.419e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.480e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.537e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.592e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.644e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.883e-01",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.038e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.088e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.137e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.186e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.235e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.283e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.331e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.378e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.425e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.472e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.518e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.563e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.609e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.653e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.697e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.741e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.784e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.827e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.869e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.910e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=1.951e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.031e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.070e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.146e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.220e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.291e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.359e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.424e+00",
+            "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=2.487e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=6.984e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=6.984e-01_a",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=7.619e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=7.619e-01_a",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=8.145e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=8.145e-01_a",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=8.666e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=9.081e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=9.492e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=9.901e-01",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.031e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.071e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.111e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.150e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.190e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.228e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.267e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.305e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.343e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.380e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.417e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.453e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.489e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.525e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.560e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.629e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.712e+00",
+            "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.792e+00"
+        ],
+        "Notes": "Model independent radius difference determined from the cross section ratios in ../frosch_electron_1968/Electron Scattering Cross Section Ratio.json,../heisenberg_electron_1972/Electron Scattering Cross Section Ratio.json.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.0937,
+            "Uncertainty": 0.0017204650534085252
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Cr50_Ti48": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Cr50",
+        "Nuclide_B": "Ti48",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Cr50_Ti48_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.0689,
+            "Uncertainty": 0.004026164427839479
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Cr52_Ti50": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Cr52",
+        "Nuclide_B": "Ti50",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Cr52_Ti50_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.0709,
+            "Uncertainty": 0.0037363083384538815
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Fe56_Cr54": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Fe56",
+        "Nuclide_B": "Cr54",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Fe56_Cr54_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.051000000000000004,
+            "Uncertainty": 0.0036400549446402595
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Ca43_Ca42": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ca43",
+        "Nuclide_B": "Ca42",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Ca43_Ca42_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": -0.0136,
+            "Uncertainty": 0.0036400549446402595
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Ca44_Ca43": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ca44",
+        "Nuclide_B": "Ca43",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Ca44_Ca43_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.0234,
+            "Uncertainty": 0.0036400549446402595
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Ti47_Ti46": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti47",
+        "Nuclide_B": "Ti46",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti47_Ti46_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": -0.011,
+            "Uncertainty": 0.0036400549446402595
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Ti48_Ti47": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti47",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti48_Ti47_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": -0.0028,
+            "Uncertainty": 0.0036400549446402595
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Ti49_Ti48": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti49",
+        "Nuclide_B": "Ti48",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti49_Ti48_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": -0.018600000000000002,
+            "Uncertainty": 0.0037363083384538815
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Ti50_Ti49": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti50",
+        "Nuclide_B": "Ti49",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti50_Ti49_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": -0.0027,
+            "Uncertainty": 0.0037363083384538815
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Cr53_Cr52": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Cr53",
+        "Nuclide_B": "Cr52",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Cr53_Cr52_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.016800000000000002,
+            "Uncertainty": 0.0034481879299133335
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Cr54_Cr53": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Cr54",
+        "Nuclide_B": "Cr53",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Cr54_Cr53_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.0282,
+            "Uncertainty": 0.0035440090293338703
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Ca40_K39": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "K39",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Ca40_K39_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.0436,
+            "Uncertainty": 0.0047074409183759285
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Ca42_K41": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ca42",
+        "Nuclide_B": "K41",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Ca42_K41_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.05670000000000001,
+            "Uncertainty": 0.0047074409183759285
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Sc45_Ca44": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Sc45",
+        "Nuclide_B": "Ca44",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Sc45_Ca44_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.028399999999999998,
+            "Uncertainty": 0.00412310562561766
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Ti46_Sc45": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Sc45",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti46_Sc45_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.0596,
+            "Uncertainty": 0.0039293765408777
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_V51_Ti50": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "V51",
+        "Nuclide_B": "Ti50",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_V51_Ti50_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.029,
+            "Uncertainty": 0.0038327535793473604
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Cr52_V51": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Cr52",
+        "Nuclide_B": "V51",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Cr52_V51_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.0419,
+            "Uncertainty": 0.0036400549446402595
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Mn55_Cr54": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Mn55",
+        "Nuclide_B": "Cr54",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Mn55_Cr54_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.0194,
+            "Uncertainty": 0.0036400549446402595
+        }
+    },
+    "wohlfahrt_nuclear_1981_radiusdifference_Fe56_Mn55": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Fe56",
+        "Nuclide_B": "Mn55",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_barrettmomentdifference_Fe56_Mn55_2p3/2-1s1/2"
+        ],
+        "Notes": "Model dependent, muonic 2pF only.",
+        "Radius Difference (A-B) [fm]": {
+            "Value": 0.0316,
+            "Uncertainty": 0.0036400549446402595
+        }
+    }
+}

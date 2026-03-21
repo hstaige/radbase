@@ -1,0 +1,901 @@
+{
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_K41_K39_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "K41",
+        "Nuclide_B": "K39",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_K41_K39_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_K41_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_K41_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_K39_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_K39_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.022,
+            "Uncertainty": 0.0015620499351813306
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Ca42_Ca40_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ca42",
+        "Nuclide_B": "Ca40",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Ca42_Ca40_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca42_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca42_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca40_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca40_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0389,
+            "Uncertainty": 0.0012206555615733702
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Ca44_Ca42_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ca44",
+        "Nuclide_B": "Ca42",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Ca44_Ca42_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca44_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca44_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca42_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca42_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0128,
+            "Uncertainty": 0.0012206555615733702
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Ca46_Ca44_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ca46",
+        "Nuclide_B": "Ca44",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Ca46_Ca44_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca46_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca46_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca44_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca44_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": -0.0245,
+            "Uncertainty": 0.0046097722286464445
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Ca48_Ca46_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ca48",
+        "Nuclide_B": "Ca46",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Ca48_Ca46_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca46_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca46_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": -0.026000000000000002,
+            "Uncertainty": 0.0046097722286464445
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti48_Ti46_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti46",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Ti48_Ti46_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti46_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti46_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": -0.0178,
+            "Uncertainty": 0.0012206555615733702
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti50_Ti48_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti50",
+        "Nuclide_B": "Ti48",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Ti50_Ti48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti50_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti50_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti48_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": -0.0274,
+            "Uncertainty": 0.0012206555615733702
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Cr52_Cr50_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Cr52",
+        "Nuclide_B": "Cr50",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Cr52_Cr50_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Cr52_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Cr52_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Cr50_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Cr50_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": -0.0249,
+            "Uncertainty": 0.0011180339887498947
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Cr54_Cr52_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Cr54",
+        "Nuclide_B": "Cr52",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Cr54_Cr52_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Cr54_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Cr54_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Cr52_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Cr52_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.058,
+            "Uncertainty": 0.0011180339887498947
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti46_Ca44_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Ca44",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Ti46_Ca44_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti46_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti46_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca44_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca44_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.1118,
+            "Uncertainty": 0.0016401219466856726
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti48_Ca46_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ca46",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Ti48_Ca46_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca46_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca46_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.11850000000000001,
+            "Uncertainty": 0.0047074409183759285
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti50_Ca48_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti50",
+        "Nuclide_B": "Ca48",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Ti50_Ca48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti50_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti50_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca48_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.117,
+            "Uncertainty": 0.0016401219466856726
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Cr50_Ti48_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Cr50",
+        "Nuclide_B": "Ti48",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Cr50_Ti48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Cr50_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Cr50_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti48_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0864,
+            "Uncertainty": 0.0014866068747318507
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Cr52_Ti50_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Cr52",
+        "Nuclide_B": "Ti50",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Cr52_Ti50_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Cr52_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Cr52_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti50_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti50_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0889,
+            "Uncertainty": 0.0012806248474865698
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Fe56_Cr54_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Fe56",
+        "Nuclide_B": "Cr54",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Fe56_Cr54_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Fe56_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Fe56_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Cr54_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Cr54_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0643,
+            "Uncertainty": 0.0012206555615733702
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Ca43_Ca42_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ca43",
+        "Nuclide_B": "Ca42",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Ca43_Ca42_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca43_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca43_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca42_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca42_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": -0.0174,
+            "Uncertainty": 0.0012206555615733702
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Ca44_Ca43_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ca44",
+        "Nuclide_B": "Ca43",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Ca44_Ca43_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca44_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca44_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca43_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca43_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0302,
+            "Uncertainty": 0.00116619037896906
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti47_Ti46_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti47",
+        "Nuclide_B": "Ti46",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Ti47_Ti46_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti47_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti47_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti46_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti46_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": -0.0141,
+            "Uncertainty": 0.00116619037896906
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti48_Ti47_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti48",
+        "Nuclide_B": "Ti47",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Ti48_Ti47_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti47_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti47_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": -0.0037,
+            "Uncertainty": 0.00116619037896906
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti49_Ti48_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti49",
+        "Nuclide_B": "Ti48",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Ti49_Ti48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti49_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti49_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti48_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": -0.024,
+            "Uncertainty": 0.0012806248474865698
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti50_Ti49_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti50",
+        "Nuclide_B": "Ti49",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Ti50_Ti49_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti50_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti50_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti49_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti49_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": -0.0034,
+            "Uncertainty": 0.0012806248474865698
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Cr53_Cr52_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Cr53",
+        "Nuclide_B": "Cr52",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Cr53_Cr52_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Cr53_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Cr53_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Cr52_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Cr52_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0216,
+            "Uncertainty": 0.0010770329614269007
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Cr54_Cr53_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Cr54",
+        "Nuclide_B": "Cr53",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Cr54_Cr53_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Cr54_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Cr54_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Cr53_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Cr53_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0364,
+            "Uncertainty": 0.0011180339887498947
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Ca40_K39_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ca40",
+        "Nuclide_B": "K39",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Ca40_K39_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca40_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca40_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_K39_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_K39_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.055299999999999995,
+            "Uncertainty": 0.0022360679774997894
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Ca42_K41_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ca42",
+        "Nuclide_B": "K41",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Ca42_K41_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca42_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca42_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_K41_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_K41_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0723,
+            "Uncertainty": 0.0022360679774997894
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Sc45_Ca44_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Sc45",
+        "Nuclide_B": "Ca44",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Sc45_Ca44_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Sc45_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Sc45_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca44_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca44_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0362,
+            "Uncertainty": 0.0016401219466856726
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Ti46_Sc45_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Ti46",
+        "Nuclide_B": "Sc45",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Ti46_Sc45_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti46_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti46_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Sc45_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Sc45_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0756,
+            "Uncertainty": 0.001414213562373095
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_V51_Ti50_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "V51",
+        "Nuclide_B": "Ti50",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_V51_Ti50_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_V51_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_V51_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti50_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti50_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0364,
+            "Uncertainty": 0.001414213562373095
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Cr52_V51_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Cr52",
+        "Nuclide_B": "V51",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Cr52_V51_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Cr52_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Cr52_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_V51_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_V51_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0525,
+            "Uncertainty": 0.00116619037896906
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Mn55_Cr54_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Mn55",
+        "Nuclide_B": "Cr54",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Mn55_Cr54_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Mn55_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Mn55_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Cr54_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Cr54_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0249,
+            "Uncertainty": 0.00116619037896906
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    },
+    "wohlfahrt_nuclear_1981_barrettmomentdifference_Fe56_Mn55_2p3/2-1s1/2": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Nuclide_A": "Fe56",
+        "Nuclide_B": "Mn55",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonicdifference_Fe56_Mn55_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Fe56_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Fe56_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Mn55_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Mn55_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0394,
+            "Uncertainty": 0.00116619037896906
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "Includes the 0.001 fm uncertainty from NP (page 540, Table VI caption)."
+    }
+}

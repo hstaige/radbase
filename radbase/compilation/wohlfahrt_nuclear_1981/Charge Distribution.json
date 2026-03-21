@@ -1,0 +1,401 @@
+{
+    "wohlfahrt_nuclear_1981_chargedistribution_K39_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "K39",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_K39_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_K39_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_K39_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.5681,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_K41_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "K41",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_K41_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_K41_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_K41_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.5956,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_Ca40_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "Ca40",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_Ca40_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca40_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca40_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.6377,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_Ca42_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "Ca42",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_Ca42_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca42_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca42_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.6858,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_Ca43_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "Ca43",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_Ca43_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca43_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca43_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.6643,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_Ca44_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "Ca44",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_Ca44_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca44_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca44_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.7015,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_Ca46_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "Ca46",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_Ca46_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca46_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca46_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.6713,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_Ca48_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "Ca48",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_Ca48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ca48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ca48_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.6393,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_Sc45_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "Sc45",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_Sc45_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Sc45_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Sc45_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.7465,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_Ti46_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "Ti46",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_Ti46_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti46_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti46_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.8401,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_Ti47_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "Ti47",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_Ti47_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti47_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti47_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.823,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_Ti48_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "Ti48",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_Ti48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti48_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti48_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.8185,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_Ti49_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "Ti49",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_Ti49_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti49_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti49_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.7892,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_Ti50_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "Ti50",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_Ti50_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Ti50_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Ti50_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.7851,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_V51_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "V51",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_V51_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_V51_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_V51_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.8307,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_Cr50_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "Cr50",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_Cr50_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Cr50_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Cr50_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.9262,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_Cr52_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "Cr52",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_Cr52_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Cr52_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Cr52_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.8962,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_Cr53_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "Cr53",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_Cr53_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Cr53_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Cr53_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.9222,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_Cr54_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "Cr54",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_Cr54_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Cr54_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Cr54_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.9661,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_Mn55_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "Mn55",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_Mn55_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Mn55_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Mn55_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.9962,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "wohlfahrt_nuclear_1981_chargedistribution_Fe56_TwoParameterFermi": {
+        "Reference": "wohlfahrt_nuclear_1981",
+        "Notes": "a fixed at 0.55 fm, see page 539",
+        "Nuclide": "Fe56",
+        "Relies On": [
+            "wohlfahrt_nuclear_1981_muonic_Fe56_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicnuclearpolarization_Fe56_2p3/2_1s1/2",
+            "wohlfahrt_nuclear_1981_muonicqed_Fe56_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 4.0449,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    }
+}

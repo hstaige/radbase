@@ -1,0 +1,7 @@
+Muonic atom experiment and theory paper with a combined analysis with electron scattering data. 2p-1s transition
+energies and transition energy differences are reported for K39,41, Ca40,42-44,46,48, Sc45, Ti46-50, V51, Cr50-54, Mn55,
+and Fe56. Barrett radii and moments are reported as well as difference of Barrett radii and rms radii. When possible,
+rms radii differences were determined in a model independent fashion using the electron scattering cross sections from
+Heisenberg72, Lightbody83, and Frosch68. Absolute, model independent radii were only found for Ca40 and Cr52. All other
+values in Table VIII are determined from radius shifts relative to these nuclides. The major source of uncertainty in
+the radii was the variation of R with the cutoff radius in the FB expansion. Related to Sh76, Wo80, and Li83.
