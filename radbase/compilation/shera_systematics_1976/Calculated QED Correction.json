@@ -1,0 +1,210 @@
+{
+    "shera_systematics_1976_muonicqed_Fe54_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Fe54",
+        "Energy [keV]": {
+            "Value": 9.823,
+            "Uncertainty": 0.079
+        },
+        "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
+    },
+    "shera_systematics_1976_muonicqed_Fe56_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Fe56",
+        "Energy [keV]": {
+            "Value": 9.773,
+            "Uncertainty": 0.079
+        },
+        "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
+    },
+    "shera_systematics_1976_muonicqed_Fe57_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Fe57",
+        "Energy [keV]": {
+            "Value": 9.756,
+            "Uncertainty": 0.079
+        },
+        "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
+    },
+    "shera_systematics_1976_muonicqed_Fe58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Fe58",
+        "Energy [keV]": {
+            "Value": 9.733,
+            "Uncertainty": 0.079
+        },
+        "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
+    },
+    "shera_systematics_1976_muonicqed_Co59_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Co59",
+        "Energy [keV]": {
+            "Value": 10.442,
+            "Uncertainty": 0.08499999999999999
+        },
+        "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
+    },
+    "shera_systematics_1976_muonicqed_Ni58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ni58",
+        "Energy [keV]": {
+            "Value": 11.199,
+            "Uncertainty": 0.091
+        },
+        "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
+    },
+    "shera_systematics_1976_muonicqed_Ni60_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ni60",
+        "Energy [keV]": {
+            "Value": 11.148,
+            "Uncertainty": 0.091
+        },
+        "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
+    },
+    "shera_systematics_1976_muonicqed_Ni61_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ni61",
+        "Energy [keV]": {
+            "Value": 11.133,
+            "Uncertainty": 0.091
+        },
+        "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
+    },
+    "shera_systematics_1976_muonicqed_Ni62_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ni62",
+        "Energy [keV]": {
+            "Value": 11.107,
+            "Uncertainty": 0.091
+        },
+        "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
+    },
+    "shera_systematics_1976_muonicqed_Ni64_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Ni64",
+        "Energy [keV]": {
+            "Value": 11.08,
+            "Uncertainty": 0.091
+        },
+        "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
+    },
+    "shera_systematics_1976_muonicqed_Cu63_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Cu63",
+        "Energy [keV]": {
+            "Value": 11.795,
+            "Uncertainty": 0.096
+        },
+        "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
+    },
+    "shera_systematics_1976_muonicqed_Cu65_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Cu65",
+        "Energy [keV]": {
+            "Value": 11.764,
+            "Uncertainty": 0.096
+        },
+        "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
+    },
+    "shera_systematics_1976_muonicqed_Zn64_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Zn64",
+        "Energy [keV]": {
+            "Value": 12.478,
+            "Uncertainty": 0.101
+        },
+        "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
+    },
+    "shera_systematics_1976_muonicqed_Zn66_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Zn66",
+        "Energy [keV]": {
+            "Value": 12.444,
+            "Uncertainty": 0.101
+        },
+        "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
+    },
+    "shera_systematics_1976_muonicqed_Zn68_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Zn68",
+        "Energy [keV]": {
+            "Value": 12.414,
+            "Uncertainty": 0.101
+        },
+        "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
+    },
+    "shera_systematics_1976_muonicqed_Zn70_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Nuclide": "Zn70",
+        "Energy [keV]": {
+            "Value": 12.383,
+            "Uncertainty": 0.101
+        },
+        "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
+    }
+}

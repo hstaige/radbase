@@ -1,0 +1,306 @@
+{
+    "shera_systematics_1976_chargedistribution_Fe54_TwoParameterFermi": {
+        "Reference": "shera_systematics_1976",
+        "Notes": "a fixed at 0.55 fm, see page 743",
+        "Nuclide": "Fe54",
+        "Relies On": [
+            "shera_systematics_1976_muonic_Fe54_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Fe54_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Fe54_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 3.98097,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "shera_systematics_1976_chargedistribution_Fe56_TwoParameterFermi": {
+        "Reference": "shera_systematics_1976",
+        "Notes": "a fixed at 0.55 fm, see page 743",
+        "Nuclide": "Fe56",
+        "Relies On": [
+            "shera_systematics_1976_muonic_Fe56_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Fe56_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Fe56_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 4.04735,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "shera_systematics_1976_chargedistribution_Fe57_TwoParameterFermi": {
+        "Reference": "shera_systematics_1976",
+        "Notes": "a fixed at 0.55 fm, see page 743",
+        "Nuclide": "Fe57",
+        "Relies On": [
+            "shera_systematics_1976_muonic_Fe57_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Fe57_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Fe57_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 4.07296,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "shera_systematics_1976_chargedistribution_Fe58_TwoParameterFermi": {
+        "Reference": "shera_systematics_1976",
+        "Notes": "a fixed at 0.55 fm, see page 743",
+        "Nuclide": "Fe58",
+        "Relies On": [
+            "shera_systematics_1976_muonic_Fe58_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Fe58_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Fe58_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 4.10513,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "shera_systematics_1976_chargedistribution_Co59_TwoParameterFermi": {
+        "Reference": "shera_systematics_1976",
+        "Notes": "a fixed at 0.55 fm, see page 743",
+        "Nuclide": "Co59",
+        "Relies On": [
+            "shera_systematics_1976_muonic_Co59_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Co59_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Co59_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 4.1245,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "shera_systematics_1976_chargedistribution_Ni58_TwoParameterFermi": {
+        "Reference": "shera_systematics_1976",
+        "Notes": "a fixed at 0.55 fm, see page 743",
+        "Nuclide": "Ni58",
+        "Relies On": [
+            "shera_systematics_1976_muonic_Ni58_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni58_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni58_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 4.10687,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "shera_systematics_1976_chargedistribution_Ni60_TwoParameterFermi": {
+        "Reference": "shera_systematics_1976",
+        "Notes": "a fixed at 0.55 fm, see page 743",
+        "Nuclide": "Ni60",
+        "Relies On": [
+            "shera_systematics_1976_muonic_Ni60_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni60_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni60_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 4.16295,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "shera_systematics_1976_chargedistribution_Ni61_TwoParameterFermi": {
+        "Reference": "shera_systematics_1976",
+        "Notes": "a fixed at 0.55 fm, see page 743",
+        "Nuclide": "Ni61",
+        "Relies On": [
+            "shera_systematics_1976_muonic_Ni61_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni61_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni61_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 4.17918,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "shera_systematics_1976_chargedistribution_Ni62_TwoParameterFermi": {
+        "Reference": "shera_systematics_1976",
+        "Notes": "a fixed at 0.55 fm, see page 743",
+        "Nuclide": "Ni62",
+        "Relies On": [
+            "shera_systematics_1976_muonic_Ni62_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni62_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni62_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 4.20767,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "shera_systematics_1976_chargedistribution_Ni64_TwoParameterFermi": {
+        "Reference": "shera_systematics_1976",
+        "Notes": "a fixed at 0.55 fm, see page 743",
+        "Nuclide": "Ni64",
+        "Relies On": [
+            "shera_systematics_1976_muonic_Ni64_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni64_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni64_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 4.23639,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "shera_systematics_1976_chargedistribution_Cu63_TwoParameterFermi": {
+        "Reference": "shera_systematics_1976",
+        "Notes": "a fixed at 0.55 fm, see page 743",
+        "Nuclide": "Cu63",
+        "Relies On": [
+            "shera_systematics_1976_muonic_Cu63_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Cu63_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Cu63_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 4.2691,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "shera_systematics_1976_chargedistribution_Cu65_TwoParameterFermi": {
+        "Reference": "shera_systematics_1976",
+        "Notes": "a fixed at 0.55 fm, see page 743",
+        "Nuclide": "Cu65",
+        "Relies On": [
+            "shera_systematics_1976_muonic_Cu65_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Cu65_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Cu65_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 4.29959,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "shera_systematics_1976_chargedistribution_Zn64_TwoParameterFermi": {
+        "Reference": "shera_systematics_1976",
+        "Notes": "a fixed at 0.55 fm, see page 743",
+        "Nuclide": "Zn64",
+        "Relies On": [
+            "shera_systematics_1976_muonic_Zn64_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Zn64_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Zn64_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 4.33742,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "shera_systematics_1976_chargedistribution_Zn66_TwoParameterFermi": {
+        "Reference": "shera_systematics_1976",
+        "Notes": "a fixed at 0.55 fm, see page 743",
+        "Nuclide": "Zn66",
+        "Relies On": [
+            "shera_systematics_1976_muonic_Zn66_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Zn66_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Zn66_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 4.3691,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "shera_systematics_1976_chargedistribution_Zn68_TwoParameterFermi": {
+        "Reference": "shera_systematics_1976",
+        "Notes": "a fixed at 0.55 fm, see page 743",
+        "Nuclide": "Zn68",
+        "Relies On": [
+            "shera_systematics_1976_muonic_Zn68_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Zn68_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Zn68_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 4.39462,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    },
+    "shera_systematics_1976_chargedistribution_Zn70_TwoParameterFermi": {
+        "Reference": "shera_systematics_1976",
+        "Notes": "a fixed at 0.55 fm, see page 743",
+        "Nuclide": "Zn70",
+        "Relies On": [
+            "shera_systematics_1976_muonic_Zn70_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Zn70_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Zn70_2p3/2_1s1/2"
+        ],
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 4.4219,
+            "Uncertainty": null
+        },
+        "a [fm]": {
+            "Value": 0.55,
+            "Uncertainty": null
+        }
+    }
+}

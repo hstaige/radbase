@@ -1,0 +1,669 @@
+{
+    "shera_systematics_1976_barrettmomentdifference_Fe57_Fe56_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Fe57",
+        "Nuclide_B": "Fe56",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Fe57_Fe56_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Fe57_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Fe57_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Fe56_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Fe56_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0214,
+            "Uncertainty": 0.0007
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Fe58_Fe57_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Fe58",
+        "Nuclide_B": "Fe57",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Fe58_Fe57_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Fe58_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Fe58_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Fe57_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Fe57_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.027,
+            "Uncertainty": 0.0009000000000000001
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Ni61_Ni60_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni61",
+        "Nuclide_B": "Ni60",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Ni61_Ni60_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni61_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni61_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni60_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni60_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0137,
+            "Uncertainty": 0.0005
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Ni62_Ni61_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni62",
+        "Nuclide_B": "Ni61",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Ni62_Ni61_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni62_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni62_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni61_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni61_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.024100000000000003,
+            "Uncertainty": 0.0006
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Co59_Fe58_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Co59",
+        "Nuclide_B": "Fe58",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Fe58_Co59_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Co59_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Co59_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Fe58_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Fe58_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0156,
+            "Uncertainty": 0.0008
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Ni60_Co59_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni60",
+        "Nuclide_B": "Co59",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Co59_Ni60_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni60_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni60_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Co59_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Co59_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0319,
+            "Uncertainty": 0.0005
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Cu63_Ni62_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu63",
+        "Nuclide_B": "Ni62",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Ni62_Cu63_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Cu63_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Cu63_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni62_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni62_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0511,
+            "Uncertainty": 0.0004
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Zn64_Cu63_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn64",
+        "Nuclide_B": "Cu63",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Cu63_Zn64_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Zn64_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Zn64_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Cu63_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Cu63_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0577,
+            "Uncertainty": 0.0004
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Cu65_Ni64_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu65",
+        "Nuclide_B": "Ni64",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Ni64_Cu65_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Cu65_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Cu65_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni64_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni64_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.052700000000000004,
+            "Uncertainty": 0.0005
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Zn66_Cu65_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn66",
+        "Nuclide_B": "Cu65",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Cu65_Zn66_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Zn66_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Zn66_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Cu65_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Cu65_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0589,
+            "Uncertainty": 0.0004
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Fe56_Fe54_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Fe56",
+        "Nuclide_B": "Fe54",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Fe56_Fe54_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Fe56_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Fe56_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Fe54_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Fe54_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0554,
+            "Uncertainty": 0.0006
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Fe58_Fe56_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Fe58",
+        "Nuclide_B": "Fe56",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Fe58_Fe56_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Fe58_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Fe58_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Fe56_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Fe56_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0484,
+            "Uncertainty": 0.0006
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Ni60_Ni58_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni60",
+        "Nuclide_B": "Ni58",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Ni60_Ni58_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni60_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni60_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni58_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni58_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.047200000000000006,
+            "Uncertainty": 0.0004
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Ni62_Ni60_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni62",
+        "Nuclide_B": "Ni60",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Ni62_Ni60_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni62_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni62_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni60_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni60_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0378,
+            "Uncertainty": 0.0004
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Ni64_Ni62_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni64",
+        "Nuclide_B": "Ni62",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Ni64_Ni62_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni64_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni64_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni62_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni62_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.024300000000000002,
+            "Uncertainty": 0.0004
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Cu65_Cu63_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Cu65",
+        "Nuclide_B": "Cu63",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Cu65_Cu63_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Cu65_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Cu65_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Cu63_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Cu63_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0259,
+            "Uncertainty": 0.0004
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Zn66_Zn64_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn66",
+        "Nuclide_B": "Zn64",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Zn66_Zn64_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Zn66_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Zn66_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Zn64_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Zn64_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.027100000000000003,
+            "Uncertainty": 0.0003
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Zn68_Zn66_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn68",
+        "Nuclide_B": "Zn66",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Zn68_Zn66_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Zn68_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Zn68_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Zn66_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Zn66_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0218,
+            "Uncertainty": 0.0003
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Zn70_Zn68_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn70",
+        "Nuclide_B": "Zn68",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Zn70_Zn68_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Zn70_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Zn70_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Zn68_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Zn68_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0233,
+            "Uncertainty": 0.0013000000000000002
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Ni58_Fe56_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni58",
+        "Nuclide_B": "Fe56",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Fe56_Ni58_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni58_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni58_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Fe56_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Fe56_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.04870000000000001,
+            "Uncertainty": 0.0005
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Ni60_Fe58_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Ni60",
+        "Nuclide_B": "Fe58",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Fe58_Ni60_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni60_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni60_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Fe58_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Fe58_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.0475,
+            "Uncertainty": 0.0008
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Zn64_Ni62_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn64",
+        "Nuclide_B": "Ni62",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Ni62_Zn64_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Zn64_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Zn64_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni62_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni62_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.1088,
+            "Uncertainty": 0.0004
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    },
+    "shera_systematics_1976_barrettmomentdifference_Zn66_Ni64_2p3/2-1s1/2": {
+        "Reference": "shera_systematics_1976",
+        "Nuclide_A": "Zn66",
+        "Nuclide_B": "Ni64",
+        "Relies On": [
+            "shera_systematics_1976_muonicdifference_Ni64_Zn66_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Zn66_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Zn66_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicnuclearpolarization_Ni64_2p3/2_1s1/2",
+            "shera_systematics_1976_muonicqed_Ni64_2p3/2_1s1/2"
+        ],
+        "Rka (A-B) [fm]": {
+            "Value": 0.11159999999999999,
+            "Uncertainty": 0.0004
+        },
+        "k [-])": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": null,
+            "Uncertainty": null
+        },
+        "Notes": "#statonly"
+    }
+}

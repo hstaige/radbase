@@ -1,210 +1,210 @@
 {
-    "shera_systematics_1976_muonic_nuclear_polarization_Fe54_2p3/2_1s1/2": {
+    "shera_systematics_1976_muonicnuclearpolarization_Fe54_2p3/2_1s1/2": {
         "Reference": "shera_systematics_1976",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
         "Nuclide": "Fe54",
+        "Energy [keV]": {
+            "Value": 0.546,
+            "Uncertainty": 0.21840000000000004
+        },
+        "Notes": "40% uncertainty assigned, see Page 736."
+    },
+    "shera_systematics_1976_muonicnuclearpolarization_Fe56_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
         "Transition": {
             "Upper": "2p3/2",
             "Lower": "1s1/2"
         },
-        "Energy [keV]": {
-            "value": 0.546,
-            "uncertainty": null
-        },
-        "Notes": ""
-    },
-    "shera_systematics_1976_muonic_nuclear_polarization_Fe56_2p3/2_1s1/2": {
-        "Reference": "shera_systematics_1976",
         "Nuclide": "Fe56",
+        "Energy [keV]": {
+            "Value": 0.582,
+            "Uncertainty": 0.2328
+        },
+        "Notes": "40% uncertainty assigned, see Page 736."
+    },
+    "shera_systematics_1976_muonicnuclearpolarization_Fe57_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
         "Transition": {
             "Upper": "2p3/2",
             "Lower": "1s1/2"
         },
-        "Energy [keV]": {
-            "value": 0.582,
-            "uncertainty": null
-        },
-        "Notes": ""
-    },
-    "shera_systematics_1976_muonic_nuclear_polarization_Fe57_2p3/2_1s1/2": {
-        "Reference": "shera_systematics_1976",
         "Nuclide": "Fe57",
+        "Energy [keV]": {
+            "Value": 0.6,
+            "Uncertainty": 0.24
+        },
+        "Notes": "40% uncertainty assigned, see Page 736."
+    },
+    "shera_systematics_1976_muonicnuclearpolarization_Fe58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
         "Transition": {
             "Upper": "2p3/2",
             "Lower": "1s1/2"
         },
-        "Energy [keV]": {
-            "value": 0.6,
-            "uncertainty": null
-        },
-        "Notes": ""
-    },
-    "shera_systematics_1976_muonic_nuclear_polarization_Fe58_2p3/2_1s1/2": {
-        "Reference": "shera_systematics_1976",
         "Nuclide": "Fe58",
+        "Energy [keV]": {
+            "Value": 0.624,
+            "Uncertainty": 0.24960000000000002
+        },
+        "Notes": "40% uncertainty assigned, see Page 736."
+    },
+    "shera_systematics_1976_muonicnuclearpolarization_Co59_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
         "Transition": {
             "Upper": "2p3/2",
             "Lower": "1s1/2"
         },
-        "Energy [keV]": {
-            "value": 0.624,
-            "uncertainty": null
-        },
-        "Notes": ""
-    },
-    "shera_systematics_1976_muonic_nuclear_polarization_Co59_2p3/2_1s1/2": {
-        "Reference": "shera_systematics_1976",
         "Nuclide": "Co59",
+        "Energy [keV]": {
+            "Value": 0.588,
+            "Uncertainty": 0.2352
+        },
+        "Notes": "40% uncertainty assigned, see Page 736."
+    },
+    "shera_systematics_1976_muonicnuclearpolarization_Ni58_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
         "Transition": {
             "Upper": "2p3/2",
             "Lower": "1s1/2"
         },
-        "Energy [keV]": {
-            "value": 0.588,
-            "uncertainty": null
-        },
-        "Notes": ""
-    },
-    "shera_systematics_1976_muonic_nuclear_polarization_Ni58_2p3/2_1s1/2": {
-        "Reference": "shera_systematics_1976",
         "Nuclide": "Ni58",
+        "Energy [keV]": {
+            "Value": 0.689,
+            "Uncertainty": 0.2756
+        },
+        "Notes": "40% uncertainty assigned, see Page 736."
+    },
+    "shera_systematics_1976_muonicnuclearpolarization_Ni60_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
         "Transition": {
             "Upper": "2p3/2",
             "Lower": "1s1/2"
         },
-        "Energy [keV]": {
-            "value": 0.689,
-            "uncertainty": null
-        },
-        "Notes": ""
-    },
-    "shera_systematics_1976_muonic_nuclear_polarization_Ni60_2p3/2_1s1/2": {
-        "Reference": "shera_systematics_1976",
         "Nuclide": "Ni60",
+        "Energy [keV]": {
+            "Value": 0.693,
+            "Uncertainty": 0.2772
+        },
+        "Notes": "40% uncertainty assigned, see Page 736."
+    },
+    "shera_systematics_1976_muonicnuclearpolarization_Ni61_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
         "Transition": {
             "Upper": "2p3/2",
             "Lower": "1s1/2"
         },
-        "Energy [keV]": {
-            "value": 0.693,
-            "uncertainty": null
-        },
-        "Notes": ""
-    },
-    "shera_systematics_1976_muonic_nuclear_polarization_Ni61_2p3/2_1s1/2": {
-        "Reference": "shera_systematics_1976",
         "Nuclide": "Ni61",
+        "Energy [keV]": {
+            "Value": 0.632,
+            "Uncertainty": 0.2528
+        },
+        "Notes": "40% uncertainty assigned, see Page 736."
+    },
+    "shera_systematics_1976_muonicnuclearpolarization_Ni62_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
         "Transition": {
             "Upper": "2p3/2",
             "Lower": "1s1/2"
         },
-        "Energy [keV]": {
-            "value": 0.632,
-            "uncertainty": null
-        },
-        "Notes": ""
-    },
-    "shera_systematics_1976_muonic_nuclear_polarization_Ni62_2p3/2_1s1/2": {
-        "Reference": "shera_systematics_1976",
         "Nuclide": "Ni62",
+        "Energy [keV]": {
+            "Value": 0.703,
+            "Uncertainty": 0.2812
+        },
+        "Notes": "40% uncertainty assigned, see Page 736."
+    },
+    "shera_systematics_1976_muonicnuclearpolarization_Ni64_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
         "Transition": {
             "Upper": "2p3/2",
             "Lower": "1s1/2"
         },
-        "Energy [keV]": {
-            "value": 0.703,
-            "uncertainty": null
-        },
-        "Notes": ""
-    },
-    "shera_systematics_1976_muonic_nuclear_polarization_Ni64_2p3/2_1s1/2": {
-        "Reference": "shera_systematics_1976",
         "Nuclide": "Ni64",
+        "Energy [keV]": {
+            "Value": 0.725,
+            "Uncertainty": 0.29
+        },
+        "Notes": "40% uncertainty assigned, see Page 736."
+    },
+    "shera_systematics_1976_muonicnuclearpolarization_Cu63_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
         "Transition": {
             "Upper": "2p3/2",
             "Lower": "1s1/2"
         },
-        "Energy [keV]": {
-            "value": 0.725,
-            "uncertainty": null
-        },
-        "Notes": ""
-    },
-    "shera_systematics_1976_muonic_nuclear_polarization_Cu63_2p3/2_1s1/2": {
-        "Reference": "shera_systematics_1976",
         "Nuclide": "Cu63",
+        "Energy [keV]": {
+            "Value": 0.739,
+            "Uncertainty": 0.29560000000000003
+        },
+        "Notes": "40% uncertainty assigned, see Page 736."
+    },
+    "shera_systematics_1976_muonicnuclearpolarization_Cu65_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
         "Transition": {
             "Upper": "2p3/2",
             "Lower": "1s1/2"
         },
-        "Energy [keV]": {
-            "value": 0.739,
-            "uncertainty": null
-        },
-        "Notes": ""
-    },
-    "shera_systematics_1976_muonic_nuclear_polarization_Cu65_2p3/2_1s1/2": {
-        "Reference": "shera_systematics_1976",
         "Nuclide": "Cu65",
+        "Energy [keV]": {
+            "Value": 0.749,
+            "Uncertainty": 0.29960000000000003
+        },
+        "Notes": "40% uncertainty assigned, see Page 736."
+    },
+    "shera_systematics_1976_muonicnuclearpolarization_Zn64_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
         "Transition": {
             "Upper": "2p3/2",
             "Lower": "1s1/2"
         },
-        "Energy [keV]": {
-            "value": 0.749,
-            "uncertainty": null
-        },
-        "Notes": ""
-    },
-    "shera_systematics_1976_muonic_nuclear_polarization_Zn64_2p3/2_1s1/2": {
-        "Reference": "shera_systematics_1976",
         "Nuclide": "Zn64",
+        "Energy [keV]": {
+            "Value": 0.857,
+            "Uncertainty": 0.3428
+        },
+        "Notes": "40% uncertainty assigned, see Page 736."
+    },
+    "shera_systematics_1976_muonicnuclearpolarization_Zn66_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
         "Transition": {
             "Upper": "2p3/2",
             "Lower": "1s1/2"
         },
-        "Energy [keV]": {
-            "value": 0.857,
-            "uncertainty": null
-        },
-        "Notes": ""
-    },
-    "shera_systematics_1976_muonic_nuclear_polarization_Zn66_2p3/2_1s1/2": {
-        "Reference": "shera_systematics_1976",
         "Nuclide": "Zn66",
+        "Energy [keV]": {
+            "Value": 0.909,
+            "Uncertainty": 0.36360000000000003
+        },
+        "Notes": "40% uncertainty assigned, see Page 736."
+    },
+    "shera_systematics_1976_muonicnuclearpolarization_Zn68_2p3/2_1s1/2": {
+        "Reference": "shera_systematics_1976",
         "Transition": {
             "Upper": "2p3/2",
             "Lower": "1s1/2"
         },
-        "Energy [keV]": {
-            "value": 0.909,
-            "uncertainty": null
-        },
-        "Notes": ""
-    },
-    "shera_systematics_1976_muonic_nuclear_polarization_Zn68_2p3/2_1s1/2": {
-        "Reference": "shera_systematics_1976",
         "Nuclide": "Zn68",
-        "Transition": {
-            "Upper": "2p3/2",
-            "Lower": "1s1/2"
-        },
         "Energy [keV]": {
-            "value": 0.917,
-            "uncertainty": null
+            "Value": 0.917,
+            "Uncertainty": 0.3668
         },
-        "Notes": ""
+        "Notes": "40% uncertainty assigned, see Page 736."
     },
-    "shera_systematics_1976_muonic_nuclear_polarization_Zn70_2p3/2_1s1/2": {
+    "shera_systematics_1976_muonicnuclearpolarization_Zn70_2p3/2_1s1/2": {
         "Reference": "shera_systematics_1976",
-        "Nuclide": "Zn70",
         "Transition": {
             "Upper": "2p3/2",
             "Lower": "1s1/2"
         },
+        "Nuclide": "Zn70",
         "Energy [keV]": {
-            "value": 0.973,
-            "uncertainty": null
+            "Value": 0.973,
+            "Uncertainty": 0.3892
         },
-        "Notes": ""
+        "Notes": "40% uncertainty assigned, see Page 736."
     }
 }

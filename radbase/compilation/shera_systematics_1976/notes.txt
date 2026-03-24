@@ -1,0 +1,8 @@
+A muonic atom experiment paper with 2p-1s transition energies and 2p3/2-1s1/2 transition energy differences for Fe54,
+56-58, Co59, Ni58,60-64, Cu63,65, and Zn64,66,68,70. The analysis follows a two-step procedure, where the transition
+energy shifts are first optimized in a generalized least squares procedure with a reduced chi-squared of 1.1 and 1.2 for
+the 2p3/2-1s1/2 and 2p1/2-1s1/2 transitions, respectively. Then, these shifts were fixed, and the absolute energies
+were optimized by allowing the transition energy of Fe58 to vary. Barrett radii were extracted from the absolute
+transition energies, with Barrett radii shifts also being reported. Only model-dependent radii are given, with no
+associated uncertainty. See Wohlfahrt et al.'s 1980 paper (Systematics of nuclear charge distributions ...) for a
+reanalysis using electron scattering data.
