@@ -7,7 +7,7 @@
         },
         "Nuclide": "Fe54",
         "Energy [keV]": {
-            "Value": 9.823,
+            "Value": 9.713000000000001,
             "Uncertainty": 0.079
         },
         "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
@@ -20,7 +20,7 @@
         },
         "Nuclide": "Fe56",
         "Energy [keV]": {
-            "Value": 9.773,
+            "Value": 9.663,
             "Uncertainty": 0.079
         },
         "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
@@ -33,7 +33,7 @@
         },
         "Nuclide": "Fe57",
         "Energy [keV]": {
-            "Value": 9.756,
+            "Value": 9.646,
             "Uncertainty": 0.079
         },
         "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
@@ -46,7 +46,7 @@
         },
         "Nuclide": "Fe58",
         "Energy [keV]": {
-            "Value": 9.733,
+            "Value": 9.623000000000001,
             "Uncertainty": 0.079
         },
         "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
@@ -59,7 +59,7 @@
         },
         "Nuclide": "Co59",
         "Energy [keV]": {
-            "Value": 10.442,
+            "Value": 10.322,
             "Uncertainty": 0.08499999999999999
         },
         "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
@@ -72,7 +72,7 @@
         },
         "Nuclide": "Ni58",
         "Energy [keV]": {
-            "Value": 11.199,
+            "Value": 11.069,
             "Uncertainty": 0.091
         },
         "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
@@ -85,7 +85,7 @@
         },
         "Nuclide": "Ni60",
         "Energy [keV]": {
-            "Value": 11.148,
+            "Value": 11.018,
             "Uncertainty": 0.091
         },
         "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
@@ -98,7 +98,7 @@
         },
         "Nuclide": "Ni61",
         "Energy [keV]": {
-            "Value": 11.133,
+            "Value": 11.003,
             "Uncertainty": 0.091
         },
         "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
@@ -111,7 +111,7 @@
         },
         "Nuclide": "Ni62",
         "Energy [keV]": {
-            "Value": 11.107,
+            "Value": 10.977,
             "Uncertainty": 0.091
         },
         "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
@@ -124,7 +124,7 @@
         },
         "Nuclide": "Ni64",
         "Energy [keV]": {
-            "Value": 11.08,
+            "Value": 10.950000000000001,
             "Uncertainty": 0.091
         },
         "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
@@ -137,7 +137,7 @@
         },
         "Nuclide": "Cu63",
         "Energy [keV]": {
-            "Value": 11.795,
+            "Value": 11.653,
             "Uncertainty": 0.096
         },
         "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
@@ -150,7 +150,7 @@
         },
         "Nuclide": "Cu65",
         "Energy [keV]": {
-            "Value": 11.764,
+            "Value": 11.622,
             "Uncertainty": 0.096
         },
         "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
@@ -163,7 +163,7 @@
         },
         "Nuclide": "Zn64",
         "Energy [keV]": {
-            "Value": 12.478,
+            "Value": 12.324,
             "Uncertainty": 0.101
         },
         "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
@@ -176,7 +176,7 @@
         },
         "Nuclide": "Zn66",
         "Energy [keV]": {
-            "Value": 12.444,
+            "Value": 12.290000000000001,
             "Uncertainty": 0.101
         },
         "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
@@ -189,7 +189,7 @@
         },
         "Nuclide": "Zn68",
         "Energy [keV]": {
-            "Value": 12.414,
+            "Value": 12.26,
             "Uncertainty": 0.101
         },
         "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."
@@ -202,7 +202,7 @@
         },
         "Nuclide": "Zn70",
         "Energy [keV]": {
-            "Value": 12.383,
+            "Value": 12.229,
             "Uncertainty": 0.101
         },
         "Notes": "Table VII 'all other corrections' minus interpolated nuclear recoil. Uncertainty estimated from Table I."

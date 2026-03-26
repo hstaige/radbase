@@ -79,7 +79,7 @@ with open('energies.csv', 'r') as f:
         e_values |= e_procs['Transition'].process_data(transition_ka1)
         e_values |= e_procs['Energy [keV]'].process_data(combined_nrg)
         e_values |= e_procs['Notes'].process_data('Combined Ka1 and Ka2 using theoretical FS splitting.')
-        combined_keys[nuclide] = muonic_transition_energy_template.data_key(e_values)
+        combined_keys[nuclide] = muonic_transition_energy_template.data_key(e_values) + '_a'
 
         interface.save_data(muonic_transition_energy_template, e_values,
                             replacement_strategy='Suffix')
@@ -141,7 +141,7 @@ with open('barrett.csv', 'r') as f:
         zs = np.array([26, 28, 30])
         nuclear_recoils = np.array([0.055, 0.065, 0.077])
         qed_uncs = np.array([0.079, 0.091, 0.101])
-        qed_val = float(qed) + np.interp(element_to_z[nuclide[:2]], zs, nuclear_recoils)
+        qed_val = float(qed) - np.interp(element_to_z[nuclide[:2]], zs, nuclear_recoils)
         qed_unc = np.interp(element_to_z[nuclide[:2]], zs, qed_uncs)
 
         qed_values |= qed_procs['Energy [keV]'].process_data(repr(ufloat(qed_val, qed_unc)))
@@ -173,7 +173,7 @@ with open('barrett.csv', 'r') as f:
         bar_values |= bar_procs['Notes'].process_data(
             'Statistical uncertainty, NP uncertainty, and QED uncertainty combined in quadrature.')
 
-        cd_values |= cd_procs['Relies On'].process_data({key: True for key in [e_key, muonic_np_key, muonic_qed_key]})
+        cd_values |= cd_procs['Relies On'].process_data(rely_on)
 
         interface.save_data(muonic_barrett_theory_template,
                             bar_values, replacement_strategy='AlwaysReplace')

@@ -15,8 +15,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 6340000.0,
-            "Uncertainty": 450000.0
+            "Value": 0.0634,
+            "Uncertainty": 0.0045000000000000005
         },
         "Notes": "Angular acceptance: 0.30"
     },
@@ -36,8 +36,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 6340000.0,
-            "Uncertainty": 450000.0
+            "Value": 0.0634,
+            "Uncertainty": 0.0045000000000000005
         },
         "Notes": "Angular acceptance: 0.30"
     },
@@ -57,8 +57,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 2770000.0,
-            "Uncertainty": 200000.0
+            "Value": 0.0277,
+            "Uncertainty": 0.002
         },
         "Notes": "Angular acceptance: 0.30"
     },
@@ -78,8 +78,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 1400000.0,
-            "Uncertainty": 100000.0
+            "Value": 0.014,
+            "Uncertainty": 0.001
         },
         "Notes": "Angular acceptance: 0.30"
     },
@@ -99,8 +99,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 589000.0,
-            "Uncertainty": 35000.0
+            "Value": 0.00589,
+            "Uncertainty": 0.00035
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -120,8 +120,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 325000.0,
-            "Uncertainty": 30000.0
+            "Value": 0.00325,
+            "Uncertainty": 0.0003
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -141,8 +141,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 161000.0,
-            "Uncertainty": 10000.0
+            "Value": 0.00161,
+            "Uncertainty": 0.0001
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -162,8 +162,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 79500.0,
-            "Uncertainty": 8000.0
+            "Value": 0.000795,
+            "Uncertainty": 8e-05
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -183,8 +183,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 53200.0,
-            "Uncertainty": 5000.0
+            "Value": 0.000532,
+            "Uncertainty": 5e-05
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -204,8 +204,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 34600.0,
-            "Uncertainty": 2500.0
+            "Value": 0.000346,
+            "Uncertainty": 2.5e-05
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -225,8 +225,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 24000.0,
-            "Uncertainty": 2500.0
+            "Value": 0.00023999999999999998,
+            "Uncertainty": 2.5e-05
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -246,8 +246,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 16200.000000000002,
-            "Uncertainty": 1500.0
+            "Value": 0.000162,
+            "Uncertainty": 1.5e-05
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -267,8 +267,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 11900.0,
-            "Uncertainty": 1000.0
+            "Value": 0.00011899999999999999,
+            "Uncertainty": 1e-05
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -288,8 +288,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 8270.0,
-            "Uncertainty": 400.0
+            "Value": 8.269999999999999e-05,
+            "Uncertainty": 4.000000000000001e-06
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -309,8 +309,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 5380.0,
-            "Uncertainty": 400.0
+            "Value": 5.380000000000001e-05,
+            "Uncertainty": 4.000000000000001e-06
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -330,8 +330,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 4710.0,
-            "Uncertainty": 500.0
+            "Value": 4.71e-05,
+            "Uncertainty": 5e-06
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -351,8 +351,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 4320.000000000001,
-            "Uncertainty": 300.0
+            "Value": 4.3200000000000007e-05,
+            "Uncertainty": 3e-06
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -372,8 +372,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 4500.0,
-            "Uncertainty": 450.0
+            "Value": 4.5e-05,
+            "Uncertainty": 4.5e-06
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -393,8 +393,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 4820.0,
-            "Uncertainty": 300.0
+            "Value": 4.8200000000000006e-05,
+            "Uncertainty": 3e-06
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -414,8 +414,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 4540.0,
-            "Uncertainty": 300.0
+            "Value": 4.54e-05,
+            "Uncertainty": 3e-06
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -435,8 +435,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 3240.0000000000005,
-            "Uncertainty": 250.0
+            "Value": 3.240000000000001e-05,
+            "Uncertainty": 2.5e-06
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -456,8 +456,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 2110.0,
-            "Uncertainty": 150.0
+            "Value": 2.1099999999999998e-05,
+            "Uncertainty": 1.5e-06
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -477,8 +477,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 1180.0,
-            "Uncertainty": 100.0
+            "Value": 1.1799999999999999e-05,
+            "Uncertainty": 1.0000000000000002e-06
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -498,8 +498,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 612.0,
-            "Uncertainty": 40.0
+            "Value": 6.120000000000001e-06,
+            "Uncertainty": 4.000000000000001e-07
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -519,8 +519,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 223.0,
-            "Uncertainty": 15.0
+            "Value": 2.2300000000000002e-06,
+            "Uncertainty": 1.5000000000000002e-07
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -540,8 +540,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 65.0,
-            "Uncertainty": 4.5
+            "Value": 6.5e-07,
+            "Uncertainty": 4.5000000000000006e-08
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -561,8 +561,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 14.200000000000001,
-            "Uncertainty": 1.0
+            "Value": 1.42e-07,
+            "Uncertainty": 1.0000000000000002e-08
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -582,8 +582,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 2.7000000000000006,
-            "Uncertainty": 0.35
+            "Value": 2.7000000000000007e-08,
+            "Uncertainty": 3.5e-09
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -603,8 +603,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 2.13,
-            "Uncertainty": 0.25
+            "Value": 2.13e-08,
+            "Uncertainty": 2.5e-09
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -624,8 +624,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 3.92,
-            "Uncertainty": 0.45
+            "Value": 3.92e-08,
+            "Uncertainty": 4.500000000000001e-09
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -645,8 +645,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 3.1300000000000003,
-            "Uncertainty": 0.55
+            "Value": 3.13e-08,
+            "Uncertainty": 5.5000000000000004e-09
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -666,8 +666,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 2.21,
-            "Uncertainty": 0.3
+            "Value": 2.21e-08,
+            "Uncertainty": 3e-09
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -687,8 +687,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 16800.0,
-            "Uncertainty": 1200.0
+            "Value": 0.000168,
+            "Uncertainty": 1.2e-05
         },
         "Notes": "Angular acceptance: 0.90"
     },
@@ -708,8 +708,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 8400.0,
-            "Uncertainty": 600.0
+            "Value": 8.400000000000001e-05,
+            "Uncertainty": 6e-06
         },
         "Notes": "Angular acceptance: 0.90"
     },
@@ -729,8 +729,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 2980.0,
-            "Uncertainty": 220.0
+            "Value": 2.98e-05,
+            "Uncertainty": 2.2e-06
         },
         "Notes": "Angular acceptance: 0.90"
     },
@@ -750,8 +750,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 1260.0,
-            "Uncertainty": 90.0
+            "Value": 1.26e-05,
+            "Uncertainty": 9.000000000000001e-07
         },
         "Notes": "Angular acceptance: 0.90"
     },
@@ -771,8 +771,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 434.99999999999994,
-            "Uncertainty": 44.0
+            "Value": 4.35e-06,
+            "Uncertainty": 4.400000000000001e-07
         },
         "Notes": "Angular acceptance: 0.90"
     },
@@ -792,8 +792,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 98.3,
-            "Uncertainty": 6.4
+            "Value": 9.83e-07,
+            "Uncertainty": 6.4e-08
         },
         "Notes": "Angular acceptance: 0.90"
     },
@@ -813,8 +813,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 23.400000000000002,
-            "Uncertainty": 2.8000000000000003
+            "Value": 2.34e-07,
+            "Uncertainty": 2.8000000000000006e-08
         },
         "Notes": "Angular acceptance: 0.90"
     },
@@ -834,8 +834,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 26.6,
-            "Uncertainty": 2.3000000000000003
+            "Value": 2.66e-07,
+            "Uncertainty": 2.3000000000000004e-08
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -855,8 +855,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 22.1,
-            "Uncertainty": 1.6
+            "Value": 2.21e-07,
+            "Uncertainty": 1.6e-08
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -876,8 +876,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 35.0,
-            "Uncertainty": 2.2
+            "Value": 3.5e-07,
+            "Uncertainty": 2.2000000000000002e-08
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -897,8 +897,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 29.8,
-            "Uncertainty": 2.6
+            "Value": 2.98e-07,
+            "Uncertainty": 2.6000000000000005e-08
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -918,8 +918,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 18.5,
-            "Uncertainty": 2.2
+            "Value": 1.85e-07,
+            "Uncertainty": 2.2000000000000002e-08
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -939,8 +939,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 7.980000000000001,
-            "Uncertainty": 0.8
+            "Value": 7.980000000000001e-08,
+            "Uncertainty": 8e-09
         },
         "Notes": "Angular acceptance: 1.80"
     },
@@ -960,8 +960,8 @@
         },
         "Nuclide": "Ca40",
         "Cross section [fm^2/sr]": {
-            "Value": 2.5800000000000005,
-            "Uncertainty": 0.41
+            "Value": 2.5800000000000003e-08,
+            "Uncertainty": 4.0999999999999995e-09
         },
         "Notes": "Angular acceptance: 1.80"
     }

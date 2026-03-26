@@ -12,8 +12,8 @@ from radbase.data_entry import (
     electron_scattering_cross_section_ratio_template,
     electron_scattering_cross_section_template)
 
-ENTER_CROSS_SECTIONS = False
-ENTER_CROSS_SECTION_RATIOS = False
+ENTER_CROSS_SECTIONS = True
+ENTER_CROSS_SECTION_RATIOS = True
 ENTER_FB_PARAMS = True
 ENTER_FB_DIFF_PARAMS = True
 
@@ -80,7 +80,7 @@ if ENTER_CROSS_SECTIONS:
             cs_values |= cs_procs['theta [deg]'].process_data(row['theta'])
             cs_values |= cs_procs['Nuclide'].process_data(nuclide)
 
-            cs = convert_value(row['cross_section']) * 10  # mb to fm^2
+            cs = convert_value(row['cross_section']) / 10  # mb to fm^2
             cs_values |= cs_procs['Cross section [fm^2/sr]'].process_data(str(cs))
 
             interface.save_data(electron_scattering_cross_section_template, cs_values,

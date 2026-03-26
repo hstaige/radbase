@@ -1234,9 +1234,9 @@ muonic_barrett_theory_template = InputTemplate(
                                             filter_regex='muonic.*_')),
         nuclide_field,
         FieldSpec('Rka [fm]', NumberWithUncertaintyProcessor('Rka [fm]')),
-        FieldSpec('k [-]', CastProcessor(str, key='k [-]')),
-        FieldSpec('alpha [1/fm]', CastProcessor(str, key='alpha [1/fm]')),
-        FieldSpec('Cz [fm/keV]', CastProcessor(str, key='Cz [fm/keV]')),
+        FieldSpec('k [-]', NumberWithUncertaintyProcessor('k [-])', allows_empty=True)),
+        FieldSpec('alpha [1/fm]', NumberWithUncertaintyProcessor('alpha [1/fm]', allows_empty=True)),
+        FieldSpec('Cz [fm/keV]', NumberWithUncertaintyProcessor('Cz [fm/keV]', allows_empty=True)),
         FieldSpec('Nuclear Polarization Method',
                   NuclearPolarizationProcessor(),
                   NuclearPolarizationWidgetCreator(compilation_path=config['compilation_dir']),
@@ -1832,6 +1832,7 @@ class DataEntryInterface:
 
         with file.open("w", encoding="utf-8") as f:
             json.dump(data_to_write, f, indent=4)
+            f.write('\n')
 
         # print(f"Data successfully saved to {file}")
 

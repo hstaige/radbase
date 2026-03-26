@@ -97,7 +97,7 @@ for i, row in by_quant_dfs.iterrows():
         cs = row['Value']
         cs, angular_acceptance = angle_acceptance(cs)
         cs = convert_value(cs)
-        cs *= 10000  # microbarn to fm^2 conversion
+        cs /= 10000  # microbarn to fm^2 conversion
         cs_values |= cs_procs['Cross section [fm^2/sr]'].process_data(repr(cs))
 
         cs_values |= cs_procs['Notes'].process_data(f'Angular acceptance: {angular_acceptance:0.2f}')

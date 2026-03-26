@@ -15,7 +15,7 @@
             "Value": 0.51159,
             "Uncertainty": null
         },
-        "Notes": ""
+        "Notes": "Determined from direct fit to muonic spectra"
     },
     "shera_charge_1982_chargedistribution_Ba135_TwoParameterFermi": {
         "Reference": "shera_charge_1982",
@@ -33,7 +33,7 @@
             "Value": 0.49172,
             "Uncertainty": null
         },
-        "Notes": ""
+        "Notes": "Determined from direct fit to muonic spectra"
     },
     "shera_charge_1982_chargedistribution_Ba136_TwoParameterFermi": {
         "Reference": "shera_charge_1982",
@@ -51,7 +51,7 @@
             "Value": 0.49439,
             "Uncertainty": null
         },
-        "Notes": ""
+        "Notes": "Determined from direct fit to muonic spectra"
     },
     "shera_charge_1982_chargedistribution_Ba137_TwoParameterFermi": {
         "Reference": "shera_charge_1982",
@@ -69,7 +69,7 @@
             "Value": 0.4819,
             "Uncertainty": null
         },
-        "Notes": ""
+        "Notes": "Determined from direct fit to muonic spectra"
     },
     "shera_charge_1982_chargedistribution_Ba138_TwoParameterFermi": {
         "Reference": "shera_charge_1982",
@@ -87,6 +87,6 @@
             "Value": 0.48344,
             "Uncertainty": null
         },
-        "Notes": ""
+        "Notes": "Determined from direct fit to muonic spectra"
     }
 }

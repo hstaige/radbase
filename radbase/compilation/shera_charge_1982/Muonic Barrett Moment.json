@@ -11,7 +11,7 @@
         },
         "k [-]": "2.212",
         "alpha [1/fm]": "0.116",
-        "Cz [fm/keV]": "0",
+        "Cz [fm/keV]": null,
         "Nuclear Polarization Method": "Calculated",
         "Calculated Nuclear Polarization": [],
         "Notes": "#Stat_only, no Cz values listed"
@@ -28,7 +28,7 @@
         },
         "k [-]": "4.105",
         "alpha [1/fm]": "0.116",
-        "Cz [fm/keV]": "0",
+        "Cz [fm/keV]": null,
         "Nuclear Polarization Method": "Calculated",
         "Calculated Nuclear Polarization": [],
         "Notes": "#Stat_only, no Cz values listed"
@@ -45,7 +45,7 @@
         },
         "k [-]": "2.212",
         "alpha [1/fm]": "0.116",
-        "Cz [fm/keV]": "0",
+        "Cz [fm/keV]": null,
         "Nuclear Polarization Method": "Calculated",
         "Calculated Nuclear Polarization": [],
         "Notes": "#Stat_only, no Cz values listed"
@@ -62,7 +62,7 @@
         },
         "k [-]": "4.105",
         "alpha [1/fm]": "0.116",
-        "Cz [fm/keV]": "0",
+        "Cz [fm/keV]": null,
         "Nuclear Polarization Method": "Calculated",
         "Calculated Nuclear Polarization": [],
         "Notes": "#Stat_only, no Cz values listed"
@@ -79,7 +79,7 @@
         },
         "k [-]": "2.212",
         "alpha [1/fm]": "0.116",
-        "Cz [fm/keV]": "0",
+        "Cz [fm/keV]": null,
         "Nuclear Polarization Method": "Calculated",
         "Calculated Nuclear Polarization": [],
         "Notes": "#Stat_only, no Cz values listed"
@@ -96,7 +96,7 @@
         },
         "k [-]": "4.105",
         "alpha [1/fm]": "0.116",
-        "Cz [fm/keV]": "0",
+        "Cz [fm/keV]": null,
         "Nuclear Polarization Method": "Calculated",
         "Calculated Nuclear Polarization": [],
         "Notes": "#Stat_only, no Cz values listed"
@@ -113,7 +113,7 @@
         },
         "k [-]": "2.212",
         "alpha [1/fm]": "0.116",
-        "Cz [fm/keV]": "0",
+        "Cz [fm/keV]": null,
         "Nuclear Polarization Method": "Calculated",
         "Calculated Nuclear Polarization": [],
         "Notes": "#Stat_only, no Cz values listed"
@@ -130,7 +130,7 @@
         },
         "k [-]": "4.105",
         "alpha [1/fm]": "0.116",
-        "Cz [fm/keV]": "0",
+        "Cz [fm/keV]": null,
         "Nuclear Polarization Method": "Calculated",
         "Calculated Nuclear Polarization": [],
         "Notes": "#Stat_only, no Cz values listed"
@@ -147,7 +147,7 @@
         },
         "k [-]": "2.212",
         "alpha [1/fm]": "0.116",
-        "Cz [fm/keV]": "0",
+        "Cz [fm/keV]": null,
         "Nuclear Polarization Method": "Calculated",
         "Calculated Nuclear Polarization": [],
         "Notes": "#Stat_only, no Cz values listed"
@@ -164,7 +164,7 @@
         },
         "k [-]": "4.105",
         "alpha [1/fm]": "0.116",
-        "Cz [fm/keV]": "0",
+        "Cz [fm/keV]": null,
         "Nuclear Polarization Method": "Calculated",
         "Calculated Nuclear Polarization": [],
         "Notes": "#Stat_only, no Cz values listed"

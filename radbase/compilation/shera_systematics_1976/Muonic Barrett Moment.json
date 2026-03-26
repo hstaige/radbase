@@ -1,9 +1,9 @@
 {
-    "shera_systematics_1976_barrettmoment_Fe54_2p3/2-1s1/2": {
+    "shera_systematics_1976_barrettmoment_Fe54_2p3/2-1s1/2_1s1/2-a": {
         "Reference": "shera_systematics_1976",
         "Nuclide": "Fe54",
         "Relies On": [
-            "shera_systematics_1976_muonic_Fe54_2p3/2_1s1/2",
+            "shera_systematics_1976_muonic_Fe54_2p3/2_1s1/2_a",
             "shera_systematics_1976_muonicnuclearpolarization_Fe54_2p3/2_1s1/2",
             "shera_systematics_1976_muonicqed_Fe54_2p3/2_1s1/2"
         ],
@@ -11,16 +11,25 @@
             "Value": 4.7387,
             "Uncertainty": 0.0008000110443857957
         },
-        "k [-]": "2.121",
-        "alpha [1/fm]": "0.074",
-        "Cz [fm/keV]": "-1.8100000000000003e-05",
+        "k [-])": {
+            "Value": 2.121,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.074,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -1.8100000000000003e-05,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty, NP uncertainty, and QED uncertainty combined in quadrature."
     },
-    "shera_systematics_1976_barrettmoment_Fe56_2p3/2-1s1/2": {
+    "shera_systematics_1976_barrettmoment_Fe56_2p3/2-1s1/2_1s1/2-a": {
         "Reference": "shera_systematics_1976",
         "Nuclide": "Fe56",
         "Relies On": [
-            "shera_systematics_1976_muonic_Fe56_2p3/2_1s1/2",
+            "shera_systematics_1976_muonic_Fe56_2p3/2_1s1/2_a",
             "shera_systematics_1976_muonicnuclearpolarization_Fe56_2p3/2_1s1/2",
             "shera_systematics_1976_muonicqed_Fe56_2p3/2_1s1/2"
         ],
@@ -28,16 +37,25 @@
             "Value": 4.7941,
             "Uncertainty": 0.0008000123747250117
         },
-        "k [-]": "2.121",
-        "alpha [1/fm]": "0.074",
-        "Cz [fm/keV]": "-1.8100000000000003e-05",
+        "k [-])": {
+            "Value": 2.121,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.074,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -1.8100000000000003e-05,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty, NP uncertainty, and QED uncertainty combined in quadrature."
     },
-    "shera_systematics_1976_barrettmoment_Fe57_2p3/2-1s1/2": {
+    "shera_systematics_1976_barrettmoment_Fe57_2p3/2-1s1/2_1s1/2-a": {
         "Reference": "shera_systematics_1976",
         "Nuclide": "Fe57",
         "Relies On": [
-            "shera_systematics_1976_muonic_Fe57_2p3/2_1s1/2",
+            "shera_systematics_1976_muonic_Fe57_2p3/2_1s1/2_a",
             "shera_systematics_1976_muonicnuclearpolarization_Fe57_2p3/2_1s1/2",
             "shera_systematics_1976_muonicqed_Fe57_2p3/2_1s1/2"
         ],
@@ -45,16 +63,25 @@
             "Value": 4.8155,
             "Uncertainty": 0.0009000116193416672
         },
-        "k [-]": "2.121",
-        "alpha [1/fm]": "0.074",
-        "Cz [fm/keV]": "-1.8100000000000003e-05",
+        "k [-])": {
+            "Value": 2.121,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.074,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -1.8100000000000003e-05,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty, NP uncertainty, and QED uncertainty combined in quadrature."
     },
-    "shera_systematics_1976_barrettmoment_Fe58_2p3/2-1s1/2": {
+    "shera_systematics_1976_barrettmoment_Fe58_2p3/2-1s1/2_1s1/2-a": {
         "Reference": "shera_systematics_1976",
         "Nuclide": "Fe58",
         "Relies On": [
-            "shera_systematics_1976_muonic_Fe58_2p3/2_1s1/2",
+            "shera_systematics_1976_muonic_Fe58_2p3/2_1s1/2_a",
             "shera_systematics_1976_muonicnuclearpolarization_Fe58_2p3/2_1s1/2",
             "shera_systematics_1976_muonicqed_Fe58_2p3/2_1s1/2"
         ],
@@ -62,16 +89,25 @@
             "Value": 4.8425,
             "Uncertainty": 0.0009000124747854485
         },
-        "k [-]": "2.121",
-        "alpha [1/fm]": "0.074",
-        "Cz [fm/keV]": "-1.8100000000000003e-05",
+        "k [-])": {
+            "Value": 2.121,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.074,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -1.8100000000000003e-05,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty, NP uncertainty, and QED uncertainty combined in quadrature."
     },
-    "shera_systematics_1976_barrettmoment_Co59_2p3/2-1s1/2": {
+    "shera_systematics_1976_barrettmoment_Co59_2p3/2-1s1/2_1s1/2-a": {
         "Reference": "shera_systematics_1976",
         "Nuclide": "Co59",
         "Relies On": [
-            "shera_systematics_1976_muonic_Co59_2p3/2_1s1/2",
+            "shera_systematics_1976_muonic_Co59_2p3/2_1s1/2_a",
             "shera_systematics_1976_muonicnuclearpolarization_Co59_2p3/2_1s1/2",
             "shera_systematics_1976_muonicqed_Co59_2p3/2_1s1/2"
         ],
@@ -79,16 +115,25 @@
             "Value": 4.8581,
             "Uncertainty": 0.0007000117242288572
         },
-        "k [-]": "2.121",
-        "alpha [1/fm]": "0.075",
-        "Cz [fm/keV]": "-1.62e-05",
+        "k [-])": {
+            "Value": 2.121,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.075,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -1.62e-05,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty, NP uncertainty, and QED uncertainty combined in quadrature."
     },
-    "shera_systematics_1976_barrettmoment_Ni58_2p3/2-1s1/2": {
+    "shera_systematics_1976_barrettmoment_Ni58_2p3/2-1s1/2_1s1/2-a": {
         "Reference": "shera_systematics_1976",
         "Nuclide": "Ni58",
         "Relies On": [
-            "shera_systematics_1976_muonic_Ni58_2p3/2_1s1/2",
+            "shera_systematics_1976_muonic_Ni58_2p3/2_1s1/2_a",
             "shera_systematics_1976_muonicnuclearpolarization_Ni58_2p3/2_1s1/2",
             "shera_systematics_1976_muonicqed_Ni58_2p3/2_1s1/2"
         ],
@@ -96,16 +141,25 @@
             "Value": 4.8428,
             "Uncertainty": 0.0006000147587307249
         },
-        "k [-]": "2.123",
-        "alpha [1/fm]": "0.076",
-        "Cz [fm/keV]": "-1.45e-05",
+        "k [-])": {
+            "Value": 2.123,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.076,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -1.45e-05,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty, NP uncertainty, and QED uncertainty combined in quadrature."
     },
-    "shera_systematics_1976_barrettmoment_Ni60_2p3/2-1s1/2": {
+    "shera_systematics_1976_barrettmoment_Ni60_2p3/2-1s1/2_1s1/2-a": {
         "Reference": "shera_systematics_1976",
         "Nuclide": "Ni60",
         "Relies On": [
-            "shera_systematics_1976_muonic_Ni60_2p3/2_1s1/2",
+            "shera_systematics_1976_muonic_Ni60_2p3/2_1s1/2_a",
             "shera_systematics_1976_muonicnuclearpolarization_Ni60_2p3/2_1s1/2",
             "shera_systematics_1976_muonicqed_Ni60_2p3/2_1s1/2"
         ],
@@ -113,16 +167,25 @@
             "Value": 4.89,
             "Uncertainty": 0.0006000149136951597
         },
-        "k [-]": "2.123",
-        "alpha [1/fm]": "0.076",
-        "Cz [fm/keV]": "-1.45e-05",
+        "k [-])": {
+            "Value": 2.123,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.076,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -1.45e-05,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty, NP uncertainty, and QED uncertainty combined in quadrature."
     },
-    "shera_systematics_1976_barrettmoment_Ni61_2p3/2-1s1/2": {
+    "shera_systematics_1976_barrettmoment_Ni61_2p3/2-1s1/2_1s1/2-a": {
         "Reference": "shera_systematics_1976",
         "Nuclide": "Ni61",
         "Relies On": [
-            "shera_systematics_1976_muonic_Ni61_2p3/2_1s1/2",
+            "shera_systematics_1976_muonic_Ni61_2p3/2_1s1/2_a",
             "shera_systematics_1976_muonicnuclearpolarization_Ni61_2p3/2_1s1/2",
             "shera_systematics_1976_muonicqed_Ni61_2p3/2_1s1/2"
         ],
@@ -130,16 +193,25 @@
             "Value": 4.9037,
             "Uncertainty": 0.0007000108411329142
         },
-        "k [-]": "2.123",
-        "alpha [1/fm]": "0.076",
-        "Cz [fm/keV]": "-1.45e-05",
+        "k [-])": {
+            "Value": 2.123,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.076,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -1.45e-05,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty, NP uncertainty, and QED uncertainty combined in quadrature."
     },
-    "shera_systematics_1976_barrettmoment_Ni62_2p3/2-1s1/2": {
+    "shera_systematics_1976_barrettmoment_Ni62_2p3/2-1s1/2_1s1/2-a": {
         "Reference": "shera_systematics_1976",
         "Nuclide": "Ni62",
         "Relies On": [
-            "shera_systematics_1976_muonic_Ni62_2p3/2_1s1/2",
+            "shera_systematics_1976_muonic_Ni62_2p3/2_1s1/2_a",
             "shera_systematics_1976_muonicnuclearpolarization_Ni62_2p3/2_1s1/2",
             "shera_systematics_1976_muonicqed_Ni62_2p3/2_1s1/2"
         ],
@@ -147,16 +219,25 @@
             "Value": 4.9278,
             "Uncertainty": 0.0006000153050306383
         },
-        "k [-]": "2.123",
-        "alpha [1/fm]": "0.076",
-        "Cz [fm/keV]": "-1.45e-05",
+        "k [-])": {
+            "Value": 2.123,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.076,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -1.45e-05,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty, NP uncertainty, and QED uncertainty combined in quadrature."
     },
-    "shera_systematics_1976_barrettmoment_Ni64_2p3/2-1s1/2": {
+    "shera_systematics_1976_barrettmoment_Ni64_2p3/2-1s1/2_1s1/2-a": {
         "Reference": "shera_systematics_1976",
         "Nuclide": "Ni64",
         "Relies On": [
-            "shera_systematics_1976_muonic_Ni64_2p3/2_1s1/2",
+            "shera_systematics_1976_muonic_Ni64_2p3/2_1s1/2_a",
             "shera_systematics_1976_muonicnuclearpolarization_Ni64_2p3/2_1s1/2",
             "shera_systematics_1976_muonicqed_Ni64_2p3/2_1s1/2"
         ],
@@ -164,16 +245,25 @@
             "Value": 4.9521,
             "Uncertainty": 0.0007000138735091256
         },
-        "k [-]": "2.123",
-        "alpha [1/fm]": "0.076",
-        "Cz [fm/keV]": "-1.45e-05",
+        "k [-])": {
+            "Value": 2.123,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.076,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -1.45e-05,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty, NP uncertainty, and QED uncertainty combined in quadrature."
     },
-    "shera_systematics_1976_barrettmoment_Cu63_2p3/2-1s1/2": {
+    "shera_systematics_1976_barrettmoment_Cu63_2p3/2-1s1/2_1s1/2-a": {
         "Reference": "shera_systematics_1976",
         "Nuclide": "Cu63",
         "Relies On": [
-            "shera_systematics_1976_muonic_Cu63_2p3/2_1s1/2",
+            "shera_systematics_1976_muonic_Cu63_2p3/2_1s1/2_a",
             "shera_systematics_1976_muonicnuclearpolarization_Cu63_2p3/2_1s1/2",
             "shera_systematics_1976_muonicqed_Cu63_2p3/2_1s1/2"
         ],
@@ -181,16 +271,25 @@
             "Value": 4.9789,
             "Uncertainty": 0.0006000138137824242
         },
-        "k [-]": "2.127",
-        "alpha [1/fm]": "0.078",
-        "Cz [fm/keV]": "-1.3099999999999998e-05",
+        "k [-])": {
+            "Value": 2.127,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.078,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -1.3099999999999998e-05,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty, NP uncertainty, and QED uncertainty combined in quadrature."
     },
-    "shera_systematics_1976_barrettmoment_Cu65_2p3/2-1s1/2": {
+    "shera_systematics_1976_barrettmoment_Cu65_2p3/2-1s1/2_1s1/2-a": {
         "Reference": "shera_systematics_1976",
         "Nuclide": "Cu65",
         "Relies On": [
-            "shera_systematics_1976_muonic_Cu65_2p3/2_1s1/2",
+            "shera_systematics_1976_muonic_Cu65_2p3/2_1s1/2_a",
             "shera_systematics_1976_muonicnuclearpolarization_Cu65_2p3/2_1s1/2",
             "shera_systematics_1976_muonicqed_Cu65_2p3/2_1s1/2"
         ],
@@ -198,16 +297,25 @@
             "Value": 5.0048,
             "Uncertainty": 0.0007000121322511615
         },
-        "k [-]": "2.127",
-        "alpha [1/fm]": "0.078",
-        "Cz [fm/keV]": "-1.3099999999999998e-05",
+        "k [-])": {
+            "Value": 2.127,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.078,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -1.3099999999999998e-05,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty, NP uncertainty, and QED uncertainty combined in quadrature."
     },
-    "shera_systematics_1976_barrettmoment_Zn64_2p3/2-1s1/2": {
+    "shera_systematics_1976_barrettmoment_Zn64_2p3/2-1s1/2_1s1/2-a": {
         "Reference": "shera_systematics_1976",
         "Nuclide": "Zn64",
         "Relies On": [
-            "shera_systematics_1976_muonic_Zn64_2p3/2_1s1/2",
+            "shera_systematics_1976_muonic_Zn64_2p3/2_1s1/2_a",
             "shera_systematics_1976_muonicnuclearpolarization_Zn64_2p3/2_1s1/2",
             "shera_systematics_1976_muonicqed_Zn64_2p3/2_1s1/2"
         ],
@@ -215,16 +323,25 @@
             "Value": 5.0366,
             "Uncertainty": 0.000500018085088202
         },
-        "k [-]": "2.13",
-        "alpha [1/fm]": "0.079",
-        "Cz [fm/keV]": "-1.1900000000000001e-05",
+        "k [-])": {
+            "Value": 2.13,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.079,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -1.1900000000000001e-05,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty, NP uncertainty, and QED uncertainty combined in quadrature."
     },
-    "shera_systematics_1976_barrettmoment_Zn66_2p3/2-1s1/2": {
+    "shera_systematics_1976_barrettmoment_Zn66_2p3/2-1s1/2_1s1/2-a": {
         "Reference": "shera_systematics_1976",
         "Nuclide": "Zn66",
         "Relies On": [
-            "shera_systematics_1976_muonic_Zn66_2p3/2_1s1/2",
+            "shera_systematics_1976_muonic_Zn66_2p3/2_1s1/2_a",
             "shera_systematics_1976_muonicnuclearpolarization_Zn66_2p3/2_1s1/2",
             "shera_systematics_1976_muonicqed_Zn66_2p3/2_1s1/2"
         ],
@@ -232,16 +349,25 @@
             "Value": 5.0637,
             "Uncertainty": 0.00050002016570134
         },
-        "k [-]": "2.13",
-        "alpha [1/fm]": "0.079",
-        "Cz [fm/keV]": "-1.1900000000000001e-05",
+        "k [-])": {
+            "Value": 2.13,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.079,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -1.1900000000000001e-05,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty, NP uncertainty, and QED uncertainty combined in quadrature."
     },
-    "shera_systematics_1976_barrettmoment_Zn68_2p3/2-1s1/2": {
+    "shera_systematics_1976_barrettmoment_Zn68_2p3/2-1s1/2_1s1/2-a": {
         "Reference": "shera_systematics_1976",
         "Nuclide": "Zn68",
         "Relies On": [
-            "shera_systematics_1976_muonic_Zn68_2p3/2_1s1/2",
+            "shera_systematics_1976_muonic_Zn68_2p3/2_1s1/2_a",
             "shera_systematics_1976_muonicnuclearpolarization_Zn68_2p3/2_1s1/2",
             "shera_systematics_1976_muonicqed_Zn68_2p3/2_1s1/2"
         ],
@@ -249,16 +375,25 @@
             "Value": 5.0855,
             "Uncertainty": 0.0005000204966701029
         },
-        "k [-]": "2.13",
-        "alpha [1/fm]": "0.079",
-        "Cz [fm/keV]": "-1.1900000000000001e-05",
+        "k [-])": {
+            "Value": 2.13,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.079,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -1.1900000000000001e-05,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty, NP uncertainty, and QED uncertainty combined in quadrature."
     },
-    "shera_systematics_1976_barrettmoment_Zn70_2p3/2-1s1/2": {
+    "shera_systematics_1976_barrettmoment_Zn70_2p3/2-1s1/2_1s1/2-a": {
         "Reference": "shera_systematics_1976",
         "Nuclide": "Zn70",
         "Relies On": [
-            "shera_systematics_1976_muonic_Zn70_2p3/2_1s1/2",
+            "shera_systematics_1976_muonic_Zn70_2p3/2_1s1/2_a",
             "shera_systematics_1976_muonicnuclearpolarization_Zn70_2p3/2_1s1/2",
             "shera_systematics_1976_muonicqed_Zn70_2p3/2_1s1/2"
         ],
@@ -266,9 +401,18 @@
             "Value": 5.1088,
             "Uncertainty": 0.0013000088058050224
         },
-        "k [-]": "2.13",
-        "alpha [1/fm]": "0.079",
-        "Cz [fm/keV]": "-1.1900000000000001e-05",
+        "k [-])": {
+            "Value": 2.13,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.079,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -1.1900000000000001e-05,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty, NP uncertainty, and QED uncertainty combined in quadrature."
     }
 }

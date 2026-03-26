@@ -11,9 +11,18 @@
             "Value": 4.4073,
             "Uncertainty": 0.0034000000000000002
         },
-        "k [-]": "2.114",
-        "alpha [1/fm]": "0.064",
-        "Cz [fm/keV]": "-0.0499",
+        "k [-])": {
+            "Value": 2.114,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.064,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.0499,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_K41_2p3/2-1s1/2": {
@@ -28,9 +37,18 @@
             "Value": 4.4293,
             "Uncertainty": 0.00331058907144937
         },
-        "k [-]": "2.114",
-        "alpha [1/fm]": "0.064",
-        "Cz [fm/keV]": "-0.0499",
+        "k [-])": {
+            "Value": 2.114,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.064,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.0499,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_Ca40_2p3/2-1s1/2": {
@@ -45,9 +63,18 @@
             "Value": 4.4626,
             "Uncertainty": 0.0031622776601683794
         },
-        "k [-]": "2.114",
-        "alpha [1/fm]": "0.065",
-        "Cz [fm/keV]": "-0.0420",
+        "k [-])": {
+            "Value": 2.114,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.065,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.042,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_Ca42_2p3/2-1s1/2": {
@@ -62,9 +89,18 @@
             "Value": 4.5016,
             "Uncertainty": 0.0032310988842807024
         },
-        "k [-]": "2.114",
-        "alpha [1/fm]": "0.065",
-        "Cz [fm/keV]": "-0.0420",
+        "k [-])": {
+            "Value": 2.114,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.065,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.042,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_Ca43_2p3/2-1s1/2": {
@@ -79,9 +115,18 @@
             "Value": 4.4841,
             "Uncertainty": 0.0031953090617340917
         },
-        "k [-]": "2.114",
-        "alpha [1/fm]": "0.065",
-        "Cz [fm/keV]": "-0.0420",
+        "k [-])": {
+            "Value": 2.114,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.065,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.042,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_Ca44_2p3/2-1s1/2": {
@@ -96,9 +141,18 @@
             "Value": 4.5143,
             "Uncertainty": 0.0031953090617340917
         },
-        "k [-]": "2.114",
-        "alpha [1/fm]": "0.065",
-        "Cz [fm/keV]": "-0.0420",
+        "k [-])": {
+            "Value": 2.114,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.065,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.042,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_Ca46_2p3/2-1s1/2": {
@@ -113,9 +167,18 @@
             "Value": 4.4898,
             "Uncertainty": 0.005408326913195984
         },
-        "k [-]": "2.114",
-        "alpha [1/fm]": "0.065",
-        "Cz [fm/keV]": "-0.0420",
+        "k [-])": {
+            "Value": 2.114,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.065,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.042,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_Ca48_2p3/2-1s1/2": {
@@ -130,9 +193,18 @@
             "Value": 4.4639,
             "Uncertainty": 0.0031953090617340917
         },
-        "k [-]": "2.114",
-        "alpha [1/fm]": "0.065",
-        "Cz [fm/keV]": "-0.0420",
+        "k [-])": {
+            "Value": 2.114,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.065,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.042,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_Sc45_2p3/2-1s1/2": {
@@ -147,9 +219,18 @@
             "Value": 4.5505,
             "Uncertainty": 0.0031622776601683794
         },
-        "k [-]": "2.116",
-        "alpha [1/fm]": "0.066",
-        "Cz [fm/keV]": "-0.0356",
+        "k [-])": {
+            "Value": 2.116,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.066,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.0356,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_Ti46_2p3/2-1s1/2": {
@@ -164,9 +245,18 @@
             "Value": 4.6261,
             "Uncertainty": 0.003104834939252005
         },
-        "k [-]": "2.118",
-        "alpha [1/fm]": "0.068",
-        "Cz [fm/keV]": "-0.0307",
+        "k [-])": {
+            "Value": 2.118,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.068,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.0307,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_Ti47_2p3/2-1s1/2": {
@@ -181,9 +271,18 @@
             "Value": 4.612,
             "Uncertainty": 0.003104834939252005
         },
-        "k [-]": "2.118",
-        "alpha [1/fm]": "0.068",
-        "Cz [fm/keV]": "-0.0307",
+        "k [-])": {
+            "Value": 2.118,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.068,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.0307,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_Ti48_2p3/2-1s1/2": {
@@ -198,9 +297,18 @@
             "Value": 4.6083,
             "Uncertainty": 0.003104834939252005
         },
-        "k [-]": "2.118",
-        "alpha [1/fm]": "0.068",
-        "Cz [fm/keV]": "-0.0307",
+        "k [-])": {
+            "Value": 2.118,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.068,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.0307,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_Ti49_2p3/2-1s1/2": {
@@ -215,9 +323,18 @@
             "Value": 4.5843,
             "Uncertainty": 0.0031622776601683794
         },
-        "k [-]": "2.118",
-        "alpha [1/fm]": "0.068",
-        "Cz [fm/keV]": "-0.0307",
+        "k [-])": {
+            "Value": 2.118,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.068,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.0307,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_Ti50_2p3/2-1s1/2": {
@@ -232,9 +349,18 @@
             "Value": 4.5809,
             "Uncertainty": 0.003104834939252005
         },
-        "k [-]": "2.118",
-        "alpha [1/fm]": "0.068",
-        "Cz [fm/keV]": "-0.0307",
+        "k [-])": {
+            "Value": 2.118,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.068,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.0307,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_V51_2p3/2-1s1/2": {
@@ -249,9 +375,18 @@
             "Value": 4.6173,
             "Uncertainty": 0.0030805843601498725
         },
-        "k [-]": "2.116",
-        "alpha [1/fm]": "0.069",
-        "Cz [fm/keV]": "-0.0265",
+        "k [-])": {
+            "Value": 2.116,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.069,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.0265,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_Cr50_2p3/2-1s1/2": {
@@ -266,9 +401,18 @@
             "Value": 4.6947,
             "Uncertainty": 0.003059411708155671
         },
-        "k [-]": "2.115",
-        "alpha [1/fm]": "0.071",
-        "Cz [fm/keV]": "-0.0232",
+        "k [-])": {
+            "Value": 2.115,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.071,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.0232,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_Cr52_2p3/2-1s1/2": {
@@ -283,9 +427,18 @@
             "Value": 4.6698,
             "Uncertainty": 0.00304138126514911
         },
-        "k [-]": "2.115",
-        "alpha [1/fm]": "0.071",
-        "Cz [fm/keV]": "-0.0232",
+        "k [-])": {
+            "Value": 2.115,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.071,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.0232,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_Cr53_2p3/2-1s1/2": {
@@ -300,9 +453,18 @@
             "Value": 4.6914,
             "Uncertainty": 0.003059411708155671
         },
-        "k [-]": "2.115",
-        "alpha [1/fm]": "0.071",
-        "Cz [fm/keV]": "-0.0232",
+        "k [-])": {
+            "Value": 2.115,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.071,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.0232,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_Cr54_2p3/2-1s1/2": {
@@ -317,9 +479,18 @@
             "Value": 4.7278,
             "Uncertainty": 0.0030805843601498725
         },
-        "k [-]": "2.115",
-        "alpha [1/fm]": "0.071",
-        "Cz [fm/keV]": "-0.0232",
+        "k [-])": {
+            "Value": 2.115,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.071,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.0232,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_Mn55_2p3/2-1s1/2": {
@@ -334,9 +505,18 @@
             "Value": 4.7527,
             "Uncertainty": 0.0030805843601498725
         },
-        "k [-]": "2.120",
-        "alpha [1/fm]": "0.072",
-        "Cz [fm/keV]": "-0.0203",
+        "k [-])": {
+            "Value": 2.12,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.072,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.0203,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     },
     "wohlfahrt_nuclear_1981_barrettmoment_Fe56_2p3/2-1s1/2": {
@@ -351,9 +531,18 @@
             "Value": 4.7921,
             "Uncertainty": 0.00304138126514911
         },
-        "k [-]": "2.121",
-        "alpha [1/fm]": "0.074",
-        "Cz [fm/keV]": "-0.0181",
+        "k [-])": {
+            "Value": 2.121,
+            "Uncertainty": null
+        },
+        "alpha [1/fm]": {
+            "Value": 0.074,
+            "Uncertainty": null
+        },
+        "Cz [fm/keV]": {
+            "Value": -0.0181,
+            "Uncertainty": null
+        },
         "Notes": "Statistical uncertainty and 0.003 fm uncertainty (page 538, Table IV caption) combined in quadrature."
     }
 }
