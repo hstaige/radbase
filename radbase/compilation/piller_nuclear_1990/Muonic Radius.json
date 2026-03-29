@@ -17,6 +17,126 @@
             "piller_nuclear_1990_muonic_nuclear_polarization_Sn112_2p3/2"
         ],
         "Reduced Chi-Squared": 0.0,
-        "Notes": "Experimental uncertainty only"
+        "Notes": "Experimental uncertainties only"
+    },
+    "piller_nuclear_1990_radius_Sn114_NP_Calculated": {
+        "Reference": "piller_nuclear_1990",
+        "Relies On": [
+            "piller_nuclear_1990_muonic_Sn114_2p1/2_1s1/2",
+            "piller_nuclear_1990_muonic_Sn114_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Sn114",
+        "R [fm]": {
+            "value": 4.6103,
+            "uncertainty": 0.0005
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn114_1s1/2",
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn114_2p1/2",
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn114_2p3/2"
+        ],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": "Experimental uncertainties only"
+    },
+    "piller_nuclear_1990_radius_Sn116_NP_Calculated": {
+        "Reference": "piller_nuclear_1990",
+        "Relies On": [
+            "piller_nuclear_1990_muonic_Sn116_2p1/2_1s1/2",
+            "piller_nuclear_1990_muonic_Sn116_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Sn116",
+        "R [fm]": {
+            "value": 4.6261,
+            "uncertainty": 0.0005
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn116_1s1/2",
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn116_2p1/2",
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn116_2p3/2"
+        ],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": "Experimental uncertainties only"
+    },
+    "piller_nuclear_1990_radius_Sn117_NP_Calculated": {
+        "Reference": "piller_nuclear_1990",
+        "Relies On": [
+            "piller_nuclear_1990_muonic_Sn117_2p1/2_1s1/2",
+            "piller_nuclear_1990_muonic_Sn117_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Sn117",
+        "R [fm]": {
+            "value": 4.632,
+            "uncertainty": 0.0006
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn117_1s1/2",
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn117_2p1/2",
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn117_2p3/2"
+        ],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": "Experimental uncertainties only"
+    },
+    "piller_nuclear_1990_radius_Sn119_NP_Calculated": {
+        "Reference": "piller_nuclear_1990",
+        "Relies On": [
+            "piller_nuclear_1990_muonic_Sn119_2p1/2_1s1/2",
+            "piller_nuclear_1990_muonic_Sn119_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Sn119",
+        "R [fm]": {
+            "value": 4.6448,
+            "uncertainty": 0.0006
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn119_1s1/2",
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn119_2p1/2",
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn119_2p3/2"
+        ],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": "Experimental uncertainties only"
+    },
+    "piller_nuclear_1990_radius_Sn120_NP_Calculated": {
+        "Reference": "piller_nuclear_1990",
+        "Relies On": [
+            "piller_nuclear_1990_muonic_Sn120_2p1/2_1s1/2",
+            "piller_nuclear_1990_muonic_Sn120_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Sn120",
+        "R [fm]": {
+            "value": 4.6522,
+            "uncertainty": 0.0006
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn120_1s1/2",
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn120_2p1/2",
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn120_2p3/2"
+        ],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": "Experimental uncertainties only"
+    },
+    "piller_nuclear_1990_radius_Sn124_NP_Calculated": {
+        "Reference": "piller_nuclear_1990",
+        "Relies On": [
+            "piller_nuclear_1990_muonic_Sn124_2p1/2_1s1/2",
+            "piller_nuclear_1990_muonic_Sn124_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Sn124",
+        "R [fm]": {
+            "value": 4.6736,
+            "uncertainty": 0.0006
+        },
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn124_1s1/2",
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn124_2p1/2",
+            "piller_nuclear_1990_muonic_nuclear_polarization_Sn124_2p3/2"
+        ],
+        "Reduced Chi-Squared": 0.0,
+        "Notes": "Experimental uncertainties only"
     }
 }

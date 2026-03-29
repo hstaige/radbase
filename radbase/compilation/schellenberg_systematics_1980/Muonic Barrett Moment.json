@@ -1,0 +1,149 @@
+{
+    "schellenberg_systematics_1979_barrettmoment_Mo92_Mo92-TwoParameterFermi_2p1/2-1s1/2_2p3/2-1s1/2": {
+        "Reference": "schellenberg_systematics_1979",
+        "Previous Muonic Measurements": [
+            "schellenberg_systematics_1979_muonic_Mo92_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonic_Mo92_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Mo92",
+        "Rka [fm]": {
+            "Value": 5.5266,
+            "Uncertainty": 0.0015
+        },
+        "k [-]": "2.156",
+        "alpha [1/fm]": "0.096",
+        "Cz [fm/keV]": "N/A",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo92_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo92_2p3/2_1s1/2"
+        ],
+        "Notes": "Cz values are not given"
+    },
+    "schellenberg_systematics_1979_barrettmoment_Mo94_Mo94-TwoParameterFermi_2p1/2-1s1/2_2p3/2-1s1/2": {
+        "Reference": "schellenberg_systematics_1979",
+        "Previous Muonic Measurements": [
+            "schellenberg_systematics_1979_muonic_Mo94_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonic_Mo94_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Mo94",
+        "Rka [fm]": {
+            "Value": 5.5725,
+            "Uncertainty": 0.0015
+        },
+        "k [-]": "2.158",
+        "alpha [1/fm]": "0.096",
+        "Cz [fm/keV]": "N/A",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo94_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo94_2p3/2_1s1/2"
+        ],
+        "Notes": "Cz values are not given"
+    },
+    "schellenberg_systematics_1979_barrettmoment_Mo95_Mo95-TwoParameterFermi_2p1/2-1s1/2_2p3/2-1s1/2": {
+        "Reference": "schellenberg_systematics_1979",
+        "Previous Muonic Measurements": [
+            "schellenberg_systematics_1979_muonic_Mo95_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonic_Mo95_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Mo95",
+        "Rka [fm]": {
+            "Value": 5.585,
+            "Uncertainty": 0.0015
+        },
+        "k [-]": "2.159",
+        "alpha [1/fm]": "0.096",
+        "Cz [fm/keV]": "N/A",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo95_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo95_2p3/2_1s1/2"
+        ],
+        "Notes": "Cz values are not given"
+    },
+    "schellenberg_systematics_1979_barrettmoment_Mo96_Mo96-TwoParameterFermi_2p1/2-1s1/2_2p3/2-1s1/2": {
+        "Reference": "schellenberg_systematics_1979",
+        "Previous Muonic Measurements": [
+            "schellenberg_systematics_1979_muonic_Mo96_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonic_Mo96_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Mo96",
+        "Rka [fm]": {
+            "Value": 5.6127,
+            "Uncertainty": 0.0015
+        },
+        "k [-]": "2.161",
+        "alpha [1/fm]": "0.096",
+        "Cz [fm/keV]": "N/A",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo96_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo96_2p3/2_1s1/2"
+        ],
+        "Notes": "Cz values are not given"
+    },
+    "schellenberg_systematics_1979_barrettmoment_Mo97_Mo97-TwoParameterFermi_2p1/2-1s1/2_2p3/2-1s1/2": {
+        "Reference": "schellenberg_systematics_1979",
+        "Previous Muonic Measurements": [
+            "schellenberg_systematics_1979_muonic_Mo97_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonic_Mo97_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Mo97",
+        "Rka [fm]": {
+            "Value": 5.6173,
+            "Uncertainty": 0.0015
+        },
+        "k [-]": "2.162",
+        "alpha [1/fm]": "0.096",
+        "Cz [fm/keV]": "N/A",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo97_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo97_2p3/2_1s1/2"
+        ],
+        "Notes": "Cz values are not given"
+    },
+    "schellenberg_systematics_1979_barrettmoment_Mo98_Mo98-TwoParameterFermi_2p1/2-1s1/2_2p3/2-1s1/2": {
+        "Reference": "schellenberg_systematics_1979",
+        "Previous Muonic Measurements": [
+            "schellenberg_systematics_1979_muonic_Mo98_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonic_Mo98_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Mo98",
+        "Rka [fm]": {
+            "Value": 5.6433,
+            "Uncertainty": 0.0015
+        },
+        "k [-]": "2.163",
+        "alpha [1/fm]": "0.096",
+        "Cz [fm/keV]": "N/A",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo98_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo98_2p3/2_1s1/2"
+        ],
+        "Notes": "Cz values are not given"
+    },
+    "schellenberg_systematics_1979_barrettmoment_Mo100_Mo100-TwoParameterFermi_2p1/2-1s1/2_2p3/2-1s1/2": {
+        "Reference": "schellenberg_systematics_1979",
+        "Previous Muonic Measurements": [
+            "schellenberg_systematics_1979_muonic_Mo100_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonic_Mo100_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Mo100",
+        "Rka [fm]": {
+            "Value": 5.691,
+            "Uncertainty": 0.0015
+        },
+        "k [-]": "2.165",
+        "alpha [1/fm]": "0.096",
+        "Cz [fm/keV]": "N/A",
+        "Nuclear Polarization Method": "Calculated",
+        "Calculated Nuclear Polarization": [
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo100_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo100_2p3/2_1s1/2"
+        ],
+        "Notes": "Cz values are not given"
+    }
+}

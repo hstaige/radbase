@@ -7,7 +7,7 @@
             "value": 1.755,
             "uncertainty": null
         },
-        "Notes": ""
+        "Notes": null
     },
     "piller_nuclear_1990_muonic_nuclear_polarization_Sn112_2p1/2": {
         "Reference": "piller_nuclear_1990",
@@ -17,7 +17,7 @@
             "value": 0.255,
             "uncertainty": null
         },
-        "Notes": ""
+        "Notes": null
     },
     "piller_nuclear_1990_muonic_nuclear_polarization_Sn112_2p3/2": {
         "Reference": "piller_nuclear_1990",
@@ -27,6 +27,246 @@
             "value": 0.226,
             "uncertainty": null
         },
-        "Notes": ""
+        "Notes": null
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn124_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn124",
+        "Level": "1s1/2",
+        "Energy [keV]": {
+            "value": 1.729,
+            "uncertainty": null
+        },
+        "Notes": null
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn124_2p1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn124",
+        "Level": "2p1/2",
+        "Energy [keV]": {
+            "value": 0.225,
+            "uncertainty": null
+        },
+        "Notes": null
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn124_2p3/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn124",
+        "Level": "2p3/2",
+        "Energy [keV]": {
+            "value": 0.227,
+            "uncertainty": null
+        },
+        "Notes": null
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn114_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn114",
+        "Level": "1s1/2",
+        "Energy [keV]": {
+            "value": 1.733,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn114_2p1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn114",
+        "Level": "2p1/2",
+        "Energy [keV]": {
+            "value": 0.225,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn114_2p3/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn114",
+        "Level": "2p3/2",
+        "Energy [keV]": {
+            "value": 0.227,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn116_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn116",
+        "Level": "1s1/2",
+        "Energy [keV]": {
+            "value": 1.738,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn116_2p1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn116",
+        "Level": "2p1/2",
+        "Energy [keV]": {
+            "value": 0.225,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn116_2p3/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn116",
+        "Level": "2p3/2",
+        "Energy [keV]": {
+            "value": 0.227,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn118_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn118",
+        "Level": "1s1/2",
+        "Energy [keV]": {
+            "value": 1.742,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn118_2p1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn118",
+        "Level": "2p1/2",
+        "Energy [keV]": {
+            "value": 0.225,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn118_2p3/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn118",
+        "Level": "2p3/2",
+        "Energy [keV]": {
+            "value": 0.227,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn120_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn120",
+        "Level": "1s1/2",
+        "Energy [keV]": {
+            "value": 1.746,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn120_2p1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn120",
+        "Level": "2p1/2",
+        "Energy [keV]": {
+            "value": 0.225,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn120_2p3/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn120",
+        "Level": "2p3/2",
+        "Energy [keV]": {
+            "value": 0.226,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn122_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn122",
+        "Level": "1s1/2",
+        "Energy [keV]": {
+            "value": 1.751,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn122_2p1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn122",
+        "Level": "2p1/2",
+        "Energy [keV]": {
+            "value": 0.225,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn122_2p3/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn122",
+        "Level": "2p3/2",
+        "Energy [keV]": {
+            "value": 0.226,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn117_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn117",
+        "Level": "1s1/2",
+        "Energy [keV]": {
+            "value": 1.74,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn117_2p1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn117",
+        "Level": "2p1/2",
+        "Energy [keV]": {
+            "value": 0.225,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn117_2p3/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn117",
+        "Level": "2p3/2",
+        "Energy [keV]": {
+            "value": 0.227,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn119_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn119",
+        "Level": "1s1/2",
+        "Energy [keV]": {
+            "value": 1.744,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn119_2p1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn119",
+        "Level": "2p1/2",
+        "Energy [keV]": {
+            "value": 0.225,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
+    },
+    "piller_nuclear_1990_muonic_nuclear_polarization_Sn119_2p3/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn119",
+        "Level": "2p3/2",
+        "Energy [keV]": {
+            "value": 0.226,
+            "uncertainty": null
+        },
+        "Notes": "Linearly Interpolated from Sn112 and Sn124"
     }
 }

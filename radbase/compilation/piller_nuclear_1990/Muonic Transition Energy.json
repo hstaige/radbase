@@ -24,5 +24,161 @@
             "uncertainty": 0.056
         },
         "Notes": ""
+    },
+    "piller_nuclear_1990_muonic_Sn114_2p1/2_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn114",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3426.613,
+            "uncertainty": 0.071
+        },
+        "Notes": ""
+    },
+    "piller_nuclear_1990_muonic_Sn114_2p3/2_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn114",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3471.921,
+            "uncertainty": 0.068
+        },
+        "Notes": ""
+    },
+    "piller_nuclear_1990_muonic_Sn116_2p1/2_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn116",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3420.091,
+            "uncertainty": 0.062
+        },
+        "Notes": ""
+    },
+    "piller_nuclear_1990_muonic_Sn116_2p3/2_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn116",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3465.757,
+            "uncertainty": 0.058
+        },
+        "Notes": ""
+    },
+    "piller_nuclear_1990_muonic_Sn117_2p1/2_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn117",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3418.14,
+            "uncertainty": 0.063
+        },
+        "Notes": ""
+    },
+    "piller_nuclear_1990_muonic_Sn117_2p3/2_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn117",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3463.81,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "piller_nuclear_1990_muonic_Sn119_2p1/2_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn119",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3412.848,
+            "uncertainty": 0.061
+        },
+        "Notes": ""
+    },
+    "piller_nuclear_1990_muonic_Sn119_2p3/2_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn119",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3458.78,
+            "uncertainty": 0.06
+        },
+        "Notes": ""
+    },
+    "piller_nuclear_1990_muonic_Sn120_2p1/2_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn120",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3408.975,
+            "uncertainty": 0.052
+        },
+        "Notes": ""
+    },
+    "piller_nuclear_1990_muonic_Sn120_2p3/2_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn120",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3454.453,
+            "uncertainty": 0.05
+        },
+        "Notes": ""
+    },
+    "piller_nuclear_1990_muonic_Sn124_2p1/2_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn124",
+        "Transition": {
+            "Upper": "2p1/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3400.182,
+            "uncertainty": 0.061
+        },
+        "Notes": ""
+    },
+    "piller_nuclear_1990_muonic_Sn124_2p3/2_1s1/2": {
+        "Reference": "piller_nuclear_1990",
+        "Nuclide": "Sn124",
+        "Transition": {
+            "Upper": "2p3/2",
+            "Lower": "1s1/2"
+        },
+        "Energy [keV]": {
+            "value": 3445.482,
+            "uncertainty": 0.057
+        },
+        "Notes": ""
     }
 }

@@ -1,0 +1,142 @@
+{
+    "schellenberg_systematics_1979_chargedistribution_Mo92_TwoParameterFermi": {
+        "Reference": "schellenberg_systematics_1979",
+        "Relies On": [
+            "schellenberg_systematics_1979_muonic_Mo92_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonic_Mo92_2p3/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo92_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo92_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Mo92",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 4.9744,
+            "Uncertainty": 0.0004
+        },
+        "a [fm]": {
+            "Value": 0.523386,
+            "Uncertainty": null
+        },
+        "Notes": "#Exp_unc"
+    },
+    "schellenberg_systematics_1979_chargedistribution_Mo94_TwoParameterFermi": {
+        "Reference": "schellenberg_systematics_1979",
+        "Relies On": [
+            "schellenberg_systematics_1979_muonic_Mo94_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonic_Mo94_2p3/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo94_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo94_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Mo94",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 5.0258,
+            "Uncertainty": 0.0004
+        },
+        "a [fm]": {
+            "Value": 0.523386,
+            "Uncertainty": null
+        },
+        "Notes": "#Exp_unc"
+    },
+    "schellenberg_systematics_1979_chargedistribution_Mo95_TwoParameterFermi": {
+        "Reference": "schellenberg_systematics_1979",
+        "Relies On": [
+            "schellenberg_systematics_1979_muonic_Mo95_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonic_Mo95_2p3/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo95_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo95_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Mo95",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 5.0397,
+            "Uncertainty": 0.0004
+        },
+        "a [fm]": {
+            "Value": 0.523386,
+            "Uncertainty": null
+        },
+        "Notes": "#Exp_unc"
+    },
+    "schellenberg_systematics_1979_chargedistribution_Mo96_TwoParameterFermi": {
+        "Reference": "schellenberg_systematics_1979",
+        "Relies On": [
+            "schellenberg_systematics_1979_muonic_Mo96_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonic_Mo96_2p3/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo96_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo96_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Mo96",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 5.0704,
+            "Uncertainty": 0.0004
+        },
+        "a [fm]": {
+            "Value": 0.523386,
+            "Uncertainty": null
+        },
+        "Notes": "#Exp_unc"
+    },
+    "schellenberg_systematics_1979_chargedistribution_Mo97_TwoParameterFermi": {
+        "Reference": "schellenberg_systematics_1979",
+        "Relies On": [
+            "schellenberg_systematics_1979_muonic_Mo97_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonic_Mo97_2p3/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo97_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo97_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Mo97",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 5.0755,
+            "Uncertainty": 0.0004
+        },
+        "a [fm]": {
+            "Value": 0.523386,
+            "Uncertainty": null
+        },
+        "Notes": "#Exp_unc"
+    },
+    "schellenberg_systematics_1979_chargedistribution_Mo98_TwoParameterFermi": {
+        "Reference": "schellenberg_systematics_1979",
+        "Relies On": [
+            "schellenberg_systematics_1979_muonic_Mo98_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonic_Mo98_2p3/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo98_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo98_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Mo98",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 5.1044,
+            "Uncertainty": 0.0004
+        },
+        "a [fm]": {
+            "Value": 0.523386,
+            "Uncertainty": null
+        },
+        "Notes": "#Exp_unc"
+    },
+    "schellenberg_systematics_1979_chargedistribution_Mo100_TwoParameterFermi": {
+        "Reference": "schellenberg_systematics_1979",
+        "Relies On": [
+            "schellenberg_systematics_1979_muonic_Mo100_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonic_Mo100_2p3/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo100_2p1/2_1s1/2",
+            "schellenberg_systematics_1979_muonicnuclearpolarization_Mo100_2p3/2_1s1/2"
+        ],
+        "Nuclide": "Mo100",
+        "Charge Distribution": "TwoParameterFermi",
+        "c [fm]": {
+            "Value": 5.1573,
+            "Uncertainty": 0.0004
+        },
+        "a [fm]": {
+            "Value": 0.523386,
+            "Uncertainty": null
+        },
+        "Notes": "#Exp_unc"
+    }
+}
