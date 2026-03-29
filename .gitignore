@@ -2,7 +2,6 @@
 .pytest_cache/
 radbase.egg-info/
 build/
-notebooks/
 
 inputs/
 outputs/
@@ -10,4 +9,3 @@ outputs/
 *.py[cod]
 .coverage
 coverage.xml
-*.pptx
