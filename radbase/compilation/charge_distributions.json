@@ -16,7 +16,7 @@
   },
   "ParabolicFermi":
   {
-    "equation": "(1 + w * r**2 / c**2) / exp(1 + (r-c*(1 + beta2*Y20(theta))/a)",
+    "equation": "(1 + w * r**2 / c**2) / exp(1 + (r-c)/a)",
     "parameters": ["c [fm]", "a [fm]", "w [-]"]
   },
   "FourierBessel": {

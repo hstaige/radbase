@@ -9,12 +9,17 @@ from pint import UnitRegistry
 from pint.registry import Quantity as PintQuantity
 from sympy import Symbol, lambdify
 from sympy.parsing.sympy_parser import parse_expr
-from uncertainties import ufloat
+from uncertainties import UFloat
+
+from .charge_distribution import cds
 
 UQuantity: TypeAlias = Annotated[
     PintQuantity[Any],
     "pint Quantity with UFloat magnitude.",
 ]
+
+
+ureg = UnitRegistry
 
 
 class Nuclide:
@@ -79,7 +84,7 @@ class RadQuantity:
     reported_value: UQuantity | None = None
 
     conversion_step: ConversionStep | None = None
-    inputs: dict[str, UQuantity | Self] | None  # Variable number of RadQuantities
+    _inputs: dict[str, UQuantity | Self] | None  # Variable number of RadQuantities
 
     metadata: dict | None = None
 
@@ -97,9 +102,9 @@ class RadQuantity:
         if not (conversion_step is None and no_inputs or conversion_step is not None and not no_inputs):
             raise ValueError(f'{conversion_step=} and {inputs=}, either both or neither must be None.')
 
-        self.inputs = inputs
+        self._inputs = inputs
         if self_inputs:
-            self.inputs = self.inputs if self.inputs is not None else {}
+            self._inputs = self._inputs if self._inputs is not None else {}
             for key, value in self_inputs.items():
                 curr = self
                 for subvalue in value.split('.'):
@@ -107,7 +112,7 @@ class RadQuantity:
                         curr = q_nominal(curr)
                     else:
                         curr = curr.__getattribute__(subvalue)
-                self.inputs[key] = curr
+                self._inputs[key] = curr
 
         if conversion_step is not None:
             self.conversion_step = conversion_step if isinstance(conversion_step, ConversionStep) else conversion_step(
@@ -122,6 +127,18 @@ class RadQuantity:
         return self.conversion_step(**self.inputs)
 
     @property
+    def inputs(self) -> dict[str, UQuantity]:
+        return {key: (quant.value if isinstance(quant, self.__class__) else quant) for key, quant in self._inputs.items()}
+
+    @property
+    def m(self) -> UQuantity:
+        return self.value.m
+
+    @property
+    def u(self) -> UQuantity:
+        return self.value.u
+
+    @property
     def value(self) -> UQuantity:
         return conversion_strategy.value_strategy(self)
 
@@ -129,39 +146,57 @@ class RadQuantity:
         ret = 'RadQuantity('
         ret += f'key: {self.key=}, '
         ret += f'reported_value: {self.reported_value}, '
-        ret += f'evaluated_value: {self.evaluated_value}, '
+        ret += f'evaluated_value: {self.evaluated_value}'
         ret += ')'
         return ret
 
     def __hash__(self):
         return self.key
 
-    def __add__(self, other):
+    def __add__(self, other: UQuantity | Self):
         return self.value + getattr(other, 'value', other)
 
-    def __sub__(self, other):
+    def __sub__(self, other: UQuantity | Self):
         return self.value - getattr(other, 'value', other)
 
-    def __mul__(self, other):
+    def __mul__(self, other: UQuantity | Self):
         return self.value * getattr(other, 'value', other)
 
-    def __truediv__(self, other):
+    def __truediv__(self, other: UQuantity | Self):
         return self.value / getattr(other, 'value', other)
 
 
 def make_algebraic_expression(expression: str, description: str = '') -> ConversionStep:
-    def algebraic_expression(sympy_expr, **values: dict[str, UQuantity]):
+    def algebraic_expression(sympy_expr, **values: UQuantity):
         return sympy_expr(**values)
 
     expression = parse_expr(expression)
     symbols = tuple(expression.atoms(Symbol))
     conv_function = partial(algebraic_expression, lambdify(symbols, expression, 'numpy'))
 
-    return ConversionStep(conversion_function=conv_function, description=f'{description}: {expression}')
+    description = f'{description}: {expression}' if description else expression
+    return ConversionStep(conversion_function=conv_function, description=description)
 
 
 barrett_radius_linear = make_algebraic_expression('rka0 + cz * (energy - energy0)')
 barrett_to_radius = make_algebraic_expression('rka / v2')
+
+
+def make_moment(cd_name, moment_str, description: str = '') -> ConversionStep:
+
+    def moment_func(**values: UQuantity):
+        mean_values = {name: q_nominal(quant).m for name, quant in values.items()}
+        print(mean_values)
+        moment, moment_grad = cds[cd_name].calculate_moment_gradient(moment_str, mean_values)
+        moment_unit = ureg('fm^2')
+
+        # moment_unc will be 0 +/- uncertainty in moment
+        moment_unc = sum([float(moment_grad[name]) * (quant.m - q_nominal(quant).m) for name, quant in values.items()])
+        moment_value = float(moment)
+        return moment_unit * (moment_value + moment_unc)
+
+    description = description if description else f'{moment_str} of the {cd_name} distribution.'
+    return ConversionStep(conversion_function=moment_func, description=description)
 
 
 def make_fixed_conversion(rad_quantity: RadQuantity, description: str = 'Fixed conversion step.') -> ConversionStep:
@@ -170,7 +205,7 @@ def make_fixed_conversion(rad_quantity: RadQuantity, description: str = 'Fixed c
     doing fits to charge distributions, as you do not know what the output parameters would be for different functions.
     """
 
-    def fixed_function(inputs, output, **values: dict[str, UQuantity]):
+    def fixed_function(inputs, output, **values: UQuantity):
         if inputs == values:
             return output
         raise ValueError('Tried to call fixed function with different inputs.')
@@ -183,58 +218,69 @@ def make_cd_fit_conversion(cd_type: str, out_param: str, fit_description: str = 
     return partial(make_fixed_conversion, description=f'Parameter {out_param} of {cd_type} fit. {fit_description}')
 
 
-def q_nominal(q: UQuantity) -> PintQuantity[float]:  # Extracts just the nominal value from a UQuantity
-    return q.m.n * q.u
+def make_integration_conversion(rad_quantity: RadQuantity, moment: str):
+    pass
 
 
-def rq_nominal(rq: RadQuantity) -> PintQuantity[float]:
-    return rq.value.m.n * rq.value.u
+def q_nominal(q: UQuantity) -> PintQuantity[float]:
+    # Extracts just the nominal value from a UQuantity
+    if isinstance(q.m, float):
+        return q
+    elif isinstance(q.m, UFloat):
+        return q.m.n * q.u
 
 
-if __name__ == '__main__':
-    ureg = UnitRegistry()
-
-    energy = RadQuantity('test_Uo_500_muonicenergy', ufloat(500, 0.1) * ureg('keV'))
-
-    rka = RadQuantity('test_Uo_500_barrettradius', ufloat(4, 0.1) * ureg('fm'),
-                      conversion_step=barrett_radius_linear,
-                      self_inputs={'rka0': 'reported_value.n'},
-                      inputs={'energy': energy,
-                              'cz': ufloat(1, 0.001) * ureg('fm/keV'),
-                              'energy0': energy},
-                      metadata={'k': 2.3,
-                                'alpha': 0.6})
-
-    print(rka.evaluated_value)
-
-    cross_section_q1 = RadQuantity('test_Uo_500_escatt_q1', ufloat(300, 0.1) * ureg('fm^2/steradian'))
-    cross_section_q2 = RadQuantity('test_Uo_500_escatt_q2', ufloat(100, 0.1) * ureg('fm^2/steradian'))
-
-    escatt_fit_inputs = (cross_section_q1, cross_section_q2)
-    c = RadQuantity('test_Uo_500_fermi_c', ufloat(3, 0.2) * ureg('fm'),
-                    conversion_step=make_cd_fit_conversion('2pf', 'c'),
-                    inputs={'q1': cross_section_q1,
-                            'q2': cross_section_q2})
-
-    t = RadQuantity('test_Uo_500_fermi_c', ufloat(3, 0.2) * ureg('fm'),
-                    conversion_step=make_cd_fit_conversion('2pf', 't'),
-                    inputs={'q1': cross_section_q1,
-                            'q2': cross_section_q2})
-
-    print(c, t, c.conversion_step, t.conversion_step)
-
-    v2 = RadQuantity('test_Uo_500_v2', ufloat(1.2, 0.1),
-                     conversion_step=make_fixed_conversion,
-                     inputs={'c': c,
-                             't': t,
-                             'k': rka.metadata['k'],
-                             'alpha': rka.metadata['alpha']})
-
-    print(v2.evaluated_value)
-
-    radius = RadQuantity('test_Uo_500_radius', ufloat(3, 0.1) * ureg('fm'),
-                         conversion_step=barrett_to_radius,
-                         inputs={'rka': rka,
-                                 'v2': v2})
-
-    print(radius.evaluated_value)
+# if __name__ == '__main__':
+#     ureg = UnitRegistry()
+#
+#     energy = RadQuantity('test_Uo_500_muonicenergy', ufloat(500, 0.1) * ureg('keV'))
+#
+#     rka = RadQuantity('test_Uo_500_barrettradius', ufloat(4, 0.1) * ureg('fm'),
+#                       conversion_step=barrett_radius_linear,
+#                       self_inputs={'rka0': 'reported_value.n'},
+#                       inputs={'energy': energy,
+#                               'cz': ufloat(1, 0.001) * ureg('fm/keV'),
+#                               'energy0': energy},
+#                       metadata={'k': 2.3 * ureg(''),
+#                                 'alpha': 0.6 * ureg('1/fm')})
+#
+#     print(rka.evaluated_value)
+#
+#     cross_section_q1 = RadQuantity('test_Uo_500_escatt_q1', ufloat(300, 0.1) * ureg('fm^2/steradian'))
+#     cross_section_q2 = RadQuantity('test_Uo_500_escatt_q2', ufloat(100, 0.1) * ureg('fm^2/steradian'))
+#
+#     escatt_fit_inputs = (cross_section_q1, cross_section_q2)
+#     c = RadQuantity('test_Uo_500_fermi_c', ufloat(5.0, 0.001) * ureg('fm'),
+#                     conversion_step=make_cd_fit_conversion('2pf', 'c'),
+#                     inputs={'q1': cross_section_q1,
+#                             'q2': cross_section_q2})
+#
+#     t = RadQuantity('test_Uo_500_fermi_c', ufloat(2.3, 0.001) * ureg('fm'),
+#                     conversion_step=make_cd_fit_conversion('2pf', 't'),
+#                     inputs={'q1': cross_section_q1,
+#                             'q2': cross_section_q2})
+#
+#     print(c, t, c.conversion_step, t.conversion_step)
+#
+#     r2_int = RadQuantity('test_Uo_500_r2', ufloat(18.8, 0.1),
+#                      conversion_step=make_moment('2pf', 'r**2'),
+#                      inputs={'c': c,
+#                              't': t})
+#
+#     print(r2_int)
+#
+#     v2 = RadQuantity('test_Uo_500_v2', ufloat(1.2, 0.1),
+#                      conversion_step=make_moment('2pf', 'r**2'),
+#                      inputs={'c': c,
+#                              't': t,
+#                              'k': rka.metadata['k'],
+#                              'alpha': rka.metadata['alpha']})
+#
+#     print(v2.evaluated_value)
+#
+#     radius = RadQuantity('test_Uo_500_radius', ufloat(3, 0.1) * ureg('fm'),
+#                          conversion_step=barrett_to_radius,
+#                          inputs={'rka': rka,
+#                                  'v2': v2})
+#
+#     print(radius.evaluated_value)

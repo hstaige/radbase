@@ -13,7 +13,11 @@ import pandas as pd
 from lmfit import Minimizer, Parameters
 from uncertainties import correlated_values_norm, correlation_matrix, ufloat
 
-from .converter import Measurement, Nuclide
+from .conversion import Nuclide
+
+
+class Measurement(str):
+    pass
 
 
 class Term:
