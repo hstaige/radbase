@@ -1,13 +1,13 @@
 {
-    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=5.532e-01": {
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=5.530e-01": {
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 32.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 0.5531549342591987,
-            "Uncertainty": null
+            "Value": 0.553,
+            "Uncertainty": 0.015
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -20,15 +20,15 @@
             "Uncertainty": 0.018
         }
     },
-    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=6.864e-01": {
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=6.860e-01": {
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 40.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 0.6863733304067787,
-            "Uncertainty": null
+            "Value": 0.686,
+            "Uncertainty": 0.015
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -45,11 +45,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 45.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 0.7679772875652465,
-            "Uncertainty": null
+            "Value": 0.768,
+            "Uncertainty": 0.015
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -62,15 +62,15 @@
             "Uncertainty": 0.028
         }
     },
-    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=8.481e-01": {
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=8.480e-01": {
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 50.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 0.8481193563078583,
-            "Uncertainty": null
+            "Value": 0.848,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -83,15 +83,15 @@
             "Uncertainty": 0.022
         }
     },
-    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=8.797e-01": {
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=8.800e-01": {
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 52.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 0.8797325825612455,
-            "Uncertainty": null
+            "Value": 0.88,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -104,15 +104,15 @@
             "Uncertainty": 0.022
         }
     },
-    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.111e-01": {
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.110e-01": {
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 54.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 0.9110778337478238,
-            "Uncertainty": null
+            "Value": 0.911,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -125,15 +125,15 @@
             "Uncertainty": 0.024
         }
     },
-    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.421e-01": {
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.420e-01": {
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 56.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 0.9421455618004336,
-            "Uncertainty": null
+            "Value": 0.942,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -146,15 +146,15 @@
             "Uncertainty": 0.024
         }
     },
-    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.729e-01": {
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.730e-01": {
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 58.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 0.9729263031881499,
-            "Uncertainty": null
+            "Value": 0.973,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -171,11 +171,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.0034106817989659,
-            "Uncertainty": null
+            "Value": 1.003,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -192,11 +192,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 62.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.0335894117958488,
-            "Uncertainty": null
+            "Value": 1.034,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -213,11 +213,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 64.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.0634533004452933,
-            "Uncertainty": null
+            "Value": 1.063,
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -234,11 +234,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 66.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.0929932509175186,
-            "Uncertainty": null
+            "Value": 1.093,
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -255,11 +255,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 68.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.1222002650574512,
-            "Uncertainty": null
+            "Value": 1.122,
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -276,11 +276,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 70.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.1510654461256489,
-            "Uncertainty": null
+            "Value": 1.151,
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -297,11 +297,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 72.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.1795800015083355,
-            "Uncertainty": null
+            "Value": 1.18,
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -318,11 +318,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 74.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.2077352453957146,
-            "Uncertainty": null
+            "Value": 1.208,
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -339,11 +339,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 76.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.235522601427752,
-            "Uncertainty": null
+            "Value": 1.236,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -360,11 +360,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 78.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.2629336053066187,
-            "Uncertainty": null
+            "Value": 1.263,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -381,11 +381,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 80.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.289959907374996,
-            "Uncertainty": null
+            "Value": 1.29,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -402,11 +402,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 82.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.316593275159465,
-            "Uncertainty": null
+            "Value": 1.317,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -423,11 +423,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 84.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.3428255958781952,
-            "Uncertainty": null
+            "Value": 1.343,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -444,11 +444,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 86.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.3686488789121767,
-            "Uncertainty": null
+            "Value": 1.369,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -465,11 +465,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 90.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.419036994830132,
-            "Uncertainty": null
+            "Value": 1.419,
+            "Uncertainty": 0.011
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -486,11 +486,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 95.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.479583910407145,
-            "Uncertainty": null
+            "Value": 1.48,
+            "Uncertainty": 0.011
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -507,11 +507,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 100.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.537314353916646,
-            "Uncertainty": null
+            "Value": 1.537,
+            "Uncertainty": 0.01
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -528,11 +528,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 105.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.592118432178231,
-            "Uncertainty": null
+            "Value": 1.592,
+            "Uncertainty": 0.01
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -545,15 +545,15 @@
             "Uncertainty": 0.03
         }
     },
-    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=5.532e-01": {
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=5.530e-01": {
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 32.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 0.5531549342591987,
-            "Uncertainty": null
+            "Value": 0.553,
+            "Uncertainty": 0.015
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -566,15 +566,15 @@
             "Uncertainty": 0.018
         }
     },
-    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=6.864e-01": {
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=6.860e-01": {
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 40.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 0.6863733304067787,
-            "Uncertainty": null
+            "Value": 0.686,
+            "Uncertainty": 0.015
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -591,11 +591,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 45.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 0.7679772875652465,
-            "Uncertainty": null
+            "Value": 0.768,
+            "Uncertainty": 0.015
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -608,15 +608,15 @@
             "Uncertainty": 0.028
         }
     },
-    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=8.481e-01": {
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=8.480e-01": {
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 50.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 0.8481193563078583,
-            "Uncertainty": null
+            "Value": 0.848,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -629,15 +629,15 @@
             "Uncertainty": 0.022
         }
     },
-    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=8.797e-01": {
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=8.800e-01": {
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 52.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 0.8797325825612455,
-            "Uncertainty": null
+            "Value": 0.88,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -650,15 +650,15 @@
             "Uncertainty": 0.022
         }
     },
-    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.111e-01": {
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.110e-01": {
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 54.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 0.9110778337478238,
-            "Uncertainty": null
+            "Value": 0.911,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -671,15 +671,15 @@
             "Uncertainty": 0.023
         }
     },
-    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.421e-01": {
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.420e-01": {
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 56.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 0.9421455618004336,
-            "Uncertainty": null
+            "Value": 0.942,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -692,15 +692,15 @@
             "Uncertainty": 0.024
         }
     },
-    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.729e-01": {
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.730e-01": {
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 58.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 0.9729263031881499,
-            "Uncertainty": null
+            "Value": 0.973,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -717,11 +717,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.0034106817989659,
-            "Uncertainty": null
+            "Value": 1.003,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -738,11 +738,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 62.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.0335894117958488,
-            "Uncertainty": null
+            "Value": 1.034,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -759,11 +759,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 64.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.0634533004452933,
-            "Uncertainty": null
+            "Value": 1.063,
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -780,11 +780,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 66.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.0929932509175186,
-            "Uncertainty": null
+            "Value": 1.093,
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -801,11 +801,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 68.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.1222002650574512,
-            "Uncertainty": null
+            "Value": 1.122,
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -822,11 +822,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 70.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.1510654461256489,
-            "Uncertainty": null
+            "Value": 1.151,
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -843,11 +843,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 72.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.1795800015083355,
-            "Uncertainty": null
+            "Value": 1.18,
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -864,11 +864,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 74.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.2077352453957146,
-            "Uncertainty": null
+            "Value": 1.208,
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -885,11 +885,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 76.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.235522601427752,
-            "Uncertainty": null
+            "Value": 1.236,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -906,11 +906,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 78.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.2629336053066187,
-            "Uncertainty": null
+            "Value": 1.263,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -927,11 +927,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 80.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.289959907374996,
-            "Uncertainty": null
+            "Value": 1.29,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -948,11 +948,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 82.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.316593275159465,
-            "Uncertainty": null
+            "Value": 1.317,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -969,11 +969,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 84.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.3428255958781952,
-            "Uncertainty": null
+            "Value": 1.343,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -990,11 +990,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 86.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.3686488789121767,
-            "Uncertainty": null
+            "Value": 1.369,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -1011,11 +1011,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 90.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.419036994830132,
-            "Uncertainty": null
+            "Value": 1.419,
+            "Uncertainty": 0.011
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -1032,11 +1032,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 95.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.479583910407145,
-            "Uncertainty": null
+            "Value": 1.48,
+            "Uncertainty": 0.011
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -1053,11 +1053,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 100.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.537314353916646,
-            "Uncertainty": null
+            "Value": 1.537,
+            "Uncertainty": 0.01
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -1074,11 +1074,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 105.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.592118432178231,
-            "Uncertainty": null
+            "Value": 1.592,
+            "Uncertainty": 0.01
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -1095,11 +1095,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 110.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.6438918225140682,
-            "Uncertainty": null
+            "Value": 1.644,
+            "Uncertainty": 0.009
         },
         "E [MeV]": {
             "Value": 198.0,
@@ -1112,15 +1112,15 @@
             "Uncertainty": 0.034
         }
     },
-    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.883e-01": {
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti46_Ti48_q=9.880e-01": {
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 38.0,
-            "Uncertainty": null
+            "Uncertainty": 0.5
         },
         "q [1/fm]": {
-            "Value": 0.9882851501903847,
-            "Uncertainty": null
+            "Value": 0.988,
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1137,11 +1137,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 40.0,
-            "Uncertainty": null
+            "Uncertainty": 0.5
         },
         "q [1/fm]": {
-            "Value": 1.0382263255395467,
-            "Uncertainty": null
+            "Value": 1.038,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1158,11 +1158,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 42.0,
-            "Uncertainty": null
+            "Uncertainty": 0.5
         },
         "q [1/fm]": {
-            "Value": 1.0878512470924255,
-            "Uncertainty": null
+            "Value": 1.088,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1179,11 +1179,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 44.0,
-            "Uncertainty": null
+            "Uncertainty": 0.5
         },
         "q [1/fm]": {
-            "Value": 1.137144798617188,
-            "Uncertainty": null
+            "Value": 1.137,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1200,11 +1200,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 46.0,
-            "Uncertainty": null
+            "Uncertainty": 0.5
         },
         "q [1/fm]": {
-            "Value": 1.1860919648205228,
-            "Uncertainty": null
+            "Value": 1.186,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1221,11 +1221,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 48.0,
-            "Uncertainty": null
+            "Uncertainty": 0.5
         },
         "q [1/fm]": {
-            "Value": 1.2346778359214423,
-            "Uncertainty": null
+            "Value": 1.235,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1242,11 +1242,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 50.0,
-            "Uncertainty": null
+            "Uncertainty": 0.5
         },
         "q [1/fm]": {
-            "Value": 1.2828876121929476,
-            "Uncertainty": null
+            "Value": 1.283,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1263,11 +1263,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 52.0,
-            "Uncertainty": null
+            "Uncertainty": 0.5
         },
         "q [1/fm]": {
-            "Value": 1.3307066084701673,
-            "Uncertainty": null
+            "Value": 1.331,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1284,11 +1284,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 54.0,
-            "Uncertainty": null
+            "Uncertainty": 0.5
         },
         "q [1/fm]": {
-            "Value": 1.3781202586236028,
-            "Uncertainty": null
+            "Value": 1.378,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1305,11 +1305,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 56.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.4251141199961108,
-            "Uncertainty": null
+            "Value": 1.425,
+            "Uncertainty": 0.021
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1326,11 +1326,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 58.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.4716738778022775,
-            "Uncertainty": null
+            "Value": 1.472,
+            "Uncertainty": 0.021
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1347,11 +1347,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.5177853494888405,
-            "Uncertainty": null
+            "Value": 1.518,
+            "Uncertainty": 0.021
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1368,11 +1368,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 62.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.5634344890548324,
-            "Uncertainty": null
+            "Value": 1.563,
+            "Uncertainty": 0.02
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1389,11 +1389,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 64.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.6086073913301284,
-            "Uncertainty": null
+            "Value": 1.609,
+            "Uncertainty": 0.02
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1410,11 +1410,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 66.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.6532902962110956,
-            "Uncertainty": null
+            "Value": 1.653,
+            "Uncertainty": 0.02
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1431,11 +1431,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 68.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.6974695928520542,
-            "Uncertainty": null
+            "Value": 1.697,
+            "Uncertainty": 0.02
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1452,11 +1452,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 70.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.7411318238112723,
-            "Uncertainty": null
+            "Value": 1.741,
+            "Uncertainty": 0.02
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1473,11 +1473,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 72.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.7842636891502355,
-            "Uncertainty": null
+            "Value": 1.784,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1494,11 +1494,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 74.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.8268520504849326,
-            "Uncertainty": null
+            "Value": 1.827,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1515,11 +1515,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 76.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.8688839349879387,
-            "Uncertainty": null
+            "Value": 1.869,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1536,11 +1536,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 78.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.9103465393400627,
-            "Uncertainty": null
+            "Value": 1.91,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1557,11 +1557,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 80.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.9512272336303609,
-            "Uncertainty": null
+            "Value": 1.951,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1578,11 +1578,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 84.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 2.0311932624521187,
-            "Uncertainty": null
+            "Value": 2.031,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1599,11 +1599,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 86.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 2.0702542385565508,
-            "Uncertainty": null
+            "Value": 2.07,
+            "Uncertainty": 0.017
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1620,11 +1620,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 90.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 2.1464726260183062,
-            "Uncertainty": null
+            "Value": 2.146,
+            "Uncertainty": 0.017
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1641,11 +1641,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 94.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 2.2200758672240197,
-            "Uncertainty": null
+            "Value": 2.22,
+            "Uncertainty": 0.016
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1662,11 +1662,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 98.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 2.2909742879619928,
-            "Uncertainty": null
+            "Value": 2.291,
+            "Uncertainty": 0.016
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1683,11 +1683,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 102.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 2.3590815094276194,
-            "Uncertainty": null
+            "Value": 2.359,
+            "Uncertainty": 0.015
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1704,11 +1704,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 106.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 2.424314553462658,
-            "Uncertainty": null
+            "Value": 2.424,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1721,15 +1721,15 @@
             "Uncertainty": 0.26
         }
     },
-    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.883e-01": {
+    "heisenberg_electron_1972_electroncrosssectionratio_Ti48_Ti50_q=9.880e-01": {
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 38.0,
-            "Uncertainty": null
+            "Uncertainty": 0.5
         },
         "q [1/fm]": {
-            "Value": 0.9882851501903847,
-            "Uncertainty": null
+            "Value": 0.988,
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1746,11 +1746,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 40.0,
-            "Uncertainty": null
+            "Uncertainty": 0.5
         },
         "q [1/fm]": {
-            "Value": 1.0382263255395467,
-            "Uncertainty": null
+            "Value": 1.038,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1767,11 +1767,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 42.0,
-            "Uncertainty": null
+            "Uncertainty": 0.5
         },
         "q [1/fm]": {
-            "Value": 1.0878512470924255,
-            "Uncertainty": null
+            "Value": 1.088,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1788,11 +1788,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 44.0,
-            "Uncertainty": null
+            "Uncertainty": 0.5
         },
         "q [1/fm]": {
-            "Value": 1.137144798617188,
-            "Uncertainty": null
+            "Value": 1.137,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1809,11 +1809,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 46.0,
-            "Uncertainty": null
+            "Uncertainty": 0.5
         },
         "q [1/fm]": {
-            "Value": 1.1860919648205228,
-            "Uncertainty": null
+            "Value": 1.186,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1830,11 +1830,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 48.0,
-            "Uncertainty": null
+            "Uncertainty": 0.5
         },
         "q [1/fm]": {
-            "Value": 1.2346778359214423,
-            "Uncertainty": null
+            "Value": 1.235,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1851,11 +1851,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 50.0,
-            "Uncertainty": null
+            "Uncertainty": 0.5
         },
         "q [1/fm]": {
-            "Value": 1.2828876121929476,
-            "Uncertainty": null
+            "Value": 1.283,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1872,11 +1872,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 52.0,
-            "Uncertainty": null
+            "Uncertainty": 0.5
         },
         "q [1/fm]": {
-            "Value": 1.3307066084701673,
-            "Uncertainty": null
+            "Value": 1.331,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1893,11 +1893,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 54.0,
-            "Uncertainty": null
+            "Uncertainty": 0.5
         },
         "q [1/fm]": {
-            "Value": 1.3781202586236028,
-            "Uncertainty": null
+            "Value": 1.378,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1914,11 +1914,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 56.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.4251141199961108,
-            "Uncertainty": null
+            "Value": 1.425,
+            "Uncertainty": 0.021
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1935,11 +1935,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 58.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.4716738778022775,
-            "Uncertainty": null
+            "Value": 1.472,
+            "Uncertainty": 0.021
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1956,11 +1956,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.5177853494888405,
-            "Uncertainty": null
+            "Value": 1.518,
+            "Uncertainty": 0.021
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1977,11 +1977,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 62.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.5634344890548324,
-            "Uncertainty": null
+            "Value": 1.563,
+            "Uncertainty": 0.02
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -1998,11 +1998,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 64.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.6086073913301284,
-            "Uncertainty": null
+            "Value": 1.609,
+            "Uncertainty": 0.02
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -2019,11 +2019,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 66.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.6532902962110956,
-            "Uncertainty": null
+            "Value": 1.653,
+            "Uncertainty": 0.02
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -2040,11 +2040,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 68.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.6974695928520542,
-            "Uncertainty": null
+            "Value": 1.697,
+            "Uncertainty": 0.02
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -2061,11 +2061,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 70.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.7411318238112723,
-            "Uncertainty": null
+            "Value": 1.741,
+            "Uncertainty": 0.02
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -2082,11 +2082,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 72.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.7842636891502355,
-            "Uncertainty": null
+            "Value": 1.784,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -2103,11 +2103,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 74.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.8268520504849326,
-            "Uncertainty": null
+            "Value": 1.827,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -2124,11 +2124,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 76.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.8688839349879387,
-            "Uncertainty": null
+            "Value": 1.869,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -2145,11 +2145,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 78.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.9103465393400627,
-            "Uncertainty": null
+            "Value": 1.91,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -2166,11 +2166,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 80.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 1.9512272336303609,
-            "Uncertainty": null
+            "Value": 1.951,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -2187,11 +2187,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 84.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 2.0311932624521187,
-            "Uncertainty": null
+            "Value": 2.031,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -2208,11 +2208,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 86.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 2.0702542385565508,
-            "Uncertainty": null
+            "Value": 2.07,
+            "Uncertainty": 0.017
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -2229,11 +2229,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 90.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 2.1464726260183062,
-            "Uncertainty": null
+            "Value": 2.146,
+            "Uncertainty": 0.017
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -2250,11 +2250,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 94.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 2.2200758672240197,
-            "Uncertainty": null
+            "Value": 2.22,
+            "Uncertainty": 0.016
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -2271,11 +2271,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 98.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 2.2909742879619928,
-            "Uncertainty": null
+            "Value": 2.291,
+            "Uncertainty": 0.016
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -2292,11 +2292,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 102.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 2.3590815094276194,
-            "Uncertainty": null
+            "Value": 2.359,
+            "Uncertainty": 0.015
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -2313,11 +2313,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 106.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 2.424314553462658,
-            "Uncertainty": null
+            "Value": 2.424,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 299.5,
@@ -2334,11 +2334,11 @@
         "Reference": "heisenberg_electron_1972",
         "theta [deg]": {
             "Value": 110.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "q [1/fm]": {
-            "Value": 2.4865939436513314,
-            "Uncertainty": null
+            "Value": 2.487,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 299.5,

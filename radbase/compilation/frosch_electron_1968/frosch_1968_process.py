@@ -2,6 +2,7 @@ import re
 from pathlib import Path
 
 import pandas as pd
+import pint
 from scipy.constants import c, electron_volt, hbar, pi
 from uncertainties import ufloat, ufloat_fromstr
 from uncertainties.umath import sin
@@ -29,78 +30,82 @@ def convert_value(quantity_str):
     return value
 
 
-dfa = pd.read_csv('./cross_sections_a.csv')
-dfb = pd.read_csv('./cross_sections_b.csv')
-dfc = pd.read_csv('./cross_sections_c.csv')
+if __name__ == '__main__':
 
-for_all_cols = ['Energy [MeV]', 'theta']
+    ureg = pint.UnitRegistry()
 
-by_quant_dfs = []
-for df in [dfa, dfb, dfc]:
-    for column in df.columns:
-        if column not in for_all_cols:
-            col_df = df[~(df[column].isin(['', '...',]) | df[column].isna())]
-            col_df = col_df[for_all_cols + [column]]
-            col_df.rename(columns={column: 'Value'}, inplace=True)
-            col_df['Quantity'] = column
-            by_quant_dfs.append(col_df)
+    dfa = pd.read_csv('./cross_sections_a.csv')
+    dfb = pd.read_csv('./cross_sections_b.csv')
+    dfc = pd.read_csv('./cross_sections_c.csv')
 
-by_quant_dfs = pd.concat(by_quant_dfs)
-by_quant_dfs.to_csv('./cross_sections.csv', index=False)
+    for_all_cols = ['Energy [MeV]', 'theta']
 
-# Remove previous data as we will be adding suffixes instead of replacing old data
-Path(f'./{electron_scattering_cross_section_template.name}.json').unlink(missing_ok=True)
-Path(f'./{electron_scattering_cross_section_ratio_template.name}.json').unlink(missing_ok=True)
+    by_quant_dfs = []
+    for df in [dfa, dfb, dfc]:
+        for column in df.columns:
+            if column not in for_all_cols:
+                col_df = df[~(df[column].isin(['', '...',]) | df[column].isna())]
+                col_df = col_df[for_all_cols + [column]]
+                col_df.rename(columns={column: 'Value'}, inplace=True)
+                col_df['Quantity'] = column
+                by_quant_dfs.append(col_df)
 
-interface = DataEntryInterface(start_interface=False)
-cs_procs = electron_scattering_cross_section_template.proc_dict
-csr_procs = electron_scattering_cross_section_ratio_template.proc_dict
+    by_quant_dfs = pd.concat(by_quant_dfs)
+    by_quant_dfs.to_csv('./cross_sections.csv', index=False)
 
-for i, row in by_quant_dfs.iterrows():
+    # Remove previous data as we will be adding suffixes instead of replacing old data
+    Path(f'./{electron_scattering_cross_section_template.name}.json').unlink(missing_ok=True)
+    Path(f'./{electron_scattering_cross_section_ratio_template.name}.json').unlink(missing_ok=True)
 
-    if row['Value'] is None:
-        continue
+    interface = DataEntryInterface(start_interface=False)
+    cs_procs = electron_scattering_cross_section_template.proc_dict
+    csr_procs = electron_scattering_cross_section_ratio_template.proc_dict
 
-    cs_values = {}
-    cs_values |= cs_procs['Reference'].process_data('frosch_electron_1968')
+    for i, row in by_quant_dfs.iterrows():
 
-    theta, nrg = row['theta'], row['Energy [MeV]']
-    theta = ufloat(theta, 1)
-    nrg_j = nrg * electron_volt * 10 ** 6
-    p_i = nrg_j / c  # Ultra-relativistic
-    q = 2 * p_i / hbar * sin(theta / 2 * pi / 180) * 10 ** -15  # in units of fm^-1
+        if row['Value'] is None:
+            continue
 
-    cs_values |= cs_procs['q [1/fm]'].process_data(str(q))
+        cs_values = {}
+        cs_values |= cs_procs['Reference'].process_data('frosch_electron_1968')
 
-    cs_values |= cs_procs['Energy [MeV]'].process_data(repr(nrg))
-    cs_values |= cs_procs['theta [deg]'].process_data(repr(theta))
+        theta, nrg_int = row['theta'], int(row['Energy [MeV]'])
+        _, theta_acceptance = angle_acceptance(row['Value'])
+        theta = ufloat(theta, theta_acceptance / 2)
+        nrg = nrg_int * ureg.MeV
+        p_i = nrg / (c * ureg.m / ureg.s)  # Ultra-relativistic
+        q = 2 * p_i / (hbar * ureg.J * ureg.s) * sin(theta / 2 * pi / 180)  # Neglecting nuclear mass
 
-    if 'D' in row['Quantity']:
-        cs_values |= csr_procs['Nuclide A'].process_data(row['Quantity'][2:6])
-        cs_values |= csr_procs['Nuclide B'].process_data(row['Quantity'][7:11])
-        cs_values |= csr_procs['q [1/fm]'].process_data(repr(q))
+        cs_values |= cs_procs['q [1/fm]'].process_data(str(q.to('1/fm').m))
 
-        dratio = row['Value']
-        dratio, angular_acceptance = angle_acceptance(dratio)
-        dratio = convert_value(dratio) / 100  # convert from percent
-        ratio = (1 - dratio) / (1 + dratio)
+        cs_values |= cs_procs['Energy [MeV]'].process_data(str(nrg.to('MeV').m))
+        cs_values |= cs_procs['theta [deg]'].process_data(str(theta))
 
-        cs_values |= csr_procs['Cross section ratio (A/B) [-]'].process_data(repr(ratio))
-        cs_values |= cs_procs['Notes'].process_data(f'Angular acceptance: {angular_acceptance:0.2f}')
+        if 'D' in row['Quantity']:
+            cs_values |= csr_procs['Nuclide A'].process_data(row['Quantity'][2:6])
+            cs_values |= csr_procs['Nuclide B'].process_data(row['Quantity'][7:11])
+            cs_values |= csr_procs['q [1/fm]'].process_data(str(q.to('1/fm').m))
 
-        interface.save_data(electron_scattering_cross_section_ratio_template, cs_values,
-                            replacement_strategy='Suffix')
+            dratio = row['Value']
+            dratio, angular_acceptance = angle_acceptance(dratio)
+            dratio = convert_value(dratio) / 100  # convert from percent
+            ratio = (1 - dratio) / (1 + dratio)
 
-    else:
-        cs_values |= cs_procs['Nuclide'].process_data(row['Quantity'])
+            cs_values |= csr_procs['Cross section ratio (A/B) [-]'].process_data(str(ratio))
+            cs_values |= cs_procs['Notes'].process_data(f'Angular acceptance: {angular_acceptance:0.2f} degrees.')
 
-        cs = row['Value']
-        cs, angular_acceptance = angle_acceptance(cs)
-        cs = convert_value(cs)
-        cs /= 10000  # microbarn to fm^2 conversion
-        cs_values |= cs_procs['Cross section [fm^2/sr]'].process_data(repr(cs))
+            interface.save_data(electron_scattering_cross_section_ratio_template, cs_values,
+                                replacement_strategy='Suffix')
 
-        cs_values |= cs_procs['Notes'].process_data(f'Angular acceptance: {angular_acceptance:0.2f}')
+        else:
+            cs_values |= cs_procs['Nuclide'].process_data(row['Quantity'])
 
-        interface.save_data(electron_scattering_cross_section_template, cs_values,
-                            replacement_strategy='Suffix')
+            cs = row['Value']
+            cs, angular_acceptance = angle_acceptance(cs)
+            cs = convert_value(cs) * ureg('microbarn/sr')
+            cs_values |= cs_procs['Cross section [fm^2/sr]'].process_data(str(cs.to('fm^2/sr').m))
+
+            cs_values |= cs_procs['Notes'].process_data(f'Angular acceptance: {angular_acceptance:0.2f} degrees.')
+
+            interface.save_data(electron_scattering_cross_section_template, cs_values,
+                                replacement_strategy='Suffix')

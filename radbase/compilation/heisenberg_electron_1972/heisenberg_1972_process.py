@@ -1,7 +1,8 @@
 import re
 
 import pandas as pd
-from scipy.constants import c, electron_volt, hbar, pi
+import pint
+from scipy.constants import atomic_mass, c, hbar, pi
 from uncertainties import ufloat, ufloat_fromstr
 from uncertainties.umath import sin
 
@@ -27,43 +28,60 @@ def convert_value(quantity_str):
     return value
 
 
-df198MeV = pd.read_csv('./cross_section_ratios_198MeV.csv')
-df299p5MeV = pd.read_csv('./cross_section_ratios_299p5MeV.csv')
+def calc_q(energy, angle, nuclear_mass_energy):
+    nu = 2 * energy / nuclear_mass_energy * sin(angle/2 * pi/180)
+    return ((nu * nuclear_mass_energy) / (1 + nu ** 2) ** 0.5 *
+            (1 + (nu**2 / 2) / (1 + nu ** 2 / (2 * energy / nuclear_mass_energy))) ** 0.5)
 
-interface = DataEntryInterface(start_interface=False)
-csr_procs = electron_scattering_cross_section_ratio_template.proc_dict
 
-for (df, nrg) in [(df198MeV, 198), (df299p5MeV, 299.5)]:
-    for col in df.columns:
-        if col == 'theta':
-            continue
+if __name__ == '__main__':
+    df198MeV = pd.read_csv('./cross_section_ratios_198MeV.csv')
+    df299p5MeV = pd.read_csv('./cross_section_ratios_299p5MeV.csv')
 
-        for i, row in df.iterrows():
+    ureg = pint.UnitRegistry()
 
-            if row[col] is None or row[col] in ['', '...']:
+    interface = DataEntryInterface(start_interface=False)
+    csr_procs = electron_scattering_cross_section_ratio_template.proc_dict
+
+    for (df, nrg_int) in [(df198MeV, 198), (df299p5MeV, 299.5)]:
+        for col in df.columns:
+            if col == 'theta':
                 continue
 
-            csr_values = {}
-            csr_values |= csr_procs['Reference'].process_data('heisenberg_electron_1972')
+            for i, row in df.iterrows():
 
-            theta = row['theta']
-            csr_values |= csr_procs['theta [deg]'].process_data(theta)
+                if row[col] is None or row[col] in ['', '...']:
+                    continue
 
-            nrg_j = nrg * electron_volt * 10 ** 6
-            p_i = nrg_j / c  # Ultra-relativistic
-            q = 2 * p_i / hbar * sin(float(theta) / 2 * pi / 180) * 10 ** -15  # in units of fm^-1
-            csr_values |= csr_procs['q [1/fm]'].process_data(str(q))
+                csr_values = {}
+                csr_values |= csr_procs['Reference'].process_data('heisenberg_electron_1972')
 
-            csr_values |= csr_procs['Energy [MeV]'].process_data(str(nrg))
+                theta = float(row['theta'])
+                if nrg_int == 198:
+                    theta = ufloat(theta, 0.9)
+                elif theta < 55.0:
+                    theta = ufloat(theta, 0.5)
+                else:
+                    theta = ufloat(theta, 0.9)
 
-            csr_values |= csr_procs['Nuclide A'].process_data(col[2:6])
-            csr_values |= csr_procs['Nuclide B'].process_data(col[7:11])
+                csr_values |= csr_procs['theta [deg]'].process_data(str(theta))
 
-            dratio = row[col]
-            dratio = convert_value(dratio) / 100  # convert from percent
-            ratio = (1 - dratio) / (1 + dratio)
+                nrg = nrg_int * ureg.MeV
+                p_i = nrg / (c * ureg.m / ureg.s)  # Ultra-relativistic
+                q = 2 * p_i / (hbar * ureg.J * ureg.s) * sin(theta / 2 * pi / 180)  # Neglecting nuclear mass
 
-            csr_values |= csr_procs['Cross section ratio (A/B) [-]'].process_data(str(ratio))
+                csr_values |= csr_procs['q [1/fm]'].process_data(f'{q.to('1/fm').m: 0.3f}')
 
-            interface.save_data(electron_scattering_cross_section_ratio_template, csr_values,
-                                replacement_strategy='AlwaysReplace')
+                csr_values |= csr_procs['Energy [MeV]'].process_data(str(nrg.to('MeV').m))
+
+                csr_values |= csr_procs['Nuclide A'].process_data(col[2:6])
+                csr_values |= csr_procs['Nuclide B'].process_data(col[7:11])
+
+                dratio = row[col]
+                dratio = convert_value(dratio) / 100  # convert from percent
+                ratio = (1 - dratio) / (1 + dratio)
+
+                csr_values |= csr_procs['Cross section ratio (A/B) [-]'].process_data(str(ratio))
+
+                interface.save_data(electron_scattering_cross_section_ratio_template, csr_values,
+                                    replacement_strategy='AlwaysReplace')

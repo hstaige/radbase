@@ -2,6 +2,7 @@ import json
 import re
 
 import pandas as pd
+import pint
 from scipy.constants import c, electron_volt, hbar, pi
 from uncertainties import ufloat, ufloat_fromstr
 from uncertainties.umath import sin
@@ -11,39 +12,6 @@ from radbase.data_entry import (
     charge_distribution_template,
     electron_scattering_cross_section_ratio_template,
     electron_scattering_cross_section_template)
-
-ENTER_CROSS_SECTIONS = True
-ENTER_CROSS_SECTION_RATIOS = True
-ENTER_FB_PARAMS = True
-ENTER_FB_DIFF_PARAMS = True
-
-interface = DataEntryInterface(start_interface=False)
-
-if ENTER_CROSS_SECTION_RATIOS:
-    df = pd.read_csv('./cross_section_ratios.csv')
-    csr_procs = electron_scattering_cross_section_ratio_template.proc_dict
-    for i, row in df.iterrows():
-
-        theta, nrg = row['theta'], row['Energy [MeV]']
-        nrg_j = nrg * electron_volt * 10 ** 6
-        p_i = nrg_j / c  # Ultra-relativistic
-        q = 2 * p_i / hbar * sin(theta / 2 * pi / 180) * 10 ** -15  # in units of fm^-1
-
-        for col in ['Cr52/Cr50', 'Cr54/Cr52', 'Cr54/Cr50']:
-            csr_values = {}
-
-            csr_values |= csr_procs['Reference'].process_data('lightbody_elastic_1983')
-            csr_values |= csr_procs['q [1/fm]'].process_data(str(q))
-            csr_values |= csr_procs['Energy [MeV]'].process_data(str(nrg))
-            csr_values |= csr_procs['theta [deg]'].process_data(row['theta'])
-
-            csr_values |= csr_procs['Nuclide A'].process_data(col[:4])
-            csr_values |= csr_procs['Nuclide B'].process_data(col[5:])
-
-            csr_values |= csr_procs['Cross section ratio (A/B) [-]'].process_data(row[col])
-
-            interface.save_data(electron_scattering_cross_section_ratio_template, csr_values,
-                                replacement_strategy='AlwaysReplace')
 
 
 def convert_value(quantity_str):
@@ -56,94 +24,133 @@ def convert_value(quantity_str):
     return value
 
 
-if ENTER_CROSS_SECTIONS:
-    cs_procs = electron_scattering_cross_section_template.proc_dict
-    for nuclide, df in [('Cr50', pd.read_csv('./cross_section_Cr50.csv')),
-                        ('Cr52', pd.read_csv('./cross_section_Cr52.csv')),
-                        ('Cr54', pd.read_csv('./cross_section_Cr54.csv'))]:
+if __name__ == '__main__':
 
-        df.ffill(inplace=True)
+    ureg = pint.UnitRegistry()
 
+    ENTER_CROSS_SECTIONS = True
+    ENTER_CROSS_SECTION_RATIOS = True
+    ENTER_FB_PARAMS = True
+    ENTER_FB_DIFF_PARAMS = True
+
+    interface = DataEntryInterface(start_interface=False)
+
+    if ENTER_CROSS_SECTION_RATIOS:
+        df = pd.read_csv('./cross_section_ratios.csv')
+        csr_procs = electron_scattering_cross_section_ratio_template.proc_dict
         for i, row in df.iterrows():
 
-            theta, nrg = row['theta'], row['Energy [MeV]']
+            theta, nrg_str = row['theta'], row['Energy [MeV]']
             theta = ufloat(theta, 1)
-            nrg_j = nrg * electron_volt * 10 ** 6
-            p_i = nrg_j / c  # Ultra-relativistic
-            q = 2 * p_i / hbar * sin(theta / 2 * pi / 180) * 10 ** -15  # in units of fm^-1
+            nrg = nrg_str * ureg.MeV
+            p_i = nrg / (c * ureg.m / ureg.s)  # Ultra-relativistic
+            q = 2 * p_i / (hbar * ureg.J * ureg.s) * sin(theta / 2 * pi / 180)  # Neglecting nuclear mass
 
-            cs_values = {}
+            for col in ['Cr52/Cr50', 'Cr54/Cr52', 'Cr54/Cr50']:
+                csr_values = {}
 
-            cs_values |= cs_procs['Reference'].process_data('lightbody_elastic_1983')
-            cs_values |= cs_procs['q [1/fm]'].process_data(str(q))
-            cs_values |= cs_procs['Energy [MeV]'].process_data(str(nrg))
-            cs_values |= cs_procs['theta [deg]'].process_data(row['theta'])
-            cs_values |= cs_procs['Nuclide'].process_data(nuclide)
+                csr_values |= csr_procs['Reference'].process_data('lightbody_elastic_1983')
+                csr_values |= csr_procs['q [1/fm]'].process_data(str(q.to('1/fm').m))
+                csr_values |= csr_procs['Energy [MeV]'].process_data(str(nrg.to('MeV').m))
+                csr_values |= csr_procs['theta [deg]'].process_data(str(theta))
 
-            cs = convert_value(row['cross_section']) / 10  # mb to fm^2
-            cs_values |= cs_procs['Cross section [fm^2/sr]'].process_data(str(cs))
+                csr_values |= csr_procs['Nuclide A'].process_data(col[:4])
+                csr_values |= csr_procs['Nuclide B'].process_data(col[5:])
 
-            interface.save_data(electron_scattering_cross_section_template, cs_values,
+                csr_values |= csr_procs['Cross section ratio (A/B) [-]'].process_data(row[col])
+
+                interface.save_data(electron_scattering_cross_section_ratio_template, csr_values,
+                                    replacement_strategy='AlwaysReplace')
+
+    if ENTER_CROSS_SECTIONS:
+        cs_procs = electron_scattering_cross_section_template.proc_dict
+        for nuclide, df in [('Cr50', pd.read_csv('./cross_section_Cr50.csv')),
+                            ('Cr52', pd.read_csv('./cross_section_Cr52.csv')),
+                            ('Cr54', pd.read_csv('./cross_section_Cr54.csv'))]:
+
+            df.ffill(inplace=True)
+
+            for i, row in df.iterrows():
+
+                theta, theta_accept, nrg_str = row['theta'], row['theta_acceptance'], row['Energy [MeV]']
+                theta_accept = float(theta_accept[1:])
+                theta = ufloat(theta, theta_accept)
+                nrg = nrg_str * ureg.MeV
+                p_i = nrg / (c * ureg.m / ureg.s)  # Ultra-relativistic
+                q = 2 * p_i / (hbar * ureg.J * ureg.s) * sin(theta / 2 * pi / 180)  # Neglecting nuclear mass
+
+                cs_values = {}
+
+                cs_values |= cs_procs['Reference'].process_data('lightbody_elastic_1983')
+                cs_values |= cs_procs['q [1/fm]'].process_data(str(q.to('1/fm').m))
+                cs_values |= cs_procs['Energy [MeV]'].process_data(str(nrg.to('MeV').m))
+                cs_values |= cs_procs['theta [deg]'].process_data(str(theta))
+                cs_values |= cs_procs['Nuclide'].process_data(nuclide)
+
+                cs = convert_value(row['cross_section']) / 10  # mb to fm^2
+                cs_values |= cs_procs['Cross section [fm^2/sr]'].process_data(str(cs))
+
+                interface.save_data(electron_scattering_cross_section_template, cs_values,
+                                    replacement_strategy='AlwaysReplace')
+
+    if ENTER_FB_PARAMS:
+        fb_df = pd.read_csv(r'fourier_bessel.csv')
+        cd_procs = charge_distribution_template.proc_dict
+
+        for (vi, ui) in [(3, 4), (7, 8), (11, 12)]:
+            nuclide = fb_df.columns[vi][:4]
+            print(nuclide)
+
+            cd_values = {}
+
+            cd_values |= cd_procs['Reference'].process_data('lightbody_elastic_1983')
+
+            with open('./Electron Scattering Cross Section.json', 'r') as f:
+                data = json.load(f)
+            scattering_keys = {key: True for key in data if nuclide in key}
+            cd_values |= cd_procs['Relies On'].process_data(scattering_keys)
+
+            cd_values |= cd_procs['Nuclide'].process_data(nuclide)
+
+            cd_pars = []
+            for i, row in enumerate(fb_df.iloc[:, [vi, ui]].itertuples()):
+                value, unc = row[1], row[2]
+                cd_pars.append(str(convert_value(str(value)+unc)))
+            r_cutoff = 9  # fm
+
+            cd_values |= cd_procs['Charge Distribution Parameters'].process_data({'cd': 'FourierBessel', 'cd_data': [r_cutoff, cd_pars]})
+
+            interface.save_data(charge_distribution_template, cd_values,
                                 replacement_strategy='AlwaysReplace')
 
-if ENTER_FB_PARAMS:
-    fb_df = pd.read_csv(r'fourier_bessel.csv')
-    cd_procs = charge_distribution_template.proc_dict
+    if ENTER_FB_DIFF_PARAMS:
+        fb_df = pd.read_csv(r'fourier_bessel_diffs.csv')
+        cd_procs = charge_distribution_difference_template.proc_dict
 
-    for (vi, ui) in [(3, 4), (7, 8), (11, 12)]:
-        nuclide = fb_df.columns[vi][:4]
-        print(nuclide)
+        for (vi, ui) in [(3, 4), (7, 8), (11, 12)]:
+            nuclideA = fb_df.columns[vi][:4]
+            nuclideB = fb_df.columns[vi][5:9]
 
-        cd_values = {}
+            cd_values = {}
 
-        cd_values |= cd_procs['Reference'].process_data('lightbody_elastic_1983')
+            cd_values |= cd_procs['Reference'].process_data('lightbody_elastic_1983')
 
-        with open('./Electron Scattering Cross Section.json', 'r') as f:
-            data = json.load(f)
-        scattering_keys = {key: True for key in data if nuclide in key}
-        cd_values |= cd_procs['Relies On'].process_data(scattering_keys)
+            with open('./Electron Scattering Cross Section Ratio.json', 'r') as f:
+                data = json.load(f)
+            scattering_keys = {key: True for key in data if nuclideA in key and nuclideB in key}
+            cd_values |= cd_procs['Relies On'].process_data(scattering_keys)
 
-        cd_values |= cd_procs['Nuclide'].process_data(nuclide)
+            cd_values |= cd_procs['Nuclide A'].process_data(nuclideA)
+            cd_values |= cd_procs['Nuclide B'].process_data(nuclideB)
 
-        cd_pars = []
-        for i, row in enumerate(fb_df.iloc[:, [vi, ui]].itertuples()):
-            value, unc = row[1], row[2]
-            cd_pars.append(str(convert_value(str(value)+unc)))
-        r_cutoff = 9  # fm
+            cd_pars = []
+            for i, row in enumerate(fb_df.iloc[:, [vi, ui]].itertuples()):
+                value, unc = row[1], row[2]
+                cd_pars.append(str(convert_value(str(value)+unc)))
+            r_cutoff = 9  # fm
 
-        cd_values |= cd_procs['Charge Distribution Parameters'].process_data({'cd': 'FourierBessel', 'cd_data': [r_cutoff, cd_pars]})
+            cd_values |= cd_procs['Difference of Charge ''Distribution Parameters (A-B)'].process_data(
+                {'cd': 'FourierBessel', 'cd_data': [r_cutoff, cd_pars]})
 
-        interface.save_data(charge_distribution_template, cd_values,
-                            replacement_strategy='AlwaysReplace')
-
-if ENTER_FB_DIFF_PARAMS:
-    fb_df = pd.read_csv(r'fourier_bessel_diffs.csv')
-    cd_procs = charge_distribution_difference_template.proc_dict
-
-    for (vi, ui) in [(3, 4), (7, 8), (11, 12)]:
-        nuclideA = fb_df.columns[vi][:4]
-        nuclideB = fb_df.columns[vi][5:9]
-
-        cd_values = {}
-
-        cd_values |= cd_procs['Reference'].process_data('lightbody_elastic_1983')
-
-        with open('./Electron Scattering Cross Section Ratio.json', 'r') as f:
-            data = json.load(f)
-        scattering_keys = {key: True for key in data if nuclideA in key and nuclideB in key}
-        cd_values |= cd_procs['Relies On'].process_data(scattering_keys)
-
-        cd_values |= cd_procs['Nuclide A'].process_data(nuclideA)
-        cd_values |= cd_procs['Nuclide B'].process_data(nuclideB)
-
-        cd_pars = []
-        for i, row in enumerate(fb_df.iloc[:, [vi, ui]].itertuples()):
-            value, unc = row[1], row[2]
-            cd_pars.append(str(convert_value(str(value)+unc)))
-        r_cutoff = 9  # fm
-
-        cd_values |= cd_procs['Difference of Charge ''Distribution Parameters (A-B)'].process_data(
-            {'cd': 'FourierBessel', 'cd_data': [r_cutoff, cd_pars]})
-
-        interface.save_data(charge_distribution_difference_template, cd_values,
-                            replacement_strategy='AlwaysReplace')
+            interface.save_data(charge_distribution_difference_template, cd_values,
+                                replacement_strategy='AlwaysReplace')

@@ -2,8 +2,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr50_q=1.520e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.152,
-            "Uncertainty": 0.0023
+            "Value": 0.15203192148469183,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 30.0,
@@ -11,7 +11,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -22,8 +22,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr50_q=1.774e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.1774,
-            "Uncertainty": 0.0027
+            "Value": 0.17737057506547382,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 35.0,
@@ -31,7 +31,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -42,8 +42,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr50_q=2.027e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.2027,
-            "Uncertainty": 0.0031
+            "Value": 0.20270922864625576,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 40.0,
@@ -51,7 +51,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -62,8 +62,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr50_q=2.280e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.228,
-            "Uncertainty": 0.0034
+            "Value": 0.22804788222703776,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 45.0,
@@ -71,7 +71,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -91,7 +91,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -111,7 +111,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -131,7 +131,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -151,7 +151,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -171,7 +171,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -191,7 +191,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -211,7 +211,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -231,7 +231,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -242,8 +242,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr50_q=2.633e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.2633,
-            "Uncertainty": 0.0013
+            "Value": 0.2633270123838087,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 30.0,
@@ -251,7 +251,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -262,8 +262,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr50_q=3.072e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.3072,
-            "Uncertainty": 0.0015
+            "Value": 0.30721484778111013,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 35.0,
@@ -271,7 +271,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -282,8 +282,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr50_q=3.511e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.3511,
-            "Uncertainty": 0.0018
+            "Value": 0.35110268317841153,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 40.0,
@@ -291,7 +291,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -302,8 +302,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr50_q=3.950e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.395,
-            "Uncertainty": 0.002
+            "Value": 0.394990518575713,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 45.0,
@@ -311,7 +311,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -322,8 +322,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr50_q=4.389e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.4389,
-            "Uncertainty": 0.0022
+            "Value": 0.4388783539730144,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 50.0,
@@ -331,7 +331,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -342,8 +342,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr50_q=4.828e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.4828,
-            "Uncertainty": 0.0024
+            "Value": 0.48276618937031585,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 55.0,
@@ -351,7 +351,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -362,8 +362,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr50_q=5.267e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.5267,
-            "Uncertainty": 0.0027
+            "Value": 0.5266540247676174,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 60.0,
@@ -371,7 +371,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -382,8 +382,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr50_q=5.705e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.5705,
-            "Uncertainty": 0.0029
+            "Value": 0.5705418601649188,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 65.0,
@@ -391,7 +391,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -402,8 +402,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr50_q=6.144e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.6144,
-            "Uncertainty": 0.0031
+            "Value": 0.6144296955622203,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 70.0,
@@ -411,7 +411,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -422,8 +422,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr50_q=6.583e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.6583,
-            "Uncertainty": 0.0033
+            "Value": 0.6583175309595217,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 75.0,
@@ -431,7 +431,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -442,8 +442,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr50_q=7.022e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.7022,
-            "Uncertainty": 0.0035
+            "Value": 0.7022053663568231,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 80.0,
@@ -451,7 +451,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -471,7 +471,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -483,7 +483,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.61,
-            "Uncertainty": 0.017
+            "Uncertainty": 0.005
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -491,7 +491,7 @@
         },
         "theta [deg]": {
             "Value": 35.0,
-            "Uncertainty": null
+            "Uncertainty": 0.3
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -503,7 +503,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.661,
-            "Uncertainty": 0.017
+            "Uncertainty": 0.005
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -511,7 +511,7 @@
         },
         "theta [deg]": {
             "Value": 38.05,
-            "Uncertainty": null
+            "Uncertainty": 0.3
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -523,7 +523,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.71,
-            "Uncertainty": 0.017
+            "Uncertainty": 0.005
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -531,7 +531,7 @@
         },
         "theta [deg]": {
             "Value": 41.0,
-            "Uncertainty": null
+            "Uncertainty": 0.3
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -543,7 +543,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.776,
-            "Uncertainty": 0.016
+            "Uncertainty": 0.005
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -551,7 +551,7 @@
         },
         "theta [deg]": {
             "Value": 45.0,
-            "Uncertainty": null
+            "Uncertainty": 0.3
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -563,7 +563,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.857,
-            "Uncertainty": 0.016
+            "Uncertainty": 0.006
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -571,7 +571,7 @@
         },
         "theta [deg]": {
             "Value": 50.0,
-            "Uncertainty": null
+            "Uncertainty": 0.4
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -583,7 +583,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.936,
-            "Uncertainty": 0.016
+            "Uncertainty": 0.006
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -591,7 +591,7 @@
         },
         "theta [deg]": {
             "Value": 55.0,
-            "Uncertainty": null
+            "Uncertainty": 0.4
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -603,7 +603,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.014,
-            "Uncertainty": 0.015
+            "Uncertainty": 0.006
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -611,7 +611,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.4
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -623,7 +623,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.089,
-            "Uncertainty": 0.015
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -631,7 +631,7 @@
         },
         "theta [deg]": {
             "Value": 65.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -643,7 +643,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.163,
-            "Uncertainty": 0.014
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -651,7 +651,7 @@
         },
         "theta [deg]": {
             "Value": 70.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -663,7 +663,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.234,
-            "Uncertainty": 0.014
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -671,7 +671,7 @@
         },
         "theta [deg]": {
             "Value": 75.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -683,7 +683,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.303,
-            "Uncertainty": 0.014
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -691,7 +691,7 @@
         },
         "theta [deg]": {
             "Value": 80.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -703,15 +703,15 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.37,
-            "Uncertainty": 0.013
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 200.0,
             "Uncertainty": null
         },
         "theta [deg]": {
-            "Value": 85.06,
-            "Uncertainty": null
+            "Value": 85.1,
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -723,7 +723,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.433,
-            "Uncertainty": 0.013
+            "Uncertainty": 0.011
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -731,7 +731,7 @@
         },
         "theta [deg]": {
             "Value": 90.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -743,7 +743,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.495,
-            "Uncertainty": 0.012
+            "Uncertainty": 0.011
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -751,7 +751,7 @@
         },
         "theta [deg]": {
             "Value": 95.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -763,7 +763,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.66,
-            "Uncertainty": 0.017
+            "Uncertainty": 0.005
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -771,7 +771,7 @@
         },
         "theta [deg]": {
             "Value": 38.0,
-            "Uncertainty": null
+            "Uncertainty": 0.3
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -783,7 +783,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.224,
-            "Uncertainty": 0.034
+            "Uncertainty": 0.03
         },
         "E [MeV]": {
             "Value": 401.6,
@@ -791,7 +791,7 @@
         },
         "theta [deg]": {
             "Value": 35.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -803,7 +803,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.392,
-            "Uncertainty": 0.033
+            "Uncertainty": 0.03
         },
         "E [MeV]": {
             "Value": 401.6,
@@ -811,7 +811,7 @@
         },
         "theta [deg]": {
             "Value": 40.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -823,7 +823,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.035,
-            "Uncertainty": 0.031
+            "Uncertainty": 0.028
         },
         "E [MeV]": {
             "Value": 401.6,
@@ -831,7 +831,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -843,7 +843,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.109,
-            "Uncertainty": 0.03
+            "Uncertainty": 0.027
         },
         "E [MeV]": {
             "Value": 401.6,
@@ -851,7 +851,7 @@
         },
         "theta [deg]": {
             "Value": 62.4,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -863,7 +863,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.261,
-            "Uncertainty": 0.03
+            "Uncertainty": 0.027
         },
         "E [MeV]": {
             "Value": 401.6,
@@ -871,7 +871,7 @@
         },
         "theta [deg]": {
             "Value": 67.5,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -891,7 +891,7 @@
         },
         "theta [deg]": {
             "Value": 72.5,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -903,7 +903,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.214,
-            "Uncertainty": 0.034
+            "Uncertainty": 0.03
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -911,7 +911,7 @@
         },
         "theta [deg]": {
             "Value": 35.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -931,7 +931,7 @@
         },
         "theta [deg]": {
             "Value": 37.5,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -943,7 +943,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.38,
-            "Uncertainty": 0.033
+            "Uncertainty": 0.04
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -951,7 +951,7 @@
         },
         "theta [deg]": {
             "Value": 40.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -963,7 +963,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.463,
-            "Uncertainty": 0.033
+            "Uncertainty": 0.035
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -971,7 +971,7 @@
         },
         "theta [deg]": {
             "Value": 42.5,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -983,7 +983,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.544,
-            "Uncertainty": 0.033
+            "Uncertainty": 0.035
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -991,7 +991,7 @@
         },
         "theta [deg]": {
             "Value": 45.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -1003,7 +1003,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.625,
-            "Uncertainty": 0.032
+            "Uncertainty": 0.035
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -1011,7 +1011,7 @@
         },
         "theta [deg]": {
             "Value": 47.5,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -1023,7 +1023,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.785,
-            "Uncertainty": 0.032
+            "Uncertainty": 0.034
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -1031,7 +1031,7 @@
         },
         "theta [deg]": {
             "Value": 52.5,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -1043,7 +1043,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.864,
-            "Uncertainty": 0.031
+            "Uncertainty": 0.034
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -1051,7 +1051,7 @@
         },
         "theta [deg]": {
             "Value": 55.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -1063,7 +1063,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.941,
-            "Uncertainty": 0.031
+            "Uncertainty": 0.033
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -1071,7 +1071,7 @@
         },
         "theta [deg]": {
             "Value": 57.5,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -1083,7 +1083,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.018,
-            "Uncertainty": 0.031
+            "Uncertainty": 0.033
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -1091,7 +1091,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -1103,7 +1103,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.094,
-            "Uncertainty": 0.03
+            "Uncertainty": 0.033
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -1111,7 +1111,7 @@
         },
         "theta [deg]": {
             "Value": 62.5,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -1123,7 +1123,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.169,
-            "Uncertainty": 0.03
+            "Uncertainty": 0.032
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -1131,7 +1131,7 @@
         },
         "theta [deg]": {
             "Value": 65.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -1143,7 +1143,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.315,
-            "Uncertainty": 0.029
+            "Uncertainty": 0.031
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -1151,7 +1151,7 @@
         },
         "theta [deg]": {
             "Value": 70.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -1163,7 +1163,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.457,
-            "Uncertainty": 0.028
+            "Uncertainty": 0.03
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -1171,7 +1171,7 @@
         },
         "theta [deg]": {
             "Value": 75.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -1183,7 +1183,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.594,
-            "Uncertainty": 0.027
+            "Uncertainty": 0.029
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -1191,7 +1191,7 @@
         },
         "theta [deg]": {
             "Value": 80.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr50",
         "Cross section [fm^2/sr]": {
@@ -1202,8 +1202,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr52_q=1.520e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.152,
-            "Uncertainty": 0.0023
+            "Value": 0.15203192148469183,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 30.0,
@@ -1211,7 +1211,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1222,8 +1222,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr52_q=1.774e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.1774,
-            "Uncertainty": 0.0027
+            "Value": 0.17737057506547382,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 35.0,
@@ -1231,7 +1231,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1242,8 +1242,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr52_q=2.027e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.2027,
-            "Uncertainty": 0.0031
+            "Value": 0.20270922864625576,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 40.0,
@@ -1251,7 +1251,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1262,8 +1262,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr52_q=2.280e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.228,
-            "Uncertainty": 0.0034
+            "Value": 0.22804788222703776,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 45.0,
@@ -1271,7 +1271,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1291,7 +1291,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1311,7 +1311,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1331,7 +1331,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1351,7 +1351,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1371,7 +1371,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1391,7 +1391,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1411,7 +1411,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1431,7 +1431,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1442,8 +1442,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr52_q=2.633e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.2633,
-            "Uncertainty": 0.0013
+            "Value": 0.2633270123838087,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 30.0,
@@ -1451,7 +1451,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1462,8 +1462,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr52_q=3.072e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.3072,
-            "Uncertainty": 0.0015
+            "Value": 0.30721484778111013,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 35.0,
@@ -1471,7 +1471,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1482,8 +1482,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr52_q=3.511e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.3511,
-            "Uncertainty": 0.0018
+            "Value": 0.35110268317841153,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 40.0,
@@ -1491,7 +1491,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1502,8 +1502,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr52_q=3.950e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.395,
-            "Uncertainty": 0.002
+            "Value": 0.394990518575713,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 45.0,
@@ -1511,7 +1511,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1522,8 +1522,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr52_q=4.389e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.4389,
-            "Uncertainty": 0.0022
+            "Value": 0.4388783539730144,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 50.0,
@@ -1531,7 +1531,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1542,8 +1542,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr52_q=4.828e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.4828,
-            "Uncertainty": 0.0024
+            "Value": 0.48276618937031585,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 55.0,
@@ -1551,7 +1551,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1562,8 +1562,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr52_q=5.267e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.5267,
-            "Uncertainty": 0.0027
+            "Value": 0.5266540247676174,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 60.0,
@@ -1571,7 +1571,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1582,8 +1582,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr52_q=5.705e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.5705,
-            "Uncertainty": 0.0029
+            "Value": 0.5705418601649188,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 65.0,
@@ -1591,7 +1591,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1602,8 +1602,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr52_q=6.144e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.6144,
-            "Uncertainty": 0.0031
+            "Value": 0.6144296955622203,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 70.0,
@@ -1611,7 +1611,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1622,8 +1622,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr52_q=6.583e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.6583,
-            "Uncertainty": 0.0033
+            "Value": 0.6583175309595217,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 75.0,
@@ -1631,7 +1631,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1642,8 +1642,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr52_q=7.022e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.7022,
-            "Uncertainty": 0.0035
+            "Value": 0.7022053663568231,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 80.0,
@@ -1651,7 +1651,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1671,7 +1671,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1683,7 +1683,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.61,
-            "Uncertainty": 0.017
+            "Uncertainty": 0.005
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -1691,7 +1691,7 @@
         },
         "theta [deg]": {
             "Value": 35.0,
-            "Uncertainty": null
+            "Uncertainty": 0.3
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1703,7 +1703,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.661,
-            "Uncertainty": 0.017
+            "Uncertainty": 0.005
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -1711,7 +1711,7 @@
         },
         "theta [deg]": {
             "Value": 38.05,
-            "Uncertainty": null
+            "Uncertainty": 0.3
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1723,7 +1723,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.71,
-            "Uncertainty": 0.017
+            "Uncertainty": 0.005
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -1731,7 +1731,7 @@
         },
         "theta [deg]": {
             "Value": 41.0,
-            "Uncertainty": null
+            "Uncertainty": 0.3
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1743,7 +1743,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.776,
-            "Uncertainty": 0.016
+            "Uncertainty": 0.005
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -1751,7 +1751,7 @@
         },
         "theta [deg]": {
             "Value": 45.0,
-            "Uncertainty": null
+            "Uncertainty": 0.3
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1763,7 +1763,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.857,
-            "Uncertainty": 0.016
+            "Uncertainty": 0.006
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -1771,7 +1771,7 @@
         },
         "theta [deg]": {
             "Value": 50.0,
-            "Uncertainty": null
+            "Uncertainty": 0.4
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1783,7 +1783,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.936,
-            "Uncertainty": 0.016
+            "Uncertainty": 0.006
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -1791,7 +1791,7 @@
         },
         "theta [deg]": {
             "Value": 55.0,
-            "Uncertainty": null
+            "Uncertainty": 0.4
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1803,7 +1803,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.014,
-            "Uncertainty": 0.015
+            "Uncertainty": 0.006
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -1811,7 +1811,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.4
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1823,7 +1823,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.089,
-            "Uncertainty": 0.015
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -1831,7 +1831,7 @@
         },
         "theta [deg]": {
             "Value": 65.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1843,7 +1843,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.163,
-            "Uncertainty": 0.014
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -1851,7 +1851,7 @@
         },
         "theta [deg]": {
             "Value": 70.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1863,7 +1863,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.234,
-            "Uncertainty": 0.014
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -1871,7 +1871,7 @@
         },
         "theta [deg]": {
             "Value": 75.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1883,7 +1883,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.303,
-            "Uncertainty": 0.014
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -1891,7 +1891,7 @@
         },
         "theta [deg]": {
             "Value": 80.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1903,15 +1903,15 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.37,
-            "Uncertainty": 0.013
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 200.0,
             "Uncertainty": null
         },
         "theta [deg]": {
-            "Value": 85.06,
-            "Uncertainty": null
+            "Value": 85.1,
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1923,7 +1923,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.433,
-            "Uncertainty": 0.013
+            "Uncertainty": 0.011
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -1931,7 +1931,7 @@
         },
         "theta [deg]": {
             "Value": 90.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1943,7 +1943,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.495,
-            "Uncertainty": 0.012
+            "Uncertainty": 0.011
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -1951,7 +1951,7 @@
         },
         "theta [deg]": {
             "Value": 95.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1963,7 +1963,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.66,
-            "Uncertainty": 0.017
+            "Uncertainty": 0.005
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -1971,7 +1971,7 @@
         },
         "theta [deg]": {
             "Value": 38.0,
-            "Uncertainty": null
+            "Uncertainty": 0.3
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -1983,7 +1983,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.224,
-            "Uncertainty": 0.034
+            "Uncertainty": 0.03
         },
         "E [MeV]": {
             "Value": 401.6,
@@ -1991,7 +1991,7 @@
         },
         "theta [deg]": {
             "Value": 35.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2003,7 +2003,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.392,
-            "Uncertainty": 0.033
+            "Uncertainty": 0.03
         },
         "E [MeV]": {
             "Value": 401.6,
@@ -2011,7 +2011,7 @@
         },
         "theta [deg]": {
             "Value": 40.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2031,7 +2031,7 @@
         },
         "theta [deg]": {
             "Value": 47.5,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2043,7 +2043,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.035,
-            "Uncertainty": 0.031
+            "Uncertainty": 0.028
         },
         "E [MeV]": {
             "Value": 401.6,
@@ -2051,7 +2051,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2063,7 +2063,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.112,
-            "Uncertainty": 0.03
+            "Uncertainty": 0.027
         },
         "E [MeV]": {
             "Value": 401.6,
@@ -2071,7 +2071,7 @@
         },
         "theta [deg]": {
             "Value": 62.5,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2091,7 +2091,7 @@
         },
         "theta [deg]": {
             "Value": 67.5,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2111,7 +2111,7 @@
         },
         "theta [deg]": {
             "Value": 72.5,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2131,7 +2131,7 @@
         },
         "theta [deg]": {
             "Value": 77.5,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2143,7 +2143,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.214,
-            "Uncertainty": 0.034
+            "Uncertainty": 0.03
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -2151,7 +2151,7 @@
         },
         "theta [deg]": {
             "Value": 35.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2171,7 +2171,7 @@
         },
         "theta [deg]": {
             "Value": 37.5,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2183,7 +2183,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.38,
-            "Uncertainty": 0.033
+            "Uncertainty": 0.04
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -2191,7 +2191,7 @@
         },
         "theta [deg]": {
             "Value": 40.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2203,7 +2203,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.463,
-            "Uncertainty": 0.033
+            "Uncertainty": 0.035
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -2211,7 +2211,7 @@
         },
         "theta [deg]": {
             "Value": 42.5,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2223,7 +2223,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.625,
-            "Uncertainty": 0.032
+            "Uncertainty": 0.035
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -2231,7 +2231,7 @@
         },
         "theta [deg]": {
             "Value": 47.5,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2243,7 +2243,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.706,
-            "Uncertainty": 0.032
+            "Uncertainty": 0.034
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -2251,7 +2251,7 @@
         },
         "theta [deg]": {
             "Value": 50.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2263,7 +2263,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.785,
-            "Uncertainty": 0.032
+            "Uncertainty": 0.034
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -2271,7 +2271,7 @@
         },
         "theta [deg]": {
             "Value": 52.5,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2283,7 +2283,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.864,
-            "Uncertainty": 0.031
+            "Uncertainty": 0.034
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -2291,7 +2291,7 @@
         },
         "theta [deg]": {
             "Value": 55.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2303,7 +2303,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.941,
-            "Uncertainty": 0.031
+            "Uncertainty": 0.033
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -2311,7 +2311,7 @@
         },
         "theta [deg]": {
             "Value": 57.5,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2323,7 +2323,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.018,
-            "Uncertainty": 0.031
+            "Uncertainty": 0.033
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -2331,7 +2331,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2343,7 +2343,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.094,
-            "Uncertainty": 0.03
+            "Uncertainty": 0.033
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -2351,7 +2351,7 @@
         },
         "theta [deg]": {
             "Value": 62.5,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2363,7 +2363,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.169,
-            "Uncertainty": 0.03
+            "Uncertainty": 0.032
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -2371,7 +2371,7 @@
         },
         "theta [deg]": {
             "Value": 65.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2383,7 +2383,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.315,
-            "Uncertainty": 0.029
+            "Uncertainty": 0.031
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -2391,7 +2391,7 @@
         },
         "theta [deg]": {
             "Value": 70.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2403,7 +2403,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.457,
-            "Uncertainty": 0.028
+            "Uncertainty": 0.03
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -2411,7 +2411,7 @@
         },
         "theta [deg]": {
             "Value": 75.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2423,7 +2423,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.594,
-            "Uncertainty": 0.027
+            "Uncertainty": 0.029
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -2431,7 +2431,7 @@
         },
         "theta [deg]": {
             "Value": 80.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr52",
         "Cross section [fm^2/sr]": {
@@ -2442,8 +2442,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr54_q=1.520e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.152,
-            "Uncertainty": 0.0023
+            "Value": 0.15203192148469183,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 30.0,
@@ -2451,7 +2451,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2462,8 +2462,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr54_q=1.774e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.1774,
-            "Uncertainty": 0.0027
+            "Value": 0.17737057506547382,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 35.0,
@@ -2471,7 +2471,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2482,8 +2482,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr54_q=2.027e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.2027,
-            "Uncertainty": 0.0031
+            "Value": 0.20270922864625576,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 40.0,
@@ -2491,7 +2491,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2502,8 +2502,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr54_q=2.280e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.228,
-            "Uncertainty": 0.0034
+            "Value": 0.22804788222703776,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 45.0,
@@ -2511,7 +2511,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2531,7 +2531,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2551,7 +2551,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2571,7 +2571,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2591,7 +2591,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2611,7 +2611,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2631,7 +2631,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2651,7 +2651,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2671,7 +2671,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2682,8 +2682,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr54_q=2.633e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.2633,
-            "Uncertainty": 0.0013
+            "Value": 0.2633270123838087,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 30.0,
@@ -2691,7 +2691,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2702,8 +2702,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr54_q=3.072e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.3072,
-            "Uncertainty": 0.0015
+            "Value": 0.30721484778111013,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 35.0,
@@ -2711,7 +2711,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2722,8 +2722,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr54_q=3.511e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.3511,
-            "Uncertainty": 0.0018
+            "Value": 0.35110268317841153,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 40.0,
@@ -2731,7 +2731,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2742,8 +2742,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr54_q=3.950e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.395,
-            "Uncertainty": 0.002
+            "Value": 0.394990518575713,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 45.0,
@@ -2751,7 +2751,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2762,8 +2762,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr54_q=4.389e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.4389,
-            "Uncertainty": 0.0022
+            "Value": 0.4388783539730144,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 50.0,
@@ -2771,7 +2771,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2782,8 +2782,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr54_q=4.828e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.4828,
-            "Uncertainty": 0.0024
+            "Value": 0.48276618937031585,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 55.0,
@@ -2791,7 +2791,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2802,8 +2802,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr54_q=5.267e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.5267,
-            "Uncertainty": 0.0027
+            "Value": 0.5266540247676174,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 60.0,
@@ -2811,7 +2811,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2822,8 +2822,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr54_q=5.705e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.5705,
-            "Uncertainty": 0.0029
+            "Value": 0.5705418601649188,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 65.0,
@@ -2831,7 +2831,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2842,8 +2842,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr54_q=6.144e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.6144,
-            "Uncertainty": 0.0031
+            "Value": 0.6144296955622203,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 70.0,
@@ -2851,7 +2851,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2862,8 +2862,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr54_q=6.583e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.6583,
-            "Uncertainty": 0.0033
+            "Value": 0.6583175309595217,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 75.0,
@@ -2871,7 +2871,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2882,8 +2882,8 @@
     "lightbody_elastic_1983_electroncrosssection_Cr54_q=7.022e-01": {
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
-            "Value": 0.7022,
-            "Uncertainty": 0.0035
+            "Value": 0.7022053663568231,
+            "Uncertainty": 0.0
         },
         "E [MeV]": {
             "Value": 80.0,
@@ -2891,7 +2891,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 0.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2911,7 +2911,7 @@
         },
         "theta [deg]": {
             "Value": 120.0,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2923,7 +2923,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.61,
-            "Uncertainty": 0.017
+            "Uncertainty": 0.005
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -2931,7 +2931,7 @@
         },
         "theta [deg]": {
             "Value": 35.0,
-            "Uncertainty": null
+            "Uncertainty": 0.3
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2943,7 +2943,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.661,
-            "Uncertainty": 0.017
+            "Uncertainty": 0.005
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -2951,7 +2951,7 @@
         },
         "theta [deg]": {
             "Value": 38.05,
-            "Uncertainty": null
+            "Uncertainty": 0.3
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2963,7 +2963,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.71,
-            "Uncertainty": 0.017
+            "Uncertainty": 0.005
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -2971,7 +2971,7 @@
         },
         "theta [deg]": {
             "Value": 41.0,
-            "Uncertainty": null
+            "Uncertainty": 0.3
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -2983,7 +2983,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.776,
-            "Uncertainty": 0.016
+            "Uncertainty": 0.005
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -2991,7 +2991,7 @@
         },
         "theta [deg]": {
             "Value": 45.0,
-            "Uncertainty": null
+            "Uncertainty": 0.3
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3003,7 +3003,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.857,
-            "Uncertainty": 0.016
+            "Uncertainty": 0.006
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -3011,7 +3011,7 @@
         },
         "theta [deg]": {
             "Value": 50.0,
-            "Uncertainty": null
+            "Uncertainty": 0.4
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3023,7 +3023,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.936,
-            "Uncertainty": 0.016
+            "Uncertainty": 0.006
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -3031,7 +3031,7 @@
         },
         "theta [deg]": {
             "Value": 55.0,
-            "Uncertainty": null
+            "Uncertainty": 0.4
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3043,7 +3043,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.014,
-            "Uncertainty": 0.015
+            "Uncertainty": 0.006
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -3051,7 +3051,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.4
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3063,7 +3063,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.089,
-            "Uncertainty": 0.015
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -3071,7 +3071,7 @@
         },
         "theta [deg]": {
             "Value": 65.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3083,7 +3083,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.163,
-            "Uncertainty": 0.014
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -3091,7 +3091,7 @@
         },
         "theta [deg]": {
             "Value": 70.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3103,7 +3103,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.234,
-            "Uncertainty": 0.014
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -3111,7 +3111,7 @@
         },
         "theta [deg]": {
             "Value": 75.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3123,7 +3123,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.303,
-            "Uncertainty": 0.014
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -3131,7 +3131,7 @@
         },
         "theta [deg]": {
             "Value": 80.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3143,15 +3143,15 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.37,
-            "Uncertainty": 0.013
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 200.0,
             "Uncertainty": null
         },
         "theta [deg]": {
-            "Value": 85.06,
-            "Uncertainty": null
+            "Value": 85.1,
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3163,7 +3163,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.433,
-            "Uncertainty": 0.013
+            "Uncertainty": 0.011
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -3171,7 +3171,7 @@
         },
         "theta [deg]": {
             "Value": 90.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3183,7 +3183,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.495,
-            "Uncertainty": 0.012
+            "Uncertainty": 0.011
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -3191,7 +3191,7 @@
         },
         "theta [deg]": {
             "Value": 95.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3203,7 +3203,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 0.66,
-            "Uncertainty": 0.017
+            "Uncertainty": 0.005
         },
         "E [MeV]": {
             "Value": 200.0,
@@ -3211,7 +3211,7 @@
         },
         "theta [deg]": {
             "Value": 38.0,
-            "Uncertainty": null
+            "Uncertainty": 0.3
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3223,7 +3223,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.224,
-            "Uncertainty": 0.034
+            "Uncertainty": 0.03
         },
         "E [MeV]": {
             "Value": 401.6,
@@ -3231,7 +3231,7 @@
         },
         "theta [deg]": {
             "Value": 35.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3243,7 +3243,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.392,
-            "Uncertainty": 0.033
+            "Uncertainty": 0.03
         },
         "E [MeV]": {
             "Value": 401.6,
@@ -3251,7 +3251,7 @@
         },
         "theta [deg]": {
             "Value": 40.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3271,7 +3271,7 @@
         },
         "theta [deg]": {
             "Value": 47.5,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3283,7 +3283,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.035,
-            "Uncertainty": 0.031
+            "Uncertainty": 0.028
         },
         "E [MeV]": {
             "Value": 401.6,
@@ -3291,7 +3291,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3303,7 +3303,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.109,
-            "Uncertainty": 0.03
+            "Uncertainty": 0.027
         },
         "E [MeV]": {
             "Value": 401.6,
@@ -3311,7 +3311,7 @@
         },
         "theta [deg]": {
             "Value": 62.4,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3331,7 +3331,7 @@
         },
         "theta [deg]": {
             "Value": 67.5,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3351,7 +3351,7 @@
         },
         "theta [deg]": {
             "Value": 72.5,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3371,7 +3371,7 @@
         },
         "theta [deg]": {
             "Value": 77.4,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3383,7 +3383,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.214,
-            "Uncertainty": 0.034
+            "Uncertainty": 0.03
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -3391,7 +3391,7 @@
         },
         "theta [deg]": {
             "Value": 35.0,
-            "Uncertainty": null
+            "Uncertainty": 0.9
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3411,7 +3411,7 @@
         },
         "theta [deg]": {
             "Value": 37.5,
-            "Uncertainty": null
+            "Uncertainty": 1.0
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3423,7 +3423,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.38,
-            "Uncertainty": 0.033
+            "Uncertainty": 0.04
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -3431,7 +3431,7 @@
         },
         "theta [deg]": {
             "Value": 40.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3443,7 +3443,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.463,
-            "Uncertainty": 0.033
+            "Uncertainty": 0.035
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -3451,7 +3451,7 @@
         },
         "theta [deg]": {
             "Value": 42.5,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3463,7 +3463,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.625,
-            "Uncertainty": 0.032
+            "Uncertainty": 0.035
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -3471,7 +3471,7 @@
         },
         "theta [deg]": {
             "Value": 47.5,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3483,7 +3483,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.785,
-            "Uncertainty": 0.032
+            "Uncertainty": 0.034
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -3491,7 +3491,7 @@
         },
         "theta [deg]": {
             "Value": 52.5,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3503,7 +3503,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.864,
-            "Uncertainty": 0.031
+            "Uncertainty": 0.034
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -3511,7 +3511,7 @@
         },
         "theta [deg]": {
             "Value": 55.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3523,7 +3523,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 1.941,
-            "Uncertainty": 0.031
+            "Uncertainty": 0.033
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -3531,7 +3531,7 @@
         },
         "theta [deg]": {
             "Value": 57.5,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3543,7 +3543,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.018,
-            "Uncertainty": 0.031
+            "Uncertainty": 0.033
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -3551,7 +3551,7 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3563,7 +3563,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.094,
-            "Uncertainty": 0.03
+            "Uncertainty": 0.033
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -3571,7 +3571,7 @@
         },
         "theta [deg]": {
             "Value": 62.5,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3583,7 +3583,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.169,
-            "Uncertainty": 0.03
+            "Uncertainty": 0.032
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -3591,7 +3591,7 @@
         },
         "theta [deg]": {
             "Value": 65.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3603,7 +3603,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.315,
-            "Uncertainty": 0.029
+            "Uncertainty": 0.031
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -3611,7 +3611,7 @@
         },
         "theta [deg]": {
             "Value": 70.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3623,7 +3623,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.457,
-            "Uncertainty": 0.028
+            "Uncertainty": 0.03
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -3631,7 +3631,7 @@
         },
         "theta [deg]": {
             "Value": 75.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
@@ -3643,7 +3643,7 @@
         "Reference": "lightbody_elastic_1983",
         "q [1/fm]": {
             "Value": 2.594,
-            "Uncertainty": 0.027
+            "Uncertainty": 0.029
         },
         "E [MeV]": {
             "Value": 398.2,
@@ -3651,12 +3651,612 @@
         },
         "theta [deg]": {
             "Value": 80.0,
-            "Uncertainty": null
+            "Uncertainty": 1.1
         },
         "Nuclide": "Cr54",
         "Cross section [fm^2/sr]": {
             "Value": 3.1000000000000005e-09,
             "Uncertainty": 1.5000000000000002e-09
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr50_q=2.534e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.2533865358078197,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 50.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr50",
+        "Cross section [fm^2/sr]": {
+            "Value": 1.208,
+            "Uncertainty": 0.01
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr50_q=2.787e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.2787251893886017,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 55.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr50",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.927,
+            "Uncertainty": 0.007
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr50_q=3.041e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.30406384296938366,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 60.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr50",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.709,
+            "Uncertainty": 0.005
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr50_q=3.294e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.3294024965501657,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 65.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr50",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.558,
+            "Uncertainty": 0.004
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr50_q=3.547e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.35474115013094765,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 70.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr50",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.4355,
+            "Uncertainty": 0.0033
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr50_q=3.801e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.3800798037117296,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 75.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr50",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.3382,
+            "Uncertainty": 0.0025
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr50_q=4.054e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.4054184572925115,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 80.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr50",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.2702,
+            "Uncertainty": 0.0023
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr50_q=4.308e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.43075711087329355,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 85.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr50",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.2121,
+            "Uncertainty": 0.0017
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr50_q=7.461e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.7460932017541246,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 85.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 120.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr50",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.000647,
+            "Uncertainty": 5e-06
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr50_q=1.300e+00": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 1.3,
+            "Uncertainty": 0.04
+        },
+        "E [MeV]": {
+            "Value": 398.2,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 37.5,
+            "Uncertainty": 1.1
+        },
+        "Nuclide": "Cr50",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.000322,
+            "Uncertainty": 1.4e-05
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr52_q=2.534e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.2533865358078197,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 50.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr52",
+        "Cross section [fm^2/sr]": {
+            "Value": 1.219,
+            "Uncertainty": 0.011
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr52_q=2.787e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.2787251893886017,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 55.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr52",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.93,
+            "Uncertainty": 0.009
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr52_q=3.041e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.30406384296938366,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 60.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr52",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.72,
+            "Uncertainty": 0.007
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr52_q=3.294e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.3294024965501657,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 65.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr52",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.557,
+            "Uncertainty": 0.006
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr52_q=3.547e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.35474115013094765,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 70.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr52",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.438,
+            "Uncertainty": 0.004
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr52_q=3.801e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.3800798037117296,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 75.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr52",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.3402,
+            "Uncertainty": 0.003
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr52_q=4.054e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.4054184572925115,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 80.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr52",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.2716,
+            "Uncertainty": 0.003
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr52_q=4.308e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.43075711087329355,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 85.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr52",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.2136,
+            "Uncertainty": 0.0021
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr52_q=7.461e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.7460932017541246,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 85.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 120.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr52",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.000664,
+            "Uncertainty": 8e-06
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr52_q=1.300e+00": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 1.3,
+            "Uncertainty": 0.04
+        },
+        "E [MeV]": {
+            "Value": 398.2,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 37.5,
+            "Uncertainty": 1.1
+        },
+        "Nuclide": "Cr52",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.000384,
+            "Uncertainty": 1.5e-05
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr54_q=2.534e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.2533865358078197,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 50.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr54",
+        "Cross section [fm^2/sr]": {
+            "Value": 1.205,
+            "Uncertainty": 0.009
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr54_q=2.787e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.2787251893886017,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 55.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr54",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.919,
+            "Uncertainty": 0.008
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr54_q=3.041e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.30406384296938366,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 60.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr54",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.706,
+            "Uncertainty": 0.006
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr54_q=3.294e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.3294024965501657,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 65.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr54",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.551,
+            "Uncertainty": 0.004
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr54_q=3.547e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.35474115013094765,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 70.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr54",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.4296,
+            "Uncertainty": 0.0035
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr54_q=3.801e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.3800798037117296,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 75.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr54",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.3337,
+            "Uncertainty": 0.0025
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr54_q=4.054e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.4054184572925115,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 80.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr54",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.2666,
+            "Uncertainty": 0.002
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr54_q=4.308e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.43075711087329355,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 85.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 60.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr54",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.2082,
+            "Uncertainty": 0.0016
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr54_q=7.461e-01": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 0.7460932017541246,
+            "Uncertainty": 0.0
+        },
+        "E [MeV]": {
+            "Value": 85.0,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 120.0,
+            "Uncertainty": 0.0
+        },
+        "Nuclide": "Cr54",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.000597,
+            "Uncertainty": 5e-06
+        }
+    },
+    "lightbody_elastic_1983_electroncrosssection_Cr54_q=1.300e+00": {
+        "Reference": "lightbody_elastic_1983",
+        "q [1/fm]": {
+            "Value": 1.3,
+            "Uncertainty": 0.04
+        },
+        "E [MeV]": {
+            "Value": 398.2,
+            "Uncertainty": null
+        },
+        "theta [deg]": {
+            "Value": 37.5,
+            "Uncertainty": 1.1
+        },
+        "Nuclide": "Cr54",
+        "Cross section [fm^2/sr]": {
+            "Value": 0.000338,
+            "Uncertainty": 1.3e-05
         }
     }
 }

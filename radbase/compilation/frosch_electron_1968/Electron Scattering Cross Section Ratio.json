@@ -1,9 +1,9 @@
 {
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=6.984e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=6.980e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.6984279472969682,
-            "Uncertainty": 0.021255559589947286
+            "Value": 0.698,
+            "Uncertainty": 0.004
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -11,21 +11,21 @@
         },
         "theta [deg]": {
             "Value": 32.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.18
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9782393669634026,
-            "Uncertainty": 0.01956715496501882
+            "Value": 0.978,
+            "Uncertainty": 0.02
         },
-        "Notes": "Angular acceptance: 0.36"
+        "Notes": "Angular acceptance: 0.36 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=6.984e-01_a": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=6.980e-01_a": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.6984279472969682,
-            "Uncertainty": 0.021255559589947286
+            "Value": 0.698,
+            "Uncertainty": 0.01
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -33,21 +33,21 @@
         },
         "theta [deg]": {
             "Value": 32.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.5
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9743336623889438,
-            "Uncertainty": 0.0194899670522107
+            "Value": 0.974,
+            "Uncertainty": 0.019
         },
-        "Notes": "Angular acceptance: 0.90"
+        "Notes": "Angular acceptance: 0.90 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=7.619e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=7.620e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.7619480083370856,
-            "Uncertainty": 0.021088729077864483
+            "Value": 0.762,
+            "Uncertainty": 0.004
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -55,21 +55,21 @@
         },
         "theta [deg]": {
             "Value": 35.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.18
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9900497512437811,
-            "Uncertainty": 0.01980149006212718
+            "Value": 0.99,
+            "Uncertainty": 0.02
         },
-        "Notes": "Angular acceptance: 0.36"
+        "Notes": "Angular acceptance: 0.36 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=7.619e-01_a": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=7.620e-01_a": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.7619480083370856,
-            "Uncertainty": 0.021088729077864483
+            "Value": 0.762,
+            "Uncertainty": 0.009
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -77,21 +77,21 @@
         },
         "theta [deg]": {
             "Value": 35.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.5
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9065776930409915,
-            "Uncertainty": 0.027262788747011317
+            "Value": 0.907,
+            "Uncertainty": 0.027
         },
-        "Notes": "Angular acceptance: 0.90"
+        "Notes": "Angular acceptance: 0.90 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=7.619e-01_b": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=7.620e-01_b": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.7619480083370856,
-            "Uncertainty": 0.021088729077864483
+            "Value": 0.762,
+            "Uncertainty": 0.004
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -99,21 +99,21 @@
         },
         "theta [deg]": {
             "Value": 35.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.18
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9860973187686197,
-            "Uncertainty": 0.019722912798099505
+            "Value": 0.986,
+            "Uncertainty": 0.02
         },
-        "Notes": "Angular acceptance: 0.36"
+        "Notes": "Angular acceptance: 0.36 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=8.145e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=8.140e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.81448432585086,
-            "Uncertainty": 0.020938657891025794
+            "Value": 0.814,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -121,21 +121,21 @@
         },
         "theta [deg]": {
             "Value": 37.5,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9436345966958213,
-            "Uncertainty": 0.02644400811831049
+            "Value": 0.944,
+            "Uncertainty": 0.026
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=8.145e-01_a": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=8.140e-01_a": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.81448432585086,
-            "Uncertainty": 0.020938657891025794
+            "Value": 0.814,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -143,21 +143,21 @@
         },
         "theta [deg]": {
             "Value": 37.5,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.937984496124031,
-            "Uncertainty": 0.01877891953608557
+            "Value": 0.938,
+            "Uncertainty": 0.019
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=8.666e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=8.670e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.8666329929378521,
-            "Uncertainty": 0.020778621037064876
+            "Value": 0.867,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -165,21 +165,21 @@
         },
         "theta [deg]": {
             "Value": 40.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8867924528301886,
-            "Uncertainty": 0.026699893200427195
+            "Value": 0.887,
+            "Uncertainty": 0.027
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=9.081e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=9.080e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.9080561327983517,
-            "Uncertainty": 0.020643467300597594
+            "Value": 0.908,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -187,21 +187,21 @@
         },
         "theta [deg]": {
             "Value": 42.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9065776930409915,
-            "Uncertainty": 0.018175192498007545
+            "Value": 0.907,
+            "Uncertainty": 0.018
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=9.492e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=9.490e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.9492026699642637,
-            "Uncertainty": 0.020502025364012796
+            "Value": 0.949,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -209,21 +209,21 @@
         },
         "theta [deg]": {
             "Value": 44.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8248175182481752,
-            "Uncertainty": 0.016649794874527144
+            "Value": 0.825,
+            "Uncertainty": 0.017
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=9.901e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=9.900e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.9900600708017718,
-            "Uncertainty": 0.02035433831189453
+            "Value": 0.99,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -231,21 +231,21 @@
         },
         "theta [deg]": {
             "Value": 46.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8315018315018314,
-            "Uncertainty": 0.016771994793972816
+            "Value": 0.832,
+            "Uncertainty": 0.017
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=9.901e-01_a": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=9.900e-01_a": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.9900600708017718,
-            "Uncertainty": 0.02035433831189453
+            "Value": 0.99,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -253,21 +253,21 @@
         },
         "theta [deg]": {
             "Value": 46.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.7905102954341987,
-            "Uncertainty": 0.02244148982639103
+            "Value": 0.791,
+            "Uncertainty": 0.022
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.010e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.010376452315617,
-            "Uncertainty": 0.020278166851979997
+            "Value": 1.01,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -275,21 +275,21 @@
         },
         "theta [deg]": {
             "Value": 47.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8148820326678765,
-            "Uncertainty": 0.021409679151254444
+            "Value": 0.815,
+            "Uncertainty": 0.021
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.031e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.0306158897507864,
-            "Uncertainty": 0.020200451131149568
+            "Value": 1.031,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -297,21 +297,21 @@
         },
         "theta [deg]": {
             "Value": 48.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.7921146953405017,
-            "Uncertainty": 0.016058375406276894
+            "Value": 0.792,
+            "Uncertainty": 0.016
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.051e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.0507768417957601,
-            "Uncertainty": 0.020121197067756273
+            "Value": 1.051,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -319,21 +319,21 @@
         },
         "theta [deg]": {
             "Value": 49.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.7730496453900708,
-            "Uncertainty": 0.020434082792616062
+            "Value": 0.773,
+            "Uncertainty": 0.02
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.071e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.0708577731159827,
-            "Uncertainty": 0.02004041069730389
+            "Value": 1.071,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -341,21 +341,21 @@
         },
         "theta [deg]": {
             "Value": 50.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.7969451931716083,
-            "Uncertainty": 0.019374072163575295
+            "Value": 0.797,
+            "Uncertainty": 0.019
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.071e+00_a": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.0708577731159827,
-            "Uncertainty": 0.02004041069730389
+            "Value": 1.071,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -363,21 +363,21 @@
         },
         "theta [deg]": {
             "Value": 50.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.7937219730941704,
-            "Uncertainty": 0.01608719258380422
+            "Value": 0.794,
+            "Uncertainty": 0.016
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.091e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.0908571544707881,
-            "Uncertainty": 0.019958098171987303
+            "Value": 1.091,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -385,21 +385,21 @@
         },
         "theta [deg]": {
             "Value": 51.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8604651162790699,
-            "Uncertainty": 0.017306652244456464
+            "Value": 0.86,
+            "Uncertainty": 0.017
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.111e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.1107734628298558,
-            "Uncertainty": 0.019874265760223997
+            "Value": 1.111,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -407,21 +407,21 @@
         },
         "theta [deg]": {
             "Value": 52.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.0060180541624875,
-            "Uncertainty": 0.02012054216812926
+            "Value": 1.006,
+            "Uncertainty": 0.02
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.131e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.1306051814891944,
-            "Uncertainty": 0.019788919846176704
+            "Value": 1.131,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -429,21 +429,21 @@
         },
         "theta [deg]": {
             "Value": 53.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.0964360587002098,
-            "Uncertainty": 0.021975220741092347
+            "Value": 1.096,
+            "Uncertainty": 0.022
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.150e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.1503508001866465,
-            "Uncertainty": 0.01970206692926721
+            "Value": 1.15,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -451,21 +451,21 @@
         },
         "theta [deg]": {
             "Value": 54.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.296211251435132,
-            "Uncertainty": 0.0500895680565643
+            "Value": 1.3,
+            "Uncertainty": 0.05
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.150e+00_a": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.1503508001866465,
-            "Uncertainty": 0.01970206692926721
+            "Value": 1.15,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -473,21 +473,21 @@
         },
         "theta [deg]": {
             "Value": 54.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.3041474654377883,
-            "Uncertainty": 0.04247276433986707
+            "Value": 1.3,
+            "Uncertainty": 0.04
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.170e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.1700088152169004,
-            "Uncertainty": 0.019613713623681386
+            "Value": 1.17,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -495,21 +495,21 @@
         },
         "theta [deg]": {
             "Value": 55.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.4271844660194175,
-            "Uncertainty": 0.061857856536902636
+            "Value": 1.43,
+            "Uncertainty": 0.06
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.190e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.1895777295460024,
-            "Uncertainty": 0.01952386665786555
+            "Value": 1.19,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -517,21 +517,21 @@
         },
         "theta [deg]": {
             "Value": 56.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.4906600249066002,
-            "Uncertainty": 0.052728792557175844
+            "Value": 1.49,
+            "Uncertainty": 0.05
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.228e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.2284423020052397,
-            "Uncertainty": 0.01933971922754796
+            "Value": 1.228,
+            "Uncertainty": 0.017
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -539,21 +539,21 @@
         },
         "theta [deg]": {
             "Value": 58.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.631578947368421,
-            "Uncertainty": 0.05886426592797784
+            "Value": 1.63,
+            "Uncertainty": 0.06
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.228e+00_a": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.2284423020052397,
-            "Uncertainty": 0.01933971922754796
+            "Value": 1.228,
+            "Uncertainty": 0.017
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -561,21 +561,21 @@
         },
         "theta [deg]": {
             "Value": 58.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.5412960609911055,
-            "Uncertainty": 0.071040042365698
+            "Value": 1.54,
+            "Uncertainty": 0.07
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.267e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.2669326790390987,
-            "Uncertainty": 0.0191496807314056
+            "Value": 1.267,
+            "Uncertainty": 0.017
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -583,21 +583,21 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.5839793281653747,
-            "Uncertainty": 0.05675406793128084
+            "Value": 1.58,
+            "Uncertainty": 0.06
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.305e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.3050371361058701,
-            "Uncertainty": 0.01895380905700533
+            "Value": 1.305,
+            "Uncertainty": 0.017
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -605,21 +605,21 @@
         },
         "theta [deg]": {
             "Value": 62.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.4906600249066002,
-            "Uncertainty": 0.0465254051975081
+            "Value": 1.49,
+            "Uncertainty": 0.05
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.343e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.3427440662188048,
-            "Uncertainty": 0.01875216386875662
+            "Value": 1.343,
+            "Uncertainty": 0.017
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -627,21 +627,21 @@
         },
         "theta [deg]": {
             "Value": 64.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.4660912453760788,
-            "Uncertainty": 0.045612045228904045
+            "Value": 1.47,
+            "Uncertainty": 0.05
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.417e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.416919526587691,
-            "Uncertainty": 0.01833180038298297
+            "Value": 1.417,
+            "Uncertainty": 0.016
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -649,21 +649,21 @@
         },
         "theta [deg]": {
             "Value": 68.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.3866348448687351,
-            "Uncertainty": 0.042720194120562084
+            "Value": 1.39,
+            "Uncertainty": 0.04
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.489e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.4893686887731512,
-            "Uncertainty": 0.01788910242224003
+            "Value": 1.489,
+            "Uncertainty": 0.016
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -671,21 +671,21 @@
         },
         "theta [deg]": {
             "Value": 72.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.2988505747126435,
-            "Uncertainty": 0.03435064077156824
+            "Value": 1.299,
+            "Uncertainty": 0.034
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.560e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.5600032846310004,
-            "Uncertainty": 0.01742460934580058
+            "Value": 1.56,
+            "Uncertainty": 0.016
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -693,21 +693,21 @@
         },
         "theta [deg]": {
             "Value": 76.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.2753128555176336,
-            "Uncertainty": 0.03882786442862857
+            "Value": 1.28,
+            "Uncertainty": 0.04
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.629e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.6287372567866116,
-            "Uncertainty": 0.016938887066928577
+            "Value": 1.629,
+            "Uncertainty": 0.015
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -715,21 +715,21 @@
         },
         "theta [deg]": {
             "Value": 80.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.1551724137931036,
-            "Uncertainty": 0.034835760998810944
+            "Value": 1.155,
+            "Uncertainty": 0.035
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.712e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.711854623334179,
-            "Uncertainty": 0.01630278459352114
+            "Value": 1.712,
+            "Uncertainty": 0.015
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -737,21 +737,21 @@
         },
         "theta [deg]": {
             "Value": 85.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.1008403361344539,
-            "Uncertainty": 0.030894710825506676
+            "Value": 1.101,
+            "Uncertainty": 0.031
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.792e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.7917133773107732,
-            "Uncertainty": 0.01563564884305023
+            "Value": 1.792,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -759,21 +759,21 @@
         },
         "theta [deg]": {
             "Value": 90.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9665683382497543,
-            "Uncertainty": 0.038673910290064
+            "Value": 0.97,
+            "Uncertainty": 0.04
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.868e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.868161503039325,
-            "Uncertainty": 0.014938749746334384
+            "Value": 1.868,
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -781,21 +781,21 @@
         },
         "theta [deg]": {
             "Value": 95.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.6963528413910093,
-            "Uncertainty": 0.04316419443743026
+            "Value": 0.7,
+            "Uncertainty": 0.04
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.941e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.9410534771674826,
-            "Uncertainty": 0.014213413890413367
+            "Value": 1.941,
+            "Uncertainty": 0.013
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -803,21 +803,21 @@
         },
         "theta [deg]": {
             "Value": 100.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.5125628140703515,
-            "Uncertainty": 0.3787783136789475
+            "Value": 1.5,
+            "Uncertainty": 0.4
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.010e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 2.0102505456795847,
-            "Uncertainty": 0.013461021993314311
+            "Value": 2.01,
+            "Uncertainty": 0.012
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -825,21 +825,21 @@
         },
         "theta [deg]": {
             "Value": 105.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 3.228329809725159,
-            "Uncertainty": 0.9833325138895719
+            "Value": 3.2,
+            "Uncertainty": 1.0
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.076e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 2.075620988022814,
-            "Uncertainty": 0.012683006275776504
+            "Value": 2.076,
+            "Uncertainty": 0.011
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -847,21 +847,21 @@
         },
         "theta [deg]": {
             "Value": 110.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.6666666666666667,
-            "Uncertainty": 0.28444444444444444
+            "Value": 1.67,
+            "Uncertainty": 0.28
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.137e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 2.1370403678447563,
-            "Uncertainty": 0.011880847734937807
+            "Value": 2.137,
+            "Uncertainty": 0.011
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -869,21 +869,21 @@
         },
         "theta [deg]": {
             "Value": 115.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 2.9138943248532287,
-            "Uncertainty": 0.9957069710976905
+            "Value": 2.9,
+            "Uncertainty": 1.0
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.248e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 2.247566022430375,
-            "Uncertainty": 0.010210253051446426
+            "Value": 2.248,
+            "Uncertainty": 0.009
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -891,21 +891,21 @@
         },
         "theta [deg]": {
             "Value": 125.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.8735632183908049,
-            "Uncertainty": 0.45415510635486855
+            "Value": 1.9,
+            "Uncertainty": 0.5
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=6.984e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=6.980e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.6984279472969682,
-            "Uncertainty": 0.021255559589947286
+            "Value": 0.698,
+            "Uncertainty": 0.01
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -913,21 +913,21 @@
         },
         "theta [deg]": {
             "Value": 32.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.5
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca42",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9474196689386564,
-            "Uncertainty": 0.01706599515136116
+            "Value": 0.947,
+            "Uncertainty": 0.017
         },
-        "Notes": "Angular acceptance: 0.90"
+        "Notes": "Angular acceptance: 0.90 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=7.830e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.7830074571041244,
-            "Uncertainty": 0.021029901161084497
+            "Value": 0.783,
+            "Uncertainty": 0.009
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -935,21 +935,21 @@
         },
         "theta [deg]": {
             "Value": 36.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.5
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca42",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.936108422071636,
-            "Uncertainty": 0.014994063288066885
+            "Value": 0.936,
+            "Uncertainty": 0.015
         },
-        "Notes": "Angular acceptance: 0.90"
+        "Notes": "Angular acceptance: 0.90 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=8.666e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=8.670e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.8666329929378521,
-            "Uncertainty": 0.020778621037064876
+            "Value": 0.867,
+            "Uncertainty": 0.009
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -957,21 +957,21 @@
         },
         "theta [deg]": {
             "Value": 40.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.5
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca42",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.899335232668566,
-            "Uncertainty": 0.018037371630280782
+            "Value": 0.899,
+            "Uncertainty": 0.018
         },
-        "Notes": "Angular acceptance: 0.90"
+        "Notes": "Angular acceptance: 0.90 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=9.492e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=9.490e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.9492026699642637,
-            "Uncertainty": 0.020502025364012796
+            "Value": 0.949,
+            "Uncertainty": 0.009
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -979,21 +979,21 @@
         },
         "theta [deg]": {
             "Value": 44.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.5
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca42",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8975332068311195,
-            "Uncertainty": 0.01800316135513396
+            "Value": 0.898,
+            "Uncertainty": 0.018
         },
-        "Notes": "Angular acceptance: 0.90"
+        "Notes": "Angular acceptance: 0.90 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.031e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.0306158897507864,
-            "Uncertainty": 0.020200451131149568
+            "Value": 1.031,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1001,21 +1001,21 @@
         },
         "theta [deg]": {
             "Value": 48.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca42",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8484288354898336,
-            "Uncertainty": 0.01708344579935151
+            "Value": 0.848,
+            "Uncertainty": 0.017
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.071e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.0708577731159827,
-            "Uncertainty": 0.02004041069730389
+            "Value": 1.071,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1023,21 +1023,21 @@
         },
         "theta [deg]": {
             "Value": 50.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca42",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8433179723502304,
-            "Uncertainty": 0.02548365860392024
+            "Value": 0.843,
+            "Uncertainty": 0.025
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.111e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.1107734628298558,
-            "Uncertainty": 0.019874265760223997
+            "Value": 1.111,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1045,21 +1045,21 @@
         },
         "theta [deg]": {
             "Value": 52.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca42",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9011406844106463,
-            "Uncertainty": 0.018071679509606906
+            "Value": 0.901,
+            "Uncertainty": 0.018
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.150e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.1503508001866465,
-            "Uncertainty": 0.01970206692926721
+            "Value": 1.15,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1067,21 +1067,21 @@
         },
         "theta [deg]": {
             "Value": 54.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca42",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9920318725099602,
-            "Uncertainty": 0.027777336867668763
+            "Value": 0.992,
+            "Uncertainty": 0.028
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.190e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.1895777295460024,
-            "Uncertainty": 0.01952386665786555
+            "Value": 1.19,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1089,21 +1089,21 @@
         },
         "theta [deg]": {
             "Value": 56.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca42",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.0597322348094746,
-            "Uncertainty": 0.03181872659334925
+            "Value": 1.06,
+            "Uncertainty": 0.032
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.267e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.2669326790390987,
-            "Uncertainty": 0.0191496807314056
+            "Value": 1.267,
+            "Uncertainty": 0.017
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1111,21 +1111,21 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca42",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.02020202020202,
-            "Uncertainty": 0.02040608101214162
+            "Value": 1.02,
+            "Uncertainty": 0.02
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.343e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.3427440662188048,
-            "Uncertainty": 0.01875216386875662
+            "Value": 1.343,
+            "Uncertainty": 0.017
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1133,21 +1133,21 @@
         },
         "theta [deg]": {
             "Value": 64.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca42",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.0080321285140563,
-            "Uncertainty": 0.026209254689440496
+            "Value": 1.008,
+            "Uncertainty": 0.026
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.417e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.416919526587691,
-            "Uncertainty": 0.01833180038298297
+            "Value": 1.417,
+            "Uncertainty": 0.016
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1155,21 +1155,21 @@
         },
         "theta [deg]": {
             "Value": 68.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca42",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.002002002002002,
-            "Uncertainty": 0.026052078104130155
+            "Value": 1.002,
+            "Uncertainty": 0.026
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.489e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.4893686887731512,
-            "Uncertainty": 0.01788910242224003
+            "Value": 1.489,
+            "Uncertainty": 0.016
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1177,21 +1177,21 @@
         },
         "theta [deg]": {
             "Value": 72.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca42",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9550342130987293,
-            "Uncertainty": 0.02866619080789926
+            "Value": 0.955,
+            "Uncertainty": 0.029
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.560e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.5600032846310004,
-            "Uncertainty": 0.01742460934580058
+            "Value": 1.56,
+            "Uncertainty": 0.016
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1199,21 +1199,21 @@
         },
         "theta [deg]": {
             "Value": 76.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca42",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9249278152069298,
-            "Uncertainty": 0.027790103203179935
+            "Value": 0.925,
+            "Uncertainty": 0.028
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.629e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.6287372567866116,
-            "Uncertainty": 0.016938887066928577
+            "Value": 1.629,
+            "Uncertainty": 0.015
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1221,21 +1221,21 @@
         },
         "theta [deg]": {
             "Value": 80.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca42",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8779342723004696,
-            "Uncertainty": 0.02468645991756486
+            "Value": 0.878,
+            "Uncertainty": 0.025
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca42_q=1.695e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.69548686348257,
-            "Uncertainty": 0.016432527363401055
+            "Value": 1.695,
+            "Uncertainty": 0.015
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1243,21 +1243,21 @@
         },
         "theta [deg]": {
             "Value": 84.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca42",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8132366273798731,
-            "Uncertainty": 0.039453924802463236
+            "Value": 0.81,
+            "Uncertainty": 0.04
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=6.984e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.6984279472969682,
-            "Uncertainty": 0.021255559589947286
+            "Value": 0.6984,
+            "Uncertainty": 0.0021
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1265,21 +1265,21 @@
         },
         "theta [deg]": {
             "Value": 32.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.1
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9743336623889438,
-            "Uncertainty": 0.0194899670522107
+            "Value": 0.974,
+            "Uncertainty": 0.019
         },
-        "Notes": "Angular acceptance: 0.20"
+        "Notes": "Angular acceptance: 0.20 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=7.619e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.7619480083370856,
-            "Uncertainty": 0.021088729077864483
+            "Value": 0.7619,
+            "Uncertainty": 0.0021
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1287,21 +1287,21 @@
         },
         "theta [deg]": {
             "Value": 35.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.1
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9417475728155339,
-            "Uncertainty": 0.018851918182675086
+            "Value": 0.942,
+            "Uncertainty": 0.019
         },
-        "Notes": "Angular acceptance: 0.20"
+        "Notes": "Angular acceptance: 0.20 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=8.145e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.81448432585086,
-            "Uncertainty": 0.020938657891025794
+            "Value": 0.8145,
+            "Uncertainty": 0.0021
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1309,21 +1309,21 @@
         },
         "theta [deg]": {
             "Value": 37.5,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.1
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8796992481203006,
-            "Uncertainty": 0.017666346316920115
+            "Value": 0.88,
+            "Uncertainty": 0.018
         },
-        "Notes": "Angular acceptance: 0.20"
+        "Notes": "Angular acceptance: 0.20 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=8.666e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=8.670e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.8666329929378521,
-            "Uncertainty": 0.020778621037064876
+            "Value": 0.867,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1331,21 +1331,21 @@
         },
         "theta [deg]": {
             "Value": 40.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8921475875118259,
-            "Uncertainty": 0.014320889971707294
+            "Value": 0.892,
+            "Uncertainty": 0.014
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=9.081e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=9.080e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.9080561327983517,
-            "Uncertainty": 0.020643467300597594
+            "Value": 0.908,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1353,21 +1353,21 @@
         },
         "theta [deg]": {
             "Value": 42.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8850141376060321,
-            "Uncertainty": 0.017766391494873066
+            "Value": 0.885,
+            "Uncertainty": 0.018
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=9.492e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=9.490e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.9492026699642637,
-            "Uncertainty": 0.020502025364012796
+            "Value": 0.949,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1375,21 +1375,21 @@
         },
         "theta [deg]": {
             "Value": 44.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8518518518518519,
-            "Uncertainty": 0.013717421124828533
+            "Value": 0.852,
+            "Uncertainty": 0.014
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=9.901e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=9.900e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.9900600708017718,
-            "Uncertainty": 0.02035433831189453
+            "Value": 0.99,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1397,21 +1397,21 @@
         },
         "theta [deg]": {
             "Value": 46.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8399264029438823,
-            "Uncertainty": 0.016926645841250067
+            "Value": 0.84,
+            "Uncertainty": 0.017
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.031e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.0306158897507864,
-            "Uncertainty": 0.020200451131149568
+            "Value": 1.031,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1419,21 +1419,21 @@
         },
         "theta [deg]": {
             "Value": 48.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.7809439002671416,
-            "Uncertainty": 0.014272925291544324
+            "Value": 0.781,
+            "Uncertainty": 0.014
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.071e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.0708577731159827,
-            "Uncertainty": 0.02004041069730389
+            "Value": 1.071,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1441,21 +1441,21 @@
         },
         "theta [deg]": {
             "Value": 50.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8331805682859762,
-            "Uncertainty": 0.015122479481735828
+            "Value": 0.833,
+            "Uncertainty": 0.015
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.111e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.1107734628298558,
-            "Uncertainty": 0.019874265760223997
+            "Value": 1.111,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1463,21 +1463,21 @@
         },
         "theta [deg]": {
             "Value": 52.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8903591682419659,
-            "Uncertainty": 0.0125071022473476
+            "Value": 0.89,
+            "Uncertainty": 0.013
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.150e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.1503508001866465,
-            "Uncertainty": 0.01970206692926721
+            "Value": 1.15,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1485,21 +1485,21 @@
         },
         "theta [deg]": {
             "Value": 54.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.1008403361344539,
-            "Uncertainty": 0.022067650589647627
+            "Value": 1.101,
+            "Uncertainty": 0.022
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.190e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.1895777295460024,
-            "Uncertainty": 0.01952386665786555
+            "Value": 1.19,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1507,21 +1507,21 @@
         },
         "theta [deg]": {
             "Value": 56.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.1905805038335158,
-            "Uncertainty": 0.026392536190765255
+            "Value": 1.191,
+            "Uncertainty": 0.026
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.267e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.2669326790390987,
-            "Uncertainty": 0.0191496807314056
+            "Value": 1.267,
+            "Uncertainty": 0.017
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1529,21 +1529,21 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.1978021978021978,
-            "Uncertainty": 0.026566839753652944
+            "Value": 1.198,
+            "Uncertainty": 0.027
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.343e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.3427440662188048,
-            "Uncertainty": 0.01875216386875662
+            "Value": 1.343,
+            "Uncertainty": 0.017
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1551,21 +1551,21 @@
         },
         "theta [deg]": {
             "Value": 64.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.1208907741251326,
-            "Uncertainty": 0.022490888378845518
+            "Value": 1.121,
+            "Uncertainty": 0.022
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.417e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.416919526587691,
-            "Uncertainty": 0.01833180038298297
+            "Value": 1.417,
+            "Uncertainty": 0.016
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1573,21 +1573,21 @@
         },
         "theta [deg]": {
             "Value": 68.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.092050209205021,
-            "Uncertainty": 0.03282505558376079
+            "Value": 1.092,
+            "Uncertainty": 0.033
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.489e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.4893686887731512,
-            "Uncertainty": 0.01788910242224003
+            "Value": 1.489,
+            "Uncertainty": 0.016
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1595,21 +1595,21 @@
         },
         "theta [deg]": {
             "Value": 72.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.0100502512562812,
-            "Uncertainty": 0.0202015100628772
+            "Value": 1.01,
+            "Uncertainty": 0.02
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.560e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.5600032846310004,
-            "Uncertainty": 0.01742460934580058
+            "Value": 1.56,
+            "Uncertainty": 0.016
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1617,21 +1617,21 @@
         },
         "theta [deg]": {
             "Value": 76.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9940179461615155,
-            "Uncertainty": 0.02982080677210642
+            "Value": 0.994,
+            "Uncertainty": 0.03
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.629e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.6287372567866116,
-            "Uncertainty": 0.016938887066928577
+            "Value": 1.629,
+            "Uncertainty": 0.015
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1639,21 +1639,21 @@
         },
         "theta [deg]": {
             "Value": 80.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.923076923076923,
-            "Uncertainty": 0.036982248520710054
+            "Value": 0.92,
+            "Uncertainty": 0.04
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.712e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.711854623334179,
-            "Uncertainty": 0.01630278459352114
+            "Value": 1.712,
+            "Uncertainty": 0.015
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1661,21 +1661,21 @@
         },
         "theta [deg]": {
             "Value": 85.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8939393939393938,
-            "Uncertainty": 0.04304407713498623
+            "Value": 0.89,
+            "Uncertainty": 0.04
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca44_q=1.792e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.7917133773107732,
-            "Uncertainty": 0.01563564884305023
+            "Value": 1.792,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1683,21 +1683,21 @@
         },
         "theta [deg]": {
             "Value": 90.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca44",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.7777777777777778,
-            "Uncertainty": 0.04898765432098766
+            "Value": 0.78,
+            "Uncertainty": 0.05
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=6.984e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=6.980e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.6984279472969682,
-            "Uncertainty": 0.021255559589947286
+            "Value": 0.698,
+            "Uncertainty": 0.004
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1705,21 +1705,21 @@
         },
         "theta [deg]": {
             "Value": 32.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.18
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9920318725099602,
-            "Uncertainty": 0.01984095490547769
+            "Value": 0.992,
+            "Uncertainty": 0.02
         },
-        "Notes": "Angular acceptance: 0.36"
+        "Notes": "Angular acceptance: 0.36 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=6.984e-01_a": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=6.980e-01_a": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.6984279472969682,
-            "Uncertainty": 0.021255559589947286
+            "Value": 0.698,
+            "Uncertainty": 0.01
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1727,21 +1727,21 @@
         },
         "theta [deg]": {
             "Value": 32.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.5
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9743336623889438,
-            "Uncertainty": 0.023387960462652842
+            "Value": 0.974,
+            "Uncertainty": 0.023
         },
-        "Notes": "Angular acceptance: 0.90"
+        "Notes": "Angular acceptance: 0.90 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=7.619e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=7.620e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.7619480083370856,
-            "Uncertainty": 0.021088729077864483
+            "Value": 0.762,
+            "Uncertainty": 0.004
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1749,21 +1749,21 @@
         },
         "theta [deg]": {
             "Value": 35.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.18
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9474196689386564,
-            "Uncertainty": 0.020858438518330306
+            "Value": 0.947,
+            "Uncertainty": 0.021
         },
-        "Notes": "Angular acceptance: 0.36"
+        "Notes": "Angular acceptance: 0.36 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=7.619e-01_a": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=7.620e-01_a": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.7619480083370856,
-            "Uncertainty": 0.021088729077864483
+            "Value": 0.762,
+            "Uncertainty": 0.009
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1771,21 +1771,21 @@
         },
         "theta [deg]": {
             "Value": 35.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.5
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.0040080160320641,
-            "Uncertainty": 0.030120360962405772
+            "Value": 1.004,
+            "Uncertainty": 0.03
         },
-        "Notes": "Angular acceptance: 0.90"
+        "Notes": "Angular acceptance: 0.90 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=8.145e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=8.140e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.81448432585086,
-            "Uncertainty": 0.020938657891025794
+            "Value": 0.814,
+            "Uncertainty": 0.004
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1793,21 +1793,21 @@
         },
         "theta [deg]": {
             "Value": 37.5,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.18
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9212295869356388,
-            "Uncertainty": 0.01845561562858443
+            "Value": 0.921,
+            "Uncertainty": 0.018
         },
-        "Notes": "Angular acceptance: 0.36"
+        "Notes": "Angular acceptance: 0.36 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=8.145e-01_a": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=8.140e-01_a": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.81448432585086,
-            "Uncertainty": 0.020938657891025794
+            "Value": 0.814,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1815,21 +1815,21 @@
         },
         "theta [deg]": {
             "Value": 37.5,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9342359767891683,
-            "Uncertainty": 0.02618888169733883
+            "Value": 0.934,
+            "Uncertainty": 0.026
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=8.666e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=8.670e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.8666329929378521,
-            "Uncertainty": 0.020778621037064876
+            "Value": 0.867,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1837,21 +1837,21 @@
         },
         "theta [deg]": {
             "Value": 40.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9175455417066155,
-            "Uncertainty": 0.012869433165816213
+            "Value": 0.918,
+            "Uncertainty": 0.013
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=9.081e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=9.080e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.9080561327983517,
-            "Uncertainty": 0.020643467300597594
+            "Value": 0.908,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1859,21 +1859,21 @@
         },
         "theta [deg]": {
             "Value": 42.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9047619047619047,
-            "Uncertainty": 0.018140589569160995
+            "Value": 0.905,
+            "Uncertainty": 0.018
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=9.492e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=9.490e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.9492026699642637,
-            "Uncertainty": 0.020502025364012796
+            "Value": 0.949,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1881,21 +1881,21 @@
         },
         "theta [deg]": {
             "Value": 44.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8975332068311195,
-            "Uncertainty": 0.01440252908410717
+            "Value": 0.898,
+            "Uncertainty": 0.014
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=9.901e-01": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=9.900e-01": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 0.9900600708017718,
-            "Uncertainty": 0.02035433831189453
+            "Value": 0.99,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1903,21 +1903,21 @@
         },
         "theta [deg]": {
             "Value": 46.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8850141376060321,
-            "Uncertainty": 0.017766391494873066
+            "Value": 0.885,
+            "Uncertainty": 0.018
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.031e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.0306158897507864,
-            "Uncertainty": 0.020200451131149568
+            "Value": 1.031,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1925,21 +1925,21 @@
         },
         "theta [deg]": {
             "Value": 48.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9342359767891683,
-            "Uncertainty": 0.018706344069527737
+            "Value": 0.934,
+            "Uncertainty": 0.019
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.071e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.0708577731159827,
-            "Uncertainty": 0.02004041069730389
+            "Value": 1.071,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1947,21 +1947,21 @@
         },
         "theta [deg]": {
             "Value": 50.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.1551724137931036,
-            "Uncertainty": 0.016256688466111772
+            "Value": 1.155,
+            "Uncertainty": 0.016
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.111e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.1107734628298558,
-            "Uncertainty": 0.019874265760223997
+            "Value": 1.111,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1969,21 +1969,21 @@
         },
         "theta [deg]": {
             "Value": 52.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.3837902264600717,
-            "Uncertainty": 0.0426184188282492
+            "Value": 1.38,
+            "Uncertainty": 0.04
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.150e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.1503508001866465,
-            "Uncertainty": 0.01970206692926721
+            "Value": 1.15,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -1991,21 +1991,21 @@
         },
         "theta [deg]": {
             "Value": 54.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.4783147459727388,
-            "Uncertainty": 0.04606532985079441
+            "Value": 1.48,
+            "Uncertainty": 0.05
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.190e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.1895777295460024,
-            "Uncertainty": 0.01952386665786555
+            "Value": 1.19,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -2013,21 +2013,21 @@
         },
         "theta [deg]": {
             "Value": 56.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.4968789013732835,
-            "Uncertainty": 0.04675803186092291
+            "Value": 1.5,
+            "Uncertainty": 0.05
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.228e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.2284423020052397,
-            "Uncertainty": 0.01933971922754796
+            "Value": 1.228,
+            "Uncertainty": 0.017
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -2035,21 +2035,21 @@
         },
         "theta [deg]": {
             "Value": 58.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.3837902264600717,
-            "Uncertainty": 0.03977719090636592
+            "Value": 1.38,
+            "Uncertainty": 0.04
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.267e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.2669326790390987,
-            "Uncertainty": 0.0191496807314056
+            "Value": 1.267,
+            "Uncertainty": 0.017
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -2057,21 +2057,21 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.2346368715083798,
-            "Uncertainty": 0.029961611685028557
+            "Value": 1.235,
+            "Uncertainty": 0.03
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.305e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.3050371361058701,
-            "Uncertainty": 0.01895380905700533
+            "Value": 1.305,
+            "Uncertainty": 0.017
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -2079,21 +2079,21 @@
         },
         "theta [deg]": {
             "Value": 62.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.1598272138228942,
-            "Uncertainty": 0.027989121561419795
+            "Value": 1.16,
+            "Uncertainty": 0.028
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.343e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.3427440662188048,
-            "Uncertainty": 0.01875216386875662
+            "Value": 1.343,
+            "Uncertainty": 0.017
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -2101,21 +2101,21 @@
         },
         "theta [deg]": {
             "Value": 64.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.1008403361344539,
-            "Uncertainty": 0.026481180707577153
+            "Value": 1.101,
+            "Uncertainty": 0.026
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.380e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.3800419834817157,
-            "Uncertainty": 0.0185448065897372
+            "Value": 1.38,
+            "Uncertainty": 0.017
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -2123,21 +2123,21 @@
         },
         "theta [deg]": {
             "Value": 66.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.0222446916076844,
-            "Uncertainty": 0.03067105194551594
+            "Value": 1.022,
+            "Uncertainty": 0.031
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.417e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.416919526587691,
-            "Uncertainty": 0.01833180038298297
+            "Value": 1.417,
+            "Uncertainty": 0.016
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -2145,21 +2145,21 @@
         },
         "theta [deg]": {
             "Value": 68.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9646365422396856,
-            "Uncertainty": 0.027018577201724556
+            "Value": 0.965,
+            "Uncertainty": 0.027
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.453e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.45336546227986,
-            "Uncertainty": 0.018113210132247946
+            "Value": 1.453,
+            "Uncertainty": 0.016
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -2167,21 +2167,21 @@
         },
         "theta [deg]": {
             "Value": 70.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.923076923076923,
-            "Uncertainty": 0.025887573964497035
+            "Value": 0.923,
+            "Uncertainty": 0.026
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.489e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.4893686887731512,
-            "Uncertainty": 0.01788910242224003
+            "Value": 1.489,
+            "Uncertainty": 0.016
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -2189,21 +2189,21 @@
         },
         "theta [deg]": {
             "Value": 72.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8957345971563981,
-            "Uncertainty": 0.025156667639990117
+            "Value": 0.896,
+            "Uncertainty": 0.025
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.525e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.5249182391360037,
-            "Uncertainty": 0.017659545518338676
+            "Value": 1.525,
+            "Uncertainty": 0.016
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -2211,21 +2211,21 @@
         },
         "theta [deg]": {
             "Value": 74.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.7953321364452423,
-            "Uncertainty": 0.03223217480153038
+            "Value": 0.795,
+            "Uncertainty": 0.032
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.560e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.5600032846310004,
-            "Uncertainty": 0.01742460934580058
+            "Value": 1.56,
+            "Uncertainty": 0.016
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -2233,21 +2233,21 @@
         },
         "theta [deg]": {
             "Value": 76.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8416206261510129,
-            "Uncertainty": 0.02374096571465394
+            "Value": 0.842,
+            "Uncertainty": 0.024
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.629e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.6287372567866116,
-            "Uncertainty": 0.016938887066928577
+            "Value": 1.629,
+            "Uncertainty": 0.015
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -2255,21 +2255,21 @@
         },
         "theta [deg]": {
             "Value": 80.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.702127659574468,
-            "Uncertainty": 0.020280669986419194
+            "Value": 0.702,
+            "Uncertainty": 0.02
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.712e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.711854623334179,
-            "Uncertainty": 0.01630278459352114
+            "Value": 1.712,
+            "Uncertainty": 0.015
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -2277,21 +2277,21 @@
         },
         "theta [deg]": {
             "Value": 85.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.6542597187758478,
-            "Uncertainty": 0.032838902605972164
+            "Value": 0.654,
+            "Uncertainty": 0.033
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca48_Ti48_q=1.792e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.7917133773107732,
-            "Uncertainty": 0.01563564884305023
+            "Value": 1.792,
+            "Uncertainty": 0.014
         },
         "E [MeV]": {
             "Value": 250.0,
@@ -2299,21 +2299,21 @@
         },
         "theta [deg]": {
             "Value": 90.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca48",
         "Nuclide_B": "Ti48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.4825796886582654,
-            "Uncertainty": 0.03297063799833059
+            "Value": 0.483,
+            "Uncertainty": 0.033
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.397e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.3968558945939364,
-            "Uncertainty": 0.04251111917989457
+            "Value": 1.397,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 500.0,
@@ -2321,21 +2321,21 @@
         },
         "theta [deg]": {
             "Value": 32.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.5
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.4125452352231604,
-            "Uncertainty": 0.026191685303990887
+            "Value": 1.413,
+            "Uncertainty": 0.026
         },
-        "Notes": "Angular acceptance: 0.90"
+        "Notes": "Angular acceptance: 0.90 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.524e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.5238960166741713,
-            "Uncertainty": 0.042177458155728965
+            "Value": 1.524,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 500.0,
@@ -2343,21 +2343,21 @@
         },
         "theta [deg]": {
             "Value": 35.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.5
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.3148148148148149,
-            "Uncertainty": 0.02679183813443073
+            "Value": 1.315,
+            "Uncertainty": 0.027
         },
-        "Notes": "Angular acceptance: 0.90"
+        "Notes": "Angular acceptance: 0.90 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.650e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.6498917365448824,
-            "Uncertainty": 0.04181489080855449
+            "Value": 1.65,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 500.0,
@@ -2365,21 +2365,21 @@
         },
         "theta [deg]": {
             "Value": 38.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.5
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8587360594795539,
-            "Uncertainty": 0.017274498694047898
+            "Value": 0.859,
+            "Uncertainty": 0.017
         },
-        "Notes": "Angular acceptance: 0.90"
+        "Notes": "Angular acceptance: 0.90 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.733e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.7332659858757042,
-            "Uncertainty": 0.04155724207412975
+            "Value": 1.733,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 500.0,
@@ -2387,21 +2387,21 @@
         },
         "theta [deg]": {
             "Value": 40.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.5
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.9665683382497543,
-            "Uncertainty": 0.021270650659535203
+            "Value": 0.967,
+            "Uncertainty": 0.021
         },
-        "Notes": "Angular acceptance: 0.90"
+        "Notes": "Angular acceptance: 0.90 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.816e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.8161122655967035,
-            "Uncertainty": 0.04128693460119519
+            "Value": 1.816,
+            "Uncertainty": 0.019
         },
         "E [MeV]": {
             "Value": 500.0,
@@ -2409,21 +2409,21 @@
         },
         "theta [deg]": {
             "Value": 42.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.5
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.8726591760299625,
-            "Uncertainty": 0.02980824531133835
+            "Value": 0.873,
+            "Uncertainty": 0.03
         },
-        "Notes": "Angular acceptance: 0.90"
+        "Notes": "Angular acceptance: 0.90 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.898e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.8984053399285274,
-            "Uncertainty": 0.04100405072802559
+            "Value": 1.898,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 500.0,
@@ -2431,21 +2431,21 @@
         },
         "theta [deg]": {
             "Value": 44.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.5
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.7079419299743808,
-            "Uncertainty": 0.037921853270139964
+            "Value": 0.71,
+            "Uncertainty": 0.04
         },
-        "Notes": "Angular acceptance: 0.90"
+        "Notes": "Angular acceptance: 0.90 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.980e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.9801201416035437,
-            "Uncertainty": 0.04070867662378906
+            "Value": 1.98,
+            "Uncertainty": 0.018
         },
         "E [MeV]": {
             "Value": 500.0,
@@ -2453,21 +2453,21 @@
         },
         "theta [deg]": {
             "Value": 46.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.5
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.3501762632197416,
-            "Uncertainty": 0.14084487593913844
+            "Value": 1.35,
+            "Uncertainty": 0.14
         },
-        "Notes": "Angular acceptance: 0.90"
+        "Notes": "Angular acceptance: 0.90 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=1.980e+00_a": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 1.9801201416035437,
-            "Uncertainty": 0.04070867662378906
+            "Value": 1.98,
+            "Uncertainty": 0.04
         },
         "E [MeV]": {
             "Value": 500.0,
@@ -2475,21 +2475,21 @@
         },
         "theta [deg]": {
             "Value": 46.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.6736401673640167,
-            "Uncertainty": 0.04341660685212093
+            "Value": 0.67,
+            "Uncertainty": 0.04
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.061e+00": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.060e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 2.061231779501573,
-            "Uncertainty": 0.040400902262299136
+            "Value": 2.06,
+            "Uncertainty": 0.04
         },
         "E [MeV]": {
             "Value": 500.0,
@@ -2497,21 +2497,21 @@
         },
         "theta [deg]": {
             "Value": 48.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 2.7807183364839325,
-            "Uncertainty": 0.15008522696817128
+            "Value": 2.78,
+            "Uncertainty": 0.15
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
-    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.182e+00": {
+    "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.180e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 2.1817143089415763,
-            "Uncertainty": 0.03991619634397461
+            "Value": 2.18,
+            "Uncertainty": 0.04
         },
         "E [MeV]": {
             "Value": 500.0,
@@ -2519,21 +2519,21 @@
         },
         "theta [deg]": {
             "Value": 51.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 2.1298904538341157,
-            "Uncertainty": 0.07347160689751446
+            "Value": 2.13,
+            "Uncertainty": 0.07
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.301e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 2.300701600373293,
-            "Uncertainty": 0.03940413385853442
+            "Value": 2.301,
+            "Uncertainty": 0.035
         },
         "E [MeV]": {
             "Value": 500.0,
@@ -2541,21 +2541,21 @@
         },
         "theta [deg]": {
             "Value": 54.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.773925104022191,
-            "Uncertainty": 0.09233592579269427
+            "Value": 1.77,
+            "Uncertainty": 0.09
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.418e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 2.418112105850723,
-            "Uncertainty": 0.03886506574802798
+            "Value": 2.418,
+            "Uncertainty": 0.035
         },
         "E [MeV]": {
             "Value": 500.0,
@@ -2563,21 +2563,21 @@
         },
         "theta [deg]": {
             "Value": 57.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 0.6891891891891893,
-            "Uncertainty": 0.05992056245434625
+            "Value": 0.69,
+            "Uncertainty": 0.06
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     },
     "frosch_electron_1968_electroncrosssectionratio_Ca40_Ca48_q=2.534e+00": {
         "Reference": "frosch_electron_1968",
         "q [1/fm]": {
-            "Value": 2.5338653580781973,
-            "Uncertainty": 0.0382993614628112
+            "Value": 2.534,
+            "Uncertainty": 0.034
         },
         "E [MeV]": {
             "Value": 500.0,
@@ -2585,14 +2585,14 @@
         },
         "theta [deg]": {
             "Value": 60.0,
-            "Uncertainty": 1.0
+            "Uncertainty": 0.9
         },
         "Nuclide_A": "Ca40",
         "Nuclide_B": "Ca48",
         "Cross section Ratio (A/B) [-]": {
-            "Value": 1.2650056625141564,
-            "Uncertainty": 0.133386516931751
+            "Value": 1.27,
+            "Uncertainty": 0.13
         },
-        "Notes": "Angular acceptance: 1.80"
+        "Notes": "Angular acceptance: 1.80 degrees."
     }
 }
